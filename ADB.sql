@@ -161,7 +161,7 @@ CREATE TABLE Appointment
 CREATE TABLE RefferalLetter
 (
 	refferal_id char(5),
-	RefferalToClinic nvarchar(15),
+	refferal_to_clinic nvarchar(15),
 	appointment_id char(5)
 
 	CONSTRAINT PK_RefferalLetter
@@ -243,6 +243,7 @@ CREATE TABLE ToothSurface
 CREATE TABLE ToothPosition
 (
 	tooth_position_id char(2),
+	tooth_position_type nvarchar(15),
 	tooth_position_description nvarchar(30),
 
 	CONSTRAINT PK_Toothposition
@@ -267,7 +268,7 @@ CREATE TABLE PaymentRecord
 	paid_money float,
 	excess_money float,
 	total_cost float,
-	note nvarchar(15),
+	payment_note nvarchar(15),
 	payment_method_id char(5),
 	treatment_session_id char(5)
 
@@ -278,7 +279,7 @@ CREATE TABLE PaymentRecord
 CREATE TABLE PaymentMethod
 (
 	payment_method_id char(5),
-	title nvarchar(15)
+	payment_method_title nvarchar(15)
 
 	CONSTRAINT PK_paymentmethod
 	PRIMARY KEY(payment_method_id)
