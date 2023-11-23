@@ -210,24 +210,24 @@ CREATE TABLE TreatmentSession
 	PRIMARY KEY(treatment_session_id)
 )
 
-CREATE TABLE TreatmentTooth
+CREATE TABLE ToothSelection
 (
 	treatment_plan_id char(5),
 	tooth_position_id char(2),
 	tooth_surface_code char(1),
 	treatment_tooth_price float
 
-	CONSTRAINT PK_TreatmentTooth
+	CONSTRAINT PK_ToothSelection
 	PRIMARY KEY(treatment_plan_id, tooth_position_id, tooth_surface_code)
 )
 
-CREATE TABLE ToothPrice
+CREATE TABLE TreatmentTooth
 (
 	tooth_position_id char(2),
 	treatment_id char(2),
 	tooth_price float
 
-	CONSTRAINT PK_ToothPrice
+	CONSTRAINT PK_TreatmentTooth
 	PRIMARY KEY(tooth_position_id, treatment_id)
 )
 
@@ -466,27 +466,27 @@ ADD
 	FOREIGN KEY (payment_method_id)
 	REFERENCES PaymentMethod
 
-ALTER TABLE TreatmentTooth
+ALTER TABLE ToothSelection
 ADD
-	CONSTRAINT FK_TreatmentTooth_TreatmentPlan
+	CONSTRAINT FK_ToothSelection_TreatmentPlan
 	FOREIGN KEY (treatment_plan_id)
 	REFERENCES TreatmentPlan,
 
-	CONSTRAINT FK_TreatmentTooth_ToothSurface
+	CONSTRAINT FK_ToothSelection_ToothSurface
 	FOREIGN KEY (tooth_surface_code)
 	REFERENCES ToothSurface,
 
-	CONSTRAINT FK_TreatmentTooth_ToothPosition
+	CONSTRAINT FK_ToothSelection_ToothPosition
 	FOREIGN KEY (tooth_position_id)
 	REFERENCES ToothPosition
 
-ALTER TABLE ToothPrice
+ALTER TABLE TreatmentTooth
 ADD
-	CONSTRAINT FK_ToothPrice_Treatment
+	CONSTRAINT FK_TreatmentTooth_Treatment
 	FOREIGN KEY (treatment_id)
 	REFERENCES Treatment,
 
-	CONSTRAINT FK_ToothPrice_ToothPosition
+	CONSTRAINT FK_TreatmentTooth_ToothPosition
 	FOREIGN KEY (tooth_position_id)
 	REFERENCES ToothPosition
 
