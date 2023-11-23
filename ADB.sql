@@ -176,26 +176,26 @@ CREATE TABLE Reexamination
 	re_examination_note nvarchar(30),
 	re_examination_status bit,
 	appointment_id char(5),
-	treatment_selection_id char(5)
+	treatment_plan_id char(5)
 
 	CONSTRAINT PK_Reexamination
 	PRIMARY KEY(re_examination_id)
 )
 
 --table select treatment
-CREATE TABLE TreatmentSelection
+CREATE TABLE TreatmentPlan
 (
-	treatment_selection_id char(5),
-	treatment_selection_created_date datetime, 
-	treatment_selection_note nvarchar(30),
-	treatment_selection_description nvarchar(50),
-	treatment_selection_status nvarchar(15),
+	treatment_plan_id char(5),
+	treatment_plan_created_date datetime, 
+	treatment_plan_note nvarchar(30),
+	treatment_plan_description nvarchar(50),
+	treatment_plan_status nvarchar(15),
 	treatment_id char(2),
 	patient_id char(5),
 	dentist_id char(5),
 	nurse_id char(5),
-	CONSTRAINT PK_TreatmentSelection
-	PRIMARY KEY(treatment_selection_id)
+	CONSTRAINT PK_TreatmentPlan
+	PRIMARY KEY(treatment_plan_id)
 )
 
 --table session treatment
@@ -204,7 +204,7 @@ CREATE TABLE TreatmentSession
 	treatment_session_id char(5),
 	treatment_session_created_date datetime, 
 	treatment_session_description nvarchar(50),
-	treatment_selection_id char(5)
+	treatment_plan_id char(5)
 
 	CONSTRAINT PK_TreatmentSession
 	PRIMARY KEY(treatment_session_id)
@@ -212,13 +212,13 @@ CREATE TABLE TreatmentSession
 
 CREATE TABLE TreatmentTooth
 (
-	treatment_selection_id char(5),
+	treatment_plan_id char(5),
 	tooth_position_id char(2),
 	tooth_surface_code char(1),
 	treatment_tooth_price float
 
 	CONSTRAINT PK_TreatmentTooth
-	PRIMARY KEY(treatment_selection_id, tooth_position_id, tooth_surface_code)
+	PRIMARY KEY(treatment_plan_id, tooth_position_id, tooth_surface_code)
 )
 
 CREATE TABLE ToothPrice
@@ -395,8 +395,8 @@ ADD
 	CONSTRAINT FK_ReExamination_Appointment
 	FOREIGN KEY (appointment_id)
 	REFERENCES Appointment, 
-	CONSTRAINT FK_ReExamination_TreatmentSelection
-	FOREIGN KEY (treatment_selection_id)
+	CONSTRAINT FK_ReExamination_TreatmentPlan
+	FOREIGN KEY (treatment_plan_id)
 	REFERENCES Appointment
 
 ALTER TABLE GeneralHealth
@@ -433,29 +433,29 @@ ADD
 	FOREIGN KEY (treatment_session_id)
 	REFERENCES TreatmentSession
 
-ALTER TABLE TreatmentSelection
+ALTER TABLE TreatmentPlan
 ADD
-	CONSTRAINT FK_TreatmentSelection_Patient
+	CONSTRAINT FK_TreatmentPlan_Patient
 	FOREIGN KEY (patient_id)
 	REFERENCES Patient,
 
-	CONSTRAINT FK_TreatmentSelection_Dentist
+	CONSTRAINT FK_TreatmentPlan_Dentist
 	FOREIGN KEY (dentist_id)
 	REFERENCES Dentist,
 
-	CONSTRAINT FK_TreatmentSelection_Nurse
+	CONSTRAINT FK_TreatmentPlan_Nurse
 	FOREIGN KEY (nurse_id)
 	REFERENCES Nurse,
 
-	CONSTRAINT FK_TreatmentSelection_Treatment
+	CONSTRAINT FK_TreatmentPlan_Treatment
 	FOREIGN KEY (treatment_id)
 	REFERENCES Treatment
 
 ALTER TABLE TreatmentSession
 ADD
-	CONSTRAINT FK_TreatmentSession_Treatmentselection
-	FOREIGN KEY (treatment_selection_id)
-	REFERENCES TreatmentSelection
+	CONSTRAINT FK_TreatmentSession_TreatmentPlan
+	FOREIGN KEY (treatment_plan_id)
+	REFERENCES TreatmentPlan
 
 ALTER TABLE PaymentRecord
 ADD
@@ -468,9 +468,9 @@ ADD
 
 ALTER TABLE TreatmentTooth
 ADD
-	CONSTRAINT FK_TreatmentTooth_TreatmentSelection
-	FOREIGN KEY (treatment_selection_id)
-	REFERENCES TreatmentSelection,
+	CONSTRAINT FK_TreatmentTooth_TreatmentPlan
+	FOREIGN KEY (treatment_plan_id)
+	REFERENCES TreatmentPlan,
 
 	CONSTRAINT FK_TreatmentTooth_ToothSurface
 	FOREIGN KEY (tooth_surface_code)
