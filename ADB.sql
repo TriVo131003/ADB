@@ -336,7 +336,7 @@ ADD
 	FOREIGN KEY (branch_id)
 	REFERENCES Branch,
 	CONSTRAINT FK_Employee_Account
-	FOREIGN KEY (employee_id)
+	FOREIGN KEY (account_id)
 	REFERENCES Account
 
 ALTER TABLE [Admin]
