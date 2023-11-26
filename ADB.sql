@@ -1,7 +1,6 @@
 ﻿use master
 GO
 
-
 IF DB_ID('QLPHONGKHAM') IS NOT NULL
 	DROP DATABASE QLPHONGKHAM
 GO
@@ -27,7 +26,7 @@ CREATE TABLE Account
 --table ACCOUNT
 CREATE TABLE Employee
 (
-	employee_id char(5),
+	employee_id char(3),
 	employee_name nvarchar(30),
 	employee_gender nvarchar(3),
 	employee_birthday date,
@@ -35,7 +34,7 @@ CREATE TABLE Employee
 	employee_national_id char(12),
 	employee_phone char(10),
 	employee_type varchar(6),
-	branch_id char(3),
+	branch_id char(2),
 	account_id char(5)
 
 	CONSTRAINT PK_Employee
@@ -44,7 +43,7 @@ CREATE TABLE Employee
 --table ADMIN
 CREATE TABLE [Admin]
 (
-	admin_id char(5)
+	admin_id char(3)
 	CONSTRAINT PK_Admin
 	PRIMARY KEY(admin_id)
 )
@@ -52,7 +51,7 @@ CREATE TABLE [Admin]
 --table STAFF
 CREATE TABLE Staff
 (
-	staff_id char(5),
+	staff_id char(3),
 
 	CONSTRAINT PK_Staff
 	PRIMARY KEY(staff_id)
@@ -61,7 +60,7 @@ CREATE TABLE Staff
 --table DENTIST
 CREATE TABLE Dentist
 (
-	dentist_id char(5),
+	dentist_id char(3),
 
 	CONSTRAINT PK_Dentist
 	PRIMARY KEY(dentist_id)
@@ -70,7 +69,7 @@ CREATE TABLE Dentist
 --table Nurse
 CREATE TABLE Nurse
 (
-	nurse_id char(5),
+	nurse_id char(3),
 
 	CONSTRAINT PK_Nurse
 	PRIMARY KEY(nurse_id)
@@ -79,7 +78,7 @@ CREATE TABLE Nurse
 --table Branch
 CREATE TABLE Branch
 (
-	branch_id char(3),
+	branch_id char(2),
 	branch_name nvarchar(20),
 	branch_address nvarchar(30),
 	branch_phone char(10)
@@ -94,7 +93,7 @@ CREATE TABLE PersionalAppointment
 	persional_appointment_id char(5),
 	persional_appointment_date date,
 	room_id char(2),
-	dentist_id char(5)
+	dentist_id char(3)
 
 	CONSTRAINT PK_PersionalAppointment
 	PRIMARY KEY(persional_appointment_id)
@@ -150,8 +149,8 @@ CREATE TABLE Appointment
 	room_id char(2),
 	is_new_patient bit,
 	patient_id char(5),
-	dentist_id char(5),
-	nurse_id char(5)
+	dentist_id char(3),
+	nurse_id char(3)
 
 	CONSTRAINT PK_Appointment
 	PRIMARY KEY(appointment_id)
@@ -192,8 +191,8 @@ CREATE TABLE TreatmentPlan
 	treatment_plan_status nvarchar(15),
 	treatment_id char(2),
 	patient_id char(5),
-	dentist_id char(5),
-	nurse_id char(5),
+	dentist_id char(3),
+	nurse_id char(3),
 	CONSTRAINT PK_TreatmentPlan
 	PRIMARY KEY(treatment_plan_id)
 )
