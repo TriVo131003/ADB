@@ -16,8 +16,8 @@ CREATE TABLE Account
 (
 	accountID char(5),
 	username varchar(20) NOT NULL UNIQUE,
-	[password] varchar(20),
-	account_status bit
+	[password] varchar(20) NOT NULL,
+	account_status bit NOT NULL
 
 	CONSTRAINT PK_Account
 	PRIMARY KEY (accountID)
@@ -40,22 +40,22 @@ CREATE TABLE Employee
 	CONSTRAINT PK_Employee
 	PRIMARY KEY (employee_id)
 )
---table ADMIN
-CREATE TABLE [Admin]
-(
-	admin_id char(3)
-	CONSTRAINT PK_Admin
-	PRIMARY KEY(admin_id)
-)
+----table ADMIN
+--CREATE TABLE [Admin]
+--(
+--	admin_id char(3)
+--	CONSTRAINT PK_Admin
+--	PRIMARY KEY(admin_id)
+--)
 
---table STAFF
-CREATE TABLE Staff
-(
-	staff_id char(3),
+----table STAFF
+--CREATE TABLE Staff
+--(
+--	staff_id char(3),
 
-	CONSTRAINT PK_Staff
-	PRIMARY KEY(staff_id)
-)
+--	CONSTRAINT PK_Staff
+--	PRIMARY KEY(staff_id)
+--)
 
 --table DENTIST
 CREATE TABLE Dentist
@@ -79,9 +79,9 @@ CREATE TABLE Nurse
 CREATE TABLE Branch
 (
 	branch_id char(2),
-	branch_name nvarchar(20),
-	branch_address nvarchar(30),
-	branch_phone char(10)
+	branch_name nvarchar(20) NOT NULL,
+	branch_address nvarchar(30) NOT NULL,
+	branch_phone char(10) NOT NULL
 
 	CONSTRAINT PK_branch
 	PRIMARY KEY(branch_id)
@@ -91,9 +91,9 @@ CREATE TABLE Branch
 CREATE TABLE PersionalAppointment
 (
 	persional_appointment_id char(5),
-	persional_appointment_date date,
-	room_id char(2),
-	dentist_id char(3)
+	persional_appointment_date date NOT NULL,
+	room_id char(2) NOT NULL,
+	dentist_id char(3) NOT NULL
 
 	CONSTRAINT PK_PersionalAppointment
 	PRIMARY KEY(persional_appointment_id)
@@ -103,7 +103,7 @@ CREATE TABLE PersionalAppointment
 CREATE TABLE Room
 (
 	room_id char(2),
-	room_name nvarchar(20),
+	room_name nvarchar(20) NOT NULL,
 
 	CONSTRAINT PK_Room
 	PRIMARY KEY(room_id)
@@ -113,10 +113,10 @@ CREATE TABLE Room
 CREATE TABLE Patient
 (
 	patient_id char(5),
-	patient_name nvarchar(30),
+	patient_name nvarchar(30) NOT NULL,
 	patient_birthday DATE,
 	patient_address nvarchar(40),
-	patient_phone char(10),
+	patient_phone char(10) NOT NULL,
 	patient_gender nvarchar(3),
 	patient_email varchar(20)
 
@@ -129,7 +129,7 @@ CREATE TABLE GeneralHealth
 (
 	patient_id char(5),
 	note_date datetime,
-	health_description nvarchar(30)
+	health_description nvarchar(30) NOT NULL
 
 	CONSTRAINT PK_generalhealth
 	PRIMARY KEY(patient_id, note_date)
@@ -139,17 +139,17 @@ CREATE TABLE GeneralHealth
 CREATE TABLE Appointment
 (
 	appointment_id char(5),
-	request_time datetime,
-	appointment_confirm nvarchar(10),
-	appointment_date date,
-	appointment_time time,
+	request_time datetime NOT NULL,
+	appointment_confirm nvarchar(10) NOT NULL,
+	appointment_date date NOT NULL,
+	appointment_time time NOT NULL,
 	appointment_duration int,
-	appointment_state bit,
-	numerical_order char(3),
-	room_id char(2),
+	appointment_state bit NOT NULL,
+	numerical_order char(3) NOT NULL,
+	room_id char(2) NOT NULL,
 	is_new_patient bit,
-	patient_id char(5),
-	dentist_id char(3),
+	patient_id char(5) NOT NULL,
+	dentist_id char(3) NOT NULL,
 	nurse_id char(3)
 
 	CONSTRAINT PK_Appointment
@@ -185,25 +185,28 @@ CREATE TABLE Reexamination
 CREATE TABLE TreatmentPlan
 (
 	treatment_plan_id char(5),
-	treatment_plan_created_date datetime, 
+	treatment_plan_created_date datetime  NOT NULL, 
 	treatment_plan_note nvarchar(30),
 	treatment_plan_description nvarchar(50),
-	treatment_plan_status nvarchar(15),
-	treatment_id char(2),
-	patient_id char(5),
-	dentist_id char(3),
+	treatment_plan_status nvarchar(15) NOT NULL,
+	treatment_id char(2) NOT NULL,
+	patient_id char(5) NOT NULL,
+	dentist_id char(3) NOT NULL,
 	nurse_id char(3),
 	CONSTRAINT PK_TreatmentPlan
 	PRIMARY KEY(treatment_plan_id)
 )
 
+ALTER TABLE TreatmentPlan
+ADD CONSTRAINT treatmentPlanStatusValue CHECK (treatment_plan_status IN (N'Kế hoạch', N'Đã hoàn thành', N'Đã hủy'));
+
 --table session treatment
 CREATE TABLE TreatmentSession
 (
 	treatment_session_id char(5),
-	treatment_session_created_date datetime, 
+	treatment_session_created_date datetime NOT NULL, 
 	treatment_session_description nvarchar(50),
-	treatment_plan_id char(5)
+	treatment_plan_id char(5) NOT NULL
 
 	CONSTRAINT PK_TreatmentSession
 	PRIMARY KEY(treatment_session_id)
@@ -243,7 +246,7 @@ CREATE TABLE ToothSurface
 CREATE TABLE ToothPosition
 (
 	tooth_position_id char(2),
-	tooth_position_type nvarchar(15),
+	tooth_position_type nvarchar(15) NOT NULL,
 	tooth_position_description nvarchar(30),
 
 	CONSTRAINT PK_Toothposition
@@ -253,9 +256,9 @@ CREATE TABLE ToothPosition
 CREATE TABLE Treatment
 (
 	treatment_id char(2),
-	treatment_title nvarchar(15),
+	treatment_title nvarchar(15) NOT NULL UNIQUE,
 	treatment_description nvarchar(30),
-	treatment_cost float
+	treatment_cost float  NOT NULL
 
 	CONSTRAINT PK_Treatment
 	PRIMARY KEY(treatment_id)
@@ -264,13 +267,12 @@ CREATE TABLE Treatment
 CREATE TABLE PaymentRecord
 (
 	payment_id char(5),
-	paid_time datetime,
-	paid_money float,
-	[change] float,
+	paid_time datetime  NOT NULL,
+	paid_money float  NOT NULL,
 	total_cost float,
 	payment_note nvarchar(15),
-	payment_method_id char(5),
-	treatment_session_id char(5)
+	payment_method_id char(5) NOT NULL,
+	treatment_session_id char(5) NOT NULL
 
 	CONSTRAINT PK_PaymentRecord
 	PRIMARY KEY(payment_id)
@@ -279,7 +281,7 @@ CREATE TABLE PaymentRecord
 CREATE TABLE PaymentMethod
 (
 	payment_method_id char(5),
-	payment_method_title nvarchar(15)
+	payment_method_title nvarchar(15) NOT NULL UNIQUE,
 
 	CONSTRAINT PK_paymentmethod
 	PRIMARY KEY(payment_method_id)
@@ -301,10 +303,10 @@ CREATE TABLE Prescription
 CREATE TABLE Drug
 (
 	drug_id char(5),
-	drug_name nvarchar(30),
-	indication nvarchar(50),
-	expiration_date date,
-	drug_price money,
+	drug_name nvarchar(30) NOT NULL,
+	indication nvarchar(50) NOT NULL,
+	expiration_date date NOT NULL,
+	drug_price float NOT NULL,
 	drug_quantity int
 
 	CONSTRAINT PK_Drug
