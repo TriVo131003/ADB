@@ -87,16 +87,16 @@ CREATE TABLE Branch
 	PRIMARY KEY(branch_id)
 )
 
---table PersionalAppointment
-CREATE TABLE PersionalAppointment
+--table personalAppointment
+CREATE TABLE PersonalAppointment
 (
-	persional_appointment_id char(5),
-	persional_appointment_date date NOT NULL,
+	personal_appointment_id char(5),
+	personal_appointment_date date NOT NULL,
 	room_id char(2) NOT NULL,
 	dentist_id char(3) NOT NULL
 
-	CONSTRAINT PK_PersionalAppointment
-	PRIMARY KEY(persional_appointment_id)
+	CONSTRAINT PK_personalAppointment
+	PRIMARY KEY(personal_appointment_id)
 )
 
 --table Room
@@ -239,6 +239,7 @@ CREATE TABLE ToothSurface
 	tooth_surface_title nvarchar(15),
 	tooth_surface_description nvarchar(30),
 
+
 	CONSTRAINT PK_Toothsurface
 	PRIMARY KEY(tooth_surface_code)
 )
@@ -272,7 +273,7 @@ CREATE TABLE PaymentRecord
 	total_cost float,
 	payment_note nvarchar(15),
 	payment_method_id char(5) NOT NULL,
-	treatment_session_id char(5) NOT NULL
+	treatment_plan_id char(5) NOT NULL
 
 	CONSTRAINT PK_PaymentRecord
 	PRIMARY KEY(payment_id)
@@ -316,7 +317,8 @@ CREATE TABLE Drug
 CREATE TABLE DrugAllergy
 (
 	patient_id char(5),
-	drug_id char(5)
+	drug_id char(5),
+	drugallergy_description nvarchar(50)
 
 	CONSTRAINT PK_DrugAllergy
 	PRIMARY KEY(patient_id, drug_id)
@@ -325,13 +327,33 @@ CREATE TABLE DrugAllergy
 CREATE TABLE Contradication
 (
 	patient_id char(5),
-	drug_id char(5)
+	drug_id char(5),
+	contradication_description nvarchar(50)
 
 	CONSTRAINT PK_Contradication
 	PRIMARY KEY(patient_id, drug_id)
 )
 
+
+CREATE TABLE DefaultDentist
+(
+	patient_id char(5),
+	dentist_id char(3)
+
+	CONSTRAINT PK_DefaultDentist
+	PRIMARY KEY(patient_id, dentist_id)
+)
+
 ----rang buoc
+ALTER TABLE DefaultDentist
+ADD
+	CONSTRAINT FK_DefaultDentist_Patient
+	FOREIGN KEY (patient_id)
+	REFERENCES Patient,
+	CONSTRAINT FK_DefaultDentist_Dentist
+	FOREIGN KEY (dentist_id)
+	REFERENCES Dentist
+
 ALTER TABLE Employee
 ADD
 	CONSTRAINT FK_Employee_Branch
@@ -341,16 +363,16 @@ ADD
 	FOREIGN KEY (account_id)
 	REFERENCES Account
 
-ALTER TABLE [Admin]
-ADD
-	CONSTRAINT FK_Admin_employee
-	FOREIGN KEY (admin_id)
-	REFERENCES Employee(employee_id)
-ALTER TABLE Staff
-ADD
-	CONSTRAINT FK_Staff_employee
-	FOREIGN KEY (staff_id)
-	REFERENCES Employee(employee_id)
+--ALTER TABLE [Admin]
+--ADD
+--	CONSTRAINT FK_Admin_employee
+--	FOREIGN KEY (admin_id)
+--	REFERENCES Employee(employee_id)
+--ALTER TABLE Staff
+--ADD
+--	CONSTRAINT FK_Staff_employee
+--	FOREIGN KEY (staff_id)
+--	REFERENCES Employee(employee_id)
 ALTER TABLE Dentist
 ADD
 	CONSTRAINT FK_Dentist_employee
@@ -362,12 +384,12 @@ ADD
 	FOREIGN KEY (nurse_id)
 	REFERENCES Employee
 
-ALTER TABLE PersionalAppointment
+ALTER TABLE personalAppointment
 ADD
-	CONSTRAINT FK_PersionalAppointment_Dentist
+	CONSTRAINT FK_personalAppointment_Dentist
 	FOREIGN KEY (dentist_id)
 	REFERENCES Dentist,
-	CONSTRAINT FK_PersionalAppointment_Room
+	CONSTRAINT FK_personalAppointment_Room
 	FOREIGN KEY (room_id)
 	REFERENCES Room
 
@@ -461,8 +483,8 @@ ADD
 ALTER TABLE PaymentRecord
 ADD
 	CONSTRAINT FK_PaymentRecord_TreatmentSession
-	FOREIGN KEY (treatment_session_id)
-	REFERENCES TreatmentSession,
+	FOREIGN KEY (treatment_plan_id)
+	REFERENCES TreatmentPlan,
 	CONSTRAINT FK_PaymentRecord_PaymentMethod
 	FOREIGN KEY (payment_method_id)
 	REFERENCES PaymentMethod
