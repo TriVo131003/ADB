@@ -92,6 +92,8 @@ CREATE TABLE PersonalAppointment
 (
 	personal_appointment_id char(5),
 	personal_appointment_date date NOT NULL,
+	personal_appointment_start_time time,
+	personal_appointment_end_time time,
 	room_id char(2) NOT NULL,
 	dentist_id char(3) NOT NULL
 
