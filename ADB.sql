@@ -295,11 +295,11 @@ CREATE TABLE PaymentMethod
 CREATE TABLE Prescription
 (
 	drug_id char(5),
-	treatment_session_id char(5),
+	treatment_plan_id char(5),
 	drug_quantity int NOT NULL Check (drug_quantity>=1)
 
 	CONSTRAINT PK_Prescription
-	PRIMARY KEY(treatment_session_id, drug_id)
+	PRIMARY KEY(treatment_plan_id, drug_id)
 )
 
 --table DRUG 
@@ -455,8 +455,8 @@ ADD
 	REFERENCES Drug,
 
 	CONSTRAINT FK_Prescription_treatmentsession
-	FOREIGN KEY (treatment_session_id)
-	REFERENCES TreatmentSession
+	FOREIGN KEY (treatment_plan_id)
+	REFERENCES TreatmentPlan
 
 ALTER TABLE TreatmentPlan
 ADD
