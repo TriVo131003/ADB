@@ -296,7 +296,8 @@ CREATE TABLE Prescription
 (
 	drug_id char(5),
 	treatment_plan_id char(5),
-	drug_quantity int NOT NULL Check (drug_quantity>=1)
+	drug_quantity int NOT NULL Check (drug_quantity>=1),
+	drug_cost float
 
 	CONSTRAINT PK_Prescription
 	PRIMARY KEY(treatment_plan_id, drug_id)
@@ -514,5 +515,4 @@ ADD
 	CONSTRAINT FK_TreatmentTooth_ToothPosition
 	FOREIGN KEY (tooth_position_id)
 	REFERENCES ToothPosition
-
 

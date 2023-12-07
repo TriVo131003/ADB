@@ -4,7 +4,7 @@
 
 go
 CREATE or alter PROCEDURE AddPrescription(
-  @treatment_session_id char(5),
+  @treatment_plan_id char(5),
   @drug_id char(5),
   @drug_quantity int
 )
@@ -16,7 +16,7 @@ BEGIN
     RETURN;
   END
 
-  IF NOT EXISTS (SELECT * FROM TreatmentSession WHERE treatment_session_id = @treatment_session_id)
+  IF NOT EXISTS (SELECT * FROM TreatmentPlan WHERE treatment_plan_id = @treatment_plan_id)
   BEGIN
     RAISERROR(N'Buổi điều trị không tồn tại.', 16, 1);
     RETURN;
@@ -30,16 +30,20 @@ BEGIN
     RETURN;
   END
 
+	DECLARE @drug_cost Float
+	select @drug_cost = @drug_quantity * (select drug_price from Drug)
   -- Insert prescription and quantity
   INSERT INTO Prescription (
-    treatment_session_id,
+    treatment_plan_id,
     drug_id,
-    drug_quantity
+    drug_quantity,
+	drug_cost
   )
   VALUES (
-    @treatment_session_id,
+    @treatment_plan_id,
     @drug_id,
-    @drug_quantity
+    @drug_quantity,
+	@drug_cost
   );
 END;
 
@@ -1067,7 +1071,6 @@ CREATE PROCEDURE InsertPaymentRecord
 (
 	@paid_time datetime NOT NULL,
 	@paid_money float NOT NULL,
-	@total_cost float,
 	@payment_note nvarchar(15),
 	@payment_method_id char(5) NOT NULL,
 	@treatment_plan_id char(5) NOT NULL
@@ -1110,6 +1113,12 @@ BEGIN
         RETURN;
     END
 
+	DECLARE @total_cost float
+	DECLARE @drug_cost float
+	DECLARE @treatment_cost float
+	SET @treatment_cost = (select treatment_tooth_price from ToothSelection where treatment_plan_id = @treatment_plan_id)
+	SET @drug_cost = (SELECT SUM(drug_cost) FROM Prescription where treatment_plan_id = @treatment_plan_id)
+	SET @total_cost = @treatment_cost +  @drug_cost
     -- Insert data into PaymentRecord table
     INSERT INTO PaymentRecord
     (
@@ -1132,5 +1141,38 @@ BEGIN
         @treatment_plan_id
     );
 END;
+
+go
+CREATE PROCEDURE InsertPaymentMethod
+(
+    @payment_method_title nvarchar(15) NOT NULL
+)
+AS
+BEGIN
+    -- Check if payment method ID already exists
+    DECLARE @new_payment_method_id char(5); 
+	IF NOT EXISTS (SELECT * FROM PaymentMethod)
+	BEGIN
+		SET @new_payment_method_id = '00001'
+	END
+	ELSE
+	BEGIN
+		SELECT @new_payment_method_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(@new_payment_method_id) from PaymentMethod), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+	END
+
+
+    -- Insert data into PaymentMethod table
+    INSERT INTO PaymentMethod
+    (
+        payment_method_id,
+        payment_method_title
+    )
+    VALUES
+    (
+        @new_payment_method_id,
+        @payment_method_title
+    );
+END;
+
 
 
