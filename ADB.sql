@@ -187,7 +187,7 @@ CREATE TABLE Reexamination
 CREATE TABLE TreatmentPlan
 (
 	treatment_plan_id char(5),
-	treatment_plan_created_date datetime  NOT NULL, 
+	treatment_plan_created_date datetime NOT NULL, 
 	treatment_plan_note nvarchar(30),
 	treatment_plan_description nvarchar(50),
 	treatment_plan_status nvarchar(15) NOT NULL,

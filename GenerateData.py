@@ -51,9 +51,22 @@ for i in range(branch_size - 1):
     branch_phone = ''.join(random.choices(string.digits, k=10))
     temp += f"('{branch_id}','{branch_name}','{branch_address}','{branch_phone}')"
     temp += ',' if i != branch_size - 2 else ';'
-
 # print(command.format(temp))
 cursor.execute(command.format(temp))
+
+branch_size = 100
+command = '''
+INSERT INTO Branch (branch_id,branch_name,branch_address,branch_phone)
+VALUES {0}
+'''
+temp = ''
+for i in range(branch_size - 1):
+    branch_id = i + 1 if i + 1 >= 10 else '0' + str(i + 1)
+    branch_name = 'Company No.' + str(branch_id)
+    branch_address = generate_branch_address()
+    branch_phone = ''.join(random.choices(string.digits, k=10))
+    temp += f"('{branch_id}','{branch_name}','{branch_address}','{branch_phone}')"
+    temp += ',' if i != branch_size - 2 else ';'
 
 cursor.close()
 conn.close()

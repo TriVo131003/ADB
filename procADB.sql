@@ -44,9 +44,9 @@ BEGIN
 	@drug_cost
   );
 END;
-
 GO
-CREATE PROCEDURE insertDrugAllergy
+
+CREATE or alter PROCEDURE insertDrugAllergy
 	@patient_id CHAR(5),
 	@drug_id CHAR(5)
 AS
@@ -66,9 +66,9 @@ BEGIN
     INSERT INTO DrugAllergy (patient_id, drug_id)
     VALUES (@patient_id, @drug_id);
 END
-
 GO
-CREATE PROCEDURE insertContradiction
+
+CREATE or alter PROCEDURE insertContradiction
 @patient_id CHAR(5),
 @drug_id CHAR(5),
 @description NVARCHAR(50)
@@ -89,9 +89,9 @@ BEGIN
     INSERT INTO Contradication (patient_id, drug_id, contradication_description)
     VALUES (@patient_id, @drug_id, @description);
 END
-
 GO
-CREATE PROCEDURE updateContradiction
+
+CREATE or alter PROCEDURE updateContradiction
 	@patient_id CHAR(5),
 	@drug_id CHAR(5),
 	@description NVARCHAR(50)
@@ -115,7 +115,8 @@ BEGIN
 END
 
 GO
-CREATE PROCEDURE updateDrugAllergy
+
+CREATE or alter PROCEDURE updateDrugAllergy
 	@patient_id CHAR(5),
 	@drug_id CHAR(5),
 	@description NVARCHAR(50)
@@ -139,7 +140,7 @@ BEGIN
 END
 
 GO
-CREATE PROCEDURE deleteContradiction
+CREATE or alter PROCEDURE deleteContradiction
 	@patient_id CHAR(5),
 	@drug_id CHAR(5)
 AS
@@ -161,7 +162,7 @@ BEGIN
 END
 
 GO
-CREATE PROCEDURE deleteDrugAllergy
+CREATE or alter PROCEDURE deleteDrugAllergy
 	@patient_id CHAR(5),
 	@drug_id CHAR(5)
 AS
@@ -217,7 +218,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE updateAccount
+CREATE or alter PROCEDURE updateAccount
 	@accountId char(5),
 	@password char(64),
 	@accountStatus BIT
@@ -235,7 +236,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE InsertAppointment
+CREATE or alter PROCEDURE InsertAppointment
 (
     @request_time datetime,
     @appointment_date date,
@@ -310,7 +311,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE UpdateAppointment
+CREATE or alter PROCEDURE UpdateAppointment
 (
     @appointment_id char(5),
 	@request_time datetime,
@@ -356,7 +357,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE updateGeneralHealth
+CREATE or alter PROCEDURE updateGeneralHealth
 (
     @patient_id char(5),
 	@note_date datetime,
@@ -385,7 +386,7 @@ BEGIN
 END;
 
 GO
-CREATE PROCEDURE insertGeneralHealth
+CREATE or alter PROCEDURE insertGeneralHealth
 (
     @patient_id char(5),
     @note_date datetime,
@@ -422,7 +423,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE updateTreatmentPlan
+CREATE or alter PROCEDURE updateTreatmentPlan
 (
     @treatment_plan_id char(5),
     @treatment_plan_created_date datetime,
@@ -486,15 +487,16 @@ END;
 
 
 go
-CREATE PROCEDURE insertTreatmentPlan
+
+CREATE or alter PROCEDURE insertTreatmentPlan
 (
-    @treatment_plan_created_date datetime NOT NULL,
+    @treatment_plan_created_date datetime,
     @treatment_plan_note nvarchar(30),
     @treatment_plan_description nvarchar(50),
 	@treatment_plan_status nvarchar(15),
-    @treatment_id char(2) NOT NULL,
-    @patient_id char(5) NOT NULL,
-    @dentist_id char(3) NOT NULL,
+    @treatment_id char(2),
+    @patient_id char(5),
+    @dentist_id char(3),
     @nurse_id char(3)
 )
 AS
@@ -558,7 +560,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE insertDrug
+CREATE or alter PROCEDURE insertDrug
 (
 	@drugName nvarchar(30),
 	@indication nvarchar(50),
@@ -598,7 +600,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE updateDrug
+CREATE or alter PROCEDURE updateDrug
 (
 	@drugID char(5),
 	@unit varchar(5),
@@ -621,7 +623,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE deleteDrug
+CREATE or alter PROCEDURE deleteDrug
 (
 	@drugID char(5)
 )
@@ -632,7 +634,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE InsertEmployee
+CREATE or alter PROCEDURE InsertEmployee
 (
 	@employee_name nvarchar(30),
 	@employee_gender nvarchar(3),
@@ -711,7 +713,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE UpdateEmployee
+CREATE or alter PROCEDURE UpdateEmployee
 (
 	@employee_id char(3),
 	@employee_address nvarchar(30),
@@ -758,7 +760,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE insertPersonalAppointment
+CREATE or alter PROCEDURE insertPersonalAppointment
 	@personalAppointmentStartTime time,
 	@personalAppointmentEndTime time,
 	@personalAppointmentDate date,
@@ -790,7 +792,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE deletePersonalAppointment
+CREATE or alter PROCEDURE deletePersonalAppointment
 	@personalAppointmentID char(5)
 AS
 BEGIN
@@ -799,7 +801,7 @@ WHERE personal_appointment_id = @personalAppointmentID;
 END;
 
 go
-CREATE PROCEDURE updatePersonalAppointment
+CREATE or alter PROCEDURE updatePersonalAppointment
 	@personalAppointmentID char(5),
 	@personalAppointmentStartTime time,
 	@personalAppointmentEndTime time,
@@ -816,12 +818,12 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE insertPatient
+CREATE or alter PROCEDURE insertPatient
 (
-	@patient_name nvarchar(30) NOT NULL,
+	@patient_name nvarchar(30),
 	@patient_birthday DATE,
 	@patient_address nvarchar(40),
-	@patient_phone char(10) NOT NULL,
+	@patient_phone char(10),
 	@patient_gender nvarchar(3),
 	@patient_email varchar(20)
 )
@@ -861,13 +863,14 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE epdatePatient
+
+CREATE or alter PROCEDURE updatePatient
 (
 	@patient_id char(5),
-	@patient_name nvarchar(30) NOT NULL,
+	@patient_name nvarchar(30),
 	@patient_birthday DATE,
 	@patient_address nvarchar(40),
-	@patient_phone char(10) NOT NULL,
+	@patient_phone char(10),
 	@patient_gender nvarchar(3),
 	@patient_email varchar(20)
 )
@@ -899,11 +902,11 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE insertTreatmentSession
+CREATE or alter PROCEDURE insertTreatmentSession
 (
-    @treatment_session_created_date datetime NOT NULL,
+    @treatment_session_created_date datetime,
     @treatment_session_description nvarchar(50),
-    @treatment_plan_id char(5) NOT NULL
+    @treatment_plan_id char(5)
 )
 AS
 BEGIN
@@ -935,7 +938,7 @@ BEGIN
 END;
 
 GO
-CREATE PROCEDURE insertToothSelection
+CREATE or alter PROCEDURE insertToothSelection
 (
     @treatment_plan_id char(5),
     @tooth_position_id char(2),
@@ -1003,7 +1006,7 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE updateToothSelection
+CREATE or alter PROCEDURE updateToothSelection
 (
     @treatment_plan_id char(5),
     @tooth_position_id char(2),
@@ -1065,13 +1068,13 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE InsertPaymentRecord
+CREATE or alter PROCEDURE InsertPaymentRecord
 (
-	@paid_time datetime NOT NULL,
-	@paid_money float NOT NULL,
+	@paid_time datetime,
+	@paid_money float,
 	@payment_note nvarchar(15),
-	@payment_method_id char(5) NOT NULL,
-	@treatment_plan_id char(5) NOT NULL
+	@payment_method_id char(5),
+	@treatment_plan_id char(5)
 )
 AS
 BEGIN
@@ -1141,9 +1144,9 @@ BEGIN
 END;
 
 go
-CREATE PROCEDURE InsertPaymentMethod
+CREATE or alter PROCEDURE InsertPaymentMethod
 (
-    @payment_method_title nvarchar(15) NOT NULL
+    @payment_method_title nvarchar(15)
 )
 AS
 BEGIN
@@ -1171,6 +1174,3 @@ BEGIN
         @payment_method_title
     );
 END;
-
-
-
