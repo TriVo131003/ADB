@@ -423,7 +423,7 @@ ADD
 	REFERENCES Appointment, 
 	CONSTRAINT FK_ReExamination_TreatmentPlan
 	FOREIGN KEY (treatment_plan_id)
-	REFERENCES Appointment
+	REFERENCES TreatmentPlan
 
 ALTER TABLE GeneralHealth
 ADD

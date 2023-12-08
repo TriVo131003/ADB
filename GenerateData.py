@@ -54,7 +54,7 @@ for i in range(branch_size - 1):
 # print(command.format(temp))
 cursor.execute(command.format(temp))
 
-branch_size = 100
+branch_size = 5
 command = '''
 INSERT INTO Branch (branch_id,branch_name,branch_address,branch_phone)
 VALUES {0}
@@ -67,6 +67,8 @@ for i in range(branch_size - 1):
     branch_phone = ''.join(random.choices(string.digits, k=10))
     temp += f"('{branch_id}','{branch_name}','{branch_address}','{branch_phone}')"
     temp += ',' if i != branch_size - 2 else ';'
+
+
 
 cursor.close()
 conn.close()
