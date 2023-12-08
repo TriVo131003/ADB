@@ -1,8 +1,6 @@
-﻿
-
-
-
+﻿use QLPHONGKHAM
 go
+
 CREATE or alter PROCEDURE AddPrescription(
   @treatment_plan_id char(5),
   @drug_id char(5),
@@ -185,9 +183,9 @@ BEGIN
 END
 
 go
-CREATE PROCEDURE insertAccount
+CREATE or alter PROCEDURE insertAccount
 	@username varchar(10),
-	@password varchar(15)
+	@password char(64)
 AS
 BEGIN
 	IF EXISTS((SELECT * FROM Account WHERE username = @username))
@@ -221,7 +219,7 @@ END;
 go
 CREATE PROCEDURE updateAccount
 	@accountId char(5),
-	@password varchar(15),
+	@password char(64),
 	@accountStatus BIT
 AS
 BEGIN

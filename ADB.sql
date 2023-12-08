@@ -16,7 +16,7 @@ CREATE TABLE Account
 (
 	accountID char(5),
 	username varchar(20) NOT NULL UNIQUE,
-	[password] varchar(20) NOT NULL,
+	[password] char(64) NOT NULL,
 	account_status bit NOT NULL
 
 	CONSTRAINT PK_Account
