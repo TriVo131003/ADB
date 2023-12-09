@@ -27,35 +27,22 @@ CREATE TABLE Account
 CREATE TABLE Employee
 (
 	employee_id char(3),
-	employee_name nvarchar(30),
-	employee_gender nvarchar(3),
-	employee_birthday date,
+	employee_name nvarchar(30) NOT NULL,
+	employee_gender nvarchar(3) NOT NULL,
+	employee_birthday date NOT NULL,
 	employee_address nvarchar(30),
-	employee_national_id char(12),
-	employee_phone char(10),
-	employee_type varchar(6),
+	employee_national_id char(12) NOT NULL UNIQUE,
+	employee_phone char(10) NOT NULL,
+	employee_type char(2) NOT NULL,
 	branch_id char(2),
 	account_id char(5)
 
 	CONSTRAINT PK_Employee
 	PRIMARY KEY (employee_id)
 )
-----table ADMIN
---CREATE TABLE [Admin]
---(
---	admin_id char(3)
---	CONSTRAINT PK_Admin
---	PRIMARY KEY(admin_id)
---)
 
-----table STAFF
---CREATE TABLE Staff
---(
---	staff_id char(3),
-
---	CONSTRAINT PK_Staff
---	PRIMARY KEY(staff_id)
---)
+ALTER TABLE Employee
+ADD CONSTRAINT EmployeeType CHECK (employee_type IN ('DE', 'NU', 'AD', 'ST'));
 
 --table DENTIST
 CREATE TABLE Dentist
@@ -118,7 +105,7 @@ CREATE TABLE Patient
 	patient_name nvarchar(30) NOT NULL,
 	patient_birthday DATE,
 	patient_address nvarchar(40),
-	patient_phone char(10) NOT NULL,
+	patient_phone char(10) NOT NULL UNIQUE,
 	patient_gender nvarchar(3),
 	patient_email varchar(20)
 
@@ -145,7 +132,6 @@ CREATE TABLE Appointment
 	appointment_confirm nvarchar(10) NOT NULL,
 	appointment_date date NOT NULL,
 	appointment_time time NOT NULL,
-	appointment_duration int,
 	appointment_state bit NOT NULL,
 	numerical_order char(3) NOT NULL,
 	room_id char(2) NOT NULL,
@@ -366,16 +352,6 @@ ADD
 	FOREIGN KEY (account_id)
 	REFERENCES Account
 
---ALTER TABLE [Admin]
---ADD
---	CONSTRAINT FK_Admin_employee
---	FOREIGN KEY (admin_id)
---	REFERENCES Employee(employee_id)
---ALTER TABLE Staff
---ADD
---	CONSTRAINT FK_Staff_employee
---	FOREIGN KEY (staff_id)
---	REFERENCES Employee(employee_id)
 ALTER TABLE Dentist
 ADD
 	CONSTRAINT FK_Dentist_employee

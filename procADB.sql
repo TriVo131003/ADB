@@ -10,7 +10,8 @@ AS
 BEGIN
   IF NOT EXISTS (SELECT * FROM Drug WHERE drug_id = @drug_id)
   BEGIN
-    RAISERROR(N'Thuốc không tồn tại.', 16, 1);
+    RAISERROR(N'Thuốc không tồn tại', 16, 1);
+	Rollback;
     RETURN;
   END
 
@@ -28,27 +29,38 @@ BEGIN
     RETURN;
   END
 
+  -- số lượng thuốc đủ hay không
+  -- sau khi kê thì cập nhật lại số lượng thuốc trong kho
+
+  if(@drug_quantity > (select drug_quantity from Drug where drug_id = @drug_id))
+  begin
+	raiserror(N'Số lượng thuốc không đủ cấp', 16, 1)
+	rollback
+	return
+  end
+
 	DECLARE @drug_cost Float
 	select @drug_cost = @drug_quantity * (select drug_price from Drug)
   -- Insert prescription and quantity
-  INSERT INTO Prescription (
-    treatment_plan_id,
-    drug_id,
-    drug_quantity,
-	drug_cost
-  )
+  INSERT INTO Prescription (treatment_plan_id, drug_id, drug_quantity, drug_cost)
   VALUES (
     @treatment_plan_id,
     @drug_id,
     @drug_quantity,
 	@drug_cost
   );
+
+  update Drug
+  set drug_quantity = drug_quantity - @drug_quantity
+  where drug_id = @drug_id
+
 END;
 GO
 
 CREATE or alter PROCEDURE insertDrugAllergy
 	@patient_id CHAR(5),
-	@drug_id CHAR(5)
+	@drug_id CHAR(5),
+	@drug_allergy_description char(50)
 AS
 BEGIN
     IF NOT EXISTS (SELECT * FROM Patient WHERE patient_id = @patient_id)
@@ -59,12 +71,12 @@ BEGIN
 
     IF NOT EXISTS (SELECT * FROM Drug WHERE drug_id = @drug_id)
     BEGIN
-        RAISERROR('Thuốc không tồn tại', 16, 1);
+        RAISERROR(N'Thuốc không tồn tại', 16, 1);
         RETURN;
     END
 
-    INSERT INTO DrugAllergy (patient_id, drug_id)
-    VALUES (@patient_id, @drug_id);
+    INSERT INTO DrugAllergy (patient_id, drug_id, drugallergy_description)
+    VALUES (@patient_id, @drug_id, @drug_allergy_description);
 END
 GO
 
@@ -82,7 +94,7 @@ BEGIN
 
     IF NOT EXISTS (SELECT * FROM Drug WHERE drug_id = @drug_id)
     BEGIN
-        RAISERROR('Thuốc không tồn tại', 16, 1);
+        RAISERROR(N'Thuốc không tồn tại', 16, 1);
         RETURN;
     END
 
@@ -90,7 +102,6 @@ BEGIN
     VALUES (@patient_id, @drug_id, @description);
 END
 GO
-
 CREATE or alter PROCEDURE updateContradiction
 	@patient_id CHAR(5),
 	@drug_id CHAR(5),
@@ -105,7 +116,13 @@ BEGIN
 
     IF NOT EXISTS (SELECT * FROM Drug WHERE drug_id = @drug_id)
     BEGIN
-        RAISERROR('Thuốc không tồn tại', 16, 1);
+        RAISERROR(N'Thuốc không tồn tại', 16, 1);
+        RETURN;
+    END
+
+	IF NOT EXISTS (SELECT * FROM Contradication WHERE drug_id = @drug_id and patient_id = @patient_id)
+    BEGIN
+        RAISERROR(N'Bệnh nhân không có chống chỉ định', 16, 1);
         RETURN;
     END
 
@@ -130,7 +147,13 @@ BEGIN
 
     IF NOT EXISTS (SELECT * FROM Drug WHERE drug_id = @drug_id)
     BEGIN
-        RAISERROR('Thuốc không tồn tại', 16, 1);
+        RAISERROR(N'Thuốc không tồn tại', 16, 1);
+        RETURN;
+    END
+
+	IF NOT EXISTS (SELECT * FROM DrugAllergy WHERE drug_id = @drug_id and patient_id = @patient_id)
+    BEGIN
+        RAISERROR(N'Bệnh nhân không thuốc dị ứng', 16, 1);
         RETURN;
     END
 
@@ -153,7 +176,12 @@ BEGIN
 
     IF NOT EXISTS (SELECT * FROM Drug WHERE drug_id = @drug_id)
     BEGIN
-        RAISERROR('Thuốc không tồn tại', 16, 1);
+        RAISERROR(N'Thuốc không tồn tại', 16, 1);
+        RETURN;
+    END
+	IF NOT EXISTS (SELECT * FROM Contradication WHERE drug_id = @drug_id and patient_id = @patient_id)
+    BEGIN
+        RAISERROR(N'Bệnh nhân không có chống chỉ định', 16, 1);
         RETURN;
     END
 
@@ -175,7 +203,13 @@ BEGIN
 
     IF NOT EXISTS (SELECT * FROM Drug WHERE drug_id = @drug_id)
     BEGIN
-        RAISERROR('Thuốc không tồn tại', 16, 1);
+        RAISERROR(N'Thuốc không tồn tại', 16, 1);
+        RETURN;
+    END
+
+	IF NOT EXISTS (SELECT * FROM DrugAllergy WHERE drug_id = @drug_id and patient_id = @patient_id)
+    BEGIN
+        RAISERROR(N'Bệnh nhân không có thuốc dị ứng', 16, 1);
         RETURN;
     END
 
@@ -213,26 +247,25 @@ BEGIN
 	account_status
 	)
 	VALUES
-	(@new_account_id, @username, @password, 1
-	);
+	(@new_account_id, @username, @password, 1);
 END;
-
 go
+
 CREATE or alter PROCEDURE updateAccount
-	@accountId char(5),
+	@userName varchar(20),
 	@password char(64),
 	@accountStatus BIT
 AS
 BEGIN
-	IF NOT EXISTS((SELECT * FROM Account WHERE accountID = @accountId))
+	IF NOT EXISTS((SELECT * FROM Account WHERE username = @userName))
 	BEGIN
-        RAISERROR(N'Tên tài khoản không tồn tại', 16, 1)
+        RAISERROR(N'Tài khoản không tồn tại', 16, 1)
 		RETURN
     END
 	UPDATE Account
 	SET password = @password,
 	account_status = @accountStatus
-	WHERE accountID = @accountId;
+	WHERE username = @userName;
 END;
 
 go
@@ -241,7 +274,6 @@ CREATE or alter PROCEDURE InsertAppointment
     @request_time datetime,
     @appointment_date date,
     @appointment_time time,
-    @appointment_duration int,
     @room_id char(2),
     @is_new_patient bit,
     @patient_id char(5),
@@ -264,6 +296,8 @@ BEGIN
 		RETURN
 	END
 
+	-- kiểm tra ngày và giờ đó bác sĩ có rảnh không
+
 	DECLARE @new_appointment_id char(5);
 
 	IF NOT EXISTS (SELECT * FROM Appointment)
@@ -283,7 +317,6 @@ BEGIN
         appointment_confirm,
         appointment_date,
         appointment_time,
-        appointment_duration,
         appointment_state,
         numerical_order,
         room_id,
@@ -299,7 +332,6 @@ BEGIN
         0,
         @appointment_date,
         @appointment_time,
-        @appointment_duration,
         0,
 		DATEDIFF(MINUTE, '08:00:00', @appointment_time)/30 + 1,
         @room_id,
@@ -317,7 +349,6 @@ CREATE or alter PROCEDURE UpdateAppointment
 	@request_time datetime,
     @appointment_date date,
     @appointment_time time,
-    @appointment_duration int,
     @room_id char(2),
     @is_new_patient bit,
     @patient_id char(5),
@@ -341,13 +372,14 @@ BEGIN
 		RAISERROR('Trợ khám không tồn tại', 16, 1)
 		RETURN
 	END 
+
+	-- hàm kiểm tra nha sĩ có rảnh vào thời gian đó không
     -- Update appointment data
     UPDATE Appointment
     SET
         request_time = @request_time,
         appointment_date = @appointment_date,
         appointment_time = @appointment_time,
-        appointment_duration = @appointment_duration,
         room_id = @room_id,
         is_new_patient = @is_new_patient,
         patient_id = @patient_id,
@@ -359,53 +391,86 @@ END;
 go
 CREATE or alter PROCEDURE updateGeneralHealth
 (
-    @patient_id char(5),
+    @patientPhone char(10),
 	@note_date datetime,
     @health_description nvarchar(30)
 )
 AS
 BEGIN
-    -- Check if patient ID exists
-    DECLARE @existing_patient_id char(5);
+	if not exists(select 1 from Patient where @patientPhone = patient_phone)
+	begin
+		raiserror(N'Bệnh nhân không tồn tại', 16, 1)
+		return;
+	end
+	
 
-    SELECT @existing_patient_id = patient_id
-    FROM Patient
-    WHERE patient_id = @patient_id;
+    ---- Check if patient ID exists
+    --DECLARE @existing_patient_id char(5);
 
-    IF @existing_patient_id IS NULL
-    BEGIN
-        RAISERROR('Bệnh nhân không tồn tại', 16, 1)
-        RETURN;
-    END
+    --SELECT @existing_patient_id = patient_id
+    --FROM Patient
+    --WHERE patient_id = @patient_id;
+
+    --IF @existing_patient_id IS NULL
+    --BEGIN
+    --    RAISERROR('Bệnh nhân không tồn tại', 16, 1)
+    --    RETURN;
+    --END
 
     -- Update general health data
+	declare @patientID char(5)
+	select @patientID = patient_id from Patient where patient_phone = @patientPhone
+
+	if not exists (select 1 from GeneralHealth where note_date = @note_date and @patientID = patient_id)
+	begin
+		raiserror(N'Tổng quan sức khỏe của bệnh nhân chưa được tạo', 16, 1)
+		rollback
+		return
+	end
+
     UPDATE GeneralHealth
     SET
         health_description = @health_description
-    WHERE patient_id = @patient_id AND note_date = @note_date;
+    WHERE patient_id = @patientID AND note_date = @note_date;
 END;
 
 GO
 CREATE or alter PROCEDURE insertGeneralHealth
 (
-    @patient_id char(5),
+    @patientPhone char(10),
     @note_date datetime,
     @health_description nvarchar(30)
 )
 AS
 BEGIN
+
+	if not exists(select 1 from Patient where @patientPhone = patient_phone)
+	begin
+		raiserror(N'Bệnh nhân chưa tồn tại', 16, 1)
+		return;
+	end
     -- Check if patient ID exists
-    DECLARE @existing_patient_id char(5);
+    --DECLARE @existing_patient_id char(5);
 
-    SELECT @existing_patient_id = patient_id
-    FROM Patient
-    WHERE patient_id = @patient_id;
+    --SELECT @existing_patient_id = patient_id
+    --FROM Patient
+    --WHERE patient_id = @patient_id;
 
-    IF @existing_patient_id IS NULL
-    BEGIN
-        RAISERROR('Bệnh nhân không tồn tại', 16, 1)
-        RETURN;
-    END
+    --IF @existing_patient_id IS NULL
+    --BEGIN
+    --    RAISERROR('Bệnh nhân không tồn tại', 16, 1)
+    --    RETURN;
+    --END
+
+	declare @patientID char(5)
+	select @patientID = patient_id from Patient where patient_phone = @patientPhone
+
+	if exists (select 1 from GeneralHealth where note_date = @note_date and @patientID = patient_id)
+	begin
+		raiserror(N'Tổng quan sức khỏe của bệnh nhân đã được tạo', 16, 1)
+		rollback
+		return
+	end
 
     -- Insert general health data
     INSERT INTO GeneralHealth
@@ -416,7 +481,7 @@ BEGIN
     )
     VALUES
     (
-        @patient_id,
+        @patientID,
         @note_date,
         @health_description
     );
@@ -493,7 +558,6 @@ CREATE or alter PROCEDURE insertTreatmentPlan
     @treatment_plan_created_date datetime,
     @treatment_plan_note nvarchar(30),
     @treatment_plan_description nvarchar(50),
-	@treatment_plan_status nvarchar(15),
     @treatment_id char(2),
     @patient_id char(5),
     @dentist_id char(3),
@@ -501,15 +565,6 @@ CREATE or alter PROCEDURE insertTreatmentPlan
 )
 AS
 BEGIN
-	Declare @new_treatmentplan_id char(5)
-	IF NOT EXISTS (SELECT * FROM TreatmentPlan)
-    BEGIN
-        SET @new_treatmentplan_id= '00001';
-    END
-    ELSE
-    BEGIN
-		SELECT @new_treatmentplan_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(treatment_plan_id) from TreatmentPlan), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
-	END
 
     IF NOT EXISTS (SELECT 1 FROM Patient WHERE patient_id = @patient_id)
     BEGIN
@@ -532,6 +587,16 @@ BEGIN
         END
     END
 
+	Declare @new_treatmentplan_id char(5)
+	IF NOT EXISTS (SELECT * FROM TreatmentPlan)
+    BEGIN
+        SET @new_treatmentplan_id= '00001';
+    END
+    ELSE
+    BEGIN
+		SELECT @new_treatmentplan_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(treatment_plan_id) from TreatmentPlan), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+	END
+
     -- Thêm dữ liệu
     INSERT INTO TreatmentPlan
     (
@@ -551,7 +616,7 @@ BEGIN
         @treatment_plan_created_date,
         @treatment_plan_note,
         @treatment_plan_description,
-        @treatment_plan_status,
+        N'Kế hoạch',
         @treatment_id,
         @patient_id,
         @dentist_id,
@@ -570,6 +635,7 @@ CREATE or alter PROCEDURE insertDrug
 )
 AS
 BEGIN
+	
 	DECLARE @new_drug_id char(5);
 	IF NOT EXISTS (SELECT * FROM DRUG)
     BEGIN
@@ -612,6 +678,13 @@ CREATE or alter PROCEDURE updateDrug
 )
 AS
 BEGIN
+	if not exists(select 1 from Drug where drug_id = @drugID)
+	begin
+		raiserror(N'Thuốc không tồn tại', 16, 1)
+		rollback
+		return
+	end
+
 	UPDATE Drug
 	SET
 	drug_name = @drugName,
@@ -629,6 +702,14 @@ CREATE or alter PROCEDURE deleteDrug
 )
 AS
 BEGIN
+
+	if not exists(select 1 from Drug where drug_id = @drugID)
+	begin
+		raiserror(N'Thuốc không tồn tại', 16, 1)
+		rollback
+		return
+	end
+
 	DELETE FROM Drug
 	WHERE drug_id = @drugID;
 END;
@@ -642,16 +723,16 @@ CREATE or alter PROCEDURE InsertEmployee
 	@employee_address nvarchar(30),
 	@employee_national_id char(12),
 	@employee_phone char(10),
-	@employee_type varchar(6),
+	@employee_type char(2),
 	@branch_id char(2),
 	@account_id char(5)
 )
 AS
 BEGIN
-	DECLARE @new_employee_id char(5);
-	IF NOT EXISTS (SELECT * FROM DRUG)
+	DECLARE @new_employee_id char(5)
+	IF NOT EXISTS (SELECT * FROM Employee)
     BEGIN
-        SET @new_employee_id = 'DR001';
+        SET @new_employee_id = '00001';
     END
     ELSE
     BEGIN
@@ -666,7 +747,7 @@ BEGIN
 
     IF @existing_branch_id IS NULL
     BEGIN
-        RAISERROR('Chi nhánh không tồn tại', 16, 1)
+        RAISERROR(N'Chi nhánh không tồn tại', 16, 1)
         RETURN;
     END
 
@@ -679,11 +760,33 @@ BEGIN
 
     IF @existing_account_id IS NULL
     BEGIN
-        RAISERROR('Tài khoản không tồn tại', 16, 1)
+        RAISERROR(N'Tài khoản không tồn tại', 16, 1)
         RETURN;
     END
 
+	if exists(select 1 from Employee where @employee_phone = employee_phone)
+	begin
+		raiserror(N'Số điện thoại không hợp lệ', 16, 1)
+		rollback
+		return
+	end
+
+	if exists(select 1 from Employee where @employee_national_id = employee_national_id)
+	begin
+		raiserror(N'Số chứng minh nhân dân không hợp lệ', 16, 1)
+		rollback
+		return
+	end
+
     -- Insert data into Employee table
+
+	if (@employee_type = 'DE' or @employee_type = 'NU')
+	begin
+		raiserror(N'Phương thức không hợp lệ', 16, 1)
+		return
+	end
+
+	-- chia trường hợp insert Nurse và Dentist
     INSERT INTO Employee
     (
         employee_id,
@@ -711,14 +814,209 @@ BEGIN
         @account_id
     );
 END;
-
 go
+
+CREATE or alter PROCEDURE InsertNewDentist
+(
+	@employee_name nvarchar(30),
+	@employee_gender nvarchar(3),
+	@employee_birthday date,
+	@employee_address nvarchar(30),
+	@employee_national_id char(12),
+	@employee_phone char(10),
+	@branch_id char(2),
+	@account_id char(5)
+)
+AS
+BEGIN
+	
+	   -- Check if branch ID exists
+    DECLARE @existing_branch_id char(2);
+
+    SELECT @existing_branch_id = branch_id
+    FROM Branch
+    WHERE branch_id = @branch_id;
+
+    IF @existing_branch_id IS NULL
+    BEGIN
+        RAISERROR(N'Chi nhánh không tồn tại', 16, 1)
+        RETURN;
+    END
+
+    -- Check if account ID exists
+    DECLARE @existing_account_id char(5);
+
+    SELECT @existing_account_id = accountID
+    FROM Account
+    WHERE accountID = @account_id;
+
+    IF @existing_account_id IS NULL
+    BEGIN
+        RAISERROR(N'Tài khoản không tồn tại', 16, 1)
+        RETURN;
+    END
+	
+	if exists(select 1 from Employee where @employee_phone = employee_phone)
+	begin
+		raiserror(N'Số điện thoại không hợp lệ', 16, 1)
+		rollback
+		return
+	end
+
+	if exists(select 1 from Employee where @employee_national_id = employee_national_id)
+	begin
+		raiserror(N'Số chứng minh nhân dân không hợp lệ', 16, 1)
+		rollback
+		return
+	end
+
+	
+	DECLARE @new_employee_id char(5)
+	IF NOT EXISTS (SELECT * FROM Employee)
+    BEGIN
+        SET @new_employee_id = '00001';
+    END
+    ELSE
+    BEGIN
+		SET @new_employee_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(employee_id) from Employee), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+	END
+
+
+    -- Insert data into Employee table
+
+
+    INSERT INTO Employee
+    (
+        employee_id,
+        employee_name,
+        employee_gender,
+        employee_birthday,
+        employee_address,
+        employee_national_id,
+        employee_phone,
+        employee_type,
+        branch_id,
+        account_id
+    )
+    VALUES
+    (
+        @new_employee_id,
+        @employee_name,
+        @employee_gender,
+        @employee_birthday,
+        @employee_address,
+        @employee_national_id,
+        @employee_phone,
+		'DE',
+        @branch_id,
+        @account_id
+    );
+END;
+go
+
+CREATE or alter PROCEDURE InsertNewNurse
+(
+	@employee_name nvarchar(30),
+	@employee_gender nvarchar(3),
+	@employee_birthday date,
+	@employee_address nvarchar(30),
+	@employee_national_id char(12),
+	@employee_phone char(10),
+	@branch_id char(2),
+	@account_id char(5)
+)
+AS
+BEGIN
+	
+	   -- Check if branch ID exists
+    DECLARE @existing_branch_id char(2);
+
+    SELECT @existing_branch_id = branch_id
+    FROM Branch
+    WHERE branch_id = @branch_id;
+
+    IF @existing_branch_id IS NULL
+    BEGIN
+        RAISERROR(N'Chi nhánh không tồn tại', 16, 1)
+        RETURN;
+    END
+
+    -- Check if account ID exists
+    DECLARE @existing_account_id char(5);
+
+    SELECT @existing_account_id = accountID
+    FROM Account
+    WHERE accountID = @account_id;
+
+    IF @existing_account_id IS NULL
+    BEGIN
+        RAISERROR(N'Tài khoản không tồn tại', 16, 1)
+        RETURN;
+    END
+	
+	if exists(select 1 from Employee where @employee_phone = employee_phone)
+	begin
+		raiserror(N'Số điện thoại không hợp lệ', 16, 1)
+		rollback
+		return
+	end
+
+	if exists(select 1 from Employee where @employee_national_id = employee_national_id)
+	begin
+		raiserror(N'Số chứng minh nhân dân không hợp lệ', 16, 1)
+		rollback
+		return
+	end
+
+	
+	DECLARE @new_employee_id char(5)
+	IF NOT EXISTS (SELECT * FROM Employee)
+    BEGIN
+        SET @new_employee_id = '00001';
+    END
+    ELSE
+    BEGIN
+		SET @new_employee_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(employee_id) from Employee), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+	END
+
+
+    -- Insert data into Employee table
+
+
+    INSERT INTO Employee
+    (
+        employee_id,
+        employee_name,
+        employee_gender,
+        employee_birthday,
+        employee_address,
+        employee_national_id,
+        employee_phone,
+        employee_type,
+        branch_id,
+        account_id
+    )
+    VALUES
+    (
+        @new_employee_id,
+        @employee_name,
+        @employee_gender,
+        @employee_birthday,
+        @employee_address,
+        @employee_national_id,
+        @employee_phone,
+		'NU',
+        @branch_id,
+        @account_id
+    );
+END;
+go
+
 CREATE or alter PROCEDURE UpdateEmployee
 (
 	@employee_id char(3),
 	@employee_address nvarchar(30),
 	@employee_phone char(10),
-	@employee_type varchar(6),
 	@branch_id char(2)
 )
 AS
@@ -749,17 +1047,116 @@ BEGIN
         RETURN;
     END
 
+	if exists(select 1 from Employee where @employee_phone = employee_phone)
+	begin
+		raiserror(N'Số điện thoại không hợp lệ', 16, 1)
+		rollback
+		return
+	end
+
     -- Update data in Employee table
     UPDATE Employee
     SET
         employee_address = @employee_address,
         employee_phone = @employee_phone,
-        employee_type = @employee_type,
         branch_id = @branch_id
     WHERE employee_id = @employee_id;
 END;
-
 go
+
+CREATE or alter PROCEDURE UpdateEmployeeType
+(
+	@employee_id char(3),
+	@employee_type char(2)
+)
+AS
+BEGIN
+    -- Check if employee ID exists
+    DECLARE @existing_employee_id char(3);
+
+    SELECT @existing_employee_id = employee_id
+    FROM Employee
+    WHERE employee_id = @employee_id;
+
+    IF @existing_employee_id IS NULL
+    BEGIN
+        RAISERROR('Nhân viên không tồn tại', 16, 1)
+        RETURN;
+    END
+	if (@employee_type = 'DE' and (select employee_type from Employee where employee_id = @employee_id) = 'NU')
+    begin
+		UPDATE Employee
+		SET
+			employee_type = @employee_type
+		WHERE employee_id = @employee_id;
+
+		Insert Dentist
+		values(@employee_id)
+
+		Delete Nurse
+		where @employee_id = nurse_id
+	end
+
+	else if (@employee_type = 'NU' and (select employee_type from Employee where employee_id = @employee_id) = 'DE')
+    begin
+		UPDATE Employee
+		SET
+			employee_type = @employee_type
+		WHERE employee_id = @employee_id;
+		Insert Nurse
+		values(@employee_id)
+
+		Delete Dentist
+		where @employee_id = dentist_id
+	end
+
+	else if (@employee_type != 'NU' and @employee_type != 'DE' and (select employee_type from Employee where employee_id = @employee_id) = 'DE')
+    begin
+		UPDATE Employee
+		SET
+			employee_type = @employee_type
+		WHERE employee_id = @employee_id;
+
+		Delete Dentist
+		where @employee_id = dentist_id
+	end
+
+	else if (@employee_type != 'NU' and @employee_type != 'DE' and (select employee_type from Employee where employee_id = @employee_id) = 'NU')
+    begin
+		UPDATE Employee
+		SET
+			employee_type = @employee_type
+		WHERE employee_id = @employee_id;
+
+		Delete Nurse
+		where @employee_id = nurse_id
+	end
+
+	else if (@employee_type = 'NU' and (select employee_type from Employee where employee_id = @employee_id) != 'NU' and (select employee_type from Employee where employee_id = @employee_id) != 'DE')
+    begin
+		UPDATE Employee
+		SET
+			employee_type = @employee_type
+		WHERE employee_id = @employee_id;
+
+		Insert Nurse
+		values(@employee_id)
+	end
+
+	else if (@employee_type = 'DE' and (select employee_type from Employee where employee_id = @employee_id) != 'NU' and (select employee_type from Employee where employee_id = @employee_id) != 'DE')
+    begin
+		UPDATE Employee
+		SET
+			employee_type = @employee_type
+		WHERE employee_id = @employee_id;
+
+		Insert Dentist
+		values(@employee_id)
+	end
+END;
+go
+
+
 CREATE or alter PROCEDURE insertPersonalAppointment
 	@personalAppointmentStartTime time,
 	@personalAppointmentEndTime time,
@@ -767,6 +1164,13 @@ CREATE or alter PROCEDURE insertPersonalAppointment
 	@dentistID char(5)
 AS
 BEGIN
+
+	if exists (select 1 from PersonalAppointment where @dentistID = dentist_id and @personalAppointmentDate = personal_appointment_date and @personalAppointmentStartTime = personal_appointment_start_time)
+	begin
+		raiserror('Lịch khám của bác sĩ đã được tạo', 16, 1)
+		return
+	end
+
 	DECLARE @new_personal_appointment_id char(5); 
 	IF NOT EXISTS (SELECT * FROM PersonalAppointment)
 	BEGIN
@@ -796,8 +1200,14 @@ CREATE or alter PROCEDURE deletePersonalAppointment
 	@personalAppointmentID char(5)
 AS
 BEGIN
-DELETE FROM personalAppointment
-WHERE personal_appointment_id = @personalAppointmentID;
+	if not exists (select 1 from PersonalAppointment where personal_appointment_id = @personalAppointmentID)
+	begin
+		raiserror('Lịch khám của bác sĩ chưa được tạo', 16, 1)
+		return
+	end
+
+	DELETE FROM personalAppointment
+	WHERE personal_appointment_id = @personalAppointmentID;
 END;
 
 go
@@ -809,6 +1219,12 @@ CREATE or alter PROCEDURE updatePersonalAppointment
 	@dentistID char(5)
 AS
 BEGIN
+	if not exists (select 1 from PersonalAppointment where personal_appointment_id = @personalAppointmentID)
+	begin
+		raiserror('Lịch khám của bác sĩ chưa được tạo', 16, 1)
+		return
+	end
+
 	UPDATE personalAppointment
 	SET personal_appointment_start_time = @personalAppointmentStartTime,
 	personal_appointment_end_time = @personalAppointmentEndTime,
@@ -829,8 +1245,15 @@ CREATE or alter PROCEDURE insertPatient
 )
 AS
 BEGIN
-   
-   DECLARE @new_patient_id char(5); 
+	if exists(select 1 from Patient where @patient_phone = patient_phone)
+	begin
+		raiserror(N'Số điện thoại không hợp lệ', 16, 1)
+		rollback
+		return
+	end
+
+
+	DECLARE @new_patient_id char(5); 
 	IF NOT EXISTS (SELECT * FROM Patient)
 	BEGIN
 		SET @new_patient_id = '00001'
@@ -889,6 +1312,13 @@ BEGIN
         RETURN;
     END
 
+	if exists(select 1 from Patient where @patient_phone = patient_phone)
+	begin
+		raiserror(N'Số điện thoại không hợp lệ', 16, 1)
+		rollback
+		return
+	end
+
     -- Update data in Patient table
     UPDATE Patient
     SET
@@ -910,6 +1340,14 @@ CREATE or alter PROCEDURE insertTreatmentSession
 )
 AS
 BEGIN
+
+	if not exists (select 1 from TreatmentPlan where @treatment_plan_id = treatment_plan_id)
+	begin
+		raiserror(N'Kế hoạch điều trị không tồn tại', 16, 1)
+		rollback
+		return
+	end
+
 	DECLARE @new_treatment_session_id char(5); 
 	IF NOT EXISTS (SELECT * FROM TreatmentSession)
 	BEGIN
@@ -947,43 +1385,29 @@ CREATE or alter PROCEDURE insertToothSelection
 AS
 BEGIN
     -- Check if treatment plan ID exists
-    DECLARE @existing_treatment_plan_id char(5);
-
-    SELECT @existing_treatment_plan_id = treatment_plan_id
-    FROM TreatmentPlan
-    WHERE treatment_plan_id = @treatment_plan_id;
-
-    IF @existing_treatment_plan_id IS NULL
-    BEGIN
-        RAISERROR('Kế hoạch điều trị không tồn tại', 16, 1)
-        RETURN;
-    END
+    if not exists (select 1 from TreatmentPlan where @treatment_plan_id = treatment_plan_id)
+	begin
+		raiserror(N'Kế hoạch điều trị không tồn tại', 16, 1)
+		rollback
+		return
+	end
 
     -- Check if tooth position ID exists
-    DECLARE @existing_tooth_position_id char(2);
-
-    SELECT @existing_tooth_position_id = tooth_position_id
-    FROM ToothPosition
-    WHERE tooth_position_id = @tooth_position_id;
-
-    IF @existing_tooth_position_id IS NULL
-    BEGIN
-        RAISERROR('Vị trí răng không tồn tại', 16, 1)
-        RETURN;
-    END
+	if not exists (select 1 from ToothPosition where @tooth_position_id = tooth_position_id)
+	begin
+		raiserror(N'Vị trí răng không tồn tại', 16, 1)
+		rollback
+		return
+	end
 
     -- Check if tooth surface code exists
-    DECLARE @existing_tooth_surface_code char(1);
+	if not exists (select 1 from ToothSurface where tooth_surface_code = tooth_surface_code)
+	begin
+		raiserror(N'Vị trí răng không tồn tại', 16, 1)
+		rollback
+		return
+	end
 
-    SELECT @existing_tooth_surface_code = tooth_surface_code
-    FROM ToothSurface
-    WHERE tooth_surface_code = @tooth_surface_code;
-
-    IF @existing_tooth_surface_code IS NULL
-    BEGIN
-        RAISERROR('Bề mặt răng không tồn tại', 16, 1)
-        RETURN;
-    END
 	DECLARE @treatment_id char(2)
 	set @treatment_id = (select treatment_id from TreatmentPlan where treatment_plan_id = @treatment_plan_id)
 	DECLARE @treatment_tooth_price float
@@ -1015,43 +1439,28 @@ CREATE or alter PROCEDURE updateToothSelection
 AS
 BEGIN
     -- Check if treatment plan ID exists
-    DECLARE @existing_treatment_plan_id char(5);
-
-    SELECT @existing_treatment_plan_id = treatment_plan_id
-    FROM TreatmentPlan
-    WHERE treatment_plan_id = @treatment_plan_id;
-
-    IF @existing_treatment_plan_id IS NULL
-    BEGIN
-        RAISERROR('Kế hoạch điều trị không tồn tại', 16, 1)
-        RETURN;
-    END
+    if not exists (select 1 from TreatmentPlan where @treatment_plan_id = treatment_plan_id)
+	begin
+		raiserror(N'Kế hoạch điều trị không tồn tại', 16, 1)
+		rollback
+		return
+	end
 
     -- Check if tooth position ID exists
-    DECLARE @existing_tooth_position_id char(2);
-
-    SELECT @existing_tooth_position_id = tooth_position_id
-    FROM ToothPosition
-    WHERE tooth_position_id = @tooth_position_id;
-
-    IF @existing_tooth_position_id IS NULL
-    BEGIN
-        RAISERROR('Vị trí răng không tồn tại', 16, 1)
-        RETURN;
-    END
+	if not exists (select 1 from ToothPosition where @tooth_position_id = tooth_position_id)
+	begin
+		raiserror(N'Vị trí răng không tồn tại', 16, 1)
+		rollback
+		return
+	end
 
     -- Check if tooth surface code exists
-    DECLARE @existing_tooth_surface_code char(1);
-
-    SELECT @existing_tooth_surface_code = tooth_surface_code
-    FROM ToothSurface
-    WHERE tooth_surface_code = @tooth_surface_code;
-
-    IF @existing_tooth_surface_code IS NULL
-    BEGIN
-        RAISERROR('Bề mặt răng không tồn tại', 16, 1)
-        RETURN;
-    END
+	if not exists (select 1 from ToothSurface where tooth_surface_code = tooth_surface_code)
+	begin
+		raiserror(N'Vị trí răng không tồn tại', 16, 1)
+		rollback
+		return
+	end
 
 	DECLARE @treatment_id char(2)
 	set @treatment_id = (select treatment_id from TreatmentPlan where treatment_plan_id = @treatment_plan_id)
@@ -1066,8 +1475,8 @@ BEGIN
     WHERE
         treatment_plan_id = @treatment_plan_id
 END;
-
 go
+
 CREATE or alter PROCEDURE InsertPaymentRecord
 (
 	@paid_time datetime,
@@ -1078,17 +1487,7 @@ CREATE or alter PROCEDURE InsertPaymentRecord
 )
 AS
 BEGIN
-	DECLARE @new_payment_record_id char(5); 
-	IF NOT EXISTS (SELECT * FROM PaymentRecord)
-	BEGIN
-		SET @new_payment_record_id = '00001'
-	END
-	ELSE
-	BEGIN
-		SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(@new_payment_record_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
-	END
-
-    -- Check if payment method ID exists
+	-- Check if payment method ID exists
     DECLARE @existing_payment_method_id char(5);
 
     SELECT @existing_payment_method_id = payment_method_id
@@ -1113,6 +1512,17 @@ BEGIN
         RAISERROR('Kế hoạch điều trị không tồn tại', 16, 1)
         RETURN;
     END
+
+	DECLARE @new_payment_record_id char(5); 
+	IF NOT EXISTS (SELECT * FROM PaymentRecord)
+	BEGIN
+		SET @new_payment_record_id = '00001'
+	END
+	ELSE
+	BEGIN
+		SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(@new_payment_record_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+	END
+
 
 	DECLARE @total_cost float
 	DECLARE @drug_cost float
