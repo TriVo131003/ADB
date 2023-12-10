@@ -67,7 +67,7 @@ for i in range(1, account_size + 1):
 final_command = command.format(temp)
 File.write(final_command) # GENERATE DATA SCRIPT
 
-#-------------EMPLOYEE---------------- # DOCTOR, NURSE, STAFF
+#-------------EMPLOYEE---------------- # DE, NURSE, STAFF, ADMIN
 command = '''
 INSERT INTO Employee (employee_id,
                     employee_name,
@@ -85,9 +85,9 @@ temp = ''
 for i in range(1, account_size + 1):
     empID = f"{i:03}"
     gender = "N'Nam'" if random.randint(0,1) == 0 else "N'Nữ'"
-    typeID = random.choice(["Doctor","Nurse","Staff"])
+    typeID = random.choice(["DE","NU","ST","AD"])
     while EmployeeDict[typeID][0] + 1 > EmployeeDict[typeID][1]:
-        typeID = random.choice(["Doctor","Nurse","Staff"])
+        typeID = random.choice(["DE","NU","ST","AD"])
     EmployeeDict[typeID][0] += 1
     account = random.choice(Account_list)
     while account in takenAcc:
@@ -108,9 +108,9 @@ INSERT INTO Dentist (dentist_id)
 VALUES {0}
 '''
 temp = ''
-for i, empID in enumerate(EmployeeDict['Doctor'][2].keys()):
+for i, empID in enumerate(EmployeeDict['DE'][2].keys()):
     temp += f"('{empID}')"
-    temp += ",\n" if i != len(EmployeeDict['Doctor'][2]) - 1 else ";\n"
+    temp += ",\n" if i != len(EmployeeDict['DE'][2]) - 1 else ";\n"
 
 final_command = command.format(temp)
 cursor.execute(command.format(temp)) # INSERT THE DATA
@@ -122,9 +122,9 @@ INSERT INTO Nurse (nurse_id)
 VALUES {0}
 '''
 temp = ''
-for i, empID in enumerate(EmployeeDict['Nurse'][2].keys()):
+for i, empID in enumerate(EmployeeDict['NU'][2].keys()):
     temp += f"('{empID}')"
-    temp += ",\n" if i != len(EmployeeDict['Nurse'][2]) - 1 else ";\n"
+    temp += ",\n" if i != len(EmployeeDict['NU'][2]) - 1 else ";\n"
 
 final_command = command.format(temp)
 cursor.execute(command.format(temp)) # INSERT THE DATA
@@ -137,8 +137,9 @@ command = '''
 temp = ''
 for i in range(1, patient_size + 1):
     pa_id = f"{i:05}"
-    temp1 = f"EXEC insertPatient '{gen_name(30)}','{gen_date(6, 65)}','{gen_address(40)}','{gen_phone()}',{gen_gender()},'{gen_email(20)}';\n"
-    patient_list.append(pa_id)
+    pa_phone = gen_phone()
+    temp1 = f"EXEC insertPatient '{gen_name(30)}','{gen_date(6, 65)}','{gen_address(40)}','{pa_phone}',{gen_gender()},'{gen_email(20)}';\n"
+    patient_list[pa_id] = pa_phone
     temp += temp1
     cursor.execute(temp1) # INSERT THE DATA
 
@@ -153,14 +154,14 @@ command = '''
 temp = ''
 for i in range(1, patient_size + 1):
     pa_id = f"{i:05}"
-    temp1 = f"EXEC insertGeneralHealth '{pa_id}','{gen_datetime(6, 10)}','{gen_sentence(30)}';\n"
+    temp1 = f"EXEC insertGeneralHealth '{patient_list[pa_id]}','{gen_datetime(6, 10)}','{gen_sentence(30)}';\n"
     temp += temp1
     cursor.execute(temp1) # INSERT THE DATA
 
 final_command = command.format(temp)
 File.write(final_command) # GENERATE DATA SCRIPT
 
-#-----------------Default Doctor---------------------
+#-----------------Default DE---------------------
 command = '''
 INSERT INTO DefaultDentist (patient_id, dentist_id)
 VALUES {0}
@@ -168,7 +169,7 @@ VALUES {0}
 temp = ''
 for i in range(1, patient_size + 1):
     pa_id = f"{i:05}"
-    dentist_id = list(EmployeeDict["Doctor"][2].keys())
+    dentist_id = list(EmployeeDict["DE"][2].keys())
     temp += f"('{pa_id}','{random.choice(dentist_id)}')"
     temp += ",\n" if i != patient_size else ";\n"
 
@@ -193,6 +194,22 @@ cursor.execute(command.format(temp)) # INSERT THE DATA
 File.write(final_command) # GENERATE DATA SCRIPT
 
 #--------------------Drug---------------------------
+command = '''
+{0}
+'''
+temp = ''
+for i in range(1, Drug_size + 1):
+    drug_id = f"{i:05}"
+    stock_quantity = random.randint(1, 10000)
+    temp1 = f"EXEC insertDrug '{gen_drugname(30)}','{gen_sentence(50)}','{gen_date(0, 2)}','{gen_price(10.0, 100000.0)}','{stock_quantity}';\n"
+    temp += temp1
+    cursor.execute(temp1) # INSERT THE DATA
+
+final_command = command.format(temp)
+File.write(final_command) # GENERATE DATA SCRIPT
+
+#-------------------
+
 
 
 

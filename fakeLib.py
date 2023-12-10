@@ -4,26 +4,28 @@ import string
 from hashlib import sha256
 from datetime import datetime, timedelta
 
-
 fake = Faker()
 
 branch_size = 5
 Branch_list = []
 
-account_size = 350
+account_size = 360
 Account_list = []
 takenUsername = set()
 
 takenAcc = set()
+# total Employee is same as Account_size
 EmployeeDict = {
-  "Doctor": [0,100,{}],
-  "Nurse": [0,50,{}],
-  "Staff": [0,200,{}]
+  "DE": [0,100,{}],
+  "NU": [0,50,{}],
+  "ST": [0,200,{}],
+  "AD": [0,10,{}]
 }
 
 takenEmail = set()
+takenPhone = set()
 patient_size = 1000
-patient_list = []
+patient_list = {}
 
 DefaultDentist = {}
 
@@ -32,9 +34,20 @@ room_list = []
 
 Drug_size = 300
 Drug_list = []
+takenDrugName = ()
+File = open("drugName.txt", "r")
+drug_names = [line.rstrip('\n') for line in File]
+random.shuffle(drug_names)
 
+def gen_price(min, max) -> str:
+    res = fake.pyfloat(min_value=min, max_value=max, right_digits=2)
+    return res
 
-
+def gen_drugname(max_length: int) -> str:
+    res = ''
+    while res == '' or len(res) > max_length or res in takenDrugName:
+        res = random.choice(drug_names)
+    return res
 
 def gen_roomName() -> str:
     return random.choice(["N'Phòng nhổ răng'","N'Phòng trám răng'", "N'Phòng trồng răng'"])
@@ -76,7 +89,11 @@ def gen_company(max_length: int) -> str:
     return res
 
 def gen_phone() -> str:
-    return '0' + ''.join(random.choices(string.digits, k=9))
+    res = '0' + ''.join(random.choices(string.digits, k=9))
+    while res in takenPhone:
+        res = '0' + ''.join(random.choices(string.digits, k=9))
+    takenPhone.add(res)
+    return res
 
 def gen_gender() -> str:
     return "N'Nam'" if random.randint(0,1) == 0 else "N'Nữ'"
@@ -88,7 +105,7 @@ def gen_date(min, max) -> str:
     return str(res)
 
 def gen_nationalID() -> str:
-    return fake.country_code()
+    return '0' + ''.join(random.choices(string.digits, k=11))
 
 def gen_sentence(max_length: int) -> str:
     res = ''
@@ -101,6 +118,9 @@ def gen_datetime(min, max) -> str:
     while (res == '' or datetime.now().year - res.year < min or datetime.now().year - res.year > max):
         res = fake.date_time()
     return str(res)
+
+
+
 
 
 # for _ in range(100):
