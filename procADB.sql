@@ -60,7 +60,7 @@ GO
 CREATE or alter PROCEDURE insertDrugAllergy
 	@patient_id CHAR(5),
 	@drug_id CHAR(5),
-	@drug_allergy_description char(50)
+	@drug_allergy_description nvarchar(50)
 AS
 BEGIN
     IF NOT EXISTS (SELECT * FROM Patient WHERE patient_id = @patient_id)
@@ -81,9 +81,9 @@ END
 GO
 
 CREATE or alter PROCEDURE insertContradiction
-@patient_id CHAR(5),
-@drug_id CHAR(5),
-@description NVARCHAR(50)
+	@patient_id CHAR(5),
+	@drug_id CHAR(5),
+	@description NVARCHAR(50)
 AS
 BEGIN
     IF NOT EXISTS (SELECT * FROM Patient WHERE patient_id = @patient_id)

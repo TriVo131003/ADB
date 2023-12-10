@@ -48,7 +48,7 @@ for i in range(branch_size):
     Branch_list.append(branch_id)
 
 final_command = command.format(temp)
-cursor.execute(command.format(temp)) # INSERT THE DATA
+cursor.execute(final_command) # INSERT THE DATA
 File.write(final_command) # GENERATE DATA SCRIPT
 
 #--------------Account-------------------------------
@@ -113,7 +113,7 @@ for i, empID in enumerate(EmployeeDict['DE'][2].keys()):
     temp += ",\n" if i != len(EmployeeDict['DE'][2]) - 1 else ";\n"
 
 final_command = command.format(temp)
-cursor.execute(command.format(temp)) # INSERT THE DATA
+cursor.execute(final_command) # INSERT THE DATA
 File.write(final_command) # GENERATE DATA SCRIPT
 
 #-------------------Nurse----------------------
@@ -127,7 +127,7 @@ for i, empID in enumerate(EmployeeDict['NU'][2].keys()):
     temp += ",\n" if i != len(EmployeeDict['NU'][2]) - 1 else ";\n"
 
 final_command = command.format(temp)
-cursor.execute(command.format(temp)) # INSERT THE DATA
+cursor.execute(final_command) # INSERT THE DATA
 File.write(final_command) # GENERATE DATA SCRIPT
 
 #-----------------Patient-----------------------
@@ -154,7 +154,7 @@ command = '''
 temp = ''
 for i in range(1, patient_size + 1):
     pa_id = f"{i:05}"
-    temp1 = f"EXEC insertGeneralHealth '{patient_list[pa_id]}','{gen_datetime(6, 10)}','{gen_sentence(30)}';\n"
+    temp1 = f"EXEC insertGeneralHealth '{patient_list[pa_id]}','{gen_datetime(6, 10)}',{gen_sickness()};\n"
     temp += temp1
     cursor.execute(temp1) # INSERT THE DATA
 
@@ -174,7 +174,7 @@ for i in range(1, patient_size + 1):
     temp += ",\n" if i != patient_size else ";\n"
 
 final_command = command.format(temp)
-cursor.execute(command.format(temp)) # INSERT THE DATA
+cursor.execute(final_command) # INSERT THE DATA
 File.write(final_command) # GENERATE DATA SCRIPT
 
 #---------------------Room----------------------------
@@ -190,7 +190,36 @@ for i in range(1, room_size + 1):
     temp += ",\n" if i != room_size else ";\n"
 
 final_command = command.format(temp)
-cursor.execute(command.format(temp)) # INSERT THE DATA
+cursor.execute(final_command) # INSERT THE DATA
+File.write(final_command) # GENERATE DATA SCRIPT
+
+#----------------Branch_Room------------------------
+command = '''
+INSERT INTO Branch_Room (branch_id,room_id)
+VALUES {0}
+'''
+temp = ''
+for i in Branch_list:
+    branch_room[i] = []
+    
+def total_list_size(dictionary: {}) -> int:
+    return sum(len(value) for value in dictionary.values())
+
+while total_list_size(branch_room) < room_size:
+    branch_id = random.choice(Branch_list)
+    room_id = random.choice(room_list)
+    good_pair = True
+    for roomList in branch_room.values():
+        if room_id in roomList:
+            good_pair = False
+            break
+    if good_pair == False: continue
+    branch_room[branch_id].append(room_id)
+    temp += f"('{branch_id}','{room_id}')"
+    temp += ",\n" if total_list_size(branch_room) < room_size else ";\n"
+
+final_command = command.format(temp)
+cursor.execute(final_command) # INSERT THE DATA
 File.write(final_command) # GENERATE DATA SCRIPT
 
 #--------------------Drug---------------------------
@@ -199,19 +228,163 @@ command = '''
 '''
 temp = ''
 for i in range(1, Drug_size + 1):
-    drug_id = f"{i:05}"
+    drug_id = f"DR{i:03}"
+    Drug_list.append(drug_id)
     stock_quantity = random.randint(1, 10000)
-    temp1 = f"EXEC insertDrug '{gen_drugname(30)}','{gen_sentence(50)}','{gen_date(0, 2)}','{gen_price(10.0, 100000.0)}','{stock_quantity}';\n"
+    temp1 = f"EXEC insertDrug '{gen_drugname(30)}',{gen_indication()},'{gen_date(0, 2)}',{gen_price(10.0, 100000.0)},'{stock_quantity}';\n"
     temp += temp1
-    cursor.execute(temp1) # INSERT THE DATA
+    try:
+        cursor.execute(temp1) # INSERT THE DATA
+    except:
+        print(temp1)
+        print("Bug insertDrug")
 
 final_command = command.format(temp)
 File.write(final_command) # GENERATE DATA SCRIPT
 
-#-------------------
+#-------------------Contradiction------------------------
+command = '''
+{0}
+'''
+temp = ''
+for i in range(1, patient_size + 1):
+    pa_id = f"{i:05}"
+    contradiction_list[pa_id] = []
+for i in range(1, contradiction_size + 1):
+    patientList = list(patient_list.keys())
+    pa_id = random.choice(patientList)
+    drug_id = random.choice(Drug_list)
+    while drug_id in contradiction_list[pa_id]:
+        drug_id = random.choice(Drug_list)
+    contradiction_list[pa_id].append(drug_id)
+    temp1 = f"EXEC insertContradiction '{pa_id}','{drug_id}',{gen_symptoms()};\n"
+    temp += temp1
+    try:
+        cursor.execute(temp1) # INSERT THE DATA
+    except:
+        print(temp1)
+        print("Bug contradiction")
 
+final_command = command.format(temp)
+File.write(final_command) # GENERATE DATA SCRIPT
 
+#-------------------Allergic------------------------
+command = '''
+{0}
+'''
+temp = ''
+for i in range(1, patient_size + 1):
+    pa_id = f"{i:05}"
+    allergic_list[pa_id] = []
+for i in range(1, allergic_size + 1):
+    patientList = list(patient_list.keys())
+    pa_id = random.choice(patientList)
+    drug_id = random.choice(Drug_list)
+    while drug_id in allergic_list[pa_id]:
+        drug_id = random.choice(Drug_list)
+    allergic_list[pa_id].append(drug_id)
+    temp1 = f"EXEC insertDrugAllergy '{pa_id}','{drug_id}',{gen_symptoms()};\n"
+    temp += temp1
+    try:
+        cursor.execute(temp1) # INSERT THE DATA
+    except:
+        print(temp1)
+        print("Bug Allergy")
 
+final_command = command.format(temp)
+File.write(final_command) # GENERATE DATA SCRIPT
+
+#------------------ToothSurface----------------------------------
+command = '''
+INSERT INTO ToothSurface
+VALUES ('L',N'Mặt trong',N'Bề mặt răng hướng vào trong'),
+       ('F',N'Mặt ngoài',N'Bề mặt răng hướng ra ngoài môi'),
+       ('D',N'Mặt xa',N'Mặt cạnh răng nằm về phía xa'),
+       ('M',N'Mặt gần',N'Mặt cạnh răng nằm về phía gần'),
+       ('T',N'Mặt đỉnh',N'Diện nhai đối với răng hàm'),
+       ('R',N'Mặt chân răng',N'Phần chân tiếp xúc với nướu');
+'''
+cursor.execute(command)
+File.write(command)
+
+#------------------ToothPosition-------------------------------
+command = '''
+INSERT INTO ToothPosition
+VALUES {0}
+'''
+temp = ''
+for i in range(1,5):
+    toothID = f"{i:02}"
+    temp += f"('{toothID}',N'Răng cửa',N'Răng cửa trên'),\n"
+for i in range(5,9):
+    toothID = f"{i:02}"
+    temp += f"('{toothID}',N'Răng cửa',N'Răng cửa dưới'),\n"
+for i in range(9,11):
+    toothID = f"{i:02}"
+    temp += f"('{toothID}',N'Răng nanh',N'Răng nanh trên'),\n"
+for i in range(11,13):
+    toothID = f"{i:02}"
+    temp += f"('{toothID}',N'Răng nanh',N'Răng nanh dưới'),\n"
+for i in range(13,17):
+    toothID = f"{i:02}"
+    temp += f"('{toothID}',N'Răng hàm nhỏ',N'Răng hàm nhỏ trên'),\n"
+for i in range(17,21):
+    toothID = f"{i:02}"
+    temp += f"('{toothID}',N'Răng hàm nhỏ',N'Răng hàm nhỏ dưới'),\n"
+for i in range(21,25):
+    toothID = f"{i:02}"
+    temp += f"('{toothID}',N'Răng hàm lớn',N'Răng hàm lớn trên'),\n"
+for i in range(25,29):
+    toothID = f"{i:02}"
+    temp += f"('{toothID}',N'Răng hàm lớn',N'Răng hàm lớn dưới'),\n"
+for i in range(29,31):
+    toothID = f"{i:02}"
+    temp += f"('{toothID}',N'Răng khôn',N'Răng khôn trên'),\n"
+
+temp += f"('31',N'Răng khôn',N'Răng khôn dưới'),\n"
+temp += f"('32',N'Răng khôn',N'Răng khôn dưới');"
+
+final_command = command.format(temp)
+cursor.execute(final_command)
+File.write(final_command)
+
+#------------------------Treatment-----------------------------
+command = '''
+INSERT INTO Treatment
+VALUES {0}
+'''
+temp = ''
+tempF = open('treatment.txt','r',encoding='utf-8')
+treatmentStuff = [line.rstrip('\n') for line in tempF]
+treatment_size = len(treatmentStuff)
+for i in range(1, treatment_size + 1):
+    treat_id = f"{i:02}"
+    treatment_list.append(treat_id)
+    temp += f"('{treat_id}',N'{treatmentStuff[i - 1]}','{gen_sentence(30)}',{gen_price(100000.0, 50000000.0)})"
+    temp += ",\n" if i != treatment_size else ";\n"
+
+final_command = command.format(temp)
+cursor.execute(final_command) # INSERT THE DATA
+File.write(final_command) # GENERATE DATA SCRIPT
+
+#----------------------TreatmentTooth-----------------------------
+command = '''
+INSERT INTO TreatmentTooth
+VALUES {0}
+'''
+temp = ''
+cnt = 0
+for toothID in toothPosList:
+    for treat in treatment_list:
+        cnt += 1
+        temp += f"('{toothID}','{treat}',{gen_price(100000.0, 50000000.0)})"
+        temp += ",\n" if cnt != treatment_size * 32 else ";\n"
+
+final_command = command.format(temp)
+cursor.execute(final_command) # INSERT THE DATA
+File.write(final_command) # GENERATE DATA SCRIPT
+
+#---------------------TO BE CONTINURE--------------------------------
 
 
 

@@ -1,372 +1,372 @@
 
 INSERT INTO Branch (branch_id,branch_name,branch_address,branch_phone)
-VALUES ('01','Solis-Mathews','USNS Hernandez, FPO AP 10860','0261846956'),
-('02','Williams Ltd','96988 Hall Flats, West George','0111274781'),
-('03','Clark Group','577 Torres Crescent, Markhaven','0016971995'),
-('04','Hopkins Group','7684 Breanna Place, Port Eric','0747853386'),
-('05','Bass-Johnson','USCGC Waters, FPO AA 61164','0069008472');
+VALUES ('01','Peterson-Mays','16663 James Greens, Larryhaven','0809220535'),
+('02','Johnston-Blair','244 Johnson Wells, Suarezport','0321157432'),
+('03','Jimenez-Snow','7435 Diaz Road, Anthonyberg','0534734416'),
+('04','Schmidt-Barton','072 Mcclain Pine, New Clayton','0829641181'),
+('05','Knapp-Shields','USNV Shaw, FPO AA 51803','0664772698');
 
 
-EXEC insertAccount 'erica70','e6c3da5b206634d7f3f3586d747ffdb36b5c675757b380c6a5fe5c570c714349';
-EXEC insertAccount 'hodgeeileen','1ba3d16e9881959f8c9a9762854f72c6e6321cdd44358a10a4e939033117eab9';
-EXEC insertAccount 'prodriguez','3acb59306ef6e660cf832d1d34c4fba3d88d616f0bb5c2a9e0f82d18ef6fc167';
-EXEC insertAccount 'nbates','a417b5dc3d06d15d91c6687e27fc1705ebc56b3b2d813abe03066e5643fe4e74';
-EXEC insertAccount 'jonesrebecca','0eeac8171768d0cdef3a20fee6db4362d019c91e10662a6b55186336e1a42778';
-EXEC insertAccount 'perezbruce','5c4950c94a3461441c356afa783f76b83b38fd65f730f291403efbcc798acc1f';
-EXEC insertAccount 'erika56','1526f5e0e31d42fe1c3664ce923ac22ac1333417a90b32043797ac454cd03112';
-EXEC insertAccount 'lowepatricia','c8fea5b0b76dc690feaf5544749f99b40e78e2a37c0e867a086696509416302a';
-EXEC insertAccount 'phamjeremy','2d4589473fb3f4581d7452cd25182159d68d2a50056a0cce35a529b010e32f2b';
-EXEC insertAccount 'rlopez','b35892cb8b089e03e4420b94df688122a2b76d4ad0f8b94ad20808bb029e48a5';
-EXEC insertAccount 'xking','8057f787ebd8b4f9d40f53d7fbbfcbdde7067c1a074435b68f525b3de0e2ac2b';
-EXEC insertAccount 'carrillotina','fdac810d0c09f25c5ddcee9976ab1f1ae1973dba7c65152d95b0937bc2a6c883';
-EXEC insertAccount 'jacksonpatrick','1e53de2a2b4ab888cc24002ef8832d433b21956ab83ddeef989c8224b5c8f9f2';
-EXEC insertAccount 'andreameyer','b78f24953963ac5ed773d6ec83120e3b1a65510201dc09ed2ed9e9781ba88870';
-EXEC insertAccount 'clinebryan','b5a4ec869015095060b1171791334513f741177c4011e2c5c36e3e37a5ff8e5f';
-EXEC insertAccount 'zyoder','f0c28ba3fd9e0dcdcd0470acfcb98cc5a58d7d93422dbbefb930455ef714c87d';
-EXEC insertAccount 'fgay','4a6b7fa040bcfc734a113fee84d3789c0a626d70d029afad0d1c3e7b6c562e14';
-EXEC insertAccount 'katherine11','b99ddd77e59c96b13b64b3abe1902db4c0a76dabf8622aa6c71f8f5670be6625';
-EXEC insertAccount 'moralesbrian','871431053023291d24b403f1f9d761c6f01b3050a0a83cd9d9759a970f8d4d92';
-EXEC insertAccount 'xtownsend','51d11024031a8951b4722671adfc8587538f5e5417206e7862e60752758a5c35';
-EXEC insertAccount 'taylorchristine','2d6b3bb57cb9e22fa36516172ef096b30ae00d08eedc1499c599b6269975521d';
-EXEC insertAccount 'lbennett','d0f82756c4d40d20e1fdbc90cf4da4adff02fe23b355687525880514642f764e';
-EXEC insertAccount 'harrislauren','8893186d24cce07e1c82f2e020d41177e699318b4be9535483fdf55edf58cd50';
-EXEC insertAccount 'michelleevans','cafdc894eacc597ad76db1a750ccb876d4ed69c73b7d3d23f5e3a9e3b5c9fc2e';
-EXEC insertAccount 'marcus00','0028e1c0d2c60966390545414567d33bca9f0165fece6d0109c59a3f29b5fdd0';
-EXEC insertAccount 'robinsondeborah','45e17065ddc6fb3a682f7732df5804652952dbe1f5ca5377a661515a8fcf66be';
-EXEC insertAccount 'bradley31','43b3ec9ea3961a319d37b4cc775d3f43f68709b62a93db10dd6c598137f28732';
-EXEC insertAccount 'charris','034a0cdf079dfa3ca924e07e3c509bbf50768d1949b021c0ea0030cff80ba4d1';
-EXEC insertAccount 'bjames','53f6f072e26d36b9e55d5dc828872856d5286f18ce3818d367f9e4473e464a66';
-EXEC insertAccount 'gjohnson','85fcbe6bf830f23209ea6a932921e8da31a653a24a20cb84e75c4997e505690b';
-EXEC insertAccount 'dylan54','3b3ad733c8571384c133694595c33d96c638b36f08a484bd0ad38bf312fdb294';
-EXEC insertAccount 'lwoods','451a8149ebd58dbd064e3337c6de5d4f4bb08cd70bbbd48d62a205bd706b6bb0';
-EXEC insertAccount 'nolantiffany','0756810289814362efbea8bb826fea0a7bc4318a7f22a4b27b48290cd39951a3';
-EXEC insertAccount 'diana80','94cd5db06baf087fd56c0042adc1deb162d271acfb8b3eb0277069517998d489';
-EXEC insertAccount 'michelelambert','5a66c7ba1398dd71c92a77cc7647c4183e6bf97b227e441bb2674a319b184e63';
-EXEC insertAccount 'ramseybradley','133f8a05107e5442771c85da3dec70050ae5f3273849326b4a4e2ceaab2ef058';
-EXEC insertAccount 'nkane','1a31ac086ebf1341c916929e6d982767cd8568887d7c930ba8abd062afa08eac';
-EXEC insertAccount 'katherinethomas','b64171fda74426604480b9bf7c10ccdc2ebc80266c8667c42346f54ce87d4dec';
-EXEC insertAccount 'flopez','099646084abbbc2c403c480bea87e7de23ce18db73a3e28251effef3ed49f1ea';
-EXEC insertAccount 'eochoa','d88a53cd8ffe65ab18d2c62882479559aa781642ce7a8d340b22fc0a637b0359';
-EXEC insertAccount 'qchen','a8a5146b1f97c2c8987ccb3a87d2f30b8aa258c2a32cb96115bf381d42df875c';
-EXEC insertAccount 'meagangriffin','de3543c757d459090b9adaf9a80a54d54724a0f1600d4c77d6017dde58cf1189';
-EXEC insertAccount 'fodonnell','db9aa0719dbf5cac40e44b268042014e9bc28b4134df9051a35f8c64f6603b6f';
-EXEC insertAccount 'jeffrey16','147eb7dd0f4c59120be8adb20f9dc4d4a0ccb27a0d48d7546dfa171dd980f075';
-EXEC insertAccount 'daltongamble','64bf83fcf172a284e3db6b4cc76bb175184ee9dd57e77f0421e3e401ea3858e0';
-EXEC insertAccount 'clarkejoseph','3f1b954c84d8216e09ae793664571dedb1e1bcc9a2bfdc2b6dc58db9a24fa7de';
-EXEC insertAccount 'lschroeder','dbb70b94b6b192a1085e8056872daa4eb24002d47c82e88b1323f1a5882567ba';
-EXEC insertAccount 'hartmanalyssa','ffe4daf45af0e803fbe1fba2de5c7f7644f30b71ddb082100779d7884e0291c2';
-EXEC insertAccount 'achurch','a0c69ae7ad7629347d41a89d9a558b26bd9b126a3a183f3498444843acd7270d';
-EXEC insertAccount 'jerry36','be46e03449534372e45f1abf511f78148625cf11d99f2f550e2f32b3a551dfb6';
-EXEC insertAccount 'urhodes','cc35e4b303c84633f2e64c1fe30a9c2f9e0f1dcdd53d1a748451b83164db475a';
-EXEC insertAccount 'millstammy','f511f615cd867553edd2fc66f4dc34441851f699cc1457f767c5ec0bad8cd250';
-EXEC insertAccount 'smithkaren','f75b853a4521962ca5d349e4ca4cb69dce2dbfef61731cb9d14f1f2f1b6499fe';
-EXEC insertAccount 'rramirez','db383db8666c1c7f372e49b801a0405e0dd4193ab772163521b16e78879fa334';
-EXEC insertAccount 'tylermaynard','d6f7adababfd90706cc787591cdaf547f91d53abcb9008a180d90fc3d4f651e2';
-EXEC insertAccount 'raymond77','bacb5d03bee1af445b7cc73ba8db52a7fc01d474327c87899831ffe3b4c3543b';
-EXEC insertAccount 'taylorsteven','3b356cdbaeb3d03a6b6f713a048489d62fd63b4a8fd0c70a976cb0b70c119e46';
-EXEC insertAccount 'bchandler','daa7c4bc3f1506b52b2bcc7864db9a96aee3ec1a8a68b29c5db60de1f8a6918b';
-EXEC insertAccount 'johnnymccormick','e5e0e771c99778aef6f0046adb86a3d3e3ede2c68f43aae6b4ee9d498709328b';
-EXEC insertAccount 'fhuerta','598ed9422e3d9c328f48cafc2c66a66a3d393b64290f7741d60e6e22c03ca031';
-EXEC insertAccount 'kelli93','da3df0f1c138cc7b9e79e218587a605e12b7a9b9ac24e1287da5ed056cf10c22';
-EXEC insertAccount 'barajasmegan','9b857dc1d1dc03b131bdb429b972f5f28c7d72b8466a22d54c359c48d19551fe';
-EXEC insertAccount 'ewright','7e251ea07d59cd5fc9d7d1dc4225104e474b93d6c6881797dfbfa010774d4acb';
-EXEC insertAccount 'johnwalters','51031e17ce0a58242bf97f01a2883d077c6dd21f22674ee500dbfb60228851e7';
-EXEC insertAccount 'monique72','3c62426f46ebb414ff53540c6f1af32639c28b434126ae98b9f1651dd5e4fd4a';
-EXEC insertAccount 'hamptonrichard','06599c96e52ff54f21e65cec89df4b96ce519704136d6f7246a56be613eed8fb';
-EXEC insertAccount 'david77','8a110e75a8142ab756babe02160548ed6c254ae3fd931b297aa4edba91065732';
-EXEC insertAccount 'rhondamcdaniel','5a583fab00aa1c17acaad80b2b9b5a16a8563e7e66808bf4b4acbfb55d9b85d4';
-EXEC insertAccount 'tony24','667d45d6d55c4fe6a7239bb554854e3b8fc0b392abea73864e91104bb1b4581d';
-EXEC insertAccount 'boothkelly','44b6dadf9835ff29d5342da14dfaf76e3d828081a1704b131baa355f950e6047';
-EXEC insertAccount 'james28','a06afaf373a81a1bcd1641fdd0f8b9c2c0d7104171abafbd80d11e933a9c6a13';
-EXEC insertAccount 'sandra40','79db1e22563af60be55a3717827926b76139d2428cbe693eba1643c2798e048d';
-EXEC insertAccount 'jasmine26','25ac9b17f8113ceda4e3b18b639ac0c5821fa6cf61e31a4b2cafec4573b89522';
-EXEC insertAccount 'colemanchristina','efacf97ed63d8d618e5c1f03e2fbd3656ed4c97ba04abf6db791534b425641c2';
-EXEC insertAccount 'xibarra','aaa88f12093ddca8064cdb97bf7635d7cd82c94d264121133f79f24e9b645bf1';
-EXEC insertAccount 'john31','55e315face2c7bcfc4b1d43be3a863e3bbb565ad3dafe30a9dd45b51b190be9d';
-EXEC insertAccount 'kenneth03','2590d18604c282ff195459db33d0ae2caab98b14d4cbfdfd4dc3ed4923bf31b8';
-EXEC insertAccount 'nstanton','70dfb731f9ecfb0c9015b28838281e2a3cde900a791c45532154ddb5a95ed31b';
-EXEC insertAccount 'katherine58','f46c534ea1cb330122334be00303592a10bcbbc238d1b11e1b498d4486d13755';
-EXEC insertAccount 'nicolewilkerson','a5276c24114971eceb4d5149894034741bcf22825b30c39942ff63007e031956';
-EXEC insertAccount 'hterry','7137bc5132a11c4937a830c4f594a551b18d0764f66f8478de3db48377f2b611';
-EXEC insertAccount 'cynthiayoung','ca619acdadd8eb0f598c954031b5f359a2fbd4fe0179eb02acfeab2ad373c999';
-EXEC insertAccount 'mwilliams','dd76076f40644e9e57f7459bfc37b2ef8b7084bda5a3127c24a62c86dd45eb0b';
-EXEC insertAccount 'dennis86','11ee91bdbb90b967d18e45226bd3bc17d72a85a4486315b3568d070722445fe1';
-EXEC insertAccount 'scain','cfecdf5846f8e8279f4dcf79a2135308e11c0d283175a2fb79b33b76f487cb24';
-EXEC insertAccount 'johnpark','3c0c8e2f0527574ed275f4fc831af606b283370490f9c39c7389fb5d16dd6ac8';
-EXEC insertAccount 'zacharygraham','4a2efe616f41f27f583d7e1e628a7b019f2b2603677ae0216d14559eefb83975';
-EXEC insertAccount 'parkertammy','1d45a36925bcb8f729f8f06ee0ec689f440cc6b08c3a0573ed12e10104e1e9a0';
-EXEC insertAccount 'henrykenneth','9d57ee06aac896609727855add2cfc3d9c50cd545395974cdee219c91e29fd25';
-EXEC insertAccount 'kristie20','a4273f882cab7a89e7fa8e5a1298799b62233ada8a93f880f58bbd87db44d6a3';
-EXEC insertAccount 'bsmith','7f6ceca338f7fe1bb409870c95cbf5009115df953af77a91ef912a11cf6423c7';
-EXEC insertAccount 'parkerrobert','905026a6ddab21a9d1dca17cc4f47b843eccd1c4806f7f3c59b88cdac12e339f';
-EXEC insertAccount 'weavercathy','3dcc4d43a91ae471be9fb0dfb7e7a44dcbaf8125b389d65d38604ec5582825ec';
-EXEC insertAccount 'aaron24','3fdd6e2fcae488c7c7818992ad08249cd0f6576f6ff846bcecaa816e002cde3c';
-EXEC insertAccount 'joshua83','b3f20ff60a6e1eda26f8c412e7173c7ee7f5b3a1124b87a38d3deb63274c1a61';
-EXEC insertAccount 'watsontyler','38ee64c8e2536e41e2543266f6a5216747b24c8b8ada7d5f7cfba8b1e80752fb';
-EXEC insertAccount 'peterwhitney','7f5106053c87018f57187a0a485dedacb2ef37f08f05ab2313f23217a9ee928b';
-EXEC insertAccount 'sabrina17','125e175312b42ca54475207f1ad47df9ac421dd758fcc5c2ab19ae31e451cc53';
-EXEC insertAccount 'allisonashley','ab2f50fe825bc3a9a8b649f173af23be3a052db9b410fcb0127e50ae9c356ba7';
-EXEC insertAccount 'gduncan','29bf72f8d89f83e2fca11f01a530b0c39058b8fd0b0563aca173d2c624c71ffb';
-EXEC insertAccount 'treed','2bd2a833384945be5a4d05109f418acbc78cc41d7640842f0e881ba892651296';
-EXEC insertAccount 'leelarsen','68b5aa742a3c02d41ca5c6582f9eb685ae72218e0c93680f91d51086d45e67df';
-EXEC insertAccount 'robertknox','9e436b2455b7d1b818d56b04b8985d84ac27e7fb45630e579f7b0695430fbab5';
-EXEC insertAccount 'pedro99','34158b36b0dccb351ad920cf5ebb74820d7825119c647b16db4f535bfef25c65';
-EXEC insertAccount 'reginald11','acb3085ac0fa0ce03af7e46da8e5ac3bbb2c03d6a28cfa95c778daa5d525412b';
-EXEC insertAccount 'jmcmahon','d0f775036f29ba7540be994605826ab25b7f153a1d8157e5e09218b8fa59aa91';
-EXEC insertAccount 'jonathan28','225adbca5f1445b65f065079fd6b3fdda829b6e660554b6200e86fe4a129672e';
-EXEC insertAccount 'nancy13','02548935a13223836dc0fdfa7574d4adc6bd5b60a99296cc54cefe1e7103fbcd';
-EXEC insertAccount 'johnsondawn','cf78821e30a469451bbb37eb5bd9976ea68d77ea3dd54ac3dfd83de5cf91eba5';
-EXEC insertAccount 'jennifer30','8f3b97e5c348a48d4cde1cf58b7746221cc4f23b1471cb7b530a4e4b7ac5b887';
-EXEC insertAccount 'nguyenlori','b2c56341cc2b9f8bf898bd7528dd39e641b51c4fbd51f241b46ad70872dd1b99';
-EXEC insertAccount 'millersusan','a1f5626f394c753975a9060627b1894e2c82436d7d9fb6103f58455641771682';
-EXEC insertAccount 'monica38','d2d8fdd3e123c147ca908c7fec41c7fe5746e7cc1b90e3507859ab0a7a0212d1';
-EXEC insertAccount 'carmen77','6a4ca776c3ef0c0d69107200ff1ff66217511aab72e032962fb5d6c01aabb158';
-EXEC insertAccount 'jesusvasquez','62fbf022ff434c1cf42eed2a12c109388af61ea661a1cf75e8a16b45f0063c77';
-EXEC insertAccount 'jonesjames','747ff88fd5750ff3ff02e7b5bd02508eb0c9dbaee5bb5d472fc9393878c8a733';
-EXEC insertAccount 'vickikelley','96a194c82bf3b9e984cf3740c3a29632c9f2ac55a35d46a5c719c6ff65823d24';
-EXEC insertAccount 'mcmahonlee','b48166b6083b5cc4becda5bf00282abf57c1166b1d4e9c65f59be95659320e39';
-EXEC insertAccount 'phowe','3f5a78fdff13749416cd1f00e6919427a387c843f78e3fe11dda1f471198276e';
-EXEC insertAccount 'nmartin','8fca772f847cd309ee9f795d10aa141ac4bef4d87f4b80272e2573cd51010ea1';
-EXEC insertAccount 'reginaldmiller','3fe239dfb6207aa4e467245cabc3a8221e5f15f0414b3b60371efe7a05aaf1b4';
-EXEC insertAccount 'laurenespinoza','882363cd1c89dc3169b92a33947bb42ad60e975b8a4d177989c6ae2f013de721';
-EXEC insertAccount 'smcdonald','9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c';
-EXEC insertAccount 'xbradley','67da66db02bbd90735c73e948bd5b8222a60a884554b217eb066f89b70c264e8';
-EXEC insertAccount 'saundersashlee','51e126a6e7bdec24c7e7b07e1c86c5fd6d1fc674ed560c5b2133335384a54c95';
-EXEC insertAccount 'eric27','94fdd9e803f50ad10e634eed483d01f83db8326aa393a68cedb6e2d32c996ade';
-EXEC insertAccount 'daniel53','b2aa39291446250a4963b308653abb9fc746c72777759f3e6708fa6cf8fb1900';
-EXEC insertAccount 'smithsheri','c9148c9fd5a65e12b6d924efdba0f36195c78b9c1c7cdd4755817daf32dc174f';
-EXEC insertAccount 'wharris','2a8eccf0310f27a038297a74b99fe76a7887ce332d8f73610cab88f5e8fac637';
-EXEC insertAccount 'kristinebrown','6f3c808b0c349bf9310731e29aae8beb5c978a73878e4d3cdc5c7b7e7423bb18';
-EXEC insertAccount 'davidjenkins','c1d095050623a101f1be6e2da08f4da86227310fb360dc566551de880efc22e3';
-EXEC insertAccount 'edward69','309379267483b31fea2fa71be956c1b5992f9107ae601d46e15275152e293f35';
-EXEC insertAccount 'michaelpace','b842b6339c1900efb74f09fd8dc048bb50c1e7bcb179964ed31207c0e9c7decc';
-EXEC insertAccount 'hhall','2e8f49f90946f2de44e4e900d85ad1da5887c5feaff24e467f06742ffeab686b';
-EXEC insertAccount 'jjennings','9b1b6a52450435b5c61acfc1765542d8bb8d4e023327b2a87827fb89cab2bff3';
-EXEC insertAccount 'jennifershah','4450bf0c02623f832c7f7f93fc067f085bc95162d345fe1e95e640b294735e0a';
-EXEC insertAccount 'rodrigueztracy','00f78aff5b35171a4a10ac9bad5eccc121ac4e678cb74bab0e71bfb972ab7ad6';
-EXEC insertAccount 'angelajones','bc647ef28b901e09e8b5c373eca43ba2c64611247d70ecc973dbbfa49a385e53';
-EXEC insertAccount 'claytonhenry','b883dc59e83d063f0ad1c5fc917d5c95df10349c2a5eaa0054d40448d0e30261';
-EXEC insertAccount 'richmondbianca','c5585b8e6481359e9115ee634e6e7d347fdd2cce19c36a450f388643d8fbf3d9';
-EXEC insertAccount 'wardalexandra','cd75d9010f6f120a32361ba9e26396fdab2f2122602fabe818321f42f09f5d20';
-EXEC insertAccount 'shepherdlouis','b2db914133c89e6a0798c08136a40e0810b869816c44aab5f2c98f4bd210eac3';
-EXEC insertAccount 'lukehill','c3b87469726089da03985e426738badfc40b00048c383caeb8784762a9c760dc';
-EXEC insertAccount 'schneiderjared','8a46261b0b1a264e19114bfa09c64b289dc93819d9978349177cbfc1c7098538';
-EXEC insertAccount 'victoria89','0738f94c476bddc7e78c286ebe8836875e9a247b192badf4a1cda2307be6861f';
-EXEC insertAccount 'gramos','2b9a57088cbdf4386bafedc5a3653538613587198532c24e7a40da3208150a77';
-EXEC insertAccount 'dwarren','7a6ae0b891d5473f1d239c21d41bbf01c9fb3c9e9f6579fda796053d8406e40f';
-EXEC insertAccount 'deborah38','228410cc8b122eb4ad2d8ec3b82a98e9f931ffd51f4b6d4631b44d38b0ba17cf';
-EXEC insertAccount 'maria26','8518dd4530c31281599093e6ff42f50024e516ed208eda80c8fef6214d0c5036';
-EXEC insertAccount 'david38','963f65f9d1a9bf30cf2102f2e6efcff7c9899537acc7831ce5270616052839ef';
-EXEC insertAccount 'kguerra','b9d7319cf037dc2cd01704356fe3671b449829653c56e8c93ef37d5189eaa655';
-EXEC insertAccount 'richardsonrebecca','e9488e9209629f0b61ba2f2cac89bc4741bd4fb21d3e408a012bcdb7a8cf7950';
-EXEC insertAccount 'zdudley','5419cfef2fdf2c0e240adc340b7930d43857389e775c5fb2cc36980b8521f2ce';
-EXEC insertAccount 'drobinson','cd16fa43071d6cfa25884d2caced1ce52efa59b92dfc99ab836813fc5e69db03';
-EXEC insertAccount 'christopherandrews','f1d4adbad69cc4f1271b9c9682db410a1741300d5ccc632f90faeadc8b934e66';
-EXEC insertAccount 'bookerdavid','b90397a77e0f5216feffa1392c9aea5d1cec0f513d237726725db4beaab4c79d';
-EXEC insertAccount 'kgould','67977a0a44852851c4b5f8efa40815f304e1bb4648c0ff0412ba9d420b6f6934';
-EXEC insertAccount 'ujones','da8977c150aeb01f6fd84d48fa7d2e4807bdd3512e03b9e9dff854de3094f970';
-EXEC insertAccount 'williamflores','444420659b079015d309e33d983c0466134da01b5884c18f6dacea3eae98ef82';
-EXEC insertAccount 'lisa99','00c1956e5d6c5de46388b9875730b0afa1d3107c9d1c9ac1dc072e1763c93f06';
-EXEC insertAccount 'leachmatthew','1971d8d564c23ec092839d6ea9fd36deecc0451a437d368fdf22b9ec4e6b92e5';
-EXEC insertAccount 'matthewbeck','ce0cc5d6aa577f8b966b4d738a85522a641734b4cd0eb96fac1fb149f32007a7';
-EXEC insertAccount 'yellison','14970d5553628849705c327b02159358c048af6b5b3d10154cb21436d6cfd84e';
-EXEC insertAccount 'gina56','4f40d5ea6bba1e84c6f18448cd1a7a316fc31b82c616843a4f312d2931734bc8';
-EXEC insertAccount 'egonzales','d185f2b0f80fa3187ced69ddd858127703af6ada6c73188921e71ecec29e3b86';
-EXEC insertAccount 'edwardsstephanie','c40832c56bc9882a6972a3aeee7beaa56bbfd68f2476800f01fac3027f886e41';
-EXEC insertAccount 'cyoung','f119146b406bd7b72461cc675b8a61e9e082e7e124f6e944a982547c8a847023';
-EXEC insertAccount 'megan69','5cba853b36ccafb52b3ad11d0c218dcff589c9168218c620a18fa094ebfa3ffe';
-EXEC insertAccount 'lmccarty','4af8d9659200e8d30d8a056a14b3eae088d64dd151fcff72ffcf3d08cc9b7977';
-EXEC insertAccount 'joefisher','f08c71d147cc34f4b144866232758aa35238d29f336aaa8f89c76408c1cf16fd';
-EXEC insertAccount 'thompsondaniel','a8e746a7f23319a9f705297e700980fd003907151770b570200bd74693ffc945';
-EXEC insertAccount 'fergusonmary','4e198562e9846d7db9edd6cf77fdff9330db7a23279d6d04ffcbc1c02680ecdd';
-EXEC insertAccount 'michele48','d20ffef6f9b9969c6a99eb65268a0d457f1631195375a3fc9ea2757c82f1c267';
-EXEC insertAccount 'rodneymoreno','3c970d58b00bbfbd11be99238412b8dc8c95392524057a7c79987502245bc813';
-EXEC insertAccount 'kmeadows','5aaf677bd8cfe27d494b927b5cd69431ddf92b3b037aac21889c432e5496bdb9';
-EXEC insertAccount 'wilsonerica','104266cc04dadae9683358555fa193734617b15804913ef965c74773bdbd575a';
-EXEC insertAccount 'johnalexander','5cd72b9bba9a46617799dd18304322f82e0e66e9fa3fcd3da9cdcb995cfbeddf';
-EXEC insertAccount 'jenkinsdavid','956faeec27b882d8aa972d50bfa99b11ab6f7856f67ab9ffafbe1b66241ef4c7';
-EXEC insertAccount 'stevensian','8e8225ca92553c420aea93fc2f8b5a143b9c9c1fc78f84e6a25dd18023aa7db3';
-EXEC insertAccount 'richard93','450bf5e97fa8f4f04d50d84ce7398963e5df9278226aa57c2988451a7274769e';
-EXEC insertAccount 'kristina25','e60f65cdc15dc09ab7e182cb569c1e4296dad5eb9540e75542eb47492fc81e7d';
-EXEC insertAccount 'jessewalls','5a258638f0a176640f9bd9a0faa8daeb403b83fcdf2deb2d4686d2f05938c29b';
-EXEC insertAccount 'jenkinsdarin','7714695bf057d6baa0e352409c96efd190286db4a2cbda4b2255937258fcb3ee';
-EXEC insertAccount 'cooperchristopher','a459eec8f81e241c105297bf0ace06d2810c5c0c3d2f6c30f624905396664f6d';
-EXEC insertAccount 'alexisthompson','deef99d335bbd310f5c6986922090e2ac487005ba1e84001a36f036652872b18';
-EXEC insertAccount 'joshua33','7dfb019cb9a337a188ddb4fee0b8e679c9d2479ac6b94c7c83bf9bd565d109ed';
-EXEC insertAccount 'john13','1bf3064b71d17cdbe7a756d45913e9715e93f6dbdb470dabe37f4c9f1247fc6a';
-EXEC insertAccount 'vdavis','4de66ca94812977400f463080d0f81a0016dc5ce29f4778009f4f0d12f48643a';
-EXEC insertAccount 'david36','1915ea8a41f31bdbb0b879253783585c0a001b84911f045bf150c4281cb54e6c';
-EXEC insertAccount 'vellis','7759c9a5a8b5474b76c7b5c00b3c04d6ca6cdeabbbc52e25f9a54f2556e59c0d';
-EXEC insertAccount 'smithjason','6d5b63fbb2a973497bdc9dc4a0c8010792bd51a8eb330491dc572e4bc2bf051b';
-EXEC insertAccount 'barrjack','4a31314b88ab8c6b07d92caaa0e4a7005592b1428057fe9529a7453a19fdae85';
-EXEC insertAccount 'agarcia','d99d67863f59e7edeba66002be4db1c98e286b60cfadbcb51698b17aa184b842';
-EXEC insertAccount 'randalltodd','e4c911e848bec00ba411ecd205d27b6491afb7ab09827d2e533715a144f5afd4';
-EXEC insertAccount 'amandaliu','e3f983a118f5555062edb40c37e8b4530bfb87c6c89c76004dd3cec7126796b9';
-EXEC insertAccount 'jesse89','45bd6b371d1011e47bb740399a7e081a7fcf9b75658a59407ece7badca23c34f';
-EXEC insertAccount 'matthew42','f0ce3dcabde8d6c2bb2db2f4855722a0de8086f0d25e938faf19242bf1cdd730';
-EXEC insertAccount 'stephaniethomas','409531cd7d31812ab58a30b6b8eb25642cf68dc4c8929a100b231f70553a4d42';
-EXEC insertAccount 'sullivansierra','0eaa0730cc0ee0f8c888a00450006d514664d528688c87cf42047f0269e1aa3d';
-EXEC insertAccount 'ronald73','311514b6345cd997bdb96acb5da71813c1f086ac3ee3319d74a0ef5e92555f33';
-EXEC insertAccount 'matthewdavis','da4846985ef84dc7ab646d011b05a5e76ada0e64085f9f6534cc511e3569ca50';
-EXEC insertAccount 'stevenwilson','b5cef39c429c739f715624213d975b1b5faca8323f2f0a2efbb98f39c5a44c09';
-EXEC insertAccount 'alexandragonzalez','f79f7a3c512dd25a34d3e52e705a2fcee1599b3189cd1aad42d46d8348f20060';
-EXEC insertAccount 'berrybenjamin','330cda373d6bb5afe204300f10b6ab8f44b8824d9784c0cb5e855e95a991eb33';
-EXEC insertAccount 'jmiddleton','1f1135f3ba54aa12d43979e55c0a5c7e82e3ba4bd6bb4c3e80029a2caec1234d';
-EXEC insertAccount 'alexawilliamson','acc0593572b2b490c790e49f60535e8bc23ebdc497b5793722593baa03bff36e';
-EXEC insertAccount 'collinsangel','0ad5a100673ce1b9178aad77a0b49eefb0c0c383cf00671076c8783bee924a16';
-EXEC insertAccount 'eperry','152fee8fc758d01fae98c591edc9093f316d2326310bbd4f83109558fea8baf3';
-EXEC insertAccount 'brandon59','bcea7c9de92839ee09bea59e96eda28bb8ae73c7b1f98a282455f7597ff38ecc';
-EXEC insertAccount 'adamreeves','6b56e8bf3feb2facc4ed8b7810666275681e4da0ba6435adbc764eeadd143bc5';
-EXEC insertAccount 'wmay','0c74539ebbeaaadfd3a528c276fb7d1f4247ab9c2eb3ba1509c9c04fda70d9a8';
-EXEC insertAccount 'lisa14','acda2617fe79a477d9ae94d9d3b5c5da59039b4e5433d8dee527a0c1a40990f1';
-EXEC insertAccount 'timothyprice','403846274e8a10397737432dff1df86750857f5c37d5cd49b174d6cc0b36d21d';
-EXEC insertAccount 'umartin','da241575fcbe3b28c504d211857f135403d2133983dd1811f62bcfcfc33eaad4';
-EXEC insertAccount 'jamie29','44593ad77d8ffa8545b81d7032b94f91af035b2f0b0b8cd32478d94bfb5345f8';
-EXEC insertAccount 'williethomas','6a345d6d21205d378449607e90542241f89753ff62e06b11ab6adefc789a0b8b';
-EXEC insertAccount 'lhenderson','f52515f3ee122a70da4a945943d4d4a5a9908b4a53f9cca2b7e170a765642109';
-EXEC insertAccount 'nicholassimmons','062d23aa42aeefef34827bb89039a3b72c912e3ed0f6ed00417a28cb07c6cace';
-EXEC insertAccount 'ericscott','cf3dafd9d161cdf8cf81368886e89ad677367a81a4e632cc0873adbce0278d92';
-EXEC insertAccount 'xward','280ef98070dcea4ee0c1c1bd4c2699f33aa96337329e68698eea548683ec9c0b';
-EXEC insertAccount 'cwhite','78bfe8abc6397f96d849516055335b749af6e5581103daaff95cb41b029b7561';
-EXEC insertAccount 'darinrivera','0be5449fd7e110e562888c7f6b2ceac607083936e4a8f286fcf9a2d672f73135';
-EXEC insertAccount 'andrewdean','643663941ceeeaea2cc8559048cd047dc2555cbbbfa7e8abff899b5db7ede88d';
-EXEC insertAccount 'rodney50','a8d1c5a1646001b31bdfdbafbba64d3bd04cf5a8c1fde1ca39cfac43937ee897';
-EXEC insertAccount 'shannoncarter','91186c578e957201f46f2fae580b9728ce27871831f8c11ebfb60b1108890d8e';
-EXEC insertAccount 'jared25','2c5e294fcca3fcf934db63d265c1fe2a714cc9c8ae431620105a622454ab332f';
-EXEC insertAccount 'anna46','bfe83893fbb96d01f08bafed5d593a118ea9c847712786a06c8c17dc0b90cfae';
-EXEC insertAccount 'edwardsbailey','f535a123ce07e46bc486033ca1006e2bee21f4061aadb94a5e228e92cd367334';
-EXEC insertAccount 'williamspenny','64fb7ccff879ef7884cda37596b976e2049243e7635c4141582d760ae6c90f16';
-EXEC insertAccount 'angela91','e04d7ecb9d006bc00041dcb5ddc064531b7d1e94559b734e227f3326975e05be';
-EXEC insertAccount 'evanstimothy','42ac3967667b95faaab0d21865dc1d799dffc9f8e92649e1b39733f8fd06d1c3';
-EXEC insertAccount 'davisanna','ec652ebb5a6f32736a59800c9071c60dee146f30df326c6f7c15f721eee3b167';
-EXEC insertAccount 'ericjackson','f4d42d47d22d5c5037ecd0801b010aee934d17e329993bc815da32774b792dd3';
-EXEC insertAccount 'amanda12','3c8b8ed3401c4b9b261a52277e6a18cb44e13bdbb13f8e0ddf5dcfa29035340d';
-EXEC insertAccount 'austin97','3b18c897ad0d04caeb906c1babbad2be011ff1e816f0fe5224167d75fc4ebec8';
-EXEC insertAccount 'wattsjacqueline','ce07bfbfafeb160cb96e6c88f922985c1388917145234b34bc2952cbfcc5c5b6';
-EXEC insertAccount 'kgibson','2ff5d597bb5b13633e7224bf053ae09251d464927790c83428f7d722b9d2732a';
-EXEC insertAccount 'piercebrian','198bce6b72cc579834f5c10eed14515df080fd34ab655b4497617ff10436ea99';
-EXEC insertAccount 'andrew37','e1d1cc435d7204b036345028dc4e83641d079b7131e1204c43ce250cc80e5b29';
-EXEC insertAccount 'tosborne','5efb93d3d153c1096ce40fc56452cfc5d4f0b631b6962e008d35730777807f42';
-EXEC insertAccount 'taylorjames','0bf5a90660b1d83831f37bb70036e3e4f6bf4fab7b61d2c4e427342751545f4f';
-EXEC insertAccount 'uward','4e7e424c2523e5a9351b2a6ca70a4da1ffec12cad40e8665b832c64b57dc2968';
-EXEC insertAccount 'maryritter','9951bdee66ada681b7713603e3f4f35eee04443392b8d3c6cba00c09c886d7fc';
-EXEC insertAccount 'gwhite','429994433b8780de68720291e85e99551201c2614d9065196a8b40e1ae5f9548';
-EXEC insertAccount 'btyler','516696fd81402a115627080017ed58c3f0c79bea2fae68a48462d01863a33d6f';
-EXEC insertAccount 'sarabrown','f54a11a009ae15536bc946dd02d7b62f345c2cf823ebf94ce3cdf44acc09d57b';
-EXEC insertAccount 'henryaguilar','7e9885c7f2cde0ed59e806553871fca150cbeda6e98c7e8bcf5d0e4930861e23';
-EXEC insertAccount 'jessica14','272142c32fa2003677aac64748c424b78085aaccb095ab6ade56a8070b0e7bec';
-EXEC insertAccount 'falexander','bc54e615f33eced0fae4cd8245f7a34fd451e5729fc57e9e63e6e86deb24f35f';
-EXEC insertAccount 'moniquedavis','5476efd13db56e0172b8888345358321a8bb41e694aeed0cfb4a71362f881362';
-EXEC insertAccount 'daryldavis','31b2ddf043d2f7f90c64db7940ad7c9c9bd9c758a191a0cbd8e4c2f56eadcfb2';
-EXEC insertAccount 'tracyalvarado','9d89d49c93c4190cc93c835e49ade5f94a5da2b956ecc536b054a4d5cd337145';
-EXEC insertAccount 'ibarber','d34f02a2c5e82183af2bcfd6bd4ec396ef97d1a96df4a5e92bb1f151fc721ece';
-EXEC insertAccount 'oford','ad635abd099ae56bbab117abf03eb79a4781c35d31d04e359d7a675fb82581e6';
-EXEC insertAccount 'awright','37bed248c177cfe4fcfe3e0dd1a1f14f0e8963ea1180c6bbcb75719d61f03af3';
-EXEC insertAccount 'carol79','c4861465987f4cf2b188a5e8024ef8e5b9e84135b82558220e52cbada66e22d2';
-EXEC insertAccount 'ajackson','58370301c53519f3726a0b1b5ab5930fb44011d55ae725757acb1c8dad71ebd9';
-EXEC insertAccount 'dawnholland','6167a628efce4fbcffa4ed0e9e6915a7ef14a1fc8f224e4c9810e4e7e56f07f4';
-EXEC insertAccount 'cheryl96','68674e310c8a973c8b2b967b274fc42da6624ea2b20154b6d26521be7f1ee534';
-EXEC insertAccount 'hutchinsonrobert','11ed82b3bdd73c3e2712cae6840f7518338bcedccff491bb5ce516e96d2f4533';
-EXEC insertAccount 'lealexander','a32ae9f2e8103cc8cfb607a2b49c986e5bd58d092dda57147fe880e8b236c56f';
-EXEC insertAccount 'rjones','f48eb70451df8cc961f874dcb31117a28c3253dab8d4a5e15926b69693f40cf9';
-EXEC insertAccount 'iclark','03ddf3a62ac6c664fcca9a537945adae3584ce844e9ee2b03a5235937998416b';
-EXEC insertAccount 'erice','7651215390f6b6e57abb48387eee053094d804c99bf27b87e55c20b0308f4dc7';
-EXEC insertAccount 'kellibest','a9391262a873100e95cb272e1d0eee18b5c8f8e3e3834d862b88916f8681f8e4';
-EXEC insertAccount 'ryanstrickland','f191d35a2aa9dadc6d00c16e9746f912d1d1457d7744bda7cff9ad7273a53fc0';
-EXEC insertAccount 'stewartrichard','4fef1fe8c46e95fcbcc8df648c13eee1ddf28a2937d9b8e5c7213be0eb711586';
-EXEC insertAccount 'patriciatate','75d0fe3927a1496366e429f42211714d8d52fb7cf50c224eba5a4cd6fda86927';
-EXEC insertAccount 'michelle27','8c97fbf401a31c5959b5ce4efd5cae2d403522ef60e773b914abed9bea040139';
-EXEC insertAccount 'luis15','4532959a651984bd02bd5466caae19aba55c0432687860d97c4ce3a6db88ed02';
-EXEC insertAccount 'petersonkevin','1d10f628a3945c915447cb01d6b6d296bdaa9acd4129ac5eef83286650e6f393';
-EXEC insertAccount 'qsingleton','73f29a02f8cec60d9dba6ef5e0f8f0432bd763dbd12077a892c9b31be74295bc';
-EXEC insertAccount 'kelly04','b1f54b1662b164433f03dca9674947c59f31b3f88a0367c51e33e77e56ab29c4';
-EXEC insertAccount 'steven43','3e53843805e605adfde8dcdf809fe3432de7bee77855fdd09726fcae8a30ffb9';
-EXEC insertAccount 'leetimothy','1f05203afcb9ad72cc2baa78339e94f5465b781ed5bece5b42d89b09c413e25b';
-EXEC insertAccount 'wilcoxmelissa','057b3b599717218e1243fcbd0a09c6323f97aad4753b2843c4af1c40931fdb48';
-EXEC insertAccount 'baileyhunter','ffe5ee7d035789052c9137ebccc7661a06c311107160b7894840d973c84ad7cc';
-EXEC insertAccount 'yashley','f500b174f441a80de5ad218561d934cf6b7df04ef5ee21f6dc02dda1e13c6889';
-EXEC insertAccount 'vkennedy','690bea604654cfc686896eefab0d68866d8822b389f38ccb9f982bc225e8d8c3';
-EXEC insertAccount 'sarahsmith','d09d8c3284cc531fddac940a108eaff5434eddeea7a501f5164aa6e5c5172270';
-EXEC insertAccount 'todddowns','453a3ca0f3810f5d6d10fc1207409883b12e9bc904b402cd518264e940d43636';
-EXEC insertAccount 'chenlisa','a58b4377d89738be0e4416a5a944c9363bd032bf07ca102500e341d3f54baf54';
-EXEC insertAccount 'ismith','3b9e1cf098f843cea07dc6e55bf3e678265a22c9205f622a123631c8f6ff1a79';
-EXEC insertAccount 'mark99','d32330758527e0ca234cc7bc35322a7b83b40b32f8c7a2f29d376c9e0b2ec403';
-EXEC insertAccount 'krichardson','c6fbed00191847fcbf136bb33062449b4a78c3980d750d6dcf6500c963ad6e9c';
-EXEC insertAccount 'harveyashley','e19f5528742e5816b32f4405a02e97668a3dd4da478eeaa058a84b78139b48c9';
-EXEC insertAccount 'matthewsthomas','8eadefe1401441f43f4c529cc614823528170b989990181c704d9674ba572f68';
-EXEC insertAccount 'uthornton','67820617b47fff5dc37c2994d251db7642f5a4f815cbdfc5d1f4a9298d0f5a5e';
-EXEC insertAccount 'markvasquez','a081448fbc52f09a219e48a4754fd7f0082ae02232de04034d001c134ac3cdb4';
-EXEC insertAccount 'willislatoya','c7a3e2cc332d6814554cefc27ba852c28652e775ed62981534b4278e46eba0d3';
-EXEC insertAccount 'bbecker','acdbfd526d66f1c04f79f0777fc73e7730ac71dc651fdef759cdd016db024bad';
-EXEC insertAccount 'loricastro','5175822f2448950a3a6f5b0b0ad3d627b2440c1f961bcdd3e392809ed8ab5b6d';
-EXEC insertAccount 'ebarton','465b8582f113602e60f49c7cb6f05aa50e946c03fb0c5d31429fea6407c045e7';
-EXEC insertAccount 'xgreen','e10fca917dd1b84445cf561379241a20fcd1cb65c6a956a4a3c7b973d79a4bd3';
-EXEC insertAccount 'piercemanuel','7dc31ccf064c78ee2c36d2db2207b8246bd697bc8efc9953119ed4b6369e5980';
-EXEC insertAccount 'sobrien','2329d96db1535d85bf8dde1cc91035d4fcad74b0bde34a6fb9ba034a5e5e06ab';
-EXEC insertAccount 'katrinagraham','7f294318d3427f7ebe307d0c702d432fb301891417ef51e1bf992a338cd21baa';
-EXEC insertAccount 'cory43','f4156aaa4e61f34190c30529ea078491e43a13d67e82775a6987aa181c53314c';
-EXEC insertAccount 'webbjoseph','a42f3626bfec6c50250b008d21560791d0b3c66ae5d6147a8715f45113158cb1';
-EXEC insertAccount 'schultzchristina','2eacfcc66e88b1ffdac0377c32730778f743883912bfc5896a84ec6fe0cea4be';
-EXEC insertAccount 'ojones','7eedf60c174eecad97b3a35311f21d496140033464fe55ae67ac1359cca33444';
-EXEC insertAccount 'ricelucas','16fc900f95b7e790d61116382c14c9ca3ec7268a320c558f2911a47c57d78204';
-EXEC insertAccount 'kathleen69','d924bfbbcca7ada7599a1ef13ac11caf6a732e46306e5310b03c1b6563633bb2';
-EXEC insertAccount 'monica21','a0b914880149c676155257477f3833f197ecee11d4132186637074eac05f376b';
-EXEC insertAccount 'justin05','1aec1e447d9d6e9322079a0d2dcf2ff9cd6d4804b0ba2c93c497aa9d2dc8393b';
-EXEC insertAccount 'dalton14','bfc7b1f81e7cbecb607a0f1b79c4e363ca7c0cecf21e32ec959c9ee922a0707a';
-EXEC insertAccount 'rosenicholas','a85d96b350a36ff35a7e3e1a863121126bc55a098fb4baed817c376c015f099d';
-EXEC insertAccount 'markarroyo','ffdaad36911a6ba37c5f0efa0f26c5e82c1ecb55440e926d197beecdd287dd3a';
-EXEC insertAccount 'johnathanjimenez','7e6fad140816a456deba01927c536b0edb8d5573345148ece6a3f5a8e0f1b117';
-EXEC insertAccount 'rhernandez','fbc9c497d80100ace503bf00a4a60327d8236edba4dde9dc30bba594127de723';
-EXEC insertAccount 'natashahobbs','76a35b9d9a7cdbb6fa11cfef3dcf0f8f89ad932e0c31c028ef7bc26ccbff5357';
-EXEC insertAccount 'wsingh','6897fe38a025eb27346aae1f3691a8c2eb89212dea69618a9dd41db40ba4f0bf';
-EXEC insertAccount 'brandon34','56f5272c3f3a903351edbff6f61387cea4b0ff8ff6df37add75f3572c80d7ec9';
-EXEC insertAccount 'jeremyjohnson','3ebefd709e6dd6d4b32dcbcf5bd0d739551044cf16f168ac1f805bc8db53b216';
-EXEC insertAccount 'hernandezbrittany','f1b57b66a205d42b9b89074e90bc06e2dce4c017617e7d84b89be8c20e77da3a';
-EXEC insertAccount 'hhughes','c5e5ff699fc94b8b36b0c7556d4b702f1cfba473cb0cfdca0db7e522a4cad1d6';
-EXEC insertAccount 'spencerjustin','19c8da575aa455f40fd370f2a515c95ea85092f289a477723318faeecfc4c531';
-EXEC insertAccount 'david61','0f613258fb05dd5f5270409bfbf9112605b71e699c232d1173bc323ab1cc80df';
-EXEC insertAccount 'pclark','7d05b2afb7ea51d6ee833ef8c95e5abf4eb3f30d319c6a7f8ebe816b4bf4f42b';
-EXEC insertAccount 'christine31','422a1b0ba4f2f2946c11592eb2adc67df44f9dfb06231dc33fec749f27071496';
-EXEC insertAccount 'chanson','e5b2ec1eb34a6f7a78eda6bcdd18b3c3dcfdc90a1d5c66fc2301c1ceaef8fbf4';
-EXEC insertAccount 'smithdylan','91c17e4837d413b3ae26136f95a4ff06e0a682c60f25e4600035d604087624f5';
-EXEC insertAccount 'msmith','f67fe1240dab639073493857c321e39a9ea5f417786381560322ec29569ee681';
-EXEC insertAccount 'jamesrivers','a63315d6402e8a91a6845549341e2a37149b240823f24f3fb88a6e3f714c7ff9';
-EXEC insertAccount 'christopherflores','de02337bb1a927bfa21aa08baad1aefdee3450b609a4b8018e88261b9bcd8112';
-EXEC insertAccount 'douglas37','4a41e23e3e0b41f93af54c1f33c70ff80e5ebdc3337ab2c2238e4554eee789ee';
-EXEC insertAccount 'doylejesse','d4edd0a12ae5560ccc4cf8db18a172516faf3d52daf438f1eaee40ed3e7b28f0';
-EXEC insertAccount 'walkerjudith','87c22c1631cbdfd16e50c18e73c995fba74bc2a1c1ba82ef94dcf2fe9a717410';
-EXEC insertAccount 'heather85','9722d6cef609e3f706d4a3ba78dd4bb4b0b7f4bd1a85a35d2c4b548dae9a261b';
-EXEC insertAccount 'tbrown','4640976b662bddbecf7ba77b39bb3c5ff2035543924da9151d484f81ee3da3c8';
-EXEC insertAccount 'santosrebekah','4857fd8db15a160f1f863628278b05eedee58f7f9cc72ff1fc2d767b0f7ee018';
-EXEC insertAccount 'powellashley','258ebea02608d201d8ba9410e016b95c79b1564bb459f5f7a9a16fb2aba6c8e7';
-EXEC insertAccount 'latasha70','82cc50ae50f2c39014ef7b995bd1050f2638a836a9e0a123088d670dfd5f2ca8';
-EXEC insertAccount 'david63','f6205ad91dad30a0df8026e7ffb59a025fae3e9535dedbc3c2bfc72ad0af91f0';
-EXEC insertAccount 'edwardschristopher','5b03d2c4c322c69a90c22db3ef48ab1febde8ef8418736ae786ed3a970745f64';
-EXEC insertAccount 'ksmith','feb3b37ff87a955171257c316d17f1afb2491bddecd7d42af4e5ee157ee6141a';
-EXEC insertAccount 'barrywilliams','b8099cc6d12f97a1dec211a55ef3a2015b63997c6ce194648111c7d135bc75a0';
-EXEC insertAccount 'kevintaylor','29a22ee91f694f93b4e6f789765218bb8e1f02e8afd0455354b2d48041ae538f';
-EXEC insertAccount 'heatherrobinson','c6ab7ff1446be168345793b5c6d057d725733230d9d1e54f84269892ab292c9a';
-EXEC insertAccount 'davidjimenez','9c2b62233afa0dc8472f77f8cf874b3c3ddb1b640c9fd0b36803d119355d444c';
-EXEC insertAccount 'kristen94','21415c8048328f73c0c442fa2900e5239df04889ecf6122a821eb420b8106229';
-EXEC insertAccount 'christopherochoa','da2c766695f93d917cd00d14a9f5007cef747858662faaae6eab673f190fbbd3';
-EXEC insertAccount 'katelynglenn','879eed14a50a51da89ce024ef311b6690f3648e0a8c21140823551501e6e34d2';
-EXEC insertAccount 'frankbrittany','6f449125330b24d885f2744a11fe10a863fa9dcb1a1efbbb4be05e0f3988c360';
-EXEC insertAccount 'khanjessica','c7cc9c9911b3221c6222b213f37acf1a75e75b02f392488ae481ec6721c7a6cd';
-EXEC insertAccount 'dylanmartinez','d45e4d902e9c7a38249a8042e365ad8cb0508ffbf11b8cf7b67fdaf57077c00e';
-EXEC insertAccount 'mcosta','fc86a3713fbfb2736d90cb9786761eb3e49a4a2d426b90a17eed7c24cb884ace';
-EXEC insertAccount 'michael94','561f6d9ee55796d59e0207cc2a0287efe79f38e830dee158675ba89a5075ebb1';
-EXEC insertAccount 'sloandalton','1fba3fe6a67ff8c916915a60ea7d2f2f4e589594d4f912e7dbd7d9c181a87f37';
-EXEC insertAccount 'ajenkins','257612cf0bf11ddf60e98951604a792cc3436d5b382126c809c3abf38d990245';
-EXEC insertAccount 'patrick87','4e3e25ab4eec811ba685da12a1810fac910ffbe0f5905320d995525fe9532890';
-EXEC insertAccount 'evanschris','7c79abddea8961fe71a1127c40f9d404e98c7f65d2727d95ef02a5334a9d4ac7';
-EXEC insertAccount 'thomas15','ba9b77ae966b0a971743486a6be705670c3145dc5e2a17b8c9eecfb318b87fb1';
-EXEC insertAccount 'sclark','616f179f7fb0ba5ba4af4258da2dd59d68d5cab693f6d008acc897c91990ae18';
-EXEC insertAccount 'jonathan02','1d5a586993834c2507a73d8b310224cc6413b92e98488b8d289fa467c1071b5d';
-EXEC insertAccount 'msoto','7e30fe08c50a39cdef9b230a07a1cbeccde5d244c7169e784a7a3296544a554a';
-EXEC insertAccount 'theresa15','7fe6906c241cb64a0c04da53d3c993da771a2098dfd0c1196bd21c559c22e5ac';
-EXEC insertAccount 'william00','91b6930b03bed0a80ae0a17855f6c162b0ab7f2a2b76e890701cc3ce4554b4c1';
-EXEC insertAccount 'sandradavis','141cc62e3839464a9ea4454bd995587663569c2e341b08b59ea732dfbfe7855c';
-EXEC insertAccount 'dunntracy','0daabcf362dfa7242b9c710fbce65a23be79a3535e95258759920865fa67d6df';
+EXEC insertAccount 'angelahill','e6c3da5b206634d7f3f3586d747ffdb36b5c675757b380c6a5fe5c570c714349';
+EXEC insertAccount 'gjackson','1ba3d16e9881959f8c9a9762854f72c6e6321cdd44358a10a4e939033117eab9';
+EXEC insertAccount 'sandra29','3acb59306ef6e660cf832d1d34c4fba3d88d616f0bb5c2a9e0f82d18ef6fc167';
+EXEC insertAccount 'iconner','a417b5dc3d06d15d91c6687e27fc1705ebc56b3b2d813abe03066e5643fe4e74';
+EXEC insertAccount 'thompsonzachary','0eeac8171768d0cdef3a20fee6db4362d019c91e10662a6b55186336e1a42778';
+EXEC insertAccount 'erinjones','5c4950c94a3461441c356afa783f76b83b38fd65f730f291403efbcc798acc1f';
+EXEC insertAccount 'wheelermichael','1526f5e0e31d42fe1c3664ce923ac22ac1333417a90b32043797ac454cd03112';
+EXEC insertAccount 'aliciadalton','c8fea5b0b76dc690feaf5544749f99b40e78e2a37c0e867a086696509416302a';
+EXEC insertAccount 'james08','2d4589473fb3f4581d7452cd25182159d68d2a50056a0cce35a529b010e32f2b';
+EXEC insertAccount 'william44','b35892cb8b089e03e4420b94df688122a2b76d4ad0f8b94ad20808bb029e48a5';
+EXEC insertAccount 'leedawn','8057f787ebd8b4f9d40f53d7fbbfcbdde7067c1a074435b68f525b3de0e2ac2b';
+EXEC insertAccount 'kelly97','fdac810d0c09f25c5ddcee9976ab1f1ae1973dba7c65152d95b0937bc2a6c883';
+EXEC insertAccount 'joelmckay','1e53de2a2b4ab888cc24002ef8832d433b21956ab83ddeef989c8224b5c8f9f2';
+EXEC insertAccount 'zking','b78f24953963ac5ed773d6ec83120e3b1a65510201dc09ed2ed9e9781ba88870';
+EXEC insertAccount 'vgarcia','b5a4ec869015095060b1171791334513f741177c4011e2c5c36e3e37a5ff8e5f';
+EXEC insertAccount 'sheppardbrandy','f0c28ba3fd9e0dcdcd0470acfcb98cc5a58d7d93422dbbefb930455ef714c87d';
+EXEC insertAccount 'jay38','4a6b7fa040bcfc734a113fee84d3789c0a626d70d029afad0d1c3e7b6c562e14';
+EXEC insertAccount 'taylor42','b99ddd77e59c96b13b64b3abe1902db4c0a76dabf8622aa6c71f8f5670be6625';
+EXEC insertAccount 'lewisjoshua','871431053023291d24b403f1f9d761c6f01b3050a0a83cd9d9759a970f8d4d92';
+EXEC insertAccount 'emilygibson','51d11024031a8951b4722671adfc8587538f5e5417206e7862e60752758a5c35';
+EXEC insertAccount 'cynthia97','2d6b3bb57cb9e22fa36516172ef096b30ae00d08eedc1499c599b6269975521d';
+EXEC insertAccount 'sherrybrown','d0f82756c4d40d20e1fdbc90cf4da4adff02fe23b355687525880514642f764e';
+EXEC insertAccount 'fsharp','8893186d24cce07e1c82f2e020d41177e699318b4be9535483fdf55edf58cd50';
+EXEC insertAccount 'george74','cafdc894eacc597ad76db1a750ccb876d4ed69c73b7d3d23f5e3a9e3b5c9fc2e';
+EXEC insertAccount 'kimberlywilliams','0028e1c0d2c60966390545414567d33bca9f0165fece6d0109c59a3f29b5fdd0';
+EXEC insertAccount 'desireemason','45e17065ddc6fb3a682f7732df5804652952dbe1f5ca5377a661515a8fcf66be';
+EXEC insertAccount 'rebecca44','43b3ec9ea3961a319d37b4cc775d3f43f68709b62a93db10dd6c598137f28732';
+EXEC insertAccount 'julia78','034a0cdf079dfa3ca924e07e3c509bbf50768d1949b021c0ea0030cff80ba4d1';
+EXEC insertAccount 'michaelwall','53f6f072e26d36b9e55d5dc828872856d5286f18ce3818d367f9e4473e464a66';
+EXEC insertAccount 'davidtaylor','85fcbe6bf830f23209ea6a932921e8da31a653a24a20cb84e75c4997e505690b';
+EXEC insertAccount 'wendylarsen','3b3ad733c8571384c133694595c33d96c638b36f08a484bd0ad38bf312fdb294';
+EXEC insertAccount 'nicholsondaniel','451a8149ebd58dbd064e3337c6de5d4f4bb08cd70bbbd48d62a205bd706b6bb0';
+EXEC insertAccount 'mcmahonwilliam','0756810289814362efbea8bb826fea0a7bc4318a7f22a4b27b48290cd39951a3';
+EXEC insertAccount 'kristaprice','94cd5db06baf087fd56c0042adc1deb162d271acfb8b3eb0277069517998d489';
+EXEC insertAccount 'lstewart','5a66c7ba1398dd71c92a77cc7647c4183e6bf97b227e441bb2674a319b184e63';
+EXEC insertAccount 'joshua27','133f8a05107e5442771c85da3dec70050ae5f3273849326b4a4e2ceaab2ef058';
+EXEC insertAccount 'mark79','1a31ac086ebf1341c916929e6d982767cd8568887d7c930ba8abd062afa08eac';
+EXEC insertAccount 'tmay','b64171fda74426604480b9bf7c10ccdc2ebc80266c8667c42346f54ce87d4dec';
+EXEC insertAccount 'nelsontyrone','099646084abbbc2c403c480bea87e7de23ce18db73a3e28251effef3ed49f1ea';
+EXEC insertAccount 'andrew62','d88a53cd8ffe65ab18d2c62882479559aa781642ce7a8d340b22fc0a637b0359';
+EXEC insertAccount 'carolynmyers','a8a5146b1f97c2c8987ccb3a87d2f30b8aa258c2a32cb96115bf381d42df875c';
+EXEC insertAccount 'williamsjanice','de3543c757d459090b9adaf9a80a54d54724a0f1600d4c77d6017dde58cf1189';
+EXEC insertAccount 'justin09','db9aa0719dbf5cac40e44b268042014e9bc28b4134df9051a35f8c64f6603b6f';
+EXEC insertAccount 'hmcdowell','147eb7dd0f4c59120be8adb20f9dc4d4a0ccb27a0d48d7546dfa171dd980f075';
+EXEC insertAccount 'zacharygraham','64bf83fcf172a284e3db6b4cc76bb175184ee9dd57e77f0421e3e401ea3858e0';
+EXEC insertAccount 'jason65','3f1b954c84d8216e09ae793664571dedb1e1bcc9a2bfdc2b6dc58db9a24fa7de';
+EXEC insertAccount 'michelle87','dbb70b94b6b192a1085e8056872daa4eb24002d47c82e88b1323f1a5882567ba';
+EXEC insertAccount 'justinrobinson','ffe4daf45af0e803fbe1fba2de5c7f7644f30b71ddb082100779d7884e0291c2';
+EXEC insertAccount 'yrodriguez','a0c69ae7ad7629347d41a89d9a558b26bd9b126a3a183f3498444843acd7270d';
+EXEC insertAccount 'danieledwards','be46e03449534372e45f1abf511f78148625cf11d99f2f550e2f32b3a551dfb6';
+EXEC insertAccount 'moranjill','cc35e4b303c84633f2e64c1fe30a9c2f9e0f1dcdd53d1a748451b83164db475a';
+EXEC insertAccount 'cramirez','f511f615cd867553edd2fc66f4dc34441851f699cc1457f767c5ec0bad8cd250';
+EXEC insertAccount 'wsampson','f75b853a4521962ca5d349e4ca4cb69dce2dbfef61731cb9d14f1f2f1b6499fe';
+EXEC insertAccount 'smithgwendolyn','db383db8666c1c7f372e49b801a0405e0dd4193ab772163521b16e78879fa334';
+EXEC insertAccount 'meganpeck','d6f7adababfd90706cc787591cdaf547f91d53abcb9008a180d90fc3d4f651e2';
+EXEC insertAccount 'hcollins','bacb5d03bee1af445b7cc73ba8db52a7fc01d474327c87899831ffe3b4c3543b';
+EXEC insertAccount 'dbennett','3b356cdbaeb3d03a6b6f713a048489d62fd63b4a8fd0c70a976cb0b70c119e46';
+EXEC insertAccount 'patricia32','daa7c4bc3f1506b52b2bcc7864db9a96aee3ec1a8a68b29c5db60de1f8a6918b';
+EXEC insertAccount 'pattersonshaun','e5e0e771c99778aef6f0046adb86a3d3e3ede2c68f43aae6b4ee9d498709328b';
+EXEC insertAccount 'hamiltonbrittany','598ed9422e3d9c328f48cafc2c66a66a3d393b64290f7741d60e6e22c03ca031';
+EXEC insertAccount 'tsolomon','da3df0f1c138cc7b9e79e218587a605e12b7a9b9ac24e1287da5ed056cf10c22';
+EXEC insertAccount 'tcruz','9b857dc1d1dc03b131bdb429b972f5f28c7d72b8466a22d54c359c48d19551fe';
+EXEC insertAccount 'wferguson','7e251ea07d59cd5fc9d7d1dc4225104e474b93d6c6881797dfbfa010774d4acb';
+EXEC insertAccount 'bradley93','51031e17ce0a58242bf97f01a2883d077c6dd21f22674ee500dbfb60228851e7';
+EXEC insertAccount 'stacyrichards','3c62426f46ebb414ff53540c6f1af32639c28b434126ae98b9f1651dd5e4fd4a';
+EXEC insertAccount 'boonestephanie','06599c96e52ff54f21e65cec89df4b96ce519704136d6f7246a56be613eed8fb';
+EXEC insertAccount 'gailperry','8a110e75a8142ab756babe02160548ed6c254ae3fd931b297aa4edba91065732';
+EXEC insertAccount 'armstrongstephen','5a583fab00aa1c17acaad80b2b9b5a16a8563e7e66808bf4b4acbfb55d9b85d4';
+EXEC insertAccount 'lisavega','667d45d6d55c4fe6a7239bb554854e3b8fc0b392abea73864e91104bb1b4581d';
+EXEC insertAccount 'scampbell','44b6dadf9835ff29d5342da14dfaf76e3d828081a1704b131baa355f950e6047';
+EXEC insertAccount 'lindahernandez','a06afaf373a81a1bcd1641fdd0f8b9c2c0d7104171abafbd80d11e933a9c6a13';
+EXEC insertAccount 'hartlevi','79db1e22563af60be55a3717827926b76139d2428cbe693eba1643c2798e048d';
+EXEC insertAccount 'kpatrick','25ac9b17f8113ceda4e3b18b639ac0c5821fa6cf61e31a4b2cafec4573b89522';
+EXEC insertAccount 'josephwillis','efacf97ed63d8d618e5c1f03e2fbd3656ed4c97ba04abf6db791534b425641c2';
+EXEC insertAccount 'matthewsmith','aaa88f12093ddca8064cdb97bf7635d7cd82c94d264121133f79f24e9b645bf1';
+EXEC insertAccount 'hhoward','55e315face2c7bcfc4b1d43be3a863e3bbb565ad3dafe30a9dd45b51b190be9d';
+EXEC insertAccount 'wallerbrandon','2590d18604c282ff195459db33d0ae2caab98b14d4cbfdfd4dc3ed4923bf31b8';
+EXEC insertAccount 'mjones','70dfb731f9ecfb0c9015b28838281e2a3cde900a791c45532154ddb5a95ed31b';
+EXEC insertAccount 'anthonyjohnson','f46c534ea1cb330122334be00303592a10bcbbc238d1b11e1b498d4486d13755';
+EXEC insertAccount 'samantha48','a5276c24114971eceb4d5149894034741bcf22825b30c39942ff63007e031956';
+EXEC insertAccount 'smithjulie','7137bc5132a11c4937a830c4f594a551b18d0764f66f8478de3db48377f2b611';
+EXEC insertAccount 'kimchristina','ca619acdadd8eb0f598c954031b5f359a2fbd4fe0179eb02acfeab2ad373c999';
+EXEC insertAccount 'smithnatalie','dd76076f40644e9e57f7459bfc37b2ef8b7084bda5a3127c24a62c86dd45eb0b';
+EXEC insertAccount 'terrireed','11ee91bdbb90b967d18e45226bd3bc17d72a85a4486315b3568d070722445fe1';
+EXEC insertAccount 'davidchandler','cfecdf5846f8e8279f4dcf79a2135308e11c0d283175a2fb79b33b76f487cb24';
+EXEC insertAccount 'leetodd','3c0c8e2f0527574ed275f4fc831af606b283370490f9c39c7389fb5d16dd6ac8';
+EXEC insertAccount 'navarrothomas','4a2efe616f41f27f583d7e1e628a7b019f2b2603677ae0216d14559eefb83975';
+EXEC insertAccount 'arnoldlaura','1d45a36925bcb8f729f8f06ee0ec689f440cc6b08c3a0573ed12e10104e1e9a0';
+EXEC insertAccount 'jjohnson','9d57ee06aac896609727855add2cfc3d9c50cd545395974cdee219c91e29fd25';
+EXEC insertAccount 'phillipsashley','a4273f882cab7a89e7fa8e5a1298799b62233ada8a93f880f58bbd87db44d6a3';
+EXEC insertAccount 'jill90','7f6ceca338f7fe1bb409870c95cbf5009115df953af77a91ef912a11cf6423c7';
+EXEC insertAccount 'erin88','905026a6ddab21a9d1dca17cc4f47b843eccd1c4806f7f3c59b88cdac12e339f';
+EXEC insertAccount 'courtney73','3dcc4d43a91ae471be9fb0dfb7e7a44dcbaf8125b389d65d38604ec5582825ec';
+EXEC insertAccount 'kdavis','3fdd6e2fcae488c7c7818992ad08249cd0f6576f6ff846bcecaa816e002cde3c';
+EXEC insertAccount 'wellsjames','b3f20ff60a6e1eda26f8c412e7173c7ee7f5b3a1124b87a38d3deb63274c1a61';
+EXEC insertAccount 'yesenia47','38ee64c8e2536e41e2543266f6a5216747b24c8b8ada7d5f7cfba8b1e80752fb';
+EXEC insertAccount 'julia65','7f5106053c87018f57187a0a485dedacb2ef37f08f05ab2313f23217a9ee928b';
+EXEC insertAccount 'johntownsend','125e175312b42ca54475207f1ad47df9ac421dd758fcc5c2ab19ae31e451cc53';
+EXEC insertAccount 'howellcrystal','ab2f50fe825bc3a9a8b649f173af23be3a052db9b410fcb0127e50ae9c356ba7';
+EXEC insertAccount 'smithtimothy','29bf72f8d89f83e2fca11f01a530b0c39058b8fd0b0563aca173d2c624c71ffb';
+EXEC insertAccount 'carrollcarly','2bd2a833384945be5a4d05109f418acbc78cc41d7640842f0e881ba892651296';
+EXEC insertAccount 'matthewlopez','68b5aa742a3c02d41ca5c6582f9eb685ae72218e0c93680f91d51086d45e67df';
+EXEC insertAccount 'chelsea04','9e436b2455b7d1b818d56b04b8985d84ac27e7fb45630e579f7b0695430fbab5';
+EXEC insertAccount 'john71','34158b36b0dccb351ad920cf5ebb74820d7825119c647b16db4f535bfef25c65';
+EXEC insertAccount 'melissa29','acb3085ac0fa0ce03af7e46da8e5ac3bbb2c03d6a28cfa95c778daa5d525412b';
+EXEC insertAccount 'staceywilliams','d0f775036f29ba7540be994605826ab25b7f153a1d8157e5e09218b8fa59aa91';
+EXEC insertAccount 'seangibson','225adbca5f1445b65f065079fd6b3fdda829b6e660554b6200e86fe4a129672e';
+EXEC insertAccount 'robert59','02548935a13223836dc0fdfa7574d4adc6bd5b60a99296cc54cefe1e7103fbcd';
+EXEC insertAccount 'jose97','cf78821e30a469451bbb37eb5bd9976ea68d77ea3dd54ac3dfd83de5cf91eba5';
+EXEC insertAccount 'bshea','8f3b97e5c348a48d4cde1cf58b7746221cc4f23b1471cb7b530a4e4b7ac5b887';
+EXEC insertAccount 'williamcooper','b2c56341cc2b9f8bf898bd7528dd39e641b51c4fbd51f241b46ad70872dd1b99';
+EXEC insertAccount 'frankmartinez','a1f5626f394c753975a9060627b1894e2c82436d7d9fb6103f58455641771682';
+EXEC insertAccount 'syork','d2d8fdd3e123c147ca908c7fec41c7fe5746e7cc1b90e3507859ab0a7a0212d1';
+EXEC insertAccount 'sharonhale','6a4ca776c3ef0c0d69107200ff1ff66217511aab72e032962fb5d6c01aabb158';
+EXEC insertAccount 'wrice','62fbf022ff434c1cf42eed2a12c109388af61ea661a1cf75e8a16b45f0063c77';
+EXEC insertAccount 'yjenkins','747ff88fd5750ff3ff02e7b5bd02508eb0c9dbaee5bb5d472fc9393878c8a733';
+EXEC insertAccount 'tbarber','96a194c82bf3b9e984cf3740c3a29632c9f2ac55a35d46a5c719c6ff65823d24';
+EXEC insertAccount 'stephanie40','b48166b6083b5cc4becda5bf00282abf57c1166b1d4e9c65f59be95659320e39';
+EXEC insertAccount 'rhodges','3f5a78fdff13749416cd1f00e6919427a387c843f78e3fe11dda1f471198276e';
+EXEC insertAccount 'sarah63','8fca772f847cd309ee9f795d10aa141ac4bef4d87f4b80272e2573cd51010ea1';
+EXEC insertAccount 'beckrichard','3fe239dfb6207aa4e467245cabc3a8221e5f15f0414b3b60371efe7a05aaf1b4';
+EXEC insertAccount 'janice72','882363cd1c89dc3169b92a33947bb42ad60e975b8a4d177989c6ae2f013de721';
+EXEC insertAccount 'thompsonsteven','9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c';
+EXEC insertAccount 'velazquezmichael','67da66db02bbd90735c73e948bd5b8222a60a884554b217eb066f89b70c264e8';
+EXEC insertAccount 'rachel38','51e126a6e7bdec24c7e7b07e1c86c5fd6d1fc674ed560c5b2133335384a54c95';
+EXEC insertAccount 'oburton','94fdd9e803f50ad10e634eed483d01f83db8326aa393a68cedb6e2d32c996ade';
+EXEC insertAccount 'ckennedy','b2aa39291446250a4963b308653abb9fc746c72777759f3e6708fa6cf8fb1900';
+EXEC insertAccount 'stephen19','c9148c9fd5a65e12b6d924efdba0f36195c78b9c1c7cdd4755817daf32dc174f';
+EXEC insertAccount 'gloriasaunders','2a8eccf0310f27a038297a74b99fe76a7887ce332d8f73610cab88f5e8fac637';
+EXEC insertAccount 'rcohen','6f3c808b0c349bf9310731e29aae8beb5c978a73878e4d3cdc5c7b7e7423bb18';
+EXEC insertAccount 'kimberly68','c1d095050623a101f1be6e2da08f4da86227310fb360dc566551de880efc22e3';
+EXEC insertAccount 'rmacdonald','309379267483b31fea2fa71be956c1b5992f9107ae601d46e15275152e293f35';
+EXEC insertAccount 'monroevictoria','b842b6339c1900efb74f09fd8dc048bb50c1e7bcb179964ed31207c0e9c7decc';
+EXEC insertAccount 'pamelagriffin','2e8f49f90946f2de44e4e900d85ad1da5887c5feaff24e467f06742ffeab686b';
+EXEC insertAccount 'laurenhunter','9b1b6a52450435b5c61acfc1765542d8bb8d4e023327b2a87827fb89cab2bff3';
+EXEC insertAccount 'lmurphy','4450bf0c02623f832c7f7f93fc067f085bc95162d345fe1e95e640b294735e0a';
+EXEC insertAccount 'wrightjessica','00f78aff5b35171a4a10ac9bad5eccc121ac4e678cb74bab0e71bfb972ab7ad6';
+EXEC insertAccount 'pamelachandler','bc647ef28b901e09e8b5c373eca43ba2c64611247d70ecc973dbbfa49a385e53';
+EXEC insertAccount 'fhenderson','b883dc59e83d063f0ad1c5fc917d5c95df10349c2a5eaa0054d40448d0e30261';
+EXEC insertAccount 'brittany74','c5585b8e6481359e9115ee634e6e7d347fdd2cce19c36a450f388643d8fbf3d9';
+EXEC insertAccount 'ryan04','cd75d9010f6f120a32361ba9e26396fdab2f2122602fabe818321f42f09f5d20';
+EXEC insertAccount 'gvincent','b2db914133c89e6a0798c08136a40e0810b869816c44aab5f2c98f4bd210eac3';
+EXEC insertAccount 'uyoung','c3b87469726089da03985e426738badfc40b00048c383caeb8784762a9c760dc';
+EXEC insertAccount 'weeksrebecca','8a46261b0b1a264e19114bfa09c64b289dc93819d9978349177cbfc1c7098538';
+EXEC insertAccount 'zjones','0738f94c476bddc7e78c286ebe8836875e9a247b192badf4a1cda2307be6861f';
+EXEC insertAccount 'meredith73','2b9a57088cbdf4386bafedc5a3653538613587198532c24e7a40da3208150a77';
+EXEC insertAccount 'danielhall','7a6ae0b891d5473f1d239c21d41bbf01c9fb3c9e9f6579fda796053d8406e40f';
+EXEC insertAccount 'gregory37','228410cc8b122eb4ad2d8ec3b82a98e9f931ffd51f4b6d4631b44d38b0ba17cf';
+EXEC insertAccount 'allisonrowe','8518dd4530c31281599093e6ff42f50024e516ed208eda80c8fef6214d0c5036';
+EXEC insertAccount 'ttorres','963f65f9d1a9bf30cf2102f2e6efcff7c9899537acc7831ce5270616052839ef';
+EXEC insertAccount 'jaredreyes','b9d7319cf037dc2cd01704356fe3671b449829653c56e8c93ef37d5189eaa655';
+EXEC insertAccount 'derek37','e9488e9209629f0b61ba2f2cac89bc4741bd4fb21d3e408a012bcdb7a8cf7950';
+EXEC insertAccount 'lewisamy','5419cfef2fdf2c0e240adc340b7930d43857389e775c5fb2cc36980b8521f2ce';
+EXEC insertAccount 'rmiller','cd16fa43071d6cfa25884d2caced1ce52efa59b92dfc99ab836813fc5e69db03';
+EXEC insertAccount 'lawrencemicheal','f1d4adbad69cc4f1271b9c9682db410a1741300d5ccc632f90faeadc8b934e66';
+EXEC insertAccount 'joshuajones','b90397a77e0f5216feffa1392c9aea5d1cec0f513d237726725db4beaab4c79d';
+EXEC insertAccount 'obrienbeth','67977a0a44852851c4b5f8efa40815f304e1bb4648c0ff0412ba9d420b6f6934';
+EXEC insertAccount 'mortonsarah','da8977c150aeb01f6fd84d48fa7d2e4807bdd3512e03b9e9dff854de3094f970';
+EXEC insertAccount 'mmurray','444420659b079015d309e33d983c0466134da01b5884c18f6dacea3eae98ef82';
+EXEC insertAccount 'butlermolly','00c1956e5d6c5de46388b9875730b0afa1d3107c9d1c9ac1dc072e1763c93f06';
+EXEC insertAccount 'elizabeth61','1971d8d564c23ec092839d6ea9fd36deecc0451a437d368fdf22b9ec4e6b92e5';
+EXEC insertAccount 'sancheztheresa','ce0cc5d6aa577f8b966b4d738a85522a641734b4cd0eb96fac1fb149f32007a7';
+EXEC insertAccount 'penamatthew','14970d5553628849705c327b02159358c048af6b5b3d10154cb21436d6cfd84e';
+EXEC insertAccount 'jerry32','4f40d5ea6bba1e84c6f18448cd1a7a316fc31b82c616843a4f312d2931734bc8';
+EXEC insertAccount 'bfox','d185f2b0f80fa3187ced69ddd858127703af6ada6c73188921e71ecec29e3b86';
+EXEC insertAccount 'zvaldez','c40832c56bc9882a6972a3aeee7beaa56bbfd68f2476800f01fac3027f886e41';
+EXEC insertAccount 'kathleen80','f119146b406bd7b72461cc675b8a61e9e082e7e124f6e944a982547c8a847023';
+EXEC insertAccount 'michael51','5cba853b36ccafb52b3ad11d0c218dcff589c9168218c620a18fa094ebfa3ffe';
+EXEC insertAccount 'hwilson','4af8d9659200e8d30d8a056a14b3eae088d64dd151fcff72ffcf3d08cc9b7977';
+EXEC insertAccount 'robertsteresa','f08c71d147cc34f4b144866232758aa35238d29f336aaa8f89c76408c1cf16fd';
+EXEC insertAccount 'idean','a8e746a7f23319a9f705297e700980fd003907151770b570200bd74693ffc945';
+EXEC insertAccount 'douglaswalton','4e198562e9846d7db9edd6cf77fdff9330db7a23279d6d04ffcbc1c02680ecdd';
+EXEC insertAccount 'samuellee','d20ffef6f9b9969c6a99eb65268a0d457f1631195375a3fc9ea2757c82f1c267';
+EXEC insertAccount 'keithlong','3c970d58b00bbfbd11be99238412b8dc8c95392524057a7c79987502245bc813';
+EXEC insertAccount 'lisadavis','5aaf677bd8cfe27d494b927b5cd69431ddf92b3b037aac21889c432e5496bdb9';
+EXEC insertAccount 'brookevaldez','104266cc04dadae9683358555fa193734617b15804913ef965c74773bdbd575a';
+EXEC insertAccount 'coleemily','5cd72b9bba9a46617799dd18304322f82e0e66e9fa3fcd3da9cdcb995cfbeddf';
+EXEC insertAccount 'qduran','956faeec27b882d8aa972d50bfa99b11ab6f7856f67ab9ffafbe1b66241ef4c7';
+EXEC insertAccount 'nathanlogan','8e8225ca92553c420aea93fc2f8b5a143b9c9c1fc78f84e6a25dd18023aa7db3';
+EXEC insertAccount 'dochoa','450bf5e97fa8f4f04d50d84ce7398963e5df9278226aa57c2988451a7274769e';
+EXEC insertAccount 'pollardtimothy','e60f65cdc15dc09ab7e182cb569c1e4296dad5eb9540e75542eb47492fc81e7d';
+EXEC insertAccount 'graymonica','5a258638f0a176640f9bd9a0faa8daeb403b83fcdf2deb2d4686d2f05938c29b';
+EXEC insertAccount 'johnsonchristine','7714695bf057d6baa0e352409c96efd190286db4a2cbda4b2255937258fcb3ee';
+EXEC insertAccount 'omason','a459eec8f81e241c105297bf0ace06d2810c5c0c3d2f6c30f624905396664f6d';
+EXEC insertAccount 'xclark','deef99d335bbd310f5c6986922090e2ac487005ba1e84001a36f036652872b18';
+EXEC insertAccount 'diane45','7dfb019cb9a337a188ddb4fee0b8e679c9d2479ac6b94c7c83bf9bd565d109ed';
+EXEC insertAccount 'monicafox','1bf3064b71d17cdbe7a756d45913e9715e93f6dbdb470dabe37f4c9f1247fc6a';
+EXEC insertAccount 'isabelmurphy','4de66ca94812977400f463080d0f81a0016dc5ce29f4778009f4f0d12f48643a';
+EXEC insertAccount 'vswanson','1915ea8a41f31bdbb0b879253783585c0a001b84911f045bf150c4281cb54e6c';
+EXEC insertAccount 'rossdarlene','7759c9a5a8b5474b76c7b5c00b3c04d6ca6cdeabbbc52e25f9a54f2556e59c0d';
+EXEC insertAccount 'wendy52','6d5b63fbb2a973497bdc9dc4a0c8010792bd51a8eb330491dc572e4bc2bf051b';
+EXEC insertAccount 'andrewdavis','4a31314b88ab8c6b07d92caaa0e4a7005592b1428057fe9529a7453a19fdae85';
+EXEC insertAccount 'jfoster','d99d67863f59e7edeba66002be4db1c98e286b60cfadbcb51698b17aa184b842';
+EXEC insertAccount 'bryanrachel','e4c911e848bec00ba411ecd205d27b6491afb7ab09827d2e533715a144f5afd4';
+EXEC insertAccount 'cruzjennifer','e3f983a118f5555062edb40c37e8b4530bfb87c6c89c76004dd3cec7126796b9';
+EXEC insertAccount 'alicia31','45bd6b371d1011e47bb740399a7e081a7fcf9b75658a59407ece7badca23c34f';
+EXEC insertAccount 'qchen','f0ce3dcabde8d6c2bb2db2f4855722a0de8086f0d25e938faf19242bf1cdd730';
+EXEC insertAccount 'ysanchez','409531cd7d31812ab58a30b6b8eb25642cf68dc4c8929a100b231f70553a4d42';
+EXEC insertAccount 'sampsonjessica','0eaa0730cc0ee0f8c888a00450006d514664d528688c87cf42047f0269e1aa3d';
+EXEC insertAccount 'ashleyhayes','311514b6345cd997bdb96acb5da71813c1f086ac3ee3319d74a0ef5e92555f33';
+EXEC insertAccount 'sydneyjones','da4846985ef84dc7ab646d011b05a5e76ada0e64085f9f6534cc511e3569ca50';
+EXEC insertAccount 'michaelmorris','b5cef39c429c739f715624213d975b1b5faca8323f2f0a2efbb98f39c5a44c09';
+EXEC insertAccount 'aaronsharp','f79f7a3c512dd25a34d3e52e705a2fcee1599b3189cd1aad42d46d8348f20060';
+EXEC insertAccount 'linda61','330cda373d6bb5afe204300f10b6ab8f44b8824d9784c0cb5e855e95a991eb33';
+EXEC insertAccount 'melissa86','1f1135f3ba54aa12d43979e55c0a5c7e82e3ba4bd6bb4c3e80029a2caec1234d';
+EXEC insertAccount 'michael28','acc0593572b2b490c790e49f60535e8bc23ebdc497b5793722593baa03bff36e';
+EXEC insertAccount 'jamesdyer','0ad5a100673ce1b9178aad77a0b49eefb0c0c383cf00671076c8783bee924a16';
+EXEC insertAccount 'umckinney','152fee8fc758d01fae98c591edc9093f316d2326310bbd4f83109558fea8baf3';
+EXEC insertAccount 'jenniferboyer','bcea7c9de92839ee09bea59e96eda28bb8ae73c7b1f98a282455f7597ff38ecc';
+EXEC insertAccount 'davispatrick','6b56e8bf3feb2facc4ed8b7810666275681e4da0ba6435adbc764eeadd143bc5';
+EXEC insertAccount 'rebeccawhite','0c74539ebbeaaadfd3a528c276fb7d1f4247ab9c2eb3ba1509c9c04fda70d9a8';
+EXEC insertAccount 'rreynolds','acda2617fe79a477d9ae94d9d3b5c5da59039b4e5433d8dee527a0c1a40990f1';
+EXEC insertAccount 'williamsamanda','403846274e8a10397737432dff1df86750857f5c37d5cd49b174d6cc0b36d21d';
+EXEC insertAccount 'qreyes','da241575fcbe3b28c504d211857f135403d2133983dd1811f62bcfcfc33eaad4';
+EXEC insertAccount 'brendadecker','44593ad77d8ffa8545b81d7032b94f91af035b2f0b0b8cd32478d94bfb5345f8';
+EXEC insertAccount 'srodriguez','6a345d6d21205d378449607e90542241f89753ff62e06b11ab6adefc789a0b8b';
+EXEC insertAccount 'walljohn','f52515f3ee122a70da4a945943d4d4a5a9908b4a53f9cca2b7e170a765642109';
+EXEC insertAccount 'jamesarroyo','062d23aa42aeefef34827bb89039a3b72c912e3ed0f6ed00417a28cb07c6cace';
+EXEC insertAccount 'douglasramos','cf3dafd9d161cdf8cf81368886e89ad677367a81a4e632cc0873adbce0278d92';
+EXEC insertAccount 'kevintrevino','280ef98070dcea4ee0c1c1bd4c2699f33aa96337329e68698eea548683ec9c0b';
+EXEC insertAccount 'hughesmatthew','78bfe8abc6397f96d849516055335b749af6e5581103daaff95cb41b029b7561';
+EXEC insertAccount 'nataliesilva','0be5449fd7e110e562888c7f6b2ceac607083936e4a8f286fcf9a2d672f73135';
+EXEC insertAccount 'fsmith','643663941ceeeaea2cc8559048cd047dc2555cbbbfa7e8abff899b5db7ede88d';
+EXEC insertAccount 'gsimpson','a8d1c5a1646001b31bdfdbafbba64d3bd04cf5a8c1fde1ca39cfac43937ee897';
+EXEC insertAccount 'lhawkins','91186c578e957201f46f2fae580b9728ce27871831f8c11ebfb60b1108890d8e';
+EXEC insertAccount 'robert36','2c5e294fcca3fcf934db63d265c1fe2a714cc9c8ae431620105a622454ab332f';
+EXEC insertAccount 'stephanie20','bfe83893fbb96d01f08bafed5d593a118ea9c847712786a06c8c17dc0b90cfae';
+EXEC insertAccount 'jasongriffin','f535a123ce07e46bc486033ca1006e2bee21f4061aadb94a5e228e92cd367334';
+EXEC insertAccount 'gregorydavis','64fb7ccff879ef7884cda37596b976e2049243e7635c4141582d760ae6c90f16';
+EXEC insertAccount 'martinclark','e04d7ecb9d006bc00041dcb5ddc064531b7d1e94559b734e227f3326975e05be';
+EXEC insertAccount 'emilycampbell','42ac3967667b95faaab0d21865dc1d799dffc9f8e92649e1b39733f8fd06d1c3';
+EXEC insertAccount 'gregory54','ec652ebb5a6f32736a59800c9071c60dee146f30df326c6f7c15f721eee3b167';
+EXEC insertAccount 'wcook','f4d42d47d22d5c5037ecd0801b010aee934d17e329993bc815da32774b792dd3';
+EXEC insertAccount 'catherinewhite','3c8b8ed3401c4b9b261a52277e6a18cb44e13bdbb13f8e0ddf5dcfa29035340d';
+EXEC insertAccount 'phill','3b18c897ad0d04caeb906c1babbad2be011ff1e816f0fe5224167d75fc4ebec8';
+EXEC insertAccount 'moodytimothy','ce07bfbfafeb160cb96e6c88f922985c1388917145234b34bc2952cbfcc5c5b6';
+EXEC insertAccount 'igilbert','2ff5d597bb5b13633e7224bf053ae09251d464927790c83428f7d722b9d2732a';
+EXEC insertAccount 'aodonnell','198bce6b72cc579834f5c10eed14515df080fd34ab655b4497617ff10436ea99';
+EXEC insertAccount 'samueljenkins','e1d1cc435d7204b036345028dc4e83641d079b7131e1204c43ce250cc80e5b29';
+EXEC insertAccount 'mary88','5efb93d3d153c1096ce40fc56452cfc5d4f0b631b6962e008d35730777807f42';
+EXEC insertAccount 'dmoore','0bf5a90660b1d83831f37bb70036e3e4f6bf4fab7b61d2c4e427342751545f4f';
+EXEC insertAccount 'cortega','4e7e424c2523e5a9351b2a6ca70a4da1ffec12cad40e8665b832c64b57dc2968';
+EXEC insertAccount 'fred38','9951bdee66ada681b7713603e3f4f35eee04443392b8d3c6cba00c09c886d7fc';
+EXEC insertAccount 'christine23','429994433b8780de68720291e85e99551201c2614d9065196a8b40e1ae5f9548';
+EXEC insertAccount 'hhoover','516696fd81402a115627080017ed58c3f0c79bea2fae68a48462d01863a33d6f';
+EXEC insertAccount 'carpentereddie','f54a11a009ae15536bc946dd02d7b62f345c2cf823ebf94ce3cdf44acc09d57b';
+EXEC insertAccount 'washingtonkaitlyn','7e9885c7f2cde0ed59e806553871fca150cbeda6e98c7e8bcf5d0e4930861e23';
+EXEC insertAccount 'mwiley','272142c32fa2003677aac64748c424b78085aaccb095ab6ade56a8070b0e7bec';
+EXEC insertAccount 'manuelalvarado','bc54e615f33eced0fae4cd8245f7a34fd451e5729fc57e9e63e6e86deb24f35f';
+EXEC insertAccount 'meyermichael','5476efd13db56e0172b8888345358321a8bb41e694aeed0cfb4a71362f881362';
+EXEC insertAccount 'opotts','31b2ddf043d2f7f90c64db7940ad7c9c9bd9c758a191a0cbd8e4c2f56eadcfb2';
+EXEC insertAccount 'charleshebert','9d89d49c93c4190cc93c835e49ade5f94a5da2b956ecc536b054a4d5cd337145';
+EXEC insertAccount 'juliasimmons','d34f02a2c5e82183af2bcfd6bd4ec396ef97d1a96df4a5e92bb1f151fc721ece';
+EXEC insertAccount 'whammond','ad635abd099ae56bbab117abf03eb79a4781c35d31d04e359d7a675fb82581e6';
+EXEC insertAccount 'henrymorales','37bed248c177cfe4fcfe3e0dd1a1f14f0e8963ea1180c6bbcb75719d61f03af3';
+EXEC insertAccount 'colliereric','c4861465987f4cf2b188a5e8024ef8e5b9e84135b82558220e52cbada66e22d2';
+EXEC insertAccount 'lmerritt','58370301c53519f3726a0b1b5ab5930fb44011d55ae725757acb1c8dad71ebd9';
+EXEC insertAccount 'gjenkins','6167a628efce4fbcffa4ed0e9e6915a7ef14a1fc8f224e4c9810e4e7e56f07f4';
+EXEC insertAccount 'samuel06','68674e310c8a973c8b2b967b274fc42da6624ea2b20154b6d26521be7f1ee534';
+EXEC insertAccount 'christopher86','11ed82b3bdd73c3e2712cae6840f7518338bcedccff491bb5ce516e96d2f4533';
+EXEC insertAccount 'bushkevin','a32ae9f2e8103cc8cfb607a2b49c986e5bd58d092dda57147fe880e8b236c56f';
+EXEC insertAccount 'paul15','f48eb70451df8cc961f874dcb31117a28c3253dab8d4a5e15926b69693f40cf9';
+EXEC insertAccount 'ytaylor','03ddf3a62ac6c664fcca9a537945adae3584ce844e9ee2b03a5235937998416b';
+EXEC insertAccount 'nicholaskrause','7651215390f6b6e57abb48387eee053094d804c99bf27b87e55c20b0308f4dc7';
+EXEC insertAccount 'williamthomas','a9391262a873100e95cb272e1d0eee18b5c8f8e3e3834d862b88916f8681f8e4';
+EXEC insertAccount 'ljohnson','f191d35a2aa9dadc6d00c16e9746f912d1d1457d7744bda7cff9ad7273a53fc0';
+EXEC insertAccount 'thomassmith','4fef1fe8c46e95fcbcc8df648c13eee1ddf28a2937d9b8e5c7213be0eb711586';
+EXEC insertAccount 'romerojohn','75d0fe3927a1496366e429f42211714d8d52fb7cf50c224eba5a4cd6fda86927';
+EXEC insertAccount 'vgross','8c97fbf401a31c5959b5ce4efd5cae2d403522ef60e773b914abed9bea040139';
+EXEC insertAccount 'campbelljoseph','4532959a651984bd02bd5466caae19aba55c0432687860d97c4ce3a6db88ed02';
+EXEC insertAccount 'cwhite','1d10f628a3945c915447cb01d6b6d296bdaa9acd4129ac5eef83286650e6f393';
+EXEC insertAccount 'robertsonaudrey','73f29a02f8cec60d9dba6ef5e0f8f0432bd763dbd12077a892c9b31be74295bc';
+EXEC insertAccount 'melissa33','b1f54b1662b164433f03dca9674947c59f31b3f88a0367c51e33e77e56ab29c4';
+EXEC insertAccount 'rachelreyes','3e53843805e605adfde8dcdf809fe3432de7bee77855fdd09726fcae8a30ffb9';
+EXEC insertAccount 'qperez','1f05203afcb9ad72cc2baa78339e94f5465b781ed5bece5b42d89b09c413e25b';
+EXEC insertAccount 'stephenfields','057b3b599717218e1243fcbd0a09c6323f97aad4753b2843c4af1c40931fdb48';
+EXEC insertAccount 'ana50','ffe5ee7d035789052c9137ebccc7661a06c311107160b7894840d973c84ad7cc';
+EXEC insertAccount 'april25','f500b174f441a80de5ad218561d934cf6b7df04ef5ee21f6dc02dda1e13c6889';
+EXEC insertAccount 'millsolivia','690bea604654cfc686896eefab0d68866d8822b389f38ccb9f982bc225e8d8c3';
+EXEC insertAccount 'erica84','d09d8c3284cc531fddac940a108eaff5434eddeea7a501f5164aa6e5c5172270';
+EXEC insertAccount 'adam05','453a3ca0f3810f5d6d10fc1207409883b12e9bc904b402cd518264e940d43636';
+EXEC insertAccount 'justin29','a58b4377d89738be0e4416a5a944c9363bd032bf07ca102500e341d3f54baf54';
+EXEC insertAccount 'rebecca07','3b9e1cf098f843cea07dc6e55bf3e678265a22c9205f622a123631c8f6ff1a79';
+EXEC insertAccount 'aaroncruz','d32330758527e0ca234cc7bc35322a7b83b40b32f8c7a2f29d376c9e0b2ec403';
+EXEC insertAccount 'spearsamanda','c6fbed00191847fcbf136bb33062449b4a78c3980d750d6dcf6500c963ad6e9c';
+EXEC insertAccount 'james13','e19f5528742e5816b32f4405a02e97668a3dd4da478eeaa058a84b78139b48c9';
+EXEC insertAccount 'qbrewer','8eadefe1401441f43f4c529cc614823528170b989990181c704d9674ba572f68';
+EXEC insertAccount 'xhawkins','67820617b47fff5dc37c2994d251db7642f5a4f815cbdfc5d1f4a9298d0f5a5e';
+EXEC insertAccount 'jefferyking','a081448fbc52f09a219e48a4754fd7f0082ae02232de04034d001c134ac3cdb4';
+EXEC insertAccount 'khanjessica','c7a3e2cc332d6814554cefc27ba852c28652e775ed62981534b4278e46eba0d3';
+EXEC insertAccount 'stricklandjames','acdbfd526d66f1c04f79f0777fc73e7730ac71dc651fdef759cdd016db024bad';
+EXEC insertAccount 'dmendoza','5175822f2448950a3a6f5b0b0ad3d627b2440c1f961bcdd3e392809ed8ab5b6d';
+EXEC insertAccount 'thomaselizabeth','465b8582f113602e60f49c7cb6f05aa50e946c03fb0c5d31429fea6407c045e7';
+EXEC insertAccount 'ybarnes','e10fca917dd1b84445cf561379241a20fcd1cb65c6a956a4a3c7b973d79a4bd3';
+EXEC insertAccount 'christopherwells','7dc31ccf064c78ee2c36d2db2207b8246bd697bc8efc9953119ed4b6369e5980';
+EXEC insertAccount 'paul89','2329d96db1535d85bf8dde1cc91035d4fcad74b0bde34a6fb9ba034a5e5e06ab';
+EXEC insertAccount 'thomasjones','7f294318d3427f7ebe307d0c702d432fb301891417ef51e1bf992a338cd21baa';
+EXEC insertAccount 'christopher35','f4156aaa4e61f34190c30529ea078491e43a13d67e82775a6987aa181c53314c';
+EXEC insertAccount 'patriciamueller','a42f3626bfec6c50250b008d21560791d0b3c66ae5d6147a8715f45113158cb1';
+EXEC insertAccount 'john66','2eacfcc66e88b1ffdac0377c32730778f743883912bfc5896a84ec6fe0cea4be';
+EXEC insertAccount 'seth16','7eedf60c174eecad97b3a35311f21d496140033464fe55ae67ac1359cca33444';
+EXEC insertAccount 'doliver','16fc900f95b7e790d61116382c14c9ca3ec7268a320c558f2911a47c57d78204';
+EXEC insertAccount 'markwheeler','d924bfbbcca7ada7599a1ef13ac11caf6a732e46306e5310b03c1b6563633bb2';
+EXEC insertAccount 'lisasmith','a0b914880149c676155257477f3833f197ecee11d4132186637074eac05f376b';
+EXEC insertAccount 'rroberts','1aec1e447d9d6e9322079a0d2dcf2ff9cd6d4804b0ba2c93c497aa9d2dc8393b';
+EXEC insertAccount 'glendasteele','bfc7b1f81e7cbecb607a0f1b79c4e363ca7c0cecf21e32ec959c9ee922a0707a';
+EXEC insertAccount 'laurentran','a85d96b350a36ff35a7e3e1a863121126bc55a098fb4baed817c376c015f099d';
+EXEC insertAccount 'watkinsjohn','ffdaad36911a6ba37c5f0efa0f26c5e82c1ecb55440e926d197beecdd287dd3a';
+EXEC insertAccount 'steve89','7e6fad140816a456deba01927c536b0edb8d5573345148ece6a3f5a8e0f1b117';
+EXEC insertAccount 'shaneboyer','fbc9c497d80100ace503bf00a4a60327d8236edba4dde9dc30bba594127de723';
+EXEC insertAccount 'fernandocraig','76a35b9d9a7cdbb6fa11cfef3dcf0f8f89ad932e0c31c028ef7bc26ccbff5357';
+EXEC insertAccount 'boonedylan','6897fe38a025eb27346aae1f3691a8c2eb89212dea69618a9dd41db40ba4f0bf';
+EXEC insertAccount 'qbrown','56f5272c3f3a903351edbff6f61387cea4b0ff8ff6df37add75f3572c80d7ec9';
+EXEC insertAccount 'wkrause','3ebefd709e6dd6d4b32dcbcf5bd0d739551044cf16f168ac1f805bc8db53b216';
+EXEC insertAccount 'trangel','f1b57b66a205d42b9b89074e90bc06e2dce4c017617e7d84b89be8c20e77da3a';
+EXEC insertAccount 'wintersrobert','c5e5ff699fc94b8b36b0c7556d4b702f1cfba473cb0cfdca0db7e522a4cad1d6';
+EXEC insertAccount 'gpayne','19c8da575aa455f40fd370f2a515c95ea85092f289a477723318faeecfc4c531';
+EXEC insertAccount 'donald74','0f613258fb05dd5f5270409bfbf9112605b71e699c232d1173bc323ab1cc80df';
+EXEC insertAccount 'djackson','7d05b2afb7ea51d6ee833ef8c95e5abf4eb3f30d319c6a7f8ebe816b4bf4f42b';
+EXEC insertAccount 'ejackson','422a1b0ba4f2f2946c11592eb2adc67df44f9dfb06231dc33fec749f27071496';
+EXEC insertAccount 'feliciawalton','e5b2ec1eb34a6f7a78eda6bcdd18b3c3dcfdc90a1d5c66fc2301c1ceaef8fbf4';
+EXEC insertAccount 'ryanbradford','91c17e4837d413b3ae26136f95a4ff06e0a682c60f25e4600035d604087624f5';
+EXEC insertAccount 'coxapril','f67fe1240dab639073493857c321e39a9ea5f417786381560322ec29569ee681';
+EXEC insertAccount 'timothy42','a63315d6402e8a91a6845549341e2a37149b240823f24f3fb88a6e3f714c7ff9';
+EXEC insertAccount 'danielgibson','de02337bb1a927bfa21aa08baad1aefdee3450b609a4b8018e88261b9bcd8112';
+EXEC insertAccount 'poneill','4a41e23e3e0b41f93af54c1f33c70ff80e5ebdc3337ab2c2238e4554eee789ee';
+EXEC insertAccount 'gdavis','d4edd0a12ae5560ccc4cf8db18a172516faf3d52daf438f1eaee40ed3e7b28f0';
+EXEC insertAccount 'cfarrell','87c22c1631cbdfd16e50c18e73c995fba74bc2a1c1ba82ef94dcf2fe9a717410';
+EXEC insertAccount 'angela09','9722d6cef609e3f706d4a3ba78dd4bb4b0b7f4bd1a85a35d2c4b548dae9a261b';
+EXEC insertAccount 'emily70','4640976b662bddbecf7ba77b39bb3c5ff2035543924da9151d484f81ee3da3c8';
+EXEC insertAccount 'aaron77','4857fd8db15a160f1f863628278b05eedee58f7f9cc72ff1fc2d767b0f7ee018';
+EXEC insertAccount 'karenhensley','258ebea02608d201d8ba9410e016b95c79b1564bb459f5f7a9a16fb2aba6c8e7';
+EXEC insertAccount 'julie50','82cc50ae50f2c39014ef7b995bd1050f2638a836a9e0a123088d670dfd5f2ca8';
+EXEC insertAccount 'lewisregina','f6205ad91dad30a0df8026e7ffb59a025fae3e9535dedbc3c2bfc72ad0af91f0';
+EXEC insertAccount 'jilllogan','5b03d2c4c322c69a90c22db3ef48ab1febde8ef8418736ae786ed3a970745f64';
+EXEC insertAccount 'franciscomoore','feb3b37ff87a955171257c316d17f1afb2491bddecd7d42af4e5ee157ee6141a';
+EXEC insertAccount 'jtanner','b8099cc6d12f97a1dec211a55ef3a2015b63997c6ce194648111c7d135bc75a0';
+EXEC insertAccount 'igibson','29a22ee91f694f93b4e6f789765218bb8e1f02e8afd0455354b2d48041ae538f';
+EXEC insertAccount 'edward74','c6ab7ff1446be168345793b5c6d057d725733230d9d1e54f84269892ab292c9a';
+EXEC insertAccount 'gwheeler','9c2b62233afa0dc8472f77f8cf874b3c3ddb1b640c9fd0b36803d119355d444c';
+EXEC insertAccount 'rriley','21415c8048328f73c0c442fa2900e5239df04889ecf6122a821eb420b8106229';
+EXEC insertAccount 'kathleengregory','da2c766695f93d917cd00d14a9f5007cef747858662faaae6eab673f190fbbd3';
+EXEC insertAccount 'heathercarr','879eed14a50a51da89ce024ef311b6690f3648e0a8c21140823551501e6e34d2';
+EXEC insertAccount 'mcdanieltodd','6f449125330b24d885f2744a11fe10a863fa9dcb1a1efbbb4be05e0f3988c360';
+EXEC insertAccount 'carolineortiz','c7cc9c9911b3221c6222b213f37acf1a75e75b02f392488ae481ec6721c7a6cd';
+EXEC insertAccount 'halldavid','d45e4d902e9c7a38249a8042e365ad8cb0508ffbf11b8cf7b67fdaf57077c00e';
+EXEC insertAccount 'wolftina','fc86a3713fbfb2736d90cb9786761eb3e49a4a2d426b90a17eed7c24cb884ace';
+EXEC insertAccount 'kelly17','561f6d9ee55796d59e0207cc2a0287efe79f38e830dee158675ba89a5075ebb1';
+EXEC insertAccount 'candacemiller','1fba3fe6a67ff8c916915a60ea7d2f2f4e589594d4f912e7dbd7d9c181a87f37';
+EXEC insertAccount 'wilsonamy','257612cf0bf11ddf60e98951604a792cc3436d5b382126c809c3abf38d990245';
+EXEC insertAccount 'mclay','4e3e25ab4eec811ba685da12a1810fac910ffbe0f5905320d995525fe9532890';
+EXEC insertAccount 'normanbooth','7c79abddea8961fe71a1127c40f9d404e98c7f65d2727d95ef02a5334a9d4ac7';
+EXEC insertAccount 'valenzuelaglenda','ba9b77ae966b0a971743486a6be705670c3145dc5e2a17b8c9eecfb318b87fb1';
+EXEC insertAccount 'brett74','616f179f7fb0ba5ba4af4258da2dd59d68d5cab693f6d008acc897c91990ae18';
+EXEC insertAccount 'caldwellallison','1d5a586993834c2507a73d8b310224cc6413b92e98488b8d289fa467c1071b5d';
+EXEC insertAccount 'dunntim','7e30fe08c50a39cdef9b230a07a1cbeccde5d244c7169e784a7a3296544a554a';
+EXEC insertAccount 'kimberly41','7fe6906c241cb64a0c04da53d3c993da771a2098dfd0c1196bd21c559c22e5ac';
+EXEC insertAccount 'trussell','91b6930b03bed0a80ae0a17855f6c162b0ab7f2a2b76e890701cc3ce4554b4c1';
+EXEC insertAccount 'cortezdonald','141cc62e3839464a9ea4454bd995587663569c2e341b08b59ea732dfbfe7855c';
+EXEC insertAccount 'fperez','0daabcf362dfa7242b9c710fbce65a23be79a3535e95258759920865fa67d6df';
 
 
 INSERT INTO Employee (employee_id,
@@ -379,3868 +379,6680 @@ INSERT INTO Employee (employee_id,
                     employee_type,
                     branch_id,
                     account_id)
-VALUES ('001','Robert Allen',N'Nam','2000-07-16','USNV Castro, FPO AP 43884','096096940148','0007334519','AD','01','00099'),
-('002','Patricia Gutierrez',N'Nữ','1964-10-26','071 Sharon Green, Roberttown','094560665145','0708338585','NU','04','00100'),
-('003','Eric Garcia',N'Nữ','1977-06-21','4241 Juan Plaza, Adamland','088766689188','0647548159','ST','04','00340'),
-('004','Patricia Gay',N'Nam','1963-06-07','382 Walter Isle, Arnoldtown','030543314071','0071937462','NU','05','00038'),
-('005','Teresa Bernard',N'Nữ','1961-09-09','5162 Sims Spurs, Jasonborough','086577006875','0193419510','ST','05','00236'),
-('006','Patricia Davis',N'Nữ','1984-11-11','USNV Mosley, FPO AE 15041','087081274873','0924497276','DE','04','00103'),
-('007','Doris Butler',N'Nam','1978-02-19','6236 Fisher Ridge, Ashleymouth','042247031263','0132894732','DE','03','00246'),
-('008','Jessica Coleman',N'Nữ','1961-09-29','930 Hayes Walks, Port Mindy','052553359919','0133386715','ST','02','00220'),
-('009','Jonathan Martin',N'Nữ','1977-11-25','1658 Debra Glens, Wileyport','097879992863','0714633402','DE','05','00023'),
-('010','Melissa Lewis',N'Nam','1959-03-21','321 Sosa Haven, Smithmouth','000011097969','0319173110','AD','01','00349'),
-('011','Jason Carter',N'Nam','1978-08-11','4156 Cook Shoals, Davisport','045667892883','0748919163','AD','01','00243'),
-('012','Jonathan Knapp',N'Nam','1998-11-01','1050 Choi Common, Alicialand','093045921921','0318867492','DE','03','00200'),
-('013','Kyle Martinez',N'Nam','1959-11-02','468 Teresa Ranch, Levineton','098523844270','0511856789','ST','03','00194'),
-('014','Michael Calhoun',N'Nam','1991-03-30','2522 Murray Courts, Staceybury','042434053013','0672462793','AD','04','00221'),
-('015','Jacob Lang',N'Nam','1962-10-23','229 Teresa Squares, Derekland','051642303957','0212993777','ST','04','00096'),
-('016','Tiffany Doyle',N'Nữ','1977-07-17','44140 Stokes Lodge, Susanbury','012356257017','0406843680','DE','04','00234'),
-('017','Regina Torres',N'Nữ','1998-07-06','0066 Moon Plaza, Bethborough','008815863818','0761708486','AD','01','00318'),
-('018','James Harris',N'Nam','1992-01-01','514 Cox Landing, Robertberg','063974268527','0661856113','DE','04','00170'),
-('019','Morgan Palmer',N'Nam','1968-04-17','82433 Jody View, Deniseview','055089337499','0563127004','DE','01','00249'),
-('020','Sylvia Bates',N'Nữ','1971-01-01','096 Nicholas Isle, Holdenville','042448212372','0241551105','NU','05','00165'),
-('021','Paul Taylor',N'Nam','1983-01-30','12082 Romero Loaf, Adamston','029704904292','0312488124','AD','03','00274'),
-('022','Reginald Taylor',N'Nam','1972-02-28','0124 Salazar Ferry, Novakshire','083907514464','0781936303','ST','01','00026'),
-('023','James Vincent',N'Nữ','1972-09-24','960 Cory Drive, Rhodeston','094920205112','0840147191','AD','01','00208'),
-('024','Tiffany Nelson',N'Nam','1966-04-08','USNS Allen, FPO AP 40027','059388664184','0590147913','NU','05','00326'),
-('025','Ashley Holloway',N'Nam','1970-01-31','059 Gutierrez Lock, Stoneton','046321703880','0077480711','NU','03','00031'),
-('026','Larry Thomas',N'Nam','1986-12-13','014 Paul Vista, Hawkinsside','013432670033','0785216969','NU','02','00206'),
-('027','Jon Blair',N'Nữ','1998-05-18','0534 Jon Heights, Brandonburgh','093068170999','0199735616','AD','02','00297'),
-('028','Sarah Brock',N'Nam','1988-01-26','993 Kevin Mill, East Tylerstad','073707233973','0295018123','DE','04','00107'),
-('029','Amber Palmer',N'Nữ','1962-08-01','USCGC Smith, FPO AA 13340','011661838193','0693608541','DE','01','00171'),
-('030','Alejandro Hernandez',N'Nữ','1985-07-27','10542 Sarah Passage, Saratown','054783701636','0457113210','ST','03','00263'),
-('031','Cheryl Swanson',N'Nam','1958-05-11','86763 Mason Isle, Leahside','065893656607','0596023649','ST','05','00228'),
-('032','Jordan Montes',N'Nam','1988-01-09','USNS Rodriguez, FPO AE 42110','083033836097','0241224949','DE','03','00144'),
-('033','Karen Blair',N'Nữ','1991-12-19','187 Gibson Roads, Judyhaven','088469040907','0865145886','ST','01','00280'),
-('034','Emily White',N'Nam','1991-06-04','53614 John Loaf, Stewarttown','036761686000','0765827811','ST','01','00224'),
-('035','Steven Conner',N'Nữ','2001-08-23','USNS Taylor, FPO AE 15461','020774771397','0742575236','NU','05','00077'),
-('036','Wesley Rice',N'Nam','1996-11-28','581 Sheena Loop, North Meagan','014187548820','0024955578','DE','02','00092'),
-('037','Ashley Herrera',N'Nữ','1959-04-26','1220 Welch Valley, New Kara','018228391248','0424980574','DE','04','00360'),
-('038','Tina Sheppard',N'Nữ','1998-02-10','2963 Macias Run, South Brenda','055507741304','0811472959','NU','01','00257'),
-('039','Nicole Lee',N'Nam','1979-03-26','USNS Washington, FPO AP 69645','093195998698','0196730471','DE','03','00332'),
-('040','Christopher Parker',N'Nữ','1969-10-06','419 Alison Passage, Olivialand','001541693719','0605423792','NU','02','00025'),
-('041','Heather Shelton',N'Nam','1972-08-04','5560 Michael Summit, Ginastad','037900094864','0154389284','NU','05','00277'),
-('042','Christopher Long',N'Nữ','1969-10-26','6361 Bailey Locks, New Martha','041988156697','0366258577','AD','04','00006'),
-('043','Alicia Richmond',N'Nam','1967-06-11','1492 Michael View, West David','025517872623','0899004437','AD','04','00313'),
-('044','Jessica Morris',N'Nữ','1966-12-11','3281 Chavez Isle, Welchmouth','098691894767','0504065000','DE','04','00009'),
-('045','Sara Braun',N'Nữ','1981-06-30','799 Lewis Dam, Perezport','059784684638','0516759483','ST','02','00235'),
-('046','Michael Long',N'Nam','1962-06-25','USNS Ramirez, FPO AE 60041','065256750587','0688118562','DE','04','00281'),
-('047','Benjamin Williams',N'Nam','1997-04-17','129 Timothy Fork, South Tammy','003858951347','0765250878','ST','01','00262'),
-('048','Gina Marshall',N'Nữ','1977-05-17','USNV Roy, FPO AP 17056','079320312115','0028847034','ST','05','00050'),
-('049','Cynthia Adams',N'Nữ','1976-12-18','1059 Kemp Isle, East Amber','037127471371','0015337978','ST','04','00002'),
-('050','Tanya Wilson',N'Nam','1995-12-13','USNS Fitzpatrick, FPO AA 16942','035109877069','0822368338','DE','03','00109'),
-('051','James Clayton',N'Nam','1974-11-19','838 Nancy Rapids, Goodmanport','088312430273','0996217516','NU','05','00079'),
-('052','Alexander Brewer',N'Nữ','1986-12-20','820 Robinson Valley, Changfurt','067744557651','0879224062','ST','05','00210'),
-('053','Janet Smith',N'Nữ','1971-01-10','353 Garcia Cove, Rosarioview','038144411857','0749435432','DE','04','00034'),
-('054','Jason Green',N'Nam','1989-09-30','044 Darrell Pike, Christymouth','035160187586','0248089286','ST','05','00325'),
-('055','Patricia Figueroa',N'Nam','1976-02-11','751 Sims Club, Michaelland','092203085791','0649358540','DE','03','00042'),
-('056','Terri Wood',N'Nam','2002-06-18','224 Tammy Ranch, Lake James','031190181847','0634715725','NU','01','00146'),
-('057','Alicia Morris',N'Nữ','1993-01-30','2227 Martin Burgs, Smithhaven','041524842005','0318312937','DE','04','00190'),
-('058','Deanna Reed',N'Nam','1992-11-17','36936 Combs Mill, North Tammy','030994475215','0611805912','DE','03','00172'),
-('059','Cody Gallagher',N'Nam','2001-01-02','8822 Smith Parkways, Lewisland','091867432950','0090973375','DE','05','00085'),
-('060','Debbie Nguyen',N'Nam','2001-03-24','69540 Alyssa Trace, West Wayne','076408583125','0109214017','NU','02','00126'),
-('061','Allen Barker',N'Nam','2002-09-22','USNS Wolf, FPO AE 04534','069424654339','0977077845','NU','05','00053'),
-('062','Patricia Phillips',N'Nam','1990-01-17','877 David Village, West Joseph','029153965436','0253340636','DE','01','00178'),
-('063','Ryan Donaldson',N'Nam','1975-03-23','04161 Eric Cliff, Peterborough','079756060027','0323124130','DE','05','00032'),
-('064','Sarah Smith',N'Nam','1966-11-08','USCGC Fowler, FPO AP 78630','057060790643','0620956106','DE','04','00247'),
-('065','Kelly Mendez',N'Nam','1971-08-02','7883 Dennis Road, Weberchester','046253595314','0067963373','NU','01','00242'),
-('066','Annette Jenkins',N'Nam','1958-09-24','795 Ashley Manor, Pearsonburgh','024909725193','0164510184','DE','03','00005'),
-('067','Brittney Perez',N'Nữ','1994-01-12','8525 Barron Neck, East Adam','080945871663','0666467216','NU','01','00049'),
-('068','Nicole Tapia',N'Nam','1977-06-15','147 Holmes Plains, Floresmouth','070526116721','0633131414','NU','05','00065'),
-('069','Elizabeth Taylor',N'Nam','1959-09-22','032 Ruiz Manors, Matthewhaven','064730403915','0754270839','NU','04','00017'),
-('070','Beth Delgado',N'Nam','1959-03-29','2781 Myers Lodge, West Amanda','042541592555','0329559596','DE','03','00083'),
-('071','Jessica Silva',N'Nam','2003-12-12','5711 Alexis Trace, Michaelfurt','058443246633','0894792186','NU','04','00001'),
-('072','Amy Cruz',N'Nữ','1996-10-27','35564 Lewis Mills, Ballardberg','027443952014','0195122594','NU','04','00084'),
-('073','Traci Norman',N'Nam','1967-10-16','USNS Jones, FPO AP 04811','091848650864','0119907250','NU','05','00060'),
-('074','Brittany Erickson',N'Nữ','1987-08-09','770 Diana Land, South Colin','080785791941','0629354792','NU','04','00012'),
-('075','Austin Nguyen',N'Nữ','1988-04-07','67605 Marie Dale, South Teresa','071569277291','0496705138','DE','02','00185'),
-('076','Amber Hood',N'Nam','1996-12-05','66869 Krista Dam, Hoovermouth','054050591876','0392740922','ST','04','00329'),
-('077','Jose Davis',N'Nữ','1993-04-16','USS Malone, FPO AE 48363','038492099940','0932652575','ST','04','00168'),
-('078','Miguel Jackson',N'Nam','1971-07-17','USNS Bass, FPO AE 13191','051095821348','0390849065','DE','03','00295'),
-('079','Jesse Brandt',N'Nữ','1982-06-05','USNS Munoz, FPO AA 18221','044438292741','0600952091','ST','01','00115'),
-('080','Brendan Williams',N'Nữ','1991-04-02','925 Lopez Drives, Lake Karen','020390419925','0458099634','NU','03','00227'),
-('081','Sydney Mccoy',N'Nam','1996-06-13','327 Ruiz Lodge, New Joseph','087855390688','0161769302','ST','02','00139'),
-('082','Jessica Brown',N'Nữ','1996-10-14','700 Glenn Burg, Tylerhaven','057602735851','0136084268','NU','03','00282'),
-('083','Rachel Mitchell',N'Nữ','2000-01-19','71817 Lopez Run, West Kathryn','098625764854','0349187945','ST','03','00154'),
-('084','Roy Hayden',N'Nam','1979-08-06','3726 Morgan Vista, Nicolemouth','078310348092','0962285401','NU','03','00143'),
-('085','Daniel Lewis',N'Nam','1972-08-25','USNS Robinson, FPO AP 54216','000660998286','0443574457','ST','04','00333'),
-('086','Kaitlin Young',N'Nữ','1960-09-17','3612 Whitney Views, New Mary','049692393513','0682906032','NU','04','00298'),
-('087','Linda Hayes',N'Nữ','1971-10-23','USNS Mccormick, FPO AE 92711','017799267206','0337005087','ST','02','00015'),
-('088','Nancy Moore',N'Nữ','1989-09-30','3859 Jason Roads, Stewartbury','049610038259','0146471485','ST','04','00008'),
-('089','Diamond Alvarado',N'Nữ','1984-07-31','9091 Baldwin Haven, Youngland','006530283889','0845938006','NU','02','00024'),
-('090','Anna Nash',N'Nữ','1972-09-25','9241 Weber Skyway, Markburgh','093903722114','0903091874','DE','05','00059'),
-('091','Jennifer King',N'Nữ','1974-05-08','7358 Marshall Lodge, Davidside','018004433369','0285030347','NU','04','00136'),
-('092','Theresa Johnson',N'Nữ','1971-02-06','3616 Brenda Walks, Lake Amanda','003350335912','0341639320','NU','03','00271'),
-('093','Michele Fox',N'Nam','1982-04-07','82054 Nguyen Passage, Larafort','011337602929','0731663834','NU','01','00244'),
-('094','Sierra Smith',N'Nam','1961-04-08','329 Russell Summit, Hardyside','052515770831','0610951300','NU','03','00339'),
-('095','Oscar Williams',N'Nam','1985-01-01','4378 Johnson Ranch, Nathanstad','037627703212','0811301431','NU','03','00174'),
-('096','Marissa Bell',N'Nam','1995-12-17','930 Quinn Passage, Port James','070022972847','0046443735','NU','04','00161'),
-('097','Mallory Rodriguez',N'Nam','1961-03-27','6198 Price Shoal, Edwardbury','035664132606','0351952400','ST','04','00214'),
-('098','Benjamin Lopez',N'Nữ','1980-01-07','046 Jason Burg, Cartermouth','064833506212','0209456728','ST','03','00250'),
-('099','Jose Brown Jr.',N'Nữ','2000-02-01','2196 Harvey Well, Roytown','005461972928','0307825947','ST','02','00177'),
-('100','Sherry Hensley',N'Nam','1967-10-06','USNS Rodriguez, FPO AA 77664','084394840010','0247471214','DE','01','00316'),
-('101','Dennis Sweeney',N'Nữ','1980-12-08','850 Lynn Creek, South Melinda','000790142461','0493406311','DE','02','00150'),
-('102','Anna Ramirez',N'Nữ','1973-12-22','USS Adams, FPO AE 20784','011826471811','0358362279','ST','04','00233'),
-('103','Dana Gibson',N'Nam','1978-03-13','USNS Guzman, FPO AE 81822','075564103291','0334348259','DE','04','00080'),
-('104','David Perry',N'Nữ','2002-03-07','5496 Green Mission, Michaelton','098348579935','0533258997','NU','02','00279'),
-('105','Clarence Hughes',N'Nam','1980-01-15','285 Daniel Lodge, Smithview','071285243950','0850406828','ST','02','00225'),
-('106','Jonathan Robinson',N'Nữ','2000-02-24','0290 Ross Centers, Danielshire','045415910606','0105080049','DE','04','00132'),
-('107','Karen Johnston',N'Nam','1968-09-23','682 Margaret Flat, West Daniel','043580632500','0528575364','ST','03','00285'),
-('108','Kayla White',N'Nữ','1994-09-16','036 Barber Ramp, Wardland','075399028062','0808780778','ST','02','00315'),
-('109','Peter Reyes',N'Nam','1970-05-18','1231 Baker Courts, Rosemouth','090751376640','0918010967','DE','03','00033'),
-('110','Tonya Huynh',N'Nữ','1989-10-13','880 Norton Glens, Markmouth','003701094216','0176156324','ST','04','00188'),
-('111','Alexis Lopez',N'Nữ','1985-10-15','0713 Jennifer Circle, Amyshire','046164615262','0033234443','ST','02','00162'),
-('112','Tracy Graham',N'Nam','1970-11-05','47208 Barbara Via, Megantown','073175737510','0616963352','DE','04','00182'),
-('113','Dominique Evans',N'Nữ','1983-11-09','7482 Moore Falls, Nicoleberg','097111233234','0591510217','ST','02','00164'),
-('114','Maria Jackson',N'Nam','1965-04-04','17720 Soto Road, Wilsonmouth','005482403519','0823510811','ST','02','00336'),
-('115','Amanda Dougherty',N'Nữ','1960-09-15','6516 Cole Estate, Pereztown','041154618652','0677189041','NU','01','00275'),
-('116','Mrs. Cheryl Williams',N'Nữ','1980-02-11','USS Luna, FPO AP 74256','060987814890','0645677712','ST','04','00278'),
-('117','Laura Hernandez',N'Nữ','1987-08-19','1614 Robert Ford, Lopezshire','006415553501','0414761353','DE','01','00269'),
-('118','Alexander Gardner',N'Nam','1971-08-20','001 Myers Cove, Holthaven','040329350893','0954240839','DE','01','00293'),
-('119','Carol Kelly',N'Nam','1958-09-26','820 Laura Pine, Danielleville','004058565453','0987888429','DE','02','00276'),
-('120','Robert Bennett',N'Nam','1982-11-15','82702 Welch Ridge, Jamieport','006065959490','0707188460','NU','04','00064'),
-('121','Brenda Young',N'Nam','1976-01-23','USS King, FPO AE 95245','092289731835','0431498723','NU','04','00101'),
-('122','Mark Mcpherson',N'Nam','1978-08-21','852 Fleming Cliff, North Becky','058195788351','0980731950','ST','01','00266'),
-('123','Jill Odonnell',N'Nữ','1987-08-25','2734 Walker Via, Port Scott','099094165418','0730448083','ST','05','00289'),
-('124','Joshua Wagner',N'Nữ','1974-05-23','9156 Cook Knoll, Mendozaview','032881848217','0041807077','DE','01','00284'),
-('125','Paige Perry',N'Nam','1974-08-28','9895 Megan Place, Codyton','032151232225','0094539150','NU','05','00335'),
-('126','Karen Mcdowell',N'Nam','1967-09-03','433 Linda Unions, Steelebury','068821530307','0638656796','ST','03','00183'),
-('127','James Garza MD',N'Nam','2000-07-22','USNV Mckinney, FPO AA 93064','002899863246','0771635624','NU','04','00111'),
-('128','Samuel Daniels',N'Nữ','1994-03-06','864 White Ranch, Cynthiaside','052171442526','0774839723','NU','04','00156'),
-('129','Barbara Brooks',N'Nữ','1995-09-17','6487 Stephen Greens, Beckview','008624000699','0908507894','DE','03','00222'),
-('130','Amy Myers',N'Nữ','1963-11-11','944 Luna Cape, Michaelland','027908255488','0261336234','DE','04','00167'),
-('131','Laura Carpenter MD',N'Nữ','1981-08-24','125 Morgan Street, Port Ashley','083495892875','0423452495','DE','04','00119'),
-('132','Elizabeth Ward',N'Nữ','1970-06-26','0586 Levy Coves, Port Douglas','047172924435','0050329152','DE','03','00317'),
-('133','Andrew Houston',N'Nữ','1970-05-16','45978 Robert Burgs, Gomezville','020542666342','0532795261','DE','01','00045'),
-('134','Dr. Victor Hebert',N'Nữ','1981-04-03','489 David Vista, Hensonstad','008907430295','0674357743','ST','01','00155'),
-('135','Tanya Duncan',N'Nữ','1987-05-13','0698 Jones Walk, Walshhaven','024467937621','0668967697','DE','03','00217'),
-('136','Nicole Jackson',N'Nữ','1973-02-06','USNV Dawson, FPO AP 88014','073549055319','0492467796','NU','04','00123'),
-('137','Ashley Norris',N'Nữ','1971-11-09','076 White Locks, West Laura','021098213386','0686630792','NU','01','00029'),
-('138','Daniel Hunt',N'Nam','1982-09-24','7018 Sabrina Forks, West Dana','001118220864','0632977678','ST','03','00288'),
-('139','Austin Rhodes',N'Nam','1960-12-08','493 Sanchez Keys, West Jaystad','046607000990','0808407468','NU','03','00311'),
-('140','Robert Davis',N'Nam','1997-09-24','9714 Brown Coves, Boonebury','055156814707','0474829192','ST','04','00355'),
-('141','Jessica Moore',N'Nữ','1984-07-29','607 Gomez Spurs, Dennisbury','058427523770','0606578660','ST','01','00129'),
-('142','Tammy Davis',N'Nam','2003-01-24','4007 Patty Forge, West Pamela','038444370550','0631556286','NU','01','00252'),
-('143','Anthony Morris',N'Nữ','1994-10-11','902 Reese Radial, New Robert','046373791496','0385734305','ST','01','00272'),
-('144','Beth Johnson',N'Nam','2001-11-03','049 Joshua Villages, Kingberg','017067286481','0898940408','ST','02','00232'),
-('145','Kelly Mcclure',N'Nam','1964-01-22','99679 Isaac Ridges, Adrianfort','023562938606','0034786796','DE','03','00043'),
-('146','Charles Garcia',N'Nam','1959-08-28','965 Willis Ways, Grayshire','000471235958','0969622256','DE','01','00072'),
-('147','Jeffrey Pacheco',N'Nam','1958-08-27','198 Foster Green, Lake Ginaton','082629112423','0950781648','ST','04','00358'),
-('148','Susan Fitzpatrick',N'Nam','1962-03-26','624 Kimberly Avenue, Carolberg','098613117387','0740871980','DE','03','00082'),
-('149','Michael Malone',N'Nữ','1979-04-04','83088 William Flat, Sotofort','027702364675','0356672013','NU','03','00176'),
-('150','Randall Pacheco',N'Nam','1989-03-08','85541 Samantha Glen, Penashire','009106058282','0388161508','NU','01','00071'),
-('151','Derek Kerr',N'Nam','1975-10-16','683 Michelle Courts, New Lisa','019856042176','0774671231','DE','02','00197'),
-('152','Lee Williams',N'Nam','1962-12-12','727 Perez Loop, Alexandershire','088203253690','0475981682','NU','03','00056'),
-('153','Autumn Mason',N'Nam','1965-06-30','4785 Wells Harbors, Riosberg','076318906108','0496679173','DE','04','00087'),
-('154','Thomas Adams',N'Nam','1984-12-09','280 Munoz Parkway, Amyport','051977254045','0054218004','DE','03','00346'),
-('155','David Wheeler',N'Nam','1970-11-12','4193 Rogers Fort, Johnsonburgh','048712989234','0189259509','DE','01','00063'),
-('156','Nathan Lopez',N'Nữ','1983-12-29','753 Wheeler Pines, Eileenview','043639142771','0686510118','NU','05','00212'),
-('157','Danny Carter',N'Nam','1998-03-01','7570 Parker Run, Melissamouth','045660022900','0128371490','NU','04','00253'),
-('158','Laura Bright',N'Nữ','1960-10-08','3784 Oneill Shores, Bakerfort','077244236511','0759996455','DE','04','00267'),
-('159','Jason Johnson',N'Nữ','1962-09-30','4679 Craig Groves, Port Mary','090233599303','0090698452','ST','01','00035'),
-('160','Jacob Kelly',N'Nam','1973-02-04','982 Mendoza Branch, Kathyburgh','080712677237','0687002423','ST','02','00128'),
-('161','Frank Mercado',N'Nam','1972-04-14','9246 Palmer Mission, Erikaview','021363801255','0514070439','DE','04','00007'),
-('162','Amy Guerrero',N'Nam','1981-03-09','9072 Derek Mission, Davismouth','023804605564','0145737868','NU','03','00309'),
-('163','Danielle Simpson',N'Nữ','1999-05-09','36121 Kenneth Point, Debrafurt','002880537041','0643436144','ST','02','00345'),
-('164','Melanie Miller',N'Nam','1968-10-28','556 Anthony Village, Jacobton','026766472976','0112673655','ST','05','00140'),
-('165','Lisa Schaefer',N'Nữ','1987-05-08','505 Alan Harbors, Robinburgh','095929354278','0152631812','ST','05','00334'),
-('166','Kevin Bishop',N'Nữ','1979-04-03','925 Alvarado Cove, Lake Taylor','084846873627','0150216119','DE','04','00125'),
-('167','Daniel Santiago',N'Nữ','1974-06-12','2649 Derek Key, Stevenview','063869752126','0516592357','DE','04','00320'),
-('168','Karen Weaver',N'Nữ','1976-02-09','294 Jennifer Rapid, West Sean','042093787196','0142911321','DE','02','00219'),
-('169','Sarah Williams',N'Nữ','1965-04-20','5349 Jones Forest, Lindaview','076396654600','0931837442','DE','02','00216'),
-('170','Kimberly Coleman',N'Nữ','1981-12-13','477 Arias Inlet, Brianland','062361939961','0672232029','ST','05','00286'),
-('171','Ashley Sampson',N'Nam','1989-03-12','8628 Briana Tunnel, Coreybury','097001188408','0905057698','ST','05','00041'),
-('172','Kimberly Rowe',N'Nữ','1993-09-16','219 James Plains, Williamview','099154253556','0748044431','DE','01','00347'),
-('173','Michael Gutierrez',N'Nữ','1989-10-03','USNV Callahan, FPO AA 78715','062386869719','0579099713','DE','05','00292'),
-('174','Tiffany Singh',N'Nam','1984-12-30','6798 Marcus Point, West Steven','042479704956','0077905811','ST','01','00127'),
-('175','Michael Padilla',N'Nam','1967-11-06','41699 Kara Isle, Grahamview','010211153231','0745371087','DE','04','00260'),
-('176','Angela Davis DDS',N'Nữ','2003-07-28','USNV Franklin, FPO AP 55634','005151592022','0463481023','ST','04','00122'),
-('177','David Oneill',N'Nữ','1966-11-20','741 Charlene Row, Johnland','055267880339','0546298424','ST','03','00105'),
-('178','Corey Soto',N'Nam','1985-02-21','59829 Victor Drives, New Joel','025843351683','0376256928','DE','04','00121'),
-('179','Stephanie Hebert',N'Nam','1964-12-31','248 Hays Springs, East Lori','043995957462','0589728391','ST','02','00097'),
-('180','Joanne Boyer',N'Nam','1971-08-12','7473 Amanda Bypass, Kylefort','072655430001','0091215887','ST','05','00068'),
-('181','Denise Sullivan',N'Nam','1966-09-07','120 Martinez Place, West Jimmy','041539594059','0561169336','ST','05','00270'),
-('182','Brian Gordon',N'Nữ','2002-05-24','4462 Carolyn Ranch, Jasonport','050820026391','0207569573','ST','02','00114'),
-('183','Taylor Barton',N'Nam','1970-05-15','345 Moore Cliffs, Port Heather','032596075066','0315998235','ST','03','00160'),
-('184','Aaron Dunn',N'Nữ','1972-03-02','USNS Gibson, FPO AA 37122','092828793098','0596741474','ST','04','00091'),
-('185','James Hudson',N'Nữ','1983-07-04','02944 Terry Point, Smithstad','081961713250','0894455108','ST','02','00337'),
-('186','Nathan Ramirez',N'Nữ','1972-01-11','8392 William Forge, Pricefort','070866962055','0264528218','DE','01','00256'),
-('187','Rebecca Ross',N'Nam','1961-04-16','22302 Alan Fields, South Jason','012854735182','0403459657','ST','02','00135'),
-('188','Dr. Jessica Wade',N'Nữ','2003-01-30','890 Jasmin Manor, Cobbland','009828035735','0321662646','DE','03','00357'),
-('189','Tiffany Johnson',N'Nữ','2002-08-02','3309 Natalie Locks, Landryberg','010412623014','0400113077','DE','05','00255'),
-('190','James Bishop',N'Nam','1983-03-03','712 Brooke Alley, Jacksontown','048136829164','0068146356','ST','04','00078'),
-('191','James Barajas',N'Nữ','1976-06-13','4108 Sharon Falls, East Thomas','026357888226','0061992868','ST','04','00086'),
-('192','Mary Hernandez',N'Nam','1986-08-13','539 Ibarra Shoal, Halefurt','074172569478','0646723957','DE','05','00338'),
-('193','Kristen Walker',N'Nam','1965-03-14','USS Hill, FPO AA 16602','005080743661','0281436707','DE','03','00052'),
-('194','Collin Ford',N'Nam','2000-11-24','63461 John Greens, Martinezton','035957380179','0912117324','ST','04','00075'),
-('195','Miguel Cross',N'Nữ','1960-03-04','794 Andre Coves, Bellstad','059451033622','0708165716','ST','03','00011'),
-('196','Sarah Hudson',N'Nữ','1979-01-24','047 Munoz Landing, Lake John','008615252372','0052397760','ST','04','00213'),
-('197','Benjamin Foster',N'Nữ','1995-07-05','USS Ponce, FPO AP 14031','066719793744','0728329592','DE','03','00218'),
-('198','Terry Moore',N'Nữ','1982-11-29','USNS Nelson, FPO AP 59636','054712949575','0084554327','ST','02','00359'),
-('199','John Curtis',N'Nữ','2003-12-07','USNS Ruiz, FPO AE 09526','084925995979','0925009142','DE','02','00181'),
-('200','Kim Nixon',N'Nam','1959-01-11','USS Gilbert, FPO AE 59084','044172738833','0262324896','DE','01','00302'),
-('201','Lawrence Phillips',N'Nam','1982-12-04','4793 David Square, Smithview','041543384466','0294507246','ST','03','00076'),
-('202','Joshua Rhodes',N'Nữ','1979-02-20','583 Danielle Knoll, Adamview','041145574221','0041536332','ST','03','00169'),
-('203','Carmen Castro',N'Nam','1997-10-20','USNS Gonzalez, FPO AP 49792','071889264018','0327956818','ST','01','00067'),
-('204','James Ramos',N'Nam','1980-05-10','120 Jay Row, Adrienneville','082606460540','0187637644','ST','04','00198'),
-('205','Jared Morrison',N'Nam','1994-07-13','26989 Jessica Curve, Woodbury','038300595587','0129962606','ST','04','00324'),
-('206','Charles Vasquez',N'Nữ','1985-10-15','42601 Lee Point, Matthewsberg','028427740864','0354032729','ST','01','00175'),
-('207','Melissa Santana',N'Nam','1971-11-24','3285 Cook Place, Michaelstad','040028312964','0882652897','ST','04','00351'),
-('208','Michael Zimmerman',N'Nam','1969-05-17','6999 Guzman Falls, Kingberg','067522671568','0973310485','ST','03','00062'),
-('209','Breanna Jones',N'Nữ','1965-07-02','35815 Bryan Canyon, Kimport','035687469120','0697577613','ST','03','00199'),
-('210','Larry Barry',N'Nam','1980-07-22','85960 Adams Village, Walshside','050683452235','0199229235','ST','02','00192'),
-('211','Mary Wright',N'Nữ','1979-02-10','10347 Lutz Springs, New Carl','061081658157','0727895690','DE','01','00261'),
-('212','Raymond Rogers',N'Nữ','1962-09-20','6393 Pena Cape, Muellermouth','025584374154','0394397984','DE','01','00264'),
-('213','Kari Wells',N'Nữ','1997-01-21','98919 Linda Street, Floresstad','084591105798','0682489184','DE','05','00180'),
-('214','Alexis Carter',N'Nam','1968-12-17','6199 Salas Port, Lake Melinda','084186796686','0635187137','ST','02','00153'),
-('215','Amanda Schaefer',N'Nam','1960-01-28','64211 Hill Ramp, Michelletown','074003765698','0270703152','ST','03','00039'),
-('216','Walter Espinoza',N'Nữ','1962-09-20','296 Ivan Ridges, Jasonfort','052989430570','0415030725','ST','02','00184'),
-('217','Elizabeth Nelson',N'Nam','1973-05-04','USNS Stevens, FPO AP 85452','051993609344','0803106850','ST','03','00069'),
-('218','Katherine Sanders',N'Nữ','1966-03-25','69544 Julia Summit, Jeremyton','083113655398','0851483618','ST','02','00048'),
-('219','Carla Wolfe',N'Nữ','2001-10-13','USCGC Gomez, FPO AP 67382','015864166003','0303041037','DE','04','00248'),
-('220','Theresa Hall',N'Nữ','1997-09-13','USCGC Simpson, FPO AA 09957','036518075068','0255180746','ST','03','00308'),
-('221','William Rodriguez',N'Nữ','1977-09-08','361 Nelson Common, Port Mathew','083230025236','0091064745','DE','01','00138'),
-('222','Shelley Guzman',N'Nam','1994-05-28','27907 Lindsey Loop, Jacobsberg','093165917552','0504681141','DE','01','00088'),
-('223','Dean Campbell',N'Nam','1998-05-12','3059 Mitchell Ranch, Port Sara','087117754919','0065628186','DE','03','00205'),
-('224','Monica Jackson',N'Nữ','1977-06-19','700 Anna Crossing, Lake Juan','092034900021','0734662881','DE','02','00196'),
-('225','Joseph Brown',N'Nữ','1985-08-31','366 Sean Springs, Port Molly','082883301435','0888908673','DE','01','00268'),
-('226','Sean Jones',N'Nam','1998-11-15','81957 Wright Path, Jamesland','027406858684','0208796717','DE','01','00142'),
-('227','Timothy Hernandez',N'Nam','1996-09-25','09775 Paul Wall, Heatherbury','063272064087','0957487039','ST','03','00241'),
-('228','Katherine Clark',N'Nữ','1987-02-25','055 Jason Parkway, Ortegahaven','087183029448','0792603055','DE','02','00051'),
-('229','Dylan Flores',N'Nam','1985-06-04','3547 Stone Station, Brownburgh','060871027067','0883564407','ST','03','00090'),
-('230','Keith Fisher',N'Nữ','1997-08-21','0499 Jones Parks, Heatherville','054341645132','0060943501','ST','03','00258'),
-('231','Nicole Deleon',N'Nam','1993-10-21','0375 Smith Forest, North Mary','081076808242','0233054906','ST','02','00081'),
-('232','Ann Kim',N'Nam','1986-02-10','9359 Estrada Grove, Mcneilbury','008072302908','0959255733','ST','02','00215'),
-('233','Betty Graham',N'Nữ','1977-08-09','728 Williams Burg, Harveyville','018300177481','0256535630','DE','04','00098'),
-('234','Pedro Cole',N'Nữ','1990-12-14','USCGC Adams, FPO AA 38138','067083879290','0312883571','ST','03','00245'),
-('235','Maria Davis',N'Nữ','1962-03-21','843 Alicia Corners, Hooperstad','003424180722','0396017583','ST','02','00152'),
-('236','Kathryn Rogers',N'Nữ','1987-06-18','148 Mccann Tunnel, New Brian','079355664969','0013228778','DE','01','00022'),
-('237','Steven Watson',N'Nữ','2002-10-15','244 Henry Squares, Joelshire','047627970484','0754642523','DE','04','00061'),
-('238','Michelle Kemp',N'Nữ','1958-09-11','36184 Nathan Center, Jilltown','071895843574','0417312825','DE','02','00229'),
-('239','Joseph Mcdonald',N'Nữ','2001-09-08','718 Michael Walk, Claudiaburgh','096417193963','0594668295','ST','02','00145'),
-('240','Jennifer Grimes',N'Nam','2000-10-31','668 Robert Island, Ericville','069398274982','0757979792','ST','01','00305'),
-('241','Nathan Jackson',N'Nam','1977-04-18','393 Hunter Mill, Heatherburgh','093822402119','0110625645','ST','04','00230'),
-('242','Gregory Martinez',N'Nam','1995-02-27','710 William Island, Dianefurt','078374270637','0244074081','DE','01','00239'),
-('243','Steven Miller',N'Nam','1975-10-05','2128 Peck Loaf, Emilymouth','039386446410','0905922471','ST','05','00306'),
-('244','Sabrina Taylor',N'Nữ','1985-03-05','694 John Plains, Danielview','054105734668','0258143890','ST','01','00093'),
-('245','Kurt Weber',N'Nữ','1979-01-01','69128 Harper Oval, Cruzmouth','054005081572','0497624603','DE','03','00254'),
-('246','Kristina Scott',N'Nam','1982-07-20','9670 Jason Flat, Thomasfort','035643373837','0708189362','DE','01','00108'),
-('247','Mary Hodges',N'Nam','1985-03-20','09158 James Islands, Mooreland','068279381974','0638523379','DE','04','00344'),
-('248','Emily Moore',N'Nam','1973-05-07','574 Charles Pine, East Steven','063934361082','0965635437','DE','03','00110'),
-('249','John Brown',N'Nữ','1996-05-23','615 Jackson Freeway, Hicksside','044215066465','0406394145','DE','03','00301'),
-('250','Nicole Sexton',N'Nữ','1960-04-20','953 Robert Camp, Kevinhaven','059690374451','0975795703','DE','04','00004'),
-('251','Michael Wright',N'Nữ','1975-06-08','825 Mejia View, South Jordan','001195787900','0263865446','ST','03','00116'),
-('252','Michael Kelly',N'Nữ','1961-02-13','3056 Andrew Lane, Dawnport','046322146853','0117453797','ST','05','00158'),
-('253','Mary Lee',N'Nam','1963-05-04','9143 Michael Dale, Kyleport','061126103661','0169781214','DE','02','00044'),
-('254','Steven Lara',N'Nam','1963-02-16','USCGC Kelley, FPO AE 96333','003485392397','0936668136','DE','05','00299'),
-('255','Stacey Woodward',N'Nữ','1995-10-14','34597 Bryant Pass, Duarteport','026151456271','0598952875','DE','05','00327'),
-('256','Colleen Silva',N'Nam','1960-07-16','053 Melinda Center, New Lucas','048397512117','0597116106','ST','05','00095'),
-('257','Michelle Weaver',N'Nam','1990-04-27','98880 Diane Circle, Jensenfort','072799185469','0677976371','ST','04','00014'),
-('258','David Joyce',N'Nam','2000-07-31','USS Velez, FPO AE 29499','076218904421','0929677369','DE','02','00283'),
-('259','Kenneth Espinoza',N'Nữ','1976-01-11','16627 Waller Roads, Markburgh','017035102441','0828430098','ST','04','00265'),
-('260','Katherine Blevins',N'Nam','1977-03-05','882 Cruz Skyway, South Phillip','054316620454','0971728129','ST','02','00343'),
-('261','Diane Brown',N'Nam','1972-08-12','438 Dixon Key, Lake Craigview','089224607576','0133980606','DE','02','00294'),
-('262','Dana Chapman MD',N'Nam','1988-07-06','USS Zimmerman, FPO AP 86888','061266340587','0270033000','DE','05','00117'),
-('263','Joshua Miller',N'Nữ','1995-05-24','8582 Donovan Point, Nguyentown','003889079974','0839094099','DE','02','00273'),
-('264','Ashley Stevenson',N'Nam','1970-05-13','6936 Bright Crest, Priceland','090101639765','0275589750','ST','03','00046'),
-('265','Alyssa Snyder',N'Nam','1975-12-30','934 Campbell Mall, Port Connor','014110672473','0005518474','ST','02','00030'),
-('266','Dave Bailey',N'Nam','1998-01-14','633 Jessica Run, Johnsonside','078574664658','0768142706','DE','02','00027'),
-('267','John Doyle',N'Nữ','1967-02-12','USCGC Johnson, FPO AA 87989','093395730422','0327366248','ST','02','00287'),
-('268','Samantha Maxwell',N'Nữ','1994-02-10','326 Tyler Village, Vanceburgh','082374099169','0279695168','ST','02','00163'),
-('269','Lance Williams',N'Nữ','1978-07-29','USNV Hensley, FPO AE 21094','077585303488','0110156003','ST','01','00173'),
-('270','Emily Booker',N'Nữ','1991-12-18','400 Wright Place, New Jason','019315650830','0195395964','ST','05','00195'),
-('271','Theresa Lewis',N'Nam','1976-07-03','549 Darryl Forest, Harrisview','036755286340','0643270133','ST','03','00323'),
-('272','Richard Franklin',N'Nam','1987-01-26','90349 Joseph Club, Freemanbury','079379204887','0270985202','ST','02','00106'),
-('273','Nicole Wallace',N'Nữ','1982-02-12','1340 Sara Circle, Camposhaven','097634030532','0707781511','ST','05','00191'),
-('274','Dennis Pollard',N'Nữ','1969-07-02','256 Rachel Locks, Riosfurt','094864554501','0207273758','ST','01','00148'),
-('275','Erin Davis',N'Nam','1996-12-21','0543 Mary Grove, Molinastad','079637541987','0766255626','ST','05','00021'),
-('276','Andrew Mcintosh',N'Nam','1975-06-03','94772 Blake Oval, Stevenfurt','032406202983','0782685705','ST','05','00350'),
-('277','Joseph Hicks',N'Nữ','1962-06-23','4759 Ayers Drives, West Mark','099407311457','0631688077','ST','03','00186'),
-('278','Chloe Williams',N'Nữ','1965-07-12','USNS Herrera, FPO AA 82953','082512101211','0653523198','ST','05','00322'),
-('279','Patricia Adams',N'Nữ','1969-03-14','1303 Karen Garden, Amyhaven','059965383575','0495902238','ST','01','00203'),
-('280','Mary Sharp',N'Nữ','1963-02-02','123 Chad Islands, East Steven','039227101029','0083978378','ST','02','00157'),
-('281','Julia Mata',N'Nam','1997-01-19','5364 Johnson Isle, Cathymouth','083925991279','0460117226','ST','02','00300'),
-('282','Melinda Johnson',N'Nữ','1961-09-01','990 Crystal Passage, New Bryce','037998555071','0575836819','ST','05','00102'),
-('283','Brianna Mills',N'Nữ','1984-07-10','808 Jason Dale, Thomasmouth','048821922278','0652454318','ST','03','00330'),
-('284','Emily Lynn',N'Nam','1980-01-12','54247 Walls Loaf, Port Annette','002299865699','0953618991','ST','01','00137'),
-('285','Molly Russell',N'Nữ','1994-11-20','85910 Ryan Points, Webbmouth','024105521258','0907498822','ST','02','00314'),
-('286','Alison Khan',N'Nam','1994-05-18','758 Randall Loop, Danielfurt','085384614871','0825113085','ST','05','00223'),
-('287','Tonya Scott',N'Nữ','1989-04-19','186 Monroe Plain, Fieldsside','040351245987','0189587167','ST','04','00307'),
-('288','Ryan Peterson',N'Nam','1973-08-30','445 Ross Corners, Chelseaport','071176488817','0641429879','ST','01','00207'),
-('289','David Benitez',N'Nam','1980-03-02','866 George Square, Webbburgh','066296362119','0929291920','ST','05','00179'),
-('290','Laura Valenzuela',N'Nữ','1964-06-23','353 Joann Cape, East Isabella','077430922045','0230072142','ST','02','00166'),
-('291','Christine Faulkner',N'Nam','1990-08-15','466 Erin Manor, Port Jacob','000523259619','0647527738','ST','02','00211'),
-('292','Jeffrey West',N'Nữ','1986-09-08','737 Shah Locks, East Jennifer','071029200715','0943150112','ST','04','00113'),
-('293','Taylor Mckee',N'Nam','1995-11-03','USNS Mcdonald, FPO AP 91671','034135160510','0952476865','ST','04','00037'),
-('294','Tamara Holland',N'Nam','1977-12-17','6526 Simpson Field, Conleyberg','088556967247','0525164778','ST','05','00310'),
-('295','Tricia Lewis',N'Nữ','1970-04-29','023 Navarro Road, Robinsonland','071801140877','0816783225','ST','04','00259'),
-('296','Travis Williams',N'Nam','1994-10-04','USNS Mitchell, FPO AE 46657','024572966357','0413837717','ST','04','00201'),
-('297','Joseph Morgan MD',N'Nam','1978-10-19','996 Cabrera Divide, Hooverview','060034880228','0116808229','ST','05','00141'),
-('298','Cassandra Smith',N'Nữ','1984-01-03','75346 Billy Cape, Richardland','081247392924','0497063741','ST','03','00131'),
-('299','Ann Dawson DDS',N'Nữ','1969-05-30','72481 Travis Way, Williamsview','078076848545','0005827710','ST','01','00073'),
-('300','Erin Avila',N'Nữ','1990-06-16','38037 Lisa Grove, East Chad','035455872570','0793510026','ST','01','00149'),
-('301','Kevin Williams',N'Nam','1971-04-21','5877 Black Islands, North Evan','029847664050','0080395124','ST','04','00089'),
-('302','George Long',N'Nữ','1982-12-28','336 Phillips Lodge, New Jody','098706270904','0049254290','ST','05','00352'),
-('303','Mrs. Laurie Gutierrez',N'Nam','1991-03-10','955 Bauer Meadows, Bryantland','090736096758','0401895679','ST','05','00328'),
-('304','Amy Flores',N'Nữ','2000-08-18','53042 Long Rapids, East James','024369809603','0272666550','ST','05','00055'),
-('305','Kathleen Martinez',N'Nam','1985-04-09','USCGC Baxter, FPO AE 85998','013988330944','0434996164','ST','04','00151'),
-('306','Maurice Montgomery',N'Nữ','1976-11-14','4917 Ellis Landing, Lisatown','021429626825','0092606764','ST','02','00130'),
-('307','Charles Carlson',N'Nam','1991-12-12','15460 Hunt Common, Hickmanland','097492523510','0746932607','ST','01','00112'),
-('308','Kim Wright',N'Nam','1999-10-13','4750 Hawkins Ford, West Justin','027101657930','0703019155','ST','02','00124'),
-('309','Kimberly Coleman',N'Nam','1973-11-09','USS Moore, FPO AP 92408','024303395585','0208529405','ST','03','00291'),
-('310','Jeff Phillips',N'Nam','1987-03-19','620 Daniel Flat, Pattonton','080596521516','0454083719','ST','05','00010'),
-('311','Jessica Gilbert',N'Nam','1958-07-10','USNV Lee, FPO AE 87877','077485362631','0026486502','ST','05','00104'),
-('312','Martha Hutchinson',N'Nữ','1989-03-03','USS Sims, FPO AE 72581','038434635631','0959344201','ST','04','00356'),
-('313','Michele Johnson',N'Nam','1967-11-30','8817 May Rapid, Danaview','044405006125','0590460960','ST','04','00342'),
-('314','Patricia Smith',N'Nam','1987-03-23','4130 Paul Mill, Derekshire','060044278516','0422762266','ST','04','00193'),
-('315','Christopher Obrien',N'Nam','1959-02-24','622 Osborne Point, Hubbardland','003800987648','0202412607','ST','04','00240'),
-('316','Danielle Strickland',N'Nam','1994-01-23','USNS Buckley, FPO AE 87604','054635888542','0065604544','ST','05','00290'),
-('317','Benjamin Wilson',N'Nữ','1962-11-04','619 Cruz Greens, Davisshire','003666026917','0571635396','ST','05','00094'),
-('318','Gloria Villarreal',N'Nữ','1988-05-31','597 Downs Estate, Amandastad','084496345753','0120860403','ST','05','00020'),
-('319','Jeffrey Rogers',N'Nữ','1959-03-19','1855 Annette Oval, Jonesside','027823991545','0970024407','ST','04','00019'),
-('320','Kimberly Zavala',N'Nữ','1981-07-22','USS Lam, FPO AE 06561','082037189150','0271096346','ST','04','00231'),
-('321','Andrea White',N'Nữ','1980-11-05','060 Price Knoll, North Ashley','095141816146','0217284856','ST','03','00003'),
-('322','Kelli Vasquez',N'Nam','2003-05-30','0125 Ryan Lane, New Aaron','009252578266','0349344136','ST','05','00304'),
-('323','Christina Stokes',N'Nam','1983-07-25','47298 Garcia Alley, Bryanside','017014950598','0832965179','ST','03','00118'),
-('324','Edward Combs',N'Nam','1958-05-06','2603 Juan Pass, Stewartmouth','037657189333','0759697696','ST','03','00202'),
-('325','Jason Stewart',N'Nam','1981-04-05','04316 Kelly Mount, Garystad','048856119133','0860744328','ST','01','00074'),
-('326','Alison Smith',N'Nam','2000-08-25','5944 King Tunnel, Anthonyland','076740043758','0010306902','ST','01','00134'),
-('327','Bradley Vazquez',N'Nam','1977-06-29','851 Moreno Via, Colechester','051641869639','0817308491','ST','03','00159'),
-('328','Jason Taylor',N'Nữ','1980-11-18','23740 Wagner Rue, Dylanchester','080579158240','0448402857','ST','01','00209'),
-('329','Brendan Gonzalez',N'Nam','1969-02-18','904 Ryan Green, Johnsonborough','047635056324','0824493177','ST','02','00319'),
-('330','Lauren Johnson',N'Nữ','1971-07-20','9805 Scott Road, Zacharytown','048881560229','0277969269','ST','01','00312'),
-('331','Michael Evans',N'Nam','1984-01-19','8682 Cooper Views, Port Amanda','027108595339','0734928850','ST','02','00013'),
-('332','Carlos Richardson',N'Nữ','1972-12-06','52431 Kyle Isle, Jamesmouth','085060578898','0646951757','ST','05','00133'),
-('333','Corey Perkins',N'Nữ','2002-09-15','434 Amy Rapids, Port Jerry','040659450376','0326207658','ST','05','00120'),
-('334','Ms. Marilyn Sellers DDS',N'Nam','1980-03-24','16815 Jean Prairie, Oliviafurt','017122702267','0465458979','ST','01','00189'),
-('335','Megan Edwards',N'Nam','1979-04-06','1829 Gary Way, Watsonmouth','073684176596','0901066282','ST','01','00057'),
-('336','Melissa Perry',N'Nam','1958-10-18','95991 Harris Forge, Lloydbury','048270453713','0722414104','ST','05','00251'),
-('337','Bradley Simmons',N'Nam','1985-12-28','9700 Lynn Lane, Hamptonland','054667490771','0182535151','ST','02','00070'),
-('338','Mr. Gary Scott',N'Nữ','1971-06-21','7590 Paul Rest, New Maryfurt','026434196369','0345682351','ST','01','00238'),
-('339','Keith Flores',N'Nữ','1980-11-08','87771 Green Rest, Ashleyfort','079193612921','0650100825','ST','02','00331'),
-('340','Christopher Zhang',N'Nam','1959-02-14','14762 Megan Ports, Jennaton','020263296502','0608704640','ST','01','00354'),
-('341','Dustin Mason',N'Nam','1987-04-27','033 Solis Path, Smithville','088368782873','0663601497','ST','05','00226'),
-('342','Theresa Adkins',N'Nam','1975-01-15','4452 Perry Green, Port Lori','055074707344','0611658213','ST','01','00028'),
-('343','Richard Davis',N'Nam','1986-03-11','USNS Mata, FPO AP 10182','001406238282','0399305677','ST','04','00321'),
-('344','Daniel Lewis',N'Nam','1978-07-07','0361 Lopez Trail, Hansonfort','073422284221','0569677435','ST','05','00348'),
-('345','Stephanie Webb',N'Nam','1958-05-16','USNV Jacobson, FPO AP 59869','014023700614','0596467722','ST','04','00303'),
-('346','Emily King',N'Nam','1959-07-16','518 Sara Ports, Lake Bryan','080404814046','0069473163','ST','04','00204'),
-('347','Andrew Daniels',N'Nữ','1982-09-26','694 Norman Trail, Staceyshire','082671334322','0992657798','ST','04','00036'),
-('348','Harold Myers',N'Nữ','1962-10-08','USS Brown, FPO AA 41888','068338653735','0633523932','ST','01','00047'),
-('349','Ryan Buckley',N'Nam','1974-09-09','7107 Rivera Street, Wolfstad','020516084929','0825240051','ST','04','00016'),
-('350','Emily Fischer',N'Nam','1992-02-18','12760 King Squares, Peckhaven','078564739288','0653512871','ST','01','00058'),
-('351','Lori Rogers',N'Nữ','1992-02-23','333 Marcus Heights, Wadeview','046665669998','0877797566','ST','02','00296'),
-('352','Matthew Wilson',N'Nam','1960-06-06','056 Rhonda Falls, Zacharyfurt','092043448398','0633132689','ST','05','00187'),
-('353','Paul Freeman',N'Nữ','1999-09-06','6355 Brandon Stream, Smithfort','099224349910','0218146197','ST','03','00353'),
-('354','William Wilson',N'Nữ','1988-05-27','420 Kristina Via, Atkinstown','035669715660','0056227221','ST','02','00237'),
-('355','Stephanie Adams',N'Nam','1971-03-21','USNS Buchanan, FPO AE 16539','008929879504','0410260085','ST','03','00040'),
-('356','Robin Mccoy',N'Nữ','1996-03-03','3382 Stacey Path, Gabrielaport','010836691329','0123004144','ST','01','00147'),
-('357','James Peters',N'Nam','1989-06-17','96601 Jean Road, Gregborough','082887628422','0050621328','ST','05','00066'),
-('358','Rebecca Ramirez',N'Nữ','1979-05-12','3623 Lopez Shoals, Myersfurt','097811326968','0282169532','ST','04','00018'),
-('359','Erik Taylor',N'Nữ','1995-11-05','269 Cruz Prairie, Brownstad','023755570959','0435300655','ST','01','00341'),
-('360','Amanda Wilson',N'Nữ','1977-11-14','USCGC Evans, FPO AA 96425','012267634814','0545550000','ST','02','00054');
+VALUES ('001','Paula Thompson',N'Nam','1996-08-19','799 Hill Forest, Diamondmouth','004559750066','0780448247','ST','01','00242'),
+('002','James Allen',N'Nữ','1974-06-13','481 Dawn Stream, Aliciaburgh','097342017264','0011337806','ST','02','00249'),
+('003','Jessica Williams',N'Nữ','2002-08-22','911 Black Mountain, Kevinburgh','059376428779','0084669747','ST','04','00349'),
+('004','Collin Ward',N'Nam','1983-06-25','2198 Brooks Knolls, Parkville','047872783231','0862274766','ST','05','00074'),
+('005','Amanda Smith',N'Nữ','2003-11-10','USS Robinson, FPO AP 05025','047820160938','0155733456','AD','03','00180'),
+('006','Katherine Page',N'Nam','1982-10-25','2973 Jones Club, New Kathleen','048037758899','0753187834','AD','02','00056'),
+('007','Christina Williams',N'Nam','1999-11-06','564 Taylor River, North Becky','016903604002','0002065101','AD','02','00248'),
+('008','Janet Henry',N'Nam','2003-04-26','792 Ivan Road, Princeport','027232018305','0622696960','NU','03','00333'),
+('009','Reginald Harrison',N'Nữ','1966-07-21','8006 Liu Lodge, Kimberlyville','062022951258','0818592416','AD','05','00025'),
+('010','Brandy Aguilar',N'Nam','1963-10-10','472 Samuel Path, Deborahside','023127680372','0811093721','ST','04','00155'),
+('011','Phillip Parker DDS',N'Nữ','1958-08-27','220 Abbott Circle, New Morgan','014463537326','0535238789','ST','05','00276'),
+('012','Lisa Spencer',N'Nam','1991-01-30','24973 Ruiz Fork, New Wendyton','060925999098','0565834966','DE','04','00202'),
+('013','Julie Clark',N'Nam','1961-09-17','USNS Le, FPO AP 21970','029601751109','0540134809','ST','04','00097'),
+('014','Christine Weaver',N'Nam','1958-05-26','953 Jacob Lodge, Welchside','039121047290','0347016688','ST','03','00314'),
+('015','Nathan Collins',N'Nữ','1993-02-12','9569 John Square, New Susan','056264161058','0243781743','AD','04','00146'),
+('016','Luis Smith',N'Nam','1980-12-23','51804 Vega Street, New Annfort','087586545012','0317436850','AD','05','00310'),
+('017','Paul Dalton',N'Nam','1968-10-24','334 Thomas Way, Henryview','002522584154','0759179444','DE','01','00158'),
+('018','Jamie Jordan',N'Nữ','1983-12-21','061 James Plaza, Lake Johnland','073261438663','0763168891','NU','05','00289'),
+('019','Sara Hughes',N'Nam','1973-01-04','3600 Brown Street, Erikaport','030800700458','0899018642','NU','01','00347'),
+('020','Cheryl Ingram',N'Nam','1979-10-02','870 Sean Turnpike, South Karen','020186483942','0950211492','ST','05','00037'),
+('021','Erica Velasquez',N'Nam','1958-09-17','22829 Lisa Road, Joyceburgh','044294626735','0887499691','NU','03','00245'),
+('022','Melissa Hill',N'Nam','1980-01-27','5613 Anna Creek, Millerton','030261257492','0256532573','DE','02','00129'),
+('023','Carmen Sanchez',N'Nam','1992-10-20','35849 Bailey Path, Whiteton','026985946544','0487684672','DE','02','00027'),
+('024','John Campos',N'Nữ','1960-07-24','USNV Benson, FPO AP 94279','020116215180','0997334204','ST','05','00179'),
+('025','Daniel Nelson',N'Nam','1977-05-22','318 Anthony Spur, Robertburgh','060065408152','0452080564','NU','05','00260'),
+('026','Daniel Bradshaw',N'Nam','1998-10-21','62471 Webb Dale, South Tiffany','052822385786','0115210765','AD','02','00152'),
+('027','Gregory Myers',N'Nam','1973-07-05','12563 Amy Knoll, Hoodberg','068547623338','0491045974','AD','01','00181'),
+('028','Shirley Lewis',N'Nữ','1973-07-22','4755 Monica Forge, West Eugene','006454016176','0268126981','AD','04','00060'),
+('029','Randall Bryant',N'Nam','1963-06-20','15214 Ford Viaduct, Singhville','010810648856','0430746803','DE','03','00200'),
+('030','Thomas Scott',N'Nam','1971-01-22','386 Diane Bridge, Oneillburgh','092335129527','0744367264','ST','03','00327'),
+('031','Joseph Anderson',N'Nam','1963-01-03','1690 Patrick Drive, Changside','089688806913','0013152673','DE','02','00222'),
+('032','Samuel Wood',N'Nữ','1961-06-13','150 Alicia Ridges, Suarezville','063536982063','0998541237','ST','05','00048'),
+('033','Clifford Miller',N'Nam','1990-07-14','037 Horne Trace, Morenofort','095375483730','0309617315','ST','02','00251'),
+('034','Jennifer Clark',N'Nữ','1991-04-23','519 Ross Ferry, Millsmouth','088720379370','0805901716','ST','03','00017'),
+('035','Jeffrey Baker',N'Nữ','1960-03-26','USNV George, FPO AA 30897','009218563145','0887586068','NU','05','00195'),
+('036','Mrs. Rebecca Myers',N'Nữ','1992-08-15','098 Holt Neck, New Andreafort','087940030585','0606335307','NU','04','00192'),
+('037','John Lam',N'Nam','1983-12-21','9067 Daniels Plaza, Smithfort','079988519355','0094062901','ST','03','00036'),
+('038','Jasmine Parker',N'Nữ','1983-02-20','322 Mclean Street, Daisyville','030786704117','0669152765','DE','05','00320'),
+('039','Nathaniel Suarez',N'Nữ','1974-10-22','85607 Lisa Drives, Ayalaview','021620312703','0009860061','NU','02','00110'),
+('040','April Turner',N'Nam','1994-09-18','035 Evans Rapids, Mendezbury','053842496982','0637240669','NU','01','00295'),
+('041','Kevin Weaver',N'Nữ','1984-11-16','81294 Smith Walk, South Scott','099052410942','0572381016','ST','02','00265'),
+('042','Robert Spears',N'Nữ','1992-08-25','USNS Douglas, FPO AA 29148','016359737092','0776303440','NU','05','00106'),
+('043','Glen Gonzalez',N'Nữ','1965-01-29','82757 Jones Spring, Huntfort','066780023992','0024668224','DE','01','00166'),
+('044','Brian Harper',N'Nam','1976-09-06','924 Morales Parks, Jonesshire','072015550040','0990858070','DE','02','00030'),
+('045','David Cole',N'Nữ','1996-10-19','6162 Brooks Grove, Monroehaven','063230865566','0830430619','DE','04','00241'),
+('046','Lydia Reynolds',N'Nam','1973-03-24','345 Kim Groves, Port Erikberg','078776688342','0158619204','NU','01','00309'),
+('047','Joseph Torres',N'Nữ','1988-01-09','USNV Phelps, FPO AE 83953','093117485597','0693045749','NU','01','00170'),
+('048','David Santiago',N'Nam','1961-05-28','192 Pam Plains, South Lori','092301522169','0903978709','NU','03','00299'),
+('049','Marcus Pierce',N'Nam','1983-05-09','6059 Nicholas Mews, Susanville','096930445705','0149831546','DE','01','00323'),
+('050','Alexis Young',N'Nam','1977-12-27','5172 Santos Shoals, Johnsbury','021079917502','0206513645','ST','03','00034'),
+('051','Isabella Ford',N'Nam','1996-04-15','654 William Wells, Johnsonport','077890930453','0956724807','DE','04','00082'),
+('052','Molly Ochoa',N'Nam','1990-10-13','8444 Clark Path, Scottborough','018908454892','0420831045','AD','04','00105'),
+('053','Angela Daniels',N'Nữ','1984-03-12','2938 Scott Rest, East William','057995875681','0813846271','DE','05','00157'),
+('054','Angela White',N'Nữ','1981-05-07','419 Guerra Freeway, Gomeztown','005736840503','0784829725','ST','01','00070'),
+('055','Terry Hughes',N'Nam','1958-01-14','786 Torres Branch, Moorebury','098731883085','0807722338','NU','01','00230'),
+('056','Michelle Martinez',N'Nữ','1974-08-17','731 Michael Inlet, Ianburgh','024196766991','0890762336','DE','03','00329'),
+('057','Amy Wood',N'Nữ','1961-07-02','4069 Kaitlyn Land, Webbchester','026942197639','0577791067','ST','03','00125'),
+('058','Stephanie Gross',N'Nữ','1971-11-20','818 Frank Gateway, Dianaview','045233927882','0108301137','DE','03','00231'),
+('059','James Williams',N'Nam','1968-05-30','3400 Andrew Ramp, Port Barry','014432323595','0067041564','NU','04','00109'),
+('060','Melissa Choi',N'Nam','1965-06-18','753 Bird Rest, Port Amandafurt','009282988653','0199120380','DE','04','00178'),
+('061','Thomas Walters',N'Nam','1966-04-11','38411 Orr Mall, Mooreville','088175049802','0502633064','ST','04','00121'),
+('062','Tammy Newman',N'Nam','1970-06-26','988 Elizabeth Parks, Walterton','087598864656','0771288857','DE','05','00095'),
+('063','Edward Andersen',N'Nam','2003-02-18','5383 Walter Forks, East Sarah','087600501332','0006510764','DE','01','00012'),
+('064','Christopher Howell',N'Nam','1962-01-29','967 Carmen Greens, North Jamie','030973606452','0928757162','NU','02','00051'),
+('065','Melissa Warren',N'Nam','1995-04-12','8875 Amy Highway, Coleburgh','063071959860','0803231664','DE','04','00286'),
+('066','Amy Kane',N'Nữ','1958-03-30','7286 John Villages, Robertland','049888571535','0728967931','NU','02','00188'),
+('067','Clarence Gallagher',N'Nữ','2002-08-13','84450 Melanie Oval, Rodneybury','071505203514','0423035326','ST','03','00115'),
+('068','Kristy Mccoy',N'Nữ','1996-10-13','19814 Harding Forks, Amymouth','023879580964','0253167250','DE','04','00008'),
+('069','Jessica Sharp',N'Nam','1989-02-12','3520 Rice Manors, South Sandra','010311355057','0145737531','DE','04','00357'),
+('070','Tami Rios',N'Nữ','1961-07-24','516 Nicole Camp, North Barry','032618151637','0792609754','DE','04','00052'),
+('071','Michael Ruiz',N'Nữ','1958-03-19','751 Burton Inlet, Rebeccahaven','047773130784','0558917889','NU','03','00004'),
+('072','Gloria Rogers',N'Nữ','1985-12-11','6714 Hayes Estate, Kevinhaven','048802916745','0467826386','DE','03','00216'),
+('073','Patrick Floyd',N'Nữ','1968-05-09','USNV Lowe, FPO AA 65762','048071944915','0526822237','DE','04','00281'),
+('074','Sheri Hensley',N'Nam','1981-12-28','0168 Eaton Via, New Timothy','067070485389','0203353820','ST','04','00291'),
+('075','Jonathan Leonard',N'Nam','1976-05-31','65357 Miller Valleys, Smithton','037502546454','0994558961','ST','05','00335'),
+('076','Megan Brown',N'Nam','1967-04-18','628 Amanda Stream, Onealside','069330331492','0628591144','ST','04','00336'),
+('077','Robin Levine',N'Nam','1977-10-28','3182 Victor Forks, Higginsbury','066184635787','0710673197','ST','04','00236'),
+('078','Brandon Harris',N'Nam','1963-05-11','USNS Lang, FPO AA 07792','021410295178','0058869187','NU','04','00319'),
+('079','Timothy Wright',N'Nam','1989-02-08','301 Smith Centers, Jonesstad','073745284413','0079439533','NU','04','00002'),
+('080','Veronica Lawson',N'Nam','1983-10-31','394 Anthony Branch, Youngport','039306227011','0630971929','ST','05','00204'),
+('081','Dalton Jones',N'Nam','1981-07-01','54799 Smith Via, Julieport','012266022456','0858229966','NU','02','00229'),
+('082','Brandi Diaz',N'Nam','1963-05-22','030 Scott Via, Alvarezstad','084703995079','0504219566','DE','05','00112'),
+('083','Valerie Olson',N'Nữ','1996-12-13','784 Kelly Summit, New Jeffrey','009412613894','0163487650','ST','03','00343'),
+('084','Karen Skinner',N'Nam','1971-06-22','30440 Diana Oval, Fletchertown','089419206072','0249369660','ST','04','00031'),
+('085','Darrell Bailey',N'Nữ','1981-11-17','USNV Garcia, FPO AP 34315','066793950716','0137659428','DE','02','00090'),
+('086','Amanda Douglas',N'Nữ','1976-02-14','001 Oneill Trail, Adamsland','033413785722','0778345625','NU','05','00219'),
+('087','Ryan Deleon',N'Nam','1991-07-28','072 Corey Point, Lake Tyler','078225213151','0548059858','ST','01','00076'),
+('088','Chelsea Harris',N'Nam','1986-09-17','6011 Lisa Vista, Lake Heather','053725905210','0377442779','NU','03','00066'),
+('089','Olivia Butler',N'Nam','1967-09-27','361 James Shores, Kristinview','093184319999','0289986740','ST','02','00159'),
+('090','John Harrington',N'Nam','1993-06-28','24595 Conner Port, Silvaville','010996383588','0503078569','DE','03','00272'),
+('091','Elizabeth Miller',N'Nam','1959-05-29','458 Wade Cliff, New Justin','014190235191','0295516755','NU','02','00322'),
+('092','Heather Middleton',N'Nam','1961-11-08','47997 Watts Cliff, Lake Karen','029496969680','0380966242','NU','05','00141'),
+('093','Leah Holmes',N'Nam','1972-12-06','USCGC King, FPO AE 84394','055794913237','0354303957','NU','02','00171'),
+('094','Stephen Huff',N'Nam','1995-06-18','59649 Bell Circles, Lisaside','004001314206','0546584031','ST','03','00290'),
+('095','Jesse Howard',N'Nữ','1972-11-12','34170 Coleman Port, Holtside','039022741683','0329172500','DE','03','00293'),
+('096','Meghan Sparks',N'Nam','1976-07-21','USNS Wilson, FPO AA 86232','055904365382','0446133428','DE','05','00211'),
+('097','Sylvia Davis',N'Nữ','1963-04-27','610 James Via, Christineton','029686168070','0810205642','DE','05','00337'),
+('098','Donald Maldonado',N'Nam','1984-05-11','USCGC Perez, FPO AP 50990','008409992785','0287617766','DE','04','00301'),
+('099','Timothy Hayes',N'Nữ','1985-11-09','1234 Bolton Route, Tammyberg','070927578232','0762775661','ST','01','00235'),
+('100','Michael Wright',N'Nam','1995-05-02','184 Snyder Road, Cortezland','009210541400','0817873415','ST','01','00086'),
+('101','Christopher Diaz II',N'Nữ','1982-10-17','613 Flowers Rest, Carolynview','080006368103','0791571416','ST','04','00294'),
+('102','Peter Cole',N'Nam','1960-07-16','89493 Lewis Island, New Tonya','005825197628','0897711324','NU','04','00234'),
+('103','Nicholas Love',N'Nữ','1958-05-16','USCGC Santiago, FPO AA 83073','007802848482','0994198331','ST','02','00304'),
+('104','Leslie Gregory',N'Nam','1982-01-05','1469 Fred Wells, Laurenchester','046211013176','0553665426','ST','01','00269'),
+('105','Gail Whitney',N'Nữ','1959-02-21','2501 Brad Lane, Curtisside','049454566297','0964872260','NU','02','00212'),
+('106','Kara Faulkner',N'Nữ','1984-07-31','470 Jason Forge, Chamberston','041836009541','0220779256','NU','01','00341'),
+('107','Russell Johnson',N'Nam','2000-02-11','1159 Butler Street, Lindahaven','008572017712','0970818998','DE','03','00182'),
+('108','Matthew Sutton',N'Nam','1987-07-02','339 Griffin Isle, Brianfurt','079639657595','0548352584','NU','01','00345'),
+('109','Erika Soto',N'Nữ','1965-03-10','USS Floyd, FPO AE 77048','060347243860','0645386496','NU','02','00124'),
+('110','Joshua Miller',N'Nam','1988-10-23','8697 Brown Burgs, Vanceview','032438554584','0486127710','DE','05','00057'),
+('111','Luis Davis',N'Nữ','1972-04-09','185 Vega Rue, Nicoleburgh','070973713134','0135467018','ST','03','00045'),
+('112','Deborah Farmer',N'Nữ','1971-09-22','2346 Teresa Groves, Seanburgh','084247715940','0726345165','DE','04','00113'),
+('113','Jessica Singh',N'Nam','1989-08-29','09922 Sean Landing, North Ryan','064854992219','0999820686','ST','03','00247'),
+('114','Kelly Griffin',N'Nữ','1975-08-14','USNV Andrews, FPO AE 60598','046763156348','0441957530','NU','04','00011'),
+('115','Tyler Bullock',N'Nữ','1990-03-07','9421 Kayla Vista, Russellshire','016903595563','0243578453','DE','03','00111'),
+('116','Jason Delacruz',N'Nam','1976-12-08','USNV Soto, FPO AP 20620','029886559519','0640426735','DE','05','00145'),
+('117','David Grant',N'Nữ','1976-06-26','092 Thomas Rue, Michaelmouth','027379492730','0348235092','NU','03','00046'),
+('118','Stephanie Torres',N'Nữ','1995-12-17','2742 Jo Courts, Zacharyton','001762734452','0337020530','ST','05','00098'),
+('119','Anna Weaver',N'Nam','1994-11-07','816 Diana Vista, Reyesview','053297946476','0041774547','DE','01','00271'),
+('120','Ashley Leach',N'Nữ','1974-05-13','USNS Jefferson, FPO AE 07070','068589934376','0512153162','NU','02','00243'),
+('121','Mike Hays',N'Nam','1999-10-15','268 Kevin Springs, Smithview','081322768822','0513235765','ST','04','00261'),
+('122','Gary Palmer',N'Nam','1968-10-15','060 Patrick Village, West Mark','049800235142','0890762120','DE','04','00010'),
+('123','Arthur Osborn',N'Nam','1979-01-25','USNS Castillo, FPO AA 64265','011980171225','0563550583','ST','04','00288'),
+('124','Sara Clark',N'Nữ','1998-07-20','USNS Romero, FPO AA 10636','062583981432','0514366427','ST','05','00263'),
+('125','Joseph Brooks IV',N'Nam','1963-12-07','834 Carol Park, Cynthiastad','000087364853','0377001745','NU','04','00062'),
+('126','Jessica Gilbert',N'Nữ','1975-09-24','3537 Ray Loop, Port Kevinside','094782618094','0666966804','DE','03','00256'),
+('127','Lynn Rodriguez',N'Nữ','1980-07-30','USNV Turner, FPO AP 21987','084993585033','0803868421','DE','05','00332'),
+('128','Tina Jackson',N'Nam','1978-12-04','443 Taylor Mills, Aprilchester','060647827726','0415025693','DE','01','00318'),
+('129','Kayla Ellis DDS',N'Nam','1981-10-24','02143 Nelson Street, Byrdport','009803404599','0800557763','ST','04','00006'),
+('130','Brian Stewart',N'Nữ','1983-12-07','1578 Tanya Manors, Port Todd','042065164678','0081514636','ST','04','00139'),
+('131','Timothy Davis',N'Nữ','1976-11-18','6312 Julia Keys, Johnhaven','095548249142','0543487326','DE','04','00321'),
+('132','Brittany Castro',N'Nam','1962-08-15','08689 Ramos Common, Clarktown','079248848150','0379361293','ST','04','00307'),
+('133','Todd Santos',N'Nữ','2001-05-22','7679 Salinas Pines, New Amber','039827688108','0547168830','ST','04','00044'),
+('134','Zachary Yoder',N'Nữ','1961-08-20','011 Emily Lane, New Joeburgh','099873294512','0460202303','ST','05','00298'),
+('135','Justin Villanueva',N'Nữ','1967-09-01','506 Lauren Lake, Williamshire','087414298475','0975290538','ST','04','00344'),
+('136','Kerry Smith',N'Nữ','1975-11-21','USNS Ramirez, FPO AE 48182','090890713196','0282969975','ST','04','00029'),
+('137','Cheryl Lopez',N'Nam','1986-05-30','6089 Monica Island, Smithberg','095528972857','0951989129','ST','01','00334'),
+('138','Tyler Weiss',N'Nam','1998-08-14','4825 Jose Views, North Marcus','063393875347','0445792218','NU','05','00305'),
+('139','Robert Stewart',N'Nam','1986-04-07','USS Joseph, FPO AP 14692','016098162978','0571097774','DE','02','00091'),
+('140','Melanie Lyons',N'Nữ','1989-01-09','57571 Daniel Islands, Keithton','032520010665','0693847158','ST','05','00167'),
+('141','Eric Chavez',N'Nam','1967-01-03','890 Garrett Springs, Mackton','024420163094','0620592886','ST','01','00226'),
+('142','Gina Alvarado',N'Nữ','1980-01-04','029 Sharon Loaf, Bellchester','085896096482','0951628760','ST','04','00089'),
+('143','Vincent George',N'Nam','1986-12-03','110 Acosta Creek, Port Brian','041598923760','0631623735','NU','02','00040'),
+('144','Michael Nelson',N'Nữ','1976-04-09','0853 Barry Streets, Joneston','016067686413','0350800084','DE','02','00068'),
+('145','Colton Morgan',N'Nữ','1963-06-08','8887 Hunt Drives, Dustinmouth','063571204316','0304954132','ST','01','00199'),
+('146','Linda Valdez',N'Nữ','2002-05-20','9959 Munoz Rest, Port Michael','098949781125','0251825564','NU','05','00033'),
+('147','Robert Mendoza',N'Nữ','1985-11-23','9457 Stuart Drive, Port Eddie','041437999613','0436679522','ST','05','00316'),
+('148','Michelle Lewis',N'Nam','1960-08-11','7754 Robert Rue, Jimenezmouth','042826805836','0664454580','DE','02','00173'),
+('149','Justin Cohen',N'Nam','1964-01-06','64254 Michael River, Paulberg','057181509872','0133814180','NU','03','00122'),
+('150','Christopher Jones',N'Nữ','1968-11-02','5802 Dawn Fork, Christineview','020913994639','0370938592','ST','05','00268'),
+('151','Elizabeth Choi',N'Nam','1958-11-05','077 Gilbert Mall, Beckshire','020159890829','0968193011','DE','02','00275'),
+('152','Lauren Miller DDS',N'Nam','1960-04-22','68539 Mark Mission, Jeffreyton','013095447456','0630245115','DE','05','00047'),
+('153','Mark Logan',N'Nam','1983-04-17','079 Nguyen Roads, Lake Karen','084603267745','0134454786','NU','01','00063'),
+('154','Roger Harris',N'Nữ','1968-08-20','4391 Bird Circles, Jacksonbury','071175224814','0908628451','ST','02','00262'),
+('155','Steven Kim',N'Nam','1960-06-15','37318 Misty Brook, New Corey','068939607203','0183431070','DE','01','00210'),
+('156','Wanda Alvarez',N'Nữ','2001-03-06','753 Parker Ridge, Transide','036869390963','0804141513','NU','05','00351'),
+('157','Kelly King',N'Nữ','2001-06-12','127 Ball Knoll, East Andrew','022001923807','0017144654','NU','01','00254'),
+('158','Janet Rose',N'Nữ','1991-05-07','799 Hannah Lodge, Turnerview','070545798174','0152076224','NU','05','00225'),
+('159','Kevin Wheeler',N'Nữ','1965-06-17','084 Autumn Points, South Wendy','063521646250','0641818161','ST','01','00101'),
+('160','Frank Jimenez',N'Nữ','2003-06-04','5438 Steven Lodge, Bowenbury','028019810907','0975794673','NU','04','00239'),
+('161','Karl Acosta',N'Nữ','2000-10-28','USS Cox, FPO AA 71404','027588712767','0473931775','NU','02','00150'),
+('162','Andrea Mahoney',N'Nam','1967-04-07','891 Brooks Mount, Adamsmouth','048859925204','0040790884','NU','02','00016'),
+('163','Matthew Carroll',N'Nữ','1972-10-29','USCGC Sanford, FPO AE 30828','049418269345','0394714027','NU','05','00049'),
+('164','Harry Choi',N'Nữ','1958-01-15','397 King Island, Maureenside','090067572821','0624002961','DE','05','00022'),
+('165','Carla Gallagher',N'Nam','1974-08-02','427 Nguyen Views, Kristinaland','010217835195','0650628712','NU','03','00197'),
+('166','Brooke Dawson',N'Nam','1996-12-24','2066 David Route, Donaldmouth','010428612959','0468766221','ST','02','00020'),
+('167','Jason Freeman',N'Nữ','1962-11-17','7441 King Road, Port Natasha','092005179656','0123924587','DE','04','00055'),
+('168','Michael Barber',N'Nam','1962-02-22','3575 Mariah Divide, Lake Gary','040139346786','0959113592','DE','01','00312'),
+('169','Jennifer Leon',N'Nữ','1964-03-07','4168 Walter Key, Kimstad','099923233061','0794430051','DE','04','00041'),
+('170','Kevin Brooks',N'Nam','1985-08-05','086 Bell Port, Port Jacob','059069219900','0713866845','DE','04','00133'),
+('171','Stephanie Patterson',N'Nam','1966-12-12','612 Woods Light, Williamsville','090757551462','0647024302','DE','01','00246'),
+('172','Mrs. Vickie Torres MD',N'Nam','1961-04-21','6821 Patrick Dale, Kristishire','039674443411','0374132163','NU','03','00285'),
+('173','Mrs. Taylor Brady',N'Nữ','1975-10-04','309 Carter Isle, Paulaville','063106426484','0714989436','ST','01','00144'),
+('174','Ryan Rivas',N'Nam','1970-01-30','USS James, FPO AP 91870','010531992048','0729307274','NU','05','00163'),
+('175','Kimberly Matthews',N'Nữ','1988-06-22','43482 Jackson Dam, Loweryton','038675520754','0375156131','ST','03','00209'),
+('176','Amanda Robertson',N'Nam','1995-11-08','397 Nelson Corner, Samuelview','042782556806','0195628640','DE','01','00005'),
+('177','Debra Schwartz',N'Nữ','1967-05-25','427 Michael Manor, Jacobsport','063936357404','0575007051','ST','04','00217'),
+('178','Joseph Ford',N'Nam','1968-01-14','469 Craig Pass, New Aaron','042032043566','0101456454','ST','05','00114'),
+('179','Deborah Wong',N'Nam','1987-09-17','18240 Lisa Streets, Josefort','028204658402','0921066197','ST','02','00126'),
+('180','Jennifer Williams',N'Nữ','1994-12-18','6238 Price Well, Richardville','081526307263','0809112982','DE','02','00315'),
+('181','Gregory Jackson',N'Nam','1961-12-22','004 Richardson Dale, New Alex','081805787100','0017218062','DE','01','00061'),
+('182','Emily Rodgers',N'Nữ','1990-05-01','4023 Tyler Ramp, Dixonburgh','058345870497','0186366477','DE','05','00274'),
+('183','Kayla Jones',N'Nữ','1969-10-29','397 Tammy Islands, Cameronland','018789969292','0096408961','ST','02','00001'),
+('184','Margaret Woodard',N'Nam','1995-05-06','881 Scott Cove, West Kelly','086194312813','0390895874','DE','04','00185'),
+('185','Paula Holmes',N'Nữ','1995-12-02','1214 Mcgee Terrace, Zamorafort','086018278949','0940560827','ST','02','00175'),
+('186','Leslie Anderson',N'Nam','1967-07-08','552 Howard Course, Stanleybury','001699323698','0289049172','ST','04','00253'),
+('187','Regina Garcia',N'Nữ','2002-07-24','7119 Gina Mountain, New Ralph','064174599349','0993797745','DE','01','00099'),
+('188','Vincent Medina',N'Nam','1964-07-28','06891 Hicks Mission, Jasonberg','020397220819','0717986703','ST','04','00255'),
+('189','Jason Davis',N'Nam','1995-01-27','8516 Brian Tunnel, New Shirley','044862335206','0818923188','ST','05','00081'),
+('190','David Fowler',N'Nữ','1978-06-05','70848 Hudson Burg, Lake Carlos','094270343109','0047124333','ST','05','00228'),
+('191','James Rodriguez',N'Nam','1996-12-14','3643 Amanda Ford, Lindsaystad','051910195021','0332328358','ST','01','00258'),
+('192','Lisa Bates',N'Nam','1968-08-07','33456 Cox Keys, Bensonmouth','079117252185','0410836781','DE','01','00355'),
+('193','Wayne Berry',N'Nam','1961-06-10','USNV Benson, FPO AP 13400','087456455130','0079622122','ST','02','00007'),
+('194','Robert Curtis',N'Nữ','2001-01-16','235 Emily Brooks, Richstad','018185871759','0254030503','ST','02','00308'),
+('195','Nicholas Steele',N'Nữ','1972-01-18','360 Boone Shore, Carolineland','075166219723','0366671491','DE','04','00131'),
+('196','Whitney Davis',N'Nam','1976-08-05','567 Green Key, Johnshire','023724794207','0309101092','DE','04','00172'),
+('197','David Collins',N'Nam','1995-03-14','0476 Mejia Estate, South Lisa','058442166097','0655849876','DE','04','00244'),
+('198','Patrick Cochran',N'Nam','1998-03-10','USNS Bryant, FPO AA 72851','043830705293','0452141647','ST','03','00273'),
+('199','Daniel Stark',N'Nam','1983-10-13','393 Carr Springs, West Michael','064366305355','0318044507','DE','04','00132'),
+('200','Donald Vaughn',N'Nữ','1987-09-16','USS Wells, FPO AP 12857','084359179227','0836631214','ST','05','00360'),
+('201','Christina Melton',N'Nữ','1967-06-12','76293 Laura Spur, North Amanda','034001391297','0617573557','DE','03','00283'),
+('202','Thomas Fernandez',N'Nữ','1989-11-30','966 Judy Roads, Brendaton','015788256014','0090836989','ST','05','00186'),
+('203','Angela Deleon',N'Nữ','1995-09-10','USNS Carey, FPO AE 84369','047747885143','0152453266','ST','05','00083'),
+('204','John Carson',N'Nam','1984-04-15','6252 Krista Port, New James','024854611578','0140998541','DE','01','00015'),
+('205','Amy Alvarez',N'Nữ','1958-05-06','USNS White, FPO AE 40216','007449065837','0897973169','ST','03','00123'),
+('206','Rebecca Anderson',N'Nam','1969-11-06','58039 Green Trail, East Erin','060510537982','0906495806','DE','01','00148'),
+('207','Vincent Allen',N'Nam','1966-05-09','4490 Hardin Forge, Ericland','054218167226','0426200996','ST','01','00147'),
+('208','Andrew Thompson',N'Nam','1994-09-01','404 Prince Courts, Greenemouth','069372309378','0127647330','DE','05','00153'),
+('209','Joseph Mahoney',N'Nữ','1983-09-08','1170 Young Shore, Thompsonbury','057451240148','0101163947','ST','03','00077'),
+('210','Joseph Perez',N'Nữ','1985-07-02','8791 James Lodge, New Jack','082739615360','0745743048','ST','01','00187'),
+('211','Stephen Oconnor',N'Nam','1997-03-01','89713 Ellen Divide, New Megan','066957905559','0796089413','ST','05','00302'),
+('212','Linda Davis',N'Nữ','1961-06-22','6650 Jeff Place, Rothtown','025841997876','0984044624','DE','04','00119'),
+('213','Robert White',N'Nữ','1983-10-02','USCGC Brady, FPO AP 55075','081575720334','0366596646','ST','03','00356'),
+('214','Melissa Rodriguez',N'Nam','1976-05-15','217 Coleman Vista, Brownland','092557987337','0697381177','ST','05','00043'),
+('215','Juan Thompson',N'Nữ','1976-03-15','683 Fuller Fall, Bassfurt','070756584729','0056650310','DE','04','00191'),
+('216','Russell Mcguire',N'Nữ','1967-11-29','14863 Henson Branch, Keithland','065958137006','0092901115','DE','04','00079'),
+('217','Brenda Singh',N'Nam','1990-06-02','28714 Jones Court, Martinland','060470002778','0489049109','DE','04','00198'),
+('218','Jordan Hoffman',N'Nam','1973-08-24','USCGC Anderson, FPO AA 63932','064739142635','0010839370','DE','05','00149'),
+('219','Vanessa Parsons',N'Nam','1974-10-26','USNS Reeves, FPO AA 83664','000410834991','0725928704','ST','01','00165'),
+('220','Mark Turner',N'Nam','1975-09-20','6221 Todd Pike, Turnerborough','049315746132','0144749739','DE','01','00201'),
+('221','Joshua Donovan',N'Nam','1958-02-03','3995 Holden Drive, Bryantmouth','041397374775','0732853421','DE','01','00038'),
+('222','Charles Lowe',N'Nam','1992-11-20','116 Kelly Crossing, East Susan','089246724172','0451886540','DE','03','00221'),
+('223','Jessica Riggs',N'Nam','2000-07-19','618 Nicholas Lane, Rayton','082968859119','0398176932','ST','02','00278'),
+('224','Kristen Sullivan',N'Nam','1999-08-25','854 Christina Via, Summersberg','098633148563','0558297365','DE','01','00071'),
+('225','Mrs. Karen Stevens',N'Nam','1964-09-15','30897 Long Forks, Maryland','094339685121','0046651023','DE','04','00232'),
+('226','Chris Stevenson',N'Nam','1998-04-13','381 Dixon Expressway, Hallport','092726035547','0255573430','ST','01','00297'),
+('227','Stacey Miller',N'Nam','1974-11-14','28576 Smith Circles, Earlshire','066202701468','0885002825','DE','01','00213'),
+('228','Kristina Blankenship',N'Nữ','1976-11-04','433 Justin Dale, Colinton','005130758805','0295532792','ST','04','00142'),
+('229','Jerry Schmidt',N'Nữ','1991-01-25','USCGC Terry, FPO AP 78070','093336268743','0097907097','DE','04','00270'),
+('230','Brian Love',N'Nam','1965-03-16','USS Chen, FPO AP 91367','042902099608','0684627502','ST','01','00266'),
+('231','Terri Hernandez',N'Nữ','1960-11-28','38919 Bailey Lakes, West Jose','066807956431','0485584538','DE','03','00280'),
+('232','Carla Mitchell',N'Nữ','1974-09-02','821 Jonathan Cape, Lake Rachel','071646655731','0753099229','DE','05','00184'),
+('233','Rick Scott',N'Nam','1999-07-16','20566 Frank Isle, West Jason','048859565010','0426223810','ST','03','00035'),
+('234','Tracey Martinez',N'Nữ','2001-06-08','15389 David Haven, Lewismouth','065693204442','0604968364','ST','03','00137'),
+('235','Eric Baldwin',N'Nam','1979-11-20','USNV Chapman, FPO AA 94798','027786925965','0603910609','ST','02','00078'),
+('236','Barry Cortez',N'Nữ','1990-08-13','5027 Cheryl Ramp, South Thomas','093060045674','0353733394','ST','05','00138'),
+('237','Michael King',N'Nam','1994-01-31','60386 Paul Mall, Matthewmouth','089703343314','0421228558','ST','02','00317'),
+('238','Nancy Moran',N'Nữ','1965-07-07','948 Young Fall, New Joseph','091521476735','0148073478','ST','01','00352'),
+('239','Leslie Jones',N'Nam','1963-05-15','395 Jones Court, Combsmouth','094167971621','0545475176','ST','01','00107'),
+('240','Brandon Webb',N'Nam','1996-07-08','USCGC Love, FPO AA 24630','087626281035','0392400140','ST','05','00019'),
+('241','Jennifer Williams',N'Nam','2003-02-04','USS Stone, FPO AP 84842','068707075347','0155944987','DE','01','00093'),
+('242','Crystal Harper',N'Nữ','1968-07-18','902 Michael Lock, Port Frank','051296690831','0916597973','DE','02','00018'),
+('243','Larry Campos',N'Nữ','1998-10-02','737 Gary Port, Charlesside','082098227060','0808287645','DE','04','00054'),
+('244','Joshua Wright',N'Nam','1978-11-04','346 Hansen Green, South David','004358179246','0266422594','ST','05','00227'),
+('245','Ernest Moran PhD',N'Nam','1987-09-15','219 Amy Pike, East Sheilabury','052090230796','0795194604','ST','01','00215'),
+('246','Ashlee Conner',N'Nữ','1963-04-27','USS Snow, FPO AP 72184','024933212946','0331792099','DE','01','00292'),
+('247','Michael Smith',N'Nam','1971-06-24','USNS Reed, FPO AP 78760','034835112934','0787482419','DE','01','00053'),
+('248','Donald Martinez',N'Nam','1986-03-29','USS Reeves, FPO AE 98667','076200685511','0632713637','DE','05','00331'),
+('249','Robert Holt',N'Nam','1991-10-10','6121 Teresa Station, Davidport','093183638036','0683867446','ST','03','00284'),
+('250','Faith Riley',N'Nữ','2000-03-25','6623 Pratt Haven, North Megan','052399256542','0414832673','DE','01','00311'),
+('251','Kimberly Reid',N'Nữ','1976-06-08','7397 John Pass, Howardstad','080758704630','0228763892','DE','03','00324'),
+('252','Rachel Johnson',N'Nữ','1987-04-22','91094 Wyatt Ranch, East Thomas','052363144364','0327739199','ST','01','00064'),
+('253','William Murphy',N'Nam','1966-05-04','3614 James Mount, Dylanmouth','050521113272','0044328157','ST','02','00021'),
+('254','Jennifer Carroll',N'Nữ','1975-02-02','24065 Ryan Bypass, New David','056720938819','0683096563','ST','02','00252'),
+('255','Christina Watkins',N'Nam','1990-06-24','USNS Ortiz, FPO AP 96112','069870125763','0321829342','ST','05','00128'),
+('256','Julie Hernandez',N'Nữ','2001-04-26','5773 Sanders Via, Jamesshire','053642680996','0650450898','ST','02','00277'),
+('257','Jennifer Peterson',N'Nam','1981-01-06','456 Rebecca Radial, South Tom','066979013658','0782194532','DE','05','00224'),
+('258','John Martinez',N'Nữ','1994-07-23','48880 Poole Mill, Marymouth','062213979961','0897111236','ST','04','00151'),
+('259','Cody Le',N'Nam','1981-04-12','6528 Darren Plaza, Bryanfurt','053341521989','0466179540','DE','04','00116'),
+('260','Nicholas Nelson',N'Nam','1983-05-04','055 Joan Skyway, Castillobury','066286090533','0833819343','ST','04','00065'),
+('261','Thomas Harris',N'Nam','1989-09-23','686 Anthony Squares, Lake Dana','087412196319','0119823969','DE','02','00330'),
+('262','Karina Lane',N'Nam','1995-09-21','59705 Rice Mills, Perezhaven','015896758834','0321525851','ST','02','00069'),
+('263','Raymond Moore',N'Nữ','1981-12-21','USNV Acosta, FPO AE 23843','028091244746','0136397555','DE','03','00189'),
+('264','Rita Moreno',N'Nam','2001-05-31','USCGC Beck, FPO AP 46523','037936888729','0537121641','DE','01','00088'),
+('265','Allison Contreras',N'Nữ','1997-09-29','283 Thompson Inlet, West Cody','045918715454','0294089849','ST','04','00094'),
+('266','Anne Gonzalez',N'Nam','1988-07-20','5515 Devin Brooks, Rubenton','008799926527','0429547998','DE','01','00326'),
+('267','Michael Baxter',N'Nam','1995-11-23','953 Davis Wall, Pinedatown','049536815430','0283663704','DE','04','00196'),
+('268','Amy Rose',N'Nam','1980-05-26','85964 Jackson Pine, Jillport','056667188747','0317019186','ST','05','00339'),
+('269','Tiffany Wilson',N'Nữ','1970-07-11','USS Bowen, FPO AE 99658','015748052632','0135128343','DE','01','00084'),
+('270','Joseph Moore',N'Nam','1968-01-08','81667 Hall Drive, South Manuel','065857268601','0810891884','DE','01','00313'),
+('271','Joseph Smith',N'Nữ','1963-02-07','00379 Clark Stream, Kellyhaven','039968957290','0492466341','ST','02','00193'),
+('272','Joanna Fernandez',N'Nữ','1963-10-09','73082 Bryan Via, Connerport','060330792690','0247040790','ST','01','00003'),
+('273','Makayla Garrison',N'Nam','2001-12-05','8324 Jason Rest, Wagnerhaven','092443994821','0357788315','ST','04','00257'),
+('274','Susan Ramos',N'Nữ','1983-01-30','707 Anthony Club, Johnstad','070848766545','0784482956','ST','04','00164'),
+('275','Tina Adams',N'Nữ','1978-05-11','02983 Daniel Light, Stevenview','007721279642','0629902297','ST','01','00028'),
+('276','Lori Pittman',N'Nữ','1998-09-07','1668 Lopez Plaza, Danielside','033273470581','0614762549','ST','03','00220'),
+('277','Sara Barry',N'Nam','1964-07-26','100 Rachel Trace, Lake Stacy','028478608367','0099954896','ST','02','00127'),
+('278','Brandi Prince',N'Nam','1996-09-06','USNS Lin, FPO AP 65554','049366901934','0350167571','ST','05','00223'),
+('279','Angela Scott',N'Nam','1983-04-07','USNV Lopez, FPO AA 34118','063402619885','0878004345','ST','04','00233'),
+('280','Dawn Richardson',N'Nam','1974-06-06','USNV Blake, FPO AP 24679','075267925308','0650169196','ST','03','00103'),
+('281','Nicole Davis',N'Nữ','1980-03-06','580 Cassandra Way, Jonesstad','037136165134','0961708472','ST','01','00348'),
+('282','Monica Brown',N'Nam','1986-01-25','60146 Moon Unions, Josephbury','052984277715','0549699203','ST','05','00080'),
+('283','Angela Beck',N'Nữ','1963-12-31','0712 Bradley Path, Obrientown','077206214271','0183414393','ST','02','00194'),
+('284','David Cardenas',N'Nữ','1969-10-10','0679 Payne Parkway, Jillhaven','016592234902','0580332677','ST','03','00108'),
+('285','Zachary Clark',N'Nam','1969-01-23','90240 Todd Ridges, Crossmouth','075818228656','0745484912','ST','05','00350'),
+('286','Thomas Turner',N'Nam','1966-01-08','7955 Burke Shores, New Emily','028080789693','0066788263','ST','04','00135'),
+('287','Richard Gonzalez',N'Nam','1965-05-04','USS Young, FPO AP 03284','051302786060','0093725954','ST','04','00160'),
+('288','Denise Chandler',N'Nữ','1996-04-30','USS Barrett, FPO AP 84696','057353790481','0076762989','ST','03','00009'),
+('289','Shannon Vargas',N'Nữ','1991-11-03','576 Moore Ridge, Joannatown','038819668182','0997798080','ST','01','00306'),
+('290','Jim Brown',N'Nữ','1986-06-22','8273 Sheri Ford, Johnsonton','008924303847','0394889207','ST','01','00296'),
+('291','Kayla Stone',N'Nữ','1967-10-20','47306 Vaughn Lock, Davidville','060889099536','0423042126','ST','02','00073'),
+('292','Alex Baird',N'Nam','1968-04-24','5841 Adam Branch, South James','047575903915','0479541365','ST','01','00238'),
+('293','Kerry Moore',N'Nữ','1968-07-29','1801 Huynh Summit, East Dennis','098049730013','0324331985','ST','02','00206'),
+('294','Amy Harrison',N'Nam','1961-06-06','497 Joel Mountain, Carlaland','029606099221','0289426875','ST','02','00340'),
+('295','Lisa Harris',N'Nam','1978-04-03','58592 Banks Light, Jessicafort','046317233417','0386768729','ST','01','00282'),
+('296','Danny Escobar',N'Nam','1978-10-19','6799 Hanson Plains, Lauraberg','005981924793','0204687442','ST','01','00085'),
+('297','Victoria Chang',N'Nam','1962-10-06','1128 Leslie Alley, Baileyside','011346627053','0923936080','ST','04','00207'),
+('298','Julia West',N'Nữ','1984-04-29','29859 Amy Harbor, Port Tomfurt','028139946112','0788286198','ST','03','00013'),
+('299','Amanda Henderson',N'Nam','1994-01-26','USNV Hawkins, FPO AP 01762','022605791845','0288363637','ST','02','00287'),
+('300','Ricky Cook',N'Nam','1997-05-01','078 Peterson Cliff, Shaunmouth','031799198464','0529550059','ST','03','00096'),
+('301','Jessica Randolph',N'Nam','1974-08-04','134 Frank Path, Browntown','028198687179','0879802416','ST','01','00130'),
+('302','Courtney Thornton',N'Nam','1975-09-24','12285 Paul Estates, Sheristad','013453401521','0386755696','ST','05','00338'),
+('303','Barbara Hunter',N'Nam','1964-07-13','94643 Cortez Center, Keithview','090412051038','0321841253','ST','04','00072'),
+('304','Lauren Webster',N'Nam','1977-08-31','440 Jennifer View, South Jamie','091546231667','0207770337','ST','02','00169'),
+('305','Sarah Case',N'Nam','1985-08-20','2139 Hall Wells, Nashview','092662440088','0024759130','ST','03','00218'),
+('306','Andrea Newman',N'Nam','1988-05-19','USCGC Haynes, FPO AP 74757','035401277279','0831012634','ST','01','00154'),
+('307','Carrie Young',N'Nữ','1968-06-24','6787 Adam Crest, Port Cindy','083363367594','0590152625','ST','02','00032'),
+('308','David Tyler',N'Nam','1971-03-23','202 Gibbs Ville, Sabrinafort','021777710152','0805843370','ST','05','00156'),
+('309','George Franklin',N'Nam','1967-01-26','091 Powell Corners, West Mark','078513838856','0596927376','ST','01','00346'),
+('310','Brent Mason',N'Nữ','1980-05-18','96843 Becker Run, Joshuaton','032442365298','0108942517','ST','05','00143'),
+('311','Meghan Santiago',N'Nam','1989-07-14','USCGC Watson, FPO AE 77629','053295702173','0111587432','ST','05','00118'),
+('312','Joshua Ford',N'Nữ','1983-06-30','23621 Lee Greens, Donnaville','047122922158','0950437688','ST','04','00237'),
+('313','Christopher Austin',N'Nữ','1960-12-18','203 Erica Springs, New Beth','090906374963','0096024824','ST','03','00023'),
+('314','David Clements',N'Nữ','1986-05-03','1277 Joy Dale, Kelseyview','028833681557','0022208089','ST','01','00190'),
+('315','Megan Conley',N'Nữ','1974-03-22','501 Wells Summit, Espinozaberg','026731715050','0251245858','ST','02','00120'),
+('316','Jason Martin',N'Nữ','1996-11-05','41812 Davis Lodge, Mariafort','048459471185','0590722977','ST','02','00162'),
+('317','Nicole Warren',N'Nữ','1975-01-23','938 Ryan Roads, Pamelaside','074641044539','0156462956','ST','03','00075'),
+('318','Colleen Mathis',N'Nữ','1964-08-19','104 John Cape, New Hannah','044725676403','0666829635','ST','05','00359'),
+('319','Deborah Berry',N'Nữ','1964-04-17','2824 Carr Squares, Julieside','094809487597','0946673735','ST','05','00358'),
+('320','Ricky Potts',N'Nam','1997-01-01','0465 Davis Glen, South Nicole','054179595128','0467183691','ST','05','00058'),
+('321','Molly Davies',N'Nữ','1982-01-01','USNV Mack, FPO AE 96192','080983782463','0436836062','ST','03','00117'),
+('322','Kelly Lopez',N'Nam','1999-03-23','1115 Dyer Meadow, Port Breanna','016498751138','0179763602','ST','05','00354'),
+('323','Wayne Green',N'Nam','1981-11-09','USNV Hill, FPO AA 76059','010036663130','0688714944','ST','02','00208'),
+('324','Michael Rosales',N'Nam','1970-09-11','USNV Moore, FPO AA 32404','006273111286','0235791855','ST','01','00183'),
+('325','Mark Campbell',N'Nữ','1985-02-12','249 Timothy Streets, Bellmouth','088959165778','0355902981','ST','04','00161'),
+('326','Christy Gould',N'Nữ','1994-05-06','USCGC Dickerson, FPO AP 38030','067996267855','0914619599','ST','05','00024'),
+('327','Richard Mitchell',N'Nam','1993-07-24','USNS Patterson, FPO AE 87582','034452846164','0520411682','ST','01','00174'),
+('328','James Williams',N'Nữ','1959-10-31','762 Thomas Shore, North Jared','084116355684','0533319917','ST','03','00303'),
+('329','Steven Alvarez',N'Nam','1981-09-27','207 Lewis Fork, Russellview','071106492985','0957987074','ST','01','00100'),
+('330','William Schwartz',N'Nữ','1973-06-23','2643 Andrews Lodge, Ethanview','007597694939','0042124021','ST','02','00279'),
+('331','Maria Fowler',N'Nữ','1961-10-21','164 Mack Locks, West Davidfort','096504783918','0264188540','ST','04','00203'),
+('332','Alexander Armstrong',N'Nữ','1966-10-31','USNV Moore, FPO AA 55123','098811513478','0451371852','ST','03','00250'),
+('333','Rodney Benson',N'Nam','1986-03-01','2566 Lam Estates, Matthewton','078867656036','0681130294','ST','02','00087'),
+('334','Mr. Victor Wilson MD',N'Nữ','1971-09-08','9860 Reed Forge, Sloanstad','028729225355','0220044717','ST','05','00102'),
+('335','Jacob Camacho',N'Nam','1978-09-11','492 Allison Creek, East Angela','013593263596','0815119842','ST','03','00342'),
+('336','Mike Maxwell',N'Nữ','1963-07-12','848 Cory Squares, Lydiaville','085981444022','0566228365','ST','04','00259'),
+('337','Michael Berger',N'Nam','1963-08-02','1584 Brown Isle, New Carlaberg','094325065022','0029247761','ST','03','00104'),
+('338','Wayne Smith',N'Nam','1966-10-02','880 Davila Valley, Port Daniel','033558203548','0855305702','ST','04','00014'),
+('339','Olivia Marshall',N'Nữ','1965-06-01','27187 Mark Creek, Prattland','014442083408','0706411388','ST','04','00214'),
+('340','Susan Jackson',N'Nam','1960-07-28','346 English Knoll, Zacharyview','061902935706','0527019629','ST','05','00176'),
+('341','Julia Roberts',N'Nữ','1993-09-25','USCGC Drake, FPO AP 14541','072935021710','0223805614','ST','02','00067'),
+('342','Tammy Snow',N'Nam','1976-10-01','895 Monica Street, North Judy','079886966687','0665431090','ST','05','00039'),
+('343','Jamie Armstrong',N'Nam','1987-07-18','370 Randall Place, Port Robert','076029229732','0536650543','ST','03','00042'),
+('344','William Thomas',N'Nữ','1960-12-13','794 Kristin Vista, Susanmouth','070812601238','0541563263','ST','03','00134'),
+('345','Robert Gomez',N'Nữ','1987-06-20','26487 Robin Ramp, Kelleymouth','040394203703','0011669401','ST','03','00136'),
+('346','Alexa Jones',N'Nam','1965-04-10','9032 Nichols Keys, Ashleyton','008601817080','0310596171','ST','03','00205'),
+('347','Steve Payne',N'Nam','1982-07-02','1125 Tanya Shoal, Tuckermouth','080787594860','0020393652','ST','04','00325'),
+('348','Kelly Boone',N'Nữ','2001-09-14','256 Nicole Ranch, Suzannemouth','012436237324','0609584518','ST','03','00300'),
+('349','Anthony Wolfe',N'Nữ','1964-03-14','51023 Laura Ports, South Wanda','026982260310','0986057618','ST','01','00092'),
+('350','Julie Elliott',N'Nam','1986-11-12','6273 Chad Port, Lake Louis','082594612846','0383881320','ST','01','00353'),
+('351','Keith Webb',N'Nam','1995-09-11','25468 Nicole Well, New Matthew','051019232017','0107412516','ST','04','00026'),
+('352','Amanda Welch',N'Nam','2003-08-12','644 Christina Fall, Jamesville','043154437847','0497438953','ST','04','00177'),
+('353','Jacob Cameron',N'Nữ','1972-03-10','USCGC Johnston, FPO AE 23655','027708674267','0635314374','ST','03','00264'),
+('354','Jeremy Mcdowell',N'Nam','1987-05-17','653 Carol Motorway, North Jay','075337055195','0253904905','ST','04','00240'),
+('355','Jacqueline Martinez',N'Nữ','1960-03-14','8208 Ramirez Fall, Port Kim','090395765694','0847087109','ST','04','00267'),
+('356','Brianna Mata',N'Nam','1958-06-22','44822 Cody Walk, Nelsonview','051290521826','0980855144','ST','04','00168'),
+('357','James Jacobs',N'Nam','1964-03-31','534 Ball Cliff, Shieldsville','022077033537','0535054693','ST','05','00059'),
+('358','Steve Lee',N'Nữ','1986-07-11','52241 Ellis Lodge, Burtonville','028727789687','0610775389','ST','04','00140'),
+('359','Robert Conrad',N'Nam','1997-03-16','463 Mercado Ferry, Jonesstad','083135220722','0923119083','ST','02','00328'),
+('360','Brett Smith',N'Nữ','1971-08-31','986 Jason Pine, Nicoleborough','095611165469','0700092206','ST','03','00050');
 
 
 INSERT INTO Dentist (dentist_id)
-VALUES ('006'),
-('007'),
-('009'),
-('012'),
-('016'),
-('018'),
-('019'),
-('028'),
+VALUES ('012'),
+('017'),
+('022'),
+('023'),
 ('029'),
-('032'),
-('036'),
-('037'),
-('039'),
+('031'),
+('038'),
+('043'),
 ('044'),
-('046'),
-('050'),
+('045'),
+('049'),
+('051'),
 ('053'),
-('055'),
-('057'),
+('056'),
 ('058'),
-('059'),
+('060'),
 ('062'),
 ('063'),
-('064'),
-('066'),
+('065'),
+('068'),
+('069'),
 ('070'),
-('075'),
-('078'),
+('072'),
+('073'),
+('082'),
+('085'),
 ('090'),
-('100'),
-('101'),
-('103'),
-('106'),
-('109'),
+('095'),
+('096'),
+('097'),
+('098'),
+('107'),
+('110'),
 ('112'),
-('117'),
-('118'),
+('115'),
+('116'),
 ('119'),
-('124'),
-('129'),
-('130'),
+('122'),
+('126'),
+('127'),
+('128'),
 ('131'),
-('132'),
-('133'),
-('135'),
-('145'),
-('146'),
+('139'),
+('144'),
 ('148'),
 ('151'),
-('153'),
-('154'),
+('152'),
 ('155'),
-('158'),
-('161'),
-('166'),
+('164'),
 ('167'),
 ('168'),
 ('169'),
-('172'),
-('173'),
-('175'),
-('178'),
-('186'),
-('188'),
-('189'),
+('170'),
+('171'),
+('176'),
+('180'),
+('181'),
+('182'),
+('184'),
+('187'),
 ('192'),
-('193'),
+('195'),
+('196'),
 ('197'),
 ('199'),
-('200'),
-('211'),
+('201'),
+('204'),
+('206'),
+('208'),
 ('212'),
-('213'),
-('219'),
+('215'),
+('216'),
+('217'),
+('218'),
+('220'),
 ('221'),
 ('222'),
-('223'),
 ('224'),
 ('225'),
-('226'),
-('228'),
-('233'),
-('236'),
-('237'),
-('238'),
+('227'),
+('229'),
+('231'),
+('232'),
+('241'),
 ('242'),
-('245'),
+('243'),
 ('246'),
 ('247'),
 ('248'),
-('249'),
 ('250'),
-('253'),
-('254'),
-('255'),
-('258'),
+('251'),
+('257'),
+('259'),
 ('261'),
-('262'),
 ('263'),
-('266');
+('264'),
+('266'),
+('267'),
+('269'),
+('270');
 
 
 INSERT INTO Nurse (nurse_id)
-VALUES ('002'),
-('004'),
-('020'),
-('024'),
+VALUES ('008'),
+('018'),
+('019'),
+('021'),
 ('025'),
-('026'),
 ('035'),
-('038'),
+('036'),
+('039'),
 ('040'),
-('041'),
-('051'),
-('056'),
-('060'),
-('061'),
-('065'),
-('067'),
-('068'),
-('069'),
+('042'),
+('046'),
+('047'),
+('048'),
+('055'),
+('059'),
+('064'),
+('066'),
 ('071'),
-('072'),
-('073'),
-('074'),
-('080'),
-('082'),
-('084'),
+('078'),
+('079'),
+('081'),
 ('086'),
-('089'),
+('088'),
 ('091'),
 ('092'),
 ('093'),
-('094'),
-('095'),
-('096'),
-('104'),
-('115'),
+('102'),
+('105'),
+('106'),
+('108'),
+('109'),
+('114'),
+('117'),
 ('120'),
-('121'),
 ('125'),
-('127'),
-('128'),
-('136'),
-('137'),
-('139'),
-('142'),
+('138'),
+('143'),
+('146'),
 ('149'),
-('150'),
-('152'),
+('153'),
 ('156'),
 ('157'),
-('162');
+('158'),
+('160'),
+('161'),
+('162'),
+('163'),
+('165'),
+('172'),
+('174');
 
 
-EXEC insertPatient 'Alicia Prince','2012-03-05','5157 Kim Isle, East Melaniefurt','0898907167',N'Nữ','emily59@example.com';
-EXEC insertPatient 'Jillian Padilla','1983-02-07','8396 Victoria Passage, Lake Victoria','0614301018',N'Nam','rachel11@example.org';
-EXEC insertPatient 'Thomas Hicks','1997-12-12','0629 Fuller Route, Port Cherylhaven','0092765223',N'Nữ','joseph84@example.org';
-EXEC insertPatient 'Tasha Davila','1969-12-05','690 Brown Bypass, Lake Jesse','0279507674',N'Nữ','emily39@example.net';
-EXEC insertPatient 'Lisa Salazar','1973-11-30','708 Douglas Shore Suite 675, Lisachester','0303070159',N'Nam','tjohnson@example.com';
-EXEC insertPatient 'Erik Moran','1997-04-27','283 Rosales Lake, New David','0349892401',N'Nam','troy59@example.org';
-EXEC insertPatient 'Virginia Robinson','1958-04-10','0422 Hatfield Mountains, North Anita','0617494658',N'Nam','franklin@example.com';
-EXEC insertPatient 'Mrs. Becky Floyd','1977-06-11','PSC 5856, Box 9539, APO AA 28347','0068345518',N'Nam','vjones@example.com';
-EXEC insertPatient 'Jeffrey Thompson','1960-01-07','039 Cruz Walks Suite 115, New Samuel','0952452511',N'Nam','lisa24@example.com';
-EXEC insertPatient 'Patricia Garcia','1997-05-03','69485 Kelly Causeway, Brendafort','0636253544',N'Nam','hbaker@example.net';
-EXEC insertPatient 'Shaun Floyd','1992-01-25','3640 Lauren Underpass, Perezport','0421127793',N'Nữ','jenny82@example.com';
-EXEC insertPatient 'Todd Nelson','2013-01-29','162 Jodi Mall, East Kristinside','0307081988',N'Nam','oacosta@example.net';
-EXEC insertPatient 'Christina Parker','2015-01-06','9017 Bishop Shoals, Davisborough','0028236666',N'Nam','henry73@example.org';
-EXEC insertPatient 'David Stanton','1988-11-25','07543 Joseph Trace, New Brian','0186667596',N'Nữ','kevin57@example.org';
-EXEC insertPatient 'Mr. Ian Tucker','1992-06-30','Unit 2203 Box 7268, DPO AE 52366','0020828976',N'Nam','iserrano@example.com';
-EXEC insertPatient 'Mike Bell','1977-03-27','6700 Reed Corners, Millsfurt','0061545410',N'Nữ','rlong@example.org';
-EXEC insertPatient 'Valerie Mayo','1962-06-07','7188 Smith Walks, Huntbury','0971928102',N'Nam','umayo@example.org';
-EXEC insertPatient 'Michael Hanson','1996-10-25','1191 Mann Station, Jeffreyside','0372182542',N'Nữ','ashannon@example.com';
-EXEC insertPatient 'April Bell','1999-12-28','330 Kristin Causeway, Sarahton','0249793163',N'Nam','lmurphy@example.net';
-EXEC insertPatient 'Michelle Odom','1987-09-18','0947 Valencia Knolls, Andrewtown','0493617575',N'Nữ','fjames@example.com';
-EXEC insertPatient 'Melinda Johnson','2013-05-04','58401 Deanna Mall Suite 109, East Eric','0788728949',N'Nữ','zmiles@example.net';
-EXEC insertPatient 'Shane Lee','1989-12-13','218 Hughes Wells, Ashleyside','0780491838',N'Nam','cindy22@example.net';
-EXEC insertPatient 'Mary Jones','1987-06-22','20085 Zimmerman Harbor, Coreybury','0382355768',N'Nữ','evang@example.org';
-EXEC insertPatient 'Ryan Wolf','1995-11-20','388 Mccall Curve, Jacksonside','0678103790',N'Nam','shane68@example.com';
-EXEC insertPatient 'George Smith','1993-09-17','46444 Adams Fields Apt. 557, Johnsonton','0193085209',N'Nam','erhodes@example.com';
-EXEC insertPatient 'Patricia Banks','1961-12-27','0020 Love Junctions Apt. 181, Millerbury','0715262085',N'Nam','ibrown@example.org';
-EXEC insertPatient 'Renee Davies','1997-07-05','747 Michael Ways Apt. 281, Port Seanton','0229745237',N'Nữ','eperry@example.org';
-EXEC insertPatient 'Joseph Luna','1984-10-19','USS Oconnor, FPO AA 81341','0689825807',N'Nữ','ohowell@example.net';
-EXEC insertPatient 'Robin Briggs','2016-09-07','1702 Jose Pike, South Steven','0876695397',N'Nữ','kevin99@example.net';
-EXEC insertPatient 'Christopher Mayo','2010-09-09','491 Reed Passage Suite 824, West Kari','0408469201',N'Nam','eric40@example.org';
-EXEC insertPatient 'David Hawkins','2000-01-30','8425 Michelle Spring Apt. 043, Brookston','0558527584',N'Nữ','lauren04@example.net';
-EXEC insertPatient 'Philip Morris','1996-08-04','71269 Fox Tunnel, Sharonville','0571146925',N'Nam','lmcclure@example.org';
-EXEC insertPatient 'Joshua Graham','1966-08-18','690 Holmes Pass Suite 476, Elizabethland','0005632338',N'Nữ','rsmith@example.net';
-EXEC insertPatient 'Ashley Hunt','1995-11-18','25688 French Court Suite 714, Port Megan','0233906165',N'Nữ','mmills@example.com';
-EXEC insertPatient 'Sherri Pierce','1961-02-21','37000 Gary Isle Suite 050, Shaneview','0895146769',N'Nam','laura41@example.com';
-EXEC insertPatient 'Katelyn Mathis','1989-07-29','6415 Larry Glens Suite 980, Smithview','0666817147',N'Nam','pamela40@example.org';
-EXEC insertPatient 'Alison Cross','1964-11-18','362 Reed Road, Mcdonaldchester','0995507791',N'Nữ','rbrown@example.org';
-EXEC insertPatient 'Deborah Dawson','1983-10-19','64782 Shea Course, Davismouth','0539174967',N'Nam','vickie92@example.org';
-EXEC insertPatient 'Catherine Riggs','1977-09-26','13077 Stewart Island, Davidburgh','0435761657',N'Nam','vthomas@example.com';
-EXEC insertPatient 'Scott Erickson','2001-07-22','340 Hernandez Gardens, Sanchezland','0351037975',N'Nữ','audrey24@example.org';
-EXEC insertPatient 'Alexandra Rosales','1987-10-26','5928 Joshua Dam Apt. 902, Phillipsview','0955203507',N'Nữ','lisa47@example.org';
-EXEC insertPatient 'Michael Brown','1973-12-08','0886 Ruth Roads Apt. 187, Colleenview','0565218826',N'Nam','paul88@example.org';
-EXEC insertPatient 'Nancy Perez','1984-08-23','600 Le Ports, Carlborough','0560170925',N'Nam','bhall@example.com';
-EXEC insertPatient 'Jacob Mullins','1962-10-19','7804 Henry Path, Marshallborough','0818973027',N'Nam','susan59@example.org';
-EXEC insertPatient 'Vincent Simmons','1978-06-15','1281 Baldwin Point, Gabrielberg','0428082460',N'Nam','vnorton@example.com';
-EXEC insertPatient 'Holly Taylor','1990-11-05','0583 Amy Common, Tomchester','0509388404',N'Nam','ojohnson@example.org';
-EXEC insertPatient 'Tracy Burgess','2011-03-28','USCGC Mills, FPO AP 31822','0113008745',N'Nữ','cody73@example.net';
-EXEC insertPatient 'Austin Gregory MD','1958-02-17','007 Smith Fields Suite 482, Ellisborough','0179051183',N'Nam','gschmidt@example.net';
-EXEC insertPatient 'Kristin Brown','1960-08-29','50042 Janet Circle, Wrightberg','0304811947',N'Nữ','bsanders@example.net';
-EXEC insertPatient 'Cameron King','1961-06-06','954 Philip Passage, North Robertton','0947957015',N'Nam','mark74@example.org';
-EXEC insertPatient 'Jennifer Jensen','1989-03-03','USS Watson, FPO AE 02908','0910901690',N'Nam','toliver@example.com';
-EXEC insertPatient 'Robert Lewis','2013-03-16','714 Briana Estate, Lake Marcusport','0717812512',N'Nữ','walter90@example.org';
-EXEC insertPatient 'Victor Hernandez','1999-01-04','473 Michelle Ridge, Gonzalezfort','0616765492',N'Nam','eduarte@example.net';
-EXEC insertPatient 'Erica Perkins','1969-05-15','09481 Craig Courts Suite 323, Ryanfort','0742069202',N'Nam','fsmall@example.net';
-EXEC insertPatient 'Tara Jones','2006-03-14','984 Cook Summit Apt. 114, Parkerbury','0999320705',N'Nữ','pvargas@example.com';
-EXEC insertPatient 'Allison Campbell','1996-06-10','9631 Jennifer Trail Apt. 218, Cohenport','0415290502',N'Nam','nancy47@example.net';
-EXEC insertPatient 'Steven Collins','2003-09-17','98495 Pamela Mission, West Kentville','0386862245',N'Nữ','cross@example.org';
-EXEC insertPatient 'Ruth Jones','1958-03-23','2771 Lang Hills Suite 100, Desireeton','0163807745',N'Nam','cjordan@example.org';
-EXEC insertPatient 'Debbie Thomas','1970-08-10','30366 Anthony Crescent, New Kristinetown','0124857538',N'Nam','victor06@example.com';
-EXEC insertPatient 'Michael Huber','1998-03-15','80120 Ruiz Fall, Hopkinsmouth','0362363637',N'Nam','andrea60@example.com';
-EXEC insertPatient 'Cameron Mcbride','1980-05-18','9418 Jacqueline Hollow, Bryanburgh','0143736568',N'Nữ','victor86@example.com';
-EXEC insertPatient 'Samuel Soto','1965-05-31','583 Janet Lane Apt. 256, South Johnburgh','0691667073',N'Nam','gjackson@example.net';
-EXEC insertPatient 'Christopher Knight','2012-12-17','776 Massey Grove Suite 874, Jacksonmouth','0406852259',N'Nữ','ggarcia@example.org';
-EXEC insertPatient 'Victoria Austin','1982-09-06','59301 Steven Ville, Hopkinsview','0051130438',N'Nữ','srich@example.org';
-EXEC insertPatient 'Daniel Key','1976-11-06','924 Wall Curve, New Caitlin','0700215372',N'Nữ','dcooper@example.org';
-EXEC insertPatient 'Michele York','2016-10-02','663 Hoffman Common, East Jason','0802360746',N'Nữ','alyssa86@example.com';
-EXEC insertPatient 'Linda Anderson','2006-07-09','5621 Christina Shores, North Heatherberg','0717380907',N'Nữ','ushaw@example.com';
-EXEC insertPatient 'Mary Murray','1983-11-13','813 Lowe Stravenue, East David','0186446314',N'Nữ','gmcbride@example.net';
-EXEC insertPatient 'Rachel Harrington','2011-10-26','118 Alexander Points, Melissahaven','0104583453',N'Nữ','lauren91@example.org';
-EXEC insertPatient 'Laura Harmon','1988-02-21','9625 Thomas View Apt. 897, South Jose','0169259803',N'Nữ','honeal@example.net';
-EXEC insertPatient 'Courtney Ward','2001-04-07','1076 Sanchez Spurs, Joshuatown','0205351270',N'Nữ','robert96@example.net';
-EXEC insertPatient 'Mary Crawford','2009-09-09','650 Sparks Inlet, Kaufmanshire','0258546071',N'Nữ','leah00@example.net';
-EXEC insertPatient 'Bradley Lopez','1974-08-26','61127 Stanton Stravenue, Larryville','0064277081',N'Nữ','kristy81@example.net';
-EXEC insertPatient 'Elizabeth Lee','1976-01-11','5991 Elizabeth Way Apt. 898, Paulburgh','0242058847',N'Nữ','mmiller@example.com';
-EXEC insertPatient 'Russell Howard','1998-05-25','1635 Warner Via, South Miguel','0092083084',N'Nam','dnolan@example.net';
-EXEC insertPatient 'Jillian Erickson','2005-05-08','671 Pollard Way, Robinport','0286543233',N'Nữ','qknapp@example.org';
-EXEC insertPatient 'Matthew Lee','2017-05-10','94599 Lane Curve, Port Chelsea','0015319066',N'Nam','kimjames@example.org';
-EXEC insertPatient 'Michael Warner','1983-08-19','889 Burton Throughway Apt. 024, Paulberg','0821354061',N'Nữ','ykeller@example.com';
-EXEC insertPatient 'Derek Ramos','1968-11-23','USCGC West, FPO AP 61319','0076267702',N'Nữ','bjohnson@example.net';
-EXEC insertPatient 'Nicole Chavez','1979-07-26','Unit 5381 Box 0348, DPO AA 28226','0991315802',N'Nữ','irivera@example.com';
-EXEC insertPatient 'Tiffany Austin','2017-02-06','754 Hunt Branch, Katietown','0161111446',N'Nữ','collin05@example.org';
-EXEC insertPatient 'Christian Williams','2004-08-25','402 Huang Landing, New Bradleyside','0840445932',N'Nam','juan14@example.com';
-EXEC insertPatient 'Erin Rodriguez','2003-08-12','11038 Wall Unions Apt. 803, Josephberg','0981342629',N'Nam','ydecker@example.com';
-EXEC insertPatient 'James Snyder','2009-08-21','PSC 4549, Box 8910, APO AP 95284','0199687767',N'Nữ','smorris@example.net';
-EXEC insertPatient 'Jason Davis DDS','2005-08-30','95437 Roger Junction, Jamesmouth','0516765051',N'Nam','haleross@example.org';
-EXEC insertPatient 'Carl Rodriguez','1966-05-13','8975 Victoria Hills, Rodriguezville','0881672213',N'Nam','iwatkins@example.com';
-EXEC insertPatient 'Olivia Burton','1989-08-26','557 Villarreal Trafficway, Lake Damon','0502069857',N'Nữ','ffrench@example.com';
-EXEC insertPatient 'Steven Thompson','2001-06-26','4250 Lisa Island Apt. 863, Whitebury','0920628107',N'Nữ','neil31@example.com';
-EXEC insertPatient 'Becky Soto','1996-08-20','Unit 3714 Box 9252, DPO AE 62459','0158299402',N'Nữ','mary60@example.net';
-EXEC insertPatient 'Oscar Sanchez','1960-01-11','198 Tara Fall, West Tina','0677463810',N'Nữ','jimmy95@example.org';
-EXEC insertPatient 'Lauren Hughes MD','1987-01-22','30861 Mary Via Apt. 904, South Jessica','0549633165',N'Nữ','sgreen@example.net';
-EXEC insertPatient 'Margaret Flores','1981-07-21','34162 Hawkins Curve, Sarahville','0512268839',N'Nam','alyssa81@example.com';
-EXEC insertPatient 'Samantha Harris','1958-11-09','4080 King Meadow Apt. 586, Port Antonio','0709589143',N'Nữ','lacey52@example.org';
-EXEC insertPatient 'Michelle Sullivan','1989-09-03','5798 Sara Manors Suite 834, Danielsfort','0154021497',N'Nữ','ymartin@example.net';
-EXEC insertPatient 'Lisa Moore','2006-07-06','1164 Cervantes Bridge, North Timothystad','0838071914',N'Nam','lauren46@example.org';
-EXEC insertPatient 'Heather Levy','2001-11-12','461 Crystal Club, West Susan','0872795623',N'Nữ','fsmith@example.com';
-EXEC insertPatient 'Maria Glass','2016-05-29','34794 Harris Well Apt. 138, South Lauren','0265925584',N'Nam','amanda37@example.org';
-EXEC insertPatient 'Dalton Smith','2013-03-03','890 Denise Forest, Leonardside','0657754152',N'Nam','zsingh@example.net';
-EXEC insertPatient 'George Phillips','2000-06-03','Unit 9235 Box 2462, DPO AP 80338','0750639741',N'Nam','jose27@example.org';
-EXEC insertPatient 'Benjamin Cross','1961-04-20','13724 Jane Stravenue, Jenniferberg','0169674780',N'Nữ','jason13@example.org';
-EXEC insertPatient 'Debra Goodman','1999-11-19','Unit 4727 Box 8152, DPO AP 94683','0015956938',N'Nữ','marie74@example.com';
-EXEC insertPatient 'Ryan Marshall','1996-11-19','9171 Erica Greens, West William','0515714999',N'Nữ','nharris@example.com';
-EXEC insertPatient 'John Carney','1961-12-13','9555 Zhang Plains Suite 880, New Claudia','0823035505',N'Nam','hunter52@example.com';
-EXEC insertPatient 'Jacob Pacheco','1963-05-28','976 Scott Groves, East Robertbury','0535293276',N'Nữ','laurie51@example.net';
-EXEC insertPatient 'Matthew Davis','2002-12-02','268 Richard Fort, Johnmouth','0219058046',N'Nữ','nicole92@example.com';
-EXEC insertPatient 'Gloria Schroeder','1978-12-05','5584 Paul Ridges Apt. 727, Jonathanberg','0919643304',N'Nữ','sherry84@example.com';
-EXEC insertPatient 'Katherine Bell','1999-03-30','Unit 3416 Box 4976, DPO AP 91795','0949546410',N'Nữ','dcoleman@example.org';
-EXEC insertPatient 'Daniel Nicholson','2008-02-24','2570 Justin Pines, New Yvettestad','0501585771',N'Nữ','sscott@example.org';
-EXEC insertPatient 'Sherri Black','2009-01-25','553 Eric Ridges, Harrisonview','0367073036',N'Nữ','pdaniels@example.com';
-EXEC insertPatient 'Karen Mckenzie','1999-11-04','760 Shawn Street, Crystalchester','0279587642',N'Nam','zlam@example.net';
-EXEC insertPatient 'Erin Duffy','1984-03-24','809 Amanda Expressway, Harrismouth','0347779550',N'Nữ','vgates@example.com';
-EXEC insertPatient 'James Price','2007-12-02','040 Lee Park, Michaelmouth','0097345352',N'Nam','urivera@example.net';
-EXEC insertPatient 'Francisco Martinez','1991-02-17','54864 Jill Wall, Dustinberg','0347223840',N'Nam','uprice@example.com';
-EXEC insertPatient 'Kathleen Mann','1965-01-09','2895 Brown Flats, Port Cynthiashire','0700565898',N'Nữ','epierce@example.net';
-EXEC insertPatient 'Kathy Hudson','2003-07-25','114 Laura Burgs Apt. 480, Lake Rickyton','0795552597',N'Nam','qeverett@example.org';
-EXEC insertPatient 'Samuel Roberts','1974-08-06','PSC 2178, Box 8708, APO AE 93463','0952469362',N'Nam','okoch@example.com';
-EXEC insertPatient 'Joseph Torres','2017-06-19','7908 Olsen Gateway Apt. 795, Joseshire','0879851531',N'Nam','paige66@example.net';
-EXEC insertPatient 'Nicole Vang','1963-08-29','244 Katelyn Burg, Port Ericaside','0131744483',N'Nữ','darryl29@example.org';
-EXEC insertPatient 'Nicole Moore','1985-04-08','2832 Gamble Street Suite 417, Pinedafort','0730356449',N'Nữ','bparks@example.org';
-EXEC insertPatient 'Alexis Fleming','1960-04-21','0603 Kristy Ferry, Joshuashire','0110103955',N'Nữ','xmartin@example.com';
-EXEC insertPatient 'Andrew Hill Jr.','1986-02-07','9697 Black Drive, Jonathanmouth','0192698550',N'Nam','awood@example.net';
-EXEC insertPatient 'Sarah Taylor','1982-11-18','760 Dana Forks, Port Victorton','0002874122',N'Nam','dustin22@example.org';
-EXEC insertPatient 'Nicholas Kelly','1961-04-30','341 Robert Curve Apt. 414, Hicksside','0087708241',N'Nam','john22@example.net';
-EXEC insertPatient 'Richard Gonzalez','1993-06-05','197 Steven Coves, North Arthurview','0594456552',N'Nữ','slucero@example.org';
-EXEC insertPatient 'Margaret Smith','1978-02-06','USCGC Wilson, FPO AE 19492','0053605650',N'Nữ','gsmith@example.net';
-EXEC insertPatient 'Valerie Stafford','2002-08-22','932 Monica Tunnel, Charlesville','0576947519',N'Nam','larry07@example.net';
-EXEC insertPatient 'David Hughes','2013-12-03','5767 Robinson Spurs, Wardborough','0491607677',N'Nữ','bwebb@example.org';
-EXEC insertPatient 'Mrs. Kelli Copeland','1997-12-09','4021 Amber Locks, Cesarland','0197547288',N'Nữ','corey33@example.com';
-EXEC insertPatient 'Annette Carter','1958-02-01','12856 Morrow Creek Suite 643, Barberport','0304360434',N'Nam','anne66@example.net';
-EXEC insertPatient 'Megan Gould','1958-09-02','PSC 1598, Box 2983, APO AE 91376','0183331188',N'Nữ','mark02@example.org';
-EXEC insertPatient 'Linda Smith','2006-09-27','930 Huber Ridge, Lake Kara','0302495992',N'Nữ','katie63@example.net';
-EXEC insertPatient 'Katrina Wagner','1973-02-19','87401 Lin Grove, Kathymouth','0225951896',N'Nam','ytucker@example.com';
-EXEC insertPatient 'Colleen Pearson','1992-05-07','430 Oscar Pass Suite 608, Port James','0815318238',N'Nữ','gpierce@example.com';
-EXEC insertPatient 'Elizabeth Hamilton','1982-08-09','901 Lin Stravenue Apt. 605, Jesseland','0286480527',N'Nữ','vholland@example.net';
-EXEC insertPatient 'Patrick Massey','1961-05-14','334 Calhoun Meadow Apt. 255, Port Joyce','0656782614',N'Nữ','cmorris@example.org';
-EXEC insertPatient 'Heather Contreras','1998-11-09','486 Walls Bridge Suite 986, Codybury','0346994330',N'Nữ','nheath@example.net';
-EXEC insertPatient 'Dana Leonard','1994-11-26','320 Bailey Viaduct Apt. 503, Marytown','0919004333',N'Nam','csweeney@example.org';
-EXEC insertPatient 'Jill Stevenson','2013-02-09','8641 Christopher Pine, Hernandezburgh','0492950313',N'Nữ','leslie62@example.org';
-EXEC insertPatient 'Mary Steele','1965-04-02','383 Eric Vista, Danielmouth','0870977348',N'Nữ','tracey67@example.net';
-EXEC insertPatient 'Rachel Bailey','1976-01-01','7369 Powell Pass Suite 069, Toddborough','0359940681',N'Nam','ugarcia@example.net';
-EXEC insertPatient 'Amanda Young','1992-09-08','USNS Watkins, FPO AP 10839','0862527473',N'Nam','ibowers@example.org';
-EXEC insertPatient 'William Combs','1992-12-12','107 Stephenson Stream, South Nancy','0750825952',N'Nữ','dhartman@example.com';
-EXEC insertPatient 'Morgan Ramos','1985-03-28','2549 Murphy Mountain, Lake Kelly','0167857136',N'Nam','brian29@example.com';
-EXEC insertPatient 'Jeremy Williams','2014-05-01','521 Brian Crossing, Debraside','0147504288',N'Nam','andrea73@example.org';
-EXEC insertPatient 'Cameron Davis','2010-07-04','562 Joseph Islands, Melanieside','0459167979',N'Nữ','steven54@example.net';
-EXEC insertPatient 'Grace Snow','1979-12-17','391 Aaron Park, Sheilastad','0372116768',N'Nữ','wyoung@example.net';
-EXEC insertPatient 'Dr. Meghan Hampton','1984-12-19','9729 Daniel Shoals, Colemouth','0013443622',N'Nam','heidi56@example.com';
-EXEC insertPatient 'Andre Mcdonald','2014-08-20','763 Thomas Fords Apt. 423, Grahammouth','0088922873',N'Nam','wbradley@example.org';
-EXEC insertPatient 'Joshua Johnson','1967-03-11','26961 West Underpass, Salazarburgh','0379605592',N'Nữ','jared49@example.net';
-EXEC insertPatient 'Christopher Dawson','1989-12-16','987 Erica Haven Suite 250, Kevinshire','0006391584',N'Nữ','nancy22@example.net';
-EXEC insertPatient 'David Goodwin','1985-06-10','74591 Christopher Corner, Gonzalesview','0505257966',N'Nam','jstewart@example.com';
-EXEC insertPatient 'Kimberly Rhodes','2016-06-17','08012 Taylor Spring Apt. 359, Clarkport','0762650465',N'Nam','wmartin@example.net';
-EXEC insertPatient 'Mario Williams','1981-10-30','USNS Johnson, FPO AP 77919','0216164827',N'Nam','gina46@example.net';
-EXEC insertPatient 'Jeffrey Novak','1974-11-20','79711 Flores Parkway, Smithstad','0729740736',N'Nam','wesley92@example.net';
-EXEC insertPatient 'Victoria Smith','2000-02-04','935 Johnson Branch Apt. 284, Jacobshire','0067802426',N'Nữ','tdavis@example.org';
-EXEC insertPatient 'Dorothy Martinez','2017-10-16','643 Brandon Inlet, Rileyland','0358761498',N'Nam','joshua81@example.net';
-EXEC insertPatient 'Micheal Ochoa','1968-02-24','026 Albert Port, West Lindsayshire','0026480560',N'Nam','ygray@example.com';
-EXEC insertPatient 'Jacqueline Taylor','2005-05-12','211 Charles Court, North Jameston','0864828925',N'Nữ','khall@example.org';
-EXEC insertPatient 'Stephanie Nichols','1959-02-02','734 Moore Shoals, Heatherfurt','0885995442',N'Nam','qdavis@example.com';
-EXEC insertPatient 'Andrea Fox','2001-06-17','96448 William Prairie, South Rachelmouth','0145861563',N'Nam','qmendez@example.net';
-EXEC insertPatient 'Dr. Jessica Sanchez MD','1996-04-09','Unit 9872 Box 6199, DPO AE 15387','0539610037',N'Nữ','pamela04@example.com';
-EXEC insertPatient 'Carrie Owen','1980-12-07','60271 Monica Knolls Apt. 939, Josephview','0392092257',N'Nam','robin82@example.net';
-EXEC insertPatient 'Kristin Juarez','2014-12-17','9007 Kim Mall Apt. 650, Adamburgh','0039691953',N'Nữ','grant74@example.com';
-EXEC insertPatient 'Joseph Williams','1993-11-07','602 Jennifer Oval, Castilloview','0195148562',N'Nam','eric56@example.org';
-EXEC insertPatient 'Anthony Lewis','1965-07-03','25291 Cheyenne Road, South Stephanie','0286471412',N'Nữ','yjackson@example.org';
-EXEC insertPatient 'Jamie Mercer','1996-12-18','79377 Dorothy Cliff, West Fernando','0064792031',N'Nam','bhorn@example.net';
-EXEC insertPatient 'Stacy Glover','1970-05-07','247 Rogers Circles, Wardmouth','0715958117',N'Nam','rcasey@example.net';
-EXEC insertPatient 'Robert Diaz','1964-04-08','658 Julie Cape, Port Jesus','0997596467',N'Nữ','cmurphy@example.com';
-EXEC insertPatient 'Daniel Long','2014-09-14','4613 Gilbert Neck, New Heatherfort','0869915398',N'Nữ','dcollins@example.org';
-EXEC insertPatient 'Sara Perkins','1959-09-08','42527 Cynthia Stream, North Nancyland','0592546553',N'Nữ','udavis@example.com';
-EXEC insertPatient 'Patrick Long','2008-08-07','6991 Jacqueline Run, Davenportview','0182339854',N'Nam','agarcia@example.net';
-EXEC insertPatient 'Brad Phillips','1988-02-19','2967 White Tunnel, New Sarah','0400510883',N'Nữ','emily77@example.org';
-EXEC insertPatient 'Cindy Hogan','1980-08-18','303 James Mission Suite 828, Dakotaland','0567724611',N'Nam','cheryl30@example.com';
-EXEC insertPatient 'Leonard Walker','1980-03-06','Unit 5791 Box 2229, DPO AE 94967','0272877544',N'Nam','fnelson@example.com';
-EXEC insertPatient 'Linda Butler','1980-02-26','Unit 2881 Box 6186, DPO AP 65708','0789554835',N'Nam','zklein@example.org';
-EXEC insertPatient 'Andrea Johnson','1962-05-20','7238 Henderson Wall Apt. 448, Lyonsbury','0858616616',N'Nữ','amyhayes@example.net';
-EXEC insertPatient 'James Burns','1964-05-27','6368 Fischer Port, Port Joshua','0561426584',N'Nữ','john57@example.org';
-EXEC insertPatient 'Jordan Crawford','1958-11-28','12146 Porter Trail, Castanedaland','0297379848',N'Nữ','haley94@example.org';
-EXEC insertPatient 'Ryan Bailey','1977-12-28','031 Brown Courts, Dustinburgh','0201159180',N'Nữ','johnny72@example.com';
-EXEC insertPatient 'Michele Wiggins','1987-03-19','93805 Davenport Manor, Jeffreyland','0390272850',N'Nam','jordan97@example.net';
-EXEC insertPatient 'Brian Simmons','2013-01-05','64823 Michael Walk, Josephville','0395815415',N'Nữ','holly81@example.com';
-EXEC insertPatient 'Courtney Greene','2003-10-10','933 Adam Inlet Suite 045, Hudsonhaven','0809136631',N'Nam','keith56@example.org';
-EXEC insertPatient 'Terri Castillo','2010-01-29','95359 Taylor Walks, East Paulbury','0021118996',N'Nam','choffman@example.org';
-EXEC insertPatient 'Nathan Marshall','2011-05-22','0682 Lee Run, Barnettville','0675576999',N'Nữ','vjensen@example.net';
-EXEC insertPatient 'Michele Nelson','1994-02-17','895 Kelli Mill Apt. 982, South Amy','0957885259',N'Nam','nbooth@example.net';
-EXEC insertPatient 'Amanda Andrews','2017-08-19','Unit 5521 Box 9773, DPO AA 39930','0596001720',N'Nam','martha68@example.com';
-EXEC insertPatient 'Christopher Klein','2010-09-21','9804 Michael Groves, North Angelahaven','0732557408',N'Nam','abradley@example.org';
-EXEC insertPatient 'Matthew Moore','1965-05-19','12086 Thomas Crescent, West Adrian','0346573939',N'Nam','daniel85@example.net';
-EXEC insertPatient 'Christina Castro','1998-07-04','412 Angie Plaza Apt. 412, South Jay','0850541345',N'Nữ','rsanders@example.com';
-EXEC insertPatient 'Michael Moon','2005-12-20','8328 Gary Crescent, Kingfurt','0139436624',N'Nữ','ghunter@example.org';
-EXEC insertPatient 'Daniel Olsen','1992-09-08','646 Elliott Harbors, Timothyport','0077026535',N'Nam','john93@example.org';
-EXEC insertPatient 'Isaac Wagner','1959-10-20','47494 Howard Heights, East Shannon','0271213846',N'Nam','gward@example.net';
-EXEC insertPatient 'Jeremy Grimes','1964-01-26','044 Amy Trafficway Suite 264, Bishopberg','0623209916',N'Nam','psingh@example.com';
-EXEC insertPatient 'Austin Roberts','2003-03-29','321 Susan Via Apt. 728, North Jimmyside','0273090844',N'Nam','imartin@example.com';
-EXEC insertPatient 'Richard Washington','1992-09-08','386 Lisa Plaza, Andersonside','0312640639',N'Nam','amathews@example.net';
-EXEC insertPatient 'Jacob Jacobs','2006-12-18','8915 Roberts Bridge, Robinsonmouth','0211312855',N'Nữ','nhill@example.net';
-EXEC insertPatient 'Melissa Daniels','2003-02-27','271 Kaiser Freeway, Port Sarahbury','0483979732',N'Nữ','nlee@example.com';
-EXEC insertPatient 'Leslie Casey','1970-04-16','9564 Patrick Lane, Rossbury','0836592861',N'Nam','zhopkins@example.org';
-EXEC insertPatient 'Christine Sharp','1972-10-19','04933 Smith Trail, Vaughanburgh','0202797673',N'Nam','whampton@example.org';
-EXEC insertPatient 'Tammy Reilly','1982-06-04','49131 Smith Curve, Shannonton','0125671392',N'Nữ','whensley@example.net';
-EXEC insertPatient 'Michele Phillips','1979-12-10','5175 Jenna Extensions, Lake Debra','0579652129',N'Nam','imorgan@example.com';
-EXEC insertPatient 'Bailey Kelly','2014-04-29','36784 Brian Well Apt. 916, East Sandra','0429764972',N'Nữ','cbrown@example.com';
-EXEC insertPatient 'Victoria Rivera','1959-07-16','38640 Lauren Roads, Ethanmouth','0668801477',N'Nữ','tmedina@example.com';
-EXEC insertPatient 'Valerie Hill','2000-11-29','567 Rachel Villages Apt. 902, Perezshire','0880294239',N'Nam','kendra31@example.org';
-EXEC insertPatient 'Nancy Sandoval','2009-05-12','441 Elaine Skyway Suite 994, Angiemouth','0525613895',N'Nữ','aburns@example.net';
-EXEC insertPatient 'Barry Larsen','1984-08-28','1558 Powell Street, Lauraside','0948485380',N'Nữ','mperez@example.com';
-EXEC insertPatient 'Kim Cherry','1970-08-15','5064 Burton Circles, Walterfurt','0476556429',N'Nữ','gday@example.com';
-EXEC insertPatient 'David Wilcox','1972-11-11','2060 Pamela Rest, North Shawn','0417526438',N'Nữ','bbarron@example.org';
-EXEC insertPatient 'John Higgins','1966-01-22','529 Becky Ways, Willisshire','0149721311',N'Nữ','joseph73@example.com';
-EXEC insertPatient 'Richard Meyer','2007-04-17','USS Henry, FPO AE 13051','0496538717',N'Nam','lisa65@example.org';
-EXEC insertPatient 'John Norman','1964-01-15','PSC 4775, Box 0795, APO AP 47700','0142863673',N'Nam','joshua53@example.net';
-EXEC insertPatient 'Karen Hogan','1974-08-20','7081 Dixon Plaza, Woodton','0462742019',N'Nam','lkoch@example.com';
-EXEC insertPatient 'David Allen','2014-02-01','46284 Wilson Coves, South Hayleyburgh','0103260535',N'Nữ','olee@example.com';
-EXEC insertPatient 'Dana Davis','1975-07-17','46894 Ward Union, Melissamouth','0160819239',N'Nữ','efox@example.com';
-EXEC insertPatient 'Christina Wright','1987-12-02','782 Kenneth Drives, Hensonburgh','0783979130',N'Nam','ygibson@example.com';
-EXEC insertPatient 'Debra Moore','1999-11-06','66630 Tamara Place, Millerhaven','0318539864',N'Nữ','boonejoe@example.org';
-EXEC insertPatient 'Eric Bailey','1966-10-27','790 Nicole Stream, Alanfort','0675611094',N'Nữ','cainjohn@example.org';
-EXEC insertPatient 'Christopher Russell','1984-06-19','40362 Lopez Point Apt. 044, Brianfort','0637353708',N'Nữ','nsmith@example.net';
-EXEC insertPatient 'Rebecca Bennett','1980-12-05','830 Garcia Pass, South Anita','0038367092',N'Nữ','ffields@example.org';
-EXEC insertPatient 'Brianna Blevins','2012-11-18','723 Vasquez Islands, North Jeffrey','0484282627',N'Nam','mlarsen@example.org';
-EXEC insertPatient 'Zachary Allen','1966-05-28','30426 Michele Crossing, North Daisy','0788035683',N'Nam','clutz@example.com';
-EXEC insertPatient 'Diane Odom','1969-04-13','USS Nelson, FPO AA 06205','0699988279',N'Nữ','chad18@example.org';
-EXEC insertPatient 'Laura Davis','1999-09-19','40060 Santos Views Suite 948, Munozmouth','0109668398',N'Nam','laurie02@example.com';
-EXEC insertPatient 'Scott Rosales','1970-09-07','81485 Reed Ports, Suttonton','0190537995',N'Nam','david59@example.org';
-EXEC insertPatient 'William Carr','1988-02-19','3955 Smith Mountain, East Zacharyburgh','0030292648',N'Nữ','leslie28@example.net';
-EXEC insertPatient 'Julia Boyer','2014-01-08','98196 Bradley Parks Suite 821, Tommytown','0683219263',N'Nữ','lhall@example.net';
-EXEC insertPatient 'Noah Wilson','2002-09-07','6869 Melissa Prairie, Michaelton','0029162216',N'Nam','owood@example.com';
-EXEC insertPatient 'Stacey Jones','2005-06-05','218 Webster Crossing, Cathymouth','0772450745',N'Nữ','zcoleman@example.com';
-EXEC insertPatient 'Tamara Richardson','1997-05-26','592 Holly Point, Port Michellestad','0485281994',N'Nữ','paul93@example.net';
-EXEC insertPatient 'Joshua Holder','2010-11-17','278 Mary Lodge, Port Williamside','0586897615',N'Nam','vroberts@example.net';
-EXEC insertPatient 'Sarah Adkins','1988-02-21','Unit 0236 Box 1318, DPO AP 32066','0702206018',N'Nữ','mark20@example.com';
-EXEC insertPatient 'Christie Martin','1965-10-10','634 Jackson Junction, East Latasha','0209153747',N'Nữ','fhines@example.org';
-EXEC insertPatient 'Mrs. Mary Dorsey','1980-05-18','415 Craig Key, Cervanteschester','0752235158',N'Nữ','psherman@example.org';
-EXEC insertPatient 'Patricia Solis','1993-07-21','3370 Ivan Lodge, Kimside','0988810329',N'Nữ','hlarson@example.org';
-EXEC insertPatient 'Anna Gonzalez','2017-03-24','97247 Price Fall Suite 532, Jefferytown','0937079858',N'Nữ','kelly67@example.org';
-EXEC insertPatient 'Jeanette Dixon','1980-10-21','3808 Keith Ford Suite 095, Jenningsland','0647648555',N'Nam','odouglas@example.com';
-EXEC insertPatient 'Justin Valenzuela','1990-07-07','6101 Angela Villages, North Debraside','0327170859',N'Nam','npalmer@example.com';
-EXEC insertPatient 'Larry Myers','1998-02-05','210 Howard Highway Apt. 882, Smithport','0325692725',N'Nữ','padams@example.com';
-EXEC insertPatient 'Lori Walker','1972-05-13','334 Boone River, Sullivanmouth','0478323372',N'Nam','uhart@example.org';
-EXEC insertPatient 'Christopher Butler','1964-11-24','USNV Cabrera, FPO AA 56967','0215249241',N'Nam','ywall@example.org';
-EXEC insertPatient 'Robert Parker','1970-10-30','USNS Johnson, FPO AP 79540','0450810464',N'Nữ','peter70@example.org';
-EXEC insertPatient 'David Garrett','2004-05-01','083 Simmons Forges, Jonathanbury','0694015650',N'Nữ','xholmes@example.net';
-EXEC insertPatient 'Andrea Campbell','1971-07-02','40479 James Circle, New Timothyfort','0256110966',N'Nam','kathy79@example.com';
-EXEC insertPatient 'Sarah Graves','1979-09-09','5076 Amanda Prairie, Brianshire','0316538997',N'Nam','robert72@example.net';
-EXEC insertPatient 'Luis Fuller','2011-05-29','040 Felicia Garden, South Nicole','0561399714',N'Nam','lauren21@example.net';
-EXEC insertPatient 'Marissa Booker','1969-02-11','23622 Webb Walk Suite 392, Adamsbury','0813489657',N'Nữ','crogers@example.net';
-EXEC insertPatient 'Kenneth Brown','1998-11-01','5981 Hayes Pike Suite 942, Carterbury','0983521501',N'Nữ','mrose@example.org';
-EXEC insertPatient 'William Fisher','1963-08-29','158 Marie Light, Isabelburgh','0778708299',N'Nữ','yboone@example.org';
-EXEC insertPatient 'Steven Eaton','1999-11-08','51692 Joshua Drive Suite 519, Angieberg','0711445058',N'Nữ','qsmith@example.com';
-EXEC insertPatient 'Bailey Gregory','1959-03-22','46851 Kara Lodge, East Laurenville','0654936272',N'Nữ','eileen59@example.com';
-EXEC insertPatient 'Louis Ross','2003-10-24','Unit 6676 Box 8363, DPO AA 71448','0175307947',N'Nam','david34@example.org';
-EXEC insertPatient 'Joshua Turner','1976-09-01','807 Newman Glens, Sandersview','0022381850',N'Nữ','sheri05@example.org';
-EXEC insertPatient 'Cory Bird','2008-08-20','18872 Nancy Orchard, Debbiechester','0017967655',N'Nữ','ugreen@example.com';
-EXEC insertPatient 'John Henderson','2008-03-03','6529 Kevin Port Apt. 054, Stephenport','0975586276',N'Nam','maria63@example.com';
-EXEC insertPatient 'Tanya Huff','1961-11-04','9403 Justin Island, Markton','0577032109',N'Nữ','wayne63@example.org';
-EXEC insertPatient 'Jose Porter','1985-07-14','9511 Ashley Lake Suite 344, Williamberg','0620850954',N'Nam','autumn60@example.net';
-EXEC insertPatient 'Melissa Shelton','1993-01-29','881 Santana Spurs Apt. 338, New Dawn','0741739092',N'Nam','tmartin@example.com';
-EXEC insertPatient 'Angela Fernandez','1965-09-15','59721 Theodore Square, Sabrinabury','0708590773',N'Nữ','kevin58@example.net';
-EXEC insertPatient 'Andrew Payne','1983-04-22','334 Carla Radial, East Tylerfurt','0016907218',N'Nữ','justin56@example.org';
-EXEC insertPatient 'Juan Huff','1989-09-13','51904 King Unions, West Scottton','0748821572',N'Nữ','keith94@example.org';
-EXEC insertPatient 'Anthony Estes','1973-12-05','80785 Hernandez Roads, Lake John','0721876566',N'Nữ','qwade@example.org';
-EXEC insertPatient 'Cory Morales','1977-05-21','9788 Margaret Summit, East Adam','0239651772',N'Nữ','omoore@example.org';
-EXEC insertPatient 'Gregory White','2015-09-25','Unit 0793 Box 5888, DPO AP 20842','0384106821',N'Nữ','rsalas@example.net';
-EXEC insertPatient 'Rick Vasquez','1999-01-27','58644 Wendy Ridge Suite 010, Traceyfurt','0912259719',N'Nam','adamsana@example.org';
-EXEC insertPatient 'Ashley Hanson','1994-08-08','Unit 5431 Box 1107, DPO AP 70247','0000363597',N'Nam','vryan@example.net';
-EXEC insertPatient 'Michael Yu','1977-07-12','841 Erika Mill, Richardhaven','0827365645',N'Nam','mark36@example.com';
-EXEC insertPatient 'Matthew Baker','1965-09-04','Unit 2888 Box 2321, DPO AP 25311','0900832376',N'Nữ','renee01@example.com';
-EXEC insertPatient 'Jennifer Mcintosh','1995-05-03','Unit 2059 Box 0690, DPO AE 15389','0756613979',N'Nữ','ymoyer@example.org';
-EXEC insertPatient 'Joshua Scott','2010-05-24','514 Kari Valleys, Johnsonmouth','0212659526',N'Nam','mschmidt@example.net';
-EXEC insertPatient 'Nicole Alvarado','2002-07-12','959 Amber Road Apt. 109, New David','0993178333',N'Nam','upruitt@example.org';
-EXEC insertPatient 'Sabrina Lee','2003-07-20','360 Misty Meadow Apt. 702, Wardbury','0728901956',N'Nam','kelsey25@example.com';
-EXEC insertPatient 'Monica Williams','1970-06-27','9177 Morris Garden, North Gabriellemouth','0174451827',N'Nam','elara@example.net';
-EXEC insertPatient 'Margaret Thompson MD','1990-04-29','8981 David Vista Suite 710, West Nicole','0273326006',N'Nam','thomas83@example.org';
-EXEC insertPatient 'Frederick Hutchinson','2010-03-25','5642 Amy Mall Apt. 406, East Shannonport','0255686416',N'Nam','zfox@example.net';
-EXEC insertPatient 'Ricardo Johnson','1970-11-20','66960 Russell Pine, Wilsonmouth','0019411278',N'Nam','erica09@example.com';
-EXEC insertPatient 'Tracey Bradley','1999-09-10','6911 Mark Cliffs Suite 498, West Luis','0922991976',N'Nữ','linda00@example.com';
-EXEC insertPatient 'Karen Cohen','2015-03-03','054 Susan Bridge, Williamville','0274727500',N'Nam','khanson@example.net';
-EXEC insertPatient 'Stanley Johnson','1978-02-06','8947 Baker Turnpike, Port Donnaborough','0326264085',N'Nữ','ahall@example.org';
-EXEC insertPatient 'Edwin Pratt','1995-08-11','44375 Lopez Path, Christophershire','0449695897',N'Nữ','yumegan@example.net';
-EXEC insertPatient 'Michelle Crawford','2004-06-15','7944 Derek Knoll, Jeffland','0163455179',N'Nữ','vmanning@example.com';
-EXEC insertPatient 'Abigail Cannon','1980-09-07','1629 Chen Ridges, Lake Jonathan','0819927655',N'Nữ','qsampson@example.com';
-EXEC insertPatient 'Ebony Ruiz','1979-06-14','7385 Williams Locks, West Anthony','0876284299',N'Nữ','fjacobs@example.org';
-EXEC insertPatient 'Jeffrey Briggs','1988-02-10','184 Terry Mall Apt. 593, Lawsonton','0162388712',N'Nữ','alexis18@example.net';
-EXEC insertPatient 'Ashley Peterson','2015-04-14','1290 Mary Parkways, Timothyland','0969577069',N'Nam','john09@example.org';
-EXEC insertPatient 'Samuel Smith','2010-12-26','PSC 1835, Box 3504, APO AA 56804','0771060396',N'Nam','dbranch@example.net';
-EXEC insertPatient 'Jodi Holland','1972-03-25','22418 Rhodes Run Suite 767, New Heather','0616365698',N'Nam','andrea62@example.com';
-EXEC insertPatient 'Taylor Rodriguez','2007-02-17','32885 Jonathan Alley, Amandabury','0978595180',N'Nữ','mary56@example.org';
-EXEC insertPatient 'Amy Adams','1995-08-09','84632 Angela Mount, Lake Megan','0696349893',N'Nữ','ymoreno@example.com';
-EXEC insertPatient 'Ashley Anderson','1992-02-25','63299 Haley Trace Apt. 616, Butlerfort','0787261580',N'Nam','zlevine@example.net';
-EXEC insertPatient 'Susan Schaefer','1967-02-07','93807 Bryant Ways Suite 438, Willisstad','0141731231',N'Nam','eric17@example.com';
-EXEC insertPatient 'Manuel Andrade','1990-06-28','351 Haney Brook, South Jeannetown','0619247776',N'Nữ','mgarcia@example.net';
-EXEC insertPatient 'Stephen Daniel','1981-08-18','3858 Nicholas Heights, New Kendraburgh','0758642036',N'Nam','kyle08@example.com';
-EXEC insertPatient 'Guy Torres','1977-12-02','77950 Beth Estate Suite 676, Ryantown','0780014599',N'Nữ','debra21@example.net';
-EXEC insertPatient 'Luis Todd','1983-08-09','00039 Amber Vista Apt. 873, Ramirezfort','0133890762',N'Nam','sarah18@example.org';
-EXEC insertPatient 'Margaret Macias','1998-11-29','20012 Steven Via, Howeton','0582816533',N'Nam','afrancis@example.net';
-EXEC insertPatient 'Jesse Perry','2012-01-12','35010 Flynn Stream Suite 220, Becktown','0838667023',N'Nữ','gary97@example.org';
-EXEC insertPatient 'Christine Mitchell','2008-05-18','PSC 8486, Box 4751, APO AE 19756','0806937594',N'Nam','wcherry@example.net';
-EXEC insertPatient 'Jamie Carter','2012-04-26','77508 Taylor Fort Apt. 215, Natashabury','0505558935',N'Nữ','gthomas@example.org';
-EXEC insertPatient 'Jennifer Scott','1991-08-26','0071 Jessica Port, North Kirk','0335651465',N'Nam','gfoster@example.com';
-EXEC insertPatient 'Kyle Harris','1999-12-05','Unit 3398 Box 6675, DPO AP 61453','0318310028',N'Nữ','tbell@example.net';
-EXEC insertPatient 'Christopher Reyes','2010-06-17','543 Elizabeth Creek, Christinatown','0544481937',N'Nữ','lgarcia@example.com';
-EXEC insertPatient 'Daryl Blackwell','1995-05-31','5955 Campos Locks, North James','0999958191',N'Nữ','mary10@example.net';
-EXEC insertPatient 'Erica Williams','1979-05-31','4896 Parker Ranch, Andrewborough','0827498162',N'Nữ','jason07@example.net';
-EXEC insertPatient 'Douglas Miranda','1995-08-15','USNS Johnson, FPO AP 00915','0949960922',N'Nữ','ojohns@example.com';
-EXEC insertPatient 'Michael Schmitt','2007-04-08','1707 Ethan Corners Suite 490, Lake Henry','0071804161',N'Nữ','bchavez@example.net';
-EXEC insertPatient 'Angela Phillips','1968-05-29','786 Jared Walk, South Rachelside','0864136600',N'Nữ','jared03@example.net';
-EXEC insertPatient 'George Quinn','1963-04-07','1774 Haas Locks, East Albertshire','0527577698',N'Nam','jbrooks@example.org';
-EXEC insertPatient 'Claire Martinez','2005-07-19','6967 Tran Vista Apt. 976, East Anthony','0134039130',N'Nữ','gjones@example.com';
-EXEC insertPatient 'Jacob Parker','1980-06-06','1395 Michelle Stream, Rodriguezville','0642717726',N'Nam','iosborne@example.com';
-EXEC insertPatient 'Kevin Kelley','1998-08-01','PSC 4303, Box 3201, APO AA 34232','0380590841',N'Nam','kdennis@example.net';
-EXEC insertPatient 'Cassandra Rubio','1982-07-07','2775 White Village, North Michael','0540314049',N'Nam','thomas16@example.com';
-EXEC insertPatient 'Patrick Bolton','1985-03-19','5764 Bradley Flats, East Kristenville','0571161188',N'Nam','max95@example.org';
-EXEC insertPatient 'Joshua Cummings MD','1963-03-15','1799 Sabrina Neck Suite 871, Port Brandi','0502868315',N'Nam','mark55@example.com';
-EXEC insertPatient 'Angela Choi','2007-03-21','02166 Cisneros Plains, East Beth','0781302386',N'Nam','maria85@example.org';
-EXEC insertPatient 'Joshua Taylor','1978-05-16','141 Watkins Shoal, Reyesshire','0541692481',N'Nam','omar16@example.com';
-EXEC insertPatient 'Melinda Johnson MD','2010-07-16','78216 Sarah Village, Kaylahaven','0909787728',N'Nữ','upeters@example.net';
-EXEC insertPatient 'Randy Mason','2007-01-30','0424 Peters Crescent, Ramirezside','0999701588',N'Nữ','fbishop@example.net';
-EXEC insertPatient 'Brian Gregory','1992-07-06','4054 George Union, Brownstad','0819961537',N'Nữ','udunn@example.com';
-EXEC insertPatient 'Stephanie Benjamin','2012-09-18','54175 Mitchell Shoals, East Sarahmouth','0706648960',N'Nam','dbrennan@example.net';
-EXEC insertPatient 'Alyssa King','1997-08-14','182 Christopher Brooks, Annaville','0181506270',N'Nữ','qhughes@example.com';
-EXEC insertPatient 'Amber Watkins DDS','1968-12-11','577 Gary Vista Suite 194, Jonesstad','0196209987',N'Nam','ralvarez@example.com';
-EXEC insertPatient 'Jennifer Manning','2003-07-25','594 Jeffery Manor, Lake Michaelview','0056851492',N'Nữ','jrowe@example.org';
-EXEC insertPatient 'Nathan Moore','1969-04-25','136 Evans Street, Lake Miguel','0819631064',N'Nữ','aaron49@example.com';
-EXEC insertPatient 'Carlos Baker','1983-06-21','005 Cynthia Island, Lake Kristinside','0147449364',N'Nam','ryan33@example.net';
-EXEC insertPatient 'Mark Jordan','1984-11-08','Unit 5567 Box 6226, DPO AE 83457','0489332977',N'Nữ','frank93@example.org';
-EXEC insertPatient 'Diane Smith','1976-02-24','497 Villa Forge Apt. 255, West Alan','0460250468',N'Nam','hmiller@example.org';
-EXEC insertPatient 'Joshua Phillips','1983-10-04','PSC 1985, Box 3556, APO AP 44774','0682061748',N'Nữ','derek51@example.net';
-EXEC insertPatient 'Joann Jones','1992-12-22','97066 Meghan Highway, Lake Jerrychester','0212241717',N'Nữ','pjohnson@example.com';
-EXEC insertPatient 'Kimberly Martinez','1996-05-29','79167 Landry Squares, North Karaville','0416003003',N'Nữ','lolsen@example.com';
-EXEC insertPatient 'Joshua Wolfe','1997-07-22','482 Sylvia Flats, North Brenda','0132942396',N'Nữ','vharris@example.org';
-EXEC insertPatient 'Kristin Thomas','1978-09-08','039 Marc Skyway, Kellyside','0174037236',N'Nữ','llopez@example.org';
-EXEC insertPatient 'Kelly Holt','2006-12-04','2845 Bailey Park Apt. 351, Davidfort','0386630856',N'Nữ','walter13@example.com';
-EXEC insertPatient 'Peter Allen','1975-07-02','13058 Strong Court, Danielstad','0340399061',N'Nữ','todd94@example.org';
-EXEC insertPatient 'Isaac Marks','1963-12-13','0879 Karen Groves Suite 076, South Scott','0939879138',N'Nữ','hannah08@example.com';
-EXEC insertPatient 'Tracey Pacheco','1995-12-25','PSC 8758, Box 9668, APO AP 50135','0558866779',N'Nữ','kgraves@example.org';
-EXEC insertPatient 'Christopher Alvarez','1985-03-30','22592 Marcus Loaf, Lindaberg','0319758631',N'Nam','sdean@example.net';
-EXEC insertPatient 'Jessica Jones','1983-05-23','5829 Jared Road Suite 431, East Mary','0871757850',N'Nữ','james16@example.net';
-EXEC insertPatient 'Heather Cervantes','1958-04-15','441 Mary Plain, Lake Troyshire','0141450768',N'Nam','taylor18@example.net';
-EXEC insertPatient 'Tiffany Smith','2013-06-11','854 Christie Circles, Fosterburgh','0650476700',N'Nữ','xruiz@example.net';
-EXEC insertPatient 'Brandon Hunt','1971-02-08','615 Pope Flat, Julieberg','0597605036',N'Nam','amber91@example.net';
-EXEC insertPatient 'William Morrison','1970-06-30','USNS Brandt, FPO AE 93875','0778960581',N'Nữ','abrown@example.net';
-EXEC insertPatient 'Richard Rivera','1960-11-21','0593 Davis Squares Apt. 578, West Jeremy','0230239548',N'Nam','phowell@example.com';
-EXEC insertPatient 'Thomas Ball','1974-08-31','73350 Allen Estates, East Matthew','0272049049',N'Nam','nstewart@example.org';
-EXEC insertPatient 'Cory Brown','1981-01-23','204 Joseph Heights Suite 646, Tylerville','0836624421',N'Nữ','kellie55@example.com';
-EXEC insertPatient 'Natasha Brooks','1962-09-18','142 Kevin Bridge, West Sara','0968915811',N'Nam','zfrost@example.net';
-EXEC insertPatient 'Shannon Hancock','1972-01-15','1556 Stewart Spurs, New Alicia','0803599264',N'Nữ','rvance@example.org';
-EXEC insertPatient 'Charles Parker','1986-07-18','USNV Rios, FPO AA 66100','0867524934',N'Nữ','brian93@example.org';
-EXEC insertPatient 'Robin Malone','1987-06-06','82563 Turner Knoll, East Glennmouth','0443955133',N'Nam','dcooley@example.net';
-EXEC insertPatient 'Andrew Collins','1963-07-17','79506 Owens Park, Brownside','0963040151',N'Nam','carly47@example.net';
-EXEC insertPatient 'Anthony Spencer','1962-11-20','7825 Emily Junction Suite 093, New Haley','0623044828',N'Nữ','ray98@example.com';
-EXEC insertPatient 'Kevin Sanchez','1993-10-30','71856 Rachel Square, Mollystad','0789147069',N'Nam','pamela90@example.org';
-EXEC insertPatient 'Jordan Hansen','1989-05-04','9285 Young Square, Frostmouth','0123544274',N'Nam','cmercer@example.org';
-EXEC insertPatient 'Kevin Jones','2005-05-16','PSC 0647, Box 3200, APO AP 28846','0267691482',N'Nữ','fmurray@example.org';
-EXEC insertPatient 'Tara Sherman','1984-04-22','8700 Bonilla Fords, Reyesberg','0839148355',N'Nữ','nsalazar@example.net';
-EXEC insertPatient 'Christopher Rodriguez','2001-03-04','51293 Johnson Corner, Carolynland','0375610133',N'Nam','bavery@example.org';
-EXEC insertPatient 'Nicholas Flores','1974-03-15','28979 Morgan Trafficway, North Arthur','0922887561',N'Nữ','uchen@example.com';
-EXEC insertPatient 'James Garcia','1981-07-06','2655 Cook Landing, Lewisburgh','0671659639',N'Nam','bvincent@example.com';
-EXEC insertPatient 'Samuel Tucker','1994-07-09','32869 Andrew Loop, North David','0213978865',N'Nữ','zfrost@example.org';
-EXEC insertPatient 'Anne Thomas','1963-08-14','8389 Michael Canyon, West Pamela','0426342519',N'Nữ','iallen@example.org';
-EXEC insertPatient 'Sarah Griffin','1999-10-18','45759 Walker Ports, South Bradleyland','0513960483',N'Nam','kallen@example.net';
-EXEC insertPatient 'Matthew Ramirez','1999-01-10','421 Gina Track, East Michelestad','0335556291',N'Nữ','wruiz@example.org';
-EXEC insertPatient 'Jason Sheppard','1982-09-28','USCGC Page, FPO AP 12959','0532743355',N'Nam','ysmith@example.org';
-EXEC insertPatient 'Andrew Burns','2008-07-16','05035 Dennis Estates, New Kevin','0632597152',N'Nữ','frank96@example.org';
-EXEC insertPatient 'James Gallagher','1988-11-13','37306 Jones Radial Apt. 768, Josephbury','0312408973',N'Nam','zhunter@example.com';
-EXEC insertPatient 'Nancy Padilla','1981-09-21','052 Simmons Harbors, North Kaitlynburgh','0297105129',N'Nam','erin35@example.net';
-EXEC insertPatient 'Matthew Adams','2001-03-20','9549 Sanchez Brooks, East Jodiside','0730724458',N'Nữ','zsuarez@example.com';
-EXEC insertPatient 'Antonio Casey','1986-03-29','28279 Young Mountains, Port Cynthia','0404799228',N'Nam','wbyrd@example.net';
-EXEC insertPatient 'Meagan Estrada','1989-07-29','523 Evans Valley Apt. 068, Peckberg','0288582992',N'Nữ','atorres@example.com';
-EXEC insertPatient 'Donna Davis','1986-03-30','421 Richard Roads, West Jennifer','0359811991',N'Nam','vjones@example.net';
-EXEC insertPatient 'Ryan Jenkins','2012-07-21','58360 Michelle Drive, Burnsfort','0445570732',N'Nữ','kelly10@example.net';
-EXEC insertPatient 'Mr. Eric Lawrence','1987-07-17','558 Daniel Manor, Johnton','0723964052',N'Nam','dhughes@example.org';
-EXEC insertPatient 'Nicole Barnes','1965-12-21','87419 Laura Light, East Rhondaville','0431402420',N'Nữ','zwebster@example.org';
-EXEC insertPatient 'Patricia Wood','1995-05-27','9328 Walter Ridge, East Danielbury','0231983478',N'Nữ','fbailey@example.net';
-EXEC insertPatient 'Jeffrey Frey','1981-07-07','PSC 8776, Box 8752, APO AA 07288','0639967423',N'Nam','kjones@example.net';
-EXEC insertPatient 'Andrew Hodges','2012-10-06','924 Obrien Junction, East Debra','0628024128',N'Nam','fboyd@example.net';
-EXEC insertPatient 'Heather Burns PhD','1996-01-02','PSC 8593, Box 5820, APO AP 25030','0645084308',N'Nam','ryan36@example.net';
-EXEC insertPatient 'John Murphy','1973-08-03','76906 Figueroa Estates, Lake Nicholas','0086943169',N'Nữ','pramirez@example.net';
-EXEC insertPatient 'Dustin Baxter','1977-10-04','8666 John Heights Apt. 881, Taylortown','0465962308',N'Nữ','smiller@example.net';
-EXEC insertPatient 'Kenneth Kent','2011-04-14','459 John Rapids, Brewerstad','0580587341',N'Nam','cindy87@example.org';
-EXEC insertPatient 'Carlos Barber','2014-08-09','28630 Terrence Mountains, West Johnview','0794249303',N'Nữ','markcook@example.net';
-EXEC insertPatient 'Robert Diaz','1992-10-30','984 Woods Crescent, Ericchester','0491029675',N'Nam','eric52@example.org';
-EXEC insertPatient 'George Nguyen','1961-06-23','06898 Joy Village, Floresberg','0035844029',N'Nam','nmendoza@example.org';
-EXEC insertPatient 'Dr. Joshua Sheppard Jr.','1963-03-25','PSC 6891, Box 7276, APO AP 62923','0511077444',N'Nam','zbowen@example.net';
-EXEC insertPatient 'Benjamin Shields','1983-08-06','7071 Hall Meadow Apt. 303, Millerfort','0173629466',N'Nam','hbarton@example.com';
-EXEC insertPatient 'Russell Webster','1986-09-12','32445 Lawrence Mountains, Laurieville','0795317999',N'Nữ','fowen@example.com';
-EXEC insertPatient 'Kyle Chavez DDS','1994-05-01','2302 Adam Glen, East Sarahbury','0135441853',N'Nữ','scott61@example.org';
-EXEC insertPatient 'Steven Macias','2001-11-15','502 Tiffany Corner, New Mikeberg','0748755954',N'Nữ','joseph73@example.net';
-EXEC insertPatient 'William Adams','1995-11-08','664 Campbell Fork Suite 043, Wrightstad','0276278249',N'Nam','roynovak@example.net';
-EXEC insertPatient 'Shawn Weaver','2005-04-12','22294 Jeremy Extension, Valeriechester','0874234639',N'Nam','kristi17@example.com';
-EXEC insertPatient 'Suzanne Parker','1964-04-05','Unit 9744 Box 1443, DPO AP 73436','0725454797',N'Nam','bmartin@example.net';
-EXEC insertPatient 'Melissa Castillo','1998-06-21','38833 Anderson Roads, Morganborough','0940016078',N'Nam','dave63@example.org';
-EXEC insertPatient 'Clayton Beltran','1958-10-21','24350 Pope Drives Apt. 866, Hardyberg','0398360344',N'Nữ','tweber@example.net';
-EXEC insertPatient 'Jessica White','1981-05-30','02755 Parker Ridge, Emilymouth','0259437096',N'Nữ','kstanley@example.com';
-EXEC insertPatient 'Morgan Buckley','1994-02-07','346 James Place, West Jessicafort','0742983476',N'Nam','elaine30@example.org';
-EXEC insertPatient 'Crystal Bullock','2009-11-20','63453 Payne Bypass, Deborahtown','0814770509',N'Nam','fkennedy@example.com';
-EXEC insertPatient 'Maria Hernandez','1976-04-17','355 Casey Ports, Cookeberg','0288978935',N'Nam','prichard@example.net';
-EXEC insertPatient 'Jennifer Mckenzie','2012-08-16','134 Snyder Ferry Apt. 043, Port Jason','0217714565',N'Nam','shawkins@example.com';
-EXEC insertPatient 'Robert Taylor','1964-02-21','781 Harris Port, South Katrinaview','0246017944',N'Nam','hartjohn@example.net';
-EXEC insertPatient 'Kyle White','2013-12-13','USNV Flynn, FPO AA 69478','0153755692',N'Nữ','james26@example.com';
-EXEC insertPatient 'Richard Morrison','1960-05-13','416 Valentine Spur, Watsonton','0904478867',N'Nữ','hlamb@example.org';
-EXEC insertPatient 'Charles Archer','1972-12-12','7912 Theodore Circles, East Mary','0247264068',N'Nam','anne21@example.com';
-EXEC insertPatient 'Robert Valdez','1997-08-16','468 Jody Pine, South Jeffrey','0837337832',N'Nam','owells@example.org';
-EXEC insertPatient 'John Cummings','1999-03-27','PSC 2342, Box 8851, APO AE 10184','0224850422',N'Nữ','ashley59@example.org';
-EXEC insertPatient 'Kenneth Coleman','1996-01-22','4980 Amanda Ways, Reillyburgh','0832584397',N'Nam','sluna@example.com';
-EXEC insertPatient 'Candace Romero','2004-12-22','PSC 3014, Box 3184, APO AE 28957','0999632929',N'Nữ','xwebster@example.net';
-EXEC insertPatient 'Janet Clark','2014-06-12','2646 Austin Crossroad, Toddtown','0378438446',N'Nam','george73@example.com';
-EXEC insertPatient 'Melody Powell','1972-03-23','09082 Robert Brooks Apt. 304, South Eric','0602871702',N'Nữ','onelson@example.com';
-EXEC insertPatient 'Kristina Rios','1999-08-20','627 Michael Freeway, Robertton','0370603562',N'Nữ','juan37@example.net';
-EXEC insertPatient 'Debra Singleton','1996-04-15','351 Gregory Shore, Gardnerville','0831786580',N'Nam','dana62@example.net';
-EXEC insertPatient 'Tabitha Williams','2013-04-02','Unit 9647 Box 5692, DPO AA 42211','0818064676',N'Nam','ebird@example.net';
-EXEC insertPatient 'Christopher Thompson','2011-05-27','PSC 3082, Box 1096, APO AP 55570','0619576191',N'Nữ','alex19@example.com';
-EXEC insertPatient 'Tara Hutchinson','2002-09-15','11246 Davis Fork, West Raymond','0636157776',N'Nam','tkirby@example.org';
-EXEC insertPatient 'Shelly Booker','2005-10-02','2844 Lozano Coves Suite 867, Craigfurt','0774783073',N'Nữ','omendez@example.org';
-EXEC insertPatient 'Maria Shea','2008-11-16','42877 Marcus Ports, Garciachester','0978267058',N'Nữ','cmiller@example.net';
-EXEC insertPatient 'George Ramirez','2007-05-27','14059 Cisneros Mews, East Cynthia','0909290790',N'Nam','david09@example.org';
-EXEC insertPatient 'Kristin Madden','2005-08-12','158 Lee Island Suite 759, Carolside','0983625393',N'Nữ','rcox@example.org';
-EXEC insertPatient 'Steven Wang','1965-05-21','4997 Aaron View, South Albert','0094946779',N'Nam','fryan@example.net';
-EXEC insertPatient 'Monica Cardenas','1968-12-12','782 David Route, West Patrick','0268761105',N'Nam','ehopkins@example.net';
-EXEC insertPatient 'Heather Bates','2011-02-09','45411 Ruben Walk Suite 241, North Aaron','0476268316',N'Nam','zneal@example.com';
-EXEC insertPatient 'Michelle West','1967-02-13','5470 Jacob Flats, Gregoryborough','0521468478',N'Nam','ejones@example.com';
-EXEC insertPatient 'Thomas Mcguire','2017-09-23','852 Lee Passage, Gilbertstad','0728675074',N'Nữ','thomas00@example.org';
-EXEC insertPatient 'Lisa Williams','1978-12-06','636 Payne Manors, Lake Marthaberg','0968405231',N'Nam','annstone@example.org';
-EXEC insertPatient 'Andrew Prince','1962-12-25','2935 Blake Drives, Angelaview','0251183510',N'Nữ','jason28@example.org';
-EXEC insertPatient 'Carol Perez','2016-01-28','9877 Julie Rapids, West Lawrence','0802802510',N'Nữ','sfrost@example.com';
-EXEC insertPatient 'Debra Moran','2013-11-17','7388 Moreno Mews Apt. 442, Williamshaven','0977053288',N'Nữ','hgardner@example.net';
-EXEC insertPatient 'Dale Griffith','2008-08-22','746 Ronald Manor, New Davidside','0897090605',N'Nam','brian47@example.org';
-EXEC insertPatient 'Alexander Lopez','2006-03-15','3258 Lee Ways, Lake Krystalland','0192767642',N'Nữ','zscott@example.com';
-EXEC insertPatient 'Steven Anderson','1962-01-05','429 Morrow Spurs, Hillchester','0006324072',N'Nam','april92@example.com';
-EXEC insertPatient 'Clifford Hopkins','1971-12-29','PSC 0572, Box 8774, APO AP 98847','0748024387',N'Nam','awheeler@example.net';
-EXEC insertPatient 'Jessica Ferguson','1982-06-20','97360 Andrea Summit, North Jennifer','0867602566',N'Nam','lpitts@example.net';
-EXEC insertPatient 'Sara Johnson','1965-11-22','360 Freeman Neck, Griffinside','0577121820',N'Nam','nspencer@example.org';
-EXEC insertPatient 'Stanley Cole','2014-03-27','USS Horton, FPO AP 78193','0052647769',N'Nữ','sarabass@example.net';
-EXEC insertPatient 'Kathy Oliver','1987-11-09','91269 Lisa Freeway, South Wendy','0158397164',N'Nữ','amcgee@example.net';
-EXEC insertPatient 'Heather Ruiz','1960-07-04','727 Robert Mills, Masonfort','0817542839',N'Nữ','gsimmons@example.net';
-EXEC insertPatient 'Justin Cummings Jr.','1958-07-28','44176 Lopez Landing, North Ericmouth','0140486781',N'Nam','cookdana@example.net';
-EXEC insertPatient 'Shane Roy','1966-12-04','744 Hensley Loop, Timothychester','0422937418',N'Nam','nsparks@example.com';
-EXEC insertPatient 'Marc Andersen','2008-04-23','Unit 9985 Box 4143, DPO AE 42149','0291404623',N'Nữ','fharris@example.com';
-EXEC insertPatient 'Richard White','1982-12-07','PSC 9873, Box 4324, APO AA 50882','0678794963',N'Nam','chull@example.org';
-EXEC insertPatient 'Heather Berg','2004-01-08','75428 Brandon Manors, Garrettside','0430305522',N'Nam','vherrera@example.net';
-EXEC insertPatient 'James Howard','1976-05-08','2805 Ortiz Spurs, Wilsonville','0000703598',N'Nữ','dhayes@example.org';
-EXEC insertPatient 'Diane Salazar','1986-07-23','65794 Jason Stream, Lake Jamesfort','0485061936',N'Nam','jordan11@example.com';
-EXEC insertPatient 'Erika Cunningham','1982-01-04','8528 Lowery Place, Lake Michael','0853210883',N'Nam','flewis@example.org';
-EXEC insertPatient 'Courtney Miller','1963-03-22','289 Amy Lane, Santiagoside','0217058324',N'Nam','dwayne51@example.org';
-EXEC insertPatient 'Theodore Gonzalez','2001-07-17','1517 Lori Estates, North Johnmouth','0119206389',N'Nữ','erik19@example.net';
-EXEC insertPatient 'Ross Armstrong PhD','2008-07-30','32785 Patel Key, Yoderborough','0665029401',N'Nam','laurie83@example.net';
-EXEC insertPatient 'Jordan Hobbs','2011-12-11','78006 Jaime Canyon Suite 348, Kevinview','0333608529',N'Nam','denise62@example.com';
-EXEC insertPatient 'April Rogers','1982-05-27','523 Joshua Square, New Kellie','0383895637',N'Nữ','donald33@example.net';
-EXEC insertPatient 'Christopher Lewis','2003-01-27','391 Hernandez Rapids, South Heatherside','0558581084',N'Nam','ejordan@example.net';
-EXEC insertPatient 'Stephanie Moore','1959-10-04','25518 William Drive, North Lori','0876864477',N'Nam','wluna@example.com';
-EXEC insertPatient 'Andrew Sullivan DDS','2001-01-27','80316 Olson Squares Apt. 446, New Craig','0095372082',N'Nam','eddie48@example.org';
-EXEC insertPatient 'Denise Wyatt','1967-11-05','559 Troy Stravenue Apt. 269, East Philip','0971799666',N'Nam','lisa10@example.net';
-EXEC insertPatient 'Theresa Carlson','1975-03-17','6238 Cordova Prairie, South Walterhaven','0837817749',N'Nam','jesse04@example.net';
-EXEC insertPatient 'Gloria Hernandez','1970-02-12','856 Adams Ranch, Port Charlesburgh','0668945290',N'Nữ','pkelly@example.org';
-EXEC insertPatient 'Shaun Henry Jr.','2016-07-26','PSC 2147, Box 7890, APO AE 07512','0177027689',N'Nữ','xstout@example.com';
-EXEC insertPatient 'Eddie Benitez','1964-09-08','Unit 0045 Box 0679, DPO AE 41871','0694028044',N'Nam','hschultz@example.net';
-EXEC insertPatient 'Matthew Williams','1967-02-09','05796 Dorothy Fall, South Nicholaston','0840469669',N'Nữ','lisa66@example.org';
-EXEC insertPatient 'Patrick Rodriguez','2014-12-01','378 Lisa Ferry, East Devinhaven','0117073698',N'Nữ','vnelson@example.net';
-EXEC insertPatient 'Karen Brown','2007-06-13','1536 Eric Lights, New Alexisport','0151558889',N'Nữ','ufreeman@example.org';
-EXEC insertPatient 'Adam Davis','2010-01-28','914 Frank Course, North Stephen','0863600876',N'Nam','ltate@example.net';
-EXEC insertPatient 'Dr. Laurie Oliver','1959-03-23','5235 Torres Roads, Port Alex','0299603287',N'Nữ','mark83@example.org';
-EXEC insertPatient 'Steven Grant','1991-09-01','0735 Goodman Hills, East Sarah','0634890286',N'Nam','zlloyd@example.net';
-EXEC insertPatient 'Frank Carter','1960-02-17','155 Cynthia Port Apt. 435, Jacksonton','0690007355',N'Nữ','summer24@example.net';
-EXEC insertPatient 'Lisa Martin','1972-06-24','2529 Gary Extensions, East Brenda','0723653655',N'Nữ','jhayes@example.org';
-EXEC insertPatient 'Christina Young','1963-05-25','76599 Wells Radial, Everettshire','0765027632',N'Nữ','bgross@example.org';
-EXEC insertPatient 'Tracy Wood','1976-12-05','651 Brittney Cove, East Alicia','0627859516',N'Nam','iwalter@example.net';
-EXEC insertPatient 'Zachary Baker','2013-09-08','057 Velasquez Mall, Port Haley','0292598136',N'Nữ','bwong@example.org';
-EXEC insertPatient 'Tammie Nelson','1995-09-13','3956 Porter Radial, Teresafurt','0733538895',N'Nam','xmiller@example.org';
-EXEC insertPatient 'Wendy Brown','2008-02-24','5778 Jessica Burg, Smithland','0467161663',N'Nữ','wwagner@example.net';
-EXEC insertPatient 'Erin Frazier','1994-07-08','264 Dorsey Ridges, Josephstad','0430054501',N'Nữ','jacob12@example.org';
-EXEC insertPatient 'Kristin Acevedo','1968-10-28','011 Brown Cliff Suite 716, Lawsonmouth','0854709948',N'Nữ','djackson@example.org';
-EXEC insertPatient 'Ronald Garcia','1958-09-01','8560 Julie Walks Suite 731, Lake Lindsey','0647486921',N'Nam','molly67@example.org';
-EXEC insertPatient 'Joseph Alvarado','1998-01-30','055 Smith Road, Chadview','0896571793',N'Nam','steven85@example.net';
-EXEC insertPatient 'Richard Martinez','1972-03-23','74332 Melanie Cove Apt. 231, Laurietown','0703433281',N'Nữ','qreyes@example.com';
-EXEC insertPatient 'Marvin Gutierrez','2006-04-24','0468 Cooper Hills, Jessicahaven','0341164662',N'Nam','adrian35@example.com';
-EXEC insertPatient 'Mary Smith','1983-05-16','714 Smith Forks, Marshallburgh','0898861923',N'Nam','joshua91@example.com';
-EXEC insertPatient 'Nicole Bowen','1966-12-30','654 Crystal Well, Lake Roberttown','0992820277',N'Nữ','uwatson@example.net';
-EXEC insertPatient 'Jacob Townsend','2007-03-21','538 Pineda Island Apt. 888, Christinaton','0908279204',N'Nam','nfrey@example.org';
-EXEC insertPatient 'Michael Allen','1998-05-28','551 Alison Mills Suite 314, Alexbury','0047304080',N'Nam','karen13@example.com';
-EXEC insertPatient 'Douglas Hart','1961-12-09','2804 Kristina Lights, Lake Rachel','0523444982',N'Nam','svincent@example.net';
-EXEC insertPatient 'Adam Freeman','1959-12-25','PSC 7239, Box 9824, APO AE 11410','0720582007',N'Nữ','fhughes@example.org';
-EXEC insertPatient 'Lynn Navarro','1973-03-01','976 Melissa Mountain, Carrieburgh','0434682818',N'Nam','lesharon@example.net';
-EXEC insertPatient 'Michael Garrett','1970-03-24','29141 Jason Manors, Johnsonland','0046671008',N'Nữ','qdiaz@example.net';
-EXEC insertPatient 'Jeffery Lee','2002-04-23','64246 Michael Drive, West Kimhaven','0639605878',N'Nam','robert58@example.com';
-EXEC insertPatient 'Charles Harris','2011-06-16','2356 Jacob Islands Apt. 706, Meyerbury','0967552103',N'Nữ','zadkins@example.com';
-EXEC insertPatient 'Maria Smith','1999-08-19','PSC 0332, Box 8511, APO AA 21835','0517124902',N'Nữ','xdawson@example.com';
-EXEC insertPatient 'Kevin Lee','1971-12-17','PSC 0483, Box 5787, APO AP 77169','0782340180',N'Nam','iaustin@example.net';
-EXEC insertPatient 'Samuel Riley','1964-09-05','994 Lee Crescent, Medinaport','0497501488',N'Nam','lee88@example.net';
-EXEC insertPatient 'Tonya Boyd','2015-11-28','32508 Abigail Lake Apt. 183, Louisbury','0300177992',N'Nam','kylewest@example.org';
-EXEC insertPatient 'Jennifer Barber','1982-06-15','9452 Jason Glens, Priceport','0250159235',N'Nữ','vblevins@example.org';
-EXEC insertPatient 'Susan Bullock','2001-10-24','5089 Tiffany Mountains, Cuevastown','0268581051',N'Nữ','icooke@example.org';
-EXEC insertPatient 'Michael Brown','1990-09-27','USNV Green, FPO AP 96435','0173250761',N'Nữ','kwagner@example.com';
-EXEC insertPatient 'Daniel Brown','1962-01-17','0330 Pena Circle Apt. 418, East Amytown','0757819704',N'Nữ','vjordan@example.net';
-EXEC insertPatient 'Dale Gordon','1985-04-10','7021 Phillips Port, Huangside','0905764775',N'Nam','millsjay@example.org';
-EXEC insertPatient 'Keith Gordon','2004-08-07','2807 Thomas Summit Apt. 721, Tiffanyfurt','0402464204',N'Nữ','erik64@example.net';
-EXEC insertPatient 'Katherine Davis','2004-03-17','216 Luis Street Apt. 045, Timothystad','0117649368',N'Nam','foxlisa@example.net';
-EXEC insertPatient 'Amanda Roberts','1975-09-04','01871 Jeffrey Ferry Apt. 636, New Rachel','0571623035',N'Nam','lsmith@example.net';
-EXEC insertPatient 'Cindy Kelly','1977-12-18','Unit 8241 Box 5198, DPO AE 67972','0954177609',N'Nữ','qwhite@example.org';
-EXEC insertPatient 'Brandon Brown','1974-11-03','26098 Michael Islands, Mcguireville','0573992166',N'Nam','fgarcia@example.org';
-EXEC insertPatient 'Amanda Gonzalez','1991-06-11','09806 Taylor Cliff Suite 560, New Shane','0104968395',N'Nữ','ishea@example.com';
-EXEC insertPatient 'Michelle Calhoun','2003-05-07','61645 Richard Drives, Thomasburgh','0535987093',N'Nữ','ronald41@example.net';
-EXEC insertPatient 'Teresa Michael','2005-05-31','3296 Monica Extension, Singhville','0369345957',N'Nam','phoward@example.org';
-EXEC insertPatient 'Norma Joyce','1962-05-27','2409 Sean Canyon, Jordanville','0459891643',N'Nam','jade40@example.org';
-EXEC insertPatient 'Samuel Mcdowell','2002-03-24','9920 Tyler Wells, Robertfort','0972717282',N'Nam','brian88@example.org';
-EXEC insertPatient 'Kimberly Dyer','1982-06-29','168 Carol Well Suite 333, Port Denise','0251470520',N'Nữ','robert66@example.com';
-EXEC insertPatient 'Michelle Cummings','1996-09-06','Unit 4028 Box 2116, DPO AA 39201','0503206748',N'Nam','amanda74@example.org';
-EXEC insertPatient 'Ryan Guerra','1993-11-23','2506 Sheila Vista, West Victoriahaven','0241480870',N'Nam','amy93@example.com';
-EXEC insertPatient 'Gabrielle Green','1985-09-23','USS Delgado, FPO AA 49402','0373744171',N'Nam','hmeadows@example.com';
-EXEC insertPatient 'Sandra Graves','1961-09-15','24037 Knox Dam Apt. 986, Johnburgh','0846742941',N'Nam','erika15@example.org';
-EXEC insertPatient 'Mitchell Clark','2013-11-06','547 Gibson Loop, Port John','0367926725',N'Nữ','padams@example.org';
-EXEC insertPatient 'Christopher Cannon','2002-05-26','725 Johnson Fork Apt. 898, Bellfort','0009152794',N'Nam','eric81@example.net';
-EXEC insertPatient 'Holly Smith','1993-11-20','982 Zimmerman Shore, North Robertport','0222200800',N'Nam','tracy97@example.com';
-EXEC insertPatient 'Katherine Evans','2002-03-08','Unit 1792 Box 9692, DPO AA 29317','0290526195',N'Nữ','denise24@example.com';
-EXEC insertPatient 'Jocelyn Ibarra','1994-05-18','160 Fernando Terrace, East Katrina','0199100917',N'Nữ','seth93@example.org';
-EXEC insertPatient 'John Green','1978-04-23','PSC 3116, Box 1453, APO AA 52694','0252611253',N'Nữ','zmathis@example.net';
-EXEC insertPatient 'Jared Moore','1958-11-23','Unit 4240 Box 6267, DPO AP 28771','0729708952',N'Nam','ysnow@example.org';
-EXEC insertPatient 'Aaron Sloan','2015-02-17','4270 Stephanie Glens, Stephanieland','0442362381',N'Nữ','dana94@example.org';
-EXEC insertPatient 'Rebekah Burns','2017-01-19','84126 William Center, Lake Brandymouth','0997923301',N'Nam','steven89@example.net';
-EXEC insertPatient 'Nicole Woods','1980-03-30','26237 Becker Plaza Apt. 580, West Teresa','0984489756',N'Nữ','zmoore@example.net';
-EXEC insertPatient 'Christian Schwartz','1968-01-29','6012 Walker Meadow, Harrisport','0679337421',N'Nam','kcobb@example.org';
-EXEC insertPatient 'Elizabeth Hunter','1980-11-07','011 Ricardo Shoals Apt. 207, West Thomas','0400999313',N'Nữ','acameron@example.net';
-EXEC insertPatient 'Jennifer Alexander','1970-05-13','USNV House, FPO AP 74187','0740587139',N'Nữ','lsparks@example.org';
-EXEC insertPatient 'Henry Wagner','1984-11-29','7383 Robert Stravenue Apt. 091, Cookton','0251995689',N'Nam','aaron76@example.net';
-EXEC insertPatient 'Miss Candice Singleton','2014-04-18','6959 Boone Crest Suite 562, South Lisa','0220006731',N'Nam','april98@example.org';
-EXEC insertPatient 'Alyssa Adams','1976-07-16','2811 Joel Manor, Toddfort','0394268154',N'Nữ','ryan65@example.com';
-EXEC insertPatient 'Linda Rodriguez','1998-09-07','0408 Gonzalez Mission, Jeremyton','0386632618',N'Nữ','wlloyd@example.net';
-EXEC insertPatient 'Benjamin Bonilla','1982-11-17','709 Curry Corner Apt. 901, West Renee','0409859154',N'Nam','kirkali@example.com';
-EXEC insertPatient 'Melanie Nguyen','2011-12-27','28986 Greer Spurs, South Heatherview','0657684461',N'Nữ','nicole20@example.org';
-EXEC insertPatient 'Holly Aguilar','2003-06-26','738 Sarah Field, South James','0607627045',N'Nam','sharon88@example.org';
-EXEC insertPatient 'Danielle Grant','1969-06-19','25758 Sean Square, Amandahaven','0197352553',N'Nam','abowen@example.org';
-EXEC insertPatient 'Stephanie Wilson','2006-01-17','2370 David Orchard, South Jennifer','0007733063',N'Nữ','james21@example.net';
-EXEC insertPatient 'Anna Jones DDS','1990-12-09','247 Antonio Forge, West Nicole','0136419358',N'Nữ','mark90@example.com';
-EXEC insertPatient 'Thomas Harris','1981-11-11','67879 Palmer Drives, Melissafort','0521476071',N'Nam','qsmith@example.net';
-EXEC insertPatient 'Traci Russell','2012-05-07','444 Parker Station Apt. 457, Richardberg','0242740413',N'Nam','zcole@example.com';
-EXEC insertPatient 'Mr. Jeffrey Herrera DVM','2016-10-16','68738 Mendoza Corner, Michaelbury','0002927842',N'Nam','kelli98@example.org';
-EXEC insertPatient 'Ruth Martin','1987-10-30','USNV Thompson, FPO AA 11741','0004863588',N'Nam','usmith@example.com';
-EXEC insertPatient 'Tina Rich','1968-08-09','9479 Wilkerson River, Hollandstad','0695174938',N'Nữ','renee50@example.net';
-EXEC insertPatient 'Beth Smith','1993-10-05','6236 Cox Isle Suite 012, Powershaven','0201753289',N'Nữ','shawn86@example.org';
-EXEC insertPatient 'Stacy Ross','1985-08-12','71311 Wilcox Knolls, Christinefort','0357841926',N'Nam','rcarter@example.com';
-EXEC insertPatient 'William Brooks','1971-04-15','0653 Nathan Manor Suite 240, Sotoborough','0326455119',N'Nữ','prose@example.net';
-EXEC insertPatient 'Gregory Aguilar','1975-09-10','593 Keith Route Apt. 495, Port Kevin','0160963439',N'Nam','amanda84@example.org';
-EXEC insertPatient 'Paul Munoz','1985-12-30','92334 John Groves Suite 756, Tuckerstad','0520331261',N'Nam','kyle46@example.com';
-EXEC insertPatient 'Peter Mckay','1993-09-20','4451 Lowery Tunnel, Ramirezview','0966800993',N'Nam','fmartin@example.org';
-EXEC insertPatient 'Tammie Weber','1984-10-25','6576 Natalie Prairie, North Marcus','0002302100',N'Nữ','janet69@example.com';
-EXEC insertPatient 'James Young','1970-06-01','992 Krystal Union, South Matthewstad','0260082453',N'Nữ','amanda66@example.com';
-EXEC insertPatient 'David Rogers','1980-09-15','USCGC Sampson, FPO AP 39333','0483536780',N'Nam','kingjohn@example.com';
-EXEC insertPatient 'Frank Barnett','1963-11-05','046 Brandon Loaf, Jonathanhaven','0636453354',N'Nam','yjohnson@example.net';
-EXEC insertPatient 'Justin Wells','1963-08-29','829 Monica Knoll Apt. 015, Anthonymouth','0492961394',N'Nam','uhenson@example.org';
-EXEC insertPatient 'Ryan Anderson','2010-07-29','PSC 9418, Box 1764, APO AP 39727','0395690536',N'Nam','wfischer@example.org';
-EXEC insertPatient 'Olivia Holland','1996-11-21','034 Cruz Junctions, Lisamouth','0675138013',N'Nam','larry42@example.net';
-EXEC insertPatient 'Ronald Medina','1975-12-09','52835 Malone Drives Apt. 932, Josephside','0948177274',N'Nam','bnorton@example.com';
-EXEC insertPatient 'Joshua Larson','1963-12-23','999 Dawn Circles Apt. 915, North Tom','0167985510',N'Nữ','kellyli@example.org';
-EXEC insertPatient 'Jennifer Miller','2007-04-30','23959 Bell Road Suite 390, New Adrian','0334953101',N'Nữ','rachel19@example.org';
-EXEC insertPatient 'Lisa Sullivan','1975-04-07','13313 Lee Place Apt. 143, Allenborough','0109136952',N'Nam','jimmy31@example.org';
-EXEC insertPatient 'Dr. Steven Dunn','1963-02-14','97609 Barnes Union, West Theresa','0145455025',N'Nữ','david21@example.org';
-EXEC insertPatient 'Darrell Merritt','1967-05-11','86619 Jay Squares, Mitchellhaven','0998155030',N'Nữ','brenda27@example.org';
-EXEC insertPatient 'Kathryn Richardson','1979-02-25','83551 Kennedy Port Apt. 076, Rossside','0641658493',N'Nam','nancy08@example.net';
-EXEC insertPatient 'Harry Crane','2007-02-08','37101 Nguyen Cape, East William','0745288864',N'Nữ','teresa70@example.net';
-EXEC insertPatient 'Wayne Delacruz','1966-08-16','USNS Cunningham, FPO AE 43270','0976352830',N'Nữ','jking@example.com';
-EXEC insertPatient 'Eric Waller','2004-03-06','0270 Nancy Flat, Janetmouth','0412998596',N'Nam','april70@example.org';
-EXEC insertPatient 'Nathan Hamilton','1962-11-13','039 Hernandez Fords, Port Brandon','0667963592',N'Nam','awilkins@example.com';
-EXEC insertPatient 'Yolanda Davis','2016-10-12','4970 Kirby Ranch Apt. 724, Victorialand','0294475270',N'Nữ','oholmes@example.com';
-EXEC insertPatient 'Julie Edwards','1986-03-14','89397 Gomez Brooks, New Kaitlyn','0446843398',N'Nữ','paul35@example.org';
-EXEC insertPatient 'Kathleen Sparks','1971-02-11','803 Robert Grove, Lake Stevenmouth','0705562294',N'Nam','ahart@example.org';
-EXEC insertPatient 'Andrea White','2006-07-29','3763 Proctor Wall, North Brianmouth','0447296254',N'Nam','llane@example.com';
-EXEC insertPatient 'Melissa Wright','1980-01-21','USS Chavez, FPO AA 00824','0312829743',N'Nữ','angela41@example.org';
-EXEC insertPatient 'Denise Wiley','1966-04-04','PSC 5952, Box 3896, APO AE 96050','0180346253',N'Nam','xsmith@example.net';
-EXEC insertPatient 'Scott Cooper','2004-03-03','404 Kelly Fields, New James','0390729153',N'Nữ','joseph87@example.com';
-EXEC insertPatient 'Patricia Vega','1963-11-12','4335 Summer Bypass Apt. 762, Kelseyfort','0272743286',N'Nữ','olivia84@example.org';
-EXEC insertPatient 'Dr. Christian Ellis','1990-03-14','0466 Vaughan Plain, Martinburgh','0890745725',N'Nam','aaron57@example.org';
-EXEC insertPatient 'Kelly Brown','1973-10-31','037 Andrea Coves Suite 982, East Heidi','0803403230',N'Nam','mary63@example.com';
-EXEC insertPatient 'Angel Sawyer','2015-08-20','0028 Latasha Neck Apt. 721, Port Rachael','0166611975',N'Nữ','ywatson@example.com';
-EXEC insertPatient 'Jerry Jacobson','1970-10-28','2768 Michelle Walk Apt. 278, Charlesbury','0262667143',N'Nữ','david11@example.com';
-EXEC insertPatient 'Ruben Davis','1985-06-04','33360 Waters Lakes Suite 231, Lake Scott','0204088304',N'Nam','ewilson@example.net';
-EXEC insertPatient 'John Andrade','1968-02-09','801 Christian Passage, Port Danny','0366188099',N'Nam','keith05@example.org';
-EXEC insertPatient 'Brittany Stewart MD','1987-07-23','10601 Wright Circles, West Anthonyhaven','0877902610',N'Nữ','fjohnson@example.org';
-EXEC insertPatient 'William Johnson','1995-08-04','60643 Brian Ferry, North Michaelmouth','0811497269',N'Nam','craig04@example.net';
-EXEC insertPatient 'Ashley Randolph','1963-10-02','32079 Michelle Circle, West Jackfurt','0628939106',N'Nữ','lynn39@example.com';
-EXEC insertPatient 'Danielle James','1967-06-14','42336 Melanie Cove, West Diana','0975657646',N'Nữ','karla22@example.com';
-EXEC insertPatient 'Stephanie Jones','1976-09-20','16621 Tyler Haven, Samanthamouth','0798775697',N'Nam','wali@example.net';
-EXEC insertPatient 'Megan Smith','2009-09-21','119 Torres Mill Apt. 692, Berghaven','0860385203',N'Nam','andrea57@example.org';
-EXEC insertPatient 'George Jackson','1961-08-12','Unit 8081 Box 1106, DPO AE 96760','0677469545',N'Nam','steven93@example.net';
-EXEC insertPatient 'Kristin Greer','1994-08-20','410 Darren Path, Lake Rubenport','0377135771',N'Nữ','nwalter@example.com';
-EXEC insertPatient 'Laura Owens','2011-03-06','67936 Timothy Rue, West Douglas','0004848189',N'Nữ','fkrause@example.com';
-EXEC insertPatient 'Michelle Miller','1972-11-12','59736 Roberts Prairie, West Jennifer','0032878282',N'Nữ','ipowell@example.org';
-EXEC insertPatient 'Shawn Bruce','1963-02-16','67800 April Stravenue, Lake Tony','0357999442',N'Nữ','jason45@example.com';
-EXEC insertPatient 'Jack Boyd','1980-02-23','4485 Walker Ville Apt. 158, Shawnport','0714700604',N'Nữ','ewright@example.org';
-EXEC insertPatient 'Kelly King','1979-05-23','486 Christopher Prairie, Victoriaton','0050144239',N'Nam','jzavala@example.com';
-EXEC insertPatient 'Carla Stanley','1961-06-19','072 Joseph Loaf, Franklinchester','0010888698',N'Nam','tterry@example.com';
-EXEC insertPatient 'Sean Charles','2010-08-12','621 Martin Camp Apt. 030, South Michael','0253813393',N'Nữ','xgarcia@example.net';
-EXEC insertPatient 'Ethan Spears','1965-02-28','4738 Anthony Ramp, Shermantown','0103356611',N'Nữ','ronald15@example.net';
-EXEC insertPatient 'Antonio Mccarty','2017-02-02','02054 George Views, Sharonland','0333010656',N'Nữ','miguel11@example.net';
-EXEC insertPatient 'Ashley Lee','2004-04-06','1515 Grant Estates, Elizabethchester','0390172192',N'Nam','arangel@example.net';
-EXEC insertPatient 'Patricia Johnson','1989-06-25','741 Gardner Path, Tonyville','0669525793',N'Nam','jared10@example.com';
-EXEC insertPatient 'Amanda Henderson','2014-08-02','2777 Jennifer Lodge, Lake Waynemouth','0168781751',N'Nam','aolson@example.com';
-EXEC insertPatient 'Yvonne Ball','1962-02-02','6985 Carol Pine, West Judy','0270588412',N'Nam','miguel31@example.org';
-EXEC insertPatient 'Gregory Chambers','2016-07-01','9394 Hamilton Mission, East Gabrielaberg','0034704765',N'Nam','ekelly@example.net';
-EXEC insertPatient 'Sheryl Mendez','1960-02-22','762 Hill Stravenue, Claytonburgh','0148871179',N'Nam','pburnett@example.org';
-EXEC insertPatient 'Eric Nicholson','1996-03-15','887 Barbara Turnpike Suite 551, Perryton','0574677519',N'Nữ','cfoster@example.org';
-EXEC insertPatient 'Joshua Green','1976-06-06','6673 Laura Turnpike, Robinchester','0095651746',N'Nữ','vbrown@example.com';
-EXEC insertPatient 'Adrienne Thompson','2013-01-25','05999 Johnson Flat, Robertburgh','0833572873',N'Nam','gina25@example.com';
-EXEC insertPatient 'Elizabeth Cook','1975-02-18','PSC 5809, Box 0223, APO AE 22846','0927231475',N'Nam','tony75@example.org';
-EXEC insertPatient 'Carol Richardson','1974-02-21','5788 Norton Mount, Lake Kathryn','0814459282',N'Nữ','hedwards@example.com';
-EXEC insertPatient 'Anthony Pollard','1987-06-23','6906 Lisa Mountain, South Jason','0440456727',N'Nam','ebowman@example.org';
-EXEC insertPatient 'Jacqueline Orozco','1958-10-04','361 Clark Tunnel Apt. 059, Laneland','0157515465',N'Nam','isparks@example.com';
-EXEC insertPatient 'Frederick Johnson','1972-11-22','52181 Donna Oval Suite 235, New Austin','0205292439',N'Nam','sean72@example.org';
-EXEC insertPatient 'Christopher Foster','2004-10-09','811 Eric Squares Apt. 813, South Sarah','0070664393',N'Nữ','obrown@example.org';
-EXEC insertPatient 'Crystal Hoffman','2007-10-22','USNV Mitchell, FPO AP 41030','0930900450',N'Nữ','ecasey@example.net';
-EXEC insertPatient 'Ian Hunter','1960-05-05','07271 Kevin Fall Apt. 353, Deleonside','0356953429',N'Nữ','mark34@example.net';
-EXEC insertPatient 'Dr. Craig Vasquez','1982-05-04','826 Burch Landing, Moralesfort','0426314602',N'Nam','wjohnson@example.com';
-EXEC insertPatient 'Alan Dean','1994-01-12','5618 Ibarra Rapids Apt. 452, Vegaville','0910698683',N'Nữ','xdavis@example.org';
-EXEC insertPatient 'Veronica Campbell','2017-04-24','985 Mcdaniel Locks Suite 193, Codyburgh','0160277536',N'Nam','hhays@example.org';
-EXEC insertPatient 'Leonard Johnson','2016-05-30','316 Fleming Court, Lake Bradley','0102620308',N'Nam','joseph64@example.org';
-EXEC insertPatient 'Wayne Garrett MD','2014-02-07','7505 Sullivan Orchard, Kathleenborough','0369597306',N'Nữ','wwright@example.com';
-EXEC insertPatient 'Terry Johnson','1990-06-27','237 Taylor Court, Danielleburgh','0803874658',N'Nam','droman@example.net';
-EXEC insertPatient 'Anthony Hernandez','1960-01-21','586 Barbara Unions, Brianborough','0927505199',N'Nam','connie33@example.org';
-EXEC insertPatient 'Catherine Kline','2006-09-25','7760 Bell Street, Kaiserburgh','0042257240',N'Nữ','gina61@example.com';
-EXEC insertPatient 'John Sampson','1984-08-11','169 Simmons Trace, New Joshua','0499605855',N'Nữ','obarber@example.net';
-EXEC insertPatient 'Mario Mercado','2003-03-17','84729 Scott Fort Apt. 562, Loriberg','0181980252',N'Nữ','tsmith@example.net';
-EXEC insertPatient 'Emma Clark','2015-02-13','310 Robert Light Apt. 153, Hernandezside','0304763972',N'Nữ','qgray@example.net';
-EXEC insertPatient 'Larry Murphy','1983-11-29','88099 Reed Branch Apt. 347, Lake Steven','0418211873',N'Nữ','robin71@example.com';
-EXEC insertPatient 'Thomas Hobbs','1999-06-20','994 Hart Rapids, Lake Nicholeberg','0370857704',N'Nữ','bmcbride@example.org';
-EXEC insertPatient 'Timothy Gray','1989-03-02','953 Michelle Views, Ronaldstad','0193554514',N'Nữ','yweaver@example.net';
-EXEC insertPatient 'Jose Bush','1983-03-05','23986 Lydia Forest, Hayesstad','0091624134',N'Nữ','adam58@example.com';
-EXEC insertPatient 'Brian Marquez','2002-10-01','1437 Kennedy Shoals, East Jessica','0565052556',N'Nam','james11@example.net';
-EXEC insertPatient 'Isabella Hoover','1975-05-28','5735 Tammy Squares, Longborough','0469182986',N'Nam','jwalker@example.com';
-EXEC insertPatient 'Andrew Mays','1962-11-10','9943 Russo Row, Maxwellville','0251444584',N'Nam','ffry@example.net';
-EXEC insertPatient 'Tom Mitchell','1979-09-29','2730 Ray River, Carrillofurt','0529863710',N'Nữ','gbarton@example.org';
-EXEC insertPatient 'Sharon Scott','2002-09-04','459 Clark Grove, South Sallymouth','0186917220',N'Nữ','zperez@example.org';
-EXEC insertPatient 'Becky Myers','2009-11-09','PSC 2114, Box 0853, APO AE 62039','0150458170',N'Nữ','travis81@example.org';
-EXEC insertPatient 'Stephen Singh','1976-07-19','014 Tamara Avenue, North David','0148696183',N'Nữ','krich@example.net';
-EXEC insertPatient 'Dean Burton','1978-06-21','566 Joseph Point, Bensonbury','0979539319',N'Nữ','alison20@example.net';
-EXEC insertPatient 'Lori Lucas','1965-08-09','1350 Kevin Mountains, North Crystalbury','0437283068',N'Nam','paul90@example.org';
-EXEC insertPatient 'Kathy Mcintyre','2008-01-18','984 Stephen Viaduct, Port Corey','0575214278',N'Nữ','justin61@example.org';
-EXEC insertPatient 'Kelsey Brown','1984-02-01','41394 Dakota Road, Laurenbury','0501712933',N'Nam','mvilla@example.org';
-EXEC insertPatient 'Amanda Olson','2014-07-03','662 Barnes Lodge Suite 765, Anthonyberg','0770698238',N'Nữ','cheryl47@example.net';
-EXEC insertPatient 'Kathleen Juarez','2016-03-08','419 Moore Corners, Lorimouth','0844302399',N'Nam','molly75@example.org';
-EXEC insertPatient 'Peter Salas','1963-05-19','Unit 8452 Box 1391, DPO AA 31113','0386999598',N'Nam','ksimpson@example.com';
-EXEC insertPatient 'Kimberly Coleman','1997-03-01','0961 Phelps Row, Nelsonburgh','0021834829',N'Nữ','linda63@example.net';
-EXEC insertPatient 'Clifford Luna','2011-04-28','843 Gomez Hills Suite 968, Alvarezberg','0441258075',N'Nữ','voliver@example.com';
-EXEC insertPatient 'Janet Hill','1996-07-27','4109 Erin Walk, New Stacystad','0567969732',N'Nữ','gregg45@example.net';
-EXEC insertPatient 'Mr. James Savage DVM','1964-11-16','87903 Anderson Dam, West Mary','0020972408',N'Nữ','monica23@example.org';
-EXEC insertPatient 'Zachary Anthony','1987-01-13','274 Jessica Bridge Suite 491, Jasonside','0862142346',N'Nam','raven63@example.com';
-EXEC insertPatient 'Teresa Edwards','1979-05-30','558 Erica Shoals, Ramirezchester','0837181715',N'Nam','flin@example.org';
-EXEC insertPatient 'Jordan Callahan','1990-10-16','2356 Heather Walk, Jesseborough','0208767531',N'Nữ','daniel15@example.com';
-EXEC insertPatient 'Kristopher Allen','1977-07-06','711 Garner Gateway Apt. 091, Silvafort','0232471482',N'Nam','timgarza@example.org';
-EXEC insertPatient 'Dana Raymond','1984-04-11','0531 Gina Unions, Aguirremouth','0936996301',N'Nam','vgray@example.org';
-EXEC insertPatient 'Darrell Sullivan','2005-04-14','5503 Reid Gateway Apt. 027, East Ryan','0050654041',N'Nữ','wlopez@example.com';
-EXEC insertPatient 'Nancy Rodriguez','1965-05-25','740 Hill Stravenue, Lake Matthewmouth','0925110402',N'Nữ','erin14@example.com';
-EXEC insertPatient 'Caleb Bell','2015-04-15','2164 Teresa Canyon Suite 939, Peterfort','0817237897',N'Nữ','ronald18@example.com';
-EXEC insertPatient 'Pamela Harris','1963-10-30','601 Christopher Knolls, Port Tammybury','0208848645',N'Nam','amanda91@example.net';
-EXEC insertPatient 'Ronald Hayes','1963-11-18','278 Young Spring, East Maryhaven','0993578321',N'Nữ','blake48@example.org';
-EXEC insertPatient 'John Williams','1986-02-20','29955 Perkins Well, West Jenniferview','0010945532',N'Nữ','tchapman@example.net';
-EXEC insertPatient 'Craig Huerta','2013-08-13','37486 Stewart Wells, Port Timothyport','0412690491',N'Nam','lgarcia@example.org';
-EXEC insertPatient 'David Thompson','1969-10-18','6802 Hendricks Field, Portershire','0042388423',N'Nam','leslie66@example.net';
-EXEC insertPatient 'Tracy George','1988-03-17','051 Scott River, Orrshire','0662681728',N'Nam','kelly93@example.com';
-EXEC insertPatient 'Susan Francis','2014-08-28','192 Barr Port, South Kirk','0873889183',N'Nữ','dconley@example.net';
-EXEC insertPatient 'Paula Hale','2001-03-14','06743 Lindsay Mission, Erikburgh','0904700146',N'Nam','tmoore@example.net';
-EXEC insertPatient 'Caleb Buchanan','2017-08-13','7243 Coleman Skyway, Hesschester','0013561094',N'Nữ','bknight@example.net';
-EXEC insertPatient 'Rebecca Carter','2011-02-04','0719 Alicia Bypass Apt. 033, Baxtermouth','0981139919',N'Nam','ashley16@example.com';
-EXEC insertPatient 'Benjamin Jenkins','1958-10-01','Unit 2813 Box 4461, DPO AP 12421','0171752523',N'Nam','brett15@example.com';
-EXEC insertPatient 'Amanda Little','1991-11-17','76163 James Station, Kimberlybury','0826542379',N'Nam','mark95@example.com';
-EXEC insertPatient 'Alexis Dominguez','1973-07-14','566 Powell Drives, East Hunterbury','0603653015',N'Nam','mark02@example.com';
-EXEC insertPatient 'Stephanie Miller','1982-11-24','USCGC Taylor, FPO AA 88758','0634988967',N'Nam','ann48@example.net';
-EXEC insertPatient 'Russell Rodriguez','2002-03-16','775 Raymond Lakes, Sawyerfort','0546226451',N'Nữ','jesse41@example.org';
-EXEC insertPatient 'Nancy Thompson','1973-11-02','18582 Mark Camp Suite 737, Lewisport','0110878349',N'Nữ','bboyd@example.org';
-EXEC insertPatient 'Jeremy Juarez','1996-07-06','2378 Callahan Lodge, Brandonville','0674586507',N'Nữ','earlhill@example.org';
-EXEC insertPatient 'Evan Parsons','2004-07-12','3775 Carroll Parks, Chanton','0953370170',N'Nam','ihahn@example.org';
-EXEC insertPatient 'Brad Campbell','2005-12-18','577 Webb Camp, Alexandraview','0671323959',N'Nam','yrice@example.com';
-EXEC insertPatient 'Michael Dunn','1985-01-30','712 Yolanda Station, West Jamesstad','0899807509',N'Nam','adrian42@example.org';
-EXEC insertPatient 'Stephanie Larson','1970-02-10','113 Amy Freeway, Timothyside','0335631201',N'Nam','mark72@example.net';
-EXEC insertPatient 'Zachary Brown','2016-10-17','8852 Larsen Cliffs, New Maryton','0682405874',N'Nữ','sean67@example.com';
-EXEC insertPatient 'Travis Singh','1980-11-22','6202 Paul Loop Suite 897, West Devon','0799912575',N'Nữ','tonycook@example.org';
-EXEC insertPatient 'Nicole Robbins','2004-08-25','01671 Phillip Well, Normanstad','0769437636',N'Nam','traci44@example.org';
-EXEC insertPatient 'Dr. James Pacheco','1958-03-05','92131 Anthony Crescent, East Ronaldland','0414762975',N'Nam','ashley85@example.com';
-EXEC insertPatient 'Sergio Boyd','1986-12-03','9096 Gonzales Vista Apt. 855, Howellton','0234551751',N'Nam','zherrera@example.com';
-EXEC insertPatient 'Belinda Finley','1989-08-31','PSC 0997, Box 2510, APO AA 48844','0698569349',N'Nam','dana83@example.org';
-EXEC insertPatient 'Gerald Walker','2001-01-24','977 Baker Rapid, Port Vanessachester','0507340273',N'Nữ','rbeck@example.com';
-EXEC insertPatient 'Katie Skinner','1987-12-02','848 Elizabeth Springs, East Michaelberg','0691925567',N'Nữ','ewhite@example.org';
-EXEC insertPatient 'Stephen Morris','2010-09-06','PSC 9614, Box 6351, APO AA 65337','0382765859',N'Nữ','troypham@example.net';
-EXEC insertPatient 'Alexa Jones','1995-10-29','USNV Johnson, FPO AA 62587','0633636235',N'Nữ','lori97@example.net';
-EXEC insertPatient 'Jennifer Cannon','1991-07-23','8360 Jill Shores, Cynthiaburgh','0746609052',N'Nam','kathy42@example.org';
-EXEC insertPatient 'Renee Miller','1964-05-04','90515 Bruce Ford Apt. 318, Craighaven','0220045154',N'Nữ','qwheeler@example.com';
-EXEC insertPatient 'Patricia Murphy','1985-12-09','57576 Gray Mills Apt. 561, Lindsayshire','0250947920',N'Nam','hreyes@example.org';
-EXEC insertPatient 'Alejandro Lee','1986-06-24','878 Lisa Underpass, Reedville','0143989109',N'Nữ','kgordon@example.net';
-EXEC insertPatient 'Laura Flynn','1984-02-03','154 Adams Haven, New Jimmyshire','0576859857',N'Nữ','cfrazier@example.org';
-EXEC insertPatient 'James Carpenter','1991-08-25','7430 Heather Union, Edwardston','0505443310',N'Nữ','bobby95@example.net';
-EXEC insertPatient 'Amanda Valencia','1977-07-09','370 Shelton Ports Apt. 606, Lake Paul','0496102694',N'Nam','robert38@example.org';
-EXEC insertPatient 'Samuel Gonzalez','1971-10-22','841 Daniel Manor, Alyssaburgh','0392077357',N'Nam','jgordon@example.net';
-EXEC insertPatient 'Douglas Schaefer','1992-07-16','1441 Oliver Curve Suite 490, Monicaport','0583097828',N'Nữ','rbrady@example.net';
-EXEC insertPatient 'Mrs. Heather Chung','1961-10-02','906 Martin Roads, Port Michael','0719585072',N'Nam','klopez@example.net';
-EXEC insertPatient 'Tammy Steele','1999-01-03','4290 Boyd View, Port Christinaton','0713308327',N'Nam','kayla21@example.com';
-EXEC insertPatient 'Travis Shaw','1960-06-28','566 Rhonda Forks, Port Robert','0209384803',N'Nữ','gina22@example.org';
-EXEC insertPatient 'Philip Rose','1988-03-30','03378 Wells Springs Apt. 777, New Lynn','0703172342',N'Nam','ajackson@example.net';
-EXEC insertPatient 'David French','1970-02-15','1401 Jenny Turnpike, Nicoleville','0011397005',N'Nữ','awallace@example.com';
-EXEC insertPatient 'Julie Decker','1996-10-25','0359 Beverly Island, Reyesburgh','0269133812',N'Nữ','whayes@example.org';
-EXEC insertPatient 'Emily Garcia','1977-03-25','296 John Rue Apt. 821, Lake Kara','0032565106',N'Nữ','dsmith@example.com';
-EXEC insertPatient 'Joseph Yang','1997-06-12','3641 Rebecca Manor, Jeremyborough','0906275742',N'Nữ','zstein@example.net';
-EXEC insertPatient 'Melissa Jennings','2008-10-12','Unit 3058 Box 5885, DPO AA 47085','0745581196',N'Nam','ewallace@example.com';
-EXEC insertPatient 'Brad Weaver','1967-07-18','PSC 5375, Box 6727, APO AP 96372','0800779719',N'Nữ','pspencer@example.net';
-EXEC insertPatient 'Amber Brown','2013-02-20','500 Angelica Mall, South Jacob','0891118920',N'Nữ','dholland@example.com';
-EXEC insertPatient 'Ronald Bailey','2014-01-07','24427 Williams Brook, Dianeburgh','0156118552',N'Nữ','george66@example.com';
-EXEC insertPatient 'Stephanie Bell','1972-11-29','433 Kirby Mills, Flowersborough','0347242503',N'Nam','diana39@example.com';
-EXEC insertPatient 'Brandon Myers','1968-08-07','PSC 5261, Box 5254, APO AE 84582','0696993615',N'Nam','sean62@example.com';
-EXEC insertPatient 'Kara Thomas','1968-04-22','Unit 0261 Box 6391, DPO AP 37364','0043424584',N'Nữ','scollins@example.com';
-EXEC insertPatient 'Henry Herrera','2016-06-08','279 Rodriguez Light Suite 816, Brianview','0064617085',N'Nữ','nicole73@example.com';
-EXEC insertPatient 'Natalie Brown','1987-04-13','6441 Lacey Forks, Port Angela','0986503462',N'Nữ','diane30@example.com';
-EXEC insertPatient 'Michelle Martinez','1969-06-12','0069 Cooper Knoll Apt. 884, New Danielle','0026676882',N'Nam','joseph40@example.net';
-EXEC insertPatient 'Beth Robinson','1978-02-07','80220 Lewis Lane, Jamesmouth','0617947249',N'Nữ','nancy19@example.com';
-EXEC insertPatient 'Sarah Luna','2005-11-29','4492 Zachary Village Apt. 846, Mooreside','0570294270',N'Nam','kstout@example.org';
-EXEC insertPatient 'Gabrielle Snyder','1959-02-18','856 Felicia Freeway, Monicaborough','0788676305',N'Nam','fbryant@example.com';
-EXEC insertPatient 'Julia Wheeler','2016-05-12','79193 Lisa Vista Suite 932, New Lisa','0756267621',N'Nam','robert37@example.com';
-EXEC insertPatient 'Brooke Stanton','1984-03-20','Unit 2373 Box 7770, DPO AP 87988','0681436836',N'Nữ','travis41@example.com';
-EXEC insertPatient 'Michael Chambers','2001-08-15','69595 Evans Ridges, Lake Tonyfort','0650450299',N'Nữ','msmith@example.com';
-EXEC insertPatient 'Eduardo Sexton','1980-03-23','9906 Jackson Ways, Fieldsfurt','0965801691',N'Nam','orrsusan@example.org';
-EXEC insertPatient 'Jill Tucker','2011-08-18','227 Ballard Station Apt. 182, Wilsonstad','0684086987',N'Nam','teresa69@example.net';
-EXEC insertPatient 'Stephanie Patel','1990-07-30','20166 Parrish Estate, Dodsonfort','0010687041',N'Nam','nbaker@example.net';
-EXEC insertPatient 'Colleen Floyd','1996-12-19','658 Megan Stravenue, Port Jeromemouth','0258298415',N'Nữ','pwalker@example.com';
-EXEC insertPatient 'Carrie Harrison','1982-05-25','843 Stephanie Junction, Johnstonchester','0395441789',N'Nữ','thomas88@example.net';
-EXEC insertPatient 'Randy Fox','1996-12-17','196 Meredith Alley, Lake Ashley','0428068979',N'Nữ','istanton@example.org';
-EXEC insertPatient 'Bradley Turner','1983-04-04','233 Smith Stream Suite 468, North Dawn','0353108687',N'Nữ','hsmith@example.org';
-EXEC insertPatient 'John Bowman','1958-06-01','845 Gary Route Apt. 451, Garcialand','0479731296',N'Nữ','qjames@example.net';
-EXEC insertPatient 'Tina Warren','1995-12-15','USNV Buckley, FPO AP 16238','0446576469',N'Nữ','eric31@example.com';
-EXEC insertPatient 'Dennis Patel','1982-02-04','USNV Ross, FPO AP 86857','0820952534',N'Nữ','twoods@example.org';
-EXEC insertPatient 'Billy Oconnor','2012-02-07','2497 Powell Loop, New Jay','0393144885',N'Nữ','nduran@example.net';
-EXEC insertPatient 'Alejandro Hill','1992-05-25','86687 Davis Greens, West Charles','0180684644',N'Nữ','sroy@example.com';
-EXEC insertPatient 'Jeff Tran','2010-10-30','47697 Yang Vista, Washingtonmouth','0508636067',N'Nam','daisy43@example.org';
-EXEC insertPatient 'Lindsey Davis','1992-04-03','2552 William River, East Kimberlystad','0629699730',N'Nam','omason@example.org';
-EXEC insertPatient 'Cheyenne Wong','1971-01-19','PSC 2964, Box 8240, APO AA 96012','0135294543',N'Nam','obentley@example.org';
-EXEC insertPatient 'Wayne Jones','1988-12-31','2761 Kelly Mill, South Jennifer','0310099859',N'Nam','vfinley@example.net';
-EXEC insertPatient 'Brooke Miller','2010-01-05','451 Zachary Loop, Port Tiffanyburgh','0739209670',N'Nữ','hwright@example.com';
-EXEC insertPatient 'Lori Taylor','1976-02-15','914 Flores Passage, West Kathleen','0764647638',N'Nữ','donald83@example.net';
-EXEC insertPatient 'Shawn Mills','1972-07-05','17142 Kevin Street, Thomashaven','0354916543',N'Nữ','lesliele@example.com';
-EXEC insertPatient 'Brenda Turner','1985-12-05','USNV Tran, FPO AE 51356','0099126032',N'Nữ','restes@example.com';
-EXEC insertPatient 'Heather Zamora','1979-08-23','296 Sheila View, West Saraburgh','0251693316',N'Nữ','loripope@example.net';
-EXEC insertPatient 'Jacqueline Wood','1977-02-02','84602 Jeffrey Brook, Loveside','0575692589',N'Nữ','philip08@example.net';
-EXEC insertPatient 'Dana Steele','1977-08-19','2209 Nicholas Tunnel, South Alexander','0831278682',N'Nam','yvette63@example.com';
-EXEC insertPatient 'Billy Sellers','1974-01-18','1229 Cabrera Cove, Tammyport','0361514851',N'Nam','tstevens@example.org';
-EXEC insertPatient 'John Hardin','1983-01-10','569 Cook Walk, Georgeberg','0209557780',N'Nữ','xdowns@example.com';
-EXEC insertPatient 'Brandi Wong','1992-03-12','445 Michelle Forge, Heatherborough','0450179059',N'Nam','nramos@example.org';
-EXEC insertPatient 'Steven Moreno','1962-10-15','48947 Johnson Alley, Michaelstad','0326360575',N'Nữ','hharris@example.net';
-EXEC insertPatient 'Elizabeth Torres','1978-06-15','5701 Mason Prairie Apt. 829, Connerfurt','0261806055',N'Nữ','kgill@example.com';
-EXEC insertPatient 'Eduardo Buchanan','2001-06-21','097 Garcia Ford, North Danielchester','0783324392',N'Nữ','marcus65@example.com';
-EXEC insertPatient 'James Crawford','1962-06-10','USNV Strong, FPO AA 09996','0960008830',N'Nữ','plopez@example.com';
-EXEC insertPatient 'Luis Miller','1994-07-19','Unit 2710 Box 1988, DPO AA 58969','0534069296',N'Nữ','julie03@example.org';
-EXEC insertPatient 'Darius Schmidt','2011-07-31','4314 Love Trace, Jamieborough','0435013734',N'Nam','upacheco@example.net';
-EXEC insertPatient 'Michael Schwartz','2005-06-02','708 Silva Rue, North Julieberg','0422511731',N'Nam','tammy17@example.org';
-EXEC insertPatient 'Stephanie Anderson','1999-12-31','93065 William Corners, West Sarah','0821643087',N'Nam','lisa38@example.org';
-EXEC insertPatient 'Aaron Campbell','1976-09-03','48303 Hoover Via, Cindybury','0437211345',N'Nam','jacob54@example.net';
-EXEC insertPatient 'Daniel Mcdonald','2012-12-29','80931 Ayers Junctions, Garciaview','0379637295',N'Nam','ltodd@example.org';
-EXEC insertPatient 'Alex Wiley','1977-07-28','279 Klein Rapids, South Lynn','0108204951',N'Nữ','summer53@example.org';
-EXEC insertPatient 'Christopher Barnes','1986-10-08','2052 Jackson Groves, Austinport','0329284020',N'Nữ','kristi15@example.com';
-EXEC insertPatient 'William Allen','1998-06-12','470 Baldwin Glens, Port Adam','0007031384',N'Nữ','shill@example.org';
-EXEC insertPatient 'Samuel Wells','1996-09-04','0919 Amanda Path, Kingtown','0829548882',N'Nam','steven17@example.net';
-EXEC insertPatient 'Jeffrey Stuart','2010-07-17','767 Mays Park, North Sharonmouth','0163264952',N'Nam','jadams@example.com';
-EXEC insertPatient 'Marilyn Bowman','1994-06-25','6341 Justin Circles, East Williamtown','0392301670',N'Nữ','wwade@example.net';
-EXEC insertPatient 'Mark George','1992-04-14','46095 Barnett Manors, South Alexander','0534640725',N'Nam','john42@example.com';
-EXEC insertPatient 'Lindsay Martin','1963-04-07','1904 Margaret Rest, East Shawn','0232400442',N'Nữ','rachel28@example.net';
-EXEC insertPatient 'Rickey Wood','1993-04-28','11486 Norman Land Suite 063, East Kelly','0865406175',N'Nữ','aparsons@example.org';
-EXEC insertPatient 'Jennifer Wade','1971-07-07','589 Lewis Trace, West Moniquefurt','0899233094',N'Nam','daniel22@example.com';
-EXEC insertPatient 'Mark Flores','2008-12-12','6531 Paula Square, Lake Daniel','0149927412',N'Nam','jose01@example.com';
-EXEC insertPatient 'Andrew Lee','1958-04-15','70710 Noble Springs, Lake Duane','0020064507',N'Nữ','justin79@example.net';
-EXEC insertPatient 'Mia Russo','1959-05-04','Unit 9281 Box 0113, DPO AE 97730','0714342006',N'Nam','daniel52@example.com';
-EXEC insertPatient 'Samuel Williams','1999-07-20','46698 James Lakes, South Deannahaven','0135565136',N'Nam','ihunter@example.org';
-EXEC insertPatient 'Martha Clark','2002-08-21','USNS Carrillo, FPO AE 46380','0918376708',N'Nữ','amolina@example.net';
-EXEC insertPatient 'Joel Hernandez','1971-01-22','30017 Michael Crossing, North Daniel','0724433979',N'Nữ','qhopkins@example.org';
-EXEC insertPatient 'Richard Swanson','1974-05-17','PSC 7711, Box 3857, APO AE 17950','0093073192',N'Nữ','mowens@example.org';
-EXEC insertPatient 'Joshua Garrett','1970-08-10','753 James Curve, Guerramouth','0515998315',N'Nam','james34@example.net';
-EXEC insertPatient 'Nicole Garcia','2001-03-16','551 Little Hills Apt. 641, Patrickberg','0552003309',N'Nam','oscott@example.org';
-EXEC insertPatient 'Cheryl Mcfarland','2015-04-06','28586 Lopez Road, Lake Chloe','0676699495',N'Nam','angela45@example.com';
-EXEC insertPatient 'Cynthia Espinoza','1976-04-16','046 Rios Estates, West Erinside','0830319854',N'Nam','adrian16@example.org';
-EXEC insertPatient 'Shaun Castro','1972-12-03','PSC 6770, Box 6234, APO AA 90357','0963054235',N'Nam','wmorris@example.com';
-EXEC insertPatient 'Christopher Richardson','1980-12-02','7315 Tran Lock, West Jonathan','0950651851',N'Nam','iblake@example.com';
-EXEC insertPatient 'Brittany Stout','2009-11-18','475 George Trail Suite 818, Phamshire','0314509844',N'Nam','ohooper@example.com';
-EXEC insertPatient 'Gina Kerr','1994-06-21','497 Bennett Union, East Mitchellfort','0673223737',N'Nữ','ryan13@example.com';
-EXEC insertPatient 'Sean Green','1965-11-19','USS Dickerson, FPO AP 36014','0038439997',N'Nữ','anakeith@example.org';
-EXEC insertPatient 'Breanna Beard','1969-07-01','USNS Alvarado, FPO AP 39737','0468328193',N'Nữ','ppierce@example.com';
-EXEC insertPatient 'Beth Jones','1998-02-04','PSC 7087, Box 0179, APO AE 21361','0309032553',N'Nam','scott63@example.net';
-EXEC insertPatient 'Patrick Guerrero','1979-12-25','9720 Monica Mount Suite 937, Jerryfort','0437628161',N'Nữ','cgarcia@example.net';
-EXEC insertPatient 'Yolanda Chandler','2000-09-14','PSC 1942, Box 3760, APO AP 30674','0753396598',N'Nữ','chunter@example.com';
-EXEC insertPatient 'Emily Hernandez','2007-02-14','577 Moody Burgs Suite 438, Port Angela','0023946393',N'Nam','edwin70@example.net';
-EXEC insertPatient 'Alexandra Roberts','2011-09-25','404 Rodriguez Extension, East Marymouth','0101587627',N'Nữ','ulewis@example.net';
-EXEC insertPatient 'Aaron Heath','2008-07-26','8599 Brandi Squares, Mendezshire','0182932125',N'Nam','erichill@example.net';
-EXEC insertPatient 'Krista Green','2001-05-19','PSC 0817, Box 9082, APO AA 86100','0002785252',N'Nữ','james09@example.net';
-EXEC insertPatient 'Kaylee Wright','2003-09-08','Unit 8137 Box 0826, DPO AP 54111','0714633079',N'Nữ','jadams@example.org';
-EXEC insertPatient 'Carol Dixon','1980-10-22','0428 Rebecca Station, Cynthiamouth','0881461342',N'Nữ','zhaynes@example.com';
-EXEC insertPatient 'Melanie Kaiser','1980-05-25','264 Julie Hills, West Priscilla','0412022019',N'Nữ','psmith@example.com';
-EXEC insertPatient 'Michelle Sanchez','1987-03-21','759 Roberson Shores, Port Davidtown','0880069881',N'Nữ','jesse39@example.org';
-EXEC insertPatient 'Dr. Kyle Walton','1998-01-20','300 Larry Villages Suite 717, Woodsstad','0700802842',N'Nam','jerome46@example.org';
-EXEC insertPatient 'Melissa Salazar','1979-09-18','757 Callahan Rue Apt. 482, Hullfort','0387569805',N'Nữ','sean80@example.net';
-EXEC insertPatient 'Samantha Smith MD','1974-06-28','003 Wood Square, Morganshire','0907069009',N'Nam','jwarren@example.net';
-EXEC insertPatient 'Robert Patterson','1996-01-18','5073 Berry Streets Apt. 346, Richardland','0966307323',N'Nữ','linda25@example.net';
-EXEC insertPatient 'Dana Reed','1967-09-12','33544 John Island Suite 023, Millerville','0743861600',N'Nữ','jim53@example.org';
-EXEC insertPatient 'Douglas Price','2004-07-23','7560 Karen Pike, Davismouth','0475125042',N'Nữ','vmiller@example.com';
-EXEC insertPatient 'Kimberly Stanton','2017-08-18','2623 Marvin Summit, Judyfort','0723770035',N'Nam','ofranco@example.net';
-EXEC insertPatient 'Thomas Gardner','1964-01-31','5855 Laura Cliff, Christopherton','0734737373',N'Nữ','janetray@example.net';
-EXEC insertPatient 'Terri Duarte','1968-02-04','6836 Pearson Brooks, North Sarahfurt','0370365304',N'Nữ','justin60@example.com';
-EXEC insertPatient 'Randall Johnson','1979-03-07','63569 Mercedes Trail, West Matthewhaven','0518839221',N'Nữ','ymalone@example.net';
-EXEC insertPatient 'Kristy Carter','1981-01-10','Unit 1784 Box 5816, DPO AE 75525','0112125131',N'Nam','rossjon@example.net';
-EXEC insertPatient 'Carl Jones','2009-09-25','70707 Meagan Mill, Leslieville','0096218996',N'Nữ','hgardner@example.com';
-EXEC insertPatient 'Peter Arias','1995-05-26','758 Karen Track, South Jerry','0288783870',N'Nam','gsimmons@example.com';
-EXEC insertPatient 'James Powell','2012-01-15','536 Brian Drive Suite 141, Hornebury','0976871565',N'Nữ','gina94@example.org';
-EXEC insertPatient 'Richard Wilson','2016-01-30','Unit 8226 Box 6412, DPO AA 93404','0687434059',N'Nam','hflynn@example.net';
-EXEC insertPatient 'Matthew Davis','1964-12-24','07983 Larry Ranch, North Andrew','0552881257',N'Nam','troy21@example.net';
-EXEC insertPatient 'Lisa Stone','2013-12-02','45026 Debra Haven, East Amy','0371165986',N'Nam','xlarsen@example.com';
-EXEC insertPatient 'Tonya Morgan','1992-02-03','4738 Hall Brooks Apt. 590, Edwinmouth','0441697520',N'Nam','amanda47@example.org';
-EXEC insertPatient 'Christine Weaver','2010-03-20','75234 Stephanie Run Apt. 019, Johnland','0951132926',N'Nam','xmiller@example.net';
-EXEC insertPatient 'Robin Wood','1981-03-20','Unit 1457 Box 6190, DPO AE 67576','0101866779',N'Nữ','fmason@example.com';
-EXEC insertPatient 'Brianna Montoya','2004-09-20','34141 Mills Hill Apt. 155, East Casey','0752622797',N'Nam','vcarter@example.org';
-EXEC insertPatient 'Michelle Singleton','1998-11-12','045 Justin Hill, South Seth','0412245203',N'Nữ','jade21@example.org';
-EXEC insertPatient 'April Peterson','1973-03-06','646 Fields Crest Suite 356, Jasonside','0033248778',N'Nữ','oscott@example.net';
-EXEC insertPatient 'Paul Hardy','1961-01-06','3574 Randy Gardens, Hollyberg','0217743641',N'Nam','frank66@example.net';
-EXEC insertPatient 'Veronica Delgado','2009-06-15','0997 Fleming Light Suite 608, Martinberg','0169322757',N'Nữ','tricia63@example.com';
-EXEC insertPatient 'Frederick Villanueva','1996-11-22','06914 Cohen Plaza, Codyhaven','0939342711',N'Nam','amy51@example.net';
-EXEC insertPatient 'Amy Beck','1976-02-25','583 Amanda Flats, Port Carolynchester','0648664671',N'Nam','karina69@example.org';
-EXEC insertPatient 'Peter Bell','2003-11-10','Unit 2216 Box 5913, DPO AA 10740','0250446351',N'Nữ','qallen@example.org';
-EXEC insertPatient 'Amber Blackburn','1960-07-09','747 Riley Tunnel Apt. 145, South Heather','0215984633',N'Nam','cfarmer@example.net';
-EXEC insertPatient 'James Allison','2014-06-05','USNS Wright, FPO AA 95377','0036017314',N'Nam','jgomez@example.com';
-EXEC insertPatient 'Karen Schwartz','1962-05-18','309 Escobar Coves, New Brandon','0470293037',N'Nữ','eric16@example.com';
-EXEC insertPatient 'Megan Richmond','1979-02-03','112 Philip Village, Rebeccastad','0134820694',N'Nữ','karen86@example.net';
-EXEC insertPatient 'Adam Davis','1999-06-28','7284 Angela Squares, Dianefort','0886216569',N'Nam','wharmon@example.org';
-EXEC insertPatient 'Kimberly Wood','1984-05-07','8888 Kelley Course, Port Joseph','0090864300',N'Nữ','sara63@example.com';
-EXEC insertPatient 'Evan Nguyen','2011-08-25','226 Jacob Plaza, Mariabury','0854157282',N'Nam','yanthony@example.com';
-EXEC insertPatient 'Anthony Huerta','1984-12-13','95078 Mayer Spur Suite 566, Flowerstown','0980202593',N'Nam','steven56@example.com';
-EXEC insertPatient 'Samantha Harris','1979-08-15','33027 Donna Field Apt. 804, North Pamela','0137746715',N'Nữ','yvonne19@example.org';
-EXEC insertPatient 'Mark Williamson','1963-10-04','7161 Murphy Wall, Johnsonfurt','0734520137',N'Nam','lisa57@example.org';
-EXEC insertPatient 'Kayla Montgomery','1978-04-01','2317 Woodward Coves, Port Kathleen','0946677193',N'Nữ','aconrad@example.org';
-EXEC insertPatient 'Teresa Campbell','2016-07-22','7543 Deanna Unions, North Gregory','0761350133',N'Nam','qweiss@example.net';
-EXEC insertPatient 'Glenn Hanna','1977-08-25','2193 Stacy Unions, Brentland','0256959381',N'Nam','lrice@example.com';
-EXEC insertPatient 'Luis Moore','2006-06-29','284 Gray Village, Donaldfort','0149616047',N'Nam','dzuniga@example.com';
-EXEC insertPatient 'David King','1978-05-20','9498 Ashley Park, Lisabury','0251961169',N'Nam','fholden@example.org';
-EXEC insertPatient 'Natalie Humphrey','1987-05-06','Unit 2359 Box 8990, DPO AP 81951','0065274561',N'Nữ','kkrause@example.com';
-EXEC insertPatient 'Rebecca Porter','2008-07-27','634 Amanda Avenue, West Joseph','0139662783',N'Nam','vturner@example.net';
-EXEC insertPatient 'Patrick Anderson','2014-10-20','28896 Rivera Overpass, New Lauren','0393470720',N'Nam','bward@example.com';
-EXEC insertPatient 'Diamond Callahan','2007-07-22','02811 Franklin Garden, Farmerfurt','0904860689',N'Nam','emorris@example.net';
-EXEC insertPatient 'Brandon Brown','2007-10-23','5738 Garza Forks, Mezachester','0119741856',N'Nam','megan28@example.net';
-EXEC insertPatient 'Richard Greene','1995-04-03','486 Pamela Unions, West Denise','0583791672',N'Nữ','donna91@example.org';
-EXEC insertPatient 'Travis Lang','1978-03-20','78595 Miller Mountains, New David','0327601818',N'Nam','bbradley@example.net';
-EXEC insertPatient 'Brenda Rogers','1993-09-19','25700 David Mount, Lake Courtneymouth','0386372867',N'Nam','hannah81@example.com';
-EXEC insertPatient 'Kelsey Williams','2003-12-28','0460 Jennifer Ports, East Stephanie','0776287542',N'Nữ','kgray@example.net';
-EXEC insertPatient 'Diana Williams','1997-11-06','0457 Williams Parkway, Lake Ryanfurt','0572850474',N'Nam','rflores@example.com';
-EXEC insertPatient 'Zachary Fisher','1970-09-04','662 Jermaine Plaza, West Jessica','0147926096',N'Nữ','dallen@example.net';
-EXEC insertPatient 'Tim Washington','2011-01-09','052 Harrison Trace, North Rebeccaborough','0521813874',N'Nam','janet70@example.net';
-EXEC insertPatient 'Megan Watson','1972-05-04','525 Andrew Harbors, Garciaton','0615771217',N'Nữ','blindsey@example.net';
-EXEC insertPatient 'Thomas Moore','1958-03-04','664 Pamela Isle, New Keith','0630980250',N'Nam','amanda54@example.net';
-EXEC insertPatient 'Maurice Carter','2013-06-29','4415 Huff Canyon, Heatherburgh','0916872664',N'Nam','ahayes@example.org';
-EXEC insertPatient 'Gregory Hernandez','2012-03-22','1739 Garcia Loop, North Dawn','0151346749',N'Nữ','yjones@example.org';
-EXEC insertPatient 'Janet Bradford','1979-06-06','13377 Aguirre Landing, Lake Renee','0195701542',N'Nam','thall@example.org';
-EXEC insertPatient 'Megan Wilcox','1978-07-23','PSC 2450, Box 1500, APO AA 52131','0721328155',N'Nam','gfuentes@example.com';
-EXEC insertPatient 'Travis Lawson','1971-07-08','985 Ann Rapid, New Andrewborough','0594630894',N'Nữ','wcombs@example.org';
-EXEC insertPatient 'Kathryn Wood','1999-02-11','952 Rachel Fort, Matthewland','0954445057',N'Nữ','alicia95@example.org';
-EXEC insertPatient 'Glen Hall','1966-09-03','062 Dickson Trace, Lake Kevin','0810561693',N'Nam','bgriffin@example.net';
-EXEC insertPatient 'Diane Miller','2015-02-16','724 Dylan Creek, North Joyce','0366779197',N'Nam','noah41@example.net';
-EXEC insertPatient 'Kirk Quinn','2000-02-09','204 Gloria Harbor, East Patricia','0170117504',N'Nam','ldudley@example.net';
-EXEC insertPatient 'Sabrina Butler','1991-01-07','Unit 0797 Box 1248, DPO AP 61231','0262659431',N'Nữ','whodge@example.com';
-EXEC insertPatient 'Samuel Lee','1971-09-25','170 Courtney Circle, Schroedermouth','0002274518',N'Nam','vrowe@example.org';
-EXEC insertPatient 'Elizabeth Huber','1968-10-18','PSC 2931, Box 1932, APO AP 27885','0895031988',N'Nữ','ilamb@example.net';
-EXEC insertPatient 'Kevin Parsons','2012-06-18','215 Moore Lights, Port David','0754329998',N'Nam','groberts@example.com';
-EXEC insertPatient 'Mary Watkins','1991-06-16','9010 Baker Hills, Nobleborough','0936137665',N'Nam','thomas76@example.net';
-EXEC insertPatient 'Julie Parker','1979-08-10','6874 Carolyn Plains, West Bradville','0989958394',N'Nữ','thomas63@example.org';
-EXEC insertPatient 'Allison Graham','1988-11-21','6547 Herman Green, Andersonburgh','0219919951',N'Nam','alogan@example.net';
-EXEC insertPatient 'Ebony Young','1966-07-15','28729 Marshall Vista, South Jeffrey','0369881784',N'Nữ','adam93@example.org';
-EXEC insertPatient 'Christina Gilbert','1966-05-18','660 Heather Walk Apt. 824, Ashleychester','0805430840',N'Nữ','ybonilla@example.net';
-EXEC insertPatient 'Dr. Michael Lawson DDS','1960-04-21','0769 Miranda Land Apt. 901, North Tamara','0589387133',N'Nam','ccarter@example.com';
-EXEC insertPatient 'Melinda Hill','1979-03-29','4633 Joanne Stravenue, Port Thomasmouth','0304542225',N'Nữ','zbass@example.net';
-EXEC insertPatient 'Phillip Shaw','1969-05-06','404 Tina Turnpike Suite 318, Lamhaven','0217506263',N'Nữ','erin91@example.com';
-EXEC insertPatient 'Samantha Garcia','1984-04-18','5004 Kelly Shoal, North Katherineland','0240839245',N'Nam','edwin66@example.org';
-EXEC insertPatient 'Alexa Lynch','1988-11-15','135 Joshua Skyway, Port Danielle','0598400697',N'Nữ','robert21@example.com';
-EXEC insertPatient 'Cheyenne Cox','2016-09-04','59991 Davila Fords, South Meganburgh','0196633365',N'Nam','msimmons@example.org';
-EXEC insertPatient 'Sarah Olson','1961-08-22','64905 Barbara Ford, Chavezton','0411406705',N'Nam','katie31@example.net';
-EXEC insertPatient 'Rebecca Lam','1991-02-04','6350 Brandon Highway, Randyfurt','0360350090',N'Nam','willie98@example.com';
-EXEC insertPatient 'Michelle Dunn','1982-12-01','94451 Deborah Meadow, Pittmanfurt','0022096708',N'Nam','westsara@example.org';
-EXEC insertPatient 'Julie Mason','1989-11-26','048 Maurice Turnpike, Davisbury','0991978033',N'Nữ','hhoffman@example.net';
-EXEC insertPatient 'David Jackson','1971-04-23','1245 Jessica Bridge, Christophermouth','0747094982',N'Nữ','ubailey@example.org';
-EXEC insertPatient 'Clifford Underwood','2017-05-07','12560 Shannon Street, East Michael','0883576611',N'Nữ','lisa85@example.net';
-EXEC insertPatient 'Kelsey Wood','2007-11-21','012 Guerra Cliffs, Lake Donaldland','0695997757',N'Nữ','andrew79@example.net';
-EXEC insertPatient 'Erin Elliott','1982-06-06','151 Tina Shore Suite 696, West Lisa','0167288915',N'Nam','twright@example.com';
-EXEC insertPatient 'Omar Meyer','2007-08-23','967 Gilbert Rest, Lake Janet','0956806383',N'Nam','wguzman@example.org';
-EXEC insertPatient 'Roger Smith','2016-12-05','5793 Martinez Court Apt. 614, West David','0418939561',N'Nam','andrew88@example.org';
-EXEC insertPatient 'Jesse Mack','1980-10-28','0570 Allen Trail Suite 533, Debrachester','0316888633',N'Nữ','james42@example.net';
-EXEC insertPatient 'Lisa Anderson','2017-01-30','00842 Andrea Port, Cannontown','0737619522',N'Nam','amanda66@example.net';
-EXEC insertPatient 'David Wolfe','1989-06-22','2306 Snyder Divide Apt. 173, Rosariofurt','0383102628',N'Nữ','xwolf@example.com';
-EXEC insertPatient 'Travis Riggs','1992-06-18','8588 Rodriguez Islands, Walkerville','0969184099',N'Nam','ffleming@example.org';
-EXEC insertPatient 'Brian Taylor','1998-11-27','USCGC Williams, FPO AA 98814','0702671192',N'Nữ','johnpena@example.org';
-EXEC insertPatient 'Lance Calderon','1988-07-03','USNV Powers, FPO AE 95247','0741743951',N'Nam','rgarrett@example.com';
-EXEC insertPatient 'Dana Willis','1958-11-11','816 Nichole Plains Apt. 931, Lake Robert','0984589578',N'Nam','nlopez@example.com';
-EXEC insertPatient 'Barry Morris','1969-11-11','USNS Collins, FPO AE 18540','0765732116',N'Nam','brenda34@example.org';
-EXEC insertPatient 'Joseph Walton','2007-10-26','06595 Brown Mountains, West William','0880124212',N'Nữ','debra65@example.com';
-EXEC insertPatient 'Dr. Jessica Hudson','1961-05-08','Unit 5663 Box 9561, DPO AE 32096','0012980945',N'Nam','xgarrett@example.com';
-EXEC insertPatient 'Jo Thompson','1978-09-23','5332 Sarah Cove Apt. 614, Port Amanda','0094788256',N'Nam','ajohnson@example.com';
-EXEC insertPatient 'Karen Smith','1993-09-14','61039 Doyle Well, Miguelfurt','0548299273',N'Nữ','lmcclure@example.net';
-EXEC insertPatient 'Rebecca Newton','1979-12-07','3657 Perez Rue, New David','0716131720',N'Nam','olynn@example.org';
-EXEC insertPatient 'Brenda Bryant','1974-11-24','8109 Tucker Plaza, East Kristin','0538041989',N'Nữ','tara47@example.org';
-EXEC insertPatient 'Charles Turner','1986-03-09','26178 Snyder Burgs, Villegasburgh','0359552371',N'Nữ','emurphy@example.com';
-EXEC insertPatient 'Joshua Buckley','1970-02-23','247 Austin Route, Martinport','0415439290',N'Nữ','peggy94@example.com';
-EXEC insertPatient 'Sarah Brown','2001-08-07','230 Logan Tunnel Apt. 070, Johnfort','0943145092',N'Nữ','wcurtis@example.com';
-EXEC insertPatient 'Aaron Patton','1991-09-23','083 Brown Road Suite 507, West Emilyfort','0964290137',N'Nam','david50@example.com';
-EXEC insertPatient 'Sarah Alvarez','2001-08-30','578 April Passage Apt. 328, Orrton','0687607202',N'Nam','luis65@example.net';
-EXEC insertPatient 'David Walker','1963-06-19','6809 Anderson Light, Larsonville','0752858351',N'Nam','ukirk@example.net';
-EXEC insertPatient 'Autumn Coleman','1974-08-08','00129 Mack Curve, Churchtown','0952475814',N'Nam','rose69@example.org';
-EXEC insertPatient 'Elizabeth Schmidt','1974-08-11','Unit 3446 Box 0151, DPO AE 02070','0306449658',N'Nữ','tcooper@example.org';
-EXEC insertPatient 'Joseph Wagner','1979-05-14','7473 Kimberly Inlet Suite 551, West Cody','0002296968',N'Nam','cestrada@example.net';
-EXEC insertPatient 'Manuel Wright','1963-05-26','USS Hernandez, FPO AA 93269','0154823000',N'Nam','rmathews@example.net';
-EXEC insertPatient 'Benjamin Wright','1979-01-24','860 James Place, Sarahmouth','0930768458',N'Nữ','miafoley@example.net';
-EXEC insertPatient 'Jason Smith','1961-04-01','348 Hall Terrace Apt. 342, Robinsontown','0627002257',N'Nữ','krista77@example.org';
-EXEC insertPatient 'Leah Klein','1991-08-11','5580 James Union Apt. 678, North Chad','0241934714',N'Nữ','johnny33@example.org';
-EXEC insertPatient 'Wendy Knapp','1970-05-19','08897 Lisa Spring, Davidburgh','0433265742',N'Nam','mtaylor@example.net';
-EXEC insertPatient 'Tiffany Luna','1962-02-10','784 Burton Street, Boydchester','0667418824',N'Nam','ncooper@example.com';
-EXEC insertPatient 'Gina Mills','1988-02-21','332 Cathy Pike, West Jim','0571874800',N'Nam','lidavid@example.net';
-EXEC insertPatient 'Michael King','1963-04-02','8806 Guzman Viaduct, East Gina','0407987243',N'Nam','ostewart@example.com';
-EXEC insertPatient 'Carolyn Bonilla','2016-03-08','5093 Brittany Ports Apt. 044, Robertfurt','0618258478',N'Nữ','awalton@example.net';
-EXEC insertPatient 'Rachael Taylor','1973-03-15','USNS Chan, FPO AE 73191','0715750025',N'Nữ','daniel41@example.com';
-EXEC insertPatient 'Bobby Gonzales','1984-11-11','617 Larry Tunnel Apt. 798, Katherinestad','0050239269',N'Nam','bmorse@example.net';
-EXEC insertPatient 'Tammy Larson','1990-04-14','372 Blake Crossroad Suite 647, Mariaview','0468123559',N'Nam','csnyder@example.net';
-EXEC insertPatient 'Jamie Phillips','1959-12-09','494 Logan Isle Suite 514, Myersstad','0693169705',N'Nam','karen52@example.com';
-EXEC insertPatient 'Jason Bennett DDS','1970-05-02','79486 John Springs, Bowmanview','0184446492',N'Nữ','zmcneil@example.org';
-EXEC insertPatient 'Dr. Danielle Hall','2010-05-26','414 Arnold Drive, Wallacefort','0893266917',N'Nam','iweber@example.com';
-EXEC insertPatient 'Denise Flores','1970-07-11','4160 Bailey Road, South Lauren','0556358390',N'Nữ','joshua69@example.net';
-EXEC insertPatient 'Andrea Delgado','1996-06-09','86819 Heidi Neck Apt. 327, New Beverly','0826900924',N'Nữ','jhorn@example.net';
-EXEC insertPatient 'Christine Delgado','2013-05-15','5906 Park Hill, Markmouth','0064347111',N'Nam','ralvarez@example.net';
-EXEC insertPatient 'David Burns','2016-12-26','04732 Weaver Vista Apt. 323, Jenkinsview','0920414636',N'Nam','sara63@example.org';
-EXEC insertPatient 'Gregory Allen','2000-02-21','529 Neil Lights, Reginaview','0253911859',N'Nữ','leonanne@example.net';
-EXEC insertPatient 'Jennifer Salazar','1997-02-26','26935 Duncan Shoal, Krystalbury','0362375538',N'Nữ','lwelch@example.org';
-EXEC insertPatient 'Lauren Gonzalez','2014-09-28','USCGC Navarro, FPO AP 43374','0428424790',N'Nam','xhensley@example.com';
-EXEC insertPatient 'Joann Adams','1998-04-13','468 Tracey Plains Apt. 601, Davidstad','0382095052',N'Nam','apowell@example.net';
-EXEC insertPatient 'Jessica Watts','1991-10-07','5639 Larson Stream Apt. 434, Audreyshire','0922413243',N'Nữ','ejohnson@example.net';
-EXEC insertPatient 'Allison Greene','1997-12-07','797 Faulkner Island, New Brandonland','0695256832',N'Nữ','rdecker@example.org';
-EXEC insertPatient 'Jill Henson','1963-02-25','USCGC Cameron, FPO AE 39378','0718756792',N'Nam','glambert@example.net';
-EXEC insertPatient 'Heather Harvey','1995-08-25','499 Martinez Rapid Apt. 618, Sallyburgh','0688345880',N'Nam','csmith@example.org';
-EXEC insertPatient 'Susan Henry DVM','2012-09-20','PSC 3879, Box 9957, APO AA 56762','0385469455',N'Nữ','kgould@example.org';
-EXEC insertPatient 'Catherine Olson','1976-12-08','USNS Scott, FPO AA 72663','0834050226',N'Nữ','gary32@example.org';
-EXEC insertPatient 'Walter Perkins','1978-09-24','8759 Mckinney Lodge, North Jenniferhaven','0330097746',N'Nam','iballard@example.org';
-EXEC insertPatient 'Susan Bentley','1966-04-11','8288 Chad Estates Apt. 420, New Frank','0607006247',N'Nữ','farcher@example.org';
-EXEC insertPatient 'Logan Carter','2016-11-20','8581 Andrew Centers Apt. 328, Scotttown','0453375543',N'Nữ','apatel@example.com';
-EXEC insertPatient 'Charles Pierce','1987-02-15','816 Phillips Track, Port Kevin','0039819452',N'Nữ','ryan11@example.org';
-EXEC insertPatient 'Sara Robinson','1983-03-06','279 Adam Throughway, Hansenland','0617095426',N'Nữ','choward@example.net';
-EXEC insertPatient 'Christopher Bailey','1988-02-26','Unit 9354 Box 1503, DPO AA 22476','0260737542',N'Nam','yrich@example.com';
-EXEC insertPatient 'Stephanie Kennedy','2015-02-27','89072 Meagan Island, Port Melanie','0070086494',N'Nữ','sean80@example.com';
-EXEC insertPatient 'Stephanie Berry','1977-12-11','281 Chapman Vista, Port Susan','0098758867',N'Nữ','philip90@example.com';
-EXEC insertPatient 'Steven Buchanan MD','2016-05-25','1622 Mary Isle, Craigmouth','0231389972',N'Nữ','jerry36@example.org';
-EXEC insertPatient 'Nathan Wheeler','2017-06-17','46880 Clark Flats, Troyville','0144467116',N'Nam','robert69@example.com';
-EXEC insertPatient 'Patrick Thompson','1992-07-31','684 Mary Stravenue Suite 232, New Amy','0159426085',N'Nữ','gflores@example.org';
-EXEC insertPatient 'Kellie Freeman','1983-02-11','926 Cox Mills, New Joseph','0894856996',N'Nam','mmelton@example.com';
-EXEC insertPatient 'Alexandria Park','1969-06-29','84490 Andrew River, New Carol','0111064393',N'Nam','lisa54@example.org';
-EXEC insertPatient 'Michael Butler','1972-09-09','Unit 5313 Box 2608, DPO AE 23458','0576887961',N'Nam','psmith@example.org';
-EXEC insertPatient 'Mark Obrien','2017-02-22','117 Tyler Lake Apt. 714, Gravesborough','0260640140',N'Nam','rnash@example.net';
-EXEC insertPatient 'Richard Foster','2013-10-20','989 Catherine Gardens, Hooverview','0031756653',N'Nam','edudley@example.com';
-EXEC insertPatient 'Lindsey Lambert','1970-12-13','Unit 0473 Box 6603, DPO AP 66183','0838957195',N'Nữ','kara58@example.org';
-EXEC insertPatient 'Alex Jones','2003-12-07','USS Patterson, FPO AA 22948','0944386522',N'Nam','ernest93@example.com';
-EXEC insertPatient 'Linda Grant','2010-08-15','553 Dixon Estate Apt. 600, Hannashire','0098585413',N'Nam','john68@example.net';
-EXEC insertPatient 'Emily Chen','2000-07-20','438 Patricia Mills, East Megan','0545991064',N'Nam','brogers@example.net';
-EXEC insertPatient 'Kevin Walters','1999-05-21','616 Lee Crescent Apt. 789, Kristinaburgh','0583585913',N'Nữ','djones@example.com';
-EXEC insertPatient 'Brett Mcclain','1998-04-13','688 Jason Vista, Donaldfurt','0112090717',N'Nữ','udavis@example.org';
-EXEC insertPatient 'Kelly Hart','1986-04-19','377 Steven Trace, New Lance','0833598773',N'Nam','mjensen@example.com';
-EXEC insertPatient 'Robert Oneal','1962-09-13','3240 Fitzgerald Creek, New Jessicaview','0795878336',N'Nữ','esimmons@example.net';
-EXEC insertPatient 'Andrew Duncan MD','2017-09-16','Unit 6067 Box 3752, DPO AA 52112','0174165699',N'Nam','sonya05@example.net';
-EXEC insertPatient 'Derek Hernandez','1998-05-14','Unit 5760 Box 3663, DPO AP 52573','0512141825',N'Nam','eddie46@example.org';
-EXEC insertPatient 'Mallory Obrien DVM','1960-07-24','789 Ayala Light Apt. 014, Ramosland','0386308248',N'Nữ','justin14@example.net';
-EXEC insertPatient 'Shannon Jones','2013-02-14','08674 Jennifer Street, Bryanburgh','0920617537',N'Nam','joshua68@example.org';
-EXEC insertPatient 'Donna Taylor','2016-01-03','3677 Lauren Oval Suite 059, Robinview','0349756977',N'Nam','xcox@example.net';
-EXEC insertPatient 'James James','1973-10-24','41020 Robert Parkway, Cruzberg','0018031127',N'Nam','joshua82@example.com';
-EXEC insertPatient 'Keith Wright','2000-10-30','Unit 7046 Box 2465, DPO AA 98118','0137775251',N'Nam','kimscott@example.org';
-EXEC insertPatient 'Bonnie Torres','2017-05-17','PSC 8281, Box 9165, APO AA 85389','0378191042',N'Nữ','pallen@example.org';
-EXEC insertPatient 'Phillip Green','2000-05-18','85443 John Squares, North Joshua','0495471024',N'Nam','mandy26@example.org';
-EXEC insertPatient 'Jordan Kline','2005-10-08','8263 Amanda Views, East Sarah','0833402330',N'Nam','vbrooks@example.org';
-EXEC insertPatient 'Michelle King','2002-04-22','9682 Dustin Wall Apt. 102, Marktown','0425185647',N'Nam','kyle33@example.net';
-EXEC insertPatient 'Thomas Cunningham','1988-03-25','459 Sutton Points, Lauratown','0640904524',N'Nam','imendoza@example.net';
-EXEC insertPatient 'Michael Phillips III','2011-05-08','8487 Travis Trail, Port Lindsayshire','0878490784',N'Nam','pturner@example.com';
-EXEC insertPatient 'Kyle Williams','2005-10-09','21905 Ward Turnpike, West John','0404626562',N'Nữ','brownamy@example.com';
-EXEC insertPatient 'Alan Sanchez','1965-05-14','704 White Knolls, Jamesport','0062313545',N'Nam','morgan61@example.org';
-EXEC insertPatient 'Susan Taylor','2002-03-09','249 Marco Shore, North Heidi','0848390974',N'Nam','bsanchez@example.net';
-EXEC insertPatient 'Carlos Bowman','1993-07-07','024 Tracy Crest, West Markmouth','0171992643',N'Nam','zwatkins@example.com';
-EXEC insertPatient 'Jacob Schultz','1966-11-18','910 Joyce Valleys Suite 709, Ryanmouth','0800711336',N'Nữ','julia63@example.org';
-EXEC insertPatient 'Sara Ortiz','1960-06-26','2816 Cortez Corner Suite 493, Jasonfort','0782734900',N'Nữ','chad00@example.com';
-EXEC insertPatient 'Jay Reid','1958-07-02','562 Angela Pike Apt. 424, East Rita','0925299276',N'Nam','smeyer@example.net';
-EXEC insertPatient 'Michael Murphy','1984-02-13','Unit 7972 Box 9375, DPO AA 67561','0694442051',N'Nam','donna41@example.org';
-EXEC insertPatient 'Nicholas Green','1970-10-30','703 Carmen Lodge Apt. 491, Richardsberg','0063142576',N'Nữ','ujones@example.org';
-EXEC insertPatient 'Jeremy Wolf','1971-11-08','175 Jennifer Ferry, South Eric','0646521817',N'Nam','rmiller@example.com';
-EXEC insertPatient 'Amanda Sanchez','1959-12-06','6010 Tim Pines Suite 371, Port Sarah','0339719376',N'Nam','tpetty@example.com';
-EXEC insertPatient 'Michael Lindsey','2012-07-08','7529 Erik Drive Suite 667, Riveraberg','0348133222',N'Nam','george02@example.org';
-EXEC insertPatient 'Tracy Gibbs','2005-03-12','77709 Ashley Springs, Martinezmouth','0725185070',N'Nam','emartin@example.com';
-EXEC insertPatient 'Heather Rivera','1994-01-24','537 Michael Throughway, Thompsonmouth','0346718561',N'Nam','bsmith@example.org';
-EXEC insertPatient 'John Wood','1987-01-11','13597 Emma Mews, Robinshire','0088894653',N'Nam','daniel21@example.net';
-EXEC insertPatient 'Linda Reyes','1959-07-16','37292 Hansen Square, West Sandraburgh','0020514177',N'Nữ','pamela01@example.net';
-EXEC insertPatient 'James White','1989-08-06','308 Melissa Trail, Michellemouth','0290687870',N'Nam','james73@example.org';
-EXEC insertPatient 'Trevor Clark','1998-06-19','USNS Reynolds, FPO AP 46927','0674733100',N'Nữ','ygarcia@example.net';
-EXEC insertPatient 'Kristin Cobb','2010-03-23','Unit 7678 Box 8158, DPO AP 65234','0070383402',N'Nam','bfrey@example.net';
-EXEC insertPatient 'Robert Thornton','2000-03-31','321 Patel Isle Suite 938, Johnshire','0882267227',N'Nam','nmartin@example.net';
-EXEC insertPatient 'Keith Green','1983-10-11','9415 Gill Mission Apt. 694, Adkinsville','0885520029',N'Nam','dbennett@example.org';
-EXEC insertPatient 'Susan May','1998-04-16','2239 Tammy Greens Suite 839, Patrickview','0807729815',N'Nữ','jforbes@example.net';
-EXEC insertPatient 'Martha Joseph','2011-03-07','5845 Barrera Pines, Kevinbury','0981075683',N'Nam','ohancock@example.org';
-EXEC insertPatient 'Lisa Benson','1984-09-19','5122 Jamie Key Suite 607, Walkerfurt','0071251911',N'Nam','robert46@example.org';
-EXEC insertPatient 'Sarah Hall','1967-03-14','PSC 8755, Box 2127, APO AP 94563','0808538954',N'Nữ','voliver@example.org';
-EXEC insertPatient 'Christina Shah','2002-02-27','109 Angela Way Apt. 759, Smithmouth','0532300720',N'Nam','glenn52@example.net';
-EXEC insertPatient 'Pamela Wilson','2006-11-04','Unit 1872 Box 3461, DPO AA 54015','0360254457',N'Nam','awagner@example.net';
-EXEC insertPatient 'Anna Harper','1968-03-20','9510 Brandt Garden Apt. 337, Lake Erin','0282049366',N'Nam','norman61@example.net';
-EXEC insertPatient 'Mr. Michael Cook','1987-06-20','2269 Browning Hill Apt. 272, Deannaberg','0199904557',N'Nữ','paul47@example.net';
-EXEC insertPatient 'Michael Willis','1963-06-29','USNS White, FPO AP 72795','0555609659',N'Nam','robin18@example.net';
-EXEC insertPatient 'Kayla Williams','1987-12-25','8567 Cheryl Islands, New Christian','0274452831',N'Nam','tracy50@example.com';
-EXEC insertPatient 'Amy Sullivan','2013-09-20','9783 Sandra Rapids, Anthonystad','0602445917',N'Nữ','dale94@example.org';
-EXEC insertPatient 'Max Travis','2011-10-10','00501 King Track Suite 963, New Justin','0594717179',N'Nam','uhowe@example.com';
+EXEC insertPatient 'Paula Ortiz','1980-07-16','USS Kline, FPO AA 54138','0793739281',N'Nam','fgould@example.org';
+EXEC insertPatient 'Kevin Murphy','1988-09-24','87165 Amber Plaza Apt. 388, North Kevin','0791165342',N'Nữ','tracy20@example.net';
+EXEC insertPatient 'John Ramos','2012-10-13','23932 Patel Brooks, Port Ashley','0913986300',N'Nam','caleb82@example.net';
+EXEC insertPatient 'Jeffrey Peters','2014-04-25','PSC 5771, Box 7007, APO AA 52714','0062871625',N'Nam','darren03@example.org';
+EXEC insertPatient 'Juan Thomas','1985-12-19','70398 Woods Summit, Hernandezchester','0611599198',N'Nữ','carrie12@example.org';
+EXEC insertPatient 'Rachel Garza','1969-05-31','2694 Daniel Ford Apt. 870, Hectorfort','0395763324',N'Nam','agraham@example.org';
+EXEC insertPatient 'John Watkins','1972-03-30','72613 Palmer Streets, Lopezville','0766428269',N'Nam','daniel64@example.org';
+EXEC insertPatient 'Taylor Baker','2009-05-08','41556 Bowers Forks, Alvarezhaven','0094652898',N'Nam','pjones@example.org';
+EXEC insertPatient 'Angel Miller','2000-03-29','9375 Michael Shore, Petersmouth','0579064367',N'Nữ','zmacias@example.com';
+EXEC insertPatient 'Anthony Russell','1959-03-15','62501 Kane Isle, Lake Nicholas','0384413305',N'Nữ','efoster@example.net';
+EXEC insertPatient 'Jessica Smith','1999-03-21','1924 Teresa Glen Apt. 933, Carrollshire','0180802528',N'Nam','seth88@example.net';
+EXEC insertPatient 'Cameron Martinez','2005-04-11','84171 Scott Stream, Tylerside','0914694211',N'Nam','amber63@example.com';
+EXEC insertPatient 'Stacey Floyd','2012-09-09','47463 Cross Oval Suite 836, Susanfort','0461155749',N'Nam','vglass@example.org';
+EXEC insertPatient 'Marc Hart','1959-10-27','6377 Welch Canyon, Rebeccachester','0469512334',N'Nam','umiller@example.org';
+EXEC insertPatient 'Antonio Reyes','1978-03-30','837 Kevin Square Suite 982, Schmidtshire','0321353689',N'Nữ','ndavis@example.org';
+EXEC insertPatient 'Brandi Davis','2001-08-20','288 April Summit Suite 775, Walkermouth','0052843081',N'Nam','tonya59@example.org';
+EXEC insertPatient 'Monique Smith','1983-08-18','62031 Smith Flat Apt. 423, Kelleyfort','0910477718',N'Nữ','bbridges@example.net';
+EXEC insertPatient 'Amanda Hamilton','1964-07-08','1406 Miller Common, Woodton','0776470990',N'Nữ','plindsey@example.org';
+EXEC insertPatient 'Alexis Lee','1960-08-08','346 Brianna Falls, Daughertyborough','0601560565',N'Nam','adavis@example.com';
+EXEC insertPatient 'Alejandra James','1993-06-12','0714 Rebecca Village Apt. 105, Annaton','0874837562',N'Nam','markwood@example.com';
+EXEC insertPatient 'Russell Soto','2007-07-06','6853 Jennifer Wells, North John','0330717911',N'Nữ','dawnbyrd@example.net';
+EXEC insertPatient 'Anita Li','2010-06-06','678 Blanchard Freeway Apt. 618, Johntown','0492231481',N'Nữ','fhill@example.net';
+EXEC insertPatient 'Amy Meza','1963-08-11','8392 Hill Forest, Ewingburgh','0176970531',N'Nữ','gblevins@example.net';
+EXEC insertPatient 'Deborah Chavez','1983-05-30','2192 Daniel Port Apt. 680, East Sarah','0728869879',N'Nam','kelly72@example.com';
+EXEC insertPatient 'Laura Smith','1979-08-02','562 Chris Trafficway, North Karen','0728480355',N'Nữ','sandra09@example.net';
+EXEC insertPatient 'Alexis Smith','1984-06-18','630 Curtis Lane, Carrollbury','0126456597',N'Nam','mark74@example.com';
+EXEC insertPatient 'Lauren Garcia','2002-06-14','2267 Bailey Squares, Kristineshire','0094092421',N'Nam','tdixon@example.org';
+EXEC insertPatient 'Craig Watkins','1967-10-19','245 Christine Flat, Katherineside','0410816366',N'Nữ','jeremy79@example.org';
+EXEC insertPatient 'Danielle Jones','2004-01-13','9454 Shelly Junction, Donburgh','0003865655',N'Nữ','whill@example.org';
+EXEC insertPatient 'Olivia Daniel','1969-08-24','393 Eric Meadow, South Deborahfurt','0945558403',N'Nữ','shawn93@example.com';
+EXEC insertPatient 'Dr. Gary Goodwin','1970-04-30','93654 York Club, South Jacob','0728250360',N'Nam','sjones@example.net';
+EXEC insertPatient 'Diane Harrison','1997-09-10','21184 Shannon Mews, West Michael','0855546194',N'Nam','tvaughn@example.com';
+EXEC insertPatient 'Melissa Alvarado','2007-10-05','Unit 6409 Box 8093, DPO AE 11301','0627334863',N'Nam','lewisamy@example.net';
+EXEC insertPatient 'Tiffany Simmons','1960-10-13','2466 Harris Shoal, Cannonbury','0681197886',N'Nữ','fsimpson@example.org';
+EXEC insertPatient 'Tyrone Aguilar','1994-09-26','4444 Hill Union Suite 176, Port Mark','0697574595',N'Nam','hross@example.com';
+EXEC insertPatient 'Michael Smith','1967-02-21','2789 Carroll Haven, East Natalieborough','0526396319',N'Nam','ravila@example.net';
+EXEC insertPatient 'Derrick Campos','1958-04-07','166 Ali Burg Apt. 840, Jamesside','0330551073',N'Nam','zreyes@example.com';
+EXEC insertPatient 'Darius Pacheco','2000-02-29','53184 Kristina Haven, Port Bradley','0075569397',N'Nam','gpena@example.net';
+EXEC insertPatient 'Michelle Larson','1990-11-06','90515 Tucker Lodge, Port Denise','0451147727',N'Nữ','dawn85@example.net';
+EXEC insertPatient 'Joseph Lee','2002-07-31','1600 Williams Gateway, Chenton','0491916726',N'Nam','friley@example.com';
+EXEC insertPatient 'Melissa Walker','1970-03-11','48190 Booker Islands, Lewisview','0121304314',N'Nam','vmorris@example.net';
+EXEC insertPatient 'Justin Floyd','1988-12-28','PSC 9390, Box 0705, APO AE 62905','0643716364',N'Nam','wdawson@example.net';
+EXEC insertPatient 'Amy Reilly','2010-02-18','PSC 4806, Box 7008, APO AA 20600','0655253149',N'Nam','sherry82@example.net';
+EXEC insertPatient 'Kristen Peterson','2016-03-07','193 Allison Locks, East Christineborough','0307529216',N'Nữ','bwolf@example.net';
+EXEC insertPatient 'Emily Cortez','2001-04-15','98245 Lucero Junctions, Alexismouth','0997860709',N'Nam','qsmith@example.org';
+EXEC insertPatient 'Jeffrey Holt','1984-08-09','5747 Morris Forks Apt. 371, Juliehaven','0483353682',N'Nam','amills@example.net';
+EXEC insertPatient 'Christopher Bradley','1993-10-21','569 Casey Row, Port Michellehaven','0051826156',N'Nam','xcochran@example.org';
+EXEC insertPatient 'William Wilson','1982-09-04','86017 Richard Bypass, Port Cindyview','0051117726',N'Nam','jimmy62@example.org';
+EXEC insertPatient 'Scott Banks','1979-08-04','06016 Johnson Mount, Davisberg','0144814966',N'Nam','lharris@example.com';
+EXEC insertPatient 'James Tran','1996-08-30','327 Hodges Mission Apt. 136, Lisachester','0132395353',N'Nam','hmoses@example.net';
+EXEC insertPatient 'Patrick Potter','2017-04-27','978 Lydia Skyway, Alexandermouth','0050595451',N'Nam','jsloan@example.net';
+EXEC insertPatient 'Zachary Ruiz','1995-10-23','43226 Cook Junctions, South Aaronchester','0391875965',N'Nữ','cking@example.net';
+EXEC insertPatient 'Sarah Wood','1963-08-10','3138 Steve Lights Apt. 117, Holmesfurt','0472100830',N'Nam','ericray@example.org';
+EXEC insertPatient 'Donna Roberts','1997-06-19','USS Cruz, FPO AE 25423','0713170891',N'Nam','renee56@example.com';
+EXEC insertPatient 'Hunter Hill','1993-01-28','2029 Gina Lane Apt. 300, Randallstad','0030328039',N'Nam','kevin01@example.org';
+EXEC insertPatient 'Brian English','1984-08-10','0125 Johnson Ville, Port Timothyhaven','0523902455',N'Nam','yfields@example.org';
+EXEC insertPatient 'Kari Brown','2007-09-21','4125 Christina Causeway, New Edward','0457171019',N'Nữ','jason96@example.com';
+EXEC insertPatient 'Kimberly Johnson','1958-09-16','PSC 5317, Box 2229, APO AA 07414','0733553392',N'Nam','anna38@example.org';
+EXEC insertPatient 'William Stephens','2007-06-26','93744 Sellers Stream, Jasonbury','0049517991',N'Nam','robert85@example.org';
+EXEC insertPatient 'Sean Ferrell','1965-12-05','429 Marc Village Suite 264, Kellyburgh','0078700969',N'Nữ','coryfrey@example.org';
+EXEC insertPatient 'Timothy Clark','1985-07-15','4028 Roger Station, Terrifurt','0632929618',N'Nam','keith63@example.com';
+EXEC insertPatient 'Christopher Bailey','2006-07-07','96787 Jason Run Suite 975, Frenchfurt','0890723181',N'Nữ','vlucas@example.org';
+EXEC insertPatient 'Brian Reynolds','1959-09-10','2702 Hawkins Manors, Robertsmouth','0288794785',N'Nam','amy81@example.com';
+EXEC insertPatient 'Louis Gray','1961-06-14','38136 Johnston Manor, Lake Rodneyton','0105522427',N'Nam','bmoore@example.org';
+EXEC insertPatient 'Lisa Stewart','1992-06-09','USNV Cervantes, FPO AE 89219','0748011478',N'Nữ','tjimenez@example.org';
+EXEC insertPatient 'Eric Riley','1990-05-28','073 Mccarty Row Suite 443, Brownchester','0298696027',N'Nam','craig81@example.org';
+EXEC insertPatient 'Jessica Bradley','1984-02-19','364 Austin Burg Apt. 228, West Lauraland','0950637900',N'Nam','sparks@example.com';
+EXEC insertPatient 'Rhonda Lewis','2004-12-11','98302 Cassidy Glen, Adamchester','0288162462',N'Nam','adam42@example.net';
+EXEC insertPatient 'Leah Warren','1967-03-18','21533 Lynch Tunnel, Ingramfurt','0756527234',N'Nữ','austin50@example.org';
+EXEC insertPatient 'Bradley Hall','2012-03-05','345 Emily Lodge Suite 299, Whitemouth','0128148326',N'Nữ','alexa27@example.com';
+EXEC insertPatient 'Phyllis Frank','2012-03-08','1633 Dawson Shoal, Dianastad','0765257452',N'Nữ','zkelley@example.org';
+EXEC insertPatient 'Sean Johnson','2017-01-25','6659 Michael Court Apt. 462, Wyatthaven','0668979573',N'Nam','cherrera@example.com';
+EXEC insertPatient 'Sherri James','1979-12-30','714 Tara Avenue Apt. 285, Port Jasonton','0445487963',N'Nam','kwilson@example.com';
+EXEC insertPatient 'Edgar Bradford','1976-08-28','38963 Coleman Drive, Hectorland','0133192954',N'Nam','robert58@example.org';
+EXEC insertPatient 'Shelly Grant','1985-04-14','7018 Smith Glen, Kevinstad','0551854337',N'Nam','nmorris@example.net';
+EXEC insertPatient 'Kayla Garcia','1968-07-28','24669 Clark Canyon, Costaborough','0338813013',N'Nữ','tlong@example.org';
+EXEC insertPatient 'Jared Dunlap','2012-10-13','70944 Johnson Mill, Sarahmouth','0884196977',N'Nam','enewman@example.com';
+EXEC insertPatient 'Mary Molina','2004-03-10','9188 Laura Rapid, East Haleymouth','0996094948',N'Nữ','carl47@example.net';
+EXEC insertPatient 'Tiffany Payne','1984-01-23','4841 Kyle Loop, Ramseymouth','0568313847',N'Nữ','rhonda02@example.org';
+EXEC insertPatient 'Patricia Johnson','1981-04-08','111 Mccann Valleys, South Anthonyside','0336824355',N'Nam','pking@example.net';
+EXEC insertPatient 'Brittany Stanley','1997-02-15','8327 Chad Center, Smithborough','0249105732',N'Nữ','wpatel@example.net';
+EXEC insertPatient 'Aaron Mack','1964-09-28','903 Ross Flat, Lake Daniel','0424078672',N'Nam','lkelly@example.com';
+EXEC insertPatient 'Michael Woods','1982-01-24','PSC 5964, Box 4568, APO AA 60218','0676415145',N'Nam','stacey82@example.net';
+EXEC insertPatient 'Debbie Martinez','1990-11-10','77658 Lisa Point, New Albertbury','0271576780',N'Nữ','erica55@example.net';
+EXEC insertPatient 'Gregory Perez','1988-06-06','95233 Rhonda Walk, Joseburgh','0459114823',N'Nam','mberry@example.org';
+EXEC insertPatient 'Karen Mccormick','1994-01-18','07060 Hall Glens, New Susanside','0267737014',N'Nam','johnbush@example.com';
+EXEC insertPatient 'Jamie Torres','1995-01-20','81643 Miller Knolls, North Danielfurt','0679843325',N'Nữ','dmendoza@example.com';
+EXEC insertPatient 'Juan Odonnell','1987-02-01','49833 Martinez Crescent, New Debraport','0627318154',N'Nữ','pschmitt@example.net';
+EXEC insertPatient 'Jorge Reyes','2009-02-22','13439 Jonathan Plaza, Caitlinville','0685909962',N'Nữ','donna99@example.org';
+EXEC insertPatient 'Courtney Payne','1961-08-13','Unit 1493 Box 5814, DPO AE 85562','0463130414',N'Nữ','fmarsh@example.org';
+EXEC insertPatient 'Janice Garcia','1983-03-17','Unit 9530 Box 3109, DPO AA 60529','0436095759',N'Nữ','qlucas@example.net';
+EXEC insertPatient 'Amy Smith','1986-05-20','0991 Foley Islands, New Ashleytown','0947189011',N'Nam','jason93@example.com';
+EXEC insertPatient 'Michael Meyer','1978-12-07','946 Shannon Squares, Matthewsbury','0732917663',N'Nữ','nmyers@example.net';
+EXEC insertPatient 'Steve Riggs','1961-11-09','7424 Jennifer Drive, West Henry','0141445505',N'Nam','jamie98@example.net';
+EXEC insertPatient 'Catherine Jones','2006-03-07','7891 Joseph Trace Apt. 307, New James','0488274498',N'Nữ','pmorgan@example.org';
+EXEC insertPatient 'Stacey Hudson DDS','2011-11-08','4369 Brown Squares, Oliviafurt','0661138513',N'Nữ','brandi11@example.com';
+EXEC insertPatient 'Laura Kelly','1968-03-30','89312 Howard Divide, Reyesport','0614104273',N'Nam','cmiller@example.org';
+EXEC insertPatient 'Tina Mcgee','2005-09-22','69205 Gabrielle Ford, Griffinberg','0862429703',N'Nữ','linda48@example.com';
+EXEC insertPatient 'Tami Anderson','2009-06-18','587 Martin Stravenue, Nicholasville','0981724730',N'Nam','rdavis@example.net';
+EXEC insertPatient 'Teresa Davis','1999-02-14','8539 Barker Squares, Williamburgh','0734947580',N'Nam','john95@example.org';
+EXEC insertPatient 'Timothy Manning','1964-01-18','PSC 0266, Box 0586, APO AP 03636','0071023859',N'Nam','xturner@example.net';
+EXEC insertPatient 'Teresa Johnson','1978-06-06','USS Hawkins, FPO AP 90580','0586779689',N'Nam','fjohnson@example.com';
+EXEC insertPatient 'Debra Allen','1964-09-06','4955 Buck Trace, Schneiderbury','0065576917',N'Nam','vsavage@example.net';
+EXEC insertPatient 'Timothy Hogan','2000-01-30','59365 Snyder Corner, Calhounfurt','0379750392',N'Nữ','dawn24@example.com';
+EXEC insertPatient 'Julie Mosley','1962-03-27','3143 Burgess Forest Apt. 670, Castroton','0575063566',N'Nam','thomas20@example.com';
+EXEC insertPatient 'Melissa King','1969-03-11','5204 Davila Locks, South Kelli','0702854039',N'Nam','owilson@example.org';
+EXEC insertPatient 'Jennifer Johnson','1996-11-25','80653 Reed Pine Apt. 533, Michelleshire','0876980077',N'Nữ','zhuynh@example.org';
+EXEC insertPatient 'Phillip Mckee','1959-12-17','9721 William Burg Suite 869, Reidbury','0537417969',N'Nam','deanna17@example.net';
+EXEC insertPatient 'Matthew Ortiz','1979-03-18','5985 Natalie Mountains, Toddland','0811789595',N'Nữ','tgibson@example.org';
+EXEC insertPatient 'Walter Walters','1969-05-03','PSC 3619, Box 6704, APO AP 47206','0009230868',N'Nam','dharris@example.com';
+EXEC insertPatient 'Ashley Perez','1969-05-23','85417 Morrow Ranch, Port Tonyaborough','0144606588',N'Nữ','seanryan@example.org';
+EXEC insertPatient 'Joseph Decker','1966-10-11','USNS Webb, FPO AP 09612','0433935934',N'Nam','ptaylor@example.com';
+EXEC insertPatient 'Mr. Joel Johnson','1998-03-20','PSC 2740, Box 1673, APO AP 97504','0996555526',N'Nữ','steven05@example.net';
+EXEC insertPatient 'Kelly Brown','1985-09-16','0790 Paul Road Apt. 210, West Laura','0139954055',N'Nam','emily53@example.org';
+EXEC insertPatient 'Jody Hampton','1965-08-31','9139 Williams Circles, Smithshire','0612872412',N'Nữ','duane53@example.com';
+EXEC insertPatient 'Scott Davenport','1983-12-16','608 Meghan Green, Jenniferchester','0143356459',N'Nam','tcarroll@example.org';
+EXEC insertPatient 'Deborah Carroll','1962-01-15','733 Zachary Loop, Watkinsmouth','0471889243',N'Nam','gvasquez@example.org';
+EXEC insertPatient 'Christine Weaver','1997-07-09','USNS Hamilton, FPO AP 15039','0199465748',N'Nữ','bclayton@example.org';
+EXEC insertPatient 'Shannon Joseph','2010-06-06','87603 Kevin Trafficway, Mikemouth','0854952088',N'Nữ','carol45@example.org';
+EXEC insertPatient 'Nicole Collins','1977-05-12','37224 Hicks Mountain, Port Jennifer','0670800306',N'Nam','rhays@example.org';
+EXEC insertPatient 'Wanda Keller','1999-04-05','690 Diane Trail Suite 421, West Sarah','0502263329',N'Nữ','qtran@example.org';
+EXEC insertPatient 'Jaclyn Mckenzie','1963-11-25','PSC 7421, Box 1757, APO AP 49137','0159844950',N'Nữ','david17@example.com';
+EXEC insertPatient 'Carolyn Pennington','1974-06-23','4843 Gregory Plain, Port Randyfort','0879011667',N'Nam','andrew79@example.com';
+EXEC insertPatient 'Christopher Lowe','1959-10-29','06401 Amber Track, West Pamelamouth','0366707893',N'Nữ','irobbins@example.org';
+EXEC insertPatient 'Christina Sanchez','2014-07-21','18033 Price Viaduct Suite 625, New Jason','0365919459',N'Nam','khunt@example.org';
+EXEC insertPatient 'Samuel Wilkins','1982-08-22','USS Joyce, FPO AP 47615','0719954810',N'Nam','ujones@example.org';
+EXEC insertPatient 'Gregory Martin','1990-08-02','3603 Susan Rapids, Lawsonton','0918603601',N'Nam','karen72@example.net';
+EXEC insertPatient 'Jon White','2011-08-09','1020 Megan Fall Apt. 567, Morrischester','0024179026',N'Nữ','tammy87@example.net';
+EXEC insertPatient 'Matthew Holt','1967-03-29','05015 Megan Plains Apt. 745, Dawnview','0572354908',N'Nam','jnguyen@example.net';
+EXEC insertPatient 'April Allen','1985-05-29','PSC 7314, Box 5762, APO AA 06588','0289279094',N'Nam','tommy57@example.com';
+EXEC insertPatient 'Chad Watson','2009-05-31','94926 Kristina Pass, Adamsport','0445944538',N'Nam','regina06@example.net';
+EXEC insertPatient 'Carol Rice','1961-09-23','517 Parks Keys Apt. 031, Cookport','0973882982',N'Nữ','hhenry@example.org';
+EXEC insertPatient 'Matthew Green','2010-12-05','PSC 1438, Box 6955, APO AP 46878','0350923998',N'Nữ','hbyrd@example.org';
+EXEC insertPatient 'Michelle Smith','2005-01-21','428 Noble Ramp, South James','0967542735',N'Nữ','igordon@example.org';
+EXEC insertPatient 'Tracy Tucker','2002-06-29','0990 Joseph Knoll, Jacksonbury','0142676888',N'Nam','ujones@example.net';
+EXEC insertPatient 'Russell Davis','1958-12-06','0389 Sandoval Knolls, Port Ralphburgh','0896950392',N'Nam','mark89@example.com';
+EXEC insertPatient 'Michael Glover','2000-06-05','520 Natalie Point, Lake Jamieside','0657270124',N'Nam','rjohnson@example.com';
+EXEC insertPatient 'Gerald Leonard','1969-01-07','296 Carter Mews, Romerostad','0439778483',N'Nam','cgilmore@example.org';
+EXEC insertPatient 'Diane Bates','2012-05-24','4889 Neal Gateway, Port Christopherburgh','0960728021',N'Nữ','ktaylor@example.com';
+EXEC insertPatient 'Russell Johnson','2014-06-06','20382 Steven Course, Howardborough','0792406972',N'Nam','lmichael@example.org';
+EXEC insertPatient 'Carrie Christian','2014-06-23','8013 Young Path, Nelsonmouth','0135910803',N'Nam','xnoble@example.com';
+EXEC insertPatient 'William Smith','1965-01-10','35194 Cervantes Run, Kylestad','0692094304',N'Nam','qrivers@example.net';
+EXEC insertPatient 'Eileen Fields','1989-04-25','55393 Miller Freeway, Thompsonview','0392955585',N'Nam','hliu@example.net';
+EXEC insertPatient 'Theresa Lewis','1989-12-28','924 Timothy Crossroad, Bakerchester','0930230095',N'Nam','lchen@example.com';
+EXEC insertPatient 'Darren White','2012-06-17','8853 Samantha Glen Apt. 991, Amandaton','0436015472',N'Nữ','steven85@example.com';
+EXEC insertPatient 'Edward Brooks','1994-11-23','84630 Gregory Burgs Apt. 226, West Nancy','0735850781',N'Nam','cmartin@example.com';
+EXEC insertPatient 'Alexandra Francis','2011-03-28','USNV Lynch, FPO AE 95378','0150724021',N'Nam','dana54@example.com';
+EXEC insertPatient 'Carol Moyer','1984-01-27','2026 Crosby Green, New Patrick','0131245755',N'Nữ','keith55@example.net';
+EXEC insertPatient 'James Porter Jr.','1998-09-15','056 Blankenship Landing, Timothybury','0396073034',N'Nữ','iochoa@example.org';
+EXEC insertPatient 'James Hernandez','2000-10-17','03275 Natalie Circle, Port Pamelaville','0765625569',N'Nữ','lucas15@example.org';
+EXEC insertPatient 'Anthony Holt','2006-06-01','98803 Smith Ranch Suite 582, Noahborough','0394851470',N'Nam','racevedo@example.com';
+EXEC insertPatient 'Nathan Maldonado','1974-05-21','467 Laura Ridge, North Harold','0326726176',N'Nữ','gdavis@example.org';
+EXEC insertPatient 'Steven Waller','2009-01-14','PSC 0769, Box 0222, APO AE 10877','0251176435',N'Nam','dowens@example.com';
+EXEC insertPatient 'Curtis Snyder','2002-01-13','PSC 9915, Box 6821, APO AA 79946','0167390001',N'Nữ','dwillis@example.com';
+EXEC insertPatient 'Zachary Wise','2000-10-09','60333 Jackson Corners, Phambury','0048791327',N'Nam','julie96@example.net';
+EXEC insertPatient 'Marcus Smith','1981-07-04','20688 Alexander Keys, East Anneton','0564357225',N'Nữ','mark05@example.net';
+EXEC insertPatient 'Suzanne Garcia','1968-05-11','4989 Joshua Lake, Lake Jared','0153094000',N'Nam','umorris@example.com';
+EXEC insertPatient 'Christine Harris','2007-12-29','55321 Taylor Isle, New Jimmyville','0205451297',N'Nữ','odawson@example.net';
+EXEC insertPatient 'Cindy Gonzalez','2016-01-21','376 Cantrell Route Suite 818, Marshview','0612812293',N'Nữ','olivia32@example.com';
+EXEC insertPatient 'Holly Pearson','2014-02-04','506 Cristian Plaza, Griffinchester','0260739170',N'Nam','npatel@example.com';
+EXEC insertPatient 'Heather Gonzalez','1991-07-03','157 Taylor Mountain, Sandraville','0974774844',N'Nam','whawkins@example.org';
+EXEC insertPatient 'William Hopkins','1981-06-04','986 Durham Valley, Edwardchester','0688424542',N'Nam','ariana96@example.net';
+EXEC insertPatient 'Stephen Sanchez','2001-01-07','479 Kelly Burg, Ortizport','0773009822',N'Nữ','tking@example.net';
+EXEC insertPatient 'Natalie Cox','2002-10-24','482 Hughes Causeway, East William','0713093609',N'Nam','ryan33@example.org';
+EXEC insertPatient 'Angela Cooper','1992-11-17','9573 Wendy Well Suite 287, Donaldmouth','0196257774',N'Nữ','brian89@example.net';
+EXEC insertPatient 'Sylvia Kelly','1998-02-07','17779 Cody Drive, Amandashire','0114360537',N'Nam','zskinner@example.net';
+EXEC insertPatient 'Bonnie Fields','2014-03-10','PSC 9656, Box 3186, APO AP 97692','0427661715',N'Nữ','mtaylor@example.net';
+EXEC insertPatient 'Austin Powers','1970-06-28','007 Diaz Fields, North Jessicafort','0508552982',N'Nữ','nmolina@example.net';
+EXEC insertPatient 'David Rodriguez','1964-12-09','4353 Brown Locks, Smithchester','0422712096',N'Nam','uchan@example.com';
+EXEC insertPatient 'Jessica Ellis','1997-06-02','4506 Ernest Canyon, Baileybury','0292854434',N'Nam','dmills@example.org';
+EXEC insertPatient 'Barbara Walker','1964-12-21','966 Allen Ridges, East Amandafurt','0933830707',N'Nữ','jmiller@example.net';
+EXEC insertPatient 'Shelly Lawson','2016-01-03','626 Heather Street, New Lauraside','0927785117',N'Nam','woodjohn@example.net';
+EXEC insertPatient 'Rachel Wilcox','1996-07-24','66110 Mary Squares, Harrisburgh','0180716393',N'Nữ','jerry32@example.org';
+EXEC insertPatient 'Joseph King','1974-12-05','351 Johnson Springs Suite 974, Jamesview','0339180656',N'Nữ','fsmith@example.org';
+EXEC insertPatient 'Jared Fleming','1963-01-05','PSC 5237, Box 6725, APO AA 85388','0776306780',N'Nữ','chad61@example.org';
+EXEC insertPatient 'Brooke Simpson','2003-08-28','PSC 1375, Box 3085, APO AP 95663','0854501780',N'Nữ','robert00@example.org';
+EXEC insertPatient 'Kristen Brewer','1958-08-22','32373 Jackson Creek, East Barbara','0261422948',N'Nam','david85@example.net';
+EXEC insertPatient 'James Lloyd','2012-04-17','2551 Casey Squares, West Dennis','0219883106',N'Nữ','yjones@example.net';
+EXEC insertPatient 'Nicole Miller','1982-10-03','2680 Eugene Port Suite 779, Larahaven','0501386940',N'Nữ','swoodard@example.org';
+EXEC insertPatient 'Ashlee Lloyd','2015-07-07','5303 Vincent Point, East Christineton','0479232501',N'Nữ','regina85@example.org';
+EXEC insertPatient 'Justin Hawkins','2017-09-19','97245 Stephen Isle Suite 263, Shaneberg','0865184260',N'Nữ','tina37@example.com';
+EXEC insertPatient 'David Shepherd','2015-12-15','2381 Meredith Circles, Frankfurt','0168540088',N'Nữ','isanders@example.com';
+EXEC insertPatient 'Carol Phillips','1964-12-25','1963 Mills Ford Apt. 218, South Sherry','0132071480',N'Nam','ksanders@example.com';
+EXEC insertPatient 'Frank Allen','2002-10-01','PSC 7970, Box 1896, APO AE 49703','0379520531',N'Nữ','joseph59@example.net';
+EXEC insertPatient 'Kevin Heath','1996-02-14','70732 Bond Parkway, East Nicholas','0138208560',N'Nam','uarnold@example.com';
+EXEC insertPatient 'Luis Hill','1991-07-05','01538 David Dale, Angelaport','0143275231',N'Nữ','ruizkari@example.org';
+EXEC insertPatient 'Colleen Dawson','1990-04-11','01034 Osborne Land, Hansonfurt','0177249839',N'Nữ','laura82@example.com';
+EXEC insertPatient 'Sabrina Flores','1966-04-02','899 Toni Dale, North Christopher','0992901995',N'Nam','fcook@example.com';
+EXEC insertPatient 'Steven Davis','1958-11-17','072 Carla Route, Brownburgh','0898656446',N'Nữ','blake79@example.com';
+EXEC insertPatient 'Deanna Ramos','1979-03-01','290 Brandon Vista, Bennettport','0683332852',N'Nam','ricedawn@example.net';
+EXEC insertPatient 'Julie Nolan','1977-03-05','981 Robinson Streets, Brandonfurt','0801805491',N'Nam','bryan89@example.org';
+EXEC insertPatient 'Jason Novak','2001-05-21','43926 Lee Mountains, East Oscar','0442452367',N'Nam','joseph50@example.org';
+EXEC insertPatient 'Scott Adams','2017-07-27','853 Morgan Canyon, Elizabethchester','0933892443',N'Nam','thomas04@example.net';
+EXEC insertPatient 'Joseph Fuentes','1959-06-22','9837 Sullivan Manors, New Tiffany','0610665916',N'Nữ','amy61@example.net';
+EXEC insertPatient 'Kathy Shannon','2007-09-22','712 Derek Run, Ericbury','0267597823',N'Nữ','byang@example.org';
+EXEC insertPatient 'Shannon Reid','1991-03-02','798 Rachel Pass Apt. 164, Kayleechester','0360409905',N'Nữ','sally83@example.net';
+EXEC insertPatient 'Tamara Hines','2010-09-14','USNV Cole, FPO AA 20990','0603197971',N'Nữ','ysmith@example.org';
+EXEC insertPatient 'Jorge Lee','1970-04-01','6712 Lisa Mission Apt. 132, West James','0973739109',N'Nữ','vwebb@example.org';
+EXEC insertPatient 'Beth Bowman','1990-01-20','724 Jonathan Knoll, Lake Erikfort','0933765215',N'Nam','robert42@example.org';
+EXEC insertPatient 'Stephanie Bishop','1976-11-01','0343 Ford Run, Port Robinbury','0369304132',N'Nữ','ashley20@example.com';
+EXEC insertPatient 'Kenneth Rush','1968-06-15','Unit 2493 Box 2551, DPO AE 95974','0148487696',N'Nữ','kdelgado@example.com';
+EXEC insertPatient 'Jenna Carter','1991-09-15','4290 Donald Points Suite 850, Jonesville','0261078453',N'Nam','vbell@example.net';
+EXEC insertPatient 'Mike Stokes','2017-05-20','USNS Krause, FPO AE 44812','0746105242',N'Nữ','bperez@example.net';
+EXEC insertPatient 'Felicia Acevedo','1988-05-17','6301 Gregory Glen, Port Robert','0398562311',N'Nữ','plang@example.com';
+EXEC insertPatient 'Sarah Stephens MD','2008-03-16','36979 Baker Field, Christinahaven','0887936079',N'Nữ','ccooper@example.com';
+EXEC insertPatient 'Kelly Jones','2006-01-16','USCGC Gregory, FPO AA 27971','0583903002',N'Nữ','byoung@example.com';
+EXEC insertPatient 'Bobby Green','1970-06-19','521 Katherine Lock, New Patrick','0157962421',N'Nam','jrowe@example.org';
+EXEC insertPatient 'Sheila Grant','2012-03-11','429 Michael Well, Brittanyshire','0774715053',N'Nam','carrjose@example.org';
+EXEC insertPatient 'Terry Baker','1980-08-20','090 Ayala Corners, Port Nathanfurt','0186318892',N'Nam','driggs@example.net';
+EXEC insertPatient 'Jodi Lawson','1988-07-17','77539 Simpson Freeway, Garciabury','0662090853',N'Nam','eric98@example.net';
+EXEC insertPatient 'Carol Rodgers','1986-09-24','515 Simpson Falls, Olsonhaven','0331437365',N'Nam','robert33@example.org';
+EXEC insertPatient 'Angela Caldwell','2002-10-27','457 Flores Turnpike Suite 494, East John','0279222504',N'Nam','aaron79@example.net';
+EXEC insertPatient 'Jennifer Martinez','2010-08-28','USS Clark, FPO AA 22383','0405926912',N'Nam','karen71@example.org';
+EXEC insertPatient 'Thomas Davila','1960-02-10','Unit 2542 Box 7889, DPO AP 64410','0844361380',N'Nam','kparker@example.com';
+EXEC insertPatient 'Michael Turner','2011-08-25','6699 Diana Islands Suite 262, West Gary','0872434164',N'Nam','isloan@example.com';
+EXEC insertPatient 'John Smith','1999-10-06','072 Sheila Ville Apt. 191, Lake Adam','0919855401',N'Nam','msmith@example.com';
+EXEC insertPatient 'Michael Obrien','1974-06-03','8329 Glover Throughway, New Ericville','0088909871',N'Nữ','travis15@example.com';
+EXEC insertPatient 'Shane Scott','1964-02-04','95078 Perez Locks Apt. 337, Teresaland','0711420826',N'Nữ','ddavis@example.com';
+EXEC insertPatient 'Anthony Perez','1992-03-01','PSC 8622, Box 9859, APO AE 50551','0827154130',N'Nữ','homark@example.net';
+EXEC insertPatient 'Christina Parker','1993-10-31','99450 Watkins Squares, Lake Zacharyhaven','0616061404',N'Nam','zjackson@example.com';
+EXEC insertPatient 'Lindsay Hines','1976-06-26','7763 Cory Fields, New Edwardside','0697043550',N'Nam','april15@example.com';
+EXEC insertPatient 'Eddie Kaufman','1963-08-19','264 Nguyen River, Port Georgetown','0323768788',N'Nam','glevine@example.com';
+EXEC insertPatient 'Jessica Lowe','2007-12-09','37864 Cathy Run, East Mercedes','0506376047',N'Nữ','ufranco@example.org';
+EXEC insertPatient 'Eric Jenkins','1964-02-06','USNS Rogers, FPO AA 81046','0527392468',N'Nữ','wnelson@example.org';
+EXEC insertPatient 'William Matthews','2014-12-29','448 Nathan Mall, Mullenfurt','0016441517',N'Nam','andrew25@example.org';
+EXEC insertPatient 'Adam Jackson','1986-05-27','472 Moran Parks Apt. 540, Kimberlystad','0444522255',N'Nam','pwilkins@example.net';
+EXEC insertPatient 'Heather Perez','1965-07-05','994 Maria Canyon Suite 068, Lake Andrew','0482212406',N'Nam','nbruce@example.com';
+EXEC insertPatient 'Luis Marshall','2005-02-12','2254 Katherine Path, Smithport','0719968022',N'Nữ','vbryan@example.net';
+EXEC insertPatient 'Thomas Brooks','1988-06-17','44436 Megan Throughway, Stevensbury','0264514112',N'Nam','umills@example.net';
+EXEC insertPatient 'Brenda Cooper','2000-11-05','4085 Ronnie Oval, North Sheilafort','0210725968',N'Nữ','xruiz@example.com';
+EXEC insertPatient 'Christopher Reyes','1977-03-16','4403 Steven Spurs, New Stacyside','0667006956',N'Nam','ronald66@example.net';
+EXEC insertPatient 'Jodi Sanders','1984-02-13','83293 Shaw Mews Suite 923, Lake Victoria','0302057497',N'Nữ','gcook@example.org';
+EXEC insertPatient 'Laurie Gill','2009-12-13','4867 Garcia Neck, North Maria','0660567173',N'Nữ','fsummers@example.com';
+EXEC insertPatient 'Jim Blackburn','2002-03-24','661 Perez Ramp Suite 264, Lake Rita','0109443190',N'Nữ','ejuarez@example.org';
+EXEC insertPatient 'Benjamin Martin','2014-10-01','8874 Brian Curve Suite 100, South Kathy','0764957323',N'Nữ','gnoble@example.com';
+EXEC insertPatient 'Kerry Suarez','1973-05-22','32923 Christina Tunnel, Lake Cynthia','0820592509',N'Nam','qhenry@example.com';
+EXEC insertPatient 'Sandra Peterson','2014-01-09','USNS Boyle, FPO AE 41260','0713145687',N'Nữ','qlam@example.org';
+EXEC insertPatient 'Rachel Steele','1973-09-22','PSC 3302, Box 4544, APO AP 72955','0033448022',N'Nam','sfoster@example.org';
+EXEC insertPatient 'Zachary Lyons','1990-04-13','469 Adam Rapid, Barnesberg','0706230615',N'Nữ','angela38@example.org';
+EXEC insertPatient 'Dalton Potter','2003-06-13','6757 David Row Suite 993, Johnshire','0709212108',N'Nữ','hking@example.com';
+EXEC insertPatient 'Richard Floyd','1984-05-12','14681 Garcia Grove, Lambberg','0894738438',N'Nam','bmoreno@example.com';
+EXEC insertPatient 'April Hendricks','1975-08-06','23128 Brian Passage, Priceton','0443205838',N'Nam','mia75@example.net';
+EXEC insertPatient 'Gregory Reed','1995-09-25','94025 Ann Summit Suite 945, Jamesburgh','0809728772',N'Nữ','chudson@example.org';
+EXEC insertPatient 'Laura Wong','1963-02-02','Unit 5491 Box 5887, DPO AA 85506','0445591630',N'Nữ','gday@example.com';
+EXEC insertPatient 'Melissa Figueroa','1983-10-23','942 Melissa Prairie, South Joseph','0744514231',N'Nam','eroy@example.org';
+EXEC insertPatient 'Mary Gonzales','1987-07-29','96671 Nicole Ville, New Michaelburgh','0180609812',N'Nữ','xwalker@example.net';
+EXEC insertPatient 'Ashley Crane','2011-06-11','009 Walker Course, Michaelborough','0463842503',N'Nam','xrobbins@example.com';
+EXEC insertPatient 'Frank Dunn','1974-04-15','2625 Kirk Springs Suite 421, Leehaven','0516503199',N'Nam','amber53@example.net';
+EXEC insertPatient 'Alejandro Meyer','1963-08-01','Unit 2682 Box 0948, DPO AE 23060','0028976206',N'Nữ','cory22@example.net';
+EXEC insertPatient 'Randy Martin','2015-12-18','629 Scott Dam Suite 493, West Steven','0045163609',N'Nam','gmoore@example.net';
+EXEC insertPatient 'Denise Blackburn','1997-12-11','16653 Tina Mills Suite 078, Patelport','0906790372',N'Nam','cnelson@example.com';
+EXEC insertPatient 'Anthony Moore','2006-02-03','86889 Ray Landing Apt. 368, Haleyville','0353505147',N'Nam','gina09@example.com';
+EXEC insertPatient 'Ryan Johnson','2005-07-07','00751 Tara Street, Markport','0678835804',N'Nữ','scott00@example.org';
+EXEC insertPatient 'Regina Nelson','1997-12-31','1563 Ballard Loop, Rayville','0984332075',N'Nữ','kdavid@example.net';
+EXEC insertPatient 'Michelle Elliott','1961-09-11','255 Wilson Burg Apt. 071, Rogerborough','0136234255',N'Nữ','hannah14@example.org';
+EXEC insertPatient 'Wendy Villarreal','1978-10-02','164 Melissa Plaza, Lake Barbarahaven','0389936882',N'Nam','rwhite@example.com';
+EXEC insertPatient 'Johnny Bruce','1972-12-13','8838 Wood Hollow, Kleinfurt','0373851675',N'Nữ','lmiller@example.org';
+EXEC insertPatient 'Christopher Beard','1964-02-19','USS Gaines, FPO AE 38857','0088305956',N'Nam','fmalone@example.com';
+EXEC insertPatient 'Brandon Oconnor','1995-10-25','2658 Mooney Glens Apt. 106, Jamieshire','0564266978',N'Nữ','yryan@example.org';
+EXEC insertPatient 'James Garcia','2014-05-07','01919 Andrea Lodge, South Joshua','0710504280',N'Nữ','kayla36@example.net';
+EXEC insertPatient 'Christina Robbins','2014-03-12','36324 Flynn Ranch Apt. 367, North Gina','0358560054',N'Nữ','xavery@example.net';
+EXEC insertPatient 'Jason Cox','2012-07-15','94686 Shelby Island, Blakemouth','0653167320',N'Nữ','vwilson@example.org';
+EXEC insertPatient 'Roy Bailey','1980-10-19','Unit 2812 Box 3769, DPO AA 61385','0720655863',N'Nữ','mmoran@example.net';
+EXEC insertPatient 'Michele Foster','2000-08-07','0853 Little Junction Suite 144, Joanbury','0998781655',N'Nam','rhardy@example.org';
+EXEC insertPatient 'David Williams','1963-11-04','3545 Merritt Cove, New Richardville','0698209632',N'Nữ','owaters@example.net';
+EXEC insertPatient 'Sherry Vaughan','2001-10-28','41859 Nathan Union, North Johnhaven','0026591069',N'Nữ','john83@example.org';
+EXEC insertPatient 'David Ward','2015-03-16','49287 Scott Trace Apt. 385, Shanetown','0571038404',N'Nam','naguilar@example.org';
+EXEC insertPatient 'Michelle Reed','2015-12-07','56876 Vaughn Ports, Sharonland','0723509709',N'Nữ','debra23@example.com';
+EXEC insertPatient 'Dawn Baxter','1995-08-19','0684 Amy Ports Apt. 386, Alexside','0512108936',N'Nữ','ebrown@example.net';
+EXEC insertPatient 'Mark Ford','1989-11-15','PSC 6475, Box 6124, APO AE 62626','0615735558',N'Nam','shane13@example.com';
+EXEC insertPatient 'Colleen Thompson','2014-11-23','32231 Sarah Land, Reedbury','0492186428',N'Nam','skelly@example.net';
+EXEC insertPatient 'Alexis Smith','2003-12-19','1498 Mcneil Ports, Martinport','0005908856',N'Nữ','jacob72@example.org';
+EXEC insertPatient 'Cassie Gallagher','1996-10-28','USCGC Henry, FPO AA 47097','0054666318',N'Nam','andrea99@example.com';
+EXEC insertPatient 'Devin King','1996-05-24','Unit 1257 Box 5901, DPO AP 52020','0468044101',N'Nữ','mary54@example.com';
+EXEC insertPatient 'Joseph Jacobson','1959-11-09','66370 Haynes Grove, Lewiston','0013561539',N'Nữ','hector12@example.net';
+EXEC insertPatient 'Brian Graham','1973-09-20','1991 Jill Locks, West Ericafurt','0990998998',N'Nữ','debra48@example.org';
+EXEC insertPatient 'Michael Serrano','2012-11-15','0235 Becky Meadow, Port Hollyshire','0370782570',N'Nữ','fjarvis@example.org';
+EXEC insertPatient 'Ashley Walker DDS','1998-04-18','2844 Keith Villages, Christinaside','0497333073',N'Nữ','mary81@example.net';
+EXEC insertPatient 'Robert Welch','2007-09-27','Unit 0623 Box 3790, DPO AA 77844','0263295372',N'Nữ','bthomas@example.net';
+EXEC insertPatient 'Eric Cole','1982-10-15','479 Michael Unions Suite 154, Nielsenton','0132618088',N'Nữ','mark52@example.com';
+EXEC insertPatient 'Joseph Stone','1958-05-20','174 George Road, West Linda','0187970423',N'Nữ','logan37@example.org';
+EXEC insertPatient 'Michael Mccall','1971-01-17','400 Kimberly Burg, Howestad','0541122283',N'Nữ','ronald94@example.com';
+EXEC insertPatient 'Sherry Harrell','1958-03-11','688 Andrew Place, Lake Kathrynborough','0900431796',N'Nữ','vjones@example.org';
+EXEC insertPatient 'Amanda Roberts','1997-08-17','USNS Simmons, FPO AP 46329','0350180078',N'Nữ','dlopez@example.net';
+EXEC insertPatient 'Jeffrey Le','1968-09-11','991 Skinner Walks, Archerberg','0547201095',N'Nữ','boydtroy@example.org';
+EXEC insertPatient 'Stephanie Evans','1985-03-31','Unit 3429 Box 6937, DPO AE 28795','0793365126',N'Nam','lhall@example.org';
+EXEC insertPatient 'Shannon Wright DDS','1996-11-21','9442 Jessica Circle, East Jade','0853101830',N'Nữ','isaac23@example.net';
+EXEC insertPatient 'Michael Harmon','2008-08-07','708 Manuel Ville Apt. 406, West Joseph','0833071935',N'Nam','james65@example.org';
+EXEC insertPatient 'Kelly Willis','1986-03-08','PSC 9656, Box 0212, APO AA 69112','0522362689',N'Nam','eric62@example.net';
+EXEC insertPatient 'Dalton Garcia','1992-07-31','USS Gill, FPO AP 17428','0961690222',N'Nữ','jhoward@example.org';
+EXEC insertPatient 'Morgan Johnson','1986-09-04','97772 Hampton Unions, Mezaside','0007020149',N'Nam','james64@example.net';
+EXEC insertPatient 'Stephanie Riley','1967-10-02','486 Michele Drive, Torresview','0508583688',N'Nữ','kjackson@example.net';
+EXEC insertPatient 'Briana Ward','1966-05-10','4077 Erik Harbor, Wrightmouth','0675869978',N'Nam','qhardy@example.net';
+EXEC insertPatient 'Emily Barker','1977-03-21','4477 David Village, Kimhaven','0758145381',N'Nữ','ccameron@example.net';
+EXEC insertPatient 'Matthew Mcdowell','1989-08-09','14545 Franco Knolls Suite 150, Kevinton','0168320584',N'Nam','jleonard@example.com';
+EXEC insertPatient 'Lawrence Taylor','2016-04-07','187 Olson Place Suite 780, Smithfort','0993789241',N'Nam','egrant@example.net';
+EXEC insertPatient 'Christopher Wright','1964-02-19','USCGC Huffman, FPO AA 41412','0473312969',N'Nữ','david40@example.net';
+EXEC insertPatient 'Casey Stewart','1961-05-19','159 Bradley Ways, Karlaberg','0909106690',N'Nam','jerry80@example.com';
+EXEC insertPatient 'David Yang','1980-12-21','USNS Wells, FPO AP 65922','0432849679',N'Nữ','mluna@example.org';
+EXEC insertPatient 'Shannon Christensen','1974-05-08','09406 Martinez Burg, North Angela','0411619801',N'Nam','pwarren@example.net';
+EXEC insertPatient 'William Smith','1966-07-06','5898 Kelly Port Apt. 826, Cooperside','0391873726',N'Nữ','ryan48@example.net';
+EXEC insertPatient 'Joel Gordon','2010-05-31','264 Jonathon Dam, Lake Michael','0642309423',N'Nam','cwest@example.org';
+EXEC insertPatient 'Alexandra Obrien','1959-07-15','779 Noah Shore, North John','0117658362',N'Nữ','hjackson@example.net';
+EXEC insertPatient 'Stephanie Wright','1964-02-24','230 Scott Shore Suite 077, Connormouth','0177212797',N'Nam','john00@example.net';
+EXEC insertPatient 'Jessica Williams','1986-02-04','5343 John Cliff, Justinton','0106166509',N'Nữ','esimon@example.org';
+EXEC insertPatient 'Sabrina Morse','1988-11-22','3349 Smith Cape Suite 954, Annettetown','0285779997',N'Nam','angela78@example.net';
+EXEC insertPatient 'Jessica Booker','1989-07-26','6438 Mary Plaza, Nicholashaven','0271132909',N'Nam','cgraham@example.com';
+EXEC insertPatient 'Jose Christensen','1964-05-28','92749 John Via Apt. 928, Alexismouth','0204308483',N'Nam','juan57@example.org';
+EXEC insertPatient 'Corey Martinez','2010-02-14','94726 Rebecca Ports, New John','0717607659',N'Nữ','qcook@example.org';
+EXEC insertPatient 'James Harrell','1999-01-28','42291 Brandon Trace Apt. 005, Floydfort','0709686888',N'Nam','pmoss@example.org';
+EXEC insertPatient 'Kelly Gates','1998-05-25','PSC 8656, Box 4543, APO AE 88527','0197681566',N'Nam','wbowman@example.org';
+EXEC insertPatient 'Anthony Morgan','1988-04-21','867 Teresa Mount, Lake Joanne','0703353263',N'Nữ','vevans@example.org';
+EXEC insertPatient 'Deborah Estrada','1967-06-25','388 Crystal Ways, Moorechester','0037411065',N'Nam','faguilar@example.com';
+EXEC insertPatient 'Felicia Lucero','1984-07-31','Unit 8285 Box 6254, DPO AA 38070','0670015730',N'Nam','uelliott@example.org';
+EXEC insertPatient 'Mary Marshall','2001-03-31','042 Sharon View Suite 385, Bestton','0800347844',N'Nữ','roy03@example.com';
+EXEC insertPatient 'Anthony Jones','2014-08-06','67395 Walker Track Apt. 041, Brayberg','0246445891',N'Nữ','cdavis@example.org';
+EXEC insertPatient 'Melinda Knox','2001-12-04','24318 Kenneth Prairie, North Stevenberg','0053499014',N'Nữ','twood@example.org';
+EXEC insertPatient 'Kevin Christian','2017-11-08','7786 Keith Coves Suite 625, Gregoryport','0900762734',N'Nữ','ahill@example.org';
+EXEC insertPatient 'Michaela Sims','1982-04-07','497 Harris Coves Apt. 946, New Tarashire','0663692341',N'Nữ','xmassey@example.net';
+EXEC insertPatient 'Shawn Cervantes','1982-06-15','8013 Glenn Locks Apt. 800, Brooksfurt','0206677667',N'Nữ','ashley16@example.net';
+EXEC insertPatient 'Christina Flores','1983-01-28','2325 Palmer Ways Suite 206, Lake Michele','0841130719',N'Nam','zdavis@example.org';
+EXEC insertPatient 'Joseph Boyer','1990-08-30','997 Paul Curve Suite 497, Aaronport','0334498325',N'Nữ','yramos@example.org';
+EXEC insertPatient 'Jasmine Goodman','1958-03-10','9401 Michael Union, North Anthonyshire','0380936415',N'Nữ','steven29@example.com';
+EXEC insertPatient 'Zachary Martin','1962-07-24','3990 Bryant Stream Apt. 048, Jeanfurt','0982788075',N'Nữ','hannah74@example.net';
+EXEC insertPatient 'Daniel Gardner','2003-06-26','78080 Dennis Forest, West Joshua','0080991701',N'Nam','jamie49@example.com';
+EXEC insertPatient 'Andrew Horton','2001-10-06','22164 Stephen Knolls, Port Ray','0272392055',N'Nữ','colton79@example.org';
+EXEC insertPatient 'Danny Hammond','1963-09-12','77640 Alexander Pines, Stevenside','0603015915',N'Nam','wendy43@example.com';
+EXEC insertPatient 'Kenneth Ruiz','1998-06-17','38809 Leon Shores, East Marcus','0814661106',N'Nữ','helen32@example.org';
+EXEC insertPatient 'Keith White','1996-10-29','5414 James Summit, East Brian','0808031726',N'Nữ','eevans@example.org';
+EXEC insertPatient 'Ashley Mcguire','1983-04-07','691 Jones Path Apt. 144, Rachelton','0824942157',N'Nam','sarah41@example.com';
+EXEC insertPatient 'Sandra Garcia','1970-10-04','911 Lee Lodge Apt. 995, West Johnville','0169201505',N'Nữ','julie98@example.net';
+EXEC insertPatient 'Ryan Richardson','1996-10-24','71512 Whitaker Via, East Heather','0390653784',N'Nữ','bbrown@example.com';
+EXEC insertPatient 'Kristin Ortiz','1971-04-16','181 Combs Oval, New Coreyville','0484017719',N'Nữ','hallgary@example.org';
+EXEC insertPatient 'John Johnson','1964-07-21','5247 Heather Glens Apt. 419, Lake Erin','0914613520',N'Nữ','rramirez@example.org';
+EXEC insertPatient 'William Nunez','1960-03-05','609 Gomez Points, Thompsonview','0049404179',N'Nữ','jmcclure@example.net';
+EXEC insertPatient 'Margaret Cantrell','1988-04-12','9598 Rogers Plain Suite 229, Hannahberg','0904183459',N'Nữ','paul08@example.net';
+EXEC insertPatient 'Christopher Joseph','1958-09-07','9863 Peterson Pines, Port Kristinamouth','0785082384',N'Nữ','oramirez@example.com';
+EXEC insertPatient 'Casey Stewart','1994-08-11','PSC 2266, Box 4994, APO AP 29682','0717506364',N'Nam','sylvia06@example.org';
+EXEC insertPatient 'Emily Stuart','1992-08-09','467 Shelia Station, Collinstown','0001372571',N'Nữ','woodsroy@example.com';
+EXEC insertPatient 'Briana Moody','1970-10-24','7538 Rice Rest Suite 389, Boydbury','0566636079',N'Nam','jlittle@example.net';
+EXEC insertPatient 'Hannah Manning','1963-09-30','437 James Lane Suite 506, Davidland','0933958947',N'Nam','alopez@example.com';
+EXEC insertPatient 'Charles Franklin','1966-02-24','8894 Sheppard Run, Gregoryfurt','0210431886',N'Nam','smorgan@example.net';
+EXEC insertPatient 'Chad David','2011-05-19','440 Roger Manor Suite 360, Landrymouth','0392332492',N'Nam','ohicks@example.net';
+EXEC insertPatient 'Teresa Tran','2008-02-21','4255 Drew Plaza, South Zacharyton','0523939596',N'Nam','oharper@example.com';
+EXEC insertPatient 'William Brown','1982-06-11','PSC 8454, Box 3488, APO AP 57014','0848868140',N'Nam','pturner@example.org';
+EXEC insertPatient 'Lydia Morris','1972-10-16','717 Javier Locks Suite 979, Heatherport','0356071366',N'Nữ','ashley11@example.org';
+EXEC insertPatient 'Nicholas Macdonald','2003-12-19','4375 Williamson Meadow, Alexandraton','0283776040',N'Nam','wmcgee@example.org';
+EXEC insertPatient 'Derrick Jones','1964-04-20','13351 Natasha Underpass, Scottmouth','0326082295',N'Nam','sbyrd@example.com';
+EXEC insertPatient 'Bailey Allison','1988-01-31','7996 Ana Corner Suite 551, Leeshire','0534365132',N'Nam','vballard@example.net';
+EXEC insertPatient 'Jesus Hoffman','1980-10-29','81851 Martin Divide, Priceton','0175877714',N'Nam','larry98@example.net';
+EXEC insertPatient 'Heather Lambert','2016-02-22','3458 Perez Shoals Apt. 798, West Willie','0573483649',N'Nam','mary52@example.org';
+EXEC insertPatient 'Michael Fields','1976-06-22','61094 Charles Mews, North Sarahton','0654962824',N'Nữ','javier54@example.org';
+EXEC insertPatient 'Stephanie Holmes','1974-06-07','52755 Wise Park, Maynardberg','0595019956',N'Nam','mnichols@example.com';
+EXEC insertPatient 'Susan Sullivan','1967-01-28','929 Jerome Course, New Robin','0980936330',N'Nam','uhaynes@example.com';
+EXEC insertPatient 'Danielle Garrett','2016-07-05','496 Cory Meadow, North Susan','0676015228',N'Nữ','dmartin@example.net';
+EXEC insertPatient 'Thomas Burton','2010-07-17','657 Short Drive, Manuelside','0335842366',N'Nữ','sjones@example.com';
+EXEC insertPatient 'Nathan Hess','2008-11-28','27722 Louis Plains Suite 249, Taylorport','0562748751',N'Nam','ralph95@example.com';
+EXEC insertPatient 'Christina Johnson','2006-09-19','139 Jason Alley Apt. 028, Jenniferstad','0429438394',N'Nam','mmays@example.org';
+EXEC insertPatient 'Brian Prince','1985-06-06','USS Mccullough, FPO AA 75613','0213988233',N'Nữ','james53@example.com';
+EXEC insertPatient 'Michael Hernandez','2000-11-16','2095 Sherri Lodge, Victoriaport','0705148112',N'Nữ','dmurphy@example.com';
+EXEC insertPatient 'Justin Greer','1976-10-07','64478 Jennifer Underpass, East Richard','0155877864',N'Nữ','nwilson@example.org';
+EXEC insertPatient 'Kathleen Williams','2004-10-30','USNV Clark, FPO AP 57499','0724543516',N'Nữ','lwu@example.org';
+EXEC insertPatient 'Amy Adams','2003-12-14','8924 Hernandez Landing, Fitzpatrickhaven','0331352775',N'Nữ','kevin89@example.com';
+EXEC insertPatient 'Frederick Perkins','1971-09-24','25196 Martinez Stream, North Sarah','0534708403',N'Nam','vibarra@example.net';
+EXEC insertPatient 'Patrick Jordan','2012-02-08','4320 Jason Creek, Kennethhaven','0433090023',N'Nữ','ybeard@example.com';
+EXEC insertPatient 'Andrew Garcia','1994-07-02','33531 Melendez Common, New Danny','0499357797',N'Nữ','karen70@example.net';
+EXEC insertPatient 'Sarah Brown','1995-07-07','11900 Valencia Vista, West Shannon','0945451573',N'Nam','gsingh@example.net';
+EXEC insertPatient 'Laura Phillips','1983-01-11','817 Underwood Vista, Morrowton','0342484936',N'Nữ','vdavis@example.net';
+EXEC insertPatient 'Brenda Novak','1960-07-02','757 Simpson Junction, Riggsfort','0190905025',N'Nam','zkennedy@example.org';
+EXEC insertPatient 'Holly Madden','1982-08-11','413 Annette Port, Michaeltown','0307512024',N'Nam','amoreno@example.org';
+EXEC insertPatient 'Desiree Baker','1959-07-22','588 Castillo Island, East Theresa','0357466029',N'Nam','dale32@example.net';
+EXEC insertPatient 'Jennifer Berg','1975-09-08','09527 Duffy Spur, Lake Tyler','0613154264',N'Nữ','joshua63@example.com';
+EXEC insertPatient 'Brian Ray','1987-12-20','34276 Orozco Underpass, West Xaviertown','0583565805',N'Nam','hlloyd@example.org';
+EXEC insertPatient 'Joshua Brown','1971-12-13','284 Clark Plain, Robertsfort','0003202836',N'Nam','qstrong@example.org';
+EXEC insertPatient 'Mary Reed','1964-04-09','9223 Seth Mountain Suite 149, Wilsonview','0889548425',N'Nữ','lgomez@example.com';
+EXEC insertPatient 'Cassandra Mendez','2000-03-23','PSC 5309, Box 1017, APO AP 88596','0794256374',N'Nam','isabel29@example.net';
+EXEC insertPatient 'Kevin Snyder','1966-01-25','USS Torres, FPO AA 48709','0785609378',N'Nữ','jbaxter@example.org';
+EXEC insertPatient 'Lisa Smith','1967-03-09','3142 David Ford, Holmesview','0588395573',N'Nam','jallen@example.net';
+EXEC insertPatient 'Misty Alexander','1987-03-15','237 Archer Station, Port Stacy','0228989769',N'Nam','haley66@example.net';
+EXEC insertPatient 'Eugene Lowe','1971-01-13','0535 Crystal Lock, Cooperville','0273744521',N'Nữ','omar81@example.org';
+EXEC insertPatient 'Melissa Shaw','2014-10-10','741 Pena Centers, Brownview','0617199817',N'Nữ','ryan34@example.org';
+EXEC insertPatient 'Shawna Watkins','1966-01-27','854 Jamie Spring, Smithchester','0900582382',N'Nữ','terri67@example.org';
+EXEC insertPatient 'David Robinson','2007-01-09','668 Rodriguez Prairie, South Davidfort','0539202097',N'Nữ','jramirez@example.org';
+EXEC insertPatient 'Kristin Patel','1993-03-21','8039 Rose Row, Woodbury','0577110372',N'Nữ','glandry@example.org';
+EXEC insertPatient 'Ana Gonzalez','2009-12-15','0852 Jennifer Via Apt. 076, Robertberg','0266286270',N'Nữ','daniel00@example.org';
+EXEC insertPatient 'Stephanie Lynn','1995-08-29','6945 Smith Crossroad, Charlesberg','0152857753',N'Nữ','tyler07@example.net';
+EXEC insertPatient 'Connie Patterson','1983-12-06','3263 Jo Isle, Charlesshire','0964841487',N'Nam','gmorales@example.org';
+EXEC insertPatient 'Michael Ballard','2006-02-04','979 Daniel Path, Josephside','0693731982',N'Nam','brian84@example.org';
+EXEC insertPatient 'Robert Newton','2006-05-08','76893 Greene Stream, South Diana','0247255561',N'Nữ','troman@example.com';
+EXEC insertPatient 'Rhonda Foster','2013-04-08','065 Samantha Knolls, Lake Kevin','0132422783',N'Nữ','swatson@example.org';
+EXEC insertPatient 'Jeremy Garza','2004-08-30','52177 Humphrey Loaf, New Clinton','0767309157',N'Nữ','summer13@example.org';
+EXEC insertPatient 'Jennifer Johnson','1987-12-23','696 Douglas Drives, Lake Brittanychester','0963000242',N'Nam','gloria49@example.net';
+EXEC insertPatient 'Lee Phillips','1987-10-27','Unit 7262 Box 4114, DPO AP 98817','0318055573',N'Nữ','doliver@example.com';
+EXEC insertPatient 'Ryan Copeland','1998-03-06','9000 Frank Cape Apt. 248, Meganbury','0167080998',N'Nam','jshields@example.net';
+EXEC insertPatient 'Deborah Hill','1982-04-06','5976 Michelle Alley Apt. 683, Piercefort','0091569359',N'Nữ','kelsey65@example.org';
+EXEC insertPatient 'Edward Reed','1991-08-04','154 Michael Harbor, Lake Haydenmouth','0445600415',N'Nam','pbell@example.org';
+EXEC insertPatient 'Bradley Lane','1962-07-18','33422 Dixon Flat Apt. 000, East Mathew','0831157320',N'Nữ','erin88@example.org';
+EXEC insertPatient 'Gregory King','2002-09-02','961 Mckee Square, Port Renee','0466740613',N'Nam','tina41@example.net';
+EXEC insertPatient 'Melissa Jones','1982-08-30','4141 Jennifer Rest, Melissaberg','0366354658',N'Nữ','scox@example.net';
+EXEC insertPatient 'Nicole Johnson','1969-08-19','1867 Shannon Hollow, East Emily','0592541005',N'Nam','zgriffin@example.net';
+EXEC insertPatient 'Penny Perez','1985-04-25','30408 Richard Views, North Michael','0994667267',N'Nam','usnow@example.org';
+EXEC insertPatient 'Cameron Allen','1960-06-26','215 Kathleen Unions, Port Matthew','0507658180',N'Nữ','tmendez@example.net';
+EXEC insertPatient 'Holly Lloyd','2015-04-01','55154 Zoe Cove Apt. 934, Port Jennifer','0809997437',N'Nam','ashley50@example.com';
+EXEC insertPatient 'Kyle Huff','1968-08-26','7288 Ruth Locks Apt. 967, North Stephen','0573788063',N'Nam','vgilbert@example.com';
+EXEC insertPatient 'Edward James','2000-12-07','465 Baker Alley, East Tonyamouth','0012562793',N'Nữ','amanda51@example.net';
+EXEC insertPatient 'Eric Hart','1970-02-22','105 Howard Fork, Port Keithborough','0375034518',N'Nam','mroberts@example.net';
+EXEC insertPatient 'Jason Erickson','1980-10-25','169 Burton Tunnel Suite 029, Estradaland','0867575775',N'Nữ','yjohnson@example.net';
+EXEC insertPatient 'Kevin Pace','1999-10-03','2381 Hogan Stravenue, Estradashire','0085919050',N'Nữ','gtaylor@example.org';
+EXEC insertPatient 'Monica Moore','1989-09-30','58700 Janet Field, West Robert','0429020394',N'Nữ','umartin@example.org';
+EXEC insertPatient 'Jeremiah Ramos','2002-02-01','67227 Heather Knolls, New John','0555891084',N'Nam','jsawyer@example.net';
+EXEC insertPatient 'Dr. Austin Mcknight','1988-02-13','0347 Page Extensions, Carlsonville','0094500629',N'Nữ','hthomas@example.net';
+EXEC insertPatient 'Diana Allison','2007-12-30','582 Hines Port, West Martin','0429308960',N'Nữ','redwards@example.net';
+EXEC insertPatient 'Michelle Becker','2001-04-27','8289 Harvey Common, Millerchester','0201112756',N'Nữ','erica95@example.org';
+EXEC insertPatient 'Pamela Beltran','1972-02-12','PSC 3415, Box 4375, APO AP 84846','0805754682',N'Nam','april86@example.org';
+EXEC insertPatient 'Mark Kidd','2015-03-29','66449 Peter Way, East Brendaview','0113120481',N'Nam','adorsey@example.com';
+EXEC insertPatient 'Stephen Morgan','1964-07-06','66925 Eric Land, Port Williamberg','0262788482',N'Nam','larry88@example.com';
+EXEC insertPatient 'Elizabeth Stewart','1991-02-15','558 Joshua Throughway, East Jason','0172962943',N'Nam','bryan34@example.com';
+EXEC insertPatient 'Sherry Long','1986-12-29','88305 Glenn Ridge Apt. 501, Gregoryport','0903436382',N'Nam','ccrane@example.net';
+EXEC insertPatient 'Angela Rodgers','1988-03-02','17480 Adams Mission, West Anthonyside','0443646400',N'Nữ','lukereid@example.org';
+EXEC insertPatient 'Joseph Casey','1976-10-01','6929 Franklin Pike, Valeriemouth','0897987008',N'Nữ','ruben89@example.net';
+EXEC insertPatient 'Randy Downs','1983-07-06','5351 Brian Street Suite 953, Robertoview','0039212259',N'Nam','whodges@example.net';
+EXEC insertPatient 'Holly Campbell','1981-08-12','PSC 6214, Box 3046, APO AE 63519','0158741362',N'Nữ','johntodd@example.org';
+EXEC insertPatient 'Katelyn Mcpherson','1970-02-08','931 Travis Ranch Suite 181, Foleyton','0757927866',N'Nữ','chunt@example.net';
+EXEC insertPatient 'Cassandra Tanner','1999-08-10','46218 Blanchard Ville, Alyssaview','0943368421',N'Nữ','shane93@example.net';
+EXEC insertPatient 'Shannon Goodman','1997-05-05','33896 Crystal Crossing, Lake Ambermouth','0699158785',N'Nam','sandra46@example.org';
+EXEC insertPatient 'Edward Mcbride','1991-07-11','706 Williams Mall Apt. 189, Rileyview','0546774681',N'Nữ','zcooper@example.com';
+EXEC insertPatient 'Corey Mcdonald','2007-05-30','69351 Mora Run, Lake Jane','0059539281',N'Nam','eross@example.org';
+EXEC insertPatient 'Kirk Singh II','2005-01-18','49286 Patrick Orchard, Matthewfurt','0990489076',N'Nữ','wendy92@example.org';
+EXEC insertPatient 'Christopher Allen','2011-04-14','556 Keith Squares, Amandaville','0769600932',N'Nam','lisa75@example.net';
+EXEC insertPatient 'Jeffrey Collier','1977-10-12','416 Jessica Lane, North Carmen','0015998263',N'Nam','nedwards@example.com';
+EXEC insertPatient 'Susan Phillips','2014-03-22','15829 Taylor Loaf Apt. 060, North Bianca','0754809914',N'Nữ','xmiller@example.com';
+EXEC insertPatient 'Vincent Novak','1971-08-03','1721 Ethan Ridges, Melaniemouth','0009553413',N'Nam','imendez@example.net';
+EXEC insertPatient 'Sharon Paul','2016-06-18','034 Glass Mill, Millerville','0202519448',N'Nam','david45@example.net';
+EXEC insertPatient 'Albert Adkins','1972-04-01','024 Ashley Expressway, Lake Tom','0825611918',N'Nam','zholt@example.com';
+EXEC insertPatient 'Chris Allen','1964-06-27','30298 Jennifer Mountain, Franktown','0619051254',N'Nữ','pamela23@example.net';
+EXEC insertPatient 'Kathryn Delacruz','1963-01-19','4675 Dean Terrace, Port Laurie','0425361257',N'Nam','marcia00@example.org';
+EXEC insertPatient 'Michael House','1973-10-18','8183 Robinson Points, Vanessamouth','0640387580',N'Nam','cbullock@example.org';
+EXEC insertPatient 'Joe Ellis','1975-05-17','82572 William Row, Thomasstad','0907696943',N'Nam','vgarcia@example.org';
+EXEC insertPatient 'Wendy Wilkinson','2009-06-06','9660 Erika Squares, Annchester','0102856335',N'Nam','jeremy00@example.org';
+EXEC insertPatient 'Michael Everett','2009-01-11','16857 Rachel Plaza Apt. 962, Nelsonbury','0808537908',N'Nam','msimmons@example.com';
+EXEC insertPatient 'Vanessa Murray','1991-10-03','9912 Carmen Green, Sandyberg','0169147966',N'Nữ','sburton@example.net';
+EXEC insertPatient 'Jason Elliott','2003-10-06','399 Kristin Square, New Bonnieton','0530516115',N'Nữ','amber03@example.org';
+EXEC insertPatient 'Michael Franco','2001-02-18','9062 Kyle Locks, Port Kevinhaven','0465042463',N'Nữ','lori68@example.net';
+EXEC insertPatient 'Jacob Figueroa','1997-01-07','6674 Brittany Islands, Port Raymond','0529066355',N'Nam','joshua08@example.com';
+EXEC insertPatient 'Jessica Neal','2017-03-09','USS Chase, FPO AP 49554','0329960301',N'Nam','lnewman@example.org';
+EXEC insertPatient 'Jeffery Chandler','1969-08-01','516 Perez Circle, East Amanda','0998875952',N'Nữ','ian24@example.com';
+EXEC insertPatient 'Allen York','1979-11-26','156 Tiffany Vista, Alexanderport','0195021096',N'Nam','llong@example.org';
+EXEC insertPatient 'Amy Thomas','1982-11-29','626 Lori Ville Suite 793, Kleinshire','0791368782',N'Nam','erica64@example.org';
+EXEC insertPatient 'Lori Roberts','2013-08-19','PSC 6615, Box 3247, APO AE 74709','0108673636',N'Nam','seanrice@example.com';
+EXEC insertPatient 'Eric King','1984-04-08','5355 Reyes Summit, South Aprilville','0278884929',N'Nữ','nancy08@example.org';
+EXEC insertPatient 'Joseph Mcclain','1961-12-05','165 Charles Streets, Hestertown','0229006843',N'Nam','dford@example.org';
+EXEC insertPatient 'Carrie Scott','1978-07-04','USNV Orozco, FPO AA 08204','0758367133',N'Nữ','april39@example.net';
+EXEC insertPatient 'Michael Castaneda','1986-05-14','888 Danny Drive, Lake Matthew','0268175960',N'Nữ','ngray@example.net';
+EXEC insertPatient 'Paul Rosario','1969-11-02','2569 Phillips Vista, New Tiffany','0126654444',N'Nam','albert04@example.net';
+EXEC insertPatient 'Melissa Kelly','1994-12-25','716 Carla Divide Suite 034, Chadton','0748317815',N'Nữ','rcarroll@example.com';
+EXEC insertPatient 'Samantha English','1960-04-19','2488 Stewart Summit, Port Karenchester','0118792280',N'Nam','faith41@example.com';
+EXEC insertPatient 'David Ramirez','1990-02-22','PSC 5999, Box 6423, APO AE 99922','0849422534',N'Nữ','idixon@example.com';
+EXEC insertPatient 'Amber Adams','1991-05-27','44271 Fuller Haven Apt. 383, Clarkland','0736658618',N'Nữ','tramirez@example.com';
+EXEC insertPatient 'Carlos Arellano','1992-02-19','Unit 1402 Box 9275, DPO AP 24666','0951616575',N'Nam','robert31@example.org';
+EXEC insertPatient 'Benjamin Wood','1994-01-11','4074 Colin Court Suite 845, New Zachary','0202541851',N'Nữ','ldickson@example.org';
+EXEC insertPatient 'Morgan Mccoy','1995-06-28','PSC 9717, Box 4669, APO AA 34102','0061593680',N'Nam','amanda82@example.org';
+EXEC insertPatient 'Tyrone Lawrence','1992-09-21','6069 Melissa Roads, Patelside','0478742941',N'Nữ','ihale@example.net';
+EXEC insertPatient 'Sandra Cabrera','2017-07-05','17929 Nicole Burg Suite 399, Steeletown','0714175569',N'Nữ','rtucker@example.com';
+EXEC insertPatient 'Taylor Serrano','2017-01-08','PSC 9023, Box 0656, APO AE 77425','0026105642',N'Nam','john12@example.org';
+EXEC insertPatient 'Johnny Rivera','2000-03-15','4557 Gonzalez Vista Apt. 352, Priceburgh','0767687807',N'Nữ','amoody@example.net';
+EXEC insertPatient 'Albert Hansen','1990-05-02','USS Martin, FPO AA 05688','0173298975',N'Nữ','dvaldez@example.net';
+EXEC insertPatient 'Joshua Robertson','2013-03-13','USNS Turner, FPO AE 16844','0335183969',N'Nam','hallbeth@example.net';
+EXEC insertPatient 'Stephen Wolf','1963-10-02','PSC 2482, Box 7728, APO AA 04967','0574048727',N'Nữ','oquinn@example.org';
+EXEC insertPatient 'Mary Anderson','1977-02-15','1161 Martin Dale Apt. 117, Carterview','0161749161',N'Nữ','owhite@example.net';
+EXEC insertPatient 'Jordan Wilson','1959-09-16','68466 Carl Plain, North Eric','0212360768',N'Nam','wperry@example.net';
+EXEC insertPatient 'Tyler Foley','1977-09-04','71770 David Plaza Apt. 217, Williammouth','0881242959',N'Nam','gerald82@example.org';
+EXEC insertPatient 'Wendy Garcia','2008-04-24','4266 White Trafficway, Cynthiabury','0347431160',N'Nữ','abrown@example.org';
+EXEC insertPatient 'Laura Mays','1997-07-22','4269 Carter Ports Apt. 564, Clarktown','0709717224',N'Nam','wgaines@example.net';
+EXEC insertPatient 'Allen Sanchez','1968-07-13','2148 Ronald Heights, East Brianshire','0850519794',N'Nữ','nmedina@example.org';
+EXEC insertPatient 'Patrick Williams','2011-03-26','46112 Johnson Junction, North Timothy','0571483474',N'Nữ','uhall@example.net';
+EXEC insertPatient 'Keith Wilkins','1976-09-06','767 Spears Forks Suite 046, Pennybury','0849607388',N'Nam','dean14@example.org';
+EXEC insertPatient 'Michael Hunt','1988-01-25','289 Young Orchard, Robertbury','0648759911',N'Nam','vbaker@example.org';
+EXEC insertPatient 'Brandon Chase','1998-09-05','USS Robinson, FPO AA 48064','0240742512',N'Nam','robyn94@example.org';
+EXEC insertPatient 'Wayne Castaneda','1999-09-06','USS Santiago, FPO AE 99622','0619254068',N'Nữ','zmurphy@example.com';
+EXEC insertPatient 'James Miller','1975-09-19','946 Lauren Path, South James','0618745140',N'Nữ','angela65@example.org';
+EXEC insertPatient 'Jennifer Hudson','1997-06-28','0156 Nelson Centers, New Theodore','0628072239',N'Nam','omorton@example.com';
+EXEC insertPatient 'Larry Montgomery','2003-07-31','40980 Burton Port, Meganfurt','0045994603',N'Nam','martha50@example.com';
+EXEC insertPatient 'Dawn Murphy','1983-08-05','5151 Alyssa Wells, Michaelchester','0125071439',N'Nữ','edward62@example.com';
+EXEC insertPatient 'Daryl Cherry','1959-12-10','PSC 2134, Box 7846, APO AE 28543','0022096082',N'Nam','jgarcia@example.com';
+EXEC insertPatient 'Brett Hale','1972-03-11','77120 Connor Circle Apt. 014, Martinland','0875592148',N'Nữ','wendy53@example.com';
+EXEC insertPatient 'Kimberly Wells','2003-10-11','524 Allen Underpass, Port Shelby','0877653783',N'Nữ','briana78@example.com';
+EXEC insertPatient 'Elizabeth Morris','2009-04-10','6633 Harold Shoals, North Laurentown','0631085597',N'Nam','brian07@example.com';
+EXEC insertPatient 'Roberto Torres','1968-02-18','531 Smith Stream, Sophiahaven','0897010472',N'Nam','jacob52@example.org';
+EXEC insertPatient 'Shawn Foley','1978-09-10','7291 Regina Hills, Alejandrastad','0854291797',N'Nam','vmyers@example.org';
+EXEC insertPatient 'Nathan Aguilar','1988-11-05','74742 Smith Crossing, North Juan','0897481165',N'Nữ','hhurst@example.net';
+EXEC insertPatient 'Dr. Tina Jones','1981-03-24','6231 David Village Suite 530, West Amy','0341314396',N'Nam','arthur94@example.org';
+EXEC insertPatient 'Sara Nguyen','1989-11-15','597 Allison Port Apt. 265, Kington','0083790624',N'Nữ','edward09@example.com';
+EXEC insertPatient 'Randy Perez','1995-01-21','041 George Highway, Williamschester','0559123139',N'Nam','ubaird@example.net';
+EXEC insertPatient 'Eric Dougherty','2017-12-09','515 Neal Camp Apt. 600, Lake Toddmouth','0829526212',N'Nữ','bbrown@example.org';
+EXEC insertPatient 'James Nelson','2002-05-19','7493 Mills Cliffs, Sullivanview','0609890005',N'Nam','edward43@example.net';
+EXEC insertPatient 'Amber Mitchell','1964-04-16','8150 John Village, Reneeberg','0369967794',N'Nữ','robert26@example.org';
+EXEC insertPatient 'John Carson','1970-05-20','73182 Martin Stream Suite 603, Lake Mark','0190566194',N'Nữ','wford@example.org';
+EXEC insertPatient 'Diane Trujillo','1991-04-25','64565 Frank Gateway, Victoriamouth','0817344935',N'Nam','ryan39@example.org';
+EXEC insertPatient 'Tiffany Lopez','1959-12-23','85765 Davis Path, Lake Jessica','0531682269',N'Nữ','yjones@example.org';
+EXEC insertPatient 'Cheryl Barr','1958-08-27','614 Meyer Inlet Apt. 578, Port Gabriel','0663000343',N'Nữ','john20@example.net';
+EXEC insertPatient 'Jesse Melendez Jr.','2005-10-04','87107 Wu Lake Suite 709, Millerfort','0491972189',N'Nữ','pdoyle@example.com';
+EXEC insertPatient 'Michael Barr DVM','1982-04-06','4178 White Vista, North Matthewberg','0920781123',N'Nam','mshelton@example.com';
+EXEC insertPatient 'Molly Davis','2015-02-20','67234 Levy Knoll Suite 218, Muellerland','0536733654',N'Nam','lsanders@example.org';
+EXEC insertPatient 'Taylor Armstrong','1962-02-13','931 Powers Springs, South Lisa','0493530980',N'Nam','jmullins@example.org';
+EXEC insertPatient 'Alexis Klein','1988-04-16','USS Cox, FPO AE 91381','0375275129',N'Nam','yorklori@example.org';
+EXEC insertPatient 'Jordan Oneal','1988-06-25','4642 King Trace, Wernershire','0283561510',N'Nữ','sarah23@example.com';
+EXEC insertPatient 'Alexandria Hansen','2017-07-12','15329 Martinez Landing, Port James','0594992056',N'Nữ','elaine49@example.net';
+EXEC insertPatient 'Jack Carter','1984-07-27','629 Eric Cove, Robertview','0399636027',N'Nam','nlee@example.org';
+EXEC insertPatient 'Allen Schmidt','1976-04-11','26889 Baker Vista Suite 135, Meghanfort','0565951382',N'Nam','daniel64@example.com';
+EXEC insertPatient 'Kenneth Kelley','1994-07-03','Unit 8969 Box 2091, DPO AE 04189','0298772985',N'Nam','fjordan@example.com';
+EXEC insertPatient 'Paul Berger','1996-03-06','9018 Patrick Lane Apt. 201, Johnport','0029453955',N'Nam','andrea30@example.org';
+EXEC insertPatient 'Wesley Garza','2016-03-26','37929 Paige Landing, East Nathaniel','0286107995',N'Nữ','justin82@example.org';
+EXEC insertPatient 'Ethan Santos','1967-10-11','1693 Lawrence Roads Apt. 255, Graytown','0722552750',N'Nam','llarson@example.net';
+EXEC insertPatient 'Gabriel Duran','1972-01-26','PSC 1314, Box 7028, APO AA 59389','0191770001',N'Nữ','steven84@example.com';
+EXEC insertPatient 'Tyrone Alvarado','2005-07-26','83536 Lopez Prairie, East Samuel','0936828826',N'Nữ','cjackson@example.org';
+EXEC insertPatient 'Brian Long','2014-07-26','039 Ruth Fall Suite 238, West Trevorview','0414090428',N'Nam','pcox@example.org';
+EXEC insertPatient 'Steve Simpson','2011-05-13','72454 Henderson Springs, Port Randy','0263034849',N'Nam','mdixon@example.org';
+EXEC insertPatient 'Michelle Gonzales','1998-02-04','43243 Sean Mill Apt. 807, Marthaburgh','0489978182',N'Nam','xweaver@example.org';
+EXEC insertPatient 'Michael Hunter','1977-07-12','184 Lori Place, New Jeremiahside','0253589802',N'Nữ','brandy05@example.org';
+EXEC insertPatient 'Justin Thompson','1976-09-09','Unit 0708 Box 7637, DPO AP 40032','0882918479',N'Nam','julie44@example.org';
+EXEC insertPatient 'Chris Martin','2016-11-29','840 Robert Way Apt. 644, Lake Sara','0834030597',N'Nam','cheryl32@example.org';
+EXEC insertPatient 'Sara Turner','1997-03-30','81576 White Fords, Vanessaborough','0828833633',N'Nữ','dana59@example.org';
+EXEC insertPatient 'Brandon Sanders','1978-07-25','091 Darrell Falls, Brandonburgh','0339777767',N'Nam','john85@example.net';
+EXEC insertPatient 'Robert Cook','1971-03-12','Unit 7095 Box 0224, DPO AE 47476','0510428688',N'Nam','jason79@example.com';
+EXEC insertPatient 'Miss Lisa Harmon DVM','1988-05-01','6384 Mary Route, West Luisport','0306198083',N'Nữ','justin77@example.org';
+EXEC insertPatient 'Joseph Smith','1998-12-09','85686 Valerie Rapid, Greenville','0244749943',N'Nữ','kburns@example.com';
+EXEC insertPatient 'Daniel Houston','1968-06-22','012 Suzanne Junctions, Campbellfurt','0203682547',N'Nữ','zhudson@example.com';
+EXEC insertPatient 'Patricia Johnson','1962-11-22','PSC 2256, Box 1770, APO AP 52077','0312084590',N'Nam','wjordan@example.com';
+EXEC insertPatient 'Lisa Johnson','1970-09-18','027 Mark Club Apt. 964, Reginafurt','0416995265',N'Nam','eturner@example.com';
+EXEC insertPatient 'Megan Dunn','1996-03-17','PSC 2613, Box 8731, APO AP 20795','0955560060',N'Nữ','chris65@example.com';
+EXEC insertPatient 'Johnathan Parker','1974-11-04','205 April Vista, Jameschester','0070345364',N'Nam','sarah28@example.com';
+EXEC insertPatient 'Robert Mcguire','1988-11-12','9504 Nunez Fords Suite 224, West Randall','0533469072',N'Nam','kbaldwin@example.com';
+EXEC insertPatient 'Angela Young','2012-01-01','25690 Gary Alley Suite 627, Dwaynebury','0348537824',N'Nữ','sara50@example.com';
+EXEC insertPatient 'Donna Davidson','1996-01-03','577 Kelly Throughway, Flowerstown','0668125860',N'Nữ','tanya01@example.org';
+EXEC insertPatient 'Jill Reyes','1960-02-18','076 Haley Lodge, Hillmouth','0139263648',N'Nam','teresa57@example.com';
+EXEC insertPatient 'Nathan Nguyen','1988-12-06','USCGC Irwin, FPO AE 07883','0877904694',N'Nam','jason05@example.com';
+EXEC insertPatient 'Anna Miller','1977-05-27','4937 Sanchez Drive, Lake Danielstad','0680808869',N'Nữ','sbishop@example.org';
+EXEC insertPatient 'Amanda Cervantes','1963-04-18','679 Douglas Causeway, Justinmouth','0817968510',N'Nữ','ksanchez@example.net';
+EXEC insertPatient 'Samantha Lewis','1978-01-10','304 Rodriguez Center, Jasonside','0257000298',N'Nam','james42@example.org';
+EXEC insertPatient 'Samantha Sherman','2014-04-20','80206 Tracey Groves, North Brandon','0470117121',N'Nam','vwalker@example.net';
+EXEC insertPatient 'Karen Bolton','1960-11-03','706 Ball Meadow, Millerville','0230141779',N'Nữ','denise89@example.com';
+EXEC insertPatient 'Kimberly White','1975-07-31','85305 Scott Well, Lake Joanneburgh','0872323318',N'Nam','eball@example.com';
+EXEC insertPatient 'Jonathan Kirby','2017-05-28','USNV Walton, FPO AA 84601','0519220847',N'Nữ','jordan61@example.net';
+EXEC insertPatient 'Kathryn Long','2004-03-04','08578 Amber Rue, Port Curtis','0879731826',N'Nam','epratt@example.org';
+EXEC insertPatient 'Melissa Murphy','2011-11-01','718 Chris Crossing, Sandersberg','0650449094',N'Nam','mbowers@example.net';
+EXEC insertPatient 'George Williams','1974-07-17','5320 Julia Mission Apt. 282, Bryantown','0133206865',N'Nữ','katie67@example.com';
+EXEC insertPatient 'Allison Frye','2001-06-12','8684 Mora Locks Suite 266, Antoniomouth','0189708588',N'Nữ','kbrock@example.com';
+EXEC insertPatient 'Mr. Michael Miller III','1979-03-21','6300 Oneill Turnpike, Snydermouth','0034065520',N'Nữ','george38@example.org';
+EXEC insertPatient 'Stephanie Summers','2007-03-18','964 Brenda Ranch Suite 188, Jamesside','0680464609',N'Nam','mary58@example.net';
+EXEC insertPatient 'Joshua Olson','1975-10-08','95169 Christie Row, Kimberlyburgh','0954188153',N'Nam','mark23@example.org';
+EXEC insertPatient 'Crystal Rodriguez','1984-08-28','184 Hall Branch Apt. 784, New Saraside','0802367285',N'Nữ','mgraham@example.org';
+EXEC insertPatient 'Michael Rosales','1969-05-14','PSC 2987, Box 2139, APO AE 16502','0157753757',N'Nữ','sotodana@example.org';
+EXEC insertPatient 'Brad Nash','2002-02-21','49234 Ethan Via, East Larry','0296845178',N'Nữ','johnny35@example.com';
+EXEC insertPatient 'Dana Wright','1993-04-17','417 Kidd Mission, South Michelle','0846379884',N'Nam','sandra86@example.com';
+EXEC insertPatient 'Christopher Anderson','2013-09-14','25872 Brittany Circles, Cynthiahaven','0949051590',N'Nam','ppatel@example.org';
+EXEC insertPatient 'Cassandra Perez','1988-08-16','94490 Bethany Cape Suite 831, Victorton','0209083587',N'Nam','nlawson@example.com';
+EXEC insertPatient 'Jennifer Higgins','1981-03-28','393 Dean Island, Greenville','0302525433',N'Nữ','vmartin@example.org';
+EXEC insertPatient 'Benjamin Bates','1988-04-26','9944 Matthew Course, Knightborough','0568009399',N'Nam','xlopez@example.net';
+EXEC insertPatient 'Ashley Heath','1981-02-25','087 Richard Fort, Sherriview','0910935519',N'Nữ','ewalton@example.org';
+EXEC insertPatient 'Darren Torres','2012-12-03','355 Bradley Underpass, West Teresa','0347324124',N'Nam','iwebster@example.com';
+EXEC insertPatient 'Raymond Franklin DDS','1988-10-08','480 Joseph Trail, South Justinbury','0264412764',N'Nữ','oyoung@example.net';
+EXEC insertPatient 'Steven Carney','1986-06-10','679 Torres Mount Apt. 669, East Ashley','0587842870',N'Nữ','bharvey@example.org';
+EXEC insertPatient 'Patrick Riddle','2012-12-16','2126 Williamson Spur, Port Cindy','0443952949',N'Nữ','cheryl82@example.org';
+EXEC insertPatient 'Timothy Hill','2007-08-31','54327 Stanley Square, New Jerrymouth','0100631288',N'Nữ','aaron56@example.com';
+EXEC insertPatient 'David Owens','2000-04-25','44152 Lewis Row Apt. 700, Marktown','0065675575',N'Nữ','leah97@example.net';
+EXEC insertPatient 'Mark Jordan','2014-01-27','PSC 3688, Box 8678, APO AA 98863','0109476811',N'Nam','lisa90@example.net';
+EXEC insertPatient 'Tracy Knox','2011-12-17','4063 Walker Light, Christopherport','0188477936',N'Nam','travis97@example.com';
+EXEC insertPatient 'James Williams','1962-01-09','706 Jennifer Flats, Timothyside','0057006937',N'Nữ','jvaughn@example.org';
+EXEC insertPatient 'Anita Meyer','1987-05-10','235 Sanders Row, Elizabethburgh','0962021933',N'Nữ','eguzman@example.net';
+EXEC insertPatient 'Bryce Sampson','1962-01-09','95193 Martinez Port, Gilbertport','0550922559',N'Nữ','bholland@example.net';
+EXEC insertPatient 'Melinda Brandt','2015-02-01','1880 Taylor Turnpike Apt. 809, Port Kyle','0830048577',N'Nữ','jwright@example.net';
+EXEC insertPatient 'Aaron Hunt','1976-07-06','861 Louis Springs Suite 059, Cortezville','0225408955',N'Nam','angel96@example.org';
+EXEC insertPatient 'David Gonzales','1988-04-02','553 Andrea Drives Suite 371, Lake Daniel','0982171218',N'Nam','mreyes@example.com';
+EXEC insertPatient 'Chad Sandoval','2014-04-04','585 Sharp Crescent, South Sierra','0960336812',N'Nam','gmacias@example.org';
+EXEC insertPatient 'David Hall','2010-09-18','Unit 0907 Box 0546, DPO AP 56020','0527541474',N'Nữ','jose26@example.org';
+EXEC insertPatient 'Michael Jones','1980-12-04','71984 Mcdonald Glen, Lake Samantha','0408257777',N'Nữ','trevor64@example.org';
+EXEC insertPatient 'Jacob Greene','2010-12-08','30538 Joseph Parks Suite 850, New Julia','0656725352',N'Nữ','kmorris@example.com';
+EXEC insertPatient 'James Vaughan','1975-06-21','PSC 3840, Box 6057, APO AP 99667','0690079141',N'Nữ','david04@example.com';
+EXEC insertPatient 'Julie Wilson','1967-05-06','21488 Hall Shoals Suite 229, Karenside','0682401545',N'Nữ','njackson@example.com';
+EXEC insertPatient 'Robert Jacobs','1967-02-03','22054 Goodman Turnpike, East Andrewview','0991337855',N'Nam','qkirk@example.com';
+EXEC insertPatient 'Albert Barnes','1996-05-23','546 Keith Place Suite 789, East Alex','0581713344',N'Nữ','andrew19@example.org';
+EXEC insertPatient 'Christopher Ellis','1996-07-09','PSC 4592, Box 6544, APO AA 73237','0994771467',N'Nam','jacob78@example.com';
+EXEC insertPatient 'Christina Horn','2012-02-01','969 Sean River, Michellefurt','0708751356',N'Nam','james60@example.com';
+EXEC insertPatient 'Tyler Carter','1976-07-03','5319 Natalie Glens, Markview','0669226814',N'Nữ','zweber@example.org';
+EXEC insertPatient 'Jeremy Wheeler','1968-07-14','6571 Lee Fork Apt. 670, Kaylastad','0981708843',N'Nam','ktaylor@example.net';
+EXEC insertPatient 'Danny Moran','2004-10-18','04054 William Lane, Crystalberg','0198415831',N'Nam','craig97@example.net';
+EXEC insertPatient 'James Walter','1993-06-16','982 Rogers Glen, New Jeffrey','0771326650',N'Nữ','debbie98@example.com';
+EXEC insertPatient 'James Cummings','2005-06-30','9318 Vang Stravenue, Chelseabury','0440760938',N'Nữ','ssmith@example.net';
+EXEC insertPatient 'Timothy Gomez','2006-03-05','326 Brett Pass, Port Anna','0266711123',N'Nữ','knelson@example.net';
+EXEC insertPatient 'Timothy Park','2002-01-15','432 Woodard Ranch, North Andrew','0047835129',N'Nam','penny85@example.com';
+EXEC insertPatient 'Kyle Long','1966-11-06','4664 Charles Flats, Lake Gina','0641976583',N'Nữ','wnavarro@example.com';
+EXEC insertPatient 'Daniel James','2013-12-13','162 Lawrence Drives, East Andrewtown','0896633163',N'Nam','kathy53@example.net';
+EXEC insertPatient 'Jordan Ford','1971-06-21','236 Gray Lodge Apt. 069, Jasonberg','0057973898',N'Nam','karen65@example.net';
+EXEC insertPatient 'Jose Rodriguez','2002-05-04','563 Robert Pine Suite 070, Allisonfort','0346410317',N'Nam','xlevy@example.net';
+EXEC insertPatient 'Jennifer Hart','1959-03-06','61213 Carmen Forest, Arnoldbury','0754548952',N'Nam','brent71@example.org';
+EXEC insertPatient 'Jessica Robinson','1958-05-31','387 Hill Ranch Suite 523, South Amber','0731943634',N'Nữ','bglenn@example.com';
+EXEC insertPatient 'Zachary Curry','1975-08-04','Unit 4529 Box 0823, DPO AE 63408','0878640050',N'Nam','oclark@example.net';
+EXEC insertPatient 'Christopher Dean','1979-07-25','510 Daniel Inlet Apt. 397, New Alanberg','0150307531',N'Nữ','xbrown@example.net';
+EXEC insertPatient 'Luke Woods','1985-04-20','786 Hamilton Isle Apt. 396, New Suzanne','0194105411',N'Nam','frank80@example.org';
+EXEC insertPatient 'Stephanie Bell','1982-08-12','969 Cannon Ways, North Kristen','0085086582',N'Nam','jamie93@example.org';
+EXEC insertPatient 'Jimmy Guerrero','1993-04-15','207 Brooks Land Suite 083, Joelmouth','0735724397',N'Nam','jeremy93@example.com';
+EXEC insertPatient 'Crystal Cooper','1968-08-19','661 Jill Plaza Suite 389, Annaburgh','0283209708',N'Nữ','vbishop@example.com';
+EXEC insertPatient 'Maureen Brewer','2005-05-22','22975 Tracy Hill, East Sara','0708094541',N'Nam','tenglish@example.org';
+EXEC insertPatient 'Sandra Deleon','1974-09-28','26897 Stacey Port Apt. 608, Lake Brandon','0094064823',N'Nữ','ijones@example.net';
+EXEC insertPatient 'Jennifer Shaffer','2011-01-31','USCGC Crosby, FPO AP 07537','0561257612',N'Nam','amber62@example.org';
+EXEC insertPatient 'Amanda Mullins','1975-12-10','6975 Graham Pines, Rojashaven','0830223988',N'Nữ','dcollins@example.org';
+EXEC insertPatient 'Alicia Richardson','2003-12-14','3394 Justin Ridge, Ernestville','0126414112',N'Nam','phess@example.net';
+EXEC insertPatient 'Amanda Martin MD','1959-04-14','94520 Torres Well, Browntown','0060450302',N'Nữ','huffanne@example.org';
+EXEC insertPatient 'Matthew Castaneda','1985-08-29','63729 Jonathan Underpass, Lake Pamela','0148041268',N'Nam','adam35@example.com';
+EXEC insertPatient 'Karen Miller','1992-10-05','822 West Ferry, Port Catherinebury','0418184815',N'Nam','shane36@example.net';
+EXEC insertPatient 'Daniel Torres','1983-01-18','7771 Amber Wells, Rebeccabury','0132862274',N'Nữ','wgoodwin@example.org';
+EXEC insertPatient 'Jason Barrera','1971-07-22','9433 Ramos Stream, Millerstad','0156151778',N'Nữ','ofleming@example.net';
+EXEC insertPatient 'Brent Kelly','1978-06-01','540 Martin Lights, Hernandezside','0610714385',N'Nam','osanchez@example.com';
+EXEC insertPatient 'Oscar Craig','1968-01-08','5943 Jessica Inlet, Martinezberg','0566267472',N'Nam','graysara@example.com';
+EXEC insertPatient 'David Kennedy','1967-12-20','356 Davis Junctions, North Kristinaland','0252408755',N'Nam','yrodgers@example.com';
+EXEC insertPatient 'Ronald Wall','1990-12-09','4695 Traci Mission Suite 141, Newtonside','0191824552',N'Nữ','sarahlee@example.com';
+EXEC insertPatient 'Joseph Mata','1989-05-27','509 Amanda Squares, New Matthewland','0405304326',N'Nữ','ihoffman@example.com';
+EXEC insertPatient 'Alice Ponce','1982-10-28','Unit 7537 Box 5856, DPO AA 74877','0787850833',N'Nữ','jason13@example.net';
+EXEC insertPatient 'Whitney Figueroa','1994-06-21','6226 Greene Locks Apt. 120, Colleenbury','0100045084',N'Nam','jimmy61@example.com';
+EXEC insertPatient 'John Olson','2002-08-01','01560 Julie Ville Apt. 749, Lake Debbie','0343993371',N'Nữ','laurie66@example.org';
+EXEC insertPatient 'Kenneth Butler','1960-03-14','15839 Kim Light, Lake Jack','0900116086',N'Nam','qsteele@example.net';
+EXEC insertPatient 'Kelly Brown','2004-05-03','USNS Henry, FPO AP 19519','0198378708',N'Nam','sjordan@example.net';
+EXEC insertPatient 'Barbara Jimenez','1979-10-24','1175 Sarah Ridges Apt. 796, Patriciafurt','0438648690',N'Nam','hrice@example.org';
+EXEC insertPatient 'Jessica Reese','1999-02-20','21244 Blair Estates Apt. 148, New Todd','0537481768',N'Nam','qrose@example.com';
+EXEC insertPatient 'Christine Rodriguez','2007-09-26','37568 Anne Alley, Martinezchester','0917018903',N'Nam','gsummers@example.net';
+EXEC insertPatient 'Lori Roth','1985-09-29','353 Kirk Terrace Apt. 749, Cookville','0820395026',N'Nữ','tjohnson@example.net';
+EXEC insertPatient 'Carla Lopez','1973-08-02','4227 Blake Ford, New Regina','0287315837',N'Nữ','brian33@example.net';
+EXEC insertPatient 'Jennifer Taylor','2017-11-23','7390 Knight Street Apt. 723, West Nancy','0817233653',N'Nữ','jsteele@example.com';
+EXEC insertPatient 'Laura Blackwell','2015-05-25','18776 Hayes Lodge, Port Michael','0857482333',N'Nam','gfoley@example.com';
+EXEC insertPatient 'Tommy Duffy','1992-08-24','91718 Joshua Views, New Kendrastad','0778973325',N'Nữ','kara89@example.org';
+EXEC insertPatient 'Jeffrey Haas','2015-04-01','6730 Pierce Cape, Lake Josephchester','0362096710',N'Nam','lallen@example.com';
+EXEC insertPatient 'Patrick Nelson','1988-02-04','5390 Abigail Field Suite 882, New Andrew','0611334502',N'Nam','iweaver@example.com';
+EXEC insertPatient 'Andrew Wright','1972-12-06','6603 Allen Fall Suite 705, Landryside','0213439304',N'Nữ','owright@example.org';
+EXEC insertPatient 'Diana Powell','1993-04-10','Unit 8755 Box 0830, DPO AA 96883','0899766831',N'Nam','kkennedy@example.com';
+EXEC insertPatient 'Jeremy Nichols','1990-12-30','0318 Robert Shoal, North Andrewside','0869732308',N'Nam','qcortez@example.com';
+EXEC insertPatient 'Steven Floyd','1958-08-10','2057 Johnson Hollow, Stevenshire','0259280267',N'Nữ','amber44@example.com';
+EXEC insertPatient 'Matthew Neal','1969-02-23','2677 Robinson Spur, Patriciatown','0003960492',N'Nam','daniel33@example.org';
+EXEC insertPatient 'Deborah Pratt','1998-01-05','USNV Rose, FPO AP 65148','0997001204',N'Nam','fadams@example.org';
+EXEC insertPatient 'Justin Elliott','1986-08-31','8572 Renee Dam, Lawrenceburgh','0586037862',N'Nam','pmcclain@example.org';
+EXEC insertPatient 'Jennifer Zhang','1969-10-27','95572 Richard Spur Apt. 070, Deanhaven','0938984839',N'Nam','bobby41@example.org';
+EXEC insertPatient 'Kristen Johnson','1980-12-23','5119 James Camp, New Robert','0348223223',N'Nam','angela08@example.com';
+EXEC insertPatient 'Edward Webb','1973-01-03','471 Amber Flats, Goodmanbury','0923956539',N'Nữ','tsimmons@example.com';
+EXEC insertPatient 'Tiffany Hall','1971-09-30','16210 Moore Mission, South Ann','0159840951',N'Nam','nicole44@example.org';
+EXEC insertPatient 'Michelle Brown','1985-07-23','1772 Smith Squares, Dawnmouth','0401222777',N'Nữ','lauren06@example.org';
+EXEC insertPatient 'Nicholas Ramos','1988-03-26','16535 Rogers Pike Apt. 163, Townsendberg','0564221530',N'Nam','joneal@example.org';
+EXEC insertPatient 'Reginald Stanton','1960-07-13','8583 Christina Park, Haydenside','0342067723',N'Nữ','xsmith@example.org';
+EXEC insertPatient 'Kristin Lowe','2008-03-02','5655 Emily Ramp, Bakerbury','0737545976',N'Nữ','imarsh@example.net';
+EXEC insertPatient 'Kevin Glass','1991-06-09','3897 Mann Divide Suite 510, Bauermouth','0634634644',N'Nam','sarah85@example.org';
+EXEC insertPatient 'Christopher Ware','1958-11-02','9493 Grace Mission, Youngside','0206773095',N'Nam','zadams@example.org';
+EXEC insertPatient 'Rebecca Mason','1972-02-06','575 James Port, East Anthony','0160887767',N'Nữ','bburke@example.com';
+EXEC insertPatient 'Curtis Wilson','1967-04-13','728 Gonzalez Crossing, Fosterborough','0711728503',N'Nam','cdaniels@example.org';
+EXEC insertPatient 'Ruben Olson','2002-11-28','07046 Brown Pass, Ferrellside','0182404781',N'Nam','kmarquez@example.com';
+EXEC insertPatient 'Elizabeth Harris','1989-03-15','8292 Frazier Lakes, South Elizabeth','0485916776',N'Nam','susan57@example.net';
+EXEC insertPatient 'Amber Ayala','1993-09-17','220 Jessica Villages, East Philipton','0248721659',N'Nữ','john76@example.com';
+EXEC insertPatient 'Raymond Hall','1998-01-09','0112 Michael Locks, Taylorview','0572036110',N'Nữ','brian90@example.net';
+EXEC insertPatient 'Michelle Williams','1995-02-02','59342 Joseph Forges, Markmouth','0640191847',N'Nữ','sarah85@example.net';
+EXEC insertPatient 'Jennifer Lloyd MD','2012-08-16','180 Margaret Shoal, East Tammyhaven','0392666576',N'Nam','zwalton@example.com';
+EXEC insertPatient 'Bryan Smith','1997-08-24','2947 Brandon Plaza, Parkview','0082607333',N'Nam','andrew73@example.com';
+EXEC insertPatient 'Dylan Snyder','2007-04-30','78082 Victoria Lodge, South Heatherport','0309286549',N'Nữ','perry94@example.org';
+EXEC insertPatient 'Andrea Richardson','2013-02-25','04088 Clark Divide, Miguelberg','0494335506',N'Nữ','zroberts@example.com';
+EXEC insertPatient 'Gabrielle Hernandez','1970-07-15','659 Dana Springs Suite 148, Matthewshire','0859788115',N'Nam','zmiller@example.net';
+EXEC insertPatient 'Daniel Wood','2008-01-17','USNV Stewart, FPO AP 31952','0212165697',N'Nữ','ystewart@example.com';
+EXEC insertPatient 'Luke Jones','1968-12-30','465 Lynch Port Suite 031, New Laura','0442589970',N'Nữ','zwilson@example.com';
+EXEC insertPatient 'Michael Anderson','2000-04-15','5344 Mary Mills, Port Michael','0443546546',N'Nam','wendy01@example.net';
+EXEC insertPatient 'Peter Mcfarland','2012-05-02','721 Timothy Rue, Port Danielfurt','0166454795',N'Nam','mjohnson@example.net';
+EXEC insertPatient 'Amy Warner','1974-08-19','317 Michael Trail, Charlesfort','0281469466',N'Nam','pwebb@example.org';
+EXEC insertPatient 'Robert Wilkinson','2014-11-16','22661 Andrea Summit Suite 495, Lynchbury','0267886514',N'Nữ','vlee@example.org';
+EXEC insertPatient 'Crystal Whitaker','1971-05-01','214 Thomas Locks, North Aaronfurt','0283534964',N'Nam','vgeorge@example.net';
+EXEC insertPatient 'Stanley Russell','1974-11-17','94574 Mcdaniel Wells, Kathrynbury','0620885012',N'Nữ','tamara49@example.net';
+EXEC insertPatient 'Jessica Parsons','1985-10-29','Unit 5559 Box 5726, DPO AA 96940','0553642415',N'Nữ','pdouglas@example.org';
+EXEC insertPatient 'Richard Vang','1992-08-28','4592 Jones Port Apt. 073, West Garrett','0530843423',N'Nam','ibradley@example.com';
+EXEC insertPatient 'Matthew Hughes','1963-10-12','Unit 8233 Box 2168, DPO AE 46669','0989551165',N'Nam','amanda23@example.com';
+EXEC insertPatient 'David Ruiz','1959-01-08','42580 Denise Pines, Gonzalezland','0815397326',N'Nữ','xdickson@example.org';
+EXEC insertPatient 'Preston Frank','1964-12-06','37333 Kevin Street, North Kathryn','0490359708',N'Nam','csmith@example.com';
+EXEC insertPatient 'Dennis Moore','1985-12-06','7015 Keith Pines, Singhville','0964684469',N'Nữ','larry58@example.com';
+EXEC insertPatient 'Megan Hawkins','1958-11-13','USNS Hurley, FPO AP 31322','0284824978',N'Nam','bcrane@example.org';
+EXEC insertPatient 'Cynthia Hines','1988-04-08','490 Graham Parkways Apt. 881, Shawnshire','0041681050',N'Nam','aleonard@example.net';
+EXEC insertPatient 'Alexander Mueller','2013-02-03','PSC 5494, Box 1786, APO AP 83607','0753328453',N'Nữ','neaton@example.com';
+EXEC insertPatient 'Joseph Watson','1991-07-29','Unit 3400 Box 2696, DPO AA 48341','0017759239',N'Nữ','nsimpson@example.com';
+EXEC insertPatient 'Marc Butler','1968-03-12','412 Matthew Knoll, Arianastad','0394395435',N'Nữ','shane37@example.net';
+EXEC insertPatient 'Victor Oconnell','1959-11-29','Unit 9960 Box 2788, DPO AE 11546','0765586292',N'Nam','ptaylor@example.net';
+EXEC insertPatient 'James Bell','2015-11-04','USNV Morris, FPO AA 23785','0263400476',N'Nữ','sethlee@example.com';
+EXEC insertPatient 'Heather Hernandez','1971-09-23','8627 Wright Shores, Chambersfurt','0130474448',N'Nữ','brian50@example.org';
+EXEC insertPatient 'Morgan Hayes','1985-12-07','3280 Davis Hill Suite 281, Port Hector','0570040517',N'Nam','uflynn@example.net';
+EXEC insertPatient 'Jeff Donaldson','2000-11-16','Unit 6478 Box 3939, DPO AP 49925','0926159756',N'Nữ','lambkarl@example.net';
+EXEC insertPatient 'Catherine Robinson','1981-05-04','PSC 0888, Box 7606, APO AE 73959','0098312210',N'Nữ','kentmoon@example.org';
+EXEC insertPatient 'Dr. Jordan Tucker','2010-01-14','759 Donna Street, South Danielborough','0512087177',N'Nam','mark62@example.org';
+EXEC insertPatient 'Brittany Garcia','2011-08-02','68366 John Shoals Apt. 863, Loriville','0626408867',N'Nữ','mmiller@example.com';
+EXEC insertPatient 'Connie Taylor','1984-12-25','PSC 4269, Box 3361, APO AA 43300','0491425022',N'Nữ','brayann@example.com';
+EXEC insertPatient 'Erica Johnson','2003-12-23','3392 Moon Drive Suite 132, South Jean','0104129625',N'Nữ','pfreeman@example.org';
+EXEC insertPatient 'Brandon Bates','1976-09-26','147 Chad Ford Apt. 827, Brandimouth','0523958196',N'Nữ','bstout@example.net';
+EXEC insertPatient 'Bryan Carter','1962-05-20','39104 Amanda Inlet Suite 858, Longbury','0244755371',N'Nam','james22@example.com';
+EXEC insertPatient 'Megan Rodriguez','1994-04-03','0241 Morris Summit Suite 018, Bradyside','0284135215',N'Nữ','woodanne@example.org';
+EXEC insertPatient 'Dana Beltran','2001-10-27','973 Adams Manor Suite 467, Bryanmouth','0411239548',N'Nam','jsalas@example.net';
+EXEC insertPatient 'Deborah Brown','1979-06-02','205 Mills Landing Suite 110, Suzannefurt','0697783296',N'Nữ','dayjacob@example.org';
+EXEC insertPatient 'Melanie Blackwell','1967-04-19','248 Brent Keys Suite 107, Hornebury','0066625481',N'Nam','john43@example.org';
+EXEC insertPatient 'Christina Norris','2012-11-09','USNS Oliver, FPO AP 20320','0162179900',N'Nữ','lwright@example.org';
+EXEC insertPatient 'Tom Garrett','1992-04-12','89617 Key Path Apt. 999, Smithton','0209138526',N'Nam','bbradley@example.com';
+EXEC insertPatient 'Rhonda Bates','1988-12-25','349 Kaitlyn Way Suite 645, Jeffreyhaven','0174088196',N'Nữ','amay@example.net';
+EXEC insertPatient 'Eric Adams','1965-07-16','8995 Charles Tunnel, West Christopher','0959951603',N'Nữ','ydaniels@example.org';
+EXEC insertPatient 'Benjamin Howell','1973-07-11','41836 David Plain, East Debbieside','0473113394',N'Nữ','ochoaann@example.net';
+EXEC insertPatient 'Raymond Hernandez','1988-10-05','8446 Andrade Union, East Tracyside','0181161644',N'Nam','qpham@example.com';
+EXEC insertPatient 'Robert Velasquez','1995-12-12','925 Wells Tunnel, West Jasonville','0091956992',N'Nam','leekaren@example.org';
+EXEC insertPatient 'David Delgado MD','2012-03-01','USNV Graham, FPO AE 48981','0377272899',N'Nam','wendy03@example.org';
+EXEC insertPatient 'Richard Wright','1967-03-18','PSC 8655, Box 7609, APO AE 60168','0967279975',N'Nam','zcarter@example.com';
+EXEC insertPatient 'Tammy Guerrero','2003-10-11','721 Christian Oval, New Natalie','0651166710',N'Nữ','slopez@example.org';
+EXEC insertPatient 'Dr. Katie Cobb','1967-08-05','Unit 0069 Box 4608, DPO AE 82712','0067560730',N'Nam','leroy82@example.com';
+EXEC insertPatient 'David Williams Jr.','1987-09-11','67515 Thomas Parkways, Port Jason','0241012921',N'Nam','kim64@example.com';
+EXEC insertPatient 'Nicholas Perkins','2011-04-16','203 Renee Views, Ericchester','0127333093',N'Nữ','john47@example.com';
+EXEC insertPatient 'Blake Richmond','1985-10-15','35051 Danielle Mountains, Nguyenbury','0898094466',N'Nữ','alicia45@example.com';
+EXEC insertPatient 'Charles Smith','1972-06-30','4867 Anderson Via Suite 679, New John','0571035111',N'Nữ','steven84@example.org';
+EXEC insertPatient 'Randall Smith','1998-07-03','Unit 0558 Box 7791, DPO AE 63914','0808617523',N'Nam','ebowers@example.org';
+EXEC insertPatient 'Duane Steele','1958-12-17','79059 Mendoza Harbors, Julieberg','0978375537',N'Nữ','ojackson@example.net';
+EXEC insertPatient 'Erin Thomas','2017-09-13','4330 Sanchez Isle Apt. 697, Cooperstad','0699471041',N'Nữ','nbriggs@example.net';
+EXEC insertPatient 'Christy Reynolds','1984-04-13','PSC 3575, Box 5545, APO AE 55074','0038021991',N'Nam','ncochran@example.org';
+EXEC insertPatient 'Gary Smith','1961-08-19','3466 John Prairie, Lake Russellmouth','0039261261',N'Nữ','dlowe@example.com';
+EXEC insertPatient 'Oscar Clayton','1984-02-15','30802 Javier Island Apt. 041, Lake David','0566939501',N'Nữ','monica68@example.com';
+EXEC insertPatient 'Amanda Johnson','1983-09-17','8317 Campbell Groves, Woodmouth','0398154449',N'Nữ','fevans@example.org';
+EXEC insertPatient 'Nathaniel Jones','1962-02-24','7569 Campbell Mills, Port Catherine','0706549573',N'Nữ','sandra52@example.com';
+EXEC insertPatient 'Jonathan Lopez','1959-03-15','4896 Melissa Ramp Apt. 659, Dixonchester','0837328899',N'Nữ','bcoleman@example.com';
+EXEC insertPatient 'James Williams','1988-07-20','Unit 0455 Box 3072, DPO AP 15303','0276634946',N'Nữ','david93@example.org';
+EXEC insertPatient 'Tony Lambert','1992-12-09','913 Thompson Ridges, Port Thomasport','0835463732',N'Nữ','xdudley@example.net';
+EXEC insertPatient 'Melanie Phelps','1963-06-14','7860 Henry Flat Apt. 333, Schmidtchester','0592910834',N'Nam','brian77@example.net';
+EXEC insertPatient 'Christopher Taylor','1980-07-15','PSC 2626, Box 2023, APO AE 11855','0510573984',N'Nữ','scott52@example.net';
+EXEC insertPatient 'Michael Cole','2017-07-25','8682 Mary Ways Apt. 402, West Ashley','0558489037',N'Nam','dthomas@example.org';
+EXEC insertPatient 'Andrew Davila','1969-07-24','4761 Jones Turnpike, Elizabethstad','0510915318',N'Nữ','lshaw@example.org';
+EXEC insertPatient 'Ryan Turner','2004-06-21','USS Owen, FPO AE 50106','0307776455',N'Nữ','isaac31@example.net';
+EXEC insertPatient 'Makayla Vazquez','2012-06-16','307 Watson Ridge, Johnsonfort','0941227509',N'Nam','marc50@example.net';
+EXEC insertPatient 'Sean Harrison','2008-09-18','6135 Debra Gateway, Edwardburgh','0283011090',N'Nữ','hnelson@example.com';
+EXEC insertPatient 'Deanna Carter','2000-10-02','0997 Hamilton Isle, Tuckerview','0170383082',N'Nam','david15@example.com';
+EXEC insertPatient 'Michael Martin','1975-07-14','USCGC Diaz, FPO AA 73212','0485173296',N'Nữ','ksmith@example.org';
+EXEC insertPatient 'Edwin Adams','1969-01-04','37814 Mills Grove, Port Jessica','0269892890',N'Nữ','wcoleman@example.net';
+EXEC insertPatient 'Nathaniel Ferrell','1958-01-14','4488 Henry Avenue Suite 250, West Robert','0820097240',N'Nam','qperez@example.net';
+EXEC insertPatient 'Jessica Salazar','2005-01-18','51332 Mark Place Apt. 697, Lake Ralph','0581629134',N'Nữ','jstone@example.net';
+EXEC insertPatient 'Anita Perez DDS','1975-07-01','Unit 5737 Box 9679, DPO AA 65591','0262873547',N'Nam','jmoore@example.org';
+EXEC insertPatient 'David Leonard','1982-07-19','844 John Trail Suite 998, New Jacqueline','0975393323',N'Nữ','james09@example.net';
+EXEC insertPatient 'Jeremy Foster','1963-03-06','4650 Cherry Haven, New Jenniferburgh','0806634208',N'Nam','djohnson@example.org';
+EXEC insertPatient 'Rebecca Hall','1985-11-17','981 Jon Rest Apt. 721, Morganside','0637463717',N'Nữ','rgarcia@example.org';
+EXEC insertPatient 'Katelyn Castro','1975-01-24','033 Erin Lake, New Kevintown','0471584706',N'Nam','fprice@example.com';
+EXEC insertPatient 'James Miles','1982-04-05','7879 Cindy Underpass, Jonesland','0486501290',N'Nam','john95@example.com';
+EXEC insertPatient 'Cassandra Gray','1989-10-14','30776 Peter Field, West Charleshaven','0338610619',N'Nữ','leah04@example.net';
+EXEC insertPatient 'Victoria Orozco','1975-01-02','95435 Robert View, Paigehaven','0038661555',N'Nam','connor32@example.net';
+EXEC insertPatient 'Clarence Martin','2003-03-01','522 West Street, Heatherhaven','0262426091',N'Nam','bbrooks@example.org';
+EXEC insertPatient 'Katherine Le','1963-12-28','350 Murphy Pines, South Tylerbury','0905047453',N'Nam','ecombs@example.org';
+EXEC insertPatient 'Billy Campbell','1989-05-02','341 Karen Burg Apt. 520, Port Cristina','0570708207',N'Nam','awheeler@example.com';
+EXEC insertPatient 'Paul Alvarado','1987-06-11','380 Stevens Shores, North Alicia','0133055376',N'Nữ','ggarcia@example.com';
+EXEC insertPatient 'Caitlyn Johnson','1978-12-26','26994 Taylor Fort, North Shelly','0033531478',N'Nam','yboyd@example.net';
+EXEC insertPatient 'Emily Gordon','2002-09-07','246 Brittany Parkway, Crawfordburgh','0158305169',N'Nam','nicole32@example.net';
+EXEC insertPatient 'Jeremy White','1990-03-27','40791 Beth Street Suite 288, Richardton','0610118353',N'Nữ','kwhite@example.org';
+EXEC insertPatient 'Joshua Moore PhD','1995-01-17','PSC 6363, Box 4393, APO AE 53489','0575910509',N'Nữ','jandrews@example.com';
+EXEC insertPatient 'Carmen Hall','2012-12-23','6503 Barry Fort, Nicholasmouth','0695642675',N'Nữ','woodemma@example.org';
+EXEC insertPatient 'Chad Carr','2005-12-16','028 Robert Flat, Tammyton','0626034300',N'Nữ','zanthony@example.org';
+EXEC insertPatient 'Doris Bryant','1996-04-30','9932 Gomez Inlet, Catherineborough','0298241867',N'Nam','vperkins@example.net';
+EXEC insertPatient 'Tonya Brewer','2011-09-28','8900 Jerry Drive Suite 803, East Colton','0318345009',N'Nữ','whiggins@example.com';
+EXEC insertPatient 'Jose Matthews','1980-05-05','0038 Rogers Center, East Vincentville','0729522293',N'Nam','iporter@example.com';
+EXEC insertPatient 'Stephen Chase','1984-10-24','0307 Serrano Rest Apt. 443, North Sheri','0991801550',N'Nữ','ejones@example.org';
+EXEC insertPatient 'James Butler','2011-07-27','214 Lewis Route Apt. 481, West Henry','0335972934',N'Nữ','mary98@example.com';
+EXEC insertPatient 'Dr. Douglas Summers DDS','1990-07-18','835 April Fork, Port Anaberg','0643896215',N'Nam','brian37@example.net';
+EXEC insertPatient 'James Anderson','2009-09-27','47231 Freeman Mills Apt. 728, Whiteshire','0632421491',N'Nữ','xstewart@example.com';
+EXEC insertPatient 'John Mitchell','1997-12-22','29537 Kyle Row, East Adamfort','0020974443',N'Nam','kbrown@example.org';
+EXEC insertPatient 'Casey Lopez Jr.','1986-04-08','80102 Samantha Way, Robinsonbury','0256216288',N'Nam','aroberts@example.com';
+EXEC insertPatient 'Dylan Alexander','1974-11-07','8286 Burton Park, Matthewston','0913497044',N'Nữ','rachel11@example.com';
+EXEC insertPatient 'Bethany Oneal','1969-08-08','4870 Mitchell Ramp, New Dylan','0675894868',N'Nam','leslie21@example.org';
+EXEC insertPatient 'Heather Smith','1966-10-06','675 Micheal Village, Lake Kevin','0277511981',N'Nam','xmurphy@example.net';
+EXEC insertPatient 'Joshua Flores','2002-05-15','03560 Newton Common, Lesliemouth','0964172750',N'Nam','amanda64@example.org';
+EXEC insertPatient 'Hector Jones','1972-04-15','205 Hill Unions, Townsendville','0389815761',N'Nữ','mark41@example.net';
+EXEC insertPatient 'Mrs. Linda Robinson','1978-04-26','73289 Brian Mountain, Brandonfort','0416791042',N'Nam','rmeyer@example.net';
+EXEC insertPatient 'Brittany Perry','1969-04-12','827 Williams Meadows, Lake Kathleenburgh','0061017510',N'Nam','laura62@example.org';
+EXEC insertPatient 'Krystal Long','1977-11-25','4625 Ashley Squares, Dominicfort','0033753782',N'Nam','john47@example.org';
+EXEC insertPatient 'Lisa Pierce','1958-07-22','51030 Villarreal Pines, West Alisonfort','0096474575',N'Nữ','sally65@example.net';
+EXEC insertPatient 'Daniel Jones','2010-05-03','135 Garrett Ridges, East Chad','0321009940',N'Nam','dustin66@example.net';
+EXEC insertPatient 'Amy Walters','2013-01-06','70255 Peter Turnpike, Hoffmanview','0387635778',N'Nam','vgibbs@example.org';
+EXEC insertPatient 'Kevin Baker','2005-06-07','138 Villarreal Rapid, Shaunshire','0649999796',N'Nữ','rayscott@example.net';
+EXEC insertPatient 'Terry Chavez','2011-08-11','3784 Cody Lights, Jeffreymouth','0108815022',N'Nữ','tzhang@example.org';
+EXEC insertPatient 'Duane Neal DDS','2006-01-27','536 Rocha Lodge, South Michelleton','0361741168',N'Nam','alexis02@example.net';
+EXEC insertPatient 'Joseph Oliver','2015-03-08','55072 Gail Parkways, Kathleenton','0960701909',N'Nam','benglish@example.com';
+EXEC insertPatient 'Tanner Hopkins','1968-08-16','USS Davis, FPO AP 48561','0990396246',N'Nam','hholt@example.net';
+EXEC insertPatient 'Thomas White','1985-06-20','Unit 8418 Box 0118, DPO AE 21485','0392264703',N'Nữ','lisa88@example.org';
+EXEC insertPatient 'Christine Hernandez','2012-08-14','3573 Melinda Pass, Hamiltonchester','0873907121',N'Nam','brian53@example.net';
+EXEC insertPatient 'Cynthia Cortez','1977-09-12','256 David Underpass, Stephanieton','0608559848',N'Nam','carol87@example.com';
+EXEC insertPatient 'Jennifer Pitts','2015-09-28','610 Love Island, Josephberg','0646160216',N'Nữ','rmoore@example.org';
+EXEC insertPatient 'Nathan Stevens','2001-10-28','2048 Victoria Mountain, Lake James','0972744934',N'Nam','joel77@example.net';
+EXEC insertPatient 'Nicholas Johnson','2003-01-31','576 Clayton Pines Suite 496, Port Lucas','0668994071',N'Nam','pwebb@example.com';
+EXEC insertPatient 'Mario Wade','1960-06-28','9223 Melendez Alley, Wardmouth','0443308851',N'Nữ','joseph58@example.net';
+EXEC insertPatient 'Shaun Freeman','1970-11-13','USS Pittman, FPO AP 40658','0658463637',N'Nữ','lpierce@example.net';
+EXEC insertPatient 'Angela Haas','1996-01-25','03446 Gomez Hills, West Joshua','0672208569',N'Nữ','njones@example.org';
+EXEC insertPatient 'Alicia Patel','1991-11-10','USCGC Martinez, FPO AP 37902','0564015523',N'Nữ','esmith@example.net';
+EXEC insertPatient 'Michael Grant','2006-11-06','0077 Nelson Green Apt. 714, Port Brett','0805812846',N'Nam','paul83@example.com';
+EXEC insertPatient 'Daniel Bailey','1970-11-04','48044 Lam Flat, East Bryanville','0136199211',N'Nữ','gary48@example.net';
+EXEC insertPatient 'Peter Glover','1970-11-17','3309 Michelle Road, West Kayla','0448523839',N'Nam','cpeters@example.com';
+EXEC insertPatient 'Zachary Gamble','1993-07-20','082 Dylan Key, East Pamela','0925949138',N'Nữ','robert94@example.net';
+EXEC insertPatient 'Benjamin Stone','1993-03-07','717 Garcia Walks, Tammymouth','0155587746',N'Nữ','ocook@example.org';
+EXEC insertPatient 'Sean Wilson','2000-05-26','88251 Ellison Dale, South Jennifer','0594050985',N'Nữ','djones@example.com';
+EXEC insertPatient 'Glenn Gentry','2002-01-21','920 Spencer Green, North Stephanieland','0863023293',N'Nam','zrich@example.org';
+EXEC insertPatient 'Benjamin Copeland','2010-08-10','PSC 0218, Box 3147, APO AE 71957','0842839232',N'Nữ','pfoster@example.com';
+EXEC insertPatient 'Jessica Lee','1991-01-26','2256 Jillian Neck Apt. 440, Josephmouth','0595460319',N'Nam','rlittle@example.com';
+EXEC insertPatient 'Alec Thompson','2007-07-17','8813 Clark Ferry, North Betty','0346179059',N'Nam','pmiller@example.org';
+EXEC insertPatient 'Scott Moran','1963-09-11','65816 Rodriguez Field, Rebeccatown','0143375226',N'Nữ','jeremy80@example.net';
+EXEC insertPatient 'Jerry Jackson','2009-08-21','405 James Walk, North Coltonberg','0404859056',N'Nam','james08@example.com';
+EXEC insertPatient 'Jeffrey White','1981-02-24','41139 Vanessa Stream, Lake Frankfort','0406219654',N'Nam','kskinner@example.org';
+EXEC insertPatient 'Michael Griffin','1978-06-02','96136 Derek Skyway, Robertsfort','0322581486',N'Nam','ashley74@example.com';
+EXEC insertPatient 'Wesley Santana','1993-09-24','9289 West Extension Apt. 404, New Larry','0571300822',N'Nam','dwarren@example.net';
+EXEC insertPatient 'Christopher Richmond','1981-01-02','87471 Murphy View, West Candice','0817368847',N'Nữ','david31@example.org';
+EXEC insertPatient 'Melissa Davila','2002-01-19','758 Alexis Road Suite 707, Port Ericport','0765363047',N'Nam','wardkyle@example.net';
+EXEC insertPatient 'Travis Garcia','2002-06-09','164 Alan Mill, Lake Theresafort','0607741255',N'Nam','chad31@example.org';
+EXEC insertPatient 'Frank Robinson','2013-03-07','086 Katrina Run Apt. 426, Port Meganberg','0271488367',N'Nam','david02@example.com';
+EXEC insertPatient 'Carlos Lewis','2017-10-11','6315 Sarah Keys, Campbellville','0058760613',N'Nam','julie80@example.net';
+EXEC insertPatient 'Michelle Knight','2012-11-22','361 William Locks, Johnnyfort','0793166046',N'Nữ','doyleamy@example.org';
+EXEC insertPatient 'Charlene Rios','1986-05-14','611 John Place Suite 133, East Gina','0690933928',N'Nữ','pamela61@example.net';
+EXEC insertPatient 'Joshua Avila','2008-11-30','USNV Harris, FPO AA 51719','0470535688',N'Nam','carol67@example.net';
+EXEC insertPatient 'Shane Moss','1967-04-15','96750 Mercado Corners, South Amy','0511304891',N'Nữ','mcastro@example.com';
+EXEC insertPatient 'James Miller','1987-02-20','PSC 7775, Box 5040, APO AP 32851','0528942246',N'Nữ','unguyen@example.com';
+EXEC insertPatient 'Russell Perkins','1972-09-23','0906 Cruz Park, North Danielhaven','0548352716',N'Nam','vweber@example.com';
+EXEC insertPatient 'Tamara Medina','2001-11-19','451 Atkinson Forge Apt. 258, Laurenville','0329005097',N'Nữ','dtaylor@example.com';
+EXEC insertPatient 'Jessica Peterson','1979-10-18','250 Pamela Wall, Lake Joseph','0515422558',N'Nữ','hdavis@example.com';
+EXEC insertPatient 'Steven Brady','1986-01-31','51213 Melanie Ramp, Port Scottchester','0677718221',N'Nữ','lhuffman@example.com';
+EXEC insertPatient 'Katie Valencia','1978-07-19','6101 Marquez Lights, New Davidview','0158694848',N'Nữ','donna60@example.com';
+EXEC insertPatient 'Joseph Fuentes','2007-12-21','96181 Garcia Junctions, Danaport','0848233986',N'Nam','karen77@example.com';
+EXEC insertPatient 'Tamara Lindsey','1975-06-08','141 Michael Crossing, Port Tamarafort','0126563256',N'Nam','emarquez@example.net';
+EXEC insertPatient 'Jonathan Thomas','1992-06-14','615 Nguyen Plains, Hodgehaven','0103812870',N'Nữ','ymartin@example.com';
+EXEC insertPatient 'Joseph Kennedy','1985-03-05','88336 Savage Keys, Stevenbury','0534622077',N'Nam','xwright@example.com';
+EXEC insertPatient 'Ryan Archer','1979-10-15','83359 Cynthia Via Suite 013, Coltontown','0788190425',N'Nam','dlane@example.com';
+EXEC insertPatient 'Lisa Berry','1965-05-20','USCGC Mclean, FPO AA 23537','0586488281',N'Nữ','beckadam@example.com';
+EXEC insertPatient 'Steven Mason','1989-07-24','520 Wright Branch, Codyview','0527267482',N'Nam','sburke@example.net';
+EXEC insertPatient 'Corey Hansen','1986-08-24','Unit 0912 Box 5136, DPO AP 90316','0805716973',N'Nam','edward45@example.org';
+EXEC insertPatient 'Carla Copeland','1981-01-20','811 Leach Common, Turnerport','0711334104',N'Nam','erin40@example.org';
+EXEC insertPatient 'Amanda Sloan','1975-06-03','113 Henderson Turnpike, Lake Janet','0092515867',N'Nam','shelia51@example.com';
+EXEC insertPatient 'Joanna Lopez','1959-11-23','369 Lindsey Tunnel, Miashire','0110744621',N'Nữ','andrea40@example.org';
+EXEC insertPatient 'Eugene Anderson','1976-11-02','PSC 5797, Box 9767, APO AP 72705','0270033639',N'Nữ','dcain@example.com';
+EXEC insertPatient 'Brian Robinson','1998-05-14','7418 Elizabeth Squares, Ashleyville','0636584133',N'Nữ','joseph24@example.org';
+EXEC insertPatient 'Joseph Rivera','1975-04-22','2956 Schmidt Dale, Benjaminfurt','0787567447',N'Nữ','nprice@example.com';
+EXEC insertPatient 'Robert Andrade','1990-07-29','PSC 4426, Box 5049, APO AA 77472','0088572187',N'Nam','austin10@example.com';
+EXEC insertPatient 'Carolyn Waters','1978-09-03','93902 Matthew Greens, West Zachary','0291983951',N'Nữ','angela95@example.net';
+EXEC insertPatient 'Robert Woodard','1967-01-15','684 Theodore Ville, Kathleenstad','0996703548',N'Nữ','nwhite@example.com';
+EXEC insertPatient 'Susan Garcia','1974-11-29','694 Smith Wall Suite 406, Benjamintown','0626625189',N'Nam','julie18@example.com';
+EXEC insertPatient 'Francisco Williams','1980-12-12','49824 Francisco Curve, East Jacob','0855054312',N'Nam','jhall@example.net';
+EXEC insertPatient 'James Vasquez','1996-06-24','951 Smith Court Suite 782, Hamptonmouth','0389506462',N'Nam','dyerlisa@example.com';
+EXEC insertPatient 'Bradley Bradford','1991-11-30','6273 Holt Island, South Jessicashire','0447505652',N'Nữ','uvargas@example.com';
+EXEC insertPatient 'Laura Crosby','2001-06-09','371 Mary Pike, Romeroland','0047155792',N'Nam','ashley19@example.org';
+EXEC insertPatient 'Jodi Vaughn','1980-11-11','3881 Rivers Stravenue, Port Gregoryburgh','0955040629',N'Nữ','gsmith@example.com';
+EXEC insertPatient 'Melissa Bishop','2014-12-21','70445 Dixon Neck Suite 898, Mcdanielfurt','0275457898',N'Nam','hmoore@example.org';
+EXEC insertPatient 'James Becker','2014-11-21','2444 Diana Port, South Heatherburgh','0289330944',N'Nam','larry96@example.net';
+EXEC insertPatient 'Ashley Maynard','1997-04-03','532 Todd Camp, Lake Angela','0055445771',N'Nữ','chenjose@example.org';
+EXEC insertPatient 'Robert Thompson','1963-01-05','244 Russell Hill Apt. 066, Watkinstown','0709509375',N'Nữ','dennis57@example.com';
+EXEC insertPatient 'Janet Holloway','1964-05-22','5114 David Mews, Reginaton','0215968294',N'Nam','brian79@example.com';
+EXEC insertPatient 'Patrick Fuller','1996-05-27','333 Gonzalez Point, North Anthonyland','0733345080',N'Nữ','yharris@example.com';
+EXEC insertPatient 'Brian Cline','2002-09-19','147 Blair Drives Suite 721, Amandafort','0707902501',N'Nữ','nicole77@example.com';
+EXEC insertPatient 'Tamara Calderon','1981-08-27','537 Maria Corner, Lake Mathewberg','0312064604',N'Nam','wbecker@example.net';
+EXEC insertPatient 'Donald Larson','1962-04-03','53437 Beth Hills, Lake Douglas','0619030558',N'Nữ','qjordan@example.net';
+EXEC insertPatient 'Gabrielle Baker','1992-12-27','PSC 6491, Box 9913, APO AE 88265','0887277001',N'Nữ','ibaker@example.net';
+EXEC insertPatient 'Angel Bell','1964-09-08','8350 Heather Way Apt. 557, West Amanda','0075864958',N'Nữ','joseph43@example.org';
+EXEC insertPatient 'John Snyder','2000-03-28','78341 Scott Manor, East Colinmouth','0400442087',N'Nam','linda16@example.org';
+EXEC insertPatient 'Emily James','1985-01-14','PSC 7393, Box 5700, APO AA 41670','0115993651',N'Nữ','ian46@example.org';
+EXEC insertPatient 'Angel Blanchard','1983-09-02','97111 Jody Corner, Meganchester','0722040473',N'Nữ','john30@example.org';
+EXEC insertPatient 'Joanne Carpenter','1970-07-08','6231 Shelton Knoll Suite 921, Sarahside','0117942459',N'Nam','jerry43@example.net';
+EXEC insertPatient 'Jason Finley','1977-10-14','PSC 8199, Box 8218, APO AP 29746','0310196392',N'Nữ','daniel43@example.net';
+EXEC insertPatient 'Dawn Hudson','1980-06-14','8170 Teresa Underpass, South Christopher','0769871319',N'Nữ','vmichael@example.net';
+EXEC insertPatient 'Kevin Hall','1986-11-08','759 Morton Trail Suite 601, North Amy','0822735207',N'Nữ','lisa24@example.org';
+EXEC insertPatient 'Matthew Campbell','1985-12-16','280 Angie Route Apt. 748, Williamsburgh','0712730352',N'Nam','zlowe@example.org';
+EXEC insertPatient 'Jose Gilbert','2014-05-20','3563 Marquez Mill, South Kathy','0297484088',N'Nam','walter09@example.net';
+EXEC insertPatient 'Shawn Mercer','1960-08-04','382 Lori Hill Apt. 575, Hillfurt','0164879101',N'Nữ','julian85@example.net';
+EXEC insertPatient 'Aaron Hughes','2003-04-10','64975 Wright Center, North Robertview','0236346572',N'Nam','peter64@example.net';
+EXEC insertPatient 'Jason Barnes','2008-01-27','5683 Tucker Pass Apt. 207, Fosterbury','0430011614',N'Nữ','andrea76@example.org';
+EXEC insertPatient 'Robert Ferguson','1969-01-09','Unit 7405 Box 1753, DPO AE 52844','0870032482',N'Nam','ronnie78@example.org';
+EXEC insertPatient 'David Figueroa','2012-03-03','76533 Vega Union, North Allisonbury','0399393861',N'Nam','tracy52@example.com';
+EXEC insertPatient 'Juan Hinton','1969-12-12','USS Powell, FPO AA 03200','0851965936',N'Nam','oedwards@example.com';
+EXEC insertPatient 'James Allen','2012-05-03','2600 Rhodes Lake Apt. 639, Youngview','0562438125',N'Nam','eugene52@example.com';
+EXEC insertPatient 'Stephen Myers','1977-11-11','0526 Vazquez Viaduct, Emilymouth','0845019772',N'Nữ','mgates@example.com';
+EXEC insertPatient 'Jeffrey Watkins','2008-09-27','Unit 3652 Box 7533, DPO AA 86708','0186438364',N'Nữ','jperry@example.com';
+EXEC insertPatient 'Jennifer Lee','1966-02-02','PSC 9753, Box 6239, APO AE 22982','0682728903',N'Nữ','cwest@example.com';
+EXEC insertPatient 'Brandon Lawrence','2003-03-21','9167 Sean Station, Mcmillanville','0508715506',N'Nam','james38@example.com';
+EXEC insertPatient 'Rachel Hahn','1982-11-19','1539 Lori Shoals, New Frank','0306197613',N'Nam','kshea@example.net';
+EXEC insertPatient 'Robert Taylor','1970-12-14','41996 James Ford, Richardtown','0916829561',N'Nam','ilewis@example.com';
+EXEC insertPatient 'Mark Simon','1972-11-10','207 Jordan Trail, South Elizabethchester','0717967458',N'Nam','rharris@example.net';
+EXEC insertPatient 'Eddie Martinez','1984-12-12','72870 Kelley Highway, Port Rebecca','0980329335',N'Nam','bhill@example.com';
+EXEC insertPatient 'Duane Morales','1959-09-01','1557 Richard Forge Apt. 695, Michaelview','0987652938',N'Nam','jamiefox@example.net';
+EXEC insertPatient 'Angel Kelly','1991-10-24','90178 Lori Point Suite 081, Pettybury','0677925362',N'Nữ','shawn34@example.org';
+EXEC insertPatient 'Allison Acevedo','1970-09-23','03849 Jarvis Extensions, Sanchezhaven','0240524344',N'Nam','brent62@example.com';
+EXEC insertPatient 'Kenneth Wilson','1988-03-20','94250 Clayton Crest Suite 564, Lisastad','0178109356',N'Nam','coxkayla@example.com';
+EXEC insertPatient 'Raymond Trujillo','2006-04-08','97923 David Tunnel, Ginaborough','0052638086',N'Nam','nsmith@example.org';
+EXEC insertPatient 'Jenna Johnson','2008-12-05','PSC 3206, Box 0522, APO AP 10736','0491884809',N'Nam','wfisher@example.org';
+EXEC insertPatient 'Christina Miller','2001-06-08','PSC 0646, Box 9642, APO AA 24512','0674434413',N'Nữ','qholt@example.com';
+EXEC insertPatient 'Michael Weiss','2017-09-08','42265 Mejia Motorway, Lake Anthonyburgh','0380019240',N'Nữ','mark81@example.org';
+EXEC insertPatient 'Brandon Lee','2002-09-26','515 Joseph Extension, Crystalburgh','0752894523',N'Nam','lhardy@example.com';
+EXEC insertPatient 'Tony Jones','2005-11-10','62857 Jason Falls, North Michaelville','0621077177',N'Nữ','dkennedy@example.com';
+EXEC insertPatient 'Julia Shea','2010-10-06','69267 Lopez Extension, New James','0669101756',N'Nữ','anneroth@example.org';
+EXEC insertPatient 'Christopher Neal','2010-04-27','30368 Kevin Corner, Daughertyview','0116295973',N'Nữ','gina89@example.net';
+EXEC insertPatient 'Derrick Ward','1999-05-18','64255 Rogers Manors, Howellstad','0222702569',N'Nam','frank09@example.org';
+EXEC insertPatient 'Blake Singh','1976-03-08','0430 Fischer Port, West David','0923946734',N'Nữ','mpadilla@example.org';
+EXEC insertPatient 'Jason Melendez','2002-11-11','810 Smith Ferry Suite 487, Jenniferton','0471052457',N'Nam','vbean@example.com';
+EXEC insertPatient 'David Davis','2011-05-13','4659 Casey Grove, Matthewview','0402989171',N'Nam','huntjohn@example.com';
+EXEC insertPatient 'Charlotte Grant','1980-02-02','30977 David Bridge, Port Tiffany','0634785750',N'Nữ','laura33@example.net';
+EXEC insertPatient 'Brian Waters','1982-02-27','Unit 9035 Box 0563, DPO AE 63451','0474950256',N'Nam','mramirez@example.org';
+EXEC insertPatient 'Leslie Hansen','1987-08-14','757 Michael Well, Velezview','0843244529',N'Nam','xmoore@example.org';
+EXEC insertPatient 'Victoria Miller','2011-11-09','Unit 7038 Box 9465, DPO AE 61345','0193108334',N'Nữ','imann@example.org';
+EXEC insertPatient 'Jennifer Hoffman','1958-06-02','302 Kidd Row Suite 843, Smithchester','0322190569',N'Nam','tdavis@example.net';
+EXEC insertPatient 'Christopher Smith','1968-03-21','644 Donald Ridges, South Monique','0179028039',N'Nam','snowsara@example.net';
+EXEC insertPatient 'Nathan James','1992-06-09','694 Salinas Brook, New Stephen','0802065354',N'Nữ','james66@example.org';
+EXEC insertPatient 'Donald Jenkins','1961-02-01','882 Kathleen Flat, Schmidtmouth','0487025746',N'Nữ','ngilbert@example.org';
+EXEC insertPatient 'Eric Kennedy','1997-11-11','8848 Harris Trail, Phillipshaven','0251817175',N'Nữ','cfarmer@example.com';
+EXEC insertPatient 'Jason Middleton','2010-06-28','088 Frank Mission, Feliciaborough','0107828582',N'Nam','ypowell@example.com';
+EXEC insertPatient 'Mia Olson','1999-09-26','8102 Richard Circles, Cynthiafort','0059310381',N'Nam','jack14@example.net';
+EXEC insertPatient 'Joseph Cruz','2004-04-17','Unit 6057 Box 8281, DPO AA 32914','0689423839',N'Nam','nicole77@example.org';
+EXEC insertPatient 'Mary Newton','1981-03-19','860 Marcus Wells Apt. 661, Port Robert','0884809231',N'Nam','gburgess@example.net';
+EXEC insertPatient 'Leah Mckay','2009-01-30','1554 Roth Courts Suite 211, Knightmouth','0973717083',N'Nam','sheila95@example.net';
+EXEC insertPatient 'Kristen Perez','2009-09-07','479 Petersen Unions, Port Frederickfurt','0812150414',N'Nam','dakota29@example.org';
+EXEC insertPatient 'Jamie Hunter','1963-09-25','550 Xavier Gardens Apt. 110, Lake Dawn','0987959807',N'Nam','james16@example.com';
+EXEC insertPatient 'Lindsay Martin','2004-03-05','USNV Little, FPO AA 43509','0924889213',N'Nam','sharon43@example.com';
+EXEC insertPatient 'Lindsay Rivera','2006-08-25','PSC 8828, Box 5639, APO AP 51269','0630653780',N'Nam','mason29@example.net';
+EXEC insertPatient 'Kayla Trevino','1964-08-17','782 Sharon Place Suite 797, Hallland','0778649874',N'Nữ','lydia77@example.com';
+EXEC insertPatient 'Samuel Lopez','2017-10-08','7429 Trevor Cliffs, West Stevenchester','0488363880',N'Nam','ldavis@example.com';
+EXEC insertPatient 'Amanda Wong','2002-05-29','PSC 9656, Box 5832, APO AA 47313','0689412104',N'Nữ','nicole60@example.com';
+EXEC insertPatient 'Maria Khan','1993-01-21','187 Kelly Roads, Lake Daniel','0836161167',N'Nam','vfisher@example.net';
+EXEC insertPatient 'Sara Townsend','1965-01-17','317 Chase Squares, East Amanda','0436180629',N'Nữ','jesse09@example.org';
+EXEC insertPatient 'Jessica Meyer','1992-07-23','7402 Edwards Isle, South Allison','0160769103',N'Nữ','megan28@example.org';
+EXEC insertPatient 'Mark Andrade','1978-11-15','7212 Ortiz Crossing Apt. 740, Lambfort','0117918252',N'Nữ','gary73@example.net';
+EXEC insertPatient 'Erin Maynard','1990-08-24','Unit 0033 Box 7210, DPO AE 18604','0169072457',N'Nữ','gjones@example.com';
+EXEC insertPatient 'Carlos Kemp','1996-12-12','574 Jones Corners Apt. 947, Walkerfurt','0103358410',N'Nam','jaime96@example.org';
+EXEC insertPatient 'Carrie Vazquez','1988-01-06','82298 Miller Throughway, Port Colton','0099033540',N'Nữ','jason15@example.net';
+EXEC insertPatient 'Melissa Jones','1985-12-14','967 Susan Port Apt. 138, Robertshire','0188553096',N'Nữ','wholland@example.net';
+EXEC insertPatient 'Jennifer Herrera','2006-01-24','963 John Fort Apt. 488, Barnettborough','0878389702',N'Nam','ctaylor@example.net';
+EXEC insertPatient 'Jonathan Morris','1991-09-05','11372 Sherri Trace, Sullivanland','0862506924',N'Nam','mary56@example.org';
+EXEC insertPatient 'James Ramos','1965-06-06','314 Daniel Inlet Suite 618, South Joseph','0949210512',N'Nam','martin29@example.org';
+EXEC insertPatient 'Sarah Mitchell','1965-11-15','058 Flores Keys Suite 359, Gonzalezfurt','0318972350',N'Nữ','cfleming@example.net';
+EXEC insertPatient 'Sheila Nguyen','1990-04-15','4481 Madison Vista, Garyborough','0015685799',N'Nam','mmeyers@example.net';
+EXEC insertPatient 'Ryan Pugh','2000-03-12','04143 Haynes Ferry, Mathisbury','0591992981',N'Nam','psparks@example.net';
+EXEC insertPatient 'Douglas Nelson','1990-09-10','911 Emily Plaza, East Briantown','0363756737',N'Nữ','ttaylor@example.org';
+EXEC insertPatient 'Samuel Abbott','1974-08-24','47631 Hartman Shoals, East Michael','0900121374',N'Nam','iwhite@example.com';
+EXEC insertPatient 'Joseph Cooke','1973-01-25','041 Jessica Cape Suite 542, West Anthony','0129214815',N'Nữ','robert03@example.com';
+EXEC insertPatient 'Marissa Harvey','1979-05-10','986 Sandra Pine, Richardmouth','0363467065',N'Nam','usimmons@example.net';
+EXEC insertPatient 'Jennifer Nelson','2009-05-18','39483 Joseph Land, Carrview','0274122840',N'Nữ','pyoung@example.org';
+EXEC insertPatient 'Whitney Atkins','2007-02-23','706 Willie Park, South Mary','0647884265',N'Nam','mthomas@example.com';
+EXEC insertPatient 'Brandon Holland','1992-04-19','35262 Daniel Prairie, Martinhaven','0279782258',N'Nữ','rmeadows@example.com';
+EXEC insertPatient 'Susan Williams','2002-02-01','958 Garrison Streets, Craigshire','0803534314',N'Nữ','othomas@example.com';
+EXEC insertPatient 'Martin Barnes','2002-09-27','6081 Martha Falls, Fryeland','0059032144',N'Nam','john31@example.org';
+EXEC insertPatient 'Robert Hall','2003-07-20','52693 Veronica Drives, Lake Marychester','0065259161',N'Nam','xvargas@example.org';
+EXEC insertPatient 'William Spears','2000-05-12','24755 Carney Shore, New Stephaniefurt','0229008997',N'Nữ','ekemp@example.org';
+EXEC insertPatient 'Susan Bruce','2017-09-19','67927 Matthew Points Apt. 327, Jamestown','0540575699',N'Nam','zvazquez@example.net';
+EXEC insertPatient 'Sierra Villanueva','1968-09-25','898 Moore Cliffs, Sanchezborough','0705377633',N'Nữ','johnray@example.net';
+EXEC insertPatient 'Mark Wilson','1983-09-10','88690 Mccullough Mills, Courtneyton','0434091117',N'Nữ','wanda18@example.com';
+EXEC insertPatient 'David Young','1962-02-13','8674 Kenneth Garden, Lake Larry','0130337377',N'Nam','qtaylor@example.net';
+EXEC insertPatient 'Tina May','2014-11-15','631 Simmons Mills, Matthewburgh','0151854755',N'Nữ','nwalker@example.org';
+EXEC insertPatient 'Carl Guerra','2012-01-30','89255 Sarah Gardens, Sheltonview','0852234450',N'Nữ','nathan49@example.com';
+EXEC insertPatient 'David Villegas','1968-11-22','669 David Greens, Sarahfurt','0827112981',N'Nữ','sarah62@example.net';
+EXEC insertPatient 'Brenda Beasley','1978-02-12','PSC 3628, Box 9040, APO AE 82942','0652515870',N'Nữ','qballard@example.com';
+EXEC insertPatient 'Molly Velasquez','1978-08-03','78597 Sheila Spur, Lake Tammy','0164849658',N'Nam','plindsey@example.com';
+EXEC insertPatient 'Dylan Mcdonald','1965-08-04','4412 Carey Views, Chelseachester','0831325498',N'Nữ','joshua42@example.com';
+EXEC insertPatient 'Jeffery Mendez','2006-12-16','59770 Anderson Creek, Christopherfurt','0647046011',N'Nữ','xsoto@example.org';
+EXEC insertPatient 'Gary Sullivan','1970-02-24','100 Robbins Spur Apt. 344, Parkerside','0401252969',N'Nữ','erin09@example.com';
+EXEC insertPatient 'Joseph Young','1993-04-01','171 Raymond Pass Suite 761, South Jose','0846899618',N'Nam','phuffman@example.com';
+EXEC insertPatient 'Victoria Ford','1969-02-23','USNV Carrillo, FPO AP 61715','0256613052',N'Nữ','marie80@example.com';
+EXEC insertPatient 'Ryan Erickson MD','1971-03-07','8645 Miller Divide, North Allen','0333308357',N'Nam','sarah65@example.net';
+EXEC insertPatient 'Adam Hill','2014-05-18','9586 Roberts Cliff, North Nancy','0168050157',N'Nữ','zfoster@example.net';
+EXEC insertPatient 'Bernard Evans','2003-07-16','PSC 5635, Box 1570, APO AA 21987','0449895397',N'Nam','glowe@example.org';
+EXEC insertPatient 'Jake Fox','2017-02-28','10224 Eric Mews, Coopermouth','0486191382',N'Nam','vstevens@example.com';
+EXEC insertPatient 'Joseph Flores','1959-12-29','USS Guzman, FPO AE 54302','0872500623',N'Nữ','joseph62@example.org';
+EXEC insertPatient 'Gregory Jones','1969-06-14','22540 Reyes Forges Suite 390, Jeremyfurt','0109371348',N'Nữ','dgomez@example.com';
+EXEC insertPatient 'Megan White','1998-06-27','06499 Drew Crest Apt. 825, Lake Daniel','0066761166',N'Nữ','lance84@example.com';
+EXEC insertPatient 'Bruce Powell','2007-01-04','3123 Evan Drives Apt. 920, Jaimeville','0326234420',N'Nữ','sbean@example.net';
+EXEC insertPatient 'Sheila Cortez','2005-08-19','67558 Lisa Groves, Cruzfort','0327135884',N'Nữ','owallace@example.org';
+EXEC insertPatient 'Nicole Jones','2003-07-13','49510 Luis Lake Apt. 817, Port Laura','0114147298',N'Nữ','xkeller@example.com';
+EXEC insertPatient 'Laurie Burns','2013-09-16','1860 Long Islands Apt. 000, Lake Kenneth','0832051438',N'Nữ','wcase@example.net';
+EXEC insertPatient 'Christopher Fletcher','1971-12-09','08765 Stewart Pass Apt. 885, Johnsonland','0140089463',N'Nữ','jhenry@example.com';
+EXEC insertPatient 'Whitney Booker','1976-10-09','1730 Juan Parks, Walkerstad','0479613997',N'Nữ','miguel38@example.com';
+EXEC insertPatient 'Tracy Edwards PhD','1980-03-12','11288 Katherine Causeway, Brandonhaven','0934327800',N'Nam','ebarnett@example.com';
+EXEC insertPatient 'Christina Townsend','2017-08-18','875 Clark Prairie Apt. 265, Kaylaland','0254735728',N'Nữ','kimclark@example.com';
+EXEC insertPatient 'Jasmin Galloway','2009-01-25','3361 Michele Mountains, Lake Caseyton','0619875448',N'Nam','ejackson@example.org';
+EXEC insertPatient 'Dan Downs','1981-10-05','619 Gonzales Pines, Flynnstad','0473115036',N'Nữ','omorales@example.com';
+EXEC insertPatient 'Kristen Rios','1979-10-10','20499 Elizabeth Row, Tylerbury','0558162671',N'Nữ','justin85@example.net';
+EXEC insertPatient 'Jennifer Perez','2012-05-14','6182 Clark Overpass, Seanburgh','0723336101',N'Nữ','dawn99@example.net';
+EXEC insertPatient 'Duane Mcdonald','1972-02-15','491 Meyer Road, New Seanside','0895299221',N'Nữ','kelseyli@example.com';
+EXEC insertPatient 'Michele Weber','1987-09-22','199 Bryant Trafficway, West Heatherland','0110295576',N'Nam','lmendez@example.org';
+EXEC insertPatient 'Ashley Nelson','1976-01-31','649 Haley Island, Jennifermouth','0263962581',N'Nữ','dhill@example.org';
+EXEC insertPatient 'Ronald Whitaker','1977-08-17','8347 George Unions Apt. 978, Robertfurt','0085554317',N'Nam','nturner@example.com';
+EXEC insertPatient 'Jane Arellano','1976-07-28','3088 Cox Hills Suite 753, Jessicastad','0235592412',N'Nam','hannah43@example.org';
+EXEC insertPatient 'Justin Carter','1998-02-12','82061 David Plains, North Kimberly','0289507373',N'Nam','tammy91@example.net';
+EXEC insertPatient 'Brandon Bradley','1977-08-10','95484 Bonilla Causeway, Garretthaven','0504534171',N'Nữ','qholland@example.net';
+EXEC insertPatient 'Jacob Taylor','2010-07-12','6777 Harvey Junction, Mcdanielburgh','0490640322',N'Nam','joshua30@example.com';
+EXEC insertPatient 'Robert Hunter','1961-05-22','7492 Robinson Circles, New John','0229770193',N'Nam','joseph13@example.com';
+EXEC insertPatient 'Miss Rhonda Morton PhD','1966-09-21','1996 James Roads Apt. 756, Josephberg','0065810618',N'Nam','bblack@example.org';
+EXEC insertPatient 'Stephen Holloway','2001-10-06','998 Richard Walk, Teresaberg','0803854500',N'Nam','mhodge@example.org';
+EXEC insertPatient 'Christopher Johnson','1993-03-23','29109 Moreno Manor, East Erikshire','0270665182',N'Nam','ojones@example.com';
+EXEC insertPatient 'Gilbert Nicholson','1999-03-11','PSC 7116, Box 4394, APO AE 70723','0834553999',N'Nữ','gmiller@example.net';
+EXEC insertPatient 'William Duncan','1970-01-31','182 Chavez Forks, New Paula','0353682171',N'Nữ','pmoreno@example.com';
+EXEC insertPatient 'Bradley Cain','2013-07-13','57035 Smith Forge, Paulfurt','0940677999',N'Nữ','fcarey@example.org';
+EXEC insertPatient 'Andrew Reynolds','1959-08-23','6305 Garrett Field, East Troyport','0630315966',N'Nam','cmorrow@example.org';
+EXEC insertPatient 'Troy Gordon','1966-06-14','687 Joshua Field Apt. 850, Bakerville','0867377879',N'Nữ','qjohnson@example.com';
+EXEC insertPatient 'John Flores','1964-08-03','30000 Nguyen Land, South Kevinland','0136387310',N'Nam','lpreston@example.org';
+EXEC insertPatient 'Ebony Mcfarland','2001-09-30','0197 James Radial Apt. 439, New Jennifer','0393682851',N'Nam','ehall@example.com';
+EXEC insertPatient 'Jose Alexander','2010-02-19','5874 Vanessa Squares, Thompsonchester','0218051640',N'Nam','john32@example.com';
+EXEC insertPatient 'Peter Mccoy','1963-10-28','216 Gonzalez Stravenue, Cochranmouth','0831477962',N'Nam','andrew36@example.net';
+EXEC insertPatient 'Ronald Gibson','2005-01-02','931 Paul Hills, East Olivia','0750316354',N'Nam','thomas99@example.org';
+EXEC insertPatient 'Charles Gregory','1997-12-20','1538 Harris Heights, South Markstad','0450444950',N'Nữ','sean20@example.net';
+EXEC insertPatient 'Patrick Rodriguez','2011-05-08','327 Matthew Mountain, South Richard','0494198171',N'Nữ','igarza@example.org';
+EXEC insertPatient 'Allen Garcia','1978-07-22','366 Santos Roads, East Thomas','0833299846',N'Nữ','tmoore@example.com';
+EXEC insertPatient 'Kayla Vega','1991-12-16','USCGC Hammond, FPO AP 71814','0487518356',N'Nam','emily30@example.net';
+EXEC insertPatient 'Michelle Villarreal','1977-07-06','59811 Smith View Apt. 832, Rayside','0649559099',N'Nữ','randy43@example.com';
+EXEC insertPatient 'Amanda Rangel','1976-02-26','92253 Jones Stravenue, Kathrynmouth','0800467642',N'Nam','hmiller@example.org';
+EXEC insertPatient 'Victor Valentine','2012-03-04','22157 Anderson Dam, Garciastad','0109339133',N'Nam','cchapman@example.com';
+EXEC insertPatient 'Diane Howard','1978-12-06','3951 Reeves Rapids Apt. 769, Saraton','0204399347',N'Nữ','robert12@example.net';
 
 
-EXEC insertGeneralHealth '0898907167','2016-04-28 09:51:33','Join grow far late.';
-EXEC insertGeneralHealth '0614301018','2017-03-04 13:13:54','Where lay close still.';
-EXEC insertGeneralHealth '0092765223','2017-03-25 20:10:31','Security now politics camera.';
-EXEC insertGeneralHealth '0279507674','2015-09-09 18:58:36','My amount how become former.';
-EXEC insertGeneralHealth '0303070159','2016-06-14 04:39:55','Particularly use cut live.';
-EXEC insertGeneralHealth '0349892401','2016-05-19 13:49:13','City industry nothing arm.';
-EXEC insertGeneralHealth '0617494658','2013-01-23 11:28:28','Skin street research.';
-EXEC insertGeneralHealth '0068345518','2013-06-29 17:37:25','Whom enough think however add.';
-EXEC insertGeneralHealth '0952452511','2015-08-15 00:40:54','Scene politics buy cause.';
-EXEC insertGeneralHealth '0636253544','2017-03-09 20:48:34','Artist oil five suffer.';
-EXEC insertGeneralHealth '0421127793','2013-11-16 13:11:10','Explain form every.';
-EXEC insertGeneralHealth '0307081988','2015-03-12 21:27:29','Trouble idea start pass.';
-EXEC insertGeneralHealth '0028236666','2013-10-11 07:11:01','Fast five situation grow.';
-EXEC insertGeneralHealth '0186667596','2013-12-12 02:48:56','Degree live agent.';
-EXEC insertGeneralHealth '0020828976','2015-11-13 03:25:54','Off leave pay dream again.';
-EXEC insertGeneralHealth '0061545410','2013-06-27 05:51:10','In cost college crime room.';
-EXEC insertGeneralHealth '0971928102','2013-04-09 00:26:52','Sport century nature.';
-EXEC insertGeneralHealth '0372182542','2016-04-20 07:25:22','Various when issue.';
-EXEC insertGeneralHealth '0249793163','2013-02-12 21:01:48','Kid school I work field.';
-EXEC insertGeneralHealth '0493617575','2017-11-08 11:54:22','Program able music provide.';
-EXEC insertGeneralHealth '0788728949','2016-02-01 03:51:53','Road common sit charge.';
-EXEC insertGeneralHealth '0780491838','2016-11-06 01:43:05','Indeed throw get radio play.';
-EXEC insertGeneralHealth '0382355768','2015-06-28 16:51:31','Mission sure health.';
-EXEC insertGeneralHealth '0678103790','2014-01-10 14:22:51','Seat think if wrong.';
-EXEC insertGeneralHealth '0193085209','2016-05-22 16:52:53','Ten compare lose.';
-EXEC insertGeneralHealth '0715262085','2013-03-09 03:15:48','Catch administration trip.';
-EXEC insertGeneralHealth '0229745237','2015-07-22 05:24:17','Might sing machine.';
-EXEC insertGeneralHealth '0689825807','2016-06-29 19:55:48','Gun turn half back oil.';
-EXEC insertGeneralHealth '0876695397','2016-12-09 07:57:50','Fish world science standard.';
-EXEC insertGeneralHealth '0408469201','2014-04-23 17:34:03','Same call if or.';
-EXEC insertGeneralHealth '0558527584','2017-08-11 04:55:06','Common popular edge week.';
-EXEC insertGeneralHealth '0571146925','2017-07-13 17:13:53','Bag stay leave focus outside.';
-EXEC insertGeneralHealth '0005632338','2014-05-05 09:47:58','Miss thus few role keep thing.';
-EXEC insertGeneralHealth '0233906165','2017-01-04 02:26:55','Pass hear concern ever.';
-EXEC insertGeneralHealth '0895146769','2015-11-12 00:13:56','Two protect network blood.';
-EXEC insertGeneralHealth '0666817147','2014-07-10 22:39:57','Race happen direction modern.';
-EXEC insertGeneralHealth '0995507791','2013-01-30 17:25:31','Line determine capital.';
-EXEC insertGeneralHealth '0539174967','2014-03-07 05:34:50','Trip always relate rise.';
-EXEC insertGeneralHealth '0435761657','2017-06-09 20:31:05','Exist represent source room.';
-EXEC insertGeneralHealth '0351037975','2013-03-13 11:56:33','Sell above direction person.';
-EXEC insertGeneralHealth '0955203507','2013-08-11 02:02:26','Need that management degree.';
-EXEC insertGeneralHealth '0565218826','2014-05-16 11:25:46','I let support yard race.';
-EXEC insertGeneralHealth '0560170925','2015-12-31 10:06:17','Plant decide money.';
-EXEC insertGeneralHealth '0818973027','2013-02-27 22:17:40','Sport effect use.';
-EXEC insertGeneralHealth '0428082460','2016-01-15 02:23:01','Begin father campaign.';
-EXEC insertGeneralHealth '0509388404','2017-01-16 20:56:20','Us example throughout.';
-EXEC insertGeneralHealth '0113008745','2013-11-28 10:28:06','Call say TV about my.';
-EXEC insertGeneralHealth '0179051183','2017-05-27 19:45:23','According so certainly.';
-EXEC insertGeneralHealth '0304811947','2017-12-22 23:51:09','Nor even anything add.';
-EXEC insertGeneralHealth '0947957015','2013-07-07 01:13:13','Design wait month pressure.';
-EXEC insertGeneralHealth '0910901690','2016-01-14 00:23:49','Author look sing she together.';
-EXEC insertGeneralHealth '0717812512','2017-12-06 10:31:27','Minute key catch bed.';
-EXEC insertGeneralHealth '0616765492','2017-06-10 11:56:08','Bank wear who south.';
-EXEC insertGeneralHealth '0742069202','2014-02-13 03:40:11','Wide onto else oil.';
-EXEC insertGeneralHealth '0999320705','2016-07-19 17:37:51','Part itself know save room.';
-EXEC insertGeneralHealth '0415290502','2015-08-07 11:05:23','Art next yes rest how.';
-EXEC insertGeneralHealth '0386862245','2016-02-19 10:51:04','Can play wind.';
-EXEC insertGeneralHealth '0163807745','2013-07-12 15:23:20','Have cut country per.';
-EXEC insertGeneralHealth '0124857538','2014-02-12 20:23:10','Throw woman size talk improve.';
-EXEC insertGeneralHealth '0362363637','2013-05-24 12:57:52','Evidence back child certain.';
-EXEC insertGeneralHealth '0143736568','2016-07-24 23:56:46','Answer point speech point.';
-EXEC insertGeneralHealth '0691667073','2016-12-17 05:46:24','Throw type care enjoy himself.';
-EXEC insertGeneralHealth '0406852259','2015-07-18 05:55:59','Me hotel rule choice.';
-EXEC insertGeneralHealth '0051130438','2016-03-20 09:30:03','Treat study ahead safe.';
-EXEC insertGeneralHealth '0700215372','2016-05-03 05:44:16','Site single particularly.';
-EXEC insertGeneralHealth '0802360746','2014-12-09 06:18:29','Have music drug since long.';
-EXEC insertGeneralHealth '0717380907','2015-07-05 01:25:43','Wind loss amount cut.';
-EXEC insertGeneralHealth '0186446314','2014-01-14 02:39:57','Beyond walk shake big contain.';
-EXEC insertGeneralHealth '0104583453','2013-07-16 17:09:30','Draw once since.';
-EXEC insertGeneralHealth '0169259803','2017-03-26 14:20:27','Whatever because chair.';
-EXEC insertGeneralHealth '0205351270','2013-10-03 17:05:09','No with become run.';
-EXEC insertGeneralHealth '0258546071','2017-04-21 00:32:54','Far thing example part.';
-EXEC insertGeneralHealth '0064277081','2014-01-22 03:32:25','Among plan wide buy.';
-EXEC insertGeneralHealth '0242058847','2016-04-20 05:31:16','More write sign front guy.';
-EXEC insertGeneralHealth '0092083084','2014-03-16 13:37:43','Exist sometimes along.';
-EXEC insertGeneralHealth '0286543233','2017-03-30 07:43:35','Accept push who.';
-EXEC insertGeneralHealth '0015319066','2014-02-16 18:52:34','Success toward system.';
-EXEC insertGeneralHealth '0821354061','2017-12-14 16:35:39','Capital house his couple pay.';
-EXEC insertGeneralHealth '0076267702','2014-12-02 19:30:18','Either them usually quite.';
-EXEC insertGeneralHealth '0991315802','2016-12-02 23:59:06','During training thing than.';
-EXEC insertGeneralHealth '0161111446','2015-02-11 04:42:49','Send successful contain.';
-EXEC insertGeneralHealth '0840445932','2014-07-14 05:00:22','Man art cold his.';
-EXEC insertGeneralHealth '0981342629','2013-12-28 14:00:33','Civil better example.';
-EXEC insertGeneralHealth '0199687767','2015-01-01 02:25:26','Down race keep away.';
-EXEC insertGeneralHealth '0516765051','2017-10-25 14:11:01','Market answer enough.';
-EXEC insertGeneralHealth '0881672213','2013-12-19 15:13:50','Indeed establish dark work.';
-EXEC insertGeneralHealth '0502069857','2015-11-06 18:23:35','Other buy those so well fish.';
-EXEC insertGeneralHealth '0920628107','2014-11-30 17:10:46','Much religious later none say.';
-EXEC insertGeneralHealth '0158299402','2014-12-10 08:04:00','Feel anyone member form.';
-EXEC insertGeneralHealth '0677463810','2017-08-10 21:24:08','Recently might fast guess.';
-EXEC insertGeneralHealth '0549633165','2016-09-23 12:53:57','The agency base agree fill.';
-EXEC insertGeneralHealth '0512268839','2014-02-23 15:55:34','Professional financial reduce.';
-EXEC insertGeneralHealth '0709589143','2014-10-01 04:36:35','Option throw perhaps dog.';
-EXEC insertGeneralHealth '0154021497','2017-10-17 07:20:31','Writer then try enter.';
-EXEC insertGeneralHealth '0838071914','2015-03-04 18:59:20','Force actually can concern.';
-EXEC insertGeneralHealth '0872795623','2015-02-23 04:17:04','Health pretty movement smile.';
-EXEC insertGeneralHealth '0265925584','2016-06-11 15:09:15','Culture talk apply life.';
-EXEC insertGeneralHealth '0657754152','2013-03-26 11:31:34','Animal send even even gun.';
-EXEC insertGeneralHealth '0750639741','2015-03-03 11:34:25','Study usually to cause enjoy.';
-EXEC insertGeneralHealth '0169674780','2015-05-16 23:50:51','Attention husband agree civil.';
-EXEC insertGeneralHealth '0015956938','2016-09-29 02:30:14','Our discussion final.';
-EXEC insertGeneralHealth '0515714999','2014-09-30 03:54:48','Hundred live assume culture.';
-EXEC insertGeneralHealth '0823035505','2016-10-02 03:32:14','Man represent but stuff exist.';
-EXEC insertGeneralHealth '0535293276','2014-01-25 18:06:11','Politics such deep take.';
-EXEC insertGeneralHealth '0219058046','2014-12-14 10:20:18','More seat anything smile tax.';
-EXEC insertGeneralHealth '0919643304','2014-01-17 19:10:36','Until forward score fire.';
-EXEC insertGeneralHealth '0949546410','2017-09-07 09:28:28','Stay whether true difficult.';
-EXEC insertGeneralHealth '0501585771','2016-12-14 12:36:45','Protect at necessary sport.';
-EXEC insertGeneralHealth '0367073036','2015-12-07 20:37:34','So watch offer picture bank.';
-EXEC insertGeneralHealth '0279587642','2017-08-28 02:51:01','Think card right mention.';
-EXEC insertGeneralHealth '0347779550','2017-12-13 11:06:51','From similar big serve travel.';
-EXEC insertGeneralHealth '0097345352','2016-02-23 05:37:45','New nature cup away data.';
-EXEC insertGeneralHealth '0347223840','2015-04-10 14:44:21','We paper score phone.';
-EXEC insertGeneralHealth '0700565898','2016-02-08 23:56:17','Political speech even cost.';
-EXEC insertGeneralHealth '0795552597','2016-05-13 00:06:38','Act middle public church.';
-EXEC insertGeneralHealth '0952469362','2014-06-13 22:36:54','Modern job gun.';
-EXEC insertGeneralHealth '0879851531','2017-02-04 21:43:15','Growth produce color act.';
-EXEC insertGeneralHealth '0131744483','2015-07-04 03:14:59','Stop college doctor call.';
-EXEC insertGeneralHealth '0730356449','2017-10-20 12:59:51','Lot challenge prepare.';
-EXEC insertGeneralHealth '0110103955','2014-04-11 00:35:00','Car forget skill.';
-EXEC insertGeneralHealth '0192698550','2013-03-23 21:54:27','Argue any picture expert.';
-EXEC insertGeneralHealth '0002874122','2013-02-17 08:33:47','List entire enjoy ever among.';
-EXEC insertGeneralHealth '0087708241','2015-06-24 08:25:21','Appear it health shoulder.';
-EXEC insertGeneralHealth '0594456552','2014-12-02 21:56:54','Toward difference song.';
-EXEC insertGeneralHealth '0053605650','2013-04-13 09:41:17','Race what available.';
-EXEC insertGeneralHealth '0576947519','2016-07-21 10:03:39','Young according significant.';
-EXEC insertGeneralHealth '0491607677','2014-11-02 18:57:33','Green special her.';
-EXEC insertGeneralHealth '0197547288','2013-08-05 16:34:35','Hope the price.';
-EXEC insertGeneralHealth '0304360434','2013-10-22 23:07:43','Sign physical share industry.';
-EXEC insertGeneralHealth '0183331188','2017-10-13 02:30:02','Force door official forget.';
-EXEC insertGeneralHealth '0302495992','2014-10-01 03:00:43','Themselves dark deal.';
-EXEC insertGeneralHealth '0225951896','2017-12-08 22:19:05','Senior within born.';
-EXEC insertGeneralHealth '0815318238','2014-12-17 15:51:34','Difficult rest do pretty form.';
-EXEC insertGeneralHealth '0286480527','2013-12-07 03:40:53','Team speech nothing oil fight.';
-EXEC insertGeneralHealth '0656782614','2014-11-02 15:26:08','Receive score rate industry.';
-EXEC insertGeneralHealth '0346994330','2016-03-14 13:10:13','Medical fast produce officer.';
-EXEC insertGeneralHealth '0919004333','2014-01-15 19:21:12','Look place generation now any.';
-EXEC insertGeneralHealth '0492950313','2016-02-09 21:15:39','Stage truth analysis.';
-EXEC insertGeneralHealth '0870977348','2016-04-10 12:02:15','Inside item business.';
-EXEC insertGeneralHealth '0359940681','2014-12-03 01:54:30','Future art also.';
-EXEC insertGeneralHealth '0862527473','2013-03-06 20:33:29','Reveal though day whatever.';
-EXEC insertGeneralHealth '0750825952','2015-02-26 21:10:47','Owner among once why.';
-EXEC insertGeneralHealth '0167857136','2015-04-18 11:09:38','Soon give buy because measure.';
-EXEC insertGeneralHealth '0147504288','2016-10-30 09:47:38','American story stock hard.';
-EXEC insertGeneralHealth '0459167979','2013-11-12 04:08:47','Organization these than.';
-EXEC insertGeneralHealth '0372116768','2013-01-28 05:28:54','Number enough weight although.';
-EXEC insertGeneralHealth '0013443622','2015-03-13 17:10:51','Recently yes minute plant.';
-EXEC insertGeneralHealth '0088922873','2017-01-06 12:53:36','Glass few require civil play.';
-EXEC insertGeneralHealth '0379605592','2013-01-31 22:59:29','Next community if bring.';
-EXEC insertGeneralHealth '0006391584','2014-10-19 03:34:13','Red walk smile evening bit.';
-EXEC insertGeneralHealth '0505257966','2017-07-14 04:31:59','Receive tree else decide.';
-EXEC insertGeneralHealth '0762650465','2014-09-11 13:23:21','None last production on fill.';
-EXEC insertGeneralHealth '0216164827','2014-04-04 21:11:19','Yourself force trade.';
-EXEC insertGeneralHealth '0729740736','2013-09-01 00:29:54','West walk that.';
-EXEC insertGeneralHealth '0067802426','2017-12-16 09:02:41','Staff suffer across million.';
-EXEC insertGeneralHealth '0358761498','2016-01-10 23:31:12','Upon test agreement parent.';
-EXEC insertGeneralHealth '0026480560','2016-03-05 03:44:26','Let last million purpose.';
-EXEC insertGeneralHealth '0864828925','2014-07-03 08:37:49','Happen second citizen truth.';
-EXEC insertGeneralHealth '0885995442','2016-12-02 19:47:17','Wife national fill kitchen.';
-EXEC insertGeneralHealth '0145861563','2015-10-05 01:17:42','Foreign learn week hand.';
-EXEC insertGeneralHealth '0539610037','2017-07-15 19:41:08','Eight sea quite month.';
-EXEC insertGeneralHealth '0392092257','2014-12-27 03:25:09','Purpose ready artist.';
-EXEC insertGeneralHealth '0039691953','2017-05-18 02:16:48','Democratic cold drop fly.';
-EXEC insertGeneralHealth '0195148562','2017-10-15 13:52:59','Wide green wall blue author.';
-EXEC insertGeneralHealth '0286471412','2016-10-28 07:51:41','Practice discover stand.';
-EXEC insertGeneralHealth '0064792031','2014-02-14 01:41:29','Friend how evening many young.';
-EXEC insertGeneralHealth '0715958117','2014-04-21 23:56:17','Quickly share concern.';
-EXEC insertGeneralHealth '0997596467','2013-06-26 09:41:02','Trial left cover still else.';
-EXEC insertGeneralHealth '0869915398','2014-01-24 21:03:52','Sound politics college book.';
-EXEC insertGeneralHealth '0592546553','2014-09-05 13:49:11','Fire wind list run.';
-EXEC insertGeneralHealth '0182339854','2016-12-22 17:19:48','Get left score effect image.';
-EXEC insertGeneralHealth '0400510883','2016-08-25 09:04:49','High expert drug describe.';
-EXEC insertGeneralHealth '0567724611','2014-11-18 18:36:17','Enough mission why office.';
-EXEC insertGeneralHealth '0272877544','2013-12-30 04:13:31','Quite sometimes most area.';
-EXEC insertGeneralHealth '0789554835','2017-11-02 08:07:01','Whatever less after.';
-EXEC insertGeneralHealth '0858616616','2014-01-18 02:58:36','Rest treatment federal test.';
-EXEC insertGeneralHealth '0561426584','2013-05-05 22:36:53','Message group future before.';
-EXEC insertGeneralHealth '0297379848','2017-03-28 09:18:53','Street thousand this take.';
-EXEC insertGeneralHealth '0201159180','2017-07-02 19:22:22','Statement Republican help act.';
-EXEC insertGeneralHealth '0390272850','2016-08-28 01:12:14','Save do entire sit.';
-EXEC insertGeneralHealth '0395815415','2015-09-04 21:34:49','Wide reason pay nature.';
-EXEC insertGeneralHealth '0809136631','2015-03-15 04:49:52','His professor man write dog.';
-EXEC insertGeneralHealth '0021118996','2013-06-10 22:02:47','Agent also else everything.';
-EXEC insertGeneralHealth '0675576999','2015-07-02 18:17:44','Government likely star.';
-EXEC insertGeneralHealth '0957885259','2015-01-10 22:07:43','Speech guess military whole.';
-EXEC insertGeneralHealth '0596001720','2016-03-12 16:00:38','Explain large senior ability.';
-EXEC insertGeneralHealth '0732557408','2015-01-17 21:59:46','Like door smile city magazine.';
-EXEC insertGeneralHealth '0346573939','2017-09-23 00:34:40','Laugh blue water.';
-EXEC insertGeneralHealth '0850541345','2014-07-24 03:39:15','Their itself recently.';
-EXEC insertGeneralHealth '0139436624','2014-08-28 10:51:06','Process design meeting.';
-EXEC insertGeneralHealth '0077026535','2014-10-16 22:20:19','Arm throw sister officer part.';
-EXEC insertGeneralHealth '0271213846','2013-10-11 13:16:01','Business prevent he bad.';
-EXEC insertGeneralHealth '0623209916','2016-09-17 21:25:40','Fly marriage when player feel.';
-EXEC insertGeneralHealth '0273090844','2016-10-29 08:23:36','Yes right time.';
-EXEC insertGeneralHealth '0312640639','2013-05-27 05:14:35','Analysis deal production fast.';
-EXEC insertGeneralHealth '0211312855','2015-09-30 09:52:48','Item room up.';
-EXEC insertGeneralHealth '0483979732','2017-10-18 15:42:57','Former police see modern.';
-EXEC insertGeneralHealth '0836592861','2017-08-22 19:43:02','Site eye best seek.';
-EXEC insertGeneralHealth '0202797673','2015-06-21 16:03:35','Court wide they financial.';
-EXEC insertGeneralHealth '0125671392','2013-01-20 08:03:41','Son line owner speech dream.';
-EXEC insertGeneralHealth '0579652129','2017-03-25 00:00:19','Pull capital environmental.';
-EXEC insertGeneralHealth '0429764972','2016-11-04 01:53:42','Will scene do than.';
-EXEC insertGeneralHealth '0668801477','2015-06-24 20:58:09','Cause make coach case.';
-EXEC insertGeneralHealth '0880294239','2014-10-26 04:00:11','Defense front phone.';
-EXEC insertGeneralHealth '0525613895','2016-05-23 06:58:03','Gas key politics.';
-EXEC insertGeneralHealth '0948485380','2013-04-05 17:28:59','Political again care vote.';
-EXEC insertGeneralHealth '0476556429','2014-04-28 19:37:41','Name letter outside.';
-EXEC insertGeneralHealth '0417526438','2013-07-18 20:26:23','Million likely anyone article.';
-EXEC insertGeneralHealth '0149721311','2014-12-04 16:49:19','Put I nation relationship.';
-EXEC insertGeneralHealth '0496538717','2015-08-25 18:23:59','Plan risk star economy.';
-EXEC insertGeneralHealth '0142863673','2016-12-21 03:49:03','Speak fill local.';
-EXEC insertGeneralHealth '0462742019','2013-09-05 20:25:18','Manager activity box.';
-EXEC insertGeneralHealth '0103260535','2015-11-17 17:38:06','Later against job whether my.';
-EXEC insertGeneralHealth '0160819239','2013-07-24 15:22:38','Official fight tree.';
-EXEC insertGeneralHealth '0783979130','2016-01-17 00:33:55','Simply world cell.';
-EXEC insertGeneralHealth '0318539864','2015-06-22 21:39:14','No manage though write.';
-EXEC insertGeneralHealth '0675611094','2013-01-17 01:52:19','Social wife grow continue.';
-EXEC insertGeneralHealth '0637353708','2016-01-31 05:37:18','Enjoy there sign many.';
-EXEC insertGeneralHealth '0038367092','2014-05-20 11:27:52','Believe suggest professor.';
-EXEC insertGeneralHealth '0484282627','2014-11-06 14:44:42','Us for throughout make yard.';
-EXEC insertGeneralHealth '0788035683','2014-07-15 06:02:54','Force watch final hot change.';
-EXEC insertGeneralHealth '0699988279','2015-11-04 21:08:16','Blood case though.';
-EXEC insertGeneralHealth '0109668398','2016-11-08 10:20:47','Mr mind onto argue.';
-EXEC insertGeneralHealth '0190537995','2016-07-01 10:01:53','Writer perform line parent.';
-EXEC insertGeneralHealth '0030292648','2014-05-08 05:33:11','Of own success medical.';
-EXEC insertGeneralHealth '0683219263','2014-08-11 21:26:59','Hot glass window suddenly.';
-EXEC insertGeneralHealth '0029162216','2014-08-18 01:09:36','Present body issue.';
-EXEC insertGeneralHealth '0772450745','2013-07-02 20:29:41','Visit lead ball at industry.';
-EXEC insertGeneralHealth '0485281994','2015-04-26 05:30:15','Avoid dog people director.';
-EXEC insertGeneralHealth '0586897615','2017-12-02 12:01:48','Health listen to development.';
-EXEC insertGeneralHealth '0702206018','2017-09-22 12:49:18','Game model vote night.';
-EXEC insertGeneralHealth '0209153747','2017-09-09 09:13:09','Red hold fall stay.';
-EXEC insertGeneralHealth '0752235158','2015-07-08 15:55:03','Difference that shoulder Mrs.';
-EXEC insertGeneralHealth '0988810329','2016-10-14 12:37:21','Tax phone try use action.';
-EXEC insertGeneralHealth '0937079858','2016-01-03 19:13:12','Compare member training argue.';
-EXEC insertGeneralHealth '0647648555','2016-02-16 18:25:05','Most interview community list.';
-EXEC insertGeneralHealth '0327170859','2013-09-07 15:28:35','Never into shake reveal.';
-EXEC insertGeneralHealth '0325692725','2016-05-30 22:06:32','Like not create us.';
-EXEC insertGeneralHealth '0478323372','2015-12-30 00:40:41','Outside whose quality five.';
-EXEC insertGeneralHealth '0215249241','2017-09-21 23:07:06','Red election fund simply.';
-EXEC insertGeneralHealth '0450810464','2016-07-14 01:54:35','Kitchen cover change pick.';
-EXEC insertGeneralHealth '0694015650','2015-10-16 22:44:56','Beautiful no hit tend.';
-EXEC insertGeneralHealth '0256110966','2013-01-16 08:12:53','Court thus soon hard charge.';
-EXEC insertGeneralHealth '0316538997','2016-09-01 06:35:14','Say page left sport also pay.';
-EXEC insertGeneralHealth '0561399714','2014-05-09 15:29:49','With present air on sister.';
-EXEC insertGeneralHealth '0813489657','2016-05-04 16:33:03','Best suddenly its send.';
-EXEC insertGeneralHealth '0983521501','2013-05-18 08:52:18','Call reveal even.';
-EXEC insertGeneralHealth '0778708299','2013-03-09 23:05:10','From road tell simple yes.';
-EXEC insertGeneralHealth '0711445058','2015-07-08 16:12:36','Black nearly establish.';
-EXEC insertGeneralHealth '0654936272','2017-06-15 23:47:48','Concern response argue.';
-EXEC insertGeneralHealth '0175307947','2016-12-20 15:25:17','Guy upon him.';
-EXEC insertGeneralHealth '0022381850','2017-08-18 11:43:19','Tonight let woman agent.';
-EXEC insertGeneralHealth '0017967655','2014-07-12 14:11:31','Artist story other.';
-EXEC insertGeneralHealth '0975586276','2015-02-02 14:51:41','Program game off figure.';
-EXEC insertGeneralHealth '0577032109','2016-09-27 20:57:57','Treat major although ever.';
-EXEC insertGeneralHealth '0620850954','2016-12-18 23:06:58','Out when require.';
-EXEC insertGeneralHealth '0741739092','2016-09-28 21:49:42','Article more beat.';
-EXEC insertGeneralHealth '0708590773','2017-12-12 07:36:17','Actually head break campaign.';
-EXEC insertGeneralHealth '0016907218','2014-05-08 08:46:44','Its manage arrive place.';
-EXEC insertGeneralHealth '0748821572','2017-02-15 10:10:46','Resource challenge why room.';
-EXEC insertGeneralHealth '0721876566','2016-10-09 07:48:34','Wait agency billion man.';
-EXEC insertGeneralHealth '0239651772','2015-10-15 03:52:00','All various whose education.';
-EXEC insertGeneralHealth '0384106821','2013-07-16 22:36:41','His man pull camera.';
-EXEC insertGeneralHealth '0912259719','2016-06-07 01:01:11','Economy add risk worry.';
-EXEC insertGeneralHealth '0000363597','2013-01-03 22:51:11','Over bad site that.';
-EXEC insertGeneralHealth '0827365645','2017-03-09 12:56:17','As generation when blood.';
-EXEC insertGeneralHealth '0900832376','2017-07-20 20:49:59','Hand always wind.';
-EXEC insertGeneralHealth '0756613979','2017-01-04 04:19:49','Firm identify type child.';
-EXEC insertGeneralHealth '0212659526','2017-03-02 05:12:33','Trouble left policy which.';
-EXEC insertGeneralHealth '0993178333','2016-10-17 18:40:40','Single green season.';
-EXEC insertGeneralHealth '0728901956','2013-08-21 23:17:46','We money seat entire where.';
-EXEC insertGeneralHealth '0174451827','2017-07-17 08:03:54','When side pass bit.';
-EXEC insertGeneralHealth '0273326006','2016-06-23 18:45:18','Minute support item daughter.';
-EXEC insertGeneralHealth '0255686416','2017-02-22 08:35:48','Of once science.';
-EXEC insertGeneralHealth '0019411278','2016-03-26 00:48:30','Court option interesting.';
-EXEC insertGeneralHealth '0922991976','2015-03-05 18:33:42','Sort red end plan keep.';
-EXEC insertGeneralHealth '0274727500','2015-01-09 11:46:40','Mention officer age trade.';
-EXEC insertGeneralHealth '0326264085','2013-01-27 07:41:33','Who the occur.';
-EXEC insertGeneralHealth '0449695897','2017-03-23 13:44:15','Radio security whose lose.';
-EXEC insertGeneralHealth '0163455179','2013-06-11 23:57:02','After action language.';
-EXEC insertGeneralHealth '0819927655','2015-09-13 14:55:47','Herself seek my right.';
-EXEC insertGeneralHealth '0876284299','2015-08-04 23:42:11','Carry bill matter reflect.';
-EXEC insertGeneralHealth '0162388712','2016-07-28 07:05:04','Do cultural involve open why.';
-EXEC insertGeneralHealth '0969577069','2015-07-12 10:25:32','Strong agency east.';
-EXEC insertGeneralHealth '0771060396','2016-04-10 17:38:14','Score nature million win.';
-EXEC insertGeneralHealth '0616365698','2017-06-25 13:08:44','Often direction past myself.';
-EXEC insertGeneralHealth '0978595180','2013-11-05 21:53:39','Something adult stand write.';
-EXEC insertGeneralHealth '0696349893','2015-03-16 17:36:49','Year building home.';
-EXEC insertGeneralHealth '0787261580','2017-07-16 10:47:28','Matter bag land go.';
-EXEC insertGeneralHealth '0141731231','2017-11-18 00:14:46','Public what place pay.';
-EXEC insertGeneralHealth '0619247776','2013-03-20 16:55:47','Few possible over quickly.';
-EXEC insertGeneralHealth '0758642036','2013-11-21 12:54:29','Wish reveal table try.';
-EXEC insertGeneralHealth '0780014599','2016-03-04 23:07:01','Life town ever source degree.';
-EXEC insertGeneralHealth '0133890762','2016-06-08 09:37:50','Science film food yet.';
-EXEC insertGeneralHealth '0582816533','2013-07-08 21:02:26','Many direction field up back.';
-EXEC insertGeneralHealth '0838667023','2016-08-05 13:21:11','Move range remain.';
-EXEC insertGeneralHealth '0806937594','2014-11-24 11:11:42','Than will day career.';
-EXEC insertGeneralHealth '0505558935','2013-07-07 03:38:08','Wall other measure group.';
-EXEC insertGeneralHealth '0335651465','2014-10-24 06:53:00','North leg early writer three.';
-EXEC insertGeneralHealth '0318310028','2017-06-28 05:04:46','Offer main against alone wind.';
-EXEC insertGeneralHealth '0544481937','2016-03-05 05:54:44','Finish financial face seem.';
-EXEC insertGeneralHealth '0999958191','2016-12-24 10:16:52','Pressure rock affect worker.';
-EXEC insertGeneralHealth '0827498162','2016-05-10 14:36:25','Federal couple wind on.';
-EXEC insertGeneralHealth '0949960922','2014-11-26 10:57:51','Pretty compare lay.';
-EXEC insertGeneralHealth '0071804161','2014-11-13 07:27:23','Development court lawyer.';
-EXEC insertGeneralHealth '0864136600','2015-07-13 08:30:53','Popular leave feeling ready.';
-EXEC insertGeneralHealth '0527577698','2015-02-18 06:52:07','For treat end woman.';
-EXEC insertGeneralHealth '0134039130','2015-02-07 07:44:29','Firm really south.';
-EXEC insertGeneralHealth '0642717726','2016-06-15 01:05:05','Here southern live my.';
-EXEC insertGeneralHealth '0380590841','2014-04-14 13:05:14','My price city.';
-EXEC insertGeneralHealth '0540314049','2015-04-01 11:24:22','Official education leg use.';
-EXEC insertGeneralHealth '0571161188','2015-11-27 21:18:59','Economy Mr become recognize.';
-EXEC insertGeneralHealth '0502868315','2017-12-29 06:04:37','Crime reach raise term.';
-EXEC insertGeneralHealth '0781302386','2014-01-21 01:43:11','In member author coach.';
-EXEC insertGeneralHealth '0541692481','2014-03-31 12:13:35','Life hot country.';
-EXEC insertGeneralHealth '0909787728','2014-07-07 19:15:04','Career become college line.';
-EXEC insertGeneralHealth '0999701588','2016-10-23 07:05:39','Spring camera fight.';
-EXEC insertGeneralHealth '0819961537','2013-10-25 14:27:09','Act design become.';
-EXEC insertGeneralHealth '0706648960','2017-05-05 00:32:13','Drug day either west song.';
-EXEC insertGeneralHealth '0181506270','2014-07-20 09:58:18','Again answer least street my.';
-EXEC insertGeneralHealth '0196209987','2016-03-28 02:13:18','A must look city cup research.';
-EXEC insertGeneralHealth '0056851492','2015-05-18 17:13:26','Example size close loss.';
-EXEC insertGeneralHealth '0819631064','2016-03-11 21:38:10','Pattern policy energy.';
-EXEC insertGeneralHealth '0147449364','2015-04-19 01:52:15','Among action actually stock.';
-EXEC insertGeneralHealth '0489332977','2015-04-29 18:13:17','Care system example.';
-EXEC insertGeneralHealth '0460250468','2013-12-01 13:07:57','Under event name friend.';
-EXEC insertGeneralHealth '0682061748','2016-02-09 07:31:42','Box something catch small.';
-EXEC insertGeneralHealth '0212241717','2013-12-03 13:20:38','Against drop man star.';
-EXEC insertGeneralHealth '0416003003','2014-07-03 06:19:18','Turn young land kind.';
-EXEC insertGeneralHealth '0132942396','2014-05-16 23:10:21','He understand such pick.';
-EXEC insertGeneralHealth '0174037236','2016-09-02 04:51:21','Watch explain guy move call.';
-EXEC insertGeneralHealth '0386630856','2016-12-01 17:02:23','Current six always.';
-EXEC insertGeneralHealth '0340399061','2017-07-24 05:59:13','News service pick fast.';
-EXEC insertGeneralHealth '0939879138','2017-01-19 04:48:55','Fine onto vote.';
-EXEC insertGeneralHealth '0558866779','2017-01-13 00:52:10','That know anything hot pass.';
-EXEC insertGeneralHealth '0319758631','2014-03-08 17:04:22','Again it mission.';
-EXEC insertGeneralHealth '0871757850','2015-09-08 06:58:11','One bed majority than memory.';
-EXEC insertGeneralHealth '0141450768','2014-01-24 20:13:39','Then can tough its allow sign.';
-EXEC insertGeneralHealth '0650476700','2013-11-23 05:44:13','Clear build baby can.';
-EXEC insertGeneralHealth '0597605036','2017-04-10 12:17:26','Man home sing listen.';
-EXEC insertGeneralHealth '0778960581','2015-01-24 11:15:56','One gas service car.';
-EXEC insertGeneralHealth '0230239548','2017-07-31 00:46:26','Shake country most notice.';
-EXEC insertGeneralHealth '0272049049','2014-04-15 14:35:56','Color health wife.';
-EXEC insertGeneralHealth '0836624421','2013-10-11 23:47:55','Impact film other population.';
-EXEC insertGeneralHealth '0968915811','2017-03-20 20:07:13','Yourself site machine look.';
-EXEC insertGeneralHealth '0803599264','2013-03-26 13:07:39','Turn individual somebody.';
-EXEC insertGeneralHealth '0867524934','2015-11-19 02:37:32','Tax will minute range law.';
-EXEC insertGeneralHealth '0443955133','2017-09-14 09:05:53','Life hour sound report bit.';
-EXEC insertGeneralHealth '0963040151','2015-02-22 22:26:49','Have body must record top.';
-EXEC insertGeneralHealth '0623044828','2017-10-09 23:58:56','Language claim across.';
-EXEC insertGeneralHealth '0789147069','2014-05-19 07:34:48','Lose bed product marriage.';
-EXEC insertGeneralHealth '0123544274','2013-01-19 05:20:00','Story campaign decade teach.';
-EXEC insertGeneralHealth '0267691482','2017-08-27 18:46:36','Not drive approach grow.';
-EXEC insertGeneralHealth '0839148355','2013-12-27 09:11:08','Animal theory high.';
-EXEC insertGeneralHealth '0375610133','2016-12-31 20:37:23','House during moment movie to.';
-EXEC insertGeneralHealth '0922887561','2017-04-28 22:22:51','Job be speech pretty.';
-EXEC insertGeneralHealth '0671659639','2017-01-22 17:06:23','Thousand data store boy off.';
-EXEC insertGeneralHealth '0213978865','2015-10-05 15:33:53','Budget develop single item.';
-EXEC insertGeneralHealth '0426342519','2015-10-22 11:44:11','Professional thing low fight.';
-EXEC insertGeneralHealth '0513960483','2015-03-19 22:53:33','State allow into everything.';
-EXEC insertGeneralHealth '0335556291','2014-11-19 12:43:13','Month this with daughter wall.';
-EXEC insertGeneralHealth '0532743355','2015-01-30 03:52:35','Area rich natural moment.';
-EXEC insertGeneralHealth '0632597152','2013-03-14 19:59:12','Personal girl city parent.';
-EXEC insertGeneralHealth '0312408973','2014-06-08 21:49:36','Account close language image.';
-EXEC insertGeneralHealth '0297105129','2016-07-14 01:15:07','Safe can indeed political.';
-EXEC insertGeneralHealth '0730724458','2016-01-20 17:09:58','Phone right whatever until.';
-EXEC insertGeneralHealth '0404799228','2017-03-16 12:09:50','Form position whom.';
-EXEC insertGeneralHealth '0288582992','2014-07-26 19:45:47','Move subject message poor.';
-EXEC insertGeneralHealth '0359811991','2017-10-20 01:30:02','Person hold region against.';
-EXEC insertGeneralHealth '0445570732','2015-01-21 16:04:53','Road once such work.';
-EXEC insertGeneralHealth '0723964052','2017-07-02 19:59:04','Billion friend above.';
-EXEC insertGeneralHealth '0431402420','2014-03-11 23:33:04','Network buy age attention.';
-EXEC insertGeneralHealth '0231983478','2015-09-26 12:50:35','Back read seem item fish.';
-EXEC insertGeneralHealth '0639967423','2013-02-02 05:06:42','Call top agree fish.';
-EXEC insertGeneralHealth '0628024128','2016-05-14 04:46:25','Huge approach war office.';
-EXEC insertGeneralHealth '0645084308','2015-02-21 07:54:21','Old conference case someone.';
-EXEC insertGeneralHealth '0086943169','2015-03-02 01:59:32','Risk he situation fund light.';
-EXEC insertGeneralHealth '0465962308','2014-06-05 10:09:49','Watch someone under.';
-EXEC insertGeneralHealth '0580587341','2017-06-18 09:34:10','Do pay east need store.';
-EXEC insertGeneralHealth '0794249303','2013-10-09 19:24:24','Out fly line condition.';
-EXEC insertGeneralHealth '0491029675','2016-07-23 12:59:51','Air minute candidate Mrs.';
-EXEC insertGeneralHealth '0035844029','2015-06-06 13:49:55','Fight wall run.';
-EXEC insertGeneralHealth '0511077444','2016-08-08 05:57:17','High hold worker scientist.';
-EXEC insertGeneralHealth '0173629466','2013-05-07 15:20:06','Whether another identify per.';
-EXEC insertGeneralHealth '0795317999','2015-04-27 06:52:46','Give talk race bill skin.';
-EXEC insertGeneralHealth '0135441853','2017-05-08 04:09:47','Exist lot research sound.';
-EXEC insertGeneralHealth '0748755954','2013-12-10 21:02:35','On apply civil great.';
-EXEC insertGeneralHealth '0276278249','2017-02-23 12:49:19','Difference hair want firm.';
-EXEC insertGeneralHealth '0874234639','2015-07-03 10:33:09','Process police collection.';
-EXEC insertGeneralHealth '0725454797','2017-04-19 18:52:52','Check often news former.';
-EXEC insertGeneralHealth '0940016078','2013-06-30 21:26:35','Worry democratic decide sure.';
-EXEC insertGeneralHealth '0398360344','2014-10-04 12:06:43','Seem country heart catch.';
-EXEC insertGeneralHealth '0259437096','2015-02-12 03:05:47','Capital doctor a.';
-EXEC insertGeneralHealth '0742983476','2014-06-01 08:23:36','Fight board cost television.';
-EXEC insertGeneralHealth '0814770509','2015-04-18 17:37:37','Than appear little.';
-EXEC insertGeneralHealth '0288978935','2013-01-07 17:36:06','Author color pay pattern.';
-EXEC insertGeneralHealth '0217714565','2016-06-22 13:16:35','Term make long throw.';
-EXEC insertGeneralHealth '0246017944','2013-08-04 06:45:08','My here right current.';
-EXEC insertGeneralHealth '0153755692','2015-05-28 20:02:01','Eight simple show model.';
-EXEC insertGeneralHealth '0904478867','2017-09-16 22:28:51','Doctor gas evening.';
-EXEC insertGeneralHealth '0247264068','2017-06-13 11:57:33','Consumer let upon dog table.';
-EXEC insertGeneralHealth '0837337832','2016-11-23 03:15:29','Room better pull spend.';
-EXEC insertGeneralHealth '0224850422','2016-02-20 16:40:20','Girl between technology.';
-EXEC insertGeneralHealth '0832584397','2014-09-20 08:52:24','Who nature land.';
-EXEC insertGeneralHealth '0999632929','2015-01-07 02:22:56','Hour material bag film.';
-EXEC insertGeneralHealth '0378438446','2016-10-19 20:48:26','Do if most tell.';
-EXEC insertGeneralHealth '0602871702','2014-04-05 20:18:49','Drop local trade even.';
-EXEC insertGeneralHealth '0370603562','2017-08-12 17:46:55','Charge real hear yes.';
-EXEC insertGeneralHealth '0831786580','2017-07-27 02:52:16','Maybe since human where.';
-EXEC insertGeneralHealth '0818064676','2014-05-24 23:42:09','He major glass my soldier.';
-EXEC insertGeneralHealth '0619576191','2013-06-18 15:40:36','Make page vote bag.';
-EXEC insertGeneralHealth '0636157776','2015-09-29 20:50:18','Against officer church dream.';
-EXEC insertGeneralHealth '0774783073','2013-06-19 12:45:13','Industry public trip foot.';
-EXEC insertGeneralHealth '0978267058','2015-01-22 14:23:01','Check less decade senior draw.';
-EXEC insertGeneralHealth '0909290790','2014-07-25 19:57:13','However she animal above.';
-EXEC insertGeneralHealth '0983625393','2016-01-26 12:54:42','Successful tend include name.';
-EXEC insertGeneralHealth '0094946779','2017-10-23 18:51:25','Impact me reason star treat.';
-EXEC insertGeneralHealth '0268761105','2017-01-19 16:14:18','Line work maintain media.';
-EXEC insertGeneralHealth '0476268316','2017-05-05 23:40:43','Property clear pay.';
-EXEC insertGeneralHealth '0521468478','2017-10-28 05:28:38','Game state cover happen.';
-EXEC insertGeneralHealth '0728675074','2014-01-15 06:23:00','Father act test nature.';
-EXEC insertGeneralHealth '0968405231','2016-06-05 23:55:48','East risk during along.';
-EXEC insertGeneralHealth '0251183510','2013-09-11 09:20:51','Focus current vote cost.';
-EXEC insertGeneralHealth '0802802510','2014-06-23 16:30:06','Machine speak test.';
-EXEC insertGeneralHealth '0977053288','2017-05-06 19:05:13','Fight without year for.';
-EXEC insertGeneralHealth '0897090605','2015-11-09 15:24:32','Establish of another change.';
-EXEC insertGeneralHealth '0192767642','2014-11-14 04:39:05','Political watch party measure.';
-EXEC insertGeneralHealth '0006324072','2016-05-29 17:53:47','Method rich major drop drug.';
-EXEC insertGeneralHealth '0748024387','2016-10-13 03:09:57','Result themselves when tough.';
-EXEC insertGeneralHealth '0867602566','2016-05-28 02:12:32','Fast race future.';
-EXEC insertGeneralHealth '0577121820','2017-11-05 23:44:54','Fly focus deep sense player.';
-EXEC insertGeneralHealth '0052647769','2015-07-23 21:14:16','Low tax be.';
-EXEC insertGeneralHealth '0158397164','2016-11-23 04:43:56','Move charge now house.';
-EXEC insertGeneralHealth '0817542839','2013-01-10 09:40:37','Fill know next stage.';
-EXEC insertGeneralHealth '0140486781','2015-05-29 05:49:48','Seem consider beyond.';
-EXEC insertGeneralHealth '0422937418','2013-06-27 04:59:52','Allow door future build.';
-EXEC insertGeneralHealth '0291404623','2013-05-14 11:38:21','Home art church seven debate.';
-EXEC insertGeneralHealth '0678794963','2014-10-10 12:29:24','Into group especially four.';
-EXEC insertGeneralHealth '0430305522','2013-03-31 16:53:45','Miss activity attack other.';
-EXEC insertGeneralHealth '0000703598','2016-12-18 15:39:54','Popular today heart rather.';
-EXEC insertGeneralHealth '0485061936','2015-12-01 04:56:58','Case Mr face arm physical.';
-EXEC insertGeneralHealth '0853210883','2016-06-28 06:09:13','Politics per amount stuff to.';
-EXEC insertGeneralHealth '0217058324','2016-09-05 12:28:41','Will civil through.';
-EXEC insertGeneralHealth '0119206389','2015-05-15 07:50:49','Question dinner such any.';
-EXEC insertGeneralHealth '0665029401','2014-05-25 13:43:46','Every benefit red artist leg.';
-EXEC insertGeneralHealth '0333608529','2017-11-07 08:33:35','Group over month little.';
-EXEC insertGeneralHealth '0383895637','2017-07-05 04:38:22','Image method single design.';
-EXEC insertGeneralHealth '0558581084','2014-08-19 07:21:14','Executive hear bag I range.';
-EXEC insertGeneralHealth '0876864477','2015-03-06 14:41:06','Happy base color daughter.';
-EXEC insertGeneralHealth '0095372082','2017-03-01 10:17:36','Often baby including while.';
-EXEC insertGeneralHealth '0971799666','2013-07-29 21:18:22','Rock herself after system.';
-EXEC insertGeneralHealth '0837817749','2016-11-20 11:01:24','Simply travel bar least.';
-EXEC insertGeneralHealth '0668945290','2016-11-23 09:05:41','Someone into perform team.';
-EXEC insertGeneralHealth '0177027689','2013-02-14 16:50:27','Against never home.';
-EXEC insertGeneralHealth '0694028044','2013-06-07 04:14:11','Stuff ball not dinner hit.';
-EXEC insertGeneralHealth '0840469669','2013-12-12 03:07:17','Risk four myself.';
-EXEC insertGeneralHealth '0117073698','2014-07-21 14:54:32','Material gun middle end.';
-EXEC insertGeneralHealth '0151558889','2014-07-09 15:59:48','They service land.';
-EXEC insertGeneralHealth '0863600876','2013-03-17 15:12:57','Down chair ago affect card.';
-EXEC insertGeneralHealth '0299603287','2017-01-16 02:22:01','Speech wish art window across.';
-EXEC insertGeneralHealth '0634890286','2015-01-14 15:17:38','Purpose control send.';
-EXEC insertGeneralHealth '0690007355','2014-07-02 14:25:47','Continue page study.';
-EXEC insertGeneralHealth '0723653655','2015-11-13 06:42:27','Perhaps play wide thus.';
-EXEC insertGeneralHealth '0765027632','2013-11-04 22:08:38','Born road that.';
-EXEC insertGeneralHealth '0627859516','2014-05-01 02:09:07','Run talk create under.';
-EXEC insertGeneralHealth '0292598136','2016-01-05 20:03:08','Social student activity.';
-EXEC insertGeneralHealth '0733538895','2014-06-18 21:46:45','Sign physical increase term.';
-EXEC insertGeneralHealth '0467161663','2014-10-24 18:05:17','Whole eat night.';
-EXEC insertGeneralHealth '0430054501','2013-08-04 16:38:16','Boy me growth.';
-EXEC insertGeneralHealth '0854709948','2013-10-28 13:30:22','Act paper part.';
-EXEC insertGeneralHealth '0647486921','2013-05-20 10:42:11','Compare red difficult Mrs.';
-EXEC insertGeneralHealth '0896571793','2015-03-18 11:32:20','Hand listen away over.';
-EXEC insertGeneralHealth '0703433281','2014-03-26 12:09:28','Real she capital.';
-EXEC insertGeneralHealth '0341164662','2014-05-29 09:56:19','Recent alone those floor.';
-EXEC insertGeneralHealth '0898861923','2016-07-08 15:37:58','Glass Congress military event.';
-EXEC insertGeneralHealth '0992820277','2014-04-30 08:39:33','Bill customer cold message.';
-EXEC insertGeneralHealth '0908279204','2015-04-19 17:44:33','If think kid.';
-EXEC insertGeneralHealth '0047304080','2016-02-24 17:25:23','Become his avoid tend.';
-EXEC insertGeneralHealth '0523444982','2017-12-20 12:31:22','Behind total friend reality.';
-EXEC insertGeneralHealth '0720582007','2017-09-04 20:53:40','Let sign image live effect.';
-EXEC insertGeneralHealth '0434682818','2015-12-23 07:12:57','With fish live community.';
-EXEC insertGeneralHealth '0046671008','2015-12-31 14:40:45','Writer during serious.';
-EXEC insertGeneralHealth '0639605878','2014-09-18 09:15:04','Take program high Congress.';
-EXEC insertGeneralHealth '0967552103','2013-05-17 06:20:43','Fight approach full wait take.';
-EXEC insertGeneralHealth '0517124902','2013-04-07 14:04:20','True large accept cover.';
-EXEC insertGeneralHealth '0782340180','2017-12-24 15:30:12','Me baby as large apply.';
-EXEC insertGeneralHealth '0497501488','2015-05-26 04:56:00','Evidence hotel stuff watch.';
-EXEC insertGeneralHealth '0300177992','2014-10-14 16:54:51','Author force power cause.';
-EXEC insertGeneralHealth '0250159235','2017-05-21 10:46:50','Good entire program try.';
-EXEC insertGeneralHealth '0268581051','2017-03-24 04:59:14','Investment each door.';
-EXEC insertGeneralHealth '0173250761','2013-09-30 03:57:04','Price final chance perform.';
-EXEC insertGeneralHealth '0757819704','2015-11-22 05:23:41','Market last heavy make.';
-EXEC insertGeneralHealth '0905764775','2017-05-06 10:06:41','Degree single nature.';
-EXEC insertGeneralHealth '0402464204','2015-04-15 04:19:10','Oil million east work.';
-EXEC insertGeneralHealth '0117649368','2017-09-28 11:59:49','City its lead.';
-EXEC insertGeneralHealth '0571623035','2015-07-27 20:21:26','Likely customer get event.';
-EXEC insertGeneralHealth '0954177609','2016-01-16 03:19:30','Arm television local heart.';
-EXEC insertGeneralHealth '0573992166','2016-08-19 12:25:33','More wear pretty.';
-EXEC insertGeneralHealth '0104968395','2016-04-02 17:13:37','Early spring easy.';
-EXEC insertGeneralHealth '0535987093','2015-12-22 17:52:10','Success position light open.';
-EXEC insertGeneralHealth '0369345957','2014-04-22 04:13:55','Late bad star.';
-EXEC insertGeneralHealth '0459891643','2017-02-27 00:11:43','Vote field brother anyone.';
-EXEC insertGeneralHealth '0972717282','2014-01-10 00:14:35','Table reality buy.';
-EXEC insertGeneralHealth '0251470520','2013-05-20 06:09:14','General number whatever.';
-EXEC insertGeneralHealth '0503206748','2016-04-23 17:48:58','Father nation institution.';
-EXEC insertGeneralHealth '0241480870','2015-03-15 17:31:21','Someone add buy full officer.';
-EXEC insertGeneralHealth '0373744171','2015-04-18 10:34:40','Gas range nature show land.';
-EXEC insertGeneralHealth '0846742941','2016-05-13 07:03:16','Ready upon audience.';
-EXEC insertGeneralHealth '0367926725','2014-01-10 21:59:12','Tv mind road trouble.';
-EXEC insertGeneralHealth '0009152794','2017-01-28 19:54:51','Water pull several.';
-EXEC insertGeneralHealth '0222200800','2015-10-26 10:02:38','Also focus far get couple.';
-EXEC insertGeneralHealth '0290526195','2015-04-03 03:38:26','Then fill type push determine.';
-EXEC insertGeneralHealth '0199100917','2017-08-29 14:09:28','Heavy stay say.';
-EXEC insertGeneralHealth '0252611253','2016-09-10 16:57:07','Be magazine tell both.';
-EXEC insertGeneralHealth '0729708952','2017-10-26 07:49:00','Management stay space write.';
-EXEC insertGeneralHealth '0442362381','2013-05-12 08:11:00','Mouth unit southern natural.';
-EXEC insertGeneralHealth '0997923301','2015-10-07 11:53:34','Feel leader hold mother.';
-EXEC insertGeneralHealth '0984489756','2016-11-21 22:23:00','Teacher our while into box.';
-EXEC insertGeneralHealth '0679337421','2016-07-16 03:22:46','Itself whom customer there.';
-EXEC insertGeneralHealth '0400999313','2016-10-06 09:42:37','Wall why fine five.';
-EXEC insertGeneralHealth '0740587139','2015-04-10 06:09:56','History include nearly.';
-EXEC insertGeneralHealth '0251995689','2013-01-21 02:34:43','Daughter major important rich.';
-EXEC insertGeneralHealth '0220006731','2013-08-12 08:24:16','Air him improve family oil.';
-EXEC insertGeneralHealth '0394268154','2017-11-05 21:19:28','Beat direction deep put.';
-EXEC insertGeneralHealth '0386632618','2016-07-06 02:49:46','Expect increase carry brother.';
-EXEC insertGeneralHealth '0409859154','2016-09-07 17:51:27','Weight writer part radio it.';
-EXEC insertGeneralHealth '0657684461','2013-04-02 04:45:50','Drive which big mind way.';
-EXEC insertGeneralHealth '0607627045','2015-02-20 14:29:26','Wind avoid find owner quite.';
-EXEC insertGeneralHealth '0197352553','2014-01-06 20:27:23','Blood bill floor light.';
-EXEC insertGeneralHealth '0007733063','2015-08-06 12:40:51','Than people speech computer.';
-EXEC insertGeneralHealth '0136419358','2014-06-08 04:07:26','Civil onto nothing ever.';
-EXEC insertGeneralHealth '0521476071','2016-04-05 07:51:20','Weight discover him language.';
-EXEC insertGeneralHealth '0242740413','2014-10-03 08:18:08','Item something up truth left.';
-EXEC insertGeneralHealth '0002927842','2015-10-07 15:58:35','Color street rock give.';
-EXEC insertGeneralHealth '0004863588','2014-06-25 09:41:25','Experience set speak realize.';
-EXEC insertGeneralHealth '0695174938','2014-11-30 18:13:04','Also oil reach determine.';
-EXEC insertGeneralHealth '0201753289','2015-03-07 18:02:52','Machine reflect security.';
-EXEC insertGeneralHealth '0357841926','2013-09-03 23:47:09','Hundred share any.';
-EXEC insertGeneralHealth '0326455119','2015-11-25 03:48:10','Usually order protect his.';
-EXEC insertGeneralHealth '0160963439','2017-10-25 02:12:29','Not training common office.';
-EXEC insertGeneralHealth '0520331261','2017-04-13 05:55:50','President save clearly them.';
-EXEC insertGeneralHealth '0966800993','2015-10-21 15:41:11','Right yet he region.';
-EXEC insertGeneralHealth '0002302100','2017-04-06 16:58:43','Star movement me oil cover.';
-EXEC insertGeneralHealth '0260082453','2014-11-04 23:17:28','Argue play she this think.';
-EXEC insertGeneralHealth '0483536780','2016-03-23 20:11:52','Popular then tax eight.';
-EXEC insertGeneralHealth '0636453354','2017-12-11 10:53:57','Threat bag into defense good.';
-EXEC insertGeneralHealth '0492961394','2014-12-10 03:55:10','Point show while feel.';
-EXEC insertGeneralHealth '0395690536','2017-03-14 17:51:38','Remain answer ago decision.';
-EXEC insertGeneralHealth '0675138013','2016-09-27 01:53:42','Information time rest think.';
-EXEC insertGeneralHealth '0948177274','2017-02-05 10:15:46','Suffer prove true finally.';
-EXEC insertGeneralHealth '0167985510','2015-10-25 00:50:06','Involve along night.';
-EXEC insertGeneralHealth '0334953101','2013-12-30 03:57:33','Worry quickly my.';
-EXEC insertGeneralHealth '0109136952','2017-07-21 12:45:56','Oil sea whole already.';
-EXEC insertGeneralHealth '0145455025','2016-12-19 23:14:46','New feel one paper.';
-EXEC insertGeneralHealth '0998155030','2017-02-22 13:28:27','Say left movement onto sure.';
-EXEC insertGeneralHealth '0641658493','2017-11-26 17:06:34','Key stay on bank back.';
-EXEC insertGeneralHealth '0745288864','2014-09-06 04:37:08','Continue away three year.';
-EXEC insertGeneralHealth '0976352830','2016-05-27 17:52:44','Somebody close until street.';
-EXEC insertGeneralHealth '0412998596','2015-05-13 19:16:12','Beat wind up.';
-EXEC insertGeneralHealth '0667963592','2014-12-19 03:06:01','Her financial talk investment.';
-EXEC insertGeneralHealth '0294475270','2017-08-05 15:04:18','Clear use wide stay top.';
-EXEC insertGeneralHealth '0446843398','2014-09-20 05:44:49','Two step school as stock show.';
-EXEC insertGeneralHealth '0705562294','2017-03-24 20:10:22','Class laugh job lose.';
-EXEC insertGeneralHealth '0447296254','2017-05-06 07:45:36','Wind stage mission school.';
-EXEC insertGeneralHealth '0312829743','2014-02-12 19:10:45','Wait trouble so state.';
-EXEC insertGeneralHealth '0180346253','2016-10-06 21:29:47','Adult car would western.';
-EXEC insertGeneralHealth '0390729153','2015-06-22 00:03:04','Official society whether.';
-EXEC insertGeneralHealth '0272743286','2013-08-28 09:27:47','Accept event around eat.';
-EXEC insertGeneralHealth '0890745725','2014-10-01 06:35:21','Buy health when.';
-EXEC insertGeneralHealth '0803403230','2016-08-06 11:36:02','Tonight same eight black he.';
-EXEC insertGeneralHealth '0166611975','2013-06-10 03:40:59','Car condition from behavior.';
-EXEC insertGeneralHealth '0262667143','2014-04-07 00:09:39','Surface step range war.';
-EXEC insertGeneralHealth '0204088304','2014-03-12 01:39:46','Something speak last as.';
-EXEC insertGeneralHealth '0366188099','2013-04-19 07:47:21','Able past trade.';
-EXEC insertGeneralHealth '0877902610','2016-04-03 14:14:23','Of time for mean woman.';
-EXEC insertGeneralHealth '0811497269','2013-05-05 20:34:10','Where buy child so movement.';
-EXEC insertGeneralHealth '0628939106','2014-06-16 08:02:24','Health week suddenly also.';
-EXEC insertGeneralHealth '0975657646','2013-01-19 11:14:44','Really style data.';
-EXEC insertGeneralHealth '0798775697','2017-12-23 21:55:42','Soldier decide model clear.';
-EXEC insertGeneralHealth '0860385203','2014-06-20 07:28:22','Brother ball ten want.';
-EXEC insertGeneralHealth '0677469545','2013-04-27 06:54:06','Build including thus wide the.';
-EXEC insertGeneralHealth '0377135771','2017-06-24 03:45:38','Factor bed determine door.';
-EXEC insertGeneralHealth '0004848189','2015-12-16 09:09:56','American present hit.';
-EXEC insertGeneralHealth '0032878282','2014-11-29 15:11:20','Year college out medical gun.';
-EXEC insertGeneralHealth '0357999442','2015-07-14 23:51:44','Senior either section.';
-EXEC insertGeneralHealth '0714700604','2014-08-10 20:54:19','Shoulder some keep off can.';
-EXEC insertGeneralHealth '0050144239','2014-12-10 08:58:10','Front use safe enough.';
-EXEC insertGeneralHealth '0010888698','2017-06-23 11:34:37','This listen water.';
-EXEC insertGeneralHealth '0253813393','2013-05-03 05:20:36','Else out watch there.';
-EXEC insertGeneralHealth '0103356611','2015-02-01 08:22:04','Nor attack employee.';
-EXEC insertGeneralHealth '0333010656','2014-03-21 04:53:21','Look teacher various quickly.';
-EXEC insertGeneralHealth '0390172192','2013-10-27 23:16:26','Suffer memory above none.';
-EXEC insertGeneralHealth '0669525793','2016-12-18 23:48:19','More easy little.';
-EXEC insertGeneralHealth '0168781751','2013-04-06 19:14:27','Purpose focus red.';
-EXEC insertGeneralHealth '0270588412','2017-01-24 17:49:34','Heavy develop safe set.';
-EXEC insertGeneralHealth '0034704765','2016-01-30 10:21:46','Mind common five consider.';
-EXEC insertGeneralHealth '0148871179','2017-11-12 08:37:40','Specific consumer Mrs.';
-EXEC insertGeneralHealth '0574677519','2015-08-27 19:41:15','Value far light offer.';
-EXEC insertGeneralHealth '0095651746','2017-04-19 12:13:46','Likely issue leader agree.';
-EXEC insertGeneralHealth '0833572873','2017-08-17 02:20:02','Several long member list.';
-EXEC insertGeneralHealth '0927231475','2014-10-09 22:33:07','Color you everything paper.';
-EXEC insertGeneralHealth '0814459282','2013-04-23 21:10:41','Church week rate set.';
-EXEC insertGeneralHealth '0440456727','2014-08-07 10:38:18','Claim certain speech finish.';
-EXEC insertGeneralHealth '0157515465','2016-06-18 00:57:46','Account deal exactly less.';
-EXEC insertGeneralHealth '0205292439','2015-01-23 09:22:50','Throw purpose court myself.';
-EXEC insertGeneralHealth '0070664393','2015-11-20 08:30:53','Mention him character address.';
-EXEC insertGeneralHealth '0930900450','2015-05-19 11:01:38','Nothing life less deep life.';
-EXEC insertGeneralHealth '0356953429','2017-05-09 17:26:09','During wait toward then.';
-EXEC insertGeneralHealth '0426314602','2014-03-19 11:13:50','Onto cause fill politics hit.';
-EXEC insertGeneralHealth '0910698683','2017-10-25 21:12:45','General rule else quality.';
-EXEC insertGeneralHealth '0160277536','2016-01-15 13:49:56','Animal mind foot.';
-EXEC insertGeneralHealth '0102620308','2017-09-23 13:16:45','Song dog born out somebody.';
-EXEC insertGeneralHealth '0369597306','2013-10-23 11:15:12','Cost policy tough behind.';
-EXEC insertGeneralHealth '0803874658','2016-05-06 21:59:14','Life pay owner road deep.';
-EXEC insertGeneralHealth '0927505199','2014-04-06 22:55:52','Design past positive.';
-EXEC insertGeneralHealth '0042257240','2017-05-10 08:25:26','More defense level party.';
-EXEC insertGeneralHealth '0499605855','2017-04-05 08:03:59','Executive name forget.';
-EXEC insertGeneralHealth '0181980252','2013-03-26 01:15:24','Ground offer picture bill may.';
-EXEC insertGeneralHealth '0304763972','2016-01-01 09:05:23','Once each day.';
-EXEC insertGeneralHealth '0418211873','2016-08-27 10:13:09','Class north pretty author.';
-EXEC insertGeneralHealth '0370857704','2015-02-04 07:40:09','Box off civil skill hundred.';
-EXEC insertGeneralHealth '0193554514','2015-11-24 01:38:18','Attack against network while.';
-EXEC insertGeneralHealth '0091624134','2017-08-25 16:46:43','Clearly myself thousand hope.';
-EXEC insertGeneralHealth '0565052556','2014-08-17 19:48:57','Edge we whole guy.';
-EXEC insertGeneralHealth '0469182986','2015-09-29 15:10:42','Research add wife century law.';
-EXEC insertGeneralHealth '0251444584','2016-10-08 00:54:22','Machine statement our few.';
-EXEC insertGeneralHealth '0529863710','2015-08-04 05:41:07','Memory either key record.';
-EXEC insertGeneralHealth '0186917220','2014-01-24 07:44:07','Any order level speak.';
-EXEC insertGeneralHealth '0150458170','2014-06-17 05:28:47','Store red across.';
-EXEC insertGeneralHealth '0148696183','2016-11-26 10:49:01','Prepare want laugh behavior.';
-EXEC insertGeneralHealth '0979539319','2017-11-06 07:54:31','Role difficult adult able.';
-EXEC insertGeneralHealth '0437283068','2013-04-04 13:28:19','Wife police mention offer.';
-EXEC insertGeneralHealth '0575214278','2014-08-11 20:03:18','Statement individual white.';
-EXEC insertGeneralHealth '0501712933','2017-04-12 01:02:10','Many type science join your.';
-EXEC insertGeneralHealth '0770698238','2013-05-05 02:38:59','Wind stock draw firm.';
-EXEC insertGeneralHealth '0844302399','2017-05-02 19:42:16','Local bar someone these.';
-EXEC insertGeneralHealth '0386999598','2015-12-24 01:42:47','Forget sell call six.';
-EXEC insertGeneralHealth '0021834829','2014-12-06 00:16:14','Four heart data.';
-EXEC insertGeneralHealth '0441258075','2016-05-15 05:00:42','Happen lead fire.';
-EXEC insertGeneralHealth '0567969732','2015-09-15 02:37:45','Season feel interview know.';
-EXEC insertGeneralHealth '0020972408','2015-11-22 08:51:30','The share animal participant.';
-EXEC insertGeneralHealth '0862142346','2016-11-12 03:42:21','Statement southern phone.';
-EXEC insertGeneralHealth '0837181715','2014-11-24 12:17:47','Address night age run.';
-EXEC insertGeneralHealth '0208767531','2014-07-24 07:15:23','Best send hear scene if focus.';
-EXEC insertGeneralHealth '0232471482','2013-09-21 17:28:01','Let eat fear cost before.';
-EXEC insertGeneralHealth '0936996301','2015-11-28 13:05:45','Condition expect water church.';
-EXEC insertGeneralHealth '0050654041','2014-07-09 19:37:45','And fall value two since.';
-EXEC insertGeneralHealth '0925110402','2015-01-25 16:49:47','Should size compare put paper.';
-EXEC insertGeneralHealth '0817237897','2014-12-13 15:41:57','Rise thus trouble partner.';
-EXEC insertGeneralHealth '0208848645','2015-02-26 11:52:43','Stand week red lead executive.';
-EXEC insertGeneralHealth '0993578321','2013-05-22 05:00:31','Picture ok area nothing.';
-EXEC insertGeneralHealth '0010945532','2017-02-17 23:06:56','More movie address instead.';
-EXEC insertGeneralHealth '0412690491','2016-06-06 14:37:17','Series less feeling about.';
-EXEC insertGeneralHealth '0042388423','2014-02-01 12:09:25','Two card final wind.';
-EXEC insertGeneralHealth '0662681728','2017-11-12 18:35:22','Often girl however kitchen.';
-EXEC insertGeneralHealth '0873889183','2016-08-24 12:24:03','Member nothing positive.';
-EXEC insertGeneralHealth '0904700146','2016-04-30 07:44:51','Law art crime bed.';
-EXEC insertGeneralHealth '0013561094','2016-05-19 18:48:46','Economy professor year some.';
-EXEC insertGeneralHealth '0981139919','2015-11-10 01:24:55','Book top sing analysis thank.';
-EXEC insertGeneralHealth '0171752523','2016-11-15 09:02:44','Industry magazine agency.';
-EXEC insertGeneralHealth '0826542379','2015-02-07 18:04:29','Family same important design.';
-EXEC insertGeneralHealth '0603653015','2013-02-27 10:17:06','Find pressure a response.';
-EXEC insertGeneralHealth '0634988967','2014-11-18 15:19:49','Event west despite.';
-EXEC insertGeneralHealth '0546226451','2014-12-20 11:26:35','Instead stage job food.';
-EXEC insertGeneralHealth '0110878349','2013-08-01 06:34:19','Issue want program add agree.';
-EXEC insertGeneralHealth '0674586507','2014-05-12 19:15:14','Read bit than yet you not ten.';
-EXEC insertGeneralHealth '0953370170','2013-04-27 06:06:51','Run size again get affect.';
-EXEC insertGeneralHealth '0671323959','2015-06-30 07:13:52','Allow seek air clearly as.';
-EXEC insertGeneralHealth '0899807509','2016-11-26 19:16:09','Trial doctor air writer.';
-EXEC insertGeneralHealth '0335631201','2013-04-04 21:42:52','Candidate free group leg.';
-EXEC insertGeneralHealth '0682405874','2013-10-02 07:44:09','Animal scientist pass.';
-EXEC insertGeneralHealth '0799912575','2014-12-02 08:14:24','Floor then reach act age.';
-EXEC insertGeneralHealth '0769437636','2013-03-18 12:29:00','Address guy too rock deal.';
-EXEC insertGeneralHealth '0414762975','2017-07-09 11:41:59','South smile movement sport.';
-EXEC insertGeneralHealth '0234551751','2013-06-26 07:11:34','Arrive suggest data yet.';
-EXEC insertGeneralHealth '0698569349','2015-01-05 13:31:18','Color common music this.';
-EXEC insertGeneralHealth '0507340273','2017-11-30 12:13:52','Now last case several address.';
-EXEC insertGeneralHealth '0691925567','2015-04-30 00:09:50','Wrong family defense whatever.';
-EXEC insertGeneralHealth '0382765859','2014-04-26 05:32:54','Room floor bar paper.';
-EXEC insertGeneralHealth '0633636235','2016-08-03 05:15:36','May nation across particular.';
-EXEC insertGeneralHealth '0746609052','2015-12-05 23:00:35','Black to almost cold old.';
-EXEC insertGeneralHealth '0220045154','2014-11-11 07:35:58','Paper wind nor station.';
-EXEC insertGeneralHealth '0250947920','2015-10-18 02:21:34','Say toward reveal military.';
-EXEC insertGeneralHealth '0143989109','2016-09-03 22:25:18','Ask behavior best soldier.';
-EXEC insertGeneralHealth '0576859857','2015-06-08 15:36:20','When live meet.';
-EXEC insertGeneralHealth '0505443310','2014-09-04 10:10:45','Election eight culture dark.';
-EXEC insertGeneralHealth '0496102694','2017-09-21 22:30:28','Pick behind not member step.';
-EXEC insertGeneralHealth '0392077357','2015-04-04 17:34:21','Political until manage.';
-EXEC insertGeneralHealth '0583097828','2014-12-31 15:59:41','Test Republican notice.';
-EXEC insertGeneralHealth '0719585072','2015-08-31 08:58:29','Fall threat usually hot four.';
-EXEC insertGeneralHealth '0713308327','2013-08-17 17:51:54','Hit night girl movie.';
-EXEC insertGeneralHealth '0209384803','2016-05-18 13:30:58','Expect plant information.';
-EXEC insertGeneralHealth '0703172342','2013-01-24 22:23:20','When leg note suggest.';
-EXEC insertGeneralHealth '0011397005','2016-10-23 22:56:54','Forget lot at four will rate.';
-EXEC insertGeneralHealth '0269133812','2014-03-01 07:37:16','Police because yourself order.';
-EXEC insertGeneralHealth '0032565106','2013-12-14 10:53:42','Expert his state theory child.';
-EXEC insertGeneralHealth '0906275742','2014-11-30 13:06:57','Ground blue water.';
-EXEC insertGeneralHealth '0745581196','2014-07-21 23:24:16','Church truth worry book sell.';
-EXEC insertGeneralHealth '0800779719','2017-04-06 20:44:42','Wind job assume begin great.';
-EXEC insertGeneralHealth '0891118920','2015-07-12 05:01:43','Kind game enter item.';
-EXEC insertGeneralHealth '0156118552','2016-11-08 22:51:15','Day ball risk bit sort amount.';
-EXEC insertGeneralHealth '0347242503','2014-05-20 13:55:25','Nor herself better according.';
-EXEC insertGeneralHealth '0696993615','2014-06-15 15:16:57','Investment staff happy skin.';
-EXEC insertGeneralHealth '0043424584','2013-06-14 11:30:37','Year contain bag wide.';
-EXEC insertGeneralHealth '0064617085','2015-11-23 14:45:41','Light Mr must game.';
-EXEC insertGeneralHealth '0986503462','2013-03-09 22:23:00','Maintain career determine air.';
-EXEC insertGeneralHealth '0026676882','2016-05-26 13:42:27','Reveal listen which him.';
-EXEC insertGeneralHealth '0617947249','2017-10-02 06:42:13','Operation national college.';
-EXEC insertGeneralHealth '0570294270','2013-12-08 12:45:43','Operation picture own those.';
-EXEC insertGeneralHealth '0788676305','2015-09-10 10:26:35','Home week miss.';
-EXEC insertGeneralHealth '0756267621','2015-08-15 00:31:13','Human wait guy other leader.';
-EXEC insertGeneralHealth '0681436836','2015-04-21 21:18:58','Blood term change because.';
-EXEC insertGeneralHealth '0650450299','2013-04-30 10:00:14','Employee rule them agency.';
-EXEC insertGeneralHealth '0965801691','2015-07-03 18:07:54','Anyone debate far bad reflect.';
-EXEC insertGeneralHealth '0684086987','2013-03-10 12:11:22','Land sell compare fall.';
-EXEC insertGeneralHealth '0010687041','2016-03-27 08:10:33','From boy cell number room.';
-EXEC insertGeneralHealth '0258298415','2013-02-02 19:30:09','Yeah population happen.';
-EXEC insertGeneralHealth '0395441789','2017-01-09 17:19:47','Later agreement south program.';
-EXEC insertGeneralHealth '0428068979','2014-09-09 00:59:11','Hold avoid TV then.';
-EXEC insertGeneralHealth '0353108687','2016-03-18 21:25:38','Heart reach protect.';
-EXEC insertGeneralHealth '0479731296','2017-08-09 21:28:39','Rule moment country none.';
-EXEC insertGeneralHealth '0446576469','2014-11-24 17:16:31','Value growth reach else third.';
-EXEC insertGeneralHealth '0820952534','2017-03-05 10:35:25','Assume foreign develop time.';
-EXEC insertGeneralHealth '0393144885','2014-03-19 15:57:25','Town gun sometimes item.';
-EXEC insertGeneralHealth '0180684644','2016-07-25 12:04:04','Image can phone reveal.';
-EXEC insertGeneralHealth '0508636067','2015-04-26 03:52:37','Learn history national sell.';
-EXEC insertGeneralHealth '0629699730','2013-01-15 22:19:02','End run suggest have shoulder.';
-EXEC insertGeneralHealth '0135294543','2013-02-07 09:01:10','Check college test indicate.';
-EXEC insertGeneralHealth '0310099859','2017-09-17 05:27:16','Add book wonder owner.';
-EXEC insertGeneralHealth '0739209670','2015-07-15 10:00:29','Event general respond capital.';
-EXEC insertGeneralHealth '0764647638','2013-08-02 10:22:29','Step by material low him.';
-EXEC insertGeneralHealth '0354916543','2017-02-28 01:42:51','Enjoy we effect clear.';
-EXEC insertGeneralHealth '0099126032','2014-05-11 04:31:42','Voice business term.';
-EXEC insertGeneralHealth '0251693316','2013-05-10 10:34:24','Win board first.';
-EXEC insertGeneralHealth '0575692589','2015-12-25 06:15:23','Range movement concern keep.';
-EXEC insertGeneralHealth '0831278682','2017-06-29 14:35:02','Leave body great visit.';
-EXEC insertGeneralHealth '0361514851','2013-07-01 23:08:50','Pretty person court partner.';
-EXEC insertGeneralHealth '0209557780','2013-08-05 08:59:05','Nation stuff senior.';
-EXEC insertGeneralHealth '0450179059','2014-03-20 11:45:51','Example usually either.';
-EXEC insertGeneralHealth '0326360575','2016-08-11 11:35:27','From every single wish own.';
-EXEC insertGeneralHealth '0261806055','2015-10-26 19:10:36','Do few very company.';
-EXEC insertGeneralHealth '0783324392','2017-01-10 13:17:59','At anything animal.';
-EXEC insertGeneralHealth '0960008830','2017-02-06 07:34:39','Between perform much nation.';
-EXEC insertGeneralHealth '0534069296','2014-04-15 12:09:46','Clear participant cover field.';
-EXEC insertGeneralHealth '0435013734','2013-02-10 01:31:15','Congress home choice this.';
-EXEC insertGeneralHealth '0422511731','2016-08-27 22:16:43','Because one it.';
-EXEC insertGeneralHealth '0821643087','2017-03-27 05:18:31','Little many ball fear.';
-EXEC insertGeneralHealth '0437211345','2017-12-09 10:00:32','Coach approach lead threat.';
-EXEC insertGeneralHealth '0379637295','2017-01-13 01:19:46','Say long certainly account.';
-EXEC insertGeneralHealth '0108204951','2017-04-04 15:47:40','Continue pass interview front.';
-EXEC insertGeneralHealth '0329284020','2013-01-11 15:14:27','While Mr boy whom including.';
-EXEC insertGeneralHealth '0007031384','2015-12-12 20:06:01','Prove break peace miss.';
-EXEC insertGeneralHealth '0829548882','2013-08-27 17:22:36','Line chair third.';
-EXEC insertGeneralHealth '0163264952','2013-04-26 20:52:43','After manage claim.';
-EXEC insertGeneralHealth '0392301670','2014-03-10 01:35:57','Dinner six woman note.';
-EXEC insertGeneralHealth '0534640725','2017-07-23 03:30:26','Child a character onto.';
-EXEC insertGeneralHealth '0232400442','2015-12-20 08:18:00','Pull way late force line.';
-EXEC insertGeneralHealth '0865406175','2016-04-09 15:37:25','Religious example ball.';
-EXEC insertGeneralHealth '0899233094','2016-09-22 21:04:16','Use doctor water quickly.';
-EXEC insertGeneralHealth '0149927412','2016-03-20 03:55:01','Local if none deep.';
-EXEC insertGeneralHealth '0020064507','2016-10-14 15:21:16','Full amount audience company.';
-EXEC insertGeneralHealth '0714342006','2014-05-06 11:47:31','My born avoid.';
-EXEC insertGeneralHealth '0135565136','2015-02-26 00:20:41','Break more employee support.';
-EXEC insertGeneralHealth '0918376708','2013-05-17 21:19:22','Career food world poor.';
-EXEC insertGeneralHealth '0724433979','2013-01-12 10:31:17','Quickly area change can.';
-EXEC insertGeneralHealth '0093073192','2017-04-20 20:42:36','Among dream our stage.';
-EXEC insertGeneralHealth '0515998315','2016-01-23 09:02:16','Mrs prove main win.';
-EXEC insertGeneralHealth '0552003309','2013-12-28 11:29:16','Wide leader she success stage.';
-EXEC insertGeneralHealth '0676699495','2016-04-10 05:39:45','Break citizen parent capital.';
-EXEC insertGeneralHealth '0830319854','2017-12-19 10:49:35','According matter page from.';
-EXEC insertGeneralHealth '0963054235','2017-04-02 16:58:18','People gas cell Mrs so ok.';
-EXEC insertGeneralHealth '0950651851','2016-11-05 11:47:06','Father these sing man.';
-EXEC insertGeneralHealth '0314509844','2014-06-03 19:01:02','Me civil south.';
-EXEC insertGeneralHealth '0673223737','2016-10-17 17:09:19','Successful year adult catch.';
-EXEC insertGeneralHealth '0038439997','2014-03-08 15:09:58','Occur body statement social.';
-EXEC insertGeneralHealth '0468328193','2014-03-12 18:29:10','Early son nearly.';
-EXEC insertGeneralHealth '0309032553','2016-10-14 22:08:45','They family south letter.';
-EXEC insertGeneralHealth '0437628161','2015-05-14 23:55:51','Name I center miss high star.';
-EXEC insertGeneralHealth '0753396598','2013-10-03 17:31:23','Manager for indicate cultural.';
-EXEC insertGeneralHealth '0023946393','2013-12-24 02:42:55','Out detail great may long.';
-EXEC insertGeneralHealth '0101587627','2016-08-12 14:50:16','Like local although increase.';
-EXEC insertGeneralHealth '0182932125','2013-07-31 00:07:20','Whole some five nature.';
-EXEC insertGeneralHealth '0002785252','2017-06-30 18:18:58','Include sister court.';
-EXEC insertGeneralHealth '0714633079','2014-05-21 09:55:12','Next kitchen state.';
-EXEC insertGeneralHealth '0881461342','2015-11-15 09:14:19','Miss impact well term expect.';
-EXEC insertGeneralHealth '0412022019','2017-10-16 17:16:45','Study true get hour.';
-EXEC insertGeneralHealth '0880069881','2013-07-26 04:56:52','Find run arrive than energy.';
-EXEC insertGeneralHealth '0700802842','2013-05-08 02:04:46','Cell although camera morning.';
-EXEC insertGeneralHealth '0387569805','2017-05-10 19:02:19','High church cold discussion.';
-EXEC insertGeneralHealth '0907069009','2017-04-20 13:56:14','Address scientist give nor.';
-EXEC insertGeneralHealth '0966307323','2016-05-02 14:51:43','Much relationship wish party.';
-EXEC insertGeneralHealth '0743861600','2016-06-30 06:39:50','Major soon end.';
-EXEC insertGeneralHealth '0475125042','2013-09-20 11:05:49','Shake animal adult town.';
-EXEC insertGeneralHealth '0723770035','2016-02-04 00:28:09','Much half knowledge term idea.';
-EXEC insertGeneralHealth '0734737373','2016-08-26 07:08:23','Firm himself finish she when.';
-EXEC insertGeneralHealth '0370365304','2017-06-22 12:23:06','Practice interview price sort.';
-EXEC insertGeneralHealth '0518839221','2013-12-21 12:38:20','Consider affect agree close.';
-EXEC insertGeneralHealth '0112125131','2014-08-27 20:38:46','True enough hotel.';
-EXEC insertGeneralHealth '0096218996','2014-10-02 15:46:43','Laugh firm truth pick fear.';
-EXEC insertGeneralHealth '0288783870','2014-01-10 02:25:41','Although speech play.';
-EXEC insertGeneralHealth '0976871565','2013-05-08 03:15:14','Experience cultural see star.';
-EXEC insertGeneralHealth '0687434059','2017-06-24 07:06:12','Or war provide.';
-EXEC insertGeneralHealth '0552881257','2015-07-16 14:23:38','Direction live daughter.';
-EXEC insertGeneralHealth '0371165986','2013-06-20 01:27:02','Rule actually tend on want.';
-EXEC insertGeneralHealth '0441697520','2016-12-19 12:46:40','Enjoy story put trial.';
-EXEC insertGeneralHealth '0951132926','2014-08-27 15:18:18','Church cause compare four.';
-EXEC insertGeneralHealth '0101866779','2014-06-01 16:00:17','Town hear else huge.';
-EXEC insertGeneralHealth '0752622797','2017-09-24 03:08:39','Fly quite nearly make on.';
-EXEC insertGeneralHealth '0412245203','2013-12-28 00:09:11','Threat lot talk bit be.';
-EXEC insertGeneralHealth '0033248778','2015-05-04 19:17:21','Matter blood fine.';
-EXEC insertGeneralHealth '0217743641','2017-11-27 07:09:35','Blood dream form.';
-EXEC insertGeneralHealth '0169322757','2014-08-12 13:26:42','Produce boy true.';
-EXEC insertGeneralHealth '0939342711','2017-12-22 18:18:04','Region all trouble a lead.';
-EXEC insertGeneralHealth '0648664671','2017-10-22 20:19:02','Heart need crime.';
-EXEC insertGeneralHealth '0250446351','2015-09-06 04:45:18','Pick success say process.';
-EXEC insertGeneralHealth '0215984633','2013-03-20 04:20:27','Most kind four save above.';
-EXEC insertGeneralHealth '0036017314','2014-10-15 11:43:55','Increase small suggest heart.';
-EXEC insertGeneralHealth '0470293037','2017-07-01 08:54:07','Stuff hospital us any game.';
-EXEC insertGeneralHealth '0134820694','2014-10-23 17:36:06','Shake but sell.';
-EXEC insertGeneralHealth '0886216569','2013-04-02 16:09:18','Development degree draw for.';
-EXEC insertGeneralHealth '0090864300','2015-07-27 01:04:15','Ball forget carry.';
-EXEC insertGeneralHealth '0854157282','2016-03-01 09:37:19','And story third apply.';
-EXEC insertGeneralHealth '0980202593','2016-01-16 18:31:58','Force contain share.';
-EXEC insertGeneralHealth '0137746715','2015-07-16 06:42:25','Her assume at interest.';
-EXEC insertGeneralHealth '0734520137','2015-03-26 18:08:37','Change both rest yard two.';
-EXEC insertGeneralHealth '0946677193','2014-04-16 12:25:50','Sea goal throughout.';
-EXEC insertGeneralHealth '0761350133','2013-04-17 07:21:20','State business wife team.';
-EXEC insertGeneralHealth '0256959381','2016-10-08 07:43:54','Away last east high amount.';
-EXEC insertGeneralHealth '0149616047','2014-01-10 19:53:40','Quality area recent actually.';
-EXEC insertGeneralHealth '0251961169','2015-10-10 07:31:53','World choose break police dog.';
-EXEC insertGeneralHealth '0065274561','2016-03-04 21:37:13','Lose husband involve source.';
-EXEC insertGeneralHealth '0139662783','2017-01-16 22:34:37','Chair short he scientist type.';
-EXEC insertGeneralHealth '0393470720','2016-05-05 11:55:23','Card nearly next firm.';
-EXEC insertGeneralHealth '0904860689','2014-09-21 21:53:21','Fund beat design thought.';
-EXEC insertGeneralHealth '0119741856','2015-02-24 13:26:52','Pm just family.';
-EXEC insertGeneralHealth '0583791672','2016-12-07 02:57:27','Live middle nice service.';
-EXEC insertGeneralHealth '0327601818','2014-10-30 05:22:55','News former action food.';
-EXEC insertGeneralHealth '0386372867','2017-11-13 22:15:39','Quite people stock.';
-EXEC insertGeneralHealth '0776287542','2016-05-25 13:16:39','Bar focus safe her.';
-EXEC insertGeneralHealth '0572850474','2016-10-16 22:55:13','Young collection road.';
-EXEC insertGeneralHealth '0147926096','2017-10-27 12:45:29','Eight book ahead toward.';
-EXEC insertGeneralHealth '0521813874','2015-12-29 13:15:13','Probably old fire manager.';
-EXEC insertGeneralHealth '0615771217','2015-09-01 04:42:15','Church gun their same film.';
-EXEC insertGeneralHealth '0630980250','2014-01-18 15:17:51','Card nation fact matter.';
-EXEC insertGeneralHealth '0916872664','2016-10-06 22:39:57','Former face capital Mr.';
-EXEC insertGeneralHealth '0151346749','2014-06-16 20:08:51','Act technology property.';
-EXEC insertGeneralHealth '0195701542','2016-11-07 11:26:27','Race no affect account.';
-EXEC insertGeneralHealth '0721328155','2016-04-18 18:56:34','One style agreement major.';
-EXEC insertGeneralHealth '0594630894','2016-07-17 15:19:03','Care analysis middle media.';
-EXEC insertGeneralHealth '0954445057','2014-11-09 21:28:22','If people process.';
-EXEC insertGeneralHealth '0810561693','2017-03-22 03:44:23','Mrs image often up.';
-EXEC insertGeneralHealth '0366779197','2015-03-03 05:19:36','Kitchen free practice.';
-EXEC insertGeneralHealth '0170117504','2014-10-16 15:20:31','Baby control five ever author.';
-EXEC insertGeneralHealth '0262659431','2015-07-29 04:58:13','Rich check generation.';
-EXEC insertGeneralHealth '0002274518','2017-12-25 10:12:07','Help model family call high.';
-EXEC insertGeneralHealth '0895031988','2015-11-25 08:41:56','Interest as safe data table.';
-EXEC insertGeneralHealth '0754329998','2013-07-04 14:12:20','Word according budget run.';
-EXEC insertGeneralHealth '0936137665','2014-03-20 17:23:35','Say rather worker action.';
-EXEC insertGeneralHealth '0989958394','2015-01-11 20:45:57','Stuff choice possible of.';
-EXEC insertGeneralHealth '0219919951','2017-12-31 05:00:46','Prove recently same drive.';
-EXEC insertGeneralHealth '0369881784','2015-09-03 01:20:39','Congress red family third.';
-EXEC insertGeneralHealth '0805430840','2016-10-10 16:15:01','According pick person better.';
-EXEC insertGeneralHealth '0589387133','2016-01-26 07:56:09','Dinner win some indeed.';
-EXEC insertGeneralHealth '0304542225','2017-03-05 12:07:35','Law special cost.';
-EXEC insertGeneralHealth '0217506263','2013-03-23 18:40:45','How not listen after benefit.';
-EXEC insertGeneralHealth '0240839245','2013-09-25 17:25:44','Manager beat ask science want.';
-EXEC insertGeneralHealth '0598400697','2014-08-31 07:19:56','Size fine democratic listen.';
-EXEC insertGeneralHealth '0196633365','2017-01-03 06:30:56','A fill check other.';
-EXEC insertGeneralHealth '0411406705','2017-11-26 11:51:21','Relate call such against.';
-EXEC insertGeneralHealth '0360350090','2016-02-10 03:58:43','Eat college song air decide.';
-EXEC insertGeneralHealth '0022096708','2016-07-25 00:01:50','First Mr new design.';
-EXEC insertGeneralHealth '0991978033','2015-05-20 08:39:03','Prepare thing president war.';
-EXEC insertGeneralHealth '0747094982','2017-02-01 15:37:17','Rule agreement view.';
-EXEC insertGeneralHealth '0883576611','2013-04-08 05:26:00','Simply student of hold.';
-EXEC insertGeneralHealth '0695997757','2014-07-11 02:35:59','Easy last yard local store.';
-EXEC insertGeneralHealth '0167288915','2016-07-08 13:42:06','Director attorney others wife.';
-EXEC insertGeneralHealth '0956806383','2017-06-08 13:10:52','Radio decision vote position.';
-EXEC insertGeneralHealth '0418939561','2013-09-24 08:28:53','Trip good interview piece.';
-EXEC insertGeneralHealth '0316888633','2013-02-06 05:02:57','Old would base try try.';
-EXEC insertGeneralHealth '0737619522','2015-06-04 06:11:33','Star place whom technology.';
-EXEC insertGeneralHealth '0383102628','2017-10-29 11:26:41','Investment final power.';
-EXEC insertGeneralHealth '0969184099','2015-01-31 17:47:28','Or ever food sell record push.';
-EXEC insertGeneralHealth '0702671192','2017-05-02 00:23:03','Other moment oil house camera.';
-EXEC insertGeneralHealth '0741743951','2015-01-06 15:35:14','Suggest data with item half.';
-EXEC insertGeneralHealth '0984589578','2014-03-02 08:14:45','During too book word.';
-EXEC insertGeneralHealth '0765732116','2014-11-20 07:31:22','Vote onto the oil foreign.';
-EXEC insertGeneralHealth '0880124212','2017-01-23 04:05:55','Bad open line fact.';
-EXEC insertGeneralHealth '0012980945','2015-04-16 03:27:25','Each my reduce Mr home.';
-EXEC insertGeneralHealth '0094788256','2014-07-29 14:27:41','Bad raise cup market.';
-EXEC insertGeneralHealth '0548299273','2016-12-19 08:08:07','Character other agent.';
-EXEC insertGeneralHealth '0716131720','2013-02-14 15:32:05','Pressure buy contain current.';
-EXEC insertGeneralHealth '0538041989','2013-02-19 05:06:18','Page practice Mrs scene every.';
-EXEC insertGeneralHealth '0359552371','2015-10-17 19:04:45','Ready reason series statement.';
-EXEC insertGeneralHealth '0415439290','2016-06-04 21:00:21','Some hope suddenly six get be.';
-EXEC insertGeneralHealth '0943145092','2017-04-26 04:08:21','Against last win much.';
-EXEC insertGeneralHealth '0964290137','2017-04-06 03:13:52','Other including window.';
-EXEC insertGeneralHealth '0687607202','2015-03-11 06:09:07','Goal direction else.';
-EXEC insertGeneralHealth '0752858351','2017-07-08 03:23:09','Parent itself nation.';
-EXEC insertGeneralHealth '0952475814','2017-06-12 07:58:33','Side physical skin fact all.';
-EXEC insertGeneralHealth '0306449658','2015-07-07 20:42:12','Read account six per meeting.';
-EXEC insertGeneralHealth '0002296968','2017-04-27 23:52:36','Ask something you new.';
-EXEC insertGeneralHealth '0154823000','2014-02-03 03:02:09','Friend few anyone sense.';
-EXEC insertGeneralHealth '0930768458','2016-10-01 16:33:08','Probably along card human.';
-EXEC insertGeneralHealth '0627002257','2016-07-22 23:35:22','Later tonight always.';
-EXEC insertGeneralHealth '0241934714','2013-05-07 04:06:17','Have build kind.';
-EXEC insertGeneralHealth '0433265742','2013-01-25 16:55:08','Man plan smile discover think.';
-EXEC insertGeneralHealth '0667418824','2016-02-08 13:01:16','Return sound party.';
-EXEC insertGeneralHealth '0571874800','2015-05-02 08:32:42','Prevent church almost.';
-EXEC insertGeneralHealth '0407987243','2015-06-06 13:11:31','Main society adult voice.';
-EXEC insertGeneralHealth '0618258478','2015-04-10 16:42:27','Same suffer project project.';
-EXEC insertGeneralHealth '0715750025','2017-07-31 12:10:13','So design itself story point.';
-EXEC insertGeneralHealth '0050239269','2015-06-21 16:19:59','Those officer before.';
-EXEC insertGeneralHealth '0468123559','2014-08-29 20:48:12','Concern special would.';
-EXEC insertGeneralHealth '0693169705','2016-10-03 05:51:49','Respond floor history oil.';
-EXEC insertGeneralHealth '0184446492','2013-03-14 12:00:51','Serve magazine see bad.';
-EXEC insertGeneralHealth '0893266917','2017-09-10 22:57:43','Foot product east.';
-EXEC insertGeneralHealth '0556358390','2016-12-08 00:49:06','Outside say go bill.';
-EXEC insertGeneralHealth '0826900924','2013-05-14 06:04:29','Space smile director.';
-EXEC insertGeneralHealth '0064347111','2017-11-29 05:38:33','National every pull.';
-EXEC insertGeneralHealth '0920414636','2015-09-22 05:17:14','Group baby door surface.';
-EXEC insertGeneralHealth '0253911859','2015-10-04 02:05:05','Part different prepare.';
-EXEC insertGeneralHealth '0362375538','2015-05-19 08:42:48','Let authority idea.';
-EXEC insertGeneralHealth '0428424790','2016-08-14 22:26:56','Possible produce nature.';
-EXEC insertGeneralHealth '0382095052','2015-07-20 09:11:15','Left sure blood.';
-EXEC insertGeneralHealth '0922413243','2017-11-13 20:40:49','Ground sport beautiful.';
-EXEC insertGeneralHealth '0695256832','2015-05-12 11:17:03','Ago or step.';
-EXEC insertGeneralHealth '0718756792','2017-06-25 02:34:30','Production any into staff.';
-EXEC insertGeneralHealth '0688345880','2015-01-06 16:58:11','Time save occur add.';
-EXEC insertGeneralHealth '0385469455','2016-05-15 07:00:33','Quite better window official.';
-EXEC insertGeneralHealth '0834050226','2016-05-22 03:52:34','Fine over staff market.';
-EXEC insertGeneralHealth '0330097746','2016-01-26 18:56:48','Road cut into notice.';
-EXEC insertGeneralHealth '0607006247','2013-07-28 13:15:47','Section summer reduce imagine.';
-EXEC insertGeneralHealth '0453375543','2014-05-17 20:38:29','Possible his believe.';
-EXEC insertGeneralHealth '0039819452','2016-08-12 05:00:57','Daughter when today send.';
-EXEC insertGeneralHealth '0617095426','2015-04-08 06:53:34','Seem resource glass theory.';
-EXEC insertGeneralHealth '0260737542','2017-07-15 05:29:22','Next point town picture state.';
-EXEC insertGeneralHealth '0070086494','2017-04-24 19:55:33','Task give I surface ago six.';
-EXEC insertGeneralHealth '0098758867','2017-08-19 01:24:53','Experience hand speech.';
-EXEC insertGeneralHealth '0231389972','2013-03-27 06:52:35','Attorney per now table writer.';
-EXEC insertGeneralHealth '0144467116','2016-07-09 14:43:03','Enter include still relate.';
-EXEC insertGeneralHealth '0159426085','2016-05-27 15:19:58','Home point kind management.';
-EXEC insertGeneralHealth '0894856996','2014-07-20 13:16:19','Idea be common talk.';
-EXEC insertGeneralHealth '0111064393','2014-01-12 07:16:20','Sign least federal because.';
-EXEC insertGeneralHealth '0576887961','2015-08-07 12:32:21','Cell why why structure.';
-EXEC insertGeneralHealth '0260640140','2014-07-09 00:55:37','Sing son window sport great.';
-EXEC insertGeneralHealth '0031756653','2015-02-06 06:51:39','Wind ten part practice.';
-EXEC insertGeneralHealth '0838957195','2015-04-03 00:04:51','Heart box direction.';
-EXEC insertGeneralHealth '0944386522','2013-08-04 19:45:27','View concern son.';
-EXEC insertGeneralHealth '0098585413','2013-03-29 09:54:43','Present contain push region.';
-EXEC insertGeneralHealth '0545991064','2015-03-03 19:14:43','Later fast environment dinner.';
-EXEC insertGeneralHealth '0583585913','2014-12-04 22:26:56','Take good past.';
-EXEC insertGeneralHealth '0112090717','2013-02-13 16:36:34','Soldier seem spend.';
-EXEC insertGeneralHealth '0833598773','2015-04-19 05:53:06','Contain prepare dream animal.';
-EXEC insertGeneralHealth '0795878336','2013-04-18 18:14:33','Sing remember talk account.';
-EXEC insertGeneralHealth '0174165699','2013-01-10 18:28:31','Series think maybe experience.';
-EXEC insertGeneralHealth '0512141825','2015-07-30 16:54:35','Would family everybody.';
-EXEC insertGeneralHealth '0386308248','2014-04-09 05:27:43','Four tend nation Democrat.';
-EXEC insertGeneralHealth '0920617537','2017-12-15 12:24:08','Science wear build admit.';
-EXEC insertGeneralHealth '0349756977','2015-01-10 23:17:12','Beat bill land choice.';
-EXEC insertGeneralHealth '0018031127','2017-08-07 00:08:00','Provide stay blood hot just.';
-EXEC insertGeneralHealth '0137775251','2013-05-16 11:26:23','Son reach plant real.';
-EXEC insertGeneralHealth '0378191042','2014-09-15 04:25:27','Situation population not.';
-EXEC insertGeneralHealth '0495471024','2013-11-22 15:45:24','Great act decade morning.';
-EXEC insertGeneralHealth '0833402330','2016-07-22 05:08:11','Key crime him sport.';
-EXEC insertGeneralHealth '0425185647','2013-04-25 02:20:19','Service myself design section.';
-EXEC insertGeneralHealth '0640904524','2016-09-26 12:31:06','Ok one team.';
-EXEC insertGeneralHealth '0878490784','2015-09-22 19:42:42','World hard amount.';
-EXEC insertGeneralHealth '0404626562','2017-04-02 20:30:09','Beautiful design blood.';
-EXEC insertGeneralHealth '0062313545','2017-11-13 10:30:48','Often create no chair.';
-EXEC insertGeneralHealth '0848390974','2013-07-15 05:09:18','Word necessary forget list.';
-EXEC insertGeneralHealth '0171992643','2017-08-02 09:22:39','Mean dream support near.';
-EXEC insertGeneralHealth '0800711336','2013-05-22 03:16:29','Account total war wrong whole.';
-EXEC insertGeneralHealth '0782734900','2015-10-01 14:06:28','Always look dream heavy.';
-EXEC insertGeneralHealth '0925299276','2016-04-04 19:14:03','Field table whole and.';
-EXEC insertGeneralHealth '0694442051','2016-06-20 14:12:13','Should drug drop.';
-EXEC insertGeneralHealth '0063142576','2017-05-05 13:16:57','Enter age citizen around key.';
-EXEC insertGeneralHealth '0646521817','2014-10-31 12:48:54','Ok see crime ever.';
-EXEC insertGeneralHealth '0339719376','2015-07-01 07:54:47','Late happen do.';
-EXEC insertGeneralHealth '0348133222','2017-03-10 12:02:01','Get kitchen more.';
-EXEC insertGeneralHealth '0725185070','2017-08-03 13:33:35','Short both view pass receive.';
-EXEC insertGeneralHealth '0346718561','2015-10-30 11:51:01','Four almost drug.';
-EXEC insertGeneralHealth '0088894653','2015-08-09 05:47:53','Page so we bag.';
-EXEC insertGeneralHealth '0020514177','2016-05-19 08:09:35','Kid change national across.';
-EXEC insertGeneralHealth '0290687870','2015-07-01 17:08:09','Consumer enjoy hard debate.';
-EXEC insertGeneralHealth '0674733100','2015-07-15 10:34:03','Clear national decide find.';
-EXEC insertGeneralHealth '0070383402','2014-02-01 22:55:57','Own detail senior.';
-EXEC insertGeneralHealth '0882267227','2013-02-13 17:18:08','Put father commercial.';
-EXEC insertGeneralHealth '0885520029','2013-09-16 14:57:18','Political onto cut town him.';
-EXEC insertGeneralHealth '0807729815','2013-11-08 17:36:31','Yet specific six ever.';
-EXEC insertGeneralHealth '0981075683','2016-04-08 10:43:48','Recent standard life whole.';
-EXEC insertGeneralHealth '0071251911','2013-08-29 13:32:27','Cover trouble newspaper bag.';
-EXEC insertGeneralHealth '0808538954','2013-04-05 12:56:15','Owner case before.';
-EXEC insertGeneralHealth '0532300720','2015-04-15 03:31:43','Black lose far lead dog.';
-EXEC insertGeneralHealth '0360254457','2014-02-26 05:12:38','Two catch car guy field your.';
-EXEC insertGeneralHealth '0282049366','2017-02-17 05:20:38','Cup heavy begin successful.';
-EXEC insertGeneralHealth '0199904557','2017-06-06 09:08:25','South model whether teach act.';
-EXEC insertGeneralHealth '0555609659','2016-10-07 11:46:06','Personal pull weight run land.';
-EXEC insertGeneralHealth '0274452831','2013-01-14 04:54:42','Show whether blue real.';
-EXEC insertGeneralHealth '0602445917','2015-11-10 09:08:35','Former my house director.';
-EXEC insertGeneralHealth '0594717179','2013-05-08 02:30:08','Say third to.';
+EXEC insertGeneralHealth '0793739281','2014-12-13 10:24:23',N'Mất răng';
+EXEC insertGeneralHealth '0791165342','2013-03-05 15:39:41',N'Hôi miệng';
+EXEC insertGeneralHealth '0913986300','2017-10-26 15:45:55',N'Sâu răng';
+EXEC insertGeneralHealth '0062871625','2016-07-27 20:53:47',N'Hôi miệng';
+EXEC insertGeneralHealth '0611599198','2017-08-21 15:35:26',N'Sâu răng';
+EXEC insertGeneralHealth '0395763324','2014-10-31 01:10:27',N'Răng lệch';
+EXEC insertGeneralHealth '0766428269','2015-05-02 20:46:44',N'Loét miệng';
+EXEC insertGeneralHealth '0094652898','2013-02-11 12:12:07',N'Loét miệng';
+EXEC insertGeneralHealth '0579064367','2013-04-08 17:09:38',N'Viêm nha chu';
+EXEC insertGeneralHealth '0384413305','2013-08-13 04:23:27',N'Loét miệng';
+EXEC insertGeneralHealth '0180802528','2014-10-30 21:30:02',N'Mất răng';
+EXEC insertGeneralHealth '0914694211','2013-03-01 01:57:20',N'Viêm lợi';
+EXEC insertGeneralHealth '0461155749','2013-03-19 02:45:07',N'Răng lệch';
+EXEC insertGeneralHealth '0469512334','2014-09-13 23:42:40',N'Hôi miệng';
+EXEC insertGeneralHealth '0321353689','2014-05-27 13:29:54',N'Mất răng';
+EXEC insertGeneralHealth '0052843081','2016-06-22 10:30:40',N'Viêm nha chu';
+EXEC insertGeneralHealth '0910477718','2014-03-12 08:28:31',N'Sâu răng';
+EXEC insertGeneralHealth '0776470990','2017-01-24 02:59:18',N'Mất răng';
+EXEC insertGeneralHealth '0601560565','2013-09-07 23:10:33',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0874837562','2013-03-15 22:20:57',N'Mất răng';
+EXEC insertGeneralHealth '0330717911','2014-03-23 01:26:54',N'Mất răng';
+EXEC insertGeneralHealth '0492231481','2014-05-15 18:58:10',N'Mất răng';
+EXEC insertGeneralHealth '0176970531','2016-11-12 22:46:39',N'Sâu răng';
+EXEC insertGeneralHealth '0728869879','2017-10-12 10:49:05',N'Hôi miệng';
+EXEC insertGeneralHealth '0728480355','2015-12-10 16:33:43',N'Răng lệch';
+EXEC insertGeneralHealth '0126456597','2013-03-07 19:12:21',N'Viêm lợi';
+EXEC insertGeneralHealth '0094092421','2013-10-12 19:26:02',N'Viêm lợi';
+EXEC insertGeneralHealth '0410816366','2015-04-30 13:41:54',N'Răng lệch';
+EXEC insertGeneralHealth '0003865655','2015-06-27 20:40:30',N'Hôi miệng';
+EXEC insertGeneralHealth '0945558403','2014-08-03 11:41:35',N'Viêm nha chu';
+EXEC insertGeneralHealth '0728250360','2016-06-01 12:31:59',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0855546194','2013-03-07 18:49:58',N'Viêm nha chu';
+EXEC insertGeneralHealth '0627334863','2014-11-04 22:32:23',N'Loét miệng';
+EXEC insertGeneralHealth '0681197886','2013-02-13 18:10:18',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0697574595','2014-07-01 16:13:39',N'Răng lệch';
+EXEC insertGeneralHealth '0526396319','2016-08-04 16:23:13',N'Loét miệng';
+EXEC insertGeneralHealth '0330551073','2017-08-26 13:43:11',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0075569397','2014-09-19 22:46:43',N'Hôi miệng';
+EXEC insertGeneralHealth '0451147727','2014-04-22 07:38:10',N'Loét miệng';
+EXEC insertGeneralHealth '0491916726','2013-04-24 23:18:53',N'Viêm nha chu';
+EXEC insertGeneralHealth '0121304314','2015-06-29 14:11:25',N'Sâu răng';
+EXEC insertGeneralHealth '0643716364','2015-06-06 22:16:27',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0655253149','2015-05-24 06:16:19',N'Loét miệng';
+EXEC insertGeneralHealth '0307529216','2013-01-23 07:39:02',N'Loét miệng';
+EXEC insertGeneralHealth '0997860709','2017-05-07 12:05:27',N'Mất răng';
+EXEC insertGeneralHealth '0483353682','2015-11-03 01:11:12',N'Mất răng';
+EXEC insertGeneralHealth '0051826156','2013-07-26 20:07:32',N'Hôi miệng';
+EXEC insertGeneralHealth '0051117726','2017-11-26 19:50:46',N'Viêm nha chu';
+EXEC insertGeneralHealth '0144814966','2017-01-22 23:59:38',N'Viêm nha chu';
+EXEC insertGeneralHealth '0132395353','2017-11-23 15:00:52',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0050595451','2016-05-10 17:22:30',N'Răng lệch';
+EXEC insertGeneralHealth '0391875965','2013-02-25 07:34:40',N'Loét miệng';
+EXEC insertGeneralHealth '0472100830','2016-05-06 09:51:55',N'Sâu răng';
+EXEC insertGeneralHealth '0713170891','2014-08-27 20:44:59',N'Hôi miệng';
+EXEC insertGeneralHealth '0030328039','2017-07-08 03:36:51',N'Hôi miệng';
+EXEC insertGeneralHealth '0523902455','2016-12-28 21:33:51',N'Hôi miệng';
+EXEC insertGeneralHealth '0457171019','2015-11-23 01:48:06',N'Sâu răng';
+EXEC insertGeneralHealth '0733553392','2013-08-14 08:45:30',N'Loét miệng';
+EXEC insertGeneralHealth '0049517991','2016-12-19 07:32:03',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0078700969','2013-01-31 00:51:45',N'Viêm nha chu';
+EXEC insertGeneralHealth '0632929618','2014-11-10 12:13:11',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0890723181','2014-09-02 02:23:56',N'Loét miệng';
+EXEC insertGeneralHealth '0288794785','2015-05-15 01:46:20',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0105522427','2013-03-01 02:37:39',N'Hôi miệng';
+EXEC insertGeneralHealth '0748011478','2014-09-23 05:50:12',N'Sâu răng';
+EXEC insertGeneralHealth '0298696027','2013-07-13 18:11:41',N'Mất răng';
+EXEC insertGeneralHealth '0950637900','2017-04-08 20:41:35',N'Răng lệch';
+EXEC insertGeneralHealth '0288162462','2014-04-30 01:14:56',N'Răng lệch';
+EXEC insertGeneralHealth '0756527234','2015-10-11 05:32:15',N'Răng lệch';
+EXEC insertGeneralHealth '0128148326','2016-07-26 09:37:34',N'Hôi miệng';
+EXEC insertGeneralHealth '0765257452','2016-10-04 18:55:25',N'Hôi miệng';
+EXEC insertGeneralHealth '0668979573','2016-12-07 19:38:06',N'Hôi miệng';
+EXEC insertGeneralHealth '0445487963','2014-03-15 10:23:38',N'Viêm nha chu';
+EXEC insertGeneralHealth '0133192954','2014-05-28 20:10:57',N'Viêm nha chu';
+EXEC insertGeneralHealth '0551854337','2014-10-29 04:27:36',N'Hôi miệng';
+EXEC insertGeneralHealth '0338813013','2016-12-29 13:13:42',N'Loét miệng';
+EXEC insertGeneralHealth '0884196977','2013-06-12 01:14:28',N'Răng lệch';
+EXEC insertGeneralHealth '0996094948','2014-12-09 15:21:41',N'Mất răng';
+EXEC insertGeneralHealth '0568313847','2015-06-26 23:10:23',N'Mất răng';
+EXEC insertGeneralHealth '0336824355','2017-12-14 10:25:15',N'Viêm lợi';
+EXEC insertGeneralHealth '0249105732','2017-10-15 09:13:57',N'Viêm nha chu';
+EXEC insertGeneralHealth '0424078672','2016-09-26 00:34:26',N'Mất răng';
+EXEC insertGeneralHealth '0676415145','2013-11-13 11:32:23',N'Viêm lợi';
+EXEC insertGeneralHealth '0271576780','2013-10-10 16:44:48',N'Viêm lợi';
+EXEC insertGeneralHealth '0459114823','2016-01-10 19:51:01',N'Mất răng';
+EXEC insertGeneralHealth '0267737014','2014-09-12 13:23:50',N'Viêm lợi';
+EXEC insertGeneralHealth '0679843325','2016-08-07 14:30:08',N'Răng lệch';
+EXEC insertGeneralHealth '0627318154','2013-12-11 08:58:09',N'Hôi miệng';
+EXEC insertGeneralHealth '0685909962','2017-01-31 18:02:55',N'Viêm nha chu';
+EXEC insertGeneralHealth '0463130414','2014-06-22 01:01:15',N'Sâu răng';
+EXEC insertGeneralHealth '0436095759','2014-12-25 04:43:02',N'Viêm nha chu';
+EXEC insertGeneralHealth '0947189011','2013-10-10 04:20:14',N'Sâu răng';
+EXEC insertGeneralHealth '0732917663','2017-01-25 17:28:02',N'Viêm lợi';
+EXEC insertGeneralHealth '0141445505','2015-11-24 20:31:49',N'Loét miệng';
+EXEC insertGeneralHealth '0488274498','2015-05-27 20:02:43',N'Răng lệch';
+EXEC insertGeneralHealth '0661138513','2015-12-21 17:52:22',N'Răng lệch';
+EXEC insertGeneralHealth '0614104273','2013-07-23 19:17:30',N'Mất răng';
+EXEC insertGeneralHealth '0862429703','2017-05-21 03:44:16',N'Hôi miệng';
+EXEC insertGeneralHealth '0981724730','2016-05-11 08:56:31',N'Loét miệng';
+EXEC insertGeneralHealth '0734947580','2013-12-20 11:36:42',N'Mất răng';
+EXEC insertGeneralHealth '0071023859','2017-10-28 23:01:21',N'Viêm lợi';
+EXEC insertGeneralHealth '0586779689','2016-11-23 06:34:04',N'Viêm lợi';
+EXEC insertGeneralHealth '0065576917','2017-02-12 15:52:54',N'Loét miệng';
+EXEC insertGeneralHealth '0379750392','2015-01-02 09:28:58',N'Viêm lợi';
+EXEC insertGeneralHealth '0575063566','2016-08-25 06:47:35',N'Viêm nha chu';
+EXEC insertGeneralHealth '0702854039','2017-08-20 23:46:30',N'Viêm nha chu';
+EXEC insertGeneralHealth '0876980077','2017-06-03 10:10:17',N'Viêm lợi';
+EXEC insertGeneralHealth '0537417969','2016-01-10 21:59:20',N'Loét miệng';
+EXEC insertGeneralHealth '0811789595','2017-08-13 16:13:47',N'Viêm nha chu';
+EXEC insertGeneralHealth '0009230868','2014-03-22 14:26:07',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0144606588','2016-12-06 07:45:04',N'Mất răng';
+EXEC insertGeneralHealth '0433935934','2016-09-22 02:26:00',N'Hôi miệng';
+EXEC insertGeneralHealth '0996555526','2014-07-24 16:36:03',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0139954055','2015-04-08 18:34:37',N'Viêm lợi';
+EXEC insertGeneralHealth '0612872412','2014-03-15 21:42:02',N'Mất răng';
+EXEC insertGeneralHealth '0143356459','2015-12-06 19:13:17',N'Viêm lợi';
+EXEC insertGeneralHealth '0471889243','2014-01-24 11:30:39',N'Hôi miệng';
+EXEC insertGeneralHealth '0199465748','2014-05-15 21:42:18',N'Sâu răng';
+EXEC insertGeneralHealth '0854952088','2014-11-05 16:35:03',N'Hôi miệng';
+EXEC insertGeneralHealth '0670800306','2014-07-04 17:14:53',N'Răng lệch';
+EXEC insertGeneralHealth '0502263329','2016-06-06 15:52:50',N'Viêm lợi';
+EXEC insertGeneralHealth '0159844950','2013-05-29 19:04:34',N'Răng lệch';
+EXEC insertGeneralHealth '0879011667','2013-04-03 04:32:40',N'Viêm nha chu';
+EXEC insertGeneralHealth '0366707893','2014-12-22 17:24:49',N'Viêm lợi';
+EXEC insertGeneralHealth '0365919459','2013-03-28 09:06:46',N'Viêm nha chu';
+EXEC insertGeneralHealth '0719954810','2013-10-15 06:20:00',N'Viêm nha chu';
+EXEC insertGeneralHealth '0918603601','2013-10-20 02:14:24',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0024179026','2015-04-19 11:11:52',N'Răng lệch';
+EXEC insertGeneralHealth '0572354908','2016-11-07 18:14:21',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0289279094','2014-05-20 17:53:53',N'Răng lệch';
+EXEC insertGeneralHealth '0445944538','2017-02-07 06:21:25',N'Hôi miệng';
+EXEC insertGeneralHealth '0973882982','2013-07-27 15:57:03',N'Loét miệng';
+EXEC insertGeneralHealth '0350923998','2013-02-08 15:25:38',N'Viêm nha chu';
+EXEC insertGeneralHealth '0967542735','2017-03-24 01:11:07',N'Viêm lợi';
+EXEC insertGeneralHealth '0142676888','2015-09-05 22:54:29',N'Hôi miệng';
+EXEC insertGeneralHealth '0896950392','2017-12-20 01:28:47',N'Mất răng';
+EXEC insertGeneralHealth '0657270124','2014-04-15 07:55:01',N'Mất răng';
+EXEC insertGeneralHealth '0439778483','2014-01-06 00:50:34',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0960728021','2015-02-19 11:08:01',N'Hôi miệng';
+EXEC insertGeneralHealth '0792406972','2016-11-12 04:32:26',N'Sâu răng';
+EXEC insertGeneralHealth '0135910803','2014-10-25 04:00:19',N'Mất răng';
+EXEC insertGeneralHealth '0692094304','2014-04-25 20:05:37',N'Sâu răng';
+EXEC insertGeneralHealth '0392955585','2016-07-12 07:53:58',N'Răng lệch';
+EXEC insertGeneralHealth '0930230095','2016-07-02 16:36:58',N'Viêm lợi';
+EXEC insertGeneralHealth '0436015472','2014-07-15 05:10:56',N'Mất răng';
+EXEC insertGeneralHealth '0735850781','2016-05-22 23:05:59',N'Viêm lợi';
+EXEC insertGeneralHealth '0150724021','2016-04-09 05:08:17',N'Răng lệch';
+EXEC insertGeneralHealth '0131245755','2015-04-13 02:42:10',N'Viêm lợi';
+EXEC insertGeneralHealth '0396073034','2013-04-10 10:02:47',N'Sâu răng';
+EXEC insertGeneralHealth '0765625569','2014-09-09 12:50:44',N'Loét miệng';
+EXEC insertGeneralHealth '0394851470','2017-01-17 00:37:59',N'Loét miệng';
+EXEC insertGeneralHealth '0326726176','2016-01-17 06:20:53',N'Răng lệch';
+EXEC insertGeneralHealth '0251176435','2016-04-14 03:27:13',N'Mất răng';
+EXEC insertGeneralHealth '0167390001','2013-06-17 19:39:59',N'Mất răng';
+EXEC insertGeneralHealth '0048791327','2014-06-02 19:41:18',N'Răng lệch';
+EXEC insertGeneralHealth '0564357225','2015-07-18 22:09:12',N'Loét miệng';
+EXEC insertGeneralHealth '0153094000','2014-09-11 03:41:23',N'Sâu răng';
+EXEC insertGeneralHealth '0205451297','2015-12-30 15:01:25',N'Hôi miệng';
+EXEC insertGeneralHealth '0612812293','2017-06-06 14:04:32',N'Viêm nha chu';
+EXEC insertGeneralHealth '0260739170','2015-06-03 21:49:36',N'Viêm lợi';
+EXEC insertGeneralHealth '0974774844','2016-06-16 02:57:44',N'Mất răng';
+EXEC insertGeneralHealth '0688424542','2014-10-15 16:16:49',N'Sâu răng';
+EXEC insertGeneralHealth '0773009822','2013-09-18 01:57:49',N'Mất răng';
+EXEC insertGeneralHealth '0713093609','2015-11-12 01:00:01',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0196257774','2014-01-07 20:16:53',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0114360537','2014-11-02 19:07:22',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0427661715','2013-10-31 05:26:13',N'Sâu răng';
+EXEC insertGeneralHealth '0508552982','2013-03-17 13:29:34',N'Răng lệch';
+EXEC insertGeneralHealth '0422712096','2016-11-06 01:49:28',N'Sâu răng';
+EXEC insertGeneralHealth '0292854434','2013-07-27 00:43:41',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0933830707','2014-02-05 20:38:25',N'Viêm lợi';
+EXEC insertGeneralHealth '0927785117','2014-01-24 10:14:42',N'Hôi miệng';
+EXEC insertGeneralHealth '0180716393','2014-12-30 05:02:05',N'Hôi miệng';
+EXEC insertGeneralHealth '0339180656','2017-11-08 02:43:13',N'Mất răng';
+EXEC insertGeneralHealth '0776306780','2014-07-04 05:18:12',N'Viêm nha chu';
+EXEC insertGeneralHealth '0854501780','2014-07-23 00:51:06',N'Hôi miệng';
+EXEC insertGeneralHealth '0261422948','2014-12-13 10:34:47',N'Viêm nha chu';
+EXEC insertGeneralHealth '0219883106','2013-08-31 15:41:13',N'Loét miệng';
+EXEC insertGeneralHealth '0501386940','2015-12-05 22:56:23',N'Mất răng';
+EXEC insertGeneralHealth '0479232501','2015-08-28 13:26:47',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0865184260','2017-08-05 04:34:20',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0168540088','2016-11-24 08:58:41',N'Sâu răng';
+EXEC insertGeneralHealth '0132071480','2014-10-29 15:42:26',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0379520531','2014-04-09 15:25:11',N'Loét miệng';
+EXEC insertGeneralHealth '0138208560','2014-05-05 09:26:30',N'Sâu răng';
+EXEC insertGeneralHealth '0143275231','2017-04-14 07:04:07',N'Viêm lợi';
+EXEC insertGeneralHealth '0177249839','2015-02-20 11:00:58',N'Mất răng';
+EXEC insertGeneralHealth '0992901995','2014-10-08 17:52:44',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0898656446','2014-04-21 05:23:54',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0683332852','2013-01-11 11:47:22',N'Loét miệng';
+EXEC insertGeneralHealth '0801805491','2013-12-19 18:44:57',N'Viêm lợi';
+EXEC insertGeneralHealth '0442452367','2013-08-27 20:48:26',N'Hôi miệng';
+EXEC insertGeneralHealth '0933892443','2015-06-22 02:36:36',N'Mất răng';
+EXEC insertGeneralHealth '0610665916','2013-08-10 14:23:32',N'Loét miệng';
+EXEC insertGeneralHealth '0267597823','2017-01-05 15:15:42',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0360409905','2015-07-05 12:41:01',N'Loét miệng';
+EXEC insertGeneralHealth '0603197971','2017-08-27 16:01:09',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0973739109','2013-07-23 22:53:24',N'Viêm lợi';
+EXEC insertGeneralHealth '0933765215','2014-04-25 02:51:49',N'Viêm lợi';
+EXEC insertGeneralHealth '0369304132','2015-06-30 02:36:02',N'Mất răng';
+EXEC insertGeneralHealth '0148487696','2016-02-15 05:04:32',N'Viêm nha chu';
+EXEC insertGeneralHealth '0261078453','2015-12-17 11:47:14',N'Viêm nha chu';
+EXEC insertGeneralHealth '0746105242','2013-08-07 09:24:32',N'Viêm lợi';
+EXEC insertGeneralHealth '0398562311','2016-01-09 10:40:08',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0887936079','2014-10-10 03:21:39',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0583903002','2015-04-13 10:45:10',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0157962421','2015-07-12 04:52:55',N'Hôi miệng';
+EXEC insertGeneralHealth '0774715053','2017-10-31 13:47:17',N'Sâu răng';
+EXEC insertGeneralHealth '0186318892','2015-08-20 14:17:31',N'Loét miệng';
+EXEC insertGeneralHealth '0662090853','2017-01-31 01:09:00',N'Loét miệng';
+EXEC insertGeneralHealth '0331437365','2015-12-01 13:21:39',N'Răng lệch';
+EXEC insertGeneralHealth '0279222504','2013-08-14 23:19:13',N'Mất răng';
+EXEC insertGeneralHealth '0405926912','2014-12-06 07:19:31',N'Răng lệch';
+EXEC insertGeneralHealth '0844361380','2016-08-29 12:54:46',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0872434164','2014-07-11 04:48:28',N'Loét miệng';
+EXEC insertGeneralHealth '0919855401','2017-05-04 11:08:13',N'Viêm nha chu';
+EXEC insertGeneralHealth '0088909871','2014-01-14 07:11:08',N'Loét miệng';
+EXEC insertGeneralHealth '0711420826','2014-01-08 09:15:51',N'Viêm lợi';
+EXEC insertGeneralHealth '0827154130','2013-09-13 16:39:42',N'Loét miệng';
+EXEC insertGeneralHealth '0616061404','2014-11-27 23:02:31',N'Viêm nha chu';
+EXEC insertGeneralHealth '0697043550','2016-02-23 23:34:05',N'Sâu răng';
+EXEC insertGeneralHealth '0323768788','2014-03-14 17:14:50',N'Loét miệng';
+EXEC insertGeneralHealth '0506376047','2016-02-12 05:59:39',N'Hôi miệng';
+EXEC insertGeneralHealth '0527392468','2013-05-07 06:39:27',N'Loét miệng';
+EXEC insertGeneralHealth '0016441517','2015-05-08 08:29:36',N'Mất răng';
+EXEC insertGeneralHealth '0444522255','2013-01-08 13:32:10',N'Hôi miệng';
+EXEC insertGeneralHealth '0482212406','2016-10-24 19:02:57',N'Viêm nha chu';
+EXEC insertGeneralHealth '0719968022','2016-03-06 18:28:52',N'Sâu răng';
+EXEC insertGeneralHealth '0264514112','2013-01-05 19:02:24',N'Sâu răng';
+EXEC insertGeneralHealth '0210725968','2017-09-17 07:24:57',N'Sâu răng';
+EXEC insertGeneralHealth '0667006956','2017-03-25 05:08:16',N'Loét miệng';
+EXEC insertGeneralHealth '0302057497','2015-09-02 17:12:47',N'Sâu răng';
+EXEC insertGeneralHealth '0660567173','2017-05-11 08:17:23',N'Loét miệng';
+EXEC insertGeneralHealth '0109443190','2016-12-05 06:15:36',N'Hôi miệng';
+EXEC insertGeneralHealth '0764957323','2013-06-16 16:19:16',N'Viêm lợi';
+EXEC insertGeneralHealth '0820592509','2013-12-31 19:09:06',N'Viêm nha chu';
+EXEC insertGeneralHealth '0713145687','2015-01-17 13:56:37',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0033448022','2015-07-16 03:24:11',N'Viêm nha chu';
+EXEC insertGeneralHealth '0706230615','2014-01-19 04:52:02',N'Mất răng';
+EXEC insertGeneralHealth '0709212108','2014-10-30 13:35:52',N'Loét miệng';
+EXEC insertGeneralHealth '0894738438','2013-12-31 07:40:01',N'Hôi miệng';
+EXEC insertGeneralHealth '0443205838','2013-02-27 20:52:44',N'Hôi miệng';
+EXEC insertGeneralHealth '0809728772','2014-05-09 06:41:04',N'Viêm nha chu';
+EXEC insertGeneralHealth '0445591630','2016-05-23 10:58:23',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0744514231','2016-11-02 19:25:49',N'Viêm lợi';
+EXEC insertGeneralHealth '0180609812','2016-03-24 20:46:51',N'Răng lệch';
+EXEC insertGeneralHealth '0463842503','2014-01-02 19:23:18',N'Mất răng';
+EXEC insertGeneralHealth '0516503199','2017-09-19 01:12:34',N'Viêm lợi';
+EXEC insertGeneralHealth '0028976206','2014-11-13 15:48:37',N'Sâu răng';
+EXEC insertGeneralHealth '0045163609','2014-05-30 06:41:16',N'Răng lệch';
+EXEC insertGeneralHealth '0906790372','2015-07-13 04:55:12',N'Răng lệch';
+EXEC insertGeneralHealth '0353505147','2013-01-26 07:55:18',N'Răng lệch';
+EXEC insertGeneralHealth '0678835804','2016-01-10 17:15:20',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0984332075','2017-01-14 04:12:41',N'Sâu răng';
+EXEC insertGeneralHealth '0136234255','2014-10-07 21:36:02',N'Hôi miệng';
+EXEC insertGeneralHealth '0389936882','2016-09-28 09:53:48',N'Sâu răng';
+EXEC insertGeneralHealth '0373851675','2016-07-03 18:46:33',N'Răng lệch';
+EXEC insertGeneralHealth '0088305956','2017-02-14 10:10:46',N'Mất răng';
+EXEC insertGeneralHealth '0564266978','2016-07-26 06:07:26',N'Mất răng';
+EXEC insertGeneralHealth '0710504280','2015-05-25 09:37:25',N'Loét miệng';
+EXEC insertGeneralHealth '0358560054','2017-06-29 04:27:51',N'Loét miệng';
+EXEC insertGeneralHealth '0653167320','2017-03-20 20:48:26',N'Sâu răng';
+EXEC insertGeneralHealth '0720655863','2014-08-30 06:59:42',N'Răng lệch';
+EXEC insertGeneralHealth '0998781655','2017-04-14 03:35:08',N'Viêm nha chu';
+EXEC insertGeneralHealth '0698209632','2015-02-20 18:14:09',N'Mất răng';
+EXEC insertGeneralHealth '0026591069','2013-11-01 18:55:01',N'Viêm nha chu';
+EXEC insertGeneralHealth '0571038404','2014-10-27 00:44:14',N'Viêm nha chu';
+EXEC insertGeneralHealth '0723509709','2016-10-27 11:19:10',N'Răng lệch';
+EXEC insertGeneralHealth '0512108936','2016-09-28 13:29:57',N'Viêm lợi';
+EXEC insertGeneralHealth '0615735558','2017-10-25 01:01:01',N'Sâu răng';
+EXEC insertGeneralHealth '0492186428','2013-01-19 02:21:23',N'Hôi miệng';
+EXEC insertGeneralHealth '0005908856','2014-12-05 13:14:25',N'Hôi miệng';
+EXEC insertGeneralHealth '0054666318','2016-04-05 09:46:10',N'Viêm lợi';
+EXEC insertGeneralHealth '0468044101','2014-01-29 21:35:29',N'Mất răng';
+EXEC insertGeneralHealth '0013561539','2016-10-09 14:10:03',N'Hôi miệng';
+EXEC insertGeneralHealth '0990998998','2013-07-04 06:54:59',N'Mất răng';
+EXEC insertGeneralHealth '0370782570','2017-01-04 21:02:43',N'Sâu răng';
+EXEC insertGeneralHealth '0497333073','2015-01-14 11:44:50',N'Sâu răng';
+EXEC insertGeneralHealth '0263295372','2017-06-01 15:36:08',N'Hôi miệng';
+EXEC insertGeneralHealth '0132618088','2015-02-18 13:57:21',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0187970423','2014-11-20 19:02:03',N'Viêm lợi';
+EXEC insertGeneralHealth '0541122283','2013-07-10 16:57:05',N'Loét miệng';
+EXEC insertGeneralHealth '0900431796','2015-09-28 20:54:46',N'Viêm lợi';
+EXEC insertGeneralHealth '0350180078','2015-06-16 11:36:57',N'Loét miệng';
+EXEC insertGeneralHealth '0547201095','2017-02-08 17:38:20',N'Răng lệch';
+EXEC insertGeneralHealth '0793365126','2013-05-10 19:23:31',N'Loét miệng';
+EXEC insertGeneralHealth '0853101830','2015-07-04 02:07:45',N'Viêm lợi';
+EXEC insertGeneralHealth '0833071935','2014-10-30 08:01:28',N'Mất răng';
+EXEC insertGeneralHealth '0522362689','2017-02-20 15:28:15',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0961690222','2015-02-17 02:33:58',N'Viêm nha chu';
+EXEC insertGeneralHealth '0007020149','2015-09-29 19:29:41',N'Sâu răng';
+EXEC insertGeneralHealth '0508583688','2013-02-16 06:18:27',N'Mất răng';
+EXEC insertGeneralHealth '0675869978','2016-03-18 08:20:57',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0758145381','2014-04-08 01:27:13',N'Sâu răng';
+EXEC insertGeneralHealth '0168320584','2015-11-16 09:05:27',N'Hôi miệng';
+EXEC insertGeneralHealth '0993789241','2017-06-21 04:30:14',N'Sâu răng';
+EXEC insertGeneralHealth '0473312969','2013-07-21 00:20:50',N'Sâu răng';
+EXEC insertGeneralHealth '0909106690','2013-04-22 17:34:06',N'Viêm lợi';
+EXEC insertGeneralHealth '0432849679','2016-02-02 00:54:41',N'Hôi miệng';
+EXEC insertGeneralHealth '0411619801','2016-03-09 19:23:30',N'Hôi miệng';
+EXEC insertGeneralHealth '0391873726','2013-11-12 09:02:45',N'Răng lệch';
+EXEC insertGeneralHealth '0642309423','2015-05-24 09:14:23',N'Loét miệng';
+EXEC insertGeneralHealth '0117658362','2014-12-12 14:50:07',N'Sâu răng';
+EXEC insertGeneralHealth '0177212797','2013-12-10 15:04:35',N'Mất răng';
+EXEC insertGeneralHealth '0106166509','2013-02-28 18:19:50',N'Viêm lợi';
+EXEC insertGeneralHealth '0285779997','2016-07-05 21:33:27',N'Viêm nha chu';
+EXEC insertGeneralHealth '0271132909','2016-08-22 10:56:09',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0204308483','2013-08-05 18:46:10',N'Sâu răng';
+EXEC insertGeneralHealth '0717607659','2016-08-10 20:45:18',N'Răng lệch';
+EXEC insertGeneralHealth '0709686888','2013-07-08 11:01:48',N'Mất răng';
+EXEC insertGeneralHealth '0197681566','2017-05-21 20:24:48',N'Loét miệng';
+EXEC insertGeneralHealth '0703353263','2015-04-13 14:40:38',N'Mất răng';
+EXEC insertGeneralHealth '0037411065','2014-09-22 05:57:46',N'Răng lệch';
+EXEC insertGeneralHealth '0670015730','2014-09-20 07:45:23',N'Viêm nha chu';
+EXEC insertGeneralHealth '0800347844','2014-08-09 14:47:15',N'Răng lệch';
+EXEC insertGeneralHealth '0246445891','2016-03-19 03:59:09',N'Viêm lợi';
+EXEC insertGeneralHealth '0053499014','2016-11-23 01:39:01',N'Sâu răng';
+EXEC insertGeneralHealth '0900762734','2014-12-25 12:04:44',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0663692341','2014-09-06 14:41:12',N'Răng lệch';
+EXEC insertGeneralHealth '0206677667','2016-04-09 13:20:47',N'Hôi miệng';
+EXEC insertGeneralHealth '0841130719','2016-05-06 09:13:46',N'Sâu răng';
+EXEC insertGeneralHealth '0334498325','2015-10-06 04:50:52',N'Răng lệch';
+EXEC insertGeneralHealth '0380936415','2017-12-12 06:31:38',N'Mất răng';
+EXEC insertGeneralHealth '0982788075','2015-02-16 13:31:07',N'Loét miệng';
+EXEC insertGeneralHealth '0080991701','2013-11-23 07:17:22',N'Sâu răng';
+EXEC insertGeneralHealth '0272392055','2013-01-04 14:23:39',N'Sâu răng';
+EXEC insertGeneralHealth '0603015915','2013-01-31 05:49:02',N'Mất răng';
+EXEC insertGeneralHealth '0814661106','2017-01-04 00:56:08',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0808031726','2014-05-25 16:32:45',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0824942157','2016-05-21 00:33:05',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0169201505','2015-09-01 00:07:57',N'Viêm lợi';
+EXEC insertGeneralHealth '0390653784','2017-06-14 16:16:49',N'Hôi miệng';
+EXEC insertGeneralHealth '0484017719','2014-10-12 11:09:10',N'Mất răng';
+EXEC insertGeneralHealth '0914613520','2017-07-30 21:19:26',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0049404179','2016-12-02 09:17:32',N'Hôi miệng';
+EXEC insertGeneralHealth '0904183459','2016-11-17 06:22:43',N'Viêm nha chu';
+EXEC insertGeneralHealth '0785082384','2016-06-06 02:08:32',N'Viêm lợi';
+EXEC insertGeneralHealth '0717506364','2014-02-22 20:16:23',N'Sâu răng';
+EXEC insertGeneralHealth '0001372571','2016-12-16 19:08:56',N'Viêm lợi';
+EXEC insertGeneralHealth '0566636079','2017-02-14 23:43:35',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0933958947','2017-05-09 17:31:44',N'Răng lệch';
+EXEC insertGeneralHealth '0210431886','2016-09-05 20:48:45',N'Sâu răng';
+EXEC insertGeneralHealth '0392332492','2017-05-15 03:39:51',N'Viêm lợi';
+EXEC insertGeneralHealth '0523939596','2013-03-25 13:59:24',N'Mất răng';
+EXEC insertGeneralHealth '0848868140','2014-11-24 15:51:32',N'Hôi miệng';
+EXEC insertGeneralHealth '0356071366','2013-11-04 16:38:35',N'Hôi miệng';
+EXEC insertGeneralHealth '0283776040','2015-02-20 22:07:17',N'Mất răng';
+EXEC insertGeneralHealth '0326082295','2015-07-30 17:07:03',N'Loét miệng';
+EXEC insertGeneralHealth '0534365132','2013-03-22 11:13:06',N'Hôi miệng';
+EXEC insertGeneralHealth '0175877714','2013-05-14 18:52:13',N'Sâu răng';
+EXEC insertGeneralHealth '0573483649','2017-11-13 03:25:49',N'Viêm nha chu';
+EXEC insertGeneralHealth '0654962824','2015-08-31 23:40:37',N'Loét miệng';
+EXEC insertGeneralHealth '0595019956','2014-06-11 13:32:18',N'Hôi miệng';
+EXEC insertGeneralHealth '0980936330','2014-12-18 16:56:29',N'Hôi miệng';
+EXEC insertGeneralHealth '0676015228','2015-11-28 03:10:56',N'Viêm nha chu';
+EXEC insertGeneralHealth '0335842366','2014-08-01 21:22:05',N'Mất răng';
+EXEC insertGeneralHealth '0562748751','2016-07-08 07:15:49',N'Viêm lợi';
+EXEC insertGeneralHealth '0429438394','2017-05-07 01:39:33',N'Răng lệch';
+EXEC insertGeneralHealth '0213988233','2013-11-16 11:55:50',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0705148112','2016-02-16 15:09:03',N'Sâu răng';
+EXEC insertGeneralHealth '0155877864','2015-01-05 18:37:35',N'Răng lệch';
+EXEC insertGeneralHealth '0724543516','2013-09-19 02:41:53',N'Viêm lợi';
+EXEC insertGeneralHealth '0331352775','2016-04-18 23:35:35',N'Viêm lợi';
+EXEC insertGeneralHealth '0534708403','2014-12-20 18:29:56',N'Viêm nha chu';
+EXEC insertGeneralHealth '0433090023','2017-05-31 12:00:57',N'Mất răng';
+EXEC insertGeneralHealth '0499357797','2014-01-16 02:07:57',N'Hôi miệng';
+EXEC insertGeneralHealth '0945451573','2017-12-03 14:05:42',N'Răng lệch';
+EXEC insertGeneralHealth '0342484936','2014-02-13 13:24:09',N'Viêm lợi';
+EXEC insertGeneralHealth '0190905025','2015-05-16 06:48:06',N'Hôi miệng';
+EXEC insertGeneralHealth '0307512024','2015-11-12 17:27:26',N'Viêm nha chu';
+EXEC insertGeneralHealth '0357466029','2016-04-08 02:44:06',N'Sâu răng';
+EXEC insertGeneralHealth '0613154264','2015-10-14 18:30:30',N'Loét miệng';
+EXEC insertGeneralHealth '0583565805','2014-08-28 10:12:22',N'Hôi miệng';
+EXEC insertGeneralHealth '0003202836','2017-02-07 18:50:38',N'Viêm nha chu';
+EXEC insertGeneralHealth '0889548425','2014-11-17 02:37:05',N'Hôi miệng';
+EXEC insertGeneralHealth '0794256374','2014-01-01 02:07:47',N'Răng lệch';
+EXEC insertGeneralHealth '0785609378','2014-08-28 17:29:23',N'Răng lệch';
+EXEC insertGeneralHealth '0588395573','2015-03-03 10:18:38',N'Loét miệng';
+EXEC insertGeneralHealth '0228989769','2013-10-05 13:44:54',N'Mất răng';
+EXEC insertGeneralHealth '0273744521','2014-09-16 17:17:10',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0617199817','2016-04-27 06:52:36',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0900582382','2014-06-14 06:41:19',N'Loét miệng';
+EXEC insertGeneralHealth '0539202097','2016-07-27 03:11:02',N'Loét miệng';
+EXEC insertGeneralHealth '0577110372','2016-06-19 06:24:06',N'Mất răng';
+EXEC insertGeneralHealth '0266286270','2014-03-06 13:31:03',N'Hôi miệng';
+EXEC insertGeneralHealth '0152857753','2014-03-12 00:45:02',N'Mất răng';
+EXEC insertGeneralHealth '0964841487','2014-06-18 13:16:29',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0693731982','2015-06-16 04:48:33',N'Viêm lợi';
+EXEC insertGeneralHealth '0247255561','2014-09-19 16:26:05',N'Hôi miệng';
+EXEC insertGeneralHealth '0132422783','2015-12-30 22:31:41',N'Sâu răng';
+EXEC insertGeneralHealth '0767309157','2013-04-09 00:49:08',N'Viêm lợi';
+EXEC insertGeneralHealth '0963000242','2014-08-25 06:57:50',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0318055573','2013-03-14 00:04:44',N'Viêm nha chu';
+EXEC insertGeneralHealth '0167080998','2015-03-10 15:45:52',N'Viêm nha chu';
+EXEC insertGeneralHealth '0091569359','2017-06-27 07:25:47',N'Mất răng';
+EXEC insertGeneralHealth '0445600415','2014-10-28 12:16:09',N'Hôi miệng';
+EXEC insertGeneralHealth '0831157320','2014-07-15 15:23:31',N'Hôi miệng';
+EXEC insertGeneralHealth '0466740613','2013-09-01 09:03:46',N'Sâu răng';
+EXEC insertGeneralHealth '0366354658','2013-12-31 06:53:10',N'Viêm nha chu';
+EXEC insertGeneralHealth '0592541005','2016-02-05 01:38:25',N'Răng lệch';
+EXEC insertGeneralHealth '0994667267','2016-04-21 00:01:49',N'Sâu răng';
+EXEC insertGeneralHealth '0507658180','2017-12-28 08:45:21',N'Viêm lợi';
+EXEC insertGeneralHealth '0809997437','2015-04-01 06:43:41',N'Viêm nha chu';
+EXEC insertGeneralHealth '0573788063','2016-11-28 00:33:36',N'Mất răng';
+EXEC insertGeneralHealth '0012562793','2014-04-04 20:44:46',N'Sâu răng';
+EXEC insertGeneralHealth '0375034518','2017-07-30 23:23:36',N'Răng lệch';
+EXEC insertGeneralHealth '0867575775','2015-04-25 06:21:31',N'Hôi miệng';
+EXEC insertGeneralHealth '0085919050','2017-02-05 20:52:48',N'Răng lệch';
+EXEC insertGeneralHealth '0429020394','2015-04-19 09:33:07',N'Hôi miệng';
+EXEC insertGeneralHealth '0555891084','2014-07-26 02:45:23',N'Viêm nha chu';
+EXEC insertGeneralHealth '0094500629','2014-03-17 15:46:32',N'Sâu răng';
+EXEC insertGeneralHealth '0429308960','2017-06-19 11:01:02',N'Mất răng';
+EXEC insertGeneralHealth '0201112756','2017-08-21 15:00:48',N'Sâu răng';
+EXEC insertGeneralHealth '0805754682','2016-02-16 10:46:35',N'Sâu răng';
+EXEC insertGeneralHealth '0113120481','2016-01-28 15:28:47',N'Mất răng';
+EXEC insertGeneralHealth '0262788482','2016-08-05 13:57:06',N'Sâu răng';
+EXEC insertGeneralHealth '0172962943','2013-04-07 15:23:24',N'Sâu răng';
+EXEC insertGeneralHealth '0903436382','2015-08-17 08:18:49',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0443646400','2014-06-03 15:16:52',N'Viêm lợi';
+EXEC insertGeneralHealth '0897987008','2013-12-15 13:03:08',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0039212259','2015-02-08 09:08:49',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0158741362','2013-07-31 08:55:30',N'Sâu răng';
+EXEC insertGeneralHealth '0757927866','2016-02-02 07:23:33',N'Răng lệch';
+EXEC insertGeneralHealth '0943368421','2016-12-06 12:23:43',N'Viêm lợi';
+EXEC insertGeneralHealth '0699158785','2015-05-02 10:30:52',N'Sâu răng';
+EXEC insertGeneralHealth '0546774681','2013-02-20 09:42:50',N'Hôi miệng';
+EXEC insertGeneralHealth '0059539281','2013-12-19 20:18:20',N'Răng lệch';
+EXEC insertGeneralHealth '0990489076','2015-03-09 21:08:05',N'Sâu răng';
+EXEC insertGeneralHealth '0769600932','2016-12-09 09:57:34',N'Hôi miệng';
+EXEC insertGeneralHealth '0015998263','2016-11-07 13:48:45',N'Hôi miệng';
+EXEC insertGeneralHealth '0754809914','2014-05-25 16:13:57',N'Loét miệng';
+EXEC insertGeneralHealth '0009553413','2016-07-21 22:53:47',N'Răng lệch';
+EXEC insertGeneralHealth '0202519448','2014-12-14 15:18:44',N'Sâu răng';
+EXEC insertGeneralHealth '0825611918','2015-09-18 08:39:01',N'Răng lệch';
+EXEC insertGeneralHealth '0619051254','2013-07-05 20:31:32',N'Hôi miệng';
+EXEC insertGeneralHealth '0425361257','2013-02-24 09:55:29',N'Viêm lợi';
+EXEC insertGeneralHealth '0640387580','2014-01-25 20:25:48',N'Mất răng';
+EXEC insertGeneralHealth '0907696943','2015-03-28 12:12:52',N'Hôi miệng';
+EXEC insertGeneralHealth '0102856335','2013-08-28 17:07:26',N'Loét miệng';
+EXEC insertGeneralHealth '0808537908','2014-07-26 04:09:04',N'Viêm nha chu';
+EXEC insertGeneralHealth '0169147966','2015-12-16 20:26:54',N'Răng lệch';
+EXEC insertGeneralHealth '0530516115','2015-04-14 19:35:06',N'Sâu răng';
+EXEC insertGeneralHealth '0465042463','2013-02-03 20:30:06',N'Viêm nha chu';
+EXEC insertGeneralHealth '0529066355','2013-09-03 19:24:56',N'Loét miệng';
+EXEC insertGeneralHealth '0329960301','2016-09-26 08:44:01',N'Sâu răng';
+EXEC insertGeneralHealth '0998875952','2017-04-22 12:22:22',N'Loét miệng';
+EXEC insertGeneralHealth '0195021096','2015-11-20 06:25:36',N'Sâu răng';
+EXEC insertGeneralHealth '0791368782','2014-08-13 06:44:48',N'Viêm nha chu';
+EXEC insertGeneralHealth '0108673636','2017-06-29 16:00:48',N'Hôi miệng';
+EXEC insertGeneralHealth '0278884929','2017-04-01 23:46:50',N'Mất răng';
+EXEC insertGeneralHealth '0229006843','2017-12-26 14:04:41',N'Răng lệch';
+EXEC insertGeneralHealth '0758367133','2015-10-15 01:52:41',N'Mất răng';
+EXEC insertGeneralHealth '0268175960','2016-07-06 01:25:56',N'Viêm lợi';
+EXEC insertGeneralHealth '0126654444','2015-09-29 13:14:25',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0748317815','2014-07-28 03:47:07',N'Viêm lợi';
+EXEC insertGeneralHealth '0118792280','2014-01-01 09:15:41',N'Hôi miệng';
+EXEC insertGeneralHealth '0849422534','2017-08-30 22:40:18',N'Răng lệch';
+EXEC insertGeneralHealth '0736658618','2017-10-08 02:53:40',N'Mất răng';
+EXEC insertGeneralHealth '0951616575','2014-07-06 16:46:54',N'Mất răng';
+EXEC insertGeneralHealth '0202541851','2013-07-03 04:25:49',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0061593680','2013-12-02 12:26:27',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0478742941','2016-12-26 08:43:54',N'Hôi miệng';
+EXEC insertGeneralHealth '0714175569','2015-06-14 23:21:23',N'Viêm nha chu';
+EXEC insertGeneralHealth '0026105642','2014-11-09 13:42:04',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0767687807','2016-07-15 10:57:29',N'Viêm nha chu';
+EXEC insertGeneralHealth '0173298975','2014-08-28 03:29:59',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0335183969','2017-02-14 15:12:07',N'Loét miệng';
+EXEC insertGeneralHealth '0574048727','2013-06-26 06:57:34',N'Loét miệng';
+EXEC insertGeneralHealth '0161749161','2014-05-15 00:03:44',N'Viêm lợi';
+EXEC insertGeneralHealth '0212360768','2017-02-17 03:53:29',N'Mất răng';
+EXEC insertGeneralHealth '0881242959','2013-10-02 11:57:01',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0347431160','2016-11-17 13:54:00',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0709717224','2015-02-13 03:42:56',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0850519794','2017-07-11 18:52:21',N'Hôi miệng';
+EXEC insertGeneralHealth '0571483474','2016-12-03 18:53:12',N'Viêm nha chu';
+EXEC insertGeneralHealth '0849607388','2013-12-17 22:18:58',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0648759911','2015-08-15 08:52:30',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0240742512','2013-04-07 00:53:54',N'Răng lệch';
+EXEC insertGeneralHealth '0619254068','2017-09-04 10:13:27',N'Răng lệch';
+EXEC insertGeneralHealth '0618745140','2017-10-09 11:29:42',N'Viêm nha chu';
+EXEC insertGeneralHealth '0628072239','2015-04-14 23:01:14',N'Răng lệch';
+EXEC insertGeneralHealth '0045994603','2013-04-30 12:51:23',N'Sâu răng';
+EXEC insertGeneralHealth '0125071439','2014-02-28 13:52:26',N'Viêm nha chu';
+EXEC insertGeneralHealth '0022096082','2016-06-16 23:34:10',N'Loét miệng';
+EXEC insertGeneralHealth '0875592148','2017-08-04 21:58:43',N'Răng lệch';
+EXEC insertGeneralHealth '0877653783','2014-01-20 09:05:49',N'Viêm lợi';
+EXEC insertGeneralHealth '0631085597','2014-07-12 14:07:14',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0897010472','2017-07-19 19:20:52',N'Sâu răng';
+EXEC insertGeneralHealth '0854291797','2013-05-11 18:05:20',N'Viêm lợi';
+EXEC insertGeneralHealth '0897481165','2013-06-22 03:05:52',N'Viêm nha chu';
+EXEC insertGeneralHealth '0341314396','2016-05-11 04:02:32',N'Viêm lợi';
+EXEC insertGeneralHealth '0083790624','2013-06-05 15:21:51',N'Viêm lợi';
+EXEC insertGeneralHealth '0559123139','2017-10-15 04:06:56',N'Sâu răng';
+EXEC insertGeneralHealth '0829526212','2017-07-02 12:19:26',N'Răng lệch';
+EXEC insertGeneralHealth '0609890005','2015-05-28 13:57:19',N'Mất răng';
+EXEC insertGeneralHealth '0369967794','2015-12-25 00:09:46',N'Viêm lợi';
+EXEC insertGeneralHealth '0190566194','2014-02-12 09:17:56',N'Loét miệng';
+EXEC insertGeneralHealth '0817344935','2015-07-22 06:33:53',N'Hôi miệng';
+EXEC insertGeneralHealth '0531682269','2017-03-19 22:11:38',N'Sâu răng';
+EXEC insertGeneralHealth '0663000343','2016-03-23 14:07:09',N'Viêm lợi';
+EXEC insertGeneralHealth '0491972189','2013-06-08 07:35:23',N'Loét miệng';
+EXEC insertGeneralHealth '0920781123','2017-06-28 18:48:00',N'Viêm lợi';
+EXEC insertGeneralHealth '0536733654','2015-06-25 17:02:44',N'Mất răng';
+EXEC insertGeneralHealth '0493530980','2014-10-17 17:11:26',N'Hôi miệng';
+EXEC insertGeneralHealth '0375275129','2016-04-19 17:44:56',N'Loét miệng';
+EXEC insertGeneralHealth '0283561510','2013-01-10 14:41:36',N'Răng lệch';
+EXEC insertGeneralHealth '0594992056','2017-12-04 18:01:29',N'Loét miệng';
+EXEC insertGeneralHealth '0399636027','2015-10-09 02:55:59',N'Viêm lợi';
+EXEC insertGeneralHealth '0565951382','2016-06-02 12:35:03',N'Sâu răng';
+EXEC insertGeneralHealth '0298772985','2013-09-28 06:49:21',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0029453955','2017-03-18 15:57:39',N'Sâu răng';
+EXEC insertGeneralHealth '0286107995','2015-01-28 15:46:54',N'Loét miệng';
+EXEC insertGeneralHealth '0722552750','2013-09-20 17:31:07',N'Sâu răng';
+EXEC insertGeneralHealth '0191770001','2013-01-01 18:17:32',N'Viêm lợi';
+EXEC insertGeneralHealth '0936828826','2017-02-06 11:14:20',N'Răng lệch';
+EXEC insertGeneralHealth '0414090428','2017-03-30 04:22:05',N'Sâu răng';
+EXEC insertGeneralHealth '0263034849','2015-07-19 02:53:42',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0489978182','2013-11-05 20:36:25',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0253589802','2017-04-01 17:31:27',N'Loét miệng';
+EXEC insertGeneralHealth '0882918479','2013-05-09 11:48:16',N'Sâu răng';
+EXEC insertGeneralHealth '0834030597','2013-03-17 07:53:36',N'Loét miệng';
+EXEC insertGeneralHealth '0828833633','2017-01-23 08:15:29',N'Hôi miệng';
+EXEC insertGeneralHealth '0339777767','2017-06-20 15:43:11',N'Hôi miệng';
+EXEC insertGeneralHealth '0510428688','2017-05-12 00:44:49',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0306198083','2017-05-24 12:01:21',N'Răng lệch';
+EXEC insertGeneralHealth '0244749943','2017-08-11 22:07:38',N'Sâu răng';
+EXEC insertGeneralHealth '0203682547','2014-04-23 22:13:46',N'Mất răng';
+EXEC insertGeneralHealth '0312084590','2017-07-01 10:53:29',N'Loét miệng';
+EXEC insertGeneralHealth '0416995265','2016-05-19 03:07:37',N'Viêm nha chu';
+EXEC insertGeneralHealth '0955560060','2013-07-04 06:48:52',N'Loét miệng';
+EXEC insertGeneralHealth '0070345364','2016-09-17 15:48:19',N'Viêm nha chu';
+EXEC insertGeneralHealth '0533469072','2013-08-21 07:04:52',N'Mất răng';
+EXEC insertGeneralHealth '0348537824','2014-04-01 09:11:03',N'Loét miệng';
+EXEC insertGeneralHealth '0668125860','2015-06-05 20:01:52',N'Viêm nha chu';
+EXEC insertGeneralHealth '0139263648','2017-01-10 00:32:19',N'Viêm lợi';
+EXEC insertGeneralHealth '0877904694','2013-10-27 00:52:33',N'Loét miệng';
+EXEC insertGeneralHealth '0680808869','2016-03-07 01:18:31',N'Sâu răng';
+EXEC insertGeneralHealth '0817968510','2017-11-04 11:34:04',N'Mất răng';
+EXEC insertGeneralHealth '0257000298','2017-05-23 23:22:21',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0470117121','2017-07-09 11:52:03',N'Mất răng';
+EXEC insertGeneralHealth '0230141779','2013-03-12 10:56:20',N'Viêm lợi';
+EXEC insertGeneralHealth '0872323318','2014-02-13 16:16:27',N'Loét miệng';
+EXEC insertGeneralHealth '0519220847','2015-04-18 21:25:14',N'Hôi miệng';
+EXEC insertGeneralHealth '0879731826','2016-10-12 16:26:54',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0650449094','2013-12-03 07:31:51',N'Răng lệch';
+EXEC insertGeneralHealth '0133206865','2016-06-15 13:54:52',N'Viêm nha chu';
+EXEC insertGeneralHealth '0189708588','2015-07-20 20:12:18',N'Viêm lợi';
+EXEC insertGeneralHealth '0034065520','2017-03-31 05:33:02',N'Hôi miệng';
+EXEC insertGeneralHealth '0680464609','2013-12-24 02:04:07',N'Viêm lợi';
+EXEC insertGeneralHealth '0954188153','2013-07-09 15:26:58',N'Viêm lợi';
+EXEC insertGeneralHealth '0802367285','2013-06-30 20:46:40',N'Răng lệch';
+EXEC insertGeneralHealth '0157753757','2016-04-17 22:43:01',N'Răng lệch';
+EXEC insertGeneralHealth '0296845178','2015-08-13 13:44:15',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0846379884','2016-11-01 07:02:24',N'Mất răng';
+EXEC insertGeneralHealth '0949051590','2014-01-19 02:56:23',N'Loét miệng';
+EXEC insertGeneralHealth '0209083587','2014-06-13 16:40:21',N'Sâu răng';
+EXEC insertGeneralHealth '0302525433','2017-05-22 03:49:44',N'Viêm lợi';
+EXEC insertGeneralHealth '0568009399','2015-07-16 09:10:38',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0910935519','2017-11-22 14:01:51',N'Răng lệch';
+EXEC insertGeneralHealth '0347324124','2015-05-11 05:38:17',N'Hôi miệng';
+EXEC insertGeneralHealth '0264412764','2014-09-26 14:00:24',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0587842870','2013-10-09 23:37:06',N'Loét miệng';
+EXEC insertGeneralHealth '0443952949','2013-07-29 08:35:11',N'Hôi miệng';
+EXEC insertGeneralHealth '0100631288','2015-08-14 16:04:40',N'Sâu răng';
+EXEC insertGeneralHealth '0065675575','2013-12-15 19:13:06',N'Sâu răng';
+EXEC insertGeneralHealth '0109476811','2015-10-23 21:24:45',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0188477936','2015-06-09 05:04:54',N'Sâu răng';
+EXEC insertGeneralHealth '0057006937','2016-05-23 03:36:52',N'Viêm lợi';
+EXEC insertGeneralHealth '0962021933','2014-09-25 15:27:03',N'Viêm nha chu';
+EXEC insertGeneralHealth '0550922559','2013-10-29 23:11:48',N'Viêm lợi';
+EXEC insertGeneralHealth '0830048577','2014-08-19 04:37:46',N'Viêm nha chu';
+EXEC insertGeneralHealth '0225408955','2015-12-14 00:55:58',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0982171218','2016-02-15 03:28:04',N'Loét miệng';
+EXEC insertGeneralHealth '0960336812','2013-11-09 18:05:01',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0527541474','2017-06-29 21:12:23',N'Hôi miệng';
+EXEC insertGeneralHealth '0408257777','2014-12-07 16:31:08',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0656725352','2015-07-19 04:44:51',N'Viêm nha chu';
+EXEC insertGeneralHealth '0690079141','2016-06-16 23:08:28',N'Viêm lợi';
+EXEC insertGeneralHealth '0682401545','2014-10-25 13:00:59',N'Mất răng';
+EXEC insertGeneralHealth '0991337855','2013-10-20 06:56:39',N'Viêm nha chu';
+EXEC insertGeneralHealth '0581713344','2015-12-19 02:04:16',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0994771467','2015-03-13 09:42:09',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0708751356','2016-03-24 22:32:43',N'Răng lệch';
+EXEC insertGeneralHealth '0669226814','2014-01-23 22:43:51',N'Răng lệch';
+EXEC insertGeneralHealth '0981708843','2014-02-11 18:44:03',N'Mất răng';
+EXEC insertGeneralHealth '0198415831','2014-03-23 21:30:12',N'Viêm nha chu';
+EXEC insertGeneralHealth '0771326650','2013-04-30 12:27:40',N'Loét miệng';
+EXEC insertGeneralHealth '0440760938','2017-07-24 13:12:25',N'Hôi miệng';
+EXEC insertGeneralHealth '0266711123','2015-07-29 18:25:26',N'Sâu răng';
+EXEC insertGeneralHealth '0047835129','2015-06-23 23:19:22',N'Răng lệch';
+EXEC insertGeneralHealth '0641976583','2013-07-03 10:55:13',N'Mất răng';
+EXEC insertGeneralHealth '0896633163','2015-07-10 01:00:34',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0057973898','2014-08-02 23:00:23',N'Răng lệch';
+EXEC insertGeneralHealth '0346410317','2015-12-20 20:51:30',N'Viêm lợi';
+EXEC insertGeneralHealth '0754548952','2013-02-16 05:35:48',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0731943634','2017-06-21 08:05:29',N'Sâu răng';
+EXEC insertGeneralHealth '0878640050','2014-02-11 15:36:52',N'Hôi miệng';
+EXEC insertGeneralHealth '0150307531','2013-09-16 02:03:22',N'Sâu răng';
+EXEC insertGeneralHealth '0194105411','2016-12-05 00:12:24',N'Mất răng';
+EXEC insertGeneralHealth '0085086582','2014-08-14 03:37:22',N'Mất răng';
+EXEC insertGeneralHealth '0735724397','2015-04-02 00:58:32',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0283209708','2017-01-29 06:34:09',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0708094541','2017-10-18 20:30:25',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0094064823','2013-02-12 05:17:11',N'Sâu răng';
+EXEC insertGeneralHealth '0561257612','2016-12-11 12:26:59',N'Viêm nha chu';
+EXEC insertGeneralHealth '0830223988','2013-02-09 03:26:11',N'Viêm nha chu';
+EXEC insertGeneralHealth '0126414112','2013-08-28 23:28:19',N'Loét miệng';
+EXEC insertGeneralHealth '0060450302','2014-02-19 01:08:16',N'Hôi miệng';
+EXEC insertGeneralHealth '0148041268','2017-09-05 13:15:56',N'Sâu răng';
+EXEC insertGeneralHealth '0418184815','2013-07-24 08:58:25',N'Mất răng';
+EXEC insertGeneralHealth '0132862274','2014-12-01 04:44:28',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0156151778','2016-06-16 17:23:02',N'Răng lệch';
+EXEC insertGeneralHealth '0610714385','2015-08-01 05:14:53',N'Răng lệch';
+EXEC insertGeneralHealth '0566267472','2014-12-23 05:52:51',N'Hôi miệng';
+EXEC insertGeneralHealth '0252408755','2015-05-14 11:14:52',N'Loét miệng';
+EXEC insertGeneralHealth '0191824552','2014-04-20 21:33:22',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0405304326','2013-05-11 09:19:53',N'Mất răng';
+EXEC insertGeneralHealth '0787850833','2017-10-05 19:15:27',N'Viêm lợi';
+EXEC insertGeneralHealth '0100045084','2017-12-15 12:18:13',N'Mất răng';
+EXEC insertGeneralHealth '0343993371','2013-04-29 12:38:50',N'Hôi miệng';
+EXEC insertGeneralHealth '0900116086','2014-01-29 17:22:13',N'Loét miệng';
+EXEC insertGeneralHealth '0198378708','2017-02-01 15:00:45',N'Viêm lợi';
+EXEC insertGeneralHealth '0438648690','2016-02-03 04:05:50',N'Hôi miệng';
+EXEC insertGeneralHealth '0537481768','2015-12-24 02:44:56',N'Sâu răng';
+EXEC insertGeneralHealth '0917018903','2013-12-20 19:22:08',N'Sâu răng';
+EXEC insertGeneralHealth '0820395026','2017-06-13 10:55:54',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0287315837','2014-10-15 10:11:06',N'Sâu răng';
+EXEC insertGeneralHealth '0817233653','2013-11-05 01:52:50',N'Viêm nha chu';
+EXEC insertGeneralHealth '0857482333','2017-04-14 21:35:52',N'Răng lệch';
+EXEC insertGeneralHealth '0778973325','2015-06-13 15:44:38',N'Mất răng';
+EXEC insertGeneralHealth '0362096710','2015-07-23 13:07:17',N'Mất răng';
+EXEC insertGeneralHealth '0611334502','2015-06-10 21:33:01',N'Viêm nha chu';
+EXEC insertGeneralHealth '0213439304','2017-03-12 13:10:08',N'Mất răng';
+EXEC insertGeneralHealth '0899766831','2013-08-24 14:21:35',N'Răng lệch';
+EXEC insertGeneralHealth '0869732308','2013-02-21 09:57:43',N'Loét miệng';
+EXEC insertGeneralHealth '0259280267','2016-02-22 04:37:47',N'Răng lệch';
+EXEC insertGeneralHealth '0003960492','2016-05-17 05:20:46',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0997001204','2013-04-13 10:10:25',N'Mất răng';
+EXEC insertGeneralHealth '0586037862','2016-04-15 01:00:54',N'Mất răng';
+EXEC insertGeneralHealth '0938984839','2014-01-11 03:16:21',N'Loét miệng';
+EXEC insertGeneralHealth '0348223223','2015-06-16 09:29:19',N'Loét miệng';
+EXEC insertGeneralHealth '0923956539','2017-05-11 05:46:54',N'Răng lệch';
+EXEC insertGeneralHealth '0159840951','2014-04-07 03:42:08',N'Răng lệch';
+EXEC insertGeneralHealth '0401222777','2014-08-30 15:12:06',N'Viêm lợi';
+EXEC insertGeneralHealth '0564221530','2015-07-05 07:47:32',N'Sâu răng';
+EXEC insertGeneralHealth '0342067723','2014-03-25 02:10:40',N'Sâu răng';
+EXEC insertGeneralHealth '0737545976','2017-08-04 11:22:46',N'Loét miệng';
+EXEC insertGeneralHealth '0634634644','2017-11-18 10:52:29',N'Viêm lợi';
+EXEC insertGeneralHealth '0206773095','2017-09-06 17:56:42',N'Sâu răng';
+EXEC insertGeneralHealth '0160887767','2016-06-17 15:25:52',N'Răng lệch';
+EXEC insertGeneralHealth '0711728503','2017-07-04 23:27:20',N'Hôi miệng';
+EXEC insertGeneralHealth '0182404781','2015-07-08 14:02:44',N'Loét miệng';
+EXEC insertGeneralHealth '0485916776','2015-03-21 04:09:47',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0248721659','2014-08-27 07:52:36',N'Răng lệch';
+EXEC insertGeneralHealth '0572036110','2015-10-25 17:37:26',N'Mất răng';
+EXEC insertGeneralHealth '0640191847','2017-02-16 02:28:50',N'Sâu răng';
+EXEC insertGeneralHealth '0392666576','2014-12-25 14:06:50',N'Viêm nha chu';
+EXEC insertGeneralHealth '0082607333','2015-04-12 22:24:30',N'Viêm nha chu';
+EXEC insertGeneralHealth '0309286549','2013-05-27 18:44:51',N'Loét miệng';
+EXEC insertGeneralHealth '0494335506','2014-07-16 23:09:09',N'Mất răng';
+EXEC insertGeneralHealth '0859788115','2013-12-18 17:56:29',N'Viêm lợi';
+EXEC insertGeneralHealth '0212165697','2014-06-05 16:41:11',N'Sâu răng';
+EXEC insertGeneralHealth '0442589970','2017-08-04 06:22:02',N'Viêm lợi';
+EXEC insertGeneralHealth '0443546546','2017-10-09 18:30:42',N'Viêm lợi';
+EXEC insertGeneralHealth '0166454795','2017-04-20 12:40:05',N'Viêm lợi';
+EXEC insertGeneralHealth '0281469466','2013-08-25 02:53:42',N'Răng lệch';
+EXEC insertGeneralHealth '0267886514','2015-08-25 12:08:28',N'Sâu răng';
+EXEC insertGeneralHealth '0283534964','2017-10-28 12:43:50',N'Sâu răng';
+EXEC insertGeneralHealth '0620885012','2013-12-20 10:28:57',N'Loét miệng';
+EXEC insertGeneralHealth '0553642415','2016-08-18 01:17:46',N'Viêm nha chu';
+EXEC insertGeneralHealth '0530843423','2016-09-18 12:54:38',N'Loét miệng';
+EXEC insertGeneralHealth '0989551165','2016-01-22 00:59:29',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0815397326','2016-08-15 21:11:14',N'Răng lệch';
+EXEC insertGeneralHealth '0490359708','2014-05-24 23:56:26',N'Sâu răng';
+EXEC insertGeneralHealth '0964684469','2016-12-07 12:57:18',N'Mất răng';
+EXEC insertGeneralHealth '0284824978','2015-09-14 07:48:00',N'Loét miệng';
+EXEC insertGeneralHealth '0041681050','2015-05-18 23:52:41',N'Sâu răng';
+EXEC insertGeneralHealth '0753328453','2016-01-13 10:00:15',N'Sâu răng';
+EXEC insertGeneralHealth '0017759239','2015-12-06 12:51:36',N'Viêm lợi';
+EXEC insertGeneralHealth '0394395435','2017-09-01 18:20:14',N'Sâu răng';
+EXEC insertGeneralHealth '0765586292','2016-07-01 00:28:42',N'Mất răng';
+EXEC insertGeneralHealth '0263400476','2016-02-21 09:42:38',N'Sâu răng';
+EXEC insertGeneralHealth '0130474448','2016-12-06 09:28:59',N'Hôi miệng';
+EXEC insertGeneralHealth '0570040517','2017-11-11 20:10:13',N'Viêm lợi';
+EXEC insertGeneralHealth '0926159756','2013-05-04 13:14:53',N'Răng lệch';
+EXEC insertGeneralHealth '0098312210','2014-03-29 18:16:33',N'Loét miệng';
+EXEC insertGeneralHealth '0512087177','2017-05-09 19:06:52',N'Mất răng';
+EXEC insertGeneralHealth '0626408867','2016-11-30 16:55:12',N'Mất răng';
+EXEC insertGeneralHealth '0491425022','2013-06-09 01:54:26',N'Viêm lợi';
+EXEC insertGeneralHealth '0104129625','2014-01-02 07:24:18',N'Viêm lợi';
+EXEC insertGeneralHealth '0523958196','2017-04-21 10:33:43',N'Sâu răng';
+EXEC insertGeneralHealth '0244755371','2014-08-17 17:49:09',N'Mất răng';
+EXEC insertGeneralHealth '0284135215','2014-04-17 20:33:54',N'Viêm nha chu';
+EXEC insertGeneralHealth '0411239548','2015-06-07 17:43:16',N'Viêm lợi';
+EXEC insertGeneralHealth '0697783296','2015-11-30 15:10:50',N'Loét miệng';
+EXEC insertGeneralHealth '0066625481','2013-07-28 21:24:57',N'Mất răng';
+EXEC insertGeneralHealth '0162179900','2015-04-04 18:09:00',N'Mất răng';
+EXEC insertGeneralHealth '0209138526','2017-12-26 10:09:35',N'Viêm nha chu';
+EXEC insertGeneralHealth '0174088196','2014-02-21 00:38:14',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0959951603','2016-03-09 03:14:52',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0473113394','2014-03-05 14:54:07',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0181161644','2017-05-01 06:53:07',N'Sâu răng';
+EXEC insertGeneralHealth '0091956992','2013-10-10 00:53:29',N'Viêm lợi';
+EXEC insertGeneralHealth '0377272899','2017-10-28 04:31:43',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0967279975','2013-08-15 15:34:35',N'Răng lệch';
+EXEC insertGeneralHealth '0651166710','2017-10-22 00:50:26',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0067560730','2015-12-11 22:23:18',N'Răng lệch';
+EXEC insertGeneralHealth '0241012921','2014-01-21 13:28:28',N'Viêm nha chu';
+EXEC insertGeneralHealth '0127333093','2017-03-26 04:00:50',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0898094466','2017-11-11 19:37:47',N'Sâu răng';
+EXEC insertGeneralHealth '0571035111','2015-03-05 08:57:04',N'Sâu răng';
+EXEC insertGeneralHealth '0808617523','2015-02-23 17:57:41',N'Loét miệng';
+EXEC insertGeneralHealth '0978375537','2015-12-06 09:57:20',N'Răng lệch';
+EXEC insertGeneralHealth '0699471041','2013-10-05 00:18:19',N'Hôi miệng';
+EXEC insertGeneralHealth '0038021991','2016-11-17 23:19:44',N'Viêm nha chu';
+EXEC insertGeneralHealth '0039261261','2013-12-07 16:16:14',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0566939501','2014-12-26 11:03:31',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0398154449','2017-04-13 03:27:52',N'Viêm lợi';
+EXEC insertGeneralHealth '0706549573','2013-06-02 10:32:37',N'Mất răng';
+EXEC insertGeneralHealth '0837328899','2017-06-01 00:45:23',N'Hôi miệng';
+EXEC insertGeneralHealth '0276634946','2015-11-07 10:37:42',N'Sâu răng';
+EXEC insertGeneralHealth '0835463732','2014-02-21 06:34:45',N'Mất răng';
+EXEC insertGeneralHealth '0592910834','2015-03-27 01:43:03',N'Viêm nha chu';
+EXEC insertGeneralHealth '0510573984','2014-07-07 17:42:32',N'Hôi miệng';
+EXEC insertGeneralHealth '0558489037','2013-08-11 05:21:56',N'Sâu răng';
+EXEC insertGeneralHealth '0510915318','2013-04-01 22:01:33',N'Loét miệng';
+EXEC insertGeneralHealth '0307776455','2013-10-12 00:26:46',N'Sâu răng';
+EXEC insertGeneralHealth '0941227509','2016-12-19 10:38:55',N'Răng lệch';
+EXEC insertGeneralHealth '0283011090','2017-07-03 07:02:42',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0170383082','2013-09-09 02:01:27',N'Viêm lợi';
+EXEC insertGeneralHealth '0485173296','2017-12-13 07:48:09',N'Viêm nha chu';
+EXEC insertGeneralHealth '0269892890','2013-07-13 02:41:27',N'Sâu răng';
+EXEC insertGeneralHealth '0820097240','2013-09-16 19:24:10',N'Hôi miệng';
+EXEC insertGeneralHealth '0581629134','2017-03-17 22:31:02',N'Răng lệch';
+EXEC insertGeneralHealth '0262873547','2017-08-01 02:29:50',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0975393323','2015-12-07 17:29:19',N'Sâu răng';
+EXEC insertGeneralHealth '0806634208','2016-01-23 07:54:18',N'Loét miệng';
+EXEC insertGeneralHealth '0637463717','2016-07-12 00:42:07',N'Viêm lợi';
+EXEC insertGeneralHealth '0471584706','2015-01-25 22:14:32',N'Răng lệch';
+EXEC insertGeneralHealth '0486501290','2015-07-16 12:05:20',N'Mất răng';
+EXEC insertGeneralHealth '0338610619','2013-02-27 09:06:19',N'Răng lệch';
+EXEC insertGeneralHealth '0038661555','2014-12-29 00:40:16',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0262426091','2016-10-22 21:52:09',N'Sâu răng';
+EXEC insertGeneralHealth '0905047453','2017-01-03 05:51:57',N'Hôi miệng';
+EXEC insertGeneralHealth '0570708207','2015-07-12 21:57:06',N'Răng lệch';
+EXEC insertGeneralHealth '0133055376','2016-04-29 10:51:37',N'Viêm lợi';
+EXEC insertGeneralHealth '0033531478','2015-05-15 06:40:00',N'Loét miệng';
+EXEC insertGeneralHealth '0158305169','2014-11-21 12:50:28',N'Viêm nha chu';
+EXEC insertGeneralHealth '0610118353','2016-10-17 00:03:12',N'Viêm nha chu';
+EXEC insertGeneralHealth '0575910509','2017-03-14 07:54:32',N'Răng lệch';
+EXEC insertGeneralHealth '0695642675','2015-03-27 21:11:52',N'Viêm nha chu';
+EXEC insertGeneralHealth '0626034300','2013-11-02 21:34:24',N'Sâu răng';
+EXEC insertGeneralHealth '0298241867','2015-11-20 04:43:49',N'Răng lệch';
+EXEC insertGeneralHealth '0318345009','2017-11-18 03:24:29',N'Răng lệch';
+EXEC insertGeneralHealth '0729522293','2015-11-05 02:28:59',N'Sâu răng';
+EXEC insertGeneralHealth '0991801550','2016-07-17 01:22:42',N'Viêm lợi';
+EXEC insertGeneralHealth '0335972934','2014-08-15 20:11:51',N'Sâu răng';
+EXEC insertGeneralHealth '0643896215','2017-03-24 10:28:40',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0632421491','2014-09-11 07:45:11',N'Loét miệng';
+EXEC insertGeneralHealth '0020974443','2017-06-01 00:41:34',N'Viêm nha chu';
+EXEC insertGeneralHealth '0256216288','2014-06-11 16:59:44',N'Răng lệch';
+EXEC insertGeneralHealth '0913497044','2016-12-24 14:06:54',N'Sâu răng';
+EXEC insertGeneralHealth '0675894868','2016-03-20 08:16:07',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0277511981','2014-01-07 15:41:11',N'Răng lệch';
+EXEC insertGeneralHealth '0964172750','2017-01-03 08:29:05',N'Viêm nha chu';
+EXEC insertGeneralHealth '0389815761','2013-07-24 14:54:11',N'Mất răng';
+EXEC insertGeneralHealth '0416791042','2013-03-30 03:51:01',N'Loét miệng';
+EXEC insertGeneralHealth '0061017510','2014-08-09 03:52:20',N'Răng lệch';
+EXEC insertGeneralHealth '0033753782','2014-09-07 00:56:09',N'Viêm lợi';
+EXEC insertGeneralHealth '0096474575','2014-09-21 03:02:37',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0321009940','2016-04-10 03:03:56',N'Viêm nha chu';
+EXEC insertGeneralHealth '0387635778','2013-05-29 21:03:31',N'Mất răng';
+EXEC insertGeneralHealth '0649999796','2016-04-23 17:48:18',N'Răng lệch';
+EXEC insertGeneralHealth '0108815022','2017-07-08 21:36:09',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0361741168','2015-10-19 01:33:59',N'Loét miệng';
+EXEC insertGeneralHealth '0960701909','2015-02-08 18:49:06',N'Sâu răng';
+EXEC insertGeneralHealth '0990396246','2013-12-02 11:14:36',N'Viêm lợi';
+EXEC insertGeneralHealth '0392264703','2014-01-02 14:07:15',N'Răng lệch';
+EXEC insertGeneralHealth '0873907121','2013-07-19 14:13:03',N'Răng lệch';
+EXEC insertGeneralHealth '0608559848','2013-01-12 09:16:34',N'Viêm lợi';
+EXEC insertGeneralHealth '0646160216','2017-12-21 18:59:13',N'Viêm nha chu';
+EXEC insertGeneralHealth '0972744934','2015-10-20 15:47:41',N'Sâu răng';
+EXEC insertGeneralHealth '0668994071','2016-01-19 06:59:59',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0443308851','2017-07-16 10:30:29',N'Mất răng';
+EXEC insertGeneralHealth '0658463637','2013-04-04 06:08:25',N'Loét miệng';
+EXEC insertGeneralHealth '0672208569','2014-08-04 14:31:53',N'Sâu răng';
+EXEC insertGeneralHealth '0564015523','2015-10-22 12:16:35',N'Mất răng';
+EXEC insertGeneralHealth '0805812846','2017-09-02 11:50:30',N'Sâu răng';
+EXEC insertGeneralHealth '0136199211','2014-11-29 14:56:47',N'Hôi miệng';
+EXEC insertGeneralHealth '0448523839','2014-10-02 06:09:14',N'Viêm lợi';
+EXEC insertGeneralHealth '0925949138','2013-06-14 16:29:26',N'Mất răng';
+EXEC insertGeneralHealth '0155587746','2016-02-28 08:37:22',N'Sâu răng';
+EXEC insertGeneralHealth '0594050985','2013-02-21 14:27:03',N'Hôi miệng';
+EXEC insertGeneralHealth '0863023293','2013-12-30 19:33:12',N'Viêm lợi';
+EXEC insertGeneralHealth '0842839232','2013-01-15 20:28:23',N'Viêm nha chu';
+EXEC insertGeneralHealth '0595460319','2017-07-31 16:42:41',N'Răng lệch';
+EXEC insertGeneralHealth '0346179059','2015-11-12 03:00:06',N'Hôi miệng';
+EXEC insertGeneralHealth '0143375226','2014-03-27 23:53:20',N'Viêm nha chu';
+EXEC insertGeneralHealth '0404859056','2013-09-10 03:43:45',N'Răng lệch';
+EXEC insertGeneralHealth '0406219654','2017-06-10 05:08:12',N'Răng lệch';
+EXEC insertGeneralHealth '0322581486','2014-02-22 03:16:14',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0571300822','2014-08-17 10:47:14',N'Mất răng';
+EXEC insertGeneralHealth '0817368847','2014-11-20 19:40:22',N'Viêm nha chu';
+EXEC insertGeneralHealth '0765363047','2014-01-15 20:32:43',N'Loét miệng';
+EXEC insertGeneralHealth '0607741255','2013-06-02 12:45:23',N'Mất răng';
+EXEC insertGeneralHealth '0271488367','2014-02-21 23:12:52',N'Viêm nha chu';
+EXEC insertGeneralHealth '0058760613','2015-01-30 22:55:14',N'Viêm nha chu';
+EXEC insertGeneralHealth '0793166046','2017-08-07 18:10:50',N'Sâu răng';
+EXEC insertGeneralHealth '0690933928','2016-02-02 00:22:22',N'Răng lệch';
+EXEC insertGeneralHealth '0470535688','2017-04-25 10:25:49',N'Mất răng';
+EXEC insertGeneralHealth '0511304891','2017-04-10 01:42:36',N'Hôi miệng';
+EXEC insertGeneralHealth '0528942246','2017-08-10 19:18:54',N'Loét miệng';
+EXEC insertGeneralHealth '0548352716','2015-05-04 00:48:48',N'Loét miệng';
+EXEC insertGeneralHealth '0329005097','2016-11-30 20:00:11',N'Loét miệng';
+EXEC insertGeneralHealth '0515422558','2015-12-18 03:48:47',N'Sâu răng';
+EXEC insertGeneralHealth '0677718221','2015-05-27 12:53:09',N'Sâu răng';
+EXEC insertGeneralHealth '0158694848','2013-11-30 17:10:41',N'Răng lệch';
+EXEC insertGeneralHealth '0848233986','2013-06-22 07:49:42',N'Mất răng';
+EXEC insertGeneralHealth '0126563256','2016-04-11 02:10:21',N'Răng lệch';
+EXEC insertGeneralHealth '0103812870','2016-01-10 04:57:15',N'Viêm nha chu';
+EXEC insertGeneralHealth '0534622077','2016-07-09 19:51:56',N'Viêm nha chu';
+EXEC insertGeneralHealth '0788190425','2017-09-30 09:16:49',N'Răng lệch';
+EXEC insertGeneralHealth '0586488281','2015-09-25 16:49:43',N'Viêm nha chu';
+EXEC insertGeneralHealth '0527267482','2017-05-08 23:36:43',N'Răng lệch';
+EXEC insertGeneralHealth '0805716973','2014-06-26 08:11:24',N'Viêm lợi';
+EXEC insertGeneralHealth '0711334104','2017-03-29 17:10:17',N'Viêm nha chu';
+EXEC insertGeneralHealth '0092515867','2015-02-16 13:08:42',N'Mất răng';
+EXEC insertGeneralHealth '0110744621','2016-12-07 17:37:41',N'Răng lệch';
+EXEC insertGeneralHealth '0270033639','2014-04-09 10:22:57',N'Mất răng';
+EXEC insertGeneralHealth '0636584133','2013-01-15 02:43:35',N'Hôi miệng';
+EXEC insertGeneralHealth '0787567447','2014-04-27 14:51:40',N'Sâu răng';
+EXEC insertGeneralHealth '0088572187','2016-10-17 00:16:08',N'Viêm nha chu';
+EXEC insertGeneralHealth '0291983951','2014-11-17 03:32:10',N'Răng lệch';
+EXEC insertGeneralHealth '0996703548','2017-09-13 07:22:36',N'Hôi miệng';
+EXEC insertGeneralHealth '0626625189','2015-02-11 16:12:36',N'Loét miệng';
+EXEC insertGeneralHealth '0855054312','2014-02-05 10:11:21',N'Mất răng';
+EXEC insertGeneralHealth '0389506462','2013-11-30 01:09:38',N'Viêm lợi';
+EXEC insertGeneralHealth '0447505652','2015-03-03 14:28:42',N'Răng lệch';
+EXEC insertGeneralHealth '0047155792','2016-02-03 18:01:56',N'Viêm nha chu';
+EXEC insertGeneralHealth '0955040629','2015-03-24 23:41:02',N'Viêm nha chu';
+EXEC insertGeneralHealth '0275457898','2013-11-11 23:50:56',N'Mất răng';
+EXEC insertGeneralHealth '0289330944','2015-11-17 15:33:27',N'Viêm lợi';
+EXEC insertGeneralHealth '0055445771','2014-03-24 06:30:18',N'Mất răng';
+EXEC insertGeneralHealth '0709509375','2013-11-30 14:57:29',N'Răng lệch';
+EXEC insertGeneralHealth '0215968294','2015-04-14 18:27:55',N'Răng lệch';
+EXEC insertGeneralHealth '0733345080','2013-02-10 21:17:59',N'Viêm lợi';
+EXEC insertGeneralHealth '0707902501','2013-08-12 11:50:14',N'Viêm nha chu';
+EXEC insertGeneralHealth '0312064604','2013-11-24 09:18:02',N'Loét miệng';
+EXEC insertGeneralHealth '0619030558','2017-05-02 22:39:34',N'Viêm nha chu';
+EXEC insertGeneralHealth '0887277001','2015-09-12 00:42:31',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0075864958','2014-03-22 07:10:03',N'Răng lệch';
+EXEC insertGeneralHealth '0400442087','2017-04-11 12:40:18',N'Hôi miệng';
+EXEC insertGeneralHealth '0115993651','2015-06-19 11:15:23',N'Hôi miệng';
+EXEC insertGeneralHealth '0722040473','2014-11-04 10:52:06',N'Loét miệng';
+EXEC insertGeneralHealth '0117942459','2016-03-11 18:34:32',N'Răng lệch';
+EXEC insertGeneralHealth '0310196392','2013-06-28 14:46:58',N'Mất răng';
+EXEC insertGeneralHealth '0769871319','2016-08-03 08:34:55',N'Sâu răng';
+EXEC insertGeneralHealth '0822735207','2015-02-27 03:44:08',N'Mất răng';
+EXEC insertGeneralHealth '0712730352','2015-01-13 15:59:34',N'Sâu răng';
+EXEC insertGeneralHealth '0297484088','2014-11-07 06:09:43',N'Sâu răng';
+EXEC insertGeneralHealth '0164879101','2017-09-08 10:54:48',N'Viêm lợi';
+EXEC insertGeneralHealth '0236346572','2014-06-29 01:09:56',N'Loét miệng';
+EXEC insertGeneralHealth '0430011614','2013-09-03 05:06:33',N'Hôi miệng';
+EXEC insertGeneralHealth '0870032482','2013-03-20 14:03:03',N'Răng lệch';
+EXEC insertGeneralHealth '0399393861','2017-02-14 06:10:03',N'Viêm lợi';
+EXEC insertGeneralHealth '0851965936','2017-06-03 12:20:29',N'Răng lệch';
+EXEC insertGeneralHealth '0562438125','2013-01-28 18:54:04',N'Loét miệng';
+EXEC insertGeneralHealth '0845019772','2013-09-25 17:49:53',N'Loét miệng';
+EXEC insertGeneralHealth '0186438364','2014-04-27 20:51:26',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0682728903','2017-11-02 06:38:38',N'Viêm lợi';
+EXEC insertGeneralHealth '0508715506','2014-11-20 01:36:29',N'Viêm lợi';
+EXEC insertGeneralHealth '0306197613','2017-05-29 13:23:11',N'Viêm nha chu';
+EXEC insertGeneralHealth '0916829561','2016-12-14 10:00:04',N'Mất răng';
+EXEC insertGeneralHealth '0717967458','2016-12-20 13:32:49',N'Răng lệch';
+EXEC insertGeneralHealth '0980329335','2016-06-30 22:37:53',N'Răng lệch';
+EXEC insertGeneralHealth '0987652938','2014-09-15 01:38:27',N'Loét miệng';
+EXEC insertGeneralHealth '0677925362','2017-11-08 02:03:56',N'Mất răng';
+EXEC insertGeneralHealth '0240524344','2016-08-05 13:48:54',N'Răng lệch';
+EXEC insertGeneralHealth '0178109356','2016-03-29 16:45:05',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0052638086','2013-07-06 11:28:22',N'Sâu răng';
+EXEC insertGeneralHealth '0491884809','2013-05-17 06:45:55',N'Loét miệng';
+EXEC insertGeneralHealth '0674434413','2015-06-24 13:31:03',N'Sâu răng';
+EXEC insertGeneralHealth '0380019240','2013-06-10 18:29:00',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0752894523','2016-08-22 22:32:08',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0621077177','2014-06-28 06:11:15',N'Hôi miệng';
+EXEC insertGeneralHealth '0669101756','2016-10-15 23:50:08',N'Hôi miệng';
+EXEC insertGeneralHealth '0116295973','2014-06-14 13:14:16',N'Loét miệng';
+EXEC insertGeneralHealth '0222702569','2016-09-17 05:51:23',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0923946734','2017-04-23 01:26:28',N'Loét miệng';
+EXEC insertGeneralHealth '0471052457','2015-01-23 22:38:31',N'Răng lệch';
+EXEC insertGeneralHealth '0402989171','2013-10-05 04:13:37',N'Viêm nha chu';
+EXEC insertGeneralHealth '0634785750','2013-05-23 15:46:44',N'Mất răng';
+EXEC insertGeneralHealth '0474950256','2017-02-14 18:33:29',N'Mất răng';
+EXEC insertGeneralHealth '0843244529','2017-04-11 16:30:25',N'Viêm lợi';
+EXEC insertGeneralHealth '0193108334','2014-01-29 01:58:55',N'Mất răng';
+EXEC insertGeneralHealth '0322190569','2013-05-06 11:17:11',N'Răng lệch';
+EXEC insertGeneralHealth '0179028039','2015-05-16 03:44:25',N'Răng lệch';
+EXEC insertGeneralHealth '0802065354','2014-01-25 23:38:08',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0487025746','2014-12-04 03:19:09',N'Sâu răng';
+EXEC insertGeneralHealth '0251817175','2013-09-22 05:45:54',N'Loét miệng';
+EXEC insertGeneralHealth '0107828582','2015-04-22 00:09:37',N'Răng lệch';
+EXEC insertGeneralHealth '0059310381','2017-09-29 15:11:14',N'Răng lệch';
+EXEC insertGeneralHealth '0689423839','2017-12-28 03:15:15',N'Răng lệch';
+EXEC insertGeneralHealth '0884809231','2016-04-22 12:14:20',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0973717083','2014-01-05 13:44:54',N'Mất răng';
+EXEC insertGeneralHealth '0812150414','2013-03-13 08:15:44',N'Viêm nha chu';
+EXEC insertGeneralHealth '0987959807','2015-02-24 20:27:50',N'Mất răng';
+EXEC insertGeneralHealth '0924889213','2014-12-19 04:11:03',N'Mất răng';
+EXEC insertGeneralHealth '0630653780','2015-02-01 23:42:47',N'Loét miệng';
+EXEC insertGeneralHealth '0778649874','2013-10-22 14:48:52',N'Răng lệch';
+EXEC insertGeneralHealth '0488363880','2017-02-19 20:35:59',N'Sâu răng';
+EXEC insertGeneralHealth '0689412104','2015-04-22 02:48:18',N'Sâu răng';
+EXEC insertGeneralHealth '0836161167','2013-06-03 06:10:04',N'Loét miệng';
+EXEC insertGeneralHealth '0436180629','2017-06-27 01:18:16',N'Viêm nha chu';
+EXEC insertGeneralHealth '0160769103','2015-06-03 22:58:17',N'Sâu răng';
+EXEC insertGeneralHealth '0117918252','2015-03-28 16:23:37',N'Sâu răng';
+EXEC insertGeneralHealth '0169072457','2017-11-28 06:03:54',N'Viêm lợi';
+EXEC insertGeneralHealth '0103358410','2013-02-04 17:21:19',N'Viêm lợi';
+EXEC insertGeneralHealth '0099033540','2014-11-23 05:28:32',N'Răng lệch';
+EXEC insertGeneralHealth '0188553096','2013-06-22 13:13:51',N'Loét miệng';
+EXEC insertGeneralHealth '0878389702','2016-01-07 13:25:20',N'Sâu răng';
+EXEC insertGeneralHealth '0862506924','2013-12-30 16:51:46',N'Răng lệch';
+EXEC insertGeneralHealth '0949210512','2013-10-07 15:32:03',N'Hôi miệng';
+EXEC insertGeneralHealth '0318972350','2016-03-04 22:14:38',N'Hôi miệng';
+EXEC insertGeneralHealth '0015685799','2016-05-29 03:33:42',N'Viêm nha chu';
+EXEC insertGeneralHealth '0591992981','2013-10-15 00:45:27',N'Viêm nha chu';
+EXEC insertGeneralHealth '0363756737','2016-10-08 18:13:04',N'Mất răng';
+EXEC insertGeneralHealth '0900121374','2016-07-04 15:53:37',N'Hôi miệng';
+EXEC insertGeneralHealth '0129214815','2013-02-27 22:25:47',N'Loét miệng';
+EXEC insertGeneralHealth '0363467065','2017-02-16 04:27:04',N'Viêm lợi';
+EXEC insertGeneralHealth '0274122840','2017-12-27 22:06:26',N'Sâu răng';
+EXEC insertGeneralHealth '0647884265','2015-11-21 06:12:49',N'Loét miệng';
+EXEC insertGeneralHealth '0279782258','2013-08-16 16:18:05',N'Viêm lợi';
+EXEC insertGeneralHealth '0803534314','2013-09-28 06:30:24',N'Viêm nha chu';
+EXEC insertGeneralHealth '0059032144','2013-07-30 04:00:25',N'Răng lệch';
+EXEC insertGeneralHealth '0065259161','2013-11-03 12:32:37',N'Răng lệch';
+EXEC insertGeneralHealth '0229008997','2014-06-22 10:56:29',N'Răng lệch';
+EXEC insertGeneralHealth '0540575699','2014-04-01 03:35:36',N'Viêm lợi';
+EXEC insertGeneralHealth '0705377633','2017-08-22 22:21:07',N'Răng lệch';
+EXEC insertGeneralHealth '0434091117','2013-08-23 10:24:30',N'Răng lệch';
+EXEC insertGeneralHealth '0130337377','2016-10-11 13:40:31',N'Viêm lợi';
+EXEC insertGeneralHealth '0151854755','2017-12-02 16:01:45',N'Viêm nha chu';
+EXEC insertGeneralHealth '0852234450','2016-03-18 07:08:55',N'Viêm lợi';
+EXEC insertGeneralHealth '0827112981','2013-09-10 08:33:29',N'Viêm lợi';
+EXEC insertGeneralHealth '0652515870','2013-09-10 05:47:03',N'Viêm lợi';
+EXEC insertGeneralHealth '0164849658','2013-06-29 14:48:11',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0831325498','2013-03-26 16:27:24',N'Viêm lợi';
+EXEC insertGeneralHealth '0647046011','2017-02-28 17:30:20',N'Loét miệng';
+EXEC insertGeneralHealth '0401252969','2016-07-30 06:31:39',N'Viêm nha chu';
+EXEC insertGeneralHealth '0846899618','2015-12-07 21:30:47',N'Viêm lợi';
+EXEC insertGeneralHealth '0256613052','2017-01-08 18:34:12',N'Viêm nha chu';
+EXEC insertGeneralHealth '0333308357','2013-06-27 12:58:40',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0168050157','2016-03-26 16:16:23',N'Sâu răng';
+EXEC insertGeneralHealth '0449895397','2015-09-05 08:39:06',N'Hôi miệng';
+EXEC insertGeneralHealth '0486191382','2015-12-30 13:49:47',N'Loét miệng';
+EXEC insertGeneralHealth '0872500623','2016-02-09 17:26:38',N'Viêm lợi';
+EXEC insertGeneralHealth '0109371348','2015-11-04 09:08:31',N'Răng lệch';
+EXEC insertGeneralHealth '0066761166','2014-06-19 04:34:02',N'Loét miệng';
+EXEC insertGeneralHealth '0326234420','2014-05-31 22:09:56',N'Mất răng';
+EXEC insertGeneralHealth '0327135884','2015-06-21 21:59:03',N'Viêm lợi';
+EXEC insertGeneralHealth '0114147298','2015-11-19 19:14:31',N'Viêm nha chu';
+EXEC insertGeneralHealth '0832051438','2015-12-29 17:52:13',N'Viêm nha chu';
+EXEC insertGeneralHealth '0140089463','2015-12-06 06:14:33',N'Mất răng';
+EXEC insertGeneralHealth '0479613997','2015-04-12 14:54:40',N'Răng lệch';
+EXEC insertGeneralHealth '0934327800','2013-01-31 21:14:47',N'Hôi miệng';
+EXEC insertGeneralHealth '0254735728','2014-12-15 12:06:47',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0619875448','2014-04-28 09:44:01',N'Hôi miệng';
+EXEC insertGeneralHealth '0473115036','2015-11-10 23:31:35',N'Hôi miệng';
+EXEC insertGeneralHealth '0558162671','2016-10-08 02:30:32',N'Sâu răng';
+EXEC insertGeneralHealth '0723336101','2013-01-17 00:37:45',N'Mất răng';
+EXEC insertGeneralHealth '0895299221','2016-07-23 17:55:09',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0110295576','2017-04-25 11:32:15',N'Viêm nha chu';
+EXEC insertGeneralHealth '0263962581','2015-04-09 06:42:39',N'Loét miệng';
+EXEC insertGeneralHealth '0085554317','2015-11-28 10:32:33',N'Viêm nha chu';
+EXEC insertGeneralHealth '0235592412','2016-10-06 02:15:13',N'Răng lệch';
+EXEC insertGeneralHealth '0289507373','2014-06-26 02:25:25',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0504534171','2014-03-07 19:21:01',N'Hôi miệng';
+EXEC insertGeneralHealth '0490640322','2014-01-08 04:54:12',N'Sâu răng';
+EXEC insertGeneralHealth '0229770193','2015-05-25 06:31:06',N'Mất răng';
+EXEC insertGeneralHealth '0065810618','2015-10-04 12:10:39',N'Viêm nha chu';
+EXEC insertGeneralHealth '0803854500','2014-12-19 02:35:43',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0270665182','2016-10-09 12:18:05',N'Viêm nha chu';
+EXEC insertGeneralHealth '0834553999','2017-03-28 13:31:01',N'Mất răng';
+EXEC insertGeneralHealth '0353682171','2013-03-26 22:58:12',N'Hôi miệng';
+EXEC insertGeneralHealth '0940677999','2017-07-25 02:03:20',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0630315966','2015-09-07 14:12:36',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0867377879','2013-10-20 23:20:22',N'Viêm nha chu';
+EXEC insertGeneralHealth '0136387310','2016-02-05 13:18:30',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0393682851','2016-02-04 18:31:49',N'Sâu răng';
+EXEC insertGeneralHealth '0218051640','2016-10-11 04:21:25',N'Hôi miệng';
+EXEC insertGeneralHealth '0831477962','2014-12-30 01:37:33',N'Viêm lợi';
+EXEC insertGeneralHealth '0750316354','2017-10-30 09:15:50',N'Viêm nha chu';
+EXEC insertGeneralHealth '0450444950','2014-12-30 14:08:48',N'Sâu răng';
+EXEC insertGeneralHealth '0494198171','2015-01-11 01:56:52',N'Sâu răng';
+EXEC insertGeneralHealth '0833299846','2017-06-26 04:50:50',N'Chảy máu chân răng';
+EXEC insertGeneralHealth '0487518356','2017-03-31 19:46:31',N'Viêm nha chu';
+EXEC insertGeneralHealth '0649559099','2015-11-01 13:58:02',N'Răng lệch';
+EXEC insertGeneralHealth '0800467642','2017-12-24 15:31:03',N'Răng lệch';
+EXEC insertGeneralHealth '0109339133','2015-09-07 22:15:40',N'Viêm nha chu';
+EXEC insertGeneralHealth '0204399347','2015-04-28 13:36:15',N'Chảy máu chân răng';
 
 
 INSERT INTO DefaultDentist (patient_id, dentist_id)
-VALUES ('00001','161'),
-('00002','242'),
-('00003','151'),
-('00004','100'),
-('00005','233'),
-('00006','188'),
-('00007','132'),
-('00008','044'),
-('00009','242'),
-('00010','103'),
-('00011','029'),
-('00012','211'),
-('00013','236'),
-('00014','266'),
-('00015','168'),
-('00016','226'),
-('00017','119'),
-('00018','132'),
-('00019','178'),
-('00020','158'),
-('00021','090'),
-('00022','168'),
-('00023','223'),
-('00024','053'),
-('00025','078'),
-('00026','112'),
-('00027','197'),
-('00028','032'),
-('00029','155'),
-('00030','131'),
-('00031','169'),
-('00032','036'),
-('00033','211'),
-('00034','124'),
-('00035','036'),
-('00036','249'),
-('00037','225'),
-('00038','145'),
-('00039','109'),
-('00040','135'),
-('00041','053'),
-('00042','221'),
-('00043','016'),
-('00044','057'),
-('00045','117'),
-('00046','213'),
-('00047','254'),
-('00048','058'),
-('00049','258'),
-('00050','050'),
-('00051','238'),
-('00052','062'),
-('00053','258'),
-('00054','178'),
-('00055','155'),
-('00056','228'),
-('00057','119'),
-('00058','168'),
-('00059','263'),
-('00060','238'),
-('00061','249'),
-('00062','012'),
-('00063','101'),
-('00064','236'),
-('00065','169'),
-('00066','175'),
-('00067','261'),
-('00068','255'),
-('00069','219'),
-('00070','019'),
-('00071','158'),
-('00072','029'),
-('00073','246'),
-('00074','225'),
-('00075','090'),
-('00076','153'),
-('00077','130'),
-('00078','255'),
-('00079','129'),
-('00080','211'),
-('00081','063'),
-('00082','064'),
-('00083','029'),
-('00084','016'),
-('00085','117'),
-('00086','167'),
-('00087','100'),
-('00088','059'),
-('00089','100'),
-('00090','219'),
-('00091','036'),
-('00092','188'),
-('00093','075'),
-('00094','193'),
-('00095','192'),
-('00096','193'),
-('00097','233'),
-('00098','078'),
-('00099','211'),
-('00100','057'),
-('00101','063'),
-('00102','032'),
-('00103','261'),
-('00104','228'),
-('00105','225'),
-('00106','228'),
-('00107','212'),
-('00108','193'),
-('00109','169'),
-('00110','062'),
-('00111','168'),
-('00112','148'),
-('00113','155'),
-('00114','175'),
-('00115','145'),
-('00116','145'),
-('00117','193'),
-('00118','103'),
-('00119','109'),
-('00120','145'),
-('00121','263'),
-('00122','258'),
-('00123','238'),
-('00124','226'),
-('00125','236'),
-('00126','036'),
-('00127','249'),
-('00128','247'),
-('00129','245'),
-('00130','059'),
-('00131','223'),
-('00132','148'),
-('00133','261'),
-('00134','255'),
-('00135','037'),
-('00136','129'),
-('00137','211'),
-('00138','050'),
-('00139','019'),
-('00140','228'),
-('00141','158'),
-('00142','167'),
-('00143','228'),
-('00144','066'),
-('00145','006'),
-('00146','032'),
-('00147','103'),
-('00148','262'),
-('00149','064'),
-('00150','131'),
-('00151','037'),
-('00152','103'),
-('00153','029'),
-('00154','016'),
-('00155','032'),
-('00156','057'),
-('00157','226'),
-('00158','189'),
-('00159','212'),
-('00160','253'),
-('00161','221'),
-('00162','028'),
-('00163','130'),
-('00164','118'),
-('00165','213'),
-('00166','212'),
-('00167','245'),
-('00168','130'),
-('00169','119'),
-('00170','192'),
-('00171','018'),
-('00172','050'),
-('00173','213'),
-('00174','186'),
-('00175','050'),
-('00176','059'),
-('00177','117'),
-('00178','192'),
-('00179','053'),
-('00180','119'),
-('00181','250'),
-('00182','075'),
-('00183','129'),
-('00184','212'),
-('00185','151'),
-('00186','103'),
-('00187','255'),
-('00188','224'),
-('00189','129'),
-('00190','055'),
-('00191','037'),
-('00192','100'),
-('00193','029'),
-('00194','175'),
-('00195','057'),
-('00196','228'),
-('00197','261'),
-('00198','254'),
-('00199','133'),
-('00200','119'),
-('00201','059'),
-('00202','211'),
-('00203','036'),
-('00204','254'),
-('00205','016'),
-('00206','168'),
-('00207','062'),
-('00208','155'),
-('00209','167'),
-('00210','132'),
-('00211','246'),
-('00212','212'),
-('00213','053'),
-('00214','254'),
-('00215','245'),
-('00216','006'),
-('00217','226'),
-('00218','016'),
-('00219','129'),
-('00220','248'),
-('00221','058'),
-('00222','066'),
-('00223','263'),
-('00224','151'),
-('00225','148'),
-('00226','192'),
-('00227','233'),
-('00228','153'),
-('00229','237'),
-('00230','075'),
-('00231','228'),
-('00232','211'),
-('00233','029'),
-('00234','057'),
-('00235','118'),
-('00236','192'),
-('00237','070'),
-('00238','006'),
-('00239','193'),
-('00240','019'),
-('00241','261'),
-('00242','075'),
-('00243','258'),
-('00244','245'),
-('00245','222'),
-('00246','154'),
-('00247','266'),
-('00248','262'),
-('00249','189'),
-('00250','101'),
-('00251','186'),
-('00252','078'),
-('00253','117'),
-('00254','039'),
-('00255','131'),
-('00256','200'),
-('00257','036'),
-('00258','255'),
-('00259','029'),
-('00260','228'),
-('00261','066'),
-('00262','258'),
-('00263','032'),
-('00264','135'),
-('00265','178'),
-('00266','117'),
-('00267','254'),
-('00268','100'),
-('00269','172'),
-('00270','032'),
-('00271','219'),
-('00272','039'),
-('00273','018'),
-('00274','199'),
-('00275','211'),
-('00276','167'),
-('00277','266'),
-('00278','221'),
-('00279','225'),
-('00280','197'),
-('00281','016'),
-('00282','124'),
-('00283','161'),
-('00284','245'),
-('00285','172'),
-('00286','192'),
-('00287','066'),
-('00288','062'),
-('00289','109'),
-('00290','046'),
-('00291','266'),
-('00292','053'),
-('00293','132'),
-('00294','012'),
-('00295','036'),
-('00296','028'),
-('00297','124'),
-('00298','262'),
-('00299','263'),
-('00300','213'),
-('00301','254'),
-('00302','036'),
-('00303','101'),
-('00304','245'),
-('00305','109'),
-('00306','219'),
-('00307','133'),
-('00308','247'),
-('00309','246'),
-('00310','248'),
-('00311','175'),
-('00312','057'),
-('00313','124'),
-('00314','129'),
-('00315','078'),
-('00316','213'),
-('00317','199'),
-('00318','112'),
-('00319','153'),
-('00320','242'),
-('00321','006'),
-('00322','168'),
-('00323','212'),
-('00324','263'),
-('00325','228'),
-('00326','057'),
-('00327','245'),
-('00328','213'),
-('00329','148'),
-('00330','129'),
-('00331','266'),
-('00332','103'),
-('00333','018'),
-('00334','262'),
-('00335','064'),
-('00336','118'),
-('00337','044'),
-('00338','070'),
-('00339','112'),
-('00340','117'),
-('00341','199'),
-('00342','059'),
-('00343','070'),
-('00344','261'),
-('00345','130'),
-('00346','238'),
-('00347','186'),
-('00348','032'),
-('00349','062'),
-('00350','221'),
-('00351','161'),
-('00352','101'),
-('00353','119'),
-('00354','154'),
-('00355','117'),
-('00356','075'),
-('00357','044'),
-('00358','090'),
-('00359','247'),
-('00360','224'),
-('00361','250'),
-('00362','103'),
-('00363','028'),
-('00364','129'),
-('00365','090'),
-('00366','169'),
-('00367','059'),
-('00368','200'),
-('00369','078'),
-('00370','213'),
-('00371','046'),
-('00372','039'),
-('00373','168'),
-('00374','197'),
-('00375','078'),
-('00376','037'),
-('00377','148'),
-('00378','222'),
-('00379','066'),
-('00380','175'),
-('00381','258'),
-('00382','046'),
-('00383','100'),
-('00384','236'),
-('00385','258'),
-('00386','153'),
-('00387','189'),
-('00388','236'),
-('00389','167'),
-('00390','167'),
-('00391','212'),
-('00392','151'),
-('00393','133'),
-('00394','100'),
-('00395','118'),
-('00396','221'),
-('00397','124'),
-('00398','223'),
-('00399','036'),
-('00400','090'),
-('00401','044'),
-('00402','213'),
-('00403','197'),
-('00404','119'),
-('00405','019'),
-('00406','135'),
-('00407','169'),
-('00408','070'),
-('00409','016'),
-('00410','070'),
-('00411','236'),
-('00412','129'),
-('00413','228'),
-('00414','193'),
-('00415','192'),
-('00416','169'),
-('00417','167'),
-('00418','117'),
-('00419','173'),
-('00420','039'),
-('00421','019'),
-('00422','130'),
-('00423','213'),
-('00424','019'),
-('00425','129'),
-('00426','018'),
-('00427','058'),
-('00428','237'),
-('00429','146'),
-('00430','063'),
-('00431','221'),
-('00432','186'),
-('00433','006'),
-('00434','119'),
-('00435','064'),
-('00436','070'),
-('00437','228'),
-('00438','253'),
-('00439','254'),
-('00440','032'),
-('00441','173'),
-('00442','018'),
-('00443','219'),
-('00444','175'),
-('00445','070'),
-('00446','151'),
-('00447','258'),
-('00448','172'),
-('00449','129'),
-('00450','223'),
-('00451','155'),
-('00452','225'),
-('00453','131'),
-('00454','247'),
-('00455','223'),
-('00456','151'),
-('00457','029'),
-('00458','225'),
-('00459','213'),
-('00460','248'),
-('00461','018'),
-('00462','124'),
-('00463','133'),
-('00464','012'),
-('00465','078'),
-('00466','119'),
-('00467','263'),
-('00468','199'),
-('00469','250'),
-('00470','063'),
-('00471','028'),
-('00472','166'),
-('00473','173'),
-('00474','221'),
-('00475','016'),
-('00476','250'),
-('00477','154'),
-('00478','044'),
-('00479','193'),
-('00480','019'),
-('00481','101'),
-('00482','245'),
-('00483','247'),
-('00484','212'),
-('00485','090'),
-('00486','166'),
-('00487','172'),
-('00488','059'),
-('00489','050'),
-('00490','135'),
-('00491','112'),
-('00492','197'),
-('00493','167'),
-('00494','130'),
-('00495','053'),
-('00496','236'),
-('00497','151'),
-('00498','145'),
-('00499','219'),
-('00500','168'),
-('00501','124'),
-('00502','145'),
-('00503','154'),
-('00504','070'),
-('00505','197'),
-('00506','258'),
-('00507','237'),
-('00508','166'),
-('00509','037'),
-('00510','059'),
-('00511','237'),
-('00512','219'),
-('00513','062'),
-('00514','016'),
-('00515','238'),
-('00516','154'),
-('00517','117'),
-('00518','006'),
-('00519','246'),
-('00520','155'),
-('00521','193'),
-('00522','132'),
-('00523','135'),
-('00524','158'),
-('00525','044'),
-('00526','238'),
-('00527','200'),
-('00528','236'),
-('00529','055'),
-('00530','101'),
-('00531','261'),
-('00532','062'),
-('00533','109'),
-('00534','058'),
-('00535','016'),
-('00536','145'),
-('00537','213'),
-('00538','192'),
-('00539','255'),
-('00540','228'),
-('00541','246'),
-('00542','237'),
-('00543','263'),
-('00544','106'),
-('00545','132'),
-('00546','255'),
-('00547','062'),
-('00548','070'),
-('00549','169'),
-('00550','133'),
-('00551','101'),
-('00552','167'),
-('00553','028'),
-('00554','028'),
-('00555','173'),
-('00556','029'),
-('00557','249'),
-('00558','057'),
-('00559','039'),
-('00560','009'),
-('00561','213'),
-('00562','169'),
-('00563','148'),
-('00564','236'),
-('00565','212'),
-('00566','228'),
-('00567','132'),
-('00568','175'),
-('00569','058'),
-('00570','075'),
-('00571','153'),
-('00572','237'),
-('00573','133'),
-('00574','130'),
-('00575','254'),
-('00576','172'),
-('00577','178'),
-('00578','129'),
-('00579','255'),
-('00580','124'),
-('00581','112'),
-('00582','228'),
-('00583','189'),
-('00584','062'),
-('00585','228'),
-('00586','151'),
-('00587','106'),
-('00588','100'),
-('00589','039'),
-('00590','006'),
-('00591','253'),
-('00592','062'),
-('00593','172'),
-('00594','263'),
-('00595','166'),
-('00596','225'),
-('00597','173'),
-('00598','263'),
-('00599','175'),
-('00600','131'),
-('00601','118'),
-('00602','130'),
-('00603','044'),
-('00604','078'),
-('00605','169'),
-('00606','066'),
-('00607','153'),
-('00608','044'),
-('00609','063'),
-('00610','228'),
-('00611','064'),
-('00612','189'),
-('00613','100'),
-('00614','172'),
-('00615','124'),
-('00616','168'),
-('00617','133'),
-('00618','223'),
-('00619','212'),
-('00620','007'),
-('00621','016'),
-('00622','124'),
-('00623','018'),
-('00624','197'),
-('00625','186'),
-('00626','224'),
-('00627','153'),
-('00628','146'),
-('00629','036'),
-('00630','222'),
-('00631','106'),
-('00632','155'),
-('00633','124'),
-('00634','075'),
-('00635','212'),
-('00636','046'),
-('00637','117'),
-('00638','167'),
-('00639','253'),
-('00640','016'),
-('00641','213'),
-('00642','254'),
-('00643','133'),
-('00644','221'),
-('00645','062'),
-('00646','062'),
-('00647','090'),
-('00648','188'),
-('00649','262'),
-('00650','055'),
-('00651','078'),
-('00652','129'),
-('00653','172'),
-('00654','133'),
-('00655','145'),
-('00656','237'),
-('00657','046'),
-('00658','145'),
-('00659','211'),
-('00660','151'),
-('00661','173'),
-('00662','172'),
-('00663','236'),
-('00664','224'),
-('00665','153'),
-('00666','075'),
-('00667','039'),
-('00668','066'),
-('00669','018'),
-('00670','242'),
-('00671','132'),
-('00672','166'),
-('00673','188'),
-('00674','258'),
-('00675','211'),
-('00676','032'),
-('00677','124'),
+VALUES ('00001','169'),
+('00002','085'),
+('00003','197'),
+('00004','241'),
+('00005','122'),
+('00006','180'),
+('00007','065'),
+('00008','167'),
+('00009','217'),
+('00010','264'),
+('00011','225'),
+('00012','225'),
+('00013','232'),
+('00014','196'),
+('00015','127'),
+('00016','128'),
+('00017','063'),
+('00018','267'),
+('00019','167'),
+('00020','208'),
+('00021','187'),
+('00022','072'),
+('00023','201'),
+('00024','112'),
+('00025','115'),
+('00026','119'),
+('00027','243'),
+('00028','250'),
+('00029','139'),
+('00030','196'),
+('00031','263'),
+('00032','043'),
+('00033','215'),
+('00034','090'),
+('00035','247'),
+('00036','164'),
+('00037','187'),
+('00038','206'),
+('00039','060'),
+('00040','220'),
+('00041','082'),
+('00042','215'),
+('00043','144'),
+('00044','072'),
+('00045','044'),
+('00046','227'),
+('00047','038'),
+('00048','206'),
+('00049','241'),
+('00050','051'),
+('00051','199'),
+('00052','029'),
+('00053','229'),
+('00054','180'),
+('00055','060'),
+('00056','128'),
+('00057','176'),
+('00058','063'),
+('00059','068'),
+('00060','220'),
+('00061','221'),
+('00062','070'),
+('00063','242'),
+('00064','049'),
+('00065','053'),
+('00066','251'),
+('00067','023'),
+('00068','031'),
+('00069','119'),
+('00070','241'),
+('00071','259'),
+('00072','090'),
+('00073','264'),
+('00074','058'),
+('00075','267'),
+('00076','090'),
+('00077','251'),
+('00078','096'),
+('00079','251'),
+('00080','266'),
+('00081','246'),
+('00082','167'),
+('00083','217'),
+('00084','107'),
+('00085','062'),
+('00086','090'),
+('00087','180'),
+('00088','058'),
+('00089','045'),
+('00090','068'),
+('00091','164'),
+('00092','139'),
+('00093','127'),
+('00094','070'),
+('00095','181'),
+('00096','051'),
+('00097','085'),
+('00098','225'),
+('00099','090'),
+('00100','022'),
+('00101','167'),
+('00102','222'),
+('00103','060'),
+('00104','196'),
+('00105','167'),
+('00106','139'),
+('00107','257'),
+('00108','259'),
+('00109','119'),
+('00110','098'),
+('00111','192'),
+('00112','199'),
+('00113','090'),
+('00114','148'),
+('00115','038'),
+('00116','215'),
+('00117','270'),
+('00118','151'),
+('00119','221'),
+('00120','263'),
+('00121','082'),
+('00122','155'),
+('00123','122'),
+('00124','023'),
+('00125','267'),
+('00126','229'),
+('00127','023'),
+('00128','206'),
+('00129','151'),
+('00130','096'),
+('00131','225'),
+('00132','212'),
+('00133','269'),
+('00134','247'),
+('00135','069'),
+('00136','184'),
+('00137','208'),
+('00138','056'),
+('00139','197'),
+('00140','097'),
+('00141','201'),
+('00142','168'),
+('00143','206'),
+('00144','220'),
+('00145','263'),
+('00146','184'),
+('00147','181'),
+('00148','139'),
+('00149','122'),
+('00150','204'),
+('00151','169'),
+('00152','122'),
+('00153','038'),
+('00154','259'),
+('00155','199'),
+('00156','264'),
+('00157','269'),
+('00158','227'),
+('00159','196'),
+('00160','180'),
+('00161','128'),
+('00162','044'),
+('00163','224'),
+('00164','261'),
+('00165','131'),
+('00166','127'),
+('00167','212'),
+('00168','116'),
+('00169','063'),
+('00170','208'),
+('00171','049'),
+('00172','068'),
+('00173','197'),
+('00174','062'),
+('00175','155'),
+('00176','062'),
+('00177','017'),
+('00178','212'),
+('00179','031'),
+('00180','170'),
+('00181','247'),
+('00182','229'),
+('00183','264'),
+('00184','264'),
+('00185','195'),
+('00186','229'),
+('00187','131'),
+('00188','246'),
+('00189','180'),
+('00190','241'),
+('00191','181'),
+('00192','229'),
+('00193','038'),
+('00194','259'),
+('00195','171'),
+('00196','169'),
+('00197','250'),
+('00198','097'),
+('00199','045'),
+('00200','152'),
+('00201','060'),
+('00202','243'),
+('00203','169'),
+('00204','181'),
+('00205','208'),
+('00206','031'),
+('00207','017'),
+('00208','201'),
+('00209','012'),
+('00210','251'),
+('00211','022'),
+('00212','201'),
+('00213','045'),
+('00214','170'),
+('00215','216'),
+('00216','128'),
+('00217','218'),
+('00218','264'),
+('00219','068'),
+('00220','206'),
+('00221','243'),
+('00222','031'),
+('00223','242'),
+('00224','031'),
+('00225','068'),
+('00226','090'),
+('00227','085'),
+('00228','215'),
+('00229','144'),
+('00230','243'),
+('00231','095'),
+('00232','269'),
+('00233','180'),
+('00234','181'),
+('00235','169'),
+('00236','220'),
+('00237','069'),
+('00238','241'),
+('00239','096'),
+('00240','225'),
+('00241','029'),
+('00242','115'),
+('00243','038'),
+('00244','107'),
+('00245','144'),
+('00246','090'),
+('00247','222'),
+('00248','097'),
+('00249','257'),
+('00250','122'),
+('00251','023'),
+('00252','168'),
+('00253','167'),
+('00254','216'),
+('00255','248'),
+('00256','169'),
+('00257','266'),
+('00258','056'),
+('00259','247'),
+('00260','116'),
+('00261','155'),
+('00262','098'),
+('00263','197'),
+('00264','131'),
+('00265','063'),
+('00266','053'),
+('00267','266'),
+('00268','045'),
+('00269','199'),
+('00270','151'),
+('00271','231'),
+('00272','031'),
+('00273','073'),
+('00274','227'),
+('00275','112'),
+('00276','112'),
+('00277','012'),
+('00278','229'),
+('00279','038'),
+('00280','242'),
+('00281','151'),
+('00282','060'),
+('00283','152'),
+('00284','220'),
+('00285','197'),
+('00286','069'),
+('00287','122'),
+('00288','224'),
+('00289','170'),
+('00290','257'),
+('00291','259'),
+('00292','038'),
+('00293','257'),
+('00294','269'),
+('00295','171'),
+('00296','208'),
+('00297','168'),
+('00298','023'),
+('00299','171'),
+('00300','184'),
+('00301','060'),
+('00302','058'),
+('00303','263'),
+('00304','044'),
+('00305','164'),
+('00306','231'),
+('00307','164'),
+('00308','263'),
+('00309','096'),
+('00310','232'),
+('00311','167'),
+('00312','180'),
+('00313','022'),
+('00314','023'),
+('00315','251'),
+('00316','167'),
+('00317','072'),
+('00318','098'),
+('00319','267'),
+('00320','097'),
+('00321','197'),
+('00322','051'),
+('00323','131'),
+('00324','023'),
+('00325','053'),
+('00326','119'),
+('00327','250'),
+('00328','044'),
+('00329','259'),
+('00330','095'),
+('00331','122'),
+('00332','176'),
+('00333','126'),
+('00334','167'),
+('00335','126'),
+('00336','232'),
+('00337','270'),
+('00338','122'),
+('00339','169'),
+('00340','251'),
+('00341','049'),
+('00342','263'),
+('00343','208'),
+('00344','250'),
+('00345','082'),
+('00346','217'),
+('00347','251'),
+('00348','184'),
+('00349','126'),
+('00350','204'),
+('00351','151'),
+('00352','148'),
+('00353','216'),
+('00354','247'),
+('00355','119'),
+('00356','072'),
+('00357','270'),
+('00358','073'),
+('00359','095'),
+('00360','259'),
+('00361','110'),
+('00362','192'),
+('00363','270'),
+('00364','098'),
+('00365','270'),
+('00366','110'),
+('00367','119'),
+('00368','180'),
+('00369','056'),
+('00370','182'),
+('00371','085'),
+('00372','169'),
+('00373','068'),
+('00374','192'),
+('00375','072'),
+('00376','218'),
+('00377','259'),
+('00378','065'),
+('00379','023'),
+('00380','218'),
+('00381','182'),
+('00382','218'),
+('00383','221'),
+('00384','232'),
+('00385','060'),
+('00386','069'),
+('00387','248'),
+('00388','023'),
+('00389','176'),
+('00390','012'),
+('00391','248'),
+('00392','144'),
+('00393','069'),
+('00394','043'),
+('00395','122'),
+('00396','212'),
+('00397','218'),
+('00398','168'),
+('00399','072'),
+('00400','246'),
+('00401','116'),
+('00402','085'),
+('00403','110'),
+('00404','212'),
+('00405','017'),
+('00406','012'),
+('00407','170'),
+('00408','264'),
+('00409','098'),
+('00410','270'),
+('00411','201'),
+('00412','267'),
+('00413','098'),
+('00414','270'),
+('00415','187'),
+('00416','151'),
+('00417','216'),
+('00418','263'),
+('00419','119'),
+('00420','222'),
+('00421','216'),
+('00422','155'),
+('00423','060'),
+('00424','199'),
+('00425','126'),
+('00426','267'),
+('00427','171'),
+('00428','090'),
+('00429','045'),
+('00430','196'),
+('00431','247'),
+('00432','227'),
+('00433','068'),
+('00434','187'),
+('00435','031'),
+('00436','168'),
+('00437','096'),
+('00438','170'),
+('00439','151'),
+('00440','184'),
+('00441','199'),
+('00442','038'),
+('00443','127'),
+('00444','038'),
+('00445','038'),
+('00446','264'),
+('00447','023'),
+('00448','220'),
+('00449','068'),
+('00450','222'),
+('00451','201'),
+('00452','116'),
+('00453','227'),
+('00454','169'),
+('00455','206'),
+('00456','243'),
+('00457','182'),
+('00458','164'),
+('00459','192'),
+('00460','072'),
+('00461','164'),
+('00462','070'),
+('00463','206'),
+('00464','206'),
+('00465','017'),
+('00466','187'),
+('00467','098'),
+('00468','110'),
+('00469','212'),
+('00470','126'),
+('00471','169'),
+('00472','216'),
+('00473','022'),
+('00474','204'),
+('00475','110'),
+('00476','164'),
+('00477','220'),
+('00478','144'),
+('00479','215'),
+('00480','217'),
+('00481','208'),
+('00482','167'),
+('00483','196'),
+('00484','180'),
+('00485','208'),
+('00486','227'),
+('00487','119'),
+('00488','126'),
+('00489','070'),
+('00490','072'),
+('00491','082'),
+('00492','184'),
+('00493','069'),
+('00494','195'),
+('00495','097'),
+('00496','267'),
+('00497','110'),
+('00498','216'),
+('00499','073'),
+('00500','222'),
+('00501','269'),
+('00502','232'),
+('00503','023'),
+('00504','269'),
+('00505','181'),
+('00506','053'),
+('00507','182'),
+('00508','169'),
+('00509','270'),
+('00510','182'),
+('00511','068'),
+('00512','096'),
+('00513','195'),
+('00514','148'),
+('00515','012'),
+('00516','247'),
+('00517','222'),
+('00518','062'),
+('00519','116'),
+('00520','152'),
+('00521','204'),
+('00522','248'),
+('00523','251'),
+('00524','182'),
+('00525','192'),
+('00526','148'),
+('00527','269'),
+('00528','023'),
+('00529','082'),
+('00530','192'),
+('00531','270'),
+('00532','085'),
+('00533','029'),
+('00534','031'),
+('00535','204'),
+('00536','107'),
+('00537','038'),
+('00538','012'),
+('00539','131'),
+('00540','127'),
+('00541','068'),
+('00542','127'),
+('00543','227'),
+('00544','208'),
+('00545','063'),
+('00546','269'),
+('00547','053'),
+('00548','155'),
+('00549','264'),
+('00550','263'),
+('00551','056'),
+('00552','107'),
+('00553','225'),
+('00554','222'),
+('00555','126'),
+('00556','227'),
+('00557','216'),
+('00558','053'),
+('00559','151'),
+('00560','221'),
+('00561','096'),
+('00562','060'),
+('00563','204'),
+('00564','227'),
+('00565','072'),
+('00566','218'),
+('00567','220'),
+('00568','169'),
+('00569','221'),
+('00570','246'),
+('00571','199'),
+('00572','116'),
+('00573','062'),
+('00574','029'),
+('00575','107'),
+('00576','065'),
+('00577','170'),
+('00578','224'),
+('00579','090'),
+('00580','112'),
+('00581','139'),
+('00582','184'),
+('00583','170'),
+('00584','246'),
+('00585','058'),
+('00586','184'),
+('00587','090'),
+('00588','098'),
+('00589','155'),
+('00590','045'),
+('00591','246'),
+('00592','017'),
+('00593','225'),
+('00594','212'),
+('00595','097'),
+('00596','068'),
+('00597','107'),
+('00598','220'),
+('00599','182'),
+('00600','116'),
+('00601','224'),
+('00602','049'),
+('00603','184'),
+('00604','232'),
+('00605','181'),
+('00606','097'),
+('00607','115'),
+('00608','206'),
+('00609','261'),
+('00610','248'),
+('00611','127'),
+('00612','243'),
+('00613','098'),
+('00614','073'),
+('00615','215'),
+('00616','043'),
+('00617','085'),
+('00618','082'),
+('00619','144'),
+('00620','139'),
+('00621','195'),
+('00622','242'),
+('00623','199'),
+('00624','029'),
+('00625','242'),
+('00626','112'),
+('00627','128'),
+('00628','058'),
+('00629','082'),
+('00630','155'),
+('00631','242'),
+('00632','243'),
+('00633','257'),
+('00634','029'),
+('00635','231'),
+('00636','151'),
+('00637','199'),
+('00638','192'),
+('00639','259'),
+('00640','248'),
+('00641','199'),
+('00642','126'),
+('00643','242'),
+('00644','199'),
+('00645','217'),
+('00646','176'),
+('00647','227'),
+('00648','246'),
+('00649','167'),
+('00650','221'),
+('00651','085'),
+('00652','164'),
+('00653','197'),
+('00654','196'),
+('00655','164'),
+('00656','225'),
+('00657','122'),
+('00658','246'),
+('00659','068'),
+('00660','224'),
+('00661','038'),
+('00662','038'),
+('00663','073'),
+('00664','180'),
+('00665','096'),
+('00666','225'),
+('00667','246'),
+('00668','247'),
+('00669','090'),
+('00670','152'),
+('00671','122'),
+('00672','197'),
+('00673','090'),
+('00674','184'),
+('00675','247'),
+('00676','097'),
+('00677','197'),
 ('00678','151'),
-('00679','009'),
-('00680','173'),
-('00681','223'),
-('00682','053'),
-('00683','101'),
-('00684','118'),
-('00685','212'),
-('00686','212'),
-('00687','075'),
-('00688','119'),
-('00689','245'),
-('00690','261'),
-('00691','119'),
-('00692','066'),
-('00693','009'),
-('00694','258'),
-('00695','101'),
-('00696','250'),
-('00697','245'),
-('00698','246'),
-('00699','226'),
-('00700','053'),
-('00701','263'),
-('00702','197'),
-('00703','037'),
-('00704','200'),
-('00705','197'),
-('00706','245'),
-('00707','131'),
-('00708','250'),
-('00709','118'),
-('00710','200'),
-('00711','062'),
-('00712','169'),
-('00713','158'),
-('00714','018'),
-('00715','169'),
-('00716','057'),
-('00717','119'),
-('00718','200'),
-('00719','178'),
-('00720','032'),
-('00721','258'),
-('00722','053'),
-('00723','130'),
-('00724','078'),
-('00725','070'),
-('00726','133'),
-('00727','219'),
-('00728','101'),
-('00729','019'),
-('00730','075'),
-('00731','199'),
-('00732','028'),
-('00733','255'),
-('00734','029'),
-('00735','238'),
-('00736','062'),
-('00737','044'),
-('00738','263'),
-('00739','154'),
-('00740','168'),
-('00741','032'),
-('00742','117'),
-('00743','130'),
-('00744','044'),
-('00745','223'),
-('00746','167'),
-('00747','266'),
-('00748','224'),
-('00749','058'),
-('00750','172'),
-('00751','148'),
-('00752','148'),
-('00753','213'),
-('00754','225'),
-('00755','226'),
-('00756','062'),
-('00757','037'),
-('00758','006'),
-('00759','154'),
-('00760','242'),
-('00761','250'),
-('00762','154'),
-('00763','037'),
-('00764','146'),
-('00765','263'),
-('00766','058'),
-('00767','226'),
-('00768','242'),
-('00769','199'),
-('00770','263'),
-('00771','058'),
-('00772','112'),
-('00773','145'),
-('00774','213'),
-('00775','090'),
-('00776','211'),
-('00777','238'),
-('00778','249'),
-('00779','168'),
-('00780','135'),
-('00781','135'),
-('00782','106'),
-('00783','155'),
-('00784','266'),
-('00785','145'),
-('00786','238'),
-('00787','246'),
-('00788','249'),
-('00789','101'),
-('00790','145'),
-('00791','009'),
-('00792','228'),
+('00679','269'),
+('00680','116'),
+('00681','225'),
+('00682','241'),
+('00683','038'),
+('00684','072'),
+('00685','215'),
+('00686','241'),
+('00687','029'),
+('00688','218'),
+('00689','212'),
+('00690','038'),
+('00691','098'),
+('00692','017'),
+('00693','131'),
+('00694','216'),
+('00695','072'),
+('00696','098'),
+('00697','170'),
+('00698','139'),
+('00699','085'),
+('00700','022'),
+('00701','169'),
+('00702','070'),
+('00703','045'),
+('00704','182'),
+('00705','072'),
+('00706','085'),
+('00707','196'),
+('00708','225'),
+('00709','128'),
+('00710','017'),
+('00711','197'),
+('00712','043'),
+('00713','217'),
+('00714','201'),
+('00715','168'),
+('00716','251'),
+('00717','038'),
+('00718','242'),
+('00719','225'),
+('00720','231'),
+('00721','070'),
+('00722','250'),
+('00723','201'),
+('00724','232'),
+('00725','261'),
+('00726','062'),
+('00727','168'),
+('00728','107'),
+('00729','126'),
+('00730','070'),
+('00731','056'),
+('00732','167'),
+('00733','060'),
+('00734','098'),
+('00735','148'),
+('00736','155'),
+('00737','022'),
+('00738','063'),
+('00739','116'),
+('00740','218'),
+('00741','017'),
+('00742','220'),
+('00743','115'),
+('00744','187'),
+('00745','012'),
+('00746','171'),
+('00747','225'),
+('00748','045'),
+('00749','264'),
+('00750','267'),
+('00751','195'),
+('00752','068'),
+('00753','069'),
+('00754','144'),
+('00755','053'),
+('00756','045'),
+('00757','107'),
+('00758','063'),
+('00759','264'),
+('00760','221'),
+('00761','247'),
+('00762','187'),
+('00763','196'),
+('00764','242'),
+('00765','017'),
+('00766','122'),
+('00767','110'),
+('00768','221'),
+('00769','065'),
+('00770','131'),
+('00771','243'),
+('00772','170'),
+('00773','068'),
+('00774','257'),
+('00775','065'),
+('00776','062'),
+('00777','098'),
+('00778','060'),
+('00779','170'),
+('00780','070'),
+('00781','229'),
+('00782','199'),
+('00783','144'),
+('00784','201'),
+('00785','221'),
+('00786','269'),
+('00787','251'),
+('00788','220'),
+('00789','171'),
+('00790','221'),
+('00791','017'),
+('00792','031'),
 ('00793','168'),
-('00794','254'),
-('00795','263'),
-('00796','226'),
-('00797','112'),
-('00798','237'),
-('00799','028'),
-('00800','053'),
-('00801','146'),
-('00802','158'),
-('00803','249'),
-('00804','153'),
-('00805','135'),
+('00794','220'),
+('00795','151'),
+('00796','250'),
+('00797','051'),
+('00798','070'),
+('00799','208'),
+('00800','180'),
+('00801','090'),
+('00802','263'),
+('00803','095'),
+('00804','218'),
+('00805','095'),
 ('00806','246'),
-('00807','178'),
-('00808','263'),
-('00809','117'),
-('00810','145'),
-('00811','050'),
-('00812','148'),
-('00813','078'),
-('00814','145'),
-('00815','266'),
-('00816','151'),
-('00817','248'),
-('00818','100'),
-('00819','188'),
-('00820','219'),
-('00821','186'),
-('00822','046'),
-('00823','175'),
-('00824','246'),
-('00825','213'),
-('00826','224'),
-('00827','103'),
-('00828','063'),
-('00829','155'),
-('00830','064'),
-('00831','246'),
-('00832','154'),
-('00833','135'),
-('00834','178'),
-('00835','148'),
-('00836','223'),
-('00837','236'),
-('00838','233'),
-('00839','037'),
-('00840','263'),
-('00841','029'),
-('00842','053'),
-('00843','161'),
-('00844','078'),
-('00845','146'),
-('00846','228'),
-('00847','055'),
-('00848','221'),
-('00849','050'),
-('00850','221'),
-('00851','242'),
-('00852','133'),
-('00853','129'),
-('00854','106'),
-('00855','007'),
-('00856','055'),
-('00857','186'),
-('00858','007'),
-('00859','050'),
-('00860','078'),
-('00861','200'),
-('00862','233'),
-('00863','236'),
-('00864','224'),
-('00865','037'),
-('00866','249'),
-('00867','130'),
-('00868','173'),
-('00869','117'),
-('00870','167'),
-('00871','248'),
-('00872','254'),
-('00873','169'),
-('00874','221'),
-('00875','154'),
-('00876','124'),
-('00877','266'),
-('00878','151'),
-('00879','129'),
-('00880','169'),
-('00881','090'),
-('00882','019'),
-('00883','211'),
-('00884','200'),
-('00885','124'),
-('00886','062'),
-('00887','019'),
-('00888','172'),
-('00889','172'),
-('00890','189'),
-('00891','029'),
-('00892','012'),
-('00893','118'),
-('00894','189'),
-('00895','224'),
-('00896','255'),
-('00897','124'),
-('00898','166'),
-('00899','129'),
-('00900','146'),
-('00901','059'),
-('00902','212'),
-('00903','135'),
-('00904','117'),
-('00905','070'),
-('00906','131'),
-('00907','018'),
-('00908','046'),
-('00909','055'),
-('00910','192'),
-('00911','028'),
-('00912','238'),
-('00913','148'),
-('00914','192'),
-('00915','059'),
-('00916','167'),
-('00917','169'),
-('00918','166'),
-('00919','037'),
-('00920','173'),
-('00921','192'),
-('00922','044'),
-('00923','225'),
-('00924','161'),
+('00807','082'),
+('00808','131'),
+('00809','097'),
+('00810','216'),
+('00811','151'),
+('00812','152'),
+('00813','212'),
+('00814','261'),
+('00815','038'),
+('00816','217'),
+('00817','062'),
+('00818','192'),
+('00819','243'),
+('00820','053'),
+('00821','045'),
+('00822','224'),
+('00823','072'),
+('00824','126'),
+('00825','095'),
+('00826','232'),
+('00827','208'),
+('00828','222'),
+('00829','264'),
+('00830','196'),
+('00831','069'),
+('00832','148'),
+('00833','169'),
+('00834','217'),
+('00835','164'),
+('00836','029'),
+('00837','264'),
+('00838','097'),
+('00839','022'),
+('00840','164'),
+('00841','131'),
+('00842','221'),
+('00843','062'),
+('00844','212'),
+('00845','197'),
+('00846','181'),
+('00847','231'),
+('00848','216'),
+('00849','261'),
+('00850','012'),
+('00851','045'),
+('00852','184'),
+('00853','023'),
+('00854','051'),
+('00855','216'),
+('00856','227'),
+('00857','247'),
+('00858','248'),
+('00859','096'),
+('00860','181'),
+('00861','043'),
+('00862','043'),
+('00863','115'),
+('00864','049'),
+('00865','072'),
+('00866','246'),
+('00867','058'),
+('00868','082'),
+('00869','204'),
+('00870','263'),
+('00871','096'),
+('00872','119'),
+('00873','176'),
+('00874','220'),
+('00875','060'),
+('00876','224'),
+('00877','169'),
+('00878','062'),
+('00879','098'),
+('00880','264'),
+('00881','215'),
+('00882','241'),
+('00883','029'),
+('00884','155'),
+('00885','060'),
+('00886','266'),
+('00887','090'),
+('00888','182'),
+('00889','217'),
+('00890','045'),
+('00891','212'),
+('00892','243'),
+('00893','051'),
+('00894','199'),
+('00895','151'),
+('00896','241'),
+('00897','098'),
+('00898','152'),
+('00899','082'),
+('00900','168'),
+('00901','023'),
+('00902','267'),
+('00903','119'),
+('00904','107'),
+('00905','107'),
+('00906','176'),
+('00907','022'),
+('00908','122'),
+('00909','267'),
+('00910','241'),
+('00911','112'),
+('00912','222'),
+('00913','038'),
+('00914','128'),
+('00915','029'),
+('00916','224'),
+('00917','069'),
+('00918','148'),
+('00919','195'),
+('00920','247'),
+('00921','204'),
+('00922','250'),
+('00923','229'),
+('00924','199'),
 ('00925','062'),
-('00926','153'),
-('00927','255'),
-('00928','262'),
-('00929','212'),
-('00930','059'),
-('00931','249'),
-('00932','258'),
-('00933','145'),
-('00934','148'),
-('00935','233'),
-('00936','129'),
-('00937','155'),
-('00938','236'),
-('00939','175'),
-('00940','255'),
-('00941','172'),
-('00942','006'),
-('00943','250'),
-('00944','225'),
-('00945','129'),
-('00946','032'),
-('00947','146'),
-('00948','016'),
-('00949','222'),
-('00950','246'),
-('00951','016'),
-('00952','064'),
-('00953','197'),
-('00954','050'),
-('00955','173'),
-('00956','223'),
-('00957','261'),
-('00958','124'),
-('00959','254'),
-('00960','247'),
-('00961','009'),
-('00962','154'),
-('00963','039'),
-('00964','228'),
-('00965','173'),
-('00966','247'),
-('00967','055'),
-('00968','146'),
-('00969','253'),
-('00970','070'),
-('00971','261'),
-('00972','211'),
-('00973','255'),
-('00974','058'),
-('00975','178'),
-('00976','130'),
-('00977','148'),
-('00978','155'),
-('00979','213'),
-('00980','173'),
-('00981','090'),
-('00982','151'),
-('00983','258'),
-('00984','130'),
-('00985','129'),
-('00986','057'),
-('00987','101'),
-('00988','225'),
-('00989','029'),
-('00990','173'),
-('00991','018'),
-('00992','154'),
-('00993','070'),
-('00994','053'),
-('00995','133'),
-('00996','012'),
-('00997','212'),
-('00998','228'),
-('00999','212'),
-('01000','225');
+('00926','085'),
+('00927','022'),
+('00928','063'),
+('00929','270'),
+('00930','266'),
+('00931','115'),
+('00932','243'),
+('00933','119'),
+('00934','068'),
+('00935','126'),
+('00936','182'),
+('00937','267'),
+('00938','119'),
+('00939','122'),
+('00940','224'),
+('00941','246'),
+('00942','073'),
+('00943','220'),
+('00944','151'),
+('00945','227'),
+('00946','241'),
+('00947','128'),
+('00948','232'),
+('00949','128'),
+('00950','122'),
+('00951','058'),
+('00952','195'),
+('00953','098'),
+('00954','263'),
+('00955','082'),
+('00956','112'),
+('00957','058'),
+('00958','229'),
+('00959','051'),
+('00960','176'),
+('00961','246'),
+('00962','216'),
+('00963','148'),
+('00964','197'),
+('00965','251'),
+('00966','131'),
+('00967','051'),
+('00968','170'),
+('00969','151'),
+('00970','065'),
+('00971','192'),
+('00972','180'),
+('00973','182'),
+('00974','264'),
+('00975','199'),
+('00976','241'),
+('00977','115'),
+('00978','090'),
+('00979','073'),
+('00980','197'),
+('00981','266'),
+('00982','196'),
+('00983','148'),
+('00984','060'),
+('00985','263'),
+('00986','176'),
+('00987','168'),
+('00988','060'),
+('00989','122'),
+('00990','247'),
+('00991','243'),
+('00992','131'),
+('00993','227'),
+('00994','169'),
+('00995','058'),
+('00996','220'),
+('00997','241'),
+('00998','251'),
+('00999','131'),
+('01000','148');
 
 
 INSERT INTO Room (room_id, room_name)
-VALUES ('01',N'Phòng nhổ răng'),
-('02',N'Phòng nhổ răng'),
-('03',N'Phòng nhổ răng'),
-('04',N'Phòng nhổ răng'),
-('05',N'Phòng trồng răng'),
-('06',N'Phòng trồng răng'),
-('07',N'Phòng trám răng'),
+VALUES ('01',N'Phòng trồng răng'),
+('02',N'Phòng trồng răng'),
+('03',N'Phòng trồng răng'),
+('04',N'Phòng trồng răng'),
+('05',N'Phòng trám răng'),
+('06',N'Phòng trám răng'),
+('07',N'Phòng nhổ răng'),
 ('08',N'Phòng trồng răng'),
 ('09',N'Phòng trồng răng'),
-('10',N'Phòng trồng răng'),
+('10',N'Phòng nhổ răng'),
 ('11',N'Phòng trám răng'),
-('12',N'Phòng nhổ răng'),
+('12',N'Phòng trám răng'),
 ('13',N'Phòng trám răng'),
-('14',N'Phòng nhổ răng'),
+('14',N'Phòng trồng răng'),
 ('15',N'Phòng trám răng'),
-('16',N'Phòng nhổ răng'),
+('16',N'Phòng trồng răng'),
 ('17',N'Phòng trám răng'),
 ('18',N'Phòng trồng răng'),
-('19',N'Phòng trám răng'),
-('20',N'Phòng trồng răng'),
+('19',N'Phòng nhổ răng'),
+('20',N'Phòng trám răng'),
 ('21',N'Phòng nhổ răng'),
 ('22',N'Phòng trám răng'),
 ('23',N'Phòng nhổ răng'),
-('24',N'Phòng trám răng'),
-('25',N'Phòng nhổ răng'),
-('26',N'Phòng nhổ răng'),
+('24',N'Phòng trồng răng'),
+('25',N'Phòng trám răng'),
+('26',N'Phòng trám răng'),
 ('27',N'Phòng nhổ răng'),
-('28',N'Phòng trồng răng'),
+('28',N'Phòng nhổ răng'),
 ('29',N'Phòng nhổ răng'),
-('30',N'Phòng trám răng'),
+('30',N'Phòng nhổ răng'),
 ('31',N'Phòng nhổ răng'),
-('32',N'Phòng trám răng'),
-('33',N'Phòng trồng răng'),
-('34',N'Phòng trồng răng'),
+('32',N'Phòng trồng răng'),
+('33',N'Phòng nhổ răng'),
+('34',N'Phòng trám răng'),
 ('35',N'Phòng trồng răng'),
-('36',N'Phòng trồng răng');
+('36',N'Phòng trám răng'),
+('37',N'Phòng trồng răng'),
+('38',N'Phòng nhổ răng'),
+('39',N'Phòng trám răng'),
+('40',N'Phòng trám răng'),
+('41',N'Phòng trám răng'),
+('42',N'Phòng trám răng'),
+('43',N'Phòng trám răng'),
+('44',N'Phòng nhổ răng'),
+('45',N'Phòng nhổ răng'),
+('46',N'Phòng trám răng'),
+('47',N'Phòng trám răng'),
+('48',N'Phòng nhổ răng'),
+('49',N'Phòng trồng răng'),
+('50',N'Phòng trồng răng');
 
 
-EXEC insertDrug 'VisionBlue','Feel push kid ten ok ago take.','2022-12-07','44913.7','6332';
-EXEC insertDrug 'Votrient','Art class watch ever.','2022-03-05','63045.99','3524';
-EXEC insertDrug 'Nutropin','Leave cold process long.','2022-08-06','11638.71','5202';
-EXEC insertDrug 'Tretinoin','Little population quite.','2022-06-12','77985.34','5851';
-EXEC insertDrug 'Probenecid and Colchicine','Month though area particularly image draw area.','2021-12-19','80045.69','86';
-EXEC insertDrug 'Lysodren','Far boy culture price.','2021-04-05','68838.63','5119';
-EXEC insertDrug 'Primatene Mist','Image three very pretty imagine full minute.','2021-07-12','65753.64','3136';
-EXEC insertDrug 'Levsin SL','Three quality feel institution form member.','2023-04-17','96785.92','290';
-EXEC insertDrug 'Selsun','Stay well first.','2023-07-27','44912.9','7274';
-EXEC insertDrug 'Alosetron Hydrochloride','Factor likely behavior well skin rich investment.','2022-01-07','18484.21','5162';
-EXEC insertDrug 'Marplan','Notice little own throw.','2023-09-15','17166.81','3516';
-EXEC insertDrug 'Robaxin','Quite kitchen hospital new a.','2021-07-12','57373.19','4129';
-EXEC insertDrug 'Leuprolide Acetate','Finish four rich.','2021-05-31','32583.16','1583';
-EXEC insertDrug 'Lozol','Sure attack certain information.','2022-03-31','25132.57','52';
-EXEC insertDrug 'Zagam','List bill although send view admit choose prevent.','2021-01-15','22746.17','9279';
-EXEC insertDrug 'Staticin','Summer pay effect effort.','2023-06-09','8850.35','3082';
-EXEC insertDrug 'Ethosuximide','Summer space instead baby hour.','2023-09-23','79500.75','672';
-EXEC insertDrug 'Methysergide maleate','Open little act send.','2023-10-30','56973.78','552';
-EXEC insertDrug 'NuvaRing','Account road trial option use think war.','2023-10-31','34207.11','9063';
-EXEC insertDrug 'Ethiodol','Scene recognize care audience bad.','2023-09-07','6831.51','408';
-EXEC insertDrug 'Trobicin','Less hundred mother person type.','2021-03-08','92732.11','3241';
-EXEC insertDrug 'Abarelix','Quickly may network month.','2023-11-24','46477.35','5761';
-EXEC insertDrug 'Tenuate','Husband nearly sing service.','2022-06-03','26775.93','8422';
-EXEC insertDrug 'Metolazone','Party whom sea study board gun behavior.','2023-05-01','25529.52','3042';
-EXEC insertDrug 'Amifostine','Including onto stage positive.','2021-06-19','74055.42','9982';
-EXEC insertDrug 'Parnate','Cost face experience choose nothing size one.','2023-07-09','76940.13','5389';
-EXEC insertDrug 'Floxin Otic','Mr control while us best example dog reach.','2022-06-30','30377.57','4460';
-EXEC insertDrug 'Secobarbital Sodium','Hope simply form effort.','2022-09-22','22388.98','4926';
-EXEC insertDrug 'Metrodin','But cultural room fish another thought rule.','2021-11-12','84737.15','7051';
-EXEC insertDrug 'Micronase','Ago lawyer box bank wife.','2022-05-12','69912.2','1600';
-EXEC insertDrug 'Intralipid 10%','Business form senior production floor.','2022-03-08','84466.87','4792';
-EXEC insertDrug 'Amino Acids','Social reflect billion need picture.','2022-09-10','19908.25','9214';
-EXEC insertDrug 'Levophed','Themselves chance image add apply voice.','2022-05-09','73859.13','810';
-EXEC insertDrug 'Follistim AQ','Red he evening board local.','2021-05-14','15771.75','6530';
-EXEC insertDrug 'Aci-Jel','Ahead arm movement lead they road military.','2022-08-06','17493.5','2864';
-EXEC insertDrug 'Tetrabenazine','Could deal try radio artist news.','2023-05-23','47380.21','3029';
-EXEC insertDrug 'Desmopressin Acetate','Suggest operation couple unit level.','2022-10-18','47160.28','4485';
-EXEC insertDrug 'Daunorubicin','Ago view authority conference story.','2023-05-17','91547.55','9992';
-EXEC insertDrug 'Abacavir Sulfate','Financial as challenge take shoulder lead later.','2021-07-28','78038.9','2407';
-EXEC insertDrug 'Uloric','Necessary him southern now.','2022-01-12','61231.75','6794';
-EXEC insertDrug 'Sufentanil Citrate','Could close apply research become force.','2021-10-11','76835.12','6008';
-EXEC insertDrug 'Aldoril','Item deal language couple.','2021-02-02','60214.6','7803';
-EXEC insertDrug 'Creon','Nature technology even.','2021-07-09','22476.12','1346';
-EXEC insertDrug 'Uvadex','Whose well political environment.','2023-08-02','12370.63','5478';
-EXEC insertDrug 'Cardura','Special give sometimes door together.','2021-01-02','10565.33','2076';
-EXEC insertDrug 'Cisplatin','Leave can big front site.','2021-01-25','80364.15','9975';
-EXEC insertDrug 'Oxaliplatin','Sit note left go well heavy.','2023-09-30','24197.44','3117';
-EXEC insertDrug 'Revlimid','Benefit happy what determine claim.','2021-02-15','86907.9','3987';
-EXEC insertDrug 'Compro','Hope impact image consider within nor black.','2022-05-03','71492.58','4385';
-EXEC insertDrug 'Oxybutynin Chloride','Reduce day smile decade herself perhaps.','2022-04-18','79606.1','7268';
-EXEC insertDrug 'Busulfan','Arrive school kitchen know tree.','2022-07-20','25401.35','2855';
-EXEC insertDrug 'Estradiol valerate','Receive their that game impact spring last.','2021-12-10','33723.26','1386';
-EXEC insertDrug 'Trelstar','Cover nature since.','2023-09-18','60537.55','3342';
-EXEC insertDrug 'Phoslo','Loss so section.','2021-02-25','41098.13','4459';
-EXEC insertDrug 'Gleevec','Energy past usually natural.','2023-04-24','87778.28','7843';
-EXEC insertDrug 'Rheumatrex','Push nice recently security.','2021-02-09','12133.67','2233';
-EXEC insertDrug 'Lusedra','Important life mean.','2021-04-17','2926.39','8274';
-EXEC insertDrug 'Ovide','Now standard blood firm for ability ready baby.','2022-01-27','9897.79','1923';
-EXEC insertDrug 'Armodafinil','Capital position several not.','2021-01-18','47988.77','3212';
-EXEC insertDrug 'Tarka','Role need successful moment safe smile.','2022-06-10','79400.24','7868';
-EXEC insertDrug 'Chemet','Firm agency every democratic ever nice.','2021-06-18','43959.23','5352';
-EXEC insertDrug 'Polythiazide','Song beyond or recent its star.','2021-04-30','36432.58','4309';
-EXEC insertDrug 'Ethyol','World produce position thought.','2023-11-25','81899.99','8225';
-EXEC insertDrug 'Mitomycin','Right talk against yard gas.','2021-04-14','74064.35','9691';
-EXEC insertDrug 'Melphalan','Name your sport score member speech practice her.','2021-08-05','11596.86','6642';
-EXEC insertDrug 'Kantrex','Other brother feel recent once show her.','2021-12-24','43839.56','1932';
-EXEC insertDrug 'Thyroid tablets','Walk financial money why.','2021-06-29','18849.8','7498';
-EXEC insertDrug 'Quixin','Cause teach painting case.','2021-10-26','1861.86','9744';
-EXEC insertDrug 'Navelbine','Meet knowledge worry know according carry.','2022-04-12','49634.63','3337';
-EXEC insertDrug 'Alrex','Bring now hotel mission must evening site city.','2022-06-07','84812.8','5874';
-EXEC insertDrug 'Fragmin','Home as rock usually this learn.','2023-03-05','476.58','2407';
-EXEC insertDrug 'Insulin Glulisine','Western event boy a develop.','2021-10-12','69233.21','4059';
-EXEC insertDrug 'Gardasil','Policy during they sometimes probably room issue.','2023-04-09','26706.72','873';
-EXEC insertDrug 'Solage','Front policy because available.','2022-03-30','78377.94','4114';
-EXEC insertDrug 'Sprix','Hold become school investment.','2023-12-04','23425.49','2896';
-EXEC insertDrug 'Norco','Street at man enjoy.','2022-08-16','33278.72','2641';
-EXEC insertDrug 'Triazolam','Reduce state study sound.','2023-01-23','42875.74','7176';
-EXEC insertDrug 'Ticlopidine Hcl','Wide nor analysis represent.','2022-04-14','81426.56','5527';
-EXEC insertDrug 'Duetact','Marriage at first enter particularly.','2023-08-12','24291.16','4087';
-EXEC insertDrug 'Halothane','Determine health positive charge act body.','2021-04-24','85477.52','850';
-EXEC insertDrug 'Dihydroergotamine','Fast between seven contain.','2021-08-26','82098.18','2532';
-EXEC insertDrug 'Bethanechol','Important appear partner some pick.','2023-02-21','27279.22','6011';
-EXEC insertDrug 'Lamictal','Money well hard magazine coach computer hear.','2023-03-06','73724.12','6135';
-EXEC insertDrug 'Drotrecogin alfa','Play forward size assume American.','2021-06-26','36923.79','6173';
-EXEC insertDrug 'Dexfenfluramine','Reveal two attention future house door.','2023-10-15','4113.26','3396';
-EXEC insertDrug 'Follistim AQ','Art sea hit rule.','2021-02-22','3239.58','7951';
-EXEC insertDrug 'Losartan Potassium','Road far leg.','2023-03-27','3478.7','8153';
-EXEC insertDrug 'Sulfacetamide','They former compare tough former recently.','2022-06-12','48708.3','6586';
-EXEC insertDrug 'Trandolapril','Everything not draw rock.','2023-04-02','48435.14','8173';
-EXEC insertDrug 'Synagis','Early rise north end project effort section cut.','2023-09-28','42497.95','4328';
-EXEC insertDrug 'Alglucosidase Alfa','Size Mrs none back sometimes guy buy.','2022-07-18','72263.13','6424';
-EXEC insertDrug 'Oxycodone Hydrochloride','Bill own all.','2022-02-19','59466.72','1795';
-EXEC insertDrug 'Nplate','Lot research attack several source body.','2023-04-13','31590.89','7513';
-EXEC insertDrug 'Bactroban Nasal','Though cold enter company bag name.','2022-08-05','21595.35','5793';
-EXEC insertDrug 'Atromid-S','Teach beautiful account adult.','2021-10-20','48240.33','8049';
-EXEC insertDrug 'Locoid Lipocream','Past identify ready race card to.','2021-08-17','32760.43','5719';
-EXEC insertDrug 'Dexilant','Year matter Democrat own impact hospital.','2021-03-23','92766.32','8150';
-EXEC insertDrug 'Doral','Nothing fact talk.','2022-11-25','44574.8','1539';
-EXEC insertDrug 'Gemcitabine Hcl','Community prepare town hand attorney history.','2023-02-24','99924.6','3786';
-EXEC insertDrug 'Clobetasol Propionate Gel','Professional future will key speak over small.','2023-01-23','79198.13','6219';
-EXEC insertDrug 'Arimidex','Whole image sure politics better big.','2022-06-28','65423.93','5093';
-EXEC insertDrug 'Propoxyphene','Window find thank activity resource debate.','2023-02-08','88058.96','2583';
-EXEC insertDrug 'Dicyclomine','Something eat decide.','2022-03-31','73685.96','8621';
-EXEC insertDrug 'Fomepizole','Fine response including technology believe.','2021-07-13','94079.16','1414';
-EXEC insertDrug 'Morphine Sulfate','Improve around already bit act.','2022-01-05','86310.63','3408';
-EXEC insertDrug 'Exenatide','Drug talk media consider effort back determine.','2022-06-18','55092.2','2062';
-EXEC insertDrug 'Potassium Acetate','Gas very friend meeting education.','2023-05-30','42652.65','2846';
-EXEC insertDrug 'Antihemophilic Factor','Forward else forget think probably my site.','2023-06-03','60054.79','5410';
-EXEC insertDrug 'Tolectin','Support necessary give.','2023-10-20','56112.73','5646';
-EXEC insertDrug 'Ethionamide','Meeting no loss worry maintain per employee table.','2022-08-07','62509.4','3180';
-EXEC insertDrug 'Calcitriol','Value also institution only family.','2022-05-15','76066.3','1342';
-EXEC insertDrug 'Totect','Offer travel send likely new different guy.','2022-03-24','86656.14','3455';
-EXEC insertDrug 'Loracarbef','Throw raise trial civil.','2023-01-06','52058.1','7353';
-EXEC insertDrug 'Cardizem LA','Seat Republican when them exactly left.','2021-04-30','59556.6','1592';
-EXEC insertDrug 'Avodart','By cold relate traditional.','2021-01-20','78286.69','4413';
-EXEC insertDrug 'Veregen','Also side white consider.','2023-08-18','49747.76','4204';
-EXEC insertDrug 'Desflurane','Mention great once.','2021-11-24','84055.5','7430';
-EXEC insertDrug 'Apresoline','Important TV sure close food large.','2023-08-22','58029.11','2078';
-EXEC insertDrug 'Phenylephrine HCl','Fish expect attack from.','2021-12-16','27344.94','4899';
-EXEC insertDrug 'Benicar HCT','Form simply yourself plan senior team year member.','2022-12-26','28952.59','3550';
-EXEC insertDrug 'Lescol','Tough crime speak history leave town media.','2022-06-25','94063.1','7836';
-EXEC insertDrug 'Chlorothiazide','Avoid indicate party past by eye customer medical.','2022-06-02','97020.44','5961';
-EXEC insertDrug 'Antabuse','Could discussion sea card.','2021-07-26','1979.15','1014';
-EXEC insertDrug 'Dehydrated Alcohol','Bank keep dark why difficult reveal.','2022-10-12','21960.68','2085';
-EXEC insertDrug 'Motofen','Knowledge century free.','2021-06-12','97165.8','2184';
-EXEC insertDrug 'Detrol','Feel apply challenge.','2021-03-18','71826.91','3914';
-EXEC insertDrug 'Esmolol','Whether reach myself meeting all use.','2021-06-24','95918.45','5409';
-EXEC insertDrug 'Cisapride','Activity degree become else.','2021-01-16','68698.94','846';
-EXEC insertDrug 'Trandolapril','Left include wear have run man who.','2022-04-22','247.39','9650';
-EXEC insertDrug 'Florinef','Soon see particular play.','2023-10-05','47923.56','1630';
-EXEC insertDrug 'Insulin Glulisine','Only crime me final contain thought.','2023-11-20','82516.72','9331';
-EXEC insertDrug 'Trental','Reduce clearly author peace anyone market.','2023-12-07','26835.6','6980';
-EXEC insertDrug 'Glucagon','These spend second thought perhaps.','2023-03-21','91512.6','1326';
-EXEC insertDrug 'Avandaryl','Stuff between big protect road respond agreement.','2021-12-05','92558.57','2642';
-EXEC insertDrug 'Vigamox','That gas people make.','2022-12-07','89443.72','411';
-EXEC insertDrug 'Penlac','Fill back maintain plan focus film.','2022-11-27','66504.94','6280';
-EXEC insertDrug 'Indigo Carmine','Friend hope toward tell dog pass someone rather.','2022-03-05','89077.83','4549';
-EXEC insertDrug 'Risedronate Sodium','Support process heavy first big every tree.','2021-11-19','92177.48','1735';
-EXEC insertDrug 'Purinethol','Billion on newspaper age first cultural throw.','2021-05-06','26590.36','1461';
-EXEC insertDrug 'Tapentadol','Gas cold true page base.','2023-04-09','43923.38','7727';
-EXEC insertDrug 'Butoconazole','Indicate film occur feel child likely.','2023-07-24','99372.15','9082';
-EXEC insertDrug 'Relenza','Often far assume reality government media.','2023-03-13','30243.86','6360';
-EXEC insertDrug 'Vistide','Smile already from behind chair adult.','2023-10-14','56790.63','4366';
-EXEC insertDrug 'Abacavir Sulfate','College fund author.','2022-07-15','61087.78','8458';
-EXEC insertDrug 'Inderal','Recent region light chance push.','2022-07-07','56717.3','3871';
-EXEC insertDrug 'Lotemax','Heart ok nor possible.','2022-06-21','93048.14','9899';
-EXEC insertDrug 'Terazol 3, Terazol 7','Road them hotel seven whatever.','2022-04-06','54630.85','4365';
-EXEC insertDrug 'Ranitidine Bismuth Citrate','Nice say let style a near I.','2023-09-28','97659.44','8132';
-EXEC insertDrug 'Polysaccharides','Else call safe direction energy car.','2021-12-11','5545.74','749';
-EXEC insertDrug 'Virazole','Relationship positive all drop manager specific.','2023-12-05','85072.2','6052';
-EXEC insertDrug 'Diflucan','Why enjoy body sometimes sometimes.','2022-07-17','16473.2','3579';
-EXEC insertDrug 'Theophylline','Collection appear study gun life raise.','2021-04-07','42776.93','4208';
-EXEC insertDrug 'Omnipred','Responsibility do method relationship.','2021-06-22','48620.99','1639';
-EXEC insertDrug 'Sulfinpyrazone','Accept run surface ever material a anything face.','2023-08-11','34956.74','1747';
-EXEC insertDrug 'Pletal','Improve party share material cause their look.','2021-03-27','81103.11','1313';
-EXEC insertDrug 'Ventolin HFA','Air property follow wear mind give.','2021-03-14','71837.15','2137';
-EXEC insertDrug 'Mestinon','Often group return should fast dog.','2021-10-03','69502.68','2623';
-EXEC insertDrug 'Metrogel','Case sort training.','2023-09-30','11970.92','8305';
-EXEC insertDrug 'Glipizide','Top sit second wish.','2022-08-27','42267.76','2080';
-EXEC insertDrug 'Fioricet','Ability indeed million not indeed plant.','2022-09-13','21765.52','753';
-EXEC insertDrug 'Prolastin','Do wife her or house opportunity.','2022-04-09','46332.82','1616';
-EXEC insertDrug 'Foscarnet Sodium','Challenge else standard may special who.','2022-04-30','34752.28','1039';
-EXEC insertDrug 'Diuril','Among real now.','2023-04-10','29633.24','8904';
-EXEC insertDrug 'Dihydroergotamine','Particular south building.','2021-10-16','24902.52','8338';
-EXEC insertDrug 'Phospholine Iodide','Ahead hard one respond nice project.','2022-08-13','36589.59','4648';
-EXEC insertDrug 'Atorvastatin Calcium','Organization use hear continue.','2022-10-07','99963.96','436';
-EXEC insertDrug 'Zovia','Call add debate.','2022-03-29','77424.95','5066';
-EXEC insertDrug 'Ovide','Week watch speech candidate according.','2023-11-28','69112.25','596';
-EXEC insertDrug 'Novothyrox','More nor environment model often certainly church.','2022-03-16','85230.61','2372';
-EXEC insertDrug 'Sotradecol','Special hear back challenge price imagine.','2023-07-11','591.47','3643';
-EXEC insertDrug 'Silodosin','Work sort various also.','2021-12-13','444.37','9506';
-EXEC insertDrug 'Torsemide','Director statement point production.','2023-04-01','76497.2','8656';
-EXEC insertDrug 'Ezetimibe and Simvastatin','Floor try plant.','2022-06-24','68568.6','6410';
-EXEC insertDrug 'Mycophenolic Acid','Detail discover effect structure usually race.','2021-05-30','86620.25','4821';
-EXEC insertDrug 'Duraclon','Name development dog drug.','2023-10-02','46244.5','4134';
-EXEC insertDrug 'Megace ES','Fast future development say identify develop.','2023-02-19','32983.52','5477';
-EXEC insertDrug 'Rivastigmine Tartrate','Alone base agree attack try with mind.','2022-04-04','67031.9','1773';
-EXEC insertDrug 'Navelbine','Might PM movie case minute official film.','2021-03-28','85603.87','7649';
-EXEC insertDrug 'Mifepristone','Type space than power point situation none.','2023-08-25','26730.47','6376';
-EXEC insertDrug 'Coly-Mycin M','Always resource food start personal.','2023-04-07','74831.81','9804';
-EXEC insertDrug 'Cogentin','Actually standard finally contain political.','2022-10-15','45656.94','5884';
-EXEC insertDrug 'Tetanus Vaccine','Cost heavy office check maybe.','2022-01-18','55387.3','9923';
-EXEC insertDrug 'Clarinex-D 24 Hour','Moment mission heart week speech tonight.','2023-11-13','98097.62','3821';
-EXEC insertDrug 'Daypro Alta','Hour center do painting former exactly.','2022-12-10','47800.63','9718';
-EXEC insertDrug 'Dopram','Although enter lot continue there toward list.','2021-03-07','57313.59','8235';
-EXEC insertDrug 'Dipivefrin','Detail situation a section ahead box here win.','2022-12-04','21345.8','8518';
-EXEC insertDrug 'Levodopa','Minute full step often.','2023-04-20','35337.29','6790';
-EXEC insertDrug 'Westcort','Theory maintain bag remain free all career.','2022-03-26','9427.3','4653';
-EXEC insertDrug 'Carisoprodol and Aspirin','Physical that spring item.','2023-04-04','81099.24','5991';
-EXEC insertDrug 'Pentobarbital','Plan people tell six.','2023-08-11','69090.47','1423';
-EXEC insertDrug 'OsmoPrep','Late local raise family author cover sister.','2023-04-14','71203.43','9329';
-EXEC insertDrug 'Alomide','Nothing thought another move head return.','2023-03-06','7375.82','4099';
-EXEC insertDrug 'Neostigmine Methylsulfate','May tonight before yeah.','2023-12-02','31520.71','1428';
-EXEC insertDrug 'Carisoprodol','Break minute some site message truth tonight.','2022-06-29','89754.92','705';
-EXEC insertDrug 'Anabolic steroids','Deep however season study receive.','2021-06-05','73839.61','7339';
-EXEC insertDrug 'Fertinex','Person theory when stage goal what evening.','2021-12-04','74097.51','3353';
-EXEC insertDrug 'Sufentanil Citrate','Arm political note expect.','2022-10-21','65096.41','4947';
-EXEC insertDrug 'Thyroid tablets','Approach fire heavy role rest.','2023-07-13','78693.26','4713';
-EXEC insertDrug 'Benzagel','Wait with place among.','2021-10-14','55159.96','6992';
-EXEC insertDrug 'Lozol','Moment artist book each.','2022-04-17','7973.75','1175';
-EXEC insertDrug 'Lopressor HCT','Foot future available focus baby.','2021-08-31','36961.87','3474';
-EXEC insertDrug 'Dehydrated Alcohol','Point sing reveal analysis.','2021-06-07','49581.94','3935';
-EXEC insertDrug 'Norvir','Woman road result fall conference such case.','2023-07-25','77573.28','9737';
-EXEC insertDrug 'Raplon','Yeah option just instead fly state.','2021-09-27','3312.31','3357';
-EXEC insertDrug 'Nizatidine','Someone require short just available both public.','2023-05-07','81941.8','6561';
-EXEC insertDrug 'Mexitil','Believe open try hair.','2022-02-09','44030.22','8833';
-EXEC insertDrug 'Theophylline','Leave mind store off account thought.','2023-08-15','5538.29','1260';
-EXEC insertDrug 'Proair HFA','Item western age condition foot director.','2021-11-09','35390.94','3683';
-EXEC insertDrug 'Paregoric','Three culture everyone food few her minute.','2023-03-02','91487.1','6588';
-EXEC insertDrug 'Aygestin','Improve light hand.','2023-01-07','30300.96','9016';
-EXEC insertDrug 'Percocet','Democrat role claim young when.','2023-06-27','83097.52','8496';
-EXEC insertDrug 'Prochlorperazine','Enough today reveal arm late.','2023-11-22','64851.98','7527';
-EXEC insertDrug 'Ertaczo','Go those standard factor.','2022-06-13','43128.84','6437';
-EXEC insertDrug 'Daraprim','Success brother person thought.','2021-08-23','60445.92','8702';
-EXEC insertDrug 'Dacarbazine','Blood community box guy get.','2022-02-01','10387.21','3007';
-EXEC insertDrug 'Filgrastim','Environmental old little middle approach.','2022-04-27','94276.98','2274';
-EXEC insertDrug 'Ethosuximide','Institution central amount.','2021-11-11','23565.89','7824';
-EXEC insertDrug 'Caverject','Reveal air provide history lot attention reveal.','2022-11-22','74627.37','4847';
-EXEC insertDrug 'Cystagon','Either hope drug edge allow camera mouth.','2022-10-29','4189.89','7833';
-EXEC insertDrug 'Lidocaine and tetracaine','Down type energy.','2022-09-11','93123.8','6728';
-EXEC insertDrug 'Zenapax','Million finish decide.','2023-04-08','36520.5','2644';
-EXEC insertDrug 'Triamcinolone','Series high answer.','2022-01-19','17339.98','8092';
-EXEC insertDrug 'Navane','Stock authority ball increase kitchen.','2022-12-04','69219.37','8023';
-EXEC insertDrug 'Sensorcaine','Water prepare sometimes customer agree third.','2022-11-03','13064.35','8822';
-EXEC insertDrug 'Cetuximab','President activity interesting white nearly.','2023-03-02','26029.37','3460';
-EXEC insertDrug 'Rufinamide','Station talk hot.','2022-11-26','12812.65','9564';
-EXEC insertDrug 'Butrans','Item herself until to have.','2022-08-28','83588.72','6979';
-EXEC insertDrug 'Navelbine','Hand day occur production.','2021-04-28','49656.36','5473';
-EXEC insertDrug 'Myfortic','Various education still data.','2023-01-21','90389.1','602';
-EXEC insertDrug 'MetroLotion','Add him similar fill realize.','2021-06-29','46887.86','8155';
-EXEC insertDrug 'Brovana','Billion scene tell happy including argue.','2021-05-13','4740.22','9389';
-EXEC insertDrug 'Mononine','Audience blood through news magazine indeed rate.','2022-06-14','26391.8','1442';
-EXEC insertDrug 'Accutane','Level movement whatever including.','2023-08-24','11018.99','1080';
-EXEC insertDrug 'Psorcon E','Remember even technology lose argue toward.','2023-07-21','42825.4','8814';
-EXEC insertDrug 'Modafinil','Magazine dinner really stuff.','2023-05-24','62956.14','5061';
-EXEC insertDrug 'Micronized Glyburide','Police change several.','2023-09-26','54468.66','8385';
-EXEC insertDrug 'Polysaccharides','Yet spring pay.','2021-06-14','94655.12','9765';
-EXEC insertDrug 'Relenza','Surface life sit affect begin even reduce.','2021-11-07','1466.36','1911';
-EXEC insertDrug 'Rabeprazole Sodium','Hear including week why call.','2021-03-06','23505.23','813';
-EXEC insertDrug 'Eulexin','Art history after lay rock.','2021-10-15','83110.54','2754';
-EXEC insertDrug 'Sodium Fluoride','Occur difference but spring land though.','2023-06-04','71610.8','9156';
-EXEC insertDrug 'Epoetin Alfa','Military soon meet hot.','2023-07-11','16923.22','9022';
-EXEC insertDrug 'Levo-Dromoran','Different part easy participant believe.','2023-06-20','69435.81','9848';
-EXEC insertDrug 'Vexol','So address course member human officer culture.','2023-08-27','27463.76','7029';
-EXEC insertDrug 'Imitrex','Ability know discover others.','2022-03-25','23372.91','1398';
-EXEC insertDrug 'Gelnique','Practice floor mission easy.','2021-06-28','67716.1','359';
-EXEC insertDrug 'Prefest','Response cell field film fund fear.','2022-02-05','24112.49','867';
-EXEC insertDrug 'Alglucosidase Alfa','Subject adult continue heart me actually.','2022-01-24','15463.13','5663';
-EXEC insertDrug 'Miostat','Idea account nice.','2023-07-18','96239.75','8652';
-EXEC insertDrug 'Nalmefene Hydrochloride','They would east investment seven computer all.','2022-11-17','9067.64','4261';
-EXEC insertDrug 'Idamycin','Law move word near explain.','2022-01-07','81962.2','7762';
-EXEC insertDrug 'Edecrin','To north include age suggest play.','2023-03-09','7501.55','1092';
-EXEC insertDrug 'Tramadol','Talk dog father kitchen ground candidate.','2022-07-05','55055.41','4217';
-EXEC insertDrug 'Mechlorethamine HCl','Near hospital television theory loss charge the.','2021-02-14','3022.91','8278';
-EXEC insertDrug 'Inversine','Campaign camera indicate former reflect police.','2021-05-26','45594.32','4810';
-EXEC insertDrug 'Valganciclovir Hcl','Over try team mind five build Democrat just.','2022-04-22','51513.94','5629';
-EXEC insertDrug 'Nizoral','Movement fear cultural through fear right.','2022-06-30','65264.13','5450';
-EXEC insertDrug 'Diuril','Value down sit create safe represent.','2021-01-15','82196.48','3519';
-EXEC insertDrug 'Aminohippurate Sodium','Moment business its evidence water.','2022-10-23','59547.88','1600';
-EXEC insertDrug 'Metozolv ODT','Evidence region skill recognize tree skin.','2021-12-20','91641.8','930';
-EXEC insertDrug 'Trovafloxacin','Media brother time rather responsibility pick six.','2021-05-03','96740.77','1313';
-EXEC insertDrug 'Cordarone','Under writer important second off oil.','2023-10-22','63229.15','831';
-EXEC insertDrug 'Testim','Fear dream too purpose much scientist.','2021-08-09','58543.21','218';
-EXEC insertDrug 'Sumatriptan','Parent stand method laugh significant college.','2022-03-05','67364.17','3580';
-EXEC insertDrug 'Adrenalin','Director sense hotel glass may mouth training big.','2023-09-24','10248.78','9877';
-EXEC insertDrug 'Drotrecogin alfa','Song break crime federal.','2021-07-08','96626.57','6062';
-EXEC insertDrug 'Rimexolone','Fight lawyer head without seem town imagine up.','2023-03-19','69898.97','7963';
-EXEC insertDrug 'Mupirocin','Nearly far next good own son even.','2023-10-18','20699.18','1291';
-EXEC insertDrug 'Zestoretic','Need spring would watch.','2023-10-08','82470.62','5026';
-EXEC insertDrug 'Humulin N','Yeah technology feeling kitchen civil.','2022-11-21','46775.23','2132';
-EXEC insertDrug 'Ketorolac Tromethamine','Behind generation carry if interesting through.','2023-03-10','20486.35','3762';
-EXEC insertDrug 'Soma Compound','Enter listen individual tell instead right.','2021-07-30','32168.34','9000';
-EXEC insertDrug 'Liposyn III','Over across business put figure.','2023-04-22','74838.3','2914';
-EXEC insertDrug 'Altocor','Improve suggest forget at listen late.','2021-01-13','65399.24','1117';
-EXEC insertDrug 'Carbaglu','Black American happy everything.','2023-03-31','4391.92','4381';
-EXEC insertDrug 'Lipofen','Name sit human analysis enjoy fine music.','2023-07-03','28910.53','8162';
-EXEC insertDrug 'Tapentadol','Pm week accept test.','2023-02-08','20145.87','5846';
-EXEC insertDrug 'Aprotinin','Ago chair job seem different worker site.','2021-05-30','13578.91','6714';
-EXEC insertDrug 'Lamprene','Few able attorney everyone store against than.','2022-10-07','60342.46','5744';
-EXEC insertDrug 'Ovidrel','There traditional audience result.','2021-04-25','36362.65','7491';
-EXEC insertDrug 'Propofol','Pull last though the also attack.','2021-03-11','7570.46','9598';
-EXEC insertDrug 'Celebrex','Note effect fund music it interesting.','2021-07-06','95492.84','2862';
-EXEC insertDrug 'Methylphenidate Hcl','Court individual value at floor far.','2023-05-06','72439.61','1355';
-EXEC insertDrug 'Cloderm','Staff guess listen.','2022-07-26','86064.52','2975';
-EXEC insertDrug 'Coreg','Style parent next may method.','2021-05-31','48147.14','2055';
-EXEC insertDrug 'Tiagabine Hydrochloride','Body defense our.','2023-06-01','62088.69','5570';
-EXEC insertDrug 'Epogen','Same knowledge long kind card also garden.','2022-06-15','4030.7','2391';
-EXEC insertDrug 'Xeomin','Attack its eat apply use apply very.','2023-08-29','71153.8','9540';
-EXEC insertDrug 'Lenalidomide','Production most shoulder management feeling admit.','2022-07-26','2709.41','3362';
-EXEC insertDrug 'Cyclessa','Like four reveal source.','2021-07-15','44255.7','8336';
-EXEC insertDrug 'Tylenol with codeine','Name trouble newspaper child pass worry tough.','2021-12-10','95846.26','8633';
-EXEC insertDrug 'Motofen','Strong these option discussion either.','2021-06-22','49332.0','2660';
-EXEC insertDrug 'Acamprosate Calcium','Both choice benefit today team rate dream.','2023-04-21','49142.45','6880';
-EXEC insertDrug 'Dacarbazine','Traditional recently old who.','2023-02-23','37367.75','3824';
-EXEC insertDrug 'Atromid-S','Cut both lose successful me party idea.','2023-01-23','30115.96','4988';
-EXEC insertDrug 'Atazanavir Sulfate','To south if alone bill respond.','2023-06-15','48225.97','4280';
-EXEC insertDrug 'Flurbiprofen','Whole policy figure billion term husband.','2023-11-11','7932.94','1132';
-EXEC insertDrug 'Ranitidine Hydrochloride','Money do student hand that seven class.','2021-12-07','82432.74','7976';
-EXEC insertDrug 'Anthralin','New shoulder relate happy growth.','2022-01-31','79927.88','7369';
-EXEC insertDrug 'Humira','Trial store whatever open manage walk model crime.','2022-03-13','12046.43','6713';
+INSERT INTO Branch_Room (branch_id,room_id)
+VALUES ('03','13'),
+('01','27'),
+('05','49'),
+('02','19'),
+('04','23'),
+('03','48'),
+('04','31'),
+('02','09'),
+('01','39'),
+('02','32'),
+('03','37'),
+('02','08'),
+('01','12'),
+('03','28'),
+('05','47'),
+('04','33'),
+('05','01'),
+('02','11'),
+('01','34'),
+('05','17'),
+('05','21'),
+('01','24'),
+('03','35'),
+('02','15'),
+('02','07'),
+('05','50'),
+('01','14'),
+('01','30'),
+('01','03'),
+('02','10'),
+('04','02'),
+('04','42'),
+('01','04'),
+('03','05'),
+('03','29'),
+('05','06'),
+('04','18'),
+('04','20'),
+('05','16'),
+('04','38'),
+('05','43'),
+('04','46'),
+('05','40'),
+('02','41'),
+('01','36'),
+('03','22'),
+('05','26'),
+('02','45'),
+('01','25'),
+('01','44');
+
+
+EXEC insertDrug 'Aggrastat',N'Uống 2 lần buổi trưa','2021-12-06',45372.5,'1379';
+EXEC insertDrug 'Lubiprostone',N'Uống 1 lần 5 viên','2021-01-04',33741.2,'5158';
+EXEC insertDrug 'Marinol',N'Uống 3 lần vào buổi tối','2023-06-09',52436.13,'7440';
+EXEC insertDrug 'Lyrica',N'Uống 3 lần vào buổi tối','2023-04-09',38321.16,'1893';
+EXEC insertDrug 'Metrodin',N'Uống 3 lần vào buổi tối','2021-11-23',95524.14,'4349';
+EXEC insertDrug 'Timolide',N'Uống 1 lần 5 viên','2021-01-26',35799.43,'3876';
+EXEC insertDrug 'Rhinocort Aqua',N'Uống 3 lần vào buổi tối','2021-07-09',24595.78,'5767';
+EXEC insertDrug 'Zostavax',N'Uống 2 lần buổi trưa','2022-12-10',94496.7,'7701';
+EXEC insertDrug 'Diflucan',N'Uống 3 lần vào buổi tối','2023-01-24',10808.81,'4056';
+EXEC insertDrug 'Trypan Blue',N'Uống 2 lần buổi trưa','2021-08-13',90220.54,'9008';
+EXEC insertDrug 'Inderide',N'Uống 1 lần 5 viên','2022-12-29',57697.43,'3148';
+EXEC insertDrug 'Didanosine',N'Uống 3 lần vào buổi tối','2021-10-11',98246.1,'6505';
+EXEC insertDrug 'Epoprostenol sodium',N'Uống 3 lần vào buổi tối','2022-02-21',13764.41,'8142';
+EXEC insertDrug 'Zelnorm',N'Uống 2 lần 1 ngày','2022-08-05',74658.14,'9713';
+EXEC insertDrug 'Pneumovax',N'Uống 2 lần buổi trưa','2022-10-22',59563.96,'6792';
+EXEC insertDrug 'Glipizide',N'Uống 2 lần 1 ngày','2022-02-21',60115.37,'6602';
+EXEC insertDrug 'Antizol',N'Uống 3 lần vào buổi tối','2023-03-16',47231.42,'8558';
+EXEC insertDrug 'Seasonale',N'Uống 3 lần vào buổi tối','2021-10-17',23129.74,'1819';
+EXEC insertDrug 'Locoid Lipocream',N'Uống 3 lần vào buổi tối','2022-09-26',94883.65,'5410';
+EXEC insertDrug 'Rhophylac',N'Uống 2 lần buổi trưa','2023-07-24',33974.85,'8522';
+EXEC insertDrug 'Dibenzyline',N'Uống 1 lần 5 viên','2022-07-31',69142.83,'7191';
+EXEC insertDrug 'Certolizumab Pegol',N'Uống 1 lần 5 viên','2023-07-24',78951.97,'5981';
+EXEC insertDrug 'Aminosyn II 8.5%',N'Uống 1 lần 5 viên','2021-05-30',52112.1,'9336';
+EXEC insertDrug 'Ketek',N'Uống 2 lần 1 ngày','2022-11-13',75050.93,'5520';
+EXEC insertDrug 'Plavix',N'Uống 3 lần vào buổi tối','2023-05-19',70386.69,'4685';
+EXEC insertDrug 'HepatAmine',N'Uống 2 lần 1 ngày','2023-02-07',42230.3,'4490';
+EXEC insertDrug 'Fastin',N'Uống 2 lần buổi trưa','2022-03-19',83062.2,'2364';
+EXEC insertDrug 'Butrans',N'Uống 3 lần vào buổi tối','2022-07-12',87814.43,'1863';
+EXEC insertDrug 'Irbesartan',N'Uống 2 lần 1 ngày','2023-03-23',6083.62,'7871';
+EXEC insertDrug 'Azmacort',N'Uống 2 lần buổi trưa','2021-12-24',98538.7,'1774';
+EXEC insertDrug 'Xyzal',N'Uống 2 lần 1 ngày','2021-12-05',53525.59,'9474';
+EXEC insertDrug 'Baraclude',N'Uống 2 lần 1 ngày','2023-01-07',55835.67,'604';
+EXEC insertDrug 'Dalteparin',N'Uống 2 lần buổi trưa','2022-06-21',80821.73,'5960';
+EXEC insertDrug 'Bacitracin',N'Uống 1 lần 5 viên','2021-10-01',78676.72,'3034';
+EXEC insertDrug 'Cipro',N'Uống 1 lần 5 viên','2021-02-18',72259.35,'5715';
+EXEC insertDrug 'Mylotarg',N'Uống 2 lần buổi trưa','2021-01-13',36123.2,'2800';
+EXEC insertDrug 'Hydralazine',N'Uống 1 lần 5 viên','2023-11-14',24800.11,'5470';
+EXEC insertDrug 'Cardura XL',N'Uống 3 lần vào buổi tối','2022-03-24',66776.98,'8804';
+EXEC insertDrug 'Dolophine',N'Uống 2 lần 1 ngày','2022-06-13',71581.26,'7049';
+EXEC insertDrug 'Clinoril',N'Uống 2 lần buổi trưa','2021-10-17',2728.89,'352';
+EXEC insertDrug 'Norco',N'Uống 3 lần vào buổi tối','2023-06-29',6576.34,'1337';
+EXEC insertDrug 'Prograf',N'Uống 2 lần buổi trưa','2022-04-25',80851.7,'6893';
+EXEC insertDrug 'Clomiphene',N'Uống 1 lần 5 viên','2023-07-31',24679.98,'3421';
+EXEC insertDrug 'Pristiq',N'Uống 2 lần buổi trưa','2021-04-11',49855.13,'8171';
+EXEC insertDrug 'Chlorpromazine',N'Uống 2 lần buổi trưa','2022-12-17',20714.88,'807';
+EXEC insertDrug 'Maxalt',N'Uống 2 lần 1 ngày','2022-07-03',43900.79,'7386';
+EXEC insertDrug 'Iloperidone',N'Uống 2 lần buổi trưa','2023-01-24',98748.24,'7035';
+EXEC insertDrug 'Theophylline',N'Uống 3 lần vào buổi tối','2023-07-26',72291.96,'3891';
+EXEC insertDrug 'Doxercalciferol',N'Uống 1 lần 5 viên','2021-11-22',19009.43,'381';
+EXEC insertDrug 'Zarontin',N'Uống 3 lần vào buổi tối','2022-02-11',85909.71,'7195';
+EXEC insertDrug 'Inderal',N'Uống 3 lần vào buổi tối','2021-05-30',96230.68,'7152';
+EXEC insertDrug 'Oxycodone and Acetaminophen',N'Uống 3 lần vào buổi tối','2023-07-03',17844.78,'1301';
+EXEC insertDrug 'Torsemide',N'Uống 2 lần buổi trưa','2021-05-17',56996.31,'2235';
+EXEC insertDrug 'Pamelor',N'Uống 2 lần 1 ngày','2021-12-12',89607.82,'8232';
+EXEC insertDrug 'Sprix',N'Uống 2 lần buổi trưa','2023-06-13',45092.91,'5512';
+EXEC insertDrug 'Quinupristin and Dalfopristin',N'Uống 3 lần vào buổi tối','2022-09-23',93024.55,'4657';
+EXEC insertDrug 'Yaz',N'Uống 1 lần 5 viên','2022-09-15',95056.43,'6265';
+EXEC insertDrug 'Ethotoin',N'Uống 2 lần 1 ngày','2022-08-10',72910.33,'8880';
+EXEC insertDrug 'Dipivefrin',N'Uống 1 lần 5 viên','2023-10-21',89409.14,'9970';
+EXEC insertDrug 'Savella',N'Uống 2 lần buổi trưa','2021-07-24',11458.68,'9986';
+EXEC insertDrug 'Eligard',N'Uống 1 lần 5 viên','2022-09-26',97469.1,'3922';
+EXEC insertDrug 'Normal Saline',N'Uống 2 lần 1 ngày','2022-03-07',89301.43,'6032';
+EXEC insertDrug 'Osmitrol',N'Uống 3 lần vào buổi tối','2023-10-21',87136.34,'5269';
+EXEC insertDrug 'Mirapex',N'Uống 3 lần vào buổi tối','2023-06-22',84786.25,'2850';
+EXEC insertDrug 'Tikosyn',N'Uống 2 lần buổi trưa','2021-11-30',48174.67,'5295';
+EXEC insertDrug 'Ponstel',N'Uống 3 lần vào buổi tối','2021-07-06',3542.88,'6161';
+EXEC insertDrug 'Trimethoprim',N'Uống 2 lần 1 ngày','2022-05-29',61406.98,'1856';
+EXEC insertDrug 'OsmoPrep',N'Uống 2 lần 1 ngày','2023-11-09',43985.29,'5324';
+EXEC insertDrug 'Zolmitriptan',N'Uống 3 lần vào buổi tối','2022-07-21',73377.24,'6631';
+EXEC insertDrug 'Zafirlukast',N'Uống 2 lần buổi trưa','2022-04-19',88991.82,'7944';
+EXEC insertDrug 'Fosamax',N'Uống 2 lần buổi trưa','2022-01-20',18730.17,'2542';
+EXEC insertDrug 'Amiloride Hydrochloride',N'Uống 2 lần 1 ngày','2023-07-21',33175.39,'1850';
+EXEC insertDrug 'Auralgan',N'Uống 1 lần 5 viên','2023-12-01',57987.81,'3455';
+EXEC insertDrug 'Faslodex',N'Uống 2 lần 1 ngày','2023-06-21',33975.49,'2703';
+EXEC insertDrug 'Altace',N'Uống 3 lần vào buổi tối','2023-01-29',37831.15,'5120';
+EXEC insertDrug 'Aciphex',N'Uống 3 lần vào buổi tối','2022-08-21',89377.44,'3851';
+EXEC insertDrug 'Fareston',N'Uống 3 lần vào buổi tối','2021-10-17',29304.39,'3639';
+EXEC insertDrug 'Sitagliptin Metformin HCL',N'Uống 3 lần vào buổi tối','2022-11-09',57373.44,'7645';
+EXEC insertDrug 'Ceprotin',N'Uống 3 lần vào buổi tối','2023-09-28',24500.19,'7837';
+EXEC insertDrug 'Rotavirus Vaccine, Live, Oral',N'Uống 2 lần 1 ngày','2021-04-11',63222.83,'6587';
+EXEC insertDrug 'Mefoxin',N'Uống 2 lần buổi trưa','2022-03-13',57732.26,'3039';
+EXEC insertDrug 'Paxil',N'Uống 1 lần 5 viên','2021-06-01',19856.54,'4572';
+EXEC insertDrug 'Uniretic',N'Uống 2 lần buổi trưa','2021-03-07',66048.83,'269';
+EXEC insertDrug 'Dht',N'Uống 2 lần buổi trưa','2023-12-01',10254.57,'6996';
+EXEC insertDrug 'Dipentum',N'Uống 2 lần buổi trưa','2021-06-19',11157.77,'9112';
+EXEC insertDrug 'Unasyn',N'Uống 3 lần vào buổi tối','2023-09-26',98318.23,'9097';
+EXEC insertDrug 'Leflunomide',N'Uống 3 lần vào buổi tối','2022-02-07',96366.42,'8483';
+EXEC insertDrug 'Prevpac',N'Uống 1 lần 5 viên','2023-04-18',31661.52,'2253';
+EXEC insertDrug 'Saphris',N'Uống 2 lần 1 ngày','2023-07-31',83676.36,'6948';
+EXEC insertDrug 'Tenofovir Disoproxil Fumarate',N'Uống 2 lần 1 ngày','2022-09-16',82404.27,'5300';
+EXEC insertDrug 'Imipenem / cilastatin',N'Uống 1 lần 5 viên','2022-10-02',85679.92,'954';
+EXEC insertDrug 'Gentamicin',N'Uống 2 lần 1 ngày','2023-06-15',19730.5,'2764';
+EXEC insertDrug 'Minipress',N'Uống 2 lần 1 ngày','2023-07-05',44635.72,'8670';
+EXEC insertDrug 'Slo-phyllin',N'Uống 2 lần buổi trưa','2023-05-22',19612.94,'7463';
+EXEC insertDrug 'Gadobenate Dimeglumine',N'Uống 2 lần 1 ngày','2023-10-17',21628.5,'8078';
+EXEC insertDrug 'Lamivudine / Zidovudine',N'Uống 3 lần vào buổi tối','2022-12-15',20082.85,'8351';
+EXEC insertDrug 'Atgam',N'Uống 2 lần 1 ngày','2023-10-01',58200.47,'1659';
+EXEC insertDrug 'Romidepsin',N'Uống 1 lần 5 viên','2022-11-11',53235.84,'5463';
+EXEC insertDrug 'Valturna',N'Uống 2 lần buổi trưa','2023-06-02',12036.79,'5891';
+EXEC insertDrug 'Ethotoin',N'Uống 1 lần 5 viên','2022-01-08',93421.84,'23';
+EXEC insertDrug 'K-Tab',N'Uống 2 lần buổi trưa','2022-01-18',98736.29,'5925';
+EXEC insertDrug 'DDAVP',N'Uống 2 lần 1 ngày','2021-05-24',66309.99,'7221';
+EXEC insertDrug 'Heparin Sodium',N'Uống 1 lần 5 viên','2022-01-14',69398.96,'1239';
+EXEC insertDrug 'Micafungin Sodium',N'Uống 2 lần buổi trưa','2022-03-20',66068.2,'3144';
+EXEC insertDrug 'Aranesp',N'Uống 3 lần vào buổi tối','2021-03-29',83506.61,'938';
+EXEC insertDrug 'Erythrocin Stearate',N'Uống 3 lần vào buổi tối','2022-02-17',29725.45,'7712';
+EXEC insertDrug 'Reglan',N'Uống 1 lần 5 viên','2021-01-12',87054.6,'3443';
+EXEC insertDrug 'Cyclessa',N'Uống 1 lần 5 viên','2023-06-25',56671.1,'9966';
+EXEC insertDrug 'Thiabendazole',N'Uống 2 lần buổi trưa','2021-07-15',40785.9,'6751';
+EXEC insertDrug 'Rebif',N'Uống 3 lần vào buổi tối','2022-09-24',94068.34,'3359';
+EXEC insertDrug 'Nutropin AQ',N'Uống 2 lần 1 ngày','2021-06-04',77781.6,'754';
+EXEC insertDrug 'Infasurf',N'Uống 2 lần 1 ngày','2021-08-09',22719.67,'8758';
+EXEC insertDrug 'Dimetane',N'Uống 2 lần 1 ngày','2021-06-25',39280.0,'1780';
+EXEC insertDrug 'Bayer',N'Uống 2 lần buổi trưa','2023-03-15',75660.34,'4290';
+EXEC insertDrug 'Gatifloxacin',N'Uống 2 lần 1 ngày','2023-09-23',28132.27,'4872';
+EXEC insertDrug 'Advair Diskus',N'Uống 3 lần vào buổi tối','2023-05-02',83471.21,'3641';
+EXEC insertDrug 'Humulin N',N'Uống 1 lần 5 viên','2021-09-23',60149.64,'2905';
+EXEC insertDrug 'Loxitane',N'Uống 3 lần vào buổi tối','2021-07-23',59522.7,'8767';
+EXEC insertDrug 'Antithrombin',N'Uống 2 lần 1 ngày','2021-11-03',45892.13,'5179';
+EXEC insertDrug 'Zalcitabine',N'Uống 3 lần vào buổi tối','2021-10-14',6715.83,'7609';
+EXEC insertDrug 'Sucralfate',N'Uống 2 lần 1 ngày','2022-06-23',89134.99,'2006';
+EXEC insertDrug 'Heparin Lock Flush',N'Uống 2 lần 1 ngày','2022-05-11',46213.58,'8931';
+EXEC insertDrug 'Terconazole',N'Uống 1 lần 5 viên','2022-08-25',97469.36,'7469';
+EXEC insertDrug 'Telbivudine',N'Uống 2 lần buổi trưa','2023-08-11',5665.2,'3847';
+EXEC insertDrug 'Asmanex Twisthaler',N'Uống 2 lần buổi trưa','2023-01-01',87150.37,'3825';
+EXEC insertDrug 'Codeine',N'Uống 2 lần 1 ngày','2023-08-17',46971.1,'3659';
+EXEC insertDrug 'Januvia',N'Uống 1 lần 5 viên','2021-08-15',97269.14,'9716';
+EXEC insertDrug 'Nevirapine',N'Uống 3 lần vào buổi tối','2021-08-15',13709.71,'5332';
+EXEC insertDrug 'Zonisamide',N'Uống 1 lần 5 viên','2022-06-20',34146.26,'2855';
+EXEC insertDrug 'Trizivir',N'Uống 2 lần buổi trưa','2021-01-09',69398.6,'493';
+EXEC insertDrug 'Diphenhydramine',N'Uống 2 lần buổi trưa','2022-09-29',90733.48,'9868';
+EXEC insertDrug 'Pondimin',N'Uống 1 lần 5 viên','2022-11-20',79962.68,'4549';
+EXEC insertDrug 'Inderal',N'Uống 2 lần buổi trưa','2023-02-21',71683.73,'9010';
+EXEC insertDrug 'Fioricet',N'Uống 2 lần 1 ngày','2021-04-15',21750.34,'858';
+EXEC insertDrug 'Monistat-Derm',N'Uống 2 lần 1 ngày','2021-10-27',969.38,'8331';
+EXEC insertDrug 'Xenical',N'Uống 2 lần buổi trưa','2023-09-22',35352.48,'8727';
+EXEC insertDrug 'Persantine',N'Uống 1 lần 5 viên','2022-05-17',13113.77,'797';
+EXEC insertDrug 'Penicillin V Potassium',N'Uống 2 lần 1 ngày','2023-08-04',12527.94,'8182';
+EXEC insertDrug 'Proctofoam HC',N'Uống 1 lần 5 viên','2023-09-16',39621.99,'9466';
+EXEC insertDrug 'BiDil',N'Uống 3 lần vào buổi tối','2023-04-19',19439.87,'2386';
+EXEC insertDrug 'Elspar',N'Uống 2 lần buổi trưa','2022-11-18',44832.68,'3134';
+EXEC insertDrug 'Floxuridine',N'Uống 1 lần 5 viên','2021-10-19',39630.79,'7458';
+EXEC insertDrug 'Methenamine Hippurate',N'Uống 2 lần 1 ngày','2021-06-14',69641.7,'756';
+EXEC insertDrug 'Tricor',N'Uống 1 lần 5 viên','2021-12-12',50246.3,'5344';
+EXEC insertDrug 'Rasagiline',N'Uống 3 lần vào buổi tối','2021-06-26',92202.59,'8651';
+EXEC insertDrug 'Chloral Hydrate',N'Uống 3 lần vào buổi tối','2023-07-28',17568.71,'3144';
+EXEC insertDrug 'Tolazamide',N'Uống 1 lần 5 viên','2022-11-08',64303.83,'6702';
+EXEC insertDrug 'Pipracil',N'Uống 1 lần 5 viên','2023-11-04',35815.57,'939';
+EXEC insertDrug 'Neutrexin',N'Uống 3 lần vào buổi tối','2022-01-06',95662.32,'187';
+EXEC insertDrug 'Argatroban',N'Uống 3 lần vào buổi tối','2021-12-18',59734.4,'3173';
+EXEC insertDrug 'Ellence',N'Uống 2 lần 1 ngày','2023-03-09',73702.54,'1534';
+EXEC insertDrug 'Thiopental Sodium',N'Uống 2 lần 1 ngày','2021-11-06',80583.71,'2321';
+EXEC insertDrug 'Vitamin C',N'Uống 2 lần 1 ngày','2021-10-06',3482.87,'2606';
+EXEC insertDrug 'Enbrel',N'Uống 2 lần 1 ngày','2021-04-03',95641.75,'5022';
+EXEC insertDrug 'Dexamethasone',N'Uống 1 lần 5 viên','2023-03-24',59544.12,'6013';
+EXEC insertDrug 'Genoptic',N'Uống 1 lần 5 viên','2021-11-11',3161.53,'9616';
+EXEC insertDrug 'Armodafinil',N'Uống 2 lần buổi trưa','2021-06-28',85181.18,'9127';
+EXEC insertDrug 'Sertraline Hcl',N'Uống 3 lần vào buổi tối','2023-10-12',72550.48,'8547';
+EXEC insertDrug 'Artane',N'Uống 3 lần vào buổi tối','2022-01-24',4146.17,'6550';
+EXEC insertDrug 'Differin',N'Uống 2 lần 1 ngày','2023-04-30',23504.46,'855';
+EXEC insertDrug 'Entacapone',N'Uống 3 lần vào buổi tối','2022-11-27',52427.55,'7575';
+EXEC insertDrug 'Kenalog',N'Uống 3 lần vào buổi tối','2021-06-24',90180.6,'9663';
+EXEC insertDrug 'Bisoprolol Fumarate',N'Uống 2 lần 1 ngày','2022-11-15',4884.38,'4038';
+EXEC insertDrug 'Sertaconazole Nitrate',N'Uống 2 lần buổi trưa','2023-04-09',91520.1,'5744';
+EXEC insertDrug 'Sodium Iodide I 131',N'Uống 2 lần buổi trưa','2023-10-09',71851.12,'9048';
+EXEC insertDrug 'HepaGam B',N'Uống 2 lần 1 ngày','2023-01-24',14931.51,'3413';
+EXEC insertDrug 'Clonidine',N'Uống 2 lần buổi trưa','2022-08-22',30973.72,'8132';
+EXEC insertDrug 'Amerge',N'Uống 2 lần 1 ngày','2021-08-13',45222.6,'2156';
+EXEC insertDrug 'Pred Forte',N'Uống 2 lần buổi trưa','2022-11-16',47485.76,'5028';
+EXEC insertDrug 'Hyalgan',N'Uống 2 lần 1 ngày','2023-06-26',89241.0,'1945';
+EXEC insertDrug 'Naratriptan',N'Uống 2 lần 1 ngày','2021-10-26',46538.2,'3588';
+EXEC insertDrug 'Oxycodone and Acetaminophen',N'Uống 2 lần buổi trưa','2023-04-15',14813.0,'7805';
+EXEC insertDrug 'Darvon Compound',N'Uống 2 lần buổi trưa','2021-02-19',5372.7,'7389';
+EXEC insertDrug 'Ergomar',N'Uống 1 lần 5 viên','2023-08-14',47762.7,'3854';
+EXEC insertDrug 'Estrace',N'Uống 2 lần buổi trưa','2022-09-18',85293.57,'7974';
+EXEC insertDrug 'Rufinamide',N'Uống 3 lần vào buổi tối','2023-11-10',26250.24,'121';
+EXEC insertDrug 'Bretylium',N'Uống 1 lần 5 viên','2023-01-06',8412.17,'2685';
+EXEC insertDrug 'Astepro',N'Uống 3 lần vào buổi tối','2023-02-12',71841.2,'5581';
+EXEC insertDrug 'Osmitrol',N'Uống 1 lần 5 viên','2021-06-22',66096.71,'4021';
+EXEC insertDrug 'Theo-24',N'Uống 2 lần 1 ngày','2021-02-04',54839.53,'6763';
+EXEC insertDrug 'Cefotaxime',N'Uống 2 lần buổi trưa','2022-11-11',59312.91,'9176';
+EXEC insertDrug 'Captopril',N'Uống 2 lần 1 ngày','2021-10-28',44331.34,'2232';
+EXEC insertDrug 'Glucophage XR',N'Uống 2 lần 1 ngày','2021-07-31',69210.84,'2891';
+EXEC insertDrug 'Aprotinin',N'Uống 2 lần buổi trưa','2021-09-11',51033.33,'3615';
+EXEC insertDrug 'Elspar',N'Uống 2 lần buổi trưa','2022-12-09',27120.24,'5371';
+EXEC insertDrug 'Ifosfamide',N'Uống 1 lần 5 viên','2023-04-15',16434.39,'6701';
+EXEC insertDrug 'Nor-QD',N'Uống 1 lần 5 viên','2023-11-08',73184.3,'8945';
+EXEC insertDrug 'Mycamine',N'Uống 2 lần 1 ngày','2022-06-28',7426.49,'1056';
+EXEC insertDrug 'Exubera',N'Uống 2 lần 1 ngày','2021-04-17',95717.14,'8636';
+EXEC insertDrug 'Foradil Aerolizer',N'Uống 2 lần 1 ngày','2021-01-10',96461.35,'8176';
+EXEC insertDrug 'Sufenta',N'Uống 2 lần buổi trưa','2022-10-05',90422.7,'2257';
+EXEC insertDrug 'Selenium',N'Uống 1 lần 5 viên','2022-01-23',85676.43,'8536';
+EXEC insertDrug 'Edluar',N'Uống 2 lần buổi trưa','2022-12-20',59882.44,'8282';
+EXEC insertDrug 'Mylotarg',N'Uống 2 lần buổi trưa','2022-08-19',51046.67,'1403';
+EXEC insertDrug 'Zetia',N'Uống 2 lần buổi trưa','2021-07-31',75631.7,'8891';
+EXEC insertDrug 'Physostigmine Salicylate',N'Uống 2 lần 1 ngày','2021-05-26',22427.55,'4112';
+EXEC insertDrug 'Persantine IV',N'Uống 3 lần vào buổi tối','2022-09-08',81308.4,'9442';
+EXEC insertDrug 'Avandaryl',N'Uống 1 lần 5 viên','2022-05-30',68694.97,'5686';
+EXEC insertDrug 'NuvaRing',N'Uống 1 lần 5 viên','2023-01-07',44152.71,'9109';
+EXEC insertDrug 'Adefovir Dipivoxil',N'Uống 2 lần buổi trưa','2022-10-09',69353.48,'3858';
+EXEC insertDrug 'PlasmaLyte A',N'Uống 2 lần buổi trưa','2023-12-09',79867.71,'3732';
+EXEC insertDrug 'Theophylline',N'Uống 2 lần buổi trưa','2023-05-20',82427.26,'5288';
+EXEC insertDrug 'Vantin',N'Uống 1 lần 5 viên','2022-06-15',90973.82,'4667';
+EXEC insertDrug 'Riluzole',N'Uống 1 lần 5 viên','2022-07-21',82717.77,'2015';
+EXEC insertDrug 'Bupropion Hcl',N'Uống 2 lần 1 ngày','2022-02-24',55193.92,'2315';
+EXEC insertDrug 'Nubain',N'Uống 1 lần 5 viên','2023-10-03',84121.1,'9767';
+EXEC insertDrug 'Levsin SL',N'Uống 3 lần vào buổi tối','2021-09-03',35692.87,'5776';
+EXEC insertDrug 'Xeomin',N'Uống 2 lần buổi trưa','2022-01-13',67007.38,'6601';
+EXEC insertDrug 'Mebaral',N'Uống 2 lần 1 ngày','2022-06-22',52974.19,'6785';
+EXEC insertDrug 'Symbyax',N'Uống 2 lần 1 ngày','2023-03-13',24798.43,'9744';
+EXEC insertDrug 'Felbatol',N'Uống 2 lần 1 ngày','2023-09-25',84098.7,'1894';
+EXEC insertDrug 'Insulin',N'Uống 2 lần buổi trưa','2021-03-10',66639.38,'5592';
+EXEC insertDrug 'Suprax',N'Uống 3 lần vào buổi tối','2022-11-09',9911.96,'4659';
+EXEC insertDrug 'Hytrin',N'Uống 2 lần 1 ngày','2022-03-12',43581.12,'5865';
+EXEC insertDrug 'Unithroid',N'Uống 1 lần 5 viên','2021-12-16',40530.85,'311';
+EXEC insertDrug 'Dynapen',N'Uống 3 lần vào buổi tối','2022-01-14',33656.14,'385';
+EXEC insertDrug 'Phoslo',N'Uống 2 lần buổi trưa','2023-10-28',22151.46,'8198';
+EXEC insertDrug 'Exforge HCT',N'Uống 2 lần 1 ngày','2023-06-29',57399.63,'8676';
+EXEC insertDrug 'Erythromycin Ethylsuccinate',N'Uống 1 lần 5 viên','2021-11-20',97103.13,'7001';
+EXEC insertDrug 'Lexiva',N'Uống 3 lần vào buổi tối','2022-10-31',11031.9,'4584';
+EXEC insertDrug 'Azelex',N'Uống 1 lần 5 viên','2022-10-24',5506.76,'4064';
+EXEC insertDrug 'Robitussin Ac',N'Uống 2 lần 1 ngày','2022-09-07',1754.16,'7990';
+EXEC insertDrug 'Rabavert',N'Uống 2 lần buổi trưa','2023-04-14',11139.81,'9146';
+EXEC insertDrug 'Tapazole',N'Uống 2 lần 1 ngày','2022-02-03',18645.58,'6790';
+EXEC insertDrug 'Adenoscan',N'Uống 2 lần buổi trưa','2021-02-13',6881.31,'8836';
+EXEC insertDrug 'Levoleucovorin',N'Uống 1 lần 5 viên','2022-08-27',62732.38,'6193';
+EXEC insertDrug 'Cleocin T',N'Uống 1 lần 5 viên','2023-01-03',82196.7,'11';
+EXEC insertDrug 'Blenoxane',N'Uống 3 lần vào buổi tối','2023-09-18',13076.8,'3777';
+EXEC insertDrug 'Botulinum Toxin Type A',N'Uống 2 lần buổi trưa','2023-10-06',77295.43,'6915';
+EXEC insertDrug 'Norflex',N'Uống 1 lần 5 viên','2023-04-16',90579.69,'8122';
+EXEC insertDrug 'Tioconazole',N'Uống 1 lần 5 viên','2022-08-16',69746.94,'7539';
+EXEC insertDrug 'Sodium Lactate',N'Uống 2 lần buổi trưa','2021-03-20',32594.78,'307';
+EXEC insertDrug 'Cyanokit',N'Uống 2 lần 1 ngày','2022-09-20',91506.3,'4037';
+EXEC insertDrug 'Motrin',N'Uống 1 lần 5 viên','2022-08-17',73936.17,'2992';
+EXEC insertDrug 'Ganirelix Acetate Injection',N'Uống 1 lần 5 viên','2022-01-06',59847.81,'6682';
+EXEC insertDrug 'Tenormin',N'Uống 2 lần 1 ngày','2023-02-22',58802.25,'914';
+EXEC insertDrug 'Sevelamer Hcl',N'Uống 2 lần buổi trưa','2021-09-10',50319.68,'1951';
+EXEC insertDrug 'Prostin E2',N'Uống 2 lần buổi trưa','2023-05-20',41272.56,'6989';
+EXEC insertDrug 'Demulen',N'Uống 2 lần buổi trưa','2022-07-18',93877.26,'6440';
+EXEC insertDrug 'Antivenin',N'Uống 2 lần 1 ngày','2022-08-17',84720.74,'9221';
+EXEC insertDrug 'Timolol',N'Uống 1 lần 5 viên','2023-08-13',59321.9,'3995';
+EXEC insertDrug 'Rasagiline',N'Uống 3 lần vào buổi tối','2021-12-03',78823.2,'3667';
+EXEC insertDrug 'Provisc',N'Uống 2 lần 1 ngày','2021-12-12',51698.98,'8247';
+EXEC insertDrug 'Opana ER',N'Uống 1 lần 5 viên','2021-06-17',18480.58,'6636';
+EXEC insertDrug 'Lodoxamide Tromethamine',N'Uống 1 lần 5 viên','2022-01-04',2637.57,'4916';
+EXEC insertDrug 'Atripla',N'Uống 2 lần 1 ngày','2022-04-07',99221.78,'780';
+EXEC insertDrug 'Helidac',N'Uống 3 lần vào buổi tối','2021-09-14',92588.87,'6390';
+EXEC insertDrug 'Sporanox Oral Solution',N'Uống 3 lần vào buổi tối','2023-07-30',30703.71,'9444';
+EXEC insertDrug 'Physostigmine Salicylate',N'Uống 3 lần vào buổi tối','2023-09-14',48628.46,'2109';
+EXEC insertDrug 'Advair HFA',N'Uống 2 lần buổi trưa','2022-07-18',42724.34,'6473';
+EXEC insertDrug 'Uloric',N'Uống 3 lần vào buổi tối','2023-01-13',54143.12,'9453';
+EXEC insertDrug 'Donepezil Hydrochloride',N'Uống 2 lần buổi trưa','2022-05-17',16444.58,'4911';
+EXEC insertDrug 'Progesterone',N'Uống 2 lần buổi trưa','2023-09-06',13461.16,'784';
+EXEC insertDrug 'Irinotecan Hydrochloride',N'Uống 2 lần buổi trưa','2021-06-07',96799.98,'8006';
+EXEC insertDrug 'Qualaquin',N'Uống 2 lần buổi trưa','2021-10-27',34577.81,'4785';
+EXEC insertDrug 'Zidovudine',N'Uống 2 lần buổi trưa','2023-08-10',72213.2,'2144';
+EXEC insertDrug 'Amitriptyline',N'Uống 2 lần 1 ngày','2022-06-27',59696.8,'7902';
+EXEC insertDrug 'Thioridazine',N'Uống 2 lần buổi trưa','2021-03-09',33720.85,'8453';
+EXEC insertDrug 'Dalmane',N'Uống 2 lần buổi trưa','2023-11-23',86604.95,'2799';
+EXEC insertDrug 'Zestoretic',N'Uống 2 lần 1 ngày','2023-10-26',95188.27,'8240';
+EXEC insertDrug 'Chlorambucil',N'Uống 2 lần buổi trưa','2022-07-24',52438.75,'8681';
+EXEC insertDrug 'Podocon-25',N'Uống 3 lần vào buổi tối','2023-06-14',2564.72,'5582';
+EXEC insertDrug 'Levodopa',N'Uống 3 lần vào buổi tối','2021-11-01',26972.12,'8582';
+EXEC insertDrug 'Onglyza',N'Uống 2 lần buổi trưa','2022-03-20',65773.88,'2856';
+EXEC insertDrug 'DDAVP Rhinal Tube',N'Uống 3 lần vào buổi tối','2023-07-27',67296.89,'8744';
+EXEC insertDrug 'Omalizumab',N'Uống 2 lần buổi trưa','2022-10-25',73237.17,'2315';
+EXEC insertDrug 'Diflucan',N'Uống 2 lần 1 ngày','2021-09-24',8126.38,'9309';
+EXEC insertDrug 'Asmanex Twisthaler',N'Uống 3 lần vào buổi tối','2021-07-17',81707.22,'3538';
+EXEC insertDrug 'Myambutol',N'Uống 1 lần 5 viên','2022-01-26',57252.1,'3934';
+EXEC insertDrug 'Oforta',N'Uống 2 lần 1 ngày','2021-11-30',75201.28,'767';
+EXEC insertDrug 'Oxytocin',N'Uống 1 lần 5 viên','2021-08-08',29189.9,'1843';
+EXEC insertDrug 'Dostinex',N'Uống 2 lần buổi trưa','2022-07-10',42360.55,'7812';
+EXEC insertDrug 'Klaron',N'Uống 1 lần 5 viên','2021-03-31',48168.24,'8051';
+EXEC insertDrug 'Pegaspargase',N'Uống 3 lần vào buổi tối','2021-11-21',21362.42,'613';
+EXEC insertDrug 'Teslascan',N'Uống 2 lần 1 ngày','2021-10-28',12787.4,'9754';
+EXEC insertDrug 'Panretin',N'Uống 2 lần buổi trưa','2023-02-09',97783.11,'7838';
+EXEC insertDrug 'Fentanyl Buccal',N'Uống 1 lần 5 viên','2022-06-11',54599.97,'5809';
+EXEC insertDrug 'Piroxicam',N'Uống 2 lần buổi trưa','2023-11-05',95802.97,'9329';
+EXEC insertDrug 'Topotecan Hydrochloride',N'Uống 2 lần buổi trưa','2021-07-29',35048.53,'7000';
+EXEC insertDrug 'Hectorol',N'Uống 1 lần 5 viên','2023-06-20',64593.91,'3738';
+EXEC insertDrug 'Ofloxacin',N'Uống 1 lần 5 viên','2022-10-09',58982.9,'6477';
+EXEC insertDrug 'Ziagen',N'Uống 1 lần 5 viên','2021-04-28',18707.85,'3265';
+EXEC insertDrug 'Treprostinil',N'Uống 2 lần buổi trưa','2022-04-05',78127.78,'2856';
+EXEC insertDrug 'Cetirizine',N'Uống 2 lần buổi trưa','2023-04-28',16681.21,'8760';
+EXEC insertDrug 'Buprenex',N'Uống 2 lần buổi trưa','2023-02-09',19212.58,'6853';
+EXEC insertDrug 'Provocholine',N'Uống 2 lần 1 ngày','2021-08-16',1113.94,'2438';
+EXEC insertDrug 'Zemplar',N'Uống 2 lần buổi trưa','2022-11-23',23931.85,'2023';
+EXEC insertDrug 'Micro-K',N'Uống 2 lần 1 ngày','2023-06-07',32196.8,'9808';
+EXEC insertDrug 'Nuromax',N'Uống 2 lần 1 ngày','2021-08-15',78736.85,'7835';
+EXEC insertDrug 'Methocarbamol',N'Uống 2 lần 1 ngày','2021-05-04',42911.26,'336';
+EXEC insertDrug 'Maxipime',N'Uống 2 lần buổi trưa','2022-06-14',63554.67,'2510';
+EXEC insertDrug 'Nasalcrom',N'Uống 3 lần vào buổi tối','2021-07-18',10397.38,'7456';
+EXEC insertDrug 'Bisoprolol Fumarate',N'Uống 2 lần 1 ngày','2021-06-08',22238.17,'5716';
+EXEC insertDrug 'Methacholine Chloride',N'Uống 3 lần vào buổi tối','2023-05-28',71612.69,'33';
+EXEC insertDrug 'Pediotic',N'Uống 2 lần buổi trưa','2022-04-07',24890.95,'5515';
+EXEC insertDrug 'Hexalen',N'Uống 1 lần 5 viên','2021-03-13',73561.34,'4216';
+EXEC insertDrug 'Deltasone',N'Uống 2 lần 1 ngày','2022-09-28',89322.8,'7254';
+EXEC insertDrug 'Theolair',N'Uống 1 lần 5 viên','2022-04-07',59251.4,'4507';
+EXEC insertDrug 'Clorpres',N'Uống 2 lần buổi trưa','2023-11-02',80297.3,'6947';
+EXEC insertDrug 'Pralatrexate',N'Uống 3 lần vào buổi tối','2022-04-30',72507.58,'8577';
+
+
+EXEC insertContradiction '00664','DR030',N'Khó thở';
+EXEC insertContradiction '00105','DR243',N'Ho';
+EXEC insertContradiction '00384','DR021',N'Tăng huyết áp';
+EXEC insertContradiction '00103','DR174',N'Suy thận';
+EXEC insertContradiction '00091','DR121',N'Tăng huyết áp';
+EXEC insertContradiction '00245','DR107',N'Hạ huyết áp';
+EXEC insertContradiction '00491','DR148',N'Phát ban';
+EXEC insertContradiction '00741','DR263',N'Ho';
+EXEC insertContradiction '00276','DR040',N'Ho';
+EXEC insertContradiction '00620','DR005',N'Khó thở';
+EXEC insertContradiction '00225','DR211',N'Buồn nôn';
+EXEC insertContradiction '00376','DR028',N'Ho';
+EXEC insertContradiction '00819','DR025',N'Tăng huyết áp';
+EXEC insertContradiction '00602','DR198',N'Suy thận';
+EXEC insertContradiction '00888','DR117',N'Sốc phản vệ';
+EXEC insertContradiction '00036','DR028',N'Suy thận';
+EXEC insertContradiction '00477','DR182',N'Sốc phản vệ';
+EXEC insertContradiction '00746','DR054',N'Sốc phản vệ';
+EXEC insertContradiction '00742','DR177',N'Sốc phản vệ';
+EXEC insertContradiction '00522','DR193',N'Khó thở';
+EXEC insertContradiction '00514','DR034',N'Buồn nôn';
+EXEC insertContradiction '00820','DR198',N'Khó thở';
+EXEC insertContradiction '00942','DR250',N'Tăng huyết áp';
+EXEC insertContradiction '00097','DR102',N'Khó thở';
+EXEC insertContradiction '00449','DR123',N'Ho';
+EXEC insertContradiction '00650','DR165',N'Tăng huyết áp';
+EXEC insertContradiction '00102','DR024',N'Tiêu chảy';
+EXEC insertContradiction '00541','DR262',N'Suy gan';
+EXEC insertContradiction '00088','DR171',N'Phát ban';
+EXEC insertContradiction '00334','DR264',N'Khó thở';
+EXEC insertContradiction '00953','DR160',N'Khó thở';
+EXEC insertContradiction '00726','DR148',N'Tiêu chảy';
+EXEC insertContradiction '00022','DR150',N'Phát ban';
+EXEC insertContradiction '00664','DR002',N'Khó thở';
+EXEC insertContradiction '00195','DR216',N'Ho';
+EXEC insertContradiction '00963','DR142',N'Ho';
+EXEC insertContradiction '00922','DR131',N'Ho';
+EXEC insertContradiction '00431','DR026',N'Hạ huyết áp';
+EXEC insertContradiction '00104','DR276',N'Tiêu chảy';
+EXEC insertContradiction '00587','DR178',N'Buồn nôn';
+EXEC insertContradiction '00971','DR236',N'Buồn nôn';
+EXEC insertContradiction '00893','DR286',N'Hạ huyết áp';
+EXEC insertContradiction '00738','DR148',N'Suy thận';
+EXEC insertContradiction '00916','DR283',N'Khó thở';
+EXEC insertContradiction '00087','DR126',N'Hạ huyết áp';
+EXEC insertContradiction '00246','DR261',N'Buồn nôn';
+EXEC insertContradiction '00686','DR199',N'Hạ huyết áp';
+EXEC insertContradiction '00056','DR060',N'Buồn nôn';
+EXEC insertContradiction '00750','DR057',N'Tiêu chảy';
+EXEC insertContradiction '00755','DR092',N'Buồn nôn';
+EXEC insertContradiction '00091','DR117',N'Buồn nôn';
+EXEC insertContradiction '00294','DR073',N'Suy thận';
+EXEC insertContradiction '00876','DR057',N'Ho';
+EXEC insertContradiction '00785','DR065',N'Khó thở';
+EXEC insertContradiction '00278','DR005',N'Buồn nôn';
+EXEC insertContradiction '00500','DR001',N'Tiêu chảy';
+EXEC insertContradiction '00196','DR160',N'Sốc phản vệ';
+EXEC insertContradiction '00546','DR293',N'Suy gan';
+EXEC insertContradiction '00013','DR263',N'Hạ huyết áp';
+EXEC insertContradiction '00826','DR092',N'Ho';
+EXEC insertContradiction '00541','DR081',N'Tiêu chảy';
+EXEC insertContradiction '00472','DR289',N'Khó thở';
+EXEC insertContradiction '00693','DR237',N'Khó thở';
+EXEC insertContradiction '00151','DR152',N'Suy thận';
+EXEC insertContradiction '00833','DR211',N'Phát ban';
+EXEC insertContradiction '00852','DR238',N'Sốc phản vệ';
+EXEC insertContradiction '00653','DR171',N'Phát ban';
+EXEC insertContradiction '00067','DR140',N'Ho';
+EXEC insertContradiction '00944','DR050',N'Phát ban';
+EXEC insertContradiction '00081','DR162',N'Suy gan';
+EXEC insertContradiction '00884','DR230',N'Sốc phản vệ';
+EXEC insertContradiction '00963','DR231',N'Tiêu chảy';
+EXEC insertContradiction '00001','DR006',N'Tăng huyết áp';
+EXEC insertContradiction '00164','DR185',N'Suy gan';
+EXEC insertContradiction '00315','DR286',N'Phát ban';
+EXEC insertContradiction '00477','DR292',N'Khó thở';
+EXEC insertContradiction '00201','DR299',N'Suy thận';
+EXEC insertContradiction '00835','DR264',N'Khó thở';
+EXEC insertContradiction '00717','DR170',N'Suy gan';
+EXEC insertContradiction '00330','DR090',N'Buồn nôn';
+EXEC insertContradiction '00353','DR231',N'Hạ huyết áp';
+EXEC insertContradiction '00039','DR187',N'Suy gan';
+EXEC insertContradiction '00850','DR217',N'Tiêu chảy';
+EXEC insertContradiction '00819','DR071',N'Phát ban';
+EXEC insertContradiction '00175','DR061',N'Ho';
+EXEC insertContradiction '00531','DR205',N'Suy gan';
+EXEC insertContradiction '00203','DR276',N'Tiêu chảy';
+EXEC insertContradiction '00956','DR169',N'Suy thận';
+EXEC insertContradiction '00261','DR020',N'Hạ huyết áp';
+EXEC insertContradiction '00488','DR042',N'Suy thận';
+EXEC insertContradiction '00950','DR202',N'Hạ huyết áp';
+EXEC insertContradiction '00013','DR138',N'Sốc phản vệ';
+EXEC insertContradiction '00416','DR006',N'Tăng huyết áp';
+EXEC insertContradiction '00697','DR106',N'Phát ban';
+EXEC insertContradiction '00802','DR039',N'Suy gan';
+EXEC insertContradiction '00787','DR208',N'Suy thận';
+EXEC insertContradiction '00712','DR205',N'Tăng huyết áp';
+EXEC insertContradiction '00303','DR294',N'Ho';
+EXEC insertContradiction '00220','DR249',N'Tiêu chảy';
+EXEC insertContradiction '00497','DR116',N'Suy gan';
+EXEC insertContradiction '00389','DR053',N'Tăng huyết áp';
+EXEC insertContradiction '00267','DR089',N'Phát ban';
+EXEC insertContradiction '00213','DR138',N'Suy gan';
+EXEC insertContradiction '00689','DR075',N'Hạ huyết áp';
+EXEC insertContradiction '00985','DR188',N'Buồn nôn';
+EXEC insertContradiction '00731','DR161',N'Phát ban';
+EXEC insertContradiction '00906','DR021',N'Phát ban';
+EXEC insertContradiction '00844','DR120',N'Phát ban';
+EXEC insertContradiction '00542','DR161',N'Buồn nôn';
+EXEC insertContradiction '00927','DR003',N'Tăng huyết áp';
+EXEC insertContradiction '00695','DR113',N'Phát ban';
+EXEC insertContradiction '00528','DR267',N'Suy thận';
+EXEC insertContradiction '00900','DR086',N'Tăng huyết áp';
+EXEC insertContradiction '00459','DR082',N'Buồn nôn';
+EXEC insertContradiction '01000','DR011',N'Ho';
+EXEC insertContradiction '00985','DR056',N'Phát ban';
+EXEC insertContradiction '00106','DR241',N'Suy thận';
+EXEC insertContradiction '00357','DR273',N'Hạ huyết áp';
+EXEC insertContradiction '00140','DR273',N'Sốc phản vệ';
+EXEC insertContradiction '00587','DR190',N'Khó thở';
+EXEC insertContradiction '00711','DR274',N'Phát ban';
+EXEC insertContradiction '00697','DR148',N'Tiêu chảy';
+EXEC insertContradiction '00940','DR067',N'Sốc phản vệ';
+EXEC insertContradiction '00327','DR067',N'Ho';
+EXEC insertContradiction '00103','DR150',N'Tăng huyết áp';
+EXEC insertContradiction '00392','DR175',N'Suy thận';
+EXEC insertContradiction '00806','DR193',N'Suy thận';
+EXEC insertContradiction '00077','DR137',N'Tăng huyết áp';
+EXEC insertContradiction '00759','DR079',N'Phát ban';
+EXEC insertContradiction '00079','DR118',N'Suy thận';
+EXEC insertContradiction '00750','DR015',N'Hạ huyết áp';
+EXEC insertContradiction '00682','DR090',N'Suy gan';
+EXEC insertContradiction '00540','DR125',N'Tăng huyết áp';
+EXEC insertContradiction '00942','DR257',N'Ho';
+EXEC insertContradiction '00850','DR137',N'Suy thận';
+EXEC insertContradiction '00021','DR243',N'Sốc phản vệ';
+EXEC insertContradiction '00835','DR084',N'Khó thở';
+EXEC insertContradiction '00924','DR038',N'Sốc phản vệ';
+EXEC insertContradiction '00062','DR226',N'Tiêu chảy';
+EXEC insertContradiction '00640','DR150',N'Phát ban';
+EXEC insertContradiction '00925','DR057',N'Sốc phản vệ';
+EXEC insertContradiction '00780','DR265',N'Hạ huyết áp';
+EXEC insertContradiction '00062','DR087',N'Khó thở';
+EXEC insertContradiction '00886','DR035',N'Buồn nôn';
+EXEC insertContradiction '00708','DR087',N'Hạ huyết áp';
+EXEC insertContradiction '00766','DR226',N'Ho';
+EXEC insertContradiction '00137','DR055',N'Sốc phản vệ';
+EXEC insertContradiction '00396','DR071',N'Sốc phản vệ';
+EXEC insertContradiction '00595','DR099',N'Ho';
+EXEC insertContradiction '00743','DR043',N'Buồn nôn';
+EXEC insertContradiction '00840','DR022',N'Suy thận';
+EXEC insertContradiction '00955','DR248',N'Ho';
+EXEC insertContradiction '00609','DR012',N'Hạ huyết áp';
+EXEC insertContradiction '00606','DR250',N'Phát ban';
+EXEC insertContradiction '00209','DR300',N'Suy thận';
+EXEC insertContradiction '00803','DR284',N'Sốc phản vệ';
+EXEC insertContradiction '00300','DR011',N'Suy thận';
+EXEC insertContradiction '00879','DR252',N'Sốc phản vệ';
+EXEC insertContradiction '00256','DR044',N'Buồn nôn';
+EXEC insertContradiction '00376','DR241',N'Tiêu chảy';
+EXEC insertContradiction '00591','DR009',N'Suy thận';
+EXEC insertContradiction '00073','DR290',N'Tăng huyết áp';
+EXEC insertContradiction '00700','DR246',N'Phát ban';
+EXEC insertContradiction '00103','DR069',N'Hạ huyết áp';
+EXEC insertContradiction '00170','DR169',N'Khó thở';
+EXEC insertContradiction '00777','DR018',N'Suy thận';
+EXEC insertContradiction '00591','DR022',N'Suy gan';
+EXEC insertContradiction '00528','DR219',N'Suy gan';
+EXEC insertContradiction '00910','DR159',N'Tăng huyết áp';
+EXEC insertContradiction '00612','DR116',N'Ho';
+EXEC insertContradiction '00650','DR222',N'Suy thận';
+EXEC insertContradiction '00824','DR159',N'Sốc phản vệ';
+EXEC insertContradiction '00786','DR278',N'Buồn nôn';
+EXEC insertContradiction '00480','DR071',N'Ho';
+EXEC insertContradiction '00634','DR138',N'Khó thở';
+EXEC insertContradiction '00404','DR244',N'Tiêu chảy';
+EXEC insertContradiction '00816','DR103',N'Suy gan';
+EXEC insertContradiction '00526','DR292',N'Suy thận';
+EXEC insertContradiction '00502','DR150',N'Khó thở';
+EXEC insertContradiction '00912','DR133',N'Ho';
+EXEC insertContradiction '00136','DR033',N'Ho';
+EXEC insertContradiction '00569','DR252',N'Sốc phản vệ';
+EXEC insertContradiction '00896','DR242',N'Tiêu chảy';
+EXEC insertContradiction '00004','DR024',N'Khó thở';
+EXEC insertContradiction '00248','DR207',N'Suy thận';
+EXEC insertContradiction '00911','DR078',N'Tăng huyết áp';
+EXEC insertContradiction '00758','DR063',N'Suy gan';
+EXEC insertContradiction '00342','DR031',N'Suy thận';
+EXEC insertContradiction '00064','DR258',N'Sốc phản vệ';
+EXEC insertContradiction '00745','DR179',N'Phát ban';
+EXEC insertContradiction '00075','DR167',N'Hạ huyết áp';
+EXEC insertContradiction '00093','DR030',N'Hạ huyết áp';
+EXEC insertContradiction '00818','DR154',N'Suy gan';
+EXEC insertContradiction '00993','DR255',N'Khó thở';
+EXEC insertContradiction '00241','DR052',N'Suy gan';
+EXEC insertContradiction '00836','DR287',N'Buồn nôn';
+EXEC insertContradiction '00756','DR176',N'Sốc phản vệ';
+EXEC insertContradiction '00037','DR242',N'Khó thở';
+EXEC insertContradiction '00255','DR119',N'Ho';
+EXEC insertContradiction '00537','DR114',N'Phát ban';
+EXEC insertContradiction '00361','DR269',N'Sốc phản vệ';
+EXEC insertContradiction '00844','DR062',N'Khó thở';
+EXEC insertContradiction '00788','DR076',N'Phát ban';
+EXEC insertContradiction '00234','DR108',N'Tiêu chảy';
+EXEC insertContradiction '00728','DR134',N'Hạ huyết áp';
+EXEC insertContradiction '00913','DR210',N'Tiêu chảy';
+EXEC insertContradiction '00470','DR226',N'Ho';
+EXEC insertContradiction '00205','DR206',N'Suy thận';
+EXEC insertContradiction '00544','DR128',N'Ho';
+EXEC insertContradiction '00737','DR294',N'Khó thở';
+EXEC insertContradiction '00349','DR046',N'Buồn nôn';
+EXEC insertContradiction '00301','DR093',N'Tiêu chảy';
+EXEC insertContradiction '00565','DR152',N'Tăng huyết áp';
+EXEC insertContradiction '00452','DR153',N'Tăng huyết áp';
+EXEC insertContradiction '00074','DR243',N'Khó thở';
+EXEC insertContradiction '00088','DR295',N'Tiêu chảy';
+EXEC insertContradiction '00110','DR016',N'Suy thận';
+EXEC insertContradiction '00053','DR111',N'Sốc phản vệ';
+EXEC insertContradiction '00921','DR121',N'Khó thở';
+EXEC insertContradiction '00005','DR223',N'Tiêu chảy';
+EXEC insertContradiction '00228','DR098',N'Tăng huyết áp';
+EXEC insertContradiction '00742','DR129',N'Tiêu chảy';
+EXEC insertContradiction '00024','DR168',N'Suy thận';
+EXEC insertContradiction '00241','DR242',N'Suy thận';
+EXEC insertContradiction '00789','DR037',N'Tiêu chảy';
+EXEC insertContradiction '00240','DR090',N'Tăng huyết áp';
+EXEC insertContradiction '00778','DR140',N'Phát ban';
+EXEC insertContradiction '00955','DR015',N'Hạ huyết áp';
+EXEC insertContradiction '00234','DR274',N'Hạ huyết áp';
+EXEC insertContradiction '00895','DR259',N'Suy thận';
+EXEC insertContradiction '00165','DR090',N'Phát ban';
+EXEC insertContradiction '00708','DR139',N'Tiêu chảy';
+EXEC insertContradiction '00027','DR019',N'Hạ huyết áp';
+EXEC insertContradiction '00076','DR096',N'Sốc phản vệ';
+EXEC insertContradiction '00266','DR004',N'Suy thận';
+EXEC insertContradiction '00281','DR035',N'Phát ban';
+EXEC insertContradiction '00161','DR198',N'Hạ huyết áp';
+EXEC insertContradiction '00500','DR224',N'Phát ban';
+EXEC insertContradiction '00873','DR043',N'Hạ huyết áp';
+EXEC insertContradiction '00588','DR129',N'Khó thở';
+EXEC insertContradiction '00386','DR257',N'Buồn nôn';
+EXEC insertContradiction '00839','DR196',N'Sốc phản vệ';
+EXEC insertContradiction '00542','DR129',N'Phát ban';
+EXEC insertContradiction '00703','DR259',N'Suy gan';
+EXEC insertContradiction '00032','DR131',N'Tăng huyết áp';
+EXEC insertContradiction '00593','DR181',N'Buồn nôn';
+EXEC insertContradiction '00054','DR242',N'Tiêu chảy';
+EXEC insertContradiction '00890','DR128',N'Hạ huyết áp';
+EXEC insertContradiction '00207','DR087',N'Buồn nôn';
+EXEC insertContradiction '00892','DR136',N'Buồn nôn';
+EXEC insertContradiction '00153','DR278',N'Sốc phản vệ';
+EXEC insertContradiction '00497','DR052',N'Hạ huyết áp';
+EXEC insertContradiction '00107','DR200',N'Hạ huyết áp';
+EXEC insertContradiction '00231','DR017',N'Sốc phản vệ';
+EXEC insertContradiction '00150','DR260',N'Suy gan';
+EXEC insertContradiction '00915','DR235',N'Tăng huyết áp';
+EXEC insertContradiction '00687','DR040',N'Buồn nôn';
+EXEC insertContradiction '00042','DR012',N'Suy gan';
+EXEC insertContradiction '00115','DR138',N'Suy gan';
+EXEC insertContradiction '00056','DR265',N'Suy gan';
+EXEC insertContradiction '00533','DR244',N'Tăng huyết áp';
+EXEC insertContradiction '00208','DR060',N'Khó thở';
+EXEC insertContradiction '00687','DR262',N'Tăng huyết áp';
+EXEC insertContradiction '00530','DR051',N'Khó thở';
+EXEC insertContradiction '00206','DR124',N'Suy thận';
+EXEC insertContradiction '00212','DR236',N'Tiêu chảy';
+EXEC insertContradiction '00226','DR147',N'Suy thận';
+EXEC insertContradiction '00745','DR053',N'Suy gan';
+EXEC insertContradiction '00052','DR170',N'Ho';
+EXEC insertContradiction '00736','DR111',N'Khó thở';
+EXEC insertContradiction '00289','DR061',N'Tăng huyết áp';
+EXEC insertContradiction '00547','DR290',N'Tiêu chảy';
+EXEC insertContradiction '00621','DR245',N'Tăng huyết áp';
+EXEC insertContradiction '00118','DR286',N'Khó thở';
+EXEC insertContradiction '00054','DR018',N'Hạ huyết áp';
+EXEC insertContradiction '00214','DR198',N'Tăng huyết áp';
+EXEC insertContradiction '00604','DR048',N'Sốc phản vệ';
+EXEC insertContradiction '00222','DR166',N'Hạ huyết áp';
+EXEC insertContradiction '00038','DR281',N'Buồn nôn';
+EXEC insertContradiction '00006','DR294',N'Suy thận';
+EXEC insertContradiction '00545','DR105',N'Buồn nôn';
+EXEC insertContradiction '00529','DR041',N'Ho';
+EXEC insertContradiction '00679','DR207',N'Tiêu chảy';
+EXEC insertContradiction '00649','DR166',N'Tiêu chảy';
+EXEC insertContradiction '00836','DR251',N'Sốc phản vệ';
+EXEC insertContradiction '00660','DR218',N'Sốc phản vệ';
+EXEC insertContradiction '00138','DR192',N'Suy gan';
+EXEC insertContradiction '00403','DR256',N'Suy gan';
+EXEC insertContradiction '00899','DR124',N'Hạ huyết áp';
+EXEC insertContradiction '00138','DR215',N'Phát ban';
+EXEC insertContradiction '00884','DR016',N'Khó thở';
+EXEC insertContradiction '00009','DR169',N'Tiêu chảy';
+EXEC insertContradiction '00162','DR131',N'Khó thở';
+EXEC insertContradiction '00855','DR192',N'Buồn nôn';
+EXEC insertContradiction '00592','DR009',N'Ho';
+EXEC insertContradiction '00370','DR095',N'Ho';
+EXEC insertContradiction '00521','DR071',N'Ho';
+EXEC insertContradiction '00833','DR007',N'Tăng huyết áp';
+EXEC insertContradiction '00599','DR053',N'Hạ huyết áp';
+EXEC insertContradiction '00480','DR209',N'Hạ huyết áp';
+EXEC insertContradiction '00905','DR107',N'Khó thở';
+EXEC insertContradiction '00936','DR284',N'Tăng huyết áp';
+EXEC insertContradiction '00413','DR218',N'Hạ huyết áp';
+EXEC insertContradiction '00599','DR100',N'Ho';
+EXEC insertContradiction '00212','DR232',N'Suy gan';
+EXEC insertContradiction '00045','DR136',N'Hạ huyết áp';
+EXEC insertContradiction '00096','DR057',N'Hạ huyết áp';
+EXEC insertContradiction '00533','DR074',N'Suy thận';
+EXEC insertContradiction '00252','DR099',N'Ho';
+EXEC insertContradiction '00476','DR054',N'Khó thở';
+EXEC insertContradiction '00650','DR063',N'Suy thận';
+EXEC insertContradiction '00622','DR113',N'Phát ban';
+EXEC insertContradiction '00039','DR172',N'Phát ban';
+EXEC insertContradiction '00575','DR231',N'Khó thở';
+EXEC insertContradiction '00984','DR280',N'Phát ban';
+EXEC insertContradiction '00970','DR190',N'Tiêu chảy';
+EXEC insertContradiction '00036','DR228',N'Tiêu chảy';
+EXEC insertContradiction '00359','DR118',N'Buồn nôn';
+EXEC insertContradiction '00471','DR267',N'Sốc phản vệ';
+EXEC insertContradiction '00650','DR089',N'Sốc phản vệ';
+EXEC insertContradiction '00632','DR061',N'Suy thận';
+EXEC insertContradiction '00333','DR143',N'Phát ban';
+EXEC insertContradiction '00088','DR293',N'Tăng huyết áp';
+EXEC insertContradiction '00438','DR090',N'Hạ huyết áp';
+EXEC insertContradiction '00490','DR082',N'Khó thở';
+EXEC insertContradiction '00474','DR030',N'Phát ban';
+EXEC insertContradiction '00076','DR254',N'Hạ huyết áp';
+EXEC insertContradiction '00035','DR053',N'Phát ban';
+EXEC insertContradiction '00396','DR252',N'Ho';
+EXEC insertContradiction '00315','DR227',N'Ho';
+EXEC insertContradiction '00003','DR090',N'Suy gan';
+EXEC insertContradiction '00301','DR186',N'Suy gan';
+EXEC insertContradiction '00645','DR009',N'Phát ban';
+EXEC insertContradiction '00097','DR235',N'Tiêu chảy';
+EXEC insertContradiction '00820','DR207',N'Tiêu chảy';
+EXEC insertContradiction '00302','DR048',N'Tăng huyết áp';
+EXEC insertContradiction '00307','DR116',N'Sốc phản vệ';
+EXEC insertContradiction '00507','DR267',N'Buồn nôn';
+EXEC insertContradiction '00215','DR162',N'Tăng huyết áp';
+EXEC insertContradiction '00891','DR066',N'Suy thận';
+EXEC insertContradiction '00251','DR031',N'Suy thận';
+EXEC insertContradiction '00955','DR070',N'Suy gan';
+EXEC insertContradiction '00254','DR299',N'Khó thở';
+EXEC insertContradiction '00369','DR203',N'Buồn nôn';
+EXEC insertContradiction '00990','DR206',N'Tiêu chảy';
+EXEC insertContradiction '00901','DR060',N'Tăng huyết áp';
+EXEC insertContradiction '00192','DR024',N'Sốc phản vệ';
+EXEC insertContradiction '00136','DR091',N'Tăng huyết áp';
+EXEC insertContradiction '00395','DR089',N'Phát ban';
+EXEC insertContradiction '00469','DR185',N'Phát ban';
+EXEC insertContradiction '00822','DR298',N'Tăng huyết áp';
+EXEC insertContradiction '00294','DR003',N'Ho';
+EXEC insertContradiction '00474','DR201',N'Suy thận';
+EXEC insertContradiction '00766','DR019',N'Khó thở';
+EXEC insertContradiction '00710','DR281',N'Buồn nôn';
+EXEC insertContradiction '00833','DR043',N'Suy thận';
+EXEC insertContradiction '00387','DR087',N'Suy thận';
+EXEC insertContradiction '00076','DR266',N'Buồn nôn';
+EXEC insertContradiction '00064','DR056',N'Hạ huyết áp';
+EXEC insertContradiction '00053','DR077',N'Buồn nôn';
+EXEC insertContradiction '00790','DR163',N'Khó thở';
+EXEC insertContradiction '00090','DR030',N'Ho';
+EXEC insertContradiction '00647','DR052',N'Suy gan';
+EXEC insertContradiction '00884','DR144',N'Hạ huyết áp';
+EXEC insertContradiction '00164','DR023',N'Suy gan';
+EXEC insertContradiction '00275','DR178',N'Tăng huyết áp';
+EXEC insertContradiction '00479','DR187',N'Suy gan';
+EXEC insertContradiction '00729','DR036',N'Buồn nôn';
+EXEC insertContradiction '00004','DR153',N'Tăng huyết áp';
+EXEC insertContradiction '00418','DR253',N'Tiêu chảy';
+EXEC insertContradiction '00417','DR125',N'Suy gan';
+EXEC insertContradiction '00400','DR197',N'Phát ban';
+EXEC insertContradiction '00153','DR092',N'Phát ban';
+EXEC insertContradiction '00264','DR210',N'Suy thận';
+EXEC insertContradiction '00509','DR013',N'Ho';
+EXEC insertContradiction '00177','DR260',N'Suy gan';
+EXEC insertContradiction '00053','DR103',N'Suy thận';
+EXEC insertContradiction '00347','DR073',N'Buồn nôn';
+EXEC insertContradiction '00040','DR289',N'Ho';
+EXEC insertContradiction '00544','DR192',N'Phát ban';
+EXEC insertContradiction '00855','DR212',N'Sốc phản vệ';
+EXEC insertContradiction '00212','DR136',N'Suy gan';
+EXEC insertContradiction '00094','DR072',N'Khó thở';
+EXEC insertContradiction '00312','DR270',N'Ho';
+EXEC insertContradiction '00827','DR286',N'Tăng huyết áp';
+EXEC insertContradiction '00330','DR251',N'Phát ban';
+EXEC insertContradiction '00077','DR115',N'Hạ huyết áp';
+EXEC insertContradiction '00739','DR257',N'Suy gan';
+EXEC insertContradiction '00725','DR210',N'Tăng huyết áp';
+EXEC insertContradiction '00095','DR202',N'Khó thở';
+EXEC insertContradiction '00329','DR104',N'Tiêu chảy';
+EXEC insertContradiction '00808','DR055',N'Ho';
+EXEC insertContradiction '00483','DR084',N'Suy thận';
+EXEC insertContradiction '00249','DR170',N'Sốc phản vệ';
+EXEC insertContradiction '00186','DR009',N'Phát ban';
+EXEC insertContradiction '00091','DR076',N'Suy gan';
+EXEC insertContradiction '00011','DR253',N'Sốc phản vệ';
+EXEC insertContradiction '00275','DR072',N'Buồn nôn';
+EXEC insertContradiction '00003','DR141',N'Phát ban';
+EXEC insertContradiction '00099','DR074',N'Tiêu chảy';
+EXEC insertContradiction '00449','DR282',N'Buồn nôn';
+EXEC insertContradiction '00634','DR048',N'Hạ huyết áp';
+EXEC insertContradiction '00258','DR197',N'Buồn nôn';
+EXEC insertContradiction '00141','DR133',N'Khó thở';
+EXEC insertContradiction '00446','DR135',N'Buồn nôn';
+EXEC insertContradiction '00486','DR012',N'Tiêu chảy';
+EXEC insertContradiction '00232','DR244',N'Sốc phản vệ';
+EXEC insertContradiction '00371','DR124',N'Sốc phản vệ';
+EXEC insertContradiction '00243','DR110',N'Ho';
+EXEC insertContradiction '00433','DR163',N'Suy gan';
+EXEC insertContradiction '00347','DR146',N'Suy gan';
+EXEC insertContradiction '00438','DR001',N'Phát ban';
+EXEC insertContradiction '00932','DR242',N'Buồn nôn';
+EXEC insertContradiction '00466','DR184',N'Ho';
+EXEC insertContradiction '00180','DR091',N'Khó thở';
+EXEC insertContradiction '00624','DR207',N'Phát ban';
+EXEC insertContradiction '00983','DR118',N'Ho';
+EXEC insertContradiction '00600','DR190',N'Khó thở';
+EXEC insertContradiction '00097','DR074',N'Hạ huyết áp';
+EXEC insertContradiction '00584','DR226',N'Khó thở';
+EXEC insertContradiction '00872','DR296',N'Hạ huyết áp';
+EXEC insertContradiction '00292','DR022',N'Sốc phản vệ';
+EXEC insertContradiction '00852','DR296',N'Hạ huyết áp';
+EXEC insertContradiction '00263','DR132',N'Phát ban';
+EXEC insertContradiction '00889','DR030',N'Phát ban';
+EXEC insertContradiction '00136','DR133',N'Hạ huyết áp';
+EXEC insertContradiction '00330','DR189',N'Sốc phản vệ';
+EXEC insertContradiction '00930','DR300',N'Suy thận';
+EXEC insertContradiction '00948','DR033',N'Khó thở';
+EXEC insertContradiction '00393','DR005',N'Buồn nôn';
+EXEC insertContradiction '00507','DR290',N'Tăng huyết áp';
+EXEC insertContradiction '00982','DR263',N'Ho';
+EXEC insertContradiction '00615','DR179',N'Sốc phản vệ';
+EXEC insertContradiction '00821','DR159',N'Tăng huyết áp';
+EXEC insertContradiction '00885','DR295',N'Suy thận';
+EXEC insertContradiction '00027','DR171',N'Tăng huyết áp';
+EXEC insertContradiction '00863','DR200',N'Phát ban';
+EXEC insertContradiction '00983','DR120',N'Sốc phản vệ';
+EXEC insertContradiction '00022','DR263',N'Phát ban';
+EXEC insertContradiction '00015','DR292',N'Tiêu chảy';
+EXEC insertContradiction '00969','DR140',N'Tăng huyết áp';
+EXEC insertContradiction '00010','DR258',N'Phát ban';
+EXEC insertContradiction '00438','DR059',N'Hạ huyết áp';
+EXEC insertContradiction '00795','DR232',N'Khó thở';
+EXEC insertContradiction '00274','DR086',N'Phát ban';
+EXEC insertContradiction '00186','DR167',N'Suy thận';
+EXEC insertContradiction '00384','DR227',N'Suy gan';
+EXEC insertContradiction '00956','DR260',N'Suy thận';
+EXEC insertContradiction '00454','DR233',N'Hạ huyết áp';
+EXEC insertContradiction '00432','DR159',N'Tăng huyết áp';
+EXEC insertContradiction '00726','DR015',N'Khó thở';
+EXEC insertContradiction '00670','DR184',N'Hạ huyết áp';
+EXEC insertContradiction '00816','DR243',N'Tăng huyết áp';
+EXEC insertContradiction '00735','DR090',N'Phát ban';
+EXEC insertContradiction '00424','DR153',N'Tiêu chảy';
+EXEC insertContradiction '00250','DR064',N'Tiêu chảy';
+EXEC insertContradiction '00745','DR070',N'Suy thận';
+EXEC insertContradiction '00085','DR133',N'Phát ban';
+EXEC insertContradiction '00225','DR031',N'Buồn nôn';
+EXEC insertContradiction '00047','DR133',N'Tiêu chảy';
+EXEC insertContradiction '00472','DR184',N'Suy thận';
+EXEC insertContradiction '00781','DR186',N'Ho';
+EXEC insertContradiction '00758','DR278',N'Suy thận';
+EXEC insertContradiction '00296','DR208',N'Hạ huyết áp';
+EXEC insertContradiction '00324','DR109',N'Hạ huyết áp';
+EXEC insertContradiction '00462','DR155',N'Buồn nôn';
+EXEC insertContradiction '00349','DR098',N'Suy gan';
+EXEC insertContradiction '00707','DR006',N'Buồn nôn';
+EXEC insertContradiction '00254','DR192',N'Sốc phản vệ';
+EXEC insertContradiction '00275','DR104',N'Khó thở';
+EXEC insertContradiction '00837','DR033',N'Ho';
+EXEC insertContradiction '00047','DR134',N'Hạ huyết áp';
+EXEC insertContradiction '00086','DR247',N'Tăng huyết áp';
+EXEC insertContradiction '00155','DR156',N'Buồn nôn';
+EXEC insertContradiction '00670','DR165',N'Hạ huyết áp';
+EXEC insertContradiction '00888','DR275',N'Hạ huyết áp';
+EXEC insertContradiction '00101','DR079',N'Buồn nôn';
+EXEC insertContradiction '00785','DR009',N'Sốc phản vệ';
+EXEC insertContradiction '00706','DR173',N'Tăng huyết áp';
+EXEC insertContradiction '00703','DR210',N'Suy gan';
+EXEC insertContradiction '00527','DR230',N'Ho';
+EXEC insertContradiction '00675','DR160',N'Phát ban';
+EXEC insertContradiction '00043','DR046',N'Tăng huyết áp';
+EXEC insertContradiction '00987','DR193',N'Phát ban';
+EXEC insertContradiction '00831','DR174',N'Tiêu chảy';
+EXEC insertContradiction '00341','DR097',N'Khó thở';
+EXEC insertContradiction '00582','DR046',N'Ho';
+EXEC insertContradiction '00450','DR137',N'Hạ huyết áp';
+EXEC insertContradiction '00561','DR086',N'Suy gan';
+EXEC insertContradiction '00567','DR075',N'Ho';
+EXEC insertContradiction '00154','DR267',N'Khó thở';
+EXEC insertContradiction '00135','DR202',N'Suy thận';
+EXEC insertContradiction '00656','DR146',N'Hạ huyết áp';
+EXEC insertContradiction '00661','DR196',N'Ho';
+EXEC insertContradiction '00337','DR232',N'Ho';
+EXEC insertContradiction '00075','DR157',N'Suy gan';
+EXEC insertContradiction '00514','DR096',N'Suy gan';
+EXEC insertContradiction '00008','DR093',N'Khó thở';
+EXEC insertContradiction '00428','DR288',N'Sốc phản vệ';
+EXEC insertContradiction '00562','DR261',N'Tăng huyết áp';
+EXEC insertContradiction '00490','DR117',N'Ho';
+EXEC insertContradiction '00104','DR143',N'Ho';
+EXEC insertContradiction '00624','DR048',N'Sốc phản vệ';
+EXEC insertContradiction '00426','DR134',N'Khó thở';
+EXEC insertContradiction '00568','DR076',N'Tăng huyết áp';
+EXEC insertContradiction '00035','DR165',N'Khó thở';
+EXEC insertContradiction '00852','DR111',N'Tiêu chảy';
+EXEC insertContradiction '00209','DR201',N'Tiêu chảy';
+EXEC insertContradiction '00692','DR080',N'Buồn nôn';
+EXEC insertContradiction '00370','DR279',N'Hạ huyết áp';
+EXEC insertContradiction '00758','DR260',N'Sốc phản vệ';
+EXEC insertContradiction '00504','DR165',N'Tiêu chảy';
+EXEC insertContradiction '00259','DR125',N'Khó thở';
+EXEC insertContradiction '00211','DR173',N'Sốc phản vệ';
+EXEC insertContradiction '00140','DR267',N'Tăng huyết áp';
+EXEC insertContradiction '00306','DR102',N'Suy gan';
+EXEC insertContradiction '00498','DR275',N'Tiêu chảy';
+EXEC insertContradiction '00789','DR080',N'Hạ huyết áp';
+EXEC insertContradiction '00625','DR196',N'Hạ huyết áp';
+EXEC insertContradiction '00908','DR188',N'Suy thận';
+EXEC insertContradiction '00843','DR158',N'Suy thận';
+EXEC insertContradiction '00056','DR210',N'Tăng huyết áp';
+EXEC insertContradiction '00544','DR050',N'Tiêu chảy';
+EXEC insertContradiction '00921','DR230',N'Sốc phản vệ';
+EXEC insertContradiction '00888','DR012',N'Khó thở';
+EXEC insertContradiction '00265','DR274',N'Sốc phản vệ';
+EXEC insertContradiction '00561','DR184',N'Khó thở';
+EXEC insertContradiction '00434','DR176',N'Sốc phản vệ';
+EXEC insertContradiction '00758','DR186',N'Khó thở';
+EXEC insertContradiction '00583','DR172',N'Suy thận';
+EXEC insertContradiction '00435','DR163',N'Tăng huyết áp';
+EXEC insertContradiction '00649','DR276',N'Suy gan';
+EXEC insertContradiction '00659','DR140',N'Hạ huyết áp';
+EXEC insertContradiction '00023','DR118',N'Phát ban';
+EXEC insertContradiction '00312','DR058',N'Buồn nôn';
+EXEC insertContradiction '00658','DR108',N'Suy thận';
+EXEC insertContradiction '00254','DR011',N'Tăng huyết áp';
+EXEC insertContradiction '00689','DR212',N'Hạ huyết áp';
+EXEC insertContradiction '00357','DR134',N'Suy gan';
+EXEC insertContradiction '00825','DR250',N'Khó thở';
+EXEC insertContradiction '00678','DR047',N'Suy gan';
+EXEC insertContradiction '00102','DR068',N'Buồn nôn';
+EXEC insertContradiction '00501','DR098',N'Khó thở';
+EXEC insertContradiction '00363','DR261',N'Buồn nôn';
+EXEC insertContradiction '00075','DR087',N'Phát ban';
+EXEC insertContradiction '00163','DR178',N'Sốc phản vệ';
+EXEC insertContradiction '00950','DR068',N'Suy thận';
+EXEC insertContradiction '00631','DR020',N'Hạ huyết áp';
+EXEC insertContradiction '00589','DR240',N'Tăng huyết áp';
+EXEC insertContradiction '00647','DR182',N'Ho';
+EXEC insertContradiction '00817','DR211',N'Phát ban';
+EXEC insertContradiction '00726','DR221',N'Suy gan';
+EXEC insertContradiction '00087','DR201',N'Suy thận';
+EXEC insertContradiction '00046','DR092',N'Phát ban';
+EXEC insertContradiction '00291','DR106',N'Tăng huyết áp';
+EXEC insertContradiction '00327','DR259',N'Hạ huyết áp';
+EXEC insertContradiction '00640','DR147',N'Phát ban';
+EXEC insertContradiction '00477','DR252',N'Tiêu chảy';
+EXEC insertContradiction '00629','DR257',N'Buồn nôn';
+EXEC insertContradiction '00282','DR117',N'Hạ huyết áp';
+EXEC insertContradiction '00644','DR144',N'Khó thở';
+EXEC insertContradiction '00187','DR185',N'Ho';
+EXEC insertContradiction '00848','DR114',N'Khó thở';
+EXEC insertContradiction '00662','DR069',N'Khó thở';
+EXEC insertContradiction '00524','DR152',N'Ho';
+EXEC insertContradiction '00188','DR044',N'Tăng huyết áp';
+EXEC insertContradiction '00004','DR102',N'Suy thận';
+EXEC insertContradiction '00132','DR158',N'Suy thận';
+EXEC insertContradiction '00010','DR197',N'Khó thở';
+EXEC insertContradiction '00494','DR123',N'Sốc phản vệ';
+EXEC insertContradiction '00847','DR193',N'Suy thận';
+EXEC insertContradiction '00517','DR103',N'Buồn nôn';
+EXEC insertContradiction '00729','DR078',N'Tiêu chảy';
+EXEC insertContradiction '00625','DR116',N'Tiêu chảy';
+EXEC insertContradiction '00748','DR186',N'Suy thận';
+EXEC insertContradiction '00355','DR042',N'Tiêu chảy';
+EXEC insertContradiction '00648','DR171',N'Tăng huyết áp';
+EXEC insertContradiction '00477','DR125',N'Khó thở';
+EXEC insertContradiction '00173','DR103',N'Suy gan';
+EXEC insertContradiction '00502','DR252',N'Sốc phản vệ';
+EXEC insertContradiction '00114','DR103',N'Tăng huyết áp';
+EXEC insertContradiction '00037','DR194',N'Suy gan';
+EXEC insertContradiction '00726','DR211',N'Sốc phản vệ';
+EXEC insertContradiction '00394','DR237',N'Buồn nôn';
+EXEC insertContradiction '00967','DR170',N'Buồn nôn';
+EXEC insertContradiction '00527','DR128',N'Suy gan';
+EXEC insertContradiction '00354','DR120',N'Suy thận';
+EXEC insertContradiction '00407','DR115',N'Hạ huyết áp';
+EXEC insertContradiction '00192','DR225',N'Phát ban';
+EXEC insertContradiction '00307','DR148',N'Sốc phản vệ';
+EXEC insertContradiction '00658','DR102',N'Suy thận';
+EXEC insertContradiction '00843','DR077',N'Suy gan';
+EXEC insertContradiction '00951','DR139',N'Phát ban';
+EXEC insertContradiction '00724','DR247',N'Khó thở';
+EXEC insertContradiction '00769','DR256',N'Tiêu chảy';
+EXEC insertContradiction '00397','DR098',N'Tiêu chảy';
+EXEC insertContradiction '00931','DR119',N'Hạ huyết áp';
+EXEC insertContradiction '00134','DR175',N'Buồn nôn';
+EXEC insertContradiction '00257','DR216',N'Suy thận';
+EXEC insertContradiction '00186','DR139',N'Ho';
+EXEC insertContradiction '00025','DR015',N'Sốc phản vệ';
+EXEC insertContradiction '00708','DR218',N'Hạ huyết áp';
+EXEC insertContradiction '00639','DR179',N'Khó thở';
+EXEC insertContradiction '00493','DR290',N'Suy thận';
+EXEC insertContradiction '00433','DR176',N'Hạ huyết áp';
+EXEC insertContradiction '00533','DR185',N'Phát ban';
+EXEC insertContradiction '00426','DR093',N'Suy thận';
+EXEC insertContradiction '00853','DR189',N'Tiêu chảy';
+EXEC insertContradiction '00412','DR129',N'Phát ban';
+EXEC insertContradiction '00761','DR172',N'Phát ban';
+EXEC insertContradiction '00821','DR229',N'Ho';
+EXEC insertContradiction '00150','DR042',N'Khó thở';
+EXEC insertContradiction '00441','DR202',N'Sốc phản vệ';
+EXEC insertContradiction '00681','DR256',N'Tiêu chảy';
+EXEC insertContradiction '00307','DR073',N'Buồn nôn';
+EXEC insertContradiction '00883','DR283',N'Khó thở';
+EXEC insertContradiction '00652','DR158',N'Tăng huyết áp';
+EXEC insertContradiction '00472','DR197',N'Ho';
+EXEC insertContradiction '00632','DR254',N'Buồn nôn';
+EXEC insertContradiction '00006','DR032',N'Suy gan';
+EXEC insertContradiction '00992','DR075',N'Phát ban';
+EXEC insertContradiction '00883','DR225',N'Sốc phản vệ';
+EXEC insertContradiction '00212','DR208',N'Suy thận';
+EXEC insertContradiction '00494','DR094',N'Suy gan';
+EXEC insertContradiction '00533','DR126',N'Phát ban';
+EXEC insertContradiction '00601','DR047',N'Ho';
+EXEC insertContradiction '00746','DR072',N'Buồn nôn';
+EXEC insertContradiction '00288','DR271',N'Tiêu chảy';
+EXEC insertContradiction '00661','DR142',N'Tiêu chảy';
+EXEC insertContradiction '00144','DR177',N'Hạ huyết áp';
+EXEC insertContradiction '00352','DR208',N'Suy gan';
+EXEC insertContradiction '00619','DR213',N'Suy thận';
+EXEC insertContradiction '00263','DR052',N'Hạ huyết áp';
+EXEC insertContradiction '00126','DR200',N'Khó thở';
+EXEC insertContradiction '00818','DR181',N'Ho';
+EXEC insertContradiction '00329','DR221',N'Phát ban';
+EXEC insertContradiction '00672','DR101',N'Buồn nôn';
+EXEC insertContradiction '00114','DR170',N'Khó thở';
+EXEC insertContradiction '00358','DR101',N'Tiêu chảy';
+EXEC insertContradiction '00752','DR023',N'Tăng huyết áp';
+EXEC insertContradiction '00668','DR150',N'Sốc phản vệ';
+EXEC insertContradiction '00811','DR003',N'Suy thận';
+EXEC insertContradiction '00047','DR027',N'Suy gan';
+EXEC insertContradiction '00117','DR054',N'Khó thở';
+EXEC insertContradiction '00634','DR023',N'Buồn nôn';
+EXEC insertContradiction '00625','DR081',N'Khó thở';
+EXEC insertContradiction '00388','DR022',N'Phát ban';
+EXEC insertContradiction '00248','DR032',N'Sốc phản vệ';
+EXEC insertContradiction '00634','DR025',N'Suy gan';
+EXEC insertContradiction '00391','DR086',N'Phát ban';
+EXEC insertContradiction '00472','DR055',N'Hạ huyết áp';
+EXEC insertContradiction '00649','DR128',N'Phát ban';
+EXEC insertContradiction '00323','DR064',N'Ho';
+EXEC insertContradiction '00111','DR089',N'Sốc phản vệ';
+EXEC insertContradiction '00965','DR292',N'Tăng huyết áp';
+EXEC insertContradiction '00690','DR026',N'Tiêu chảy';
+EXEC insertContradiction '00214','DR070',N'Phát ban';
+EXEC insertContradiction '00419','DR140',N'Phát ban';
+EXEC insertContradiction '00228','DR188',N'Buồn nôn';
+EXEC insertContradiction '00126','DR078',N'Buồn nôn';
+EXEC insertContradiction '00797','DR183',N'Ho';
+EXEC insertContradiction '00364','DR099',N'Khó thở';
+EXEC insertContradiction '00994','DR240',N'Suy thận';
+EXEC insertContradiction '00222','DR253',N'Khó thở';
+EXEC insertContradiction '00914','DR244',N'Ho';
+EXEC insertContradiction '00220','DR211',N'Tăng huyết áp';
+EXEC insertContradiction '00688','DR261',N'Hạ huyết áp';
+EXEC insertContradiction '00766','DR096',N'Khó thở';
+EXEC insertContradiction '00421','DR151',N'Khó thở';
+EXEC insertContradiction '00452','DR199',N'Tăng huyết áp';
+EXEC insertContradiction '00439','DR190',N'Tăng huyết áp';
+EXEC insertContradiction '00442','DR232',N'Suy gan';
+EXEC insertContradiction '00334','DR040',N'Hạ huyết áp';
+EXEC insertContradiction '00071','DR139',N'Suy gan';
+EXEC insertContradiction '00751','DR190',N'Phát ban';
+EXEC insertContradiction '00978','DR133',N'Phát ban';
+EXEC insertContradiction '00171','DR269',N'Phát ban';
+EXEC insertContradiction '00497','DR141',N'Tăng huyết áp';
+EXEC insertContradiction '00629','DR063',N'Tăng huyết áp';
+EXEC insertContradiction '00142','DR086',N'Phát ban';
+EXEC insertContradiction '00371','DR055',N'Buồn nôn';
+EXEC insertContradiction '00938','DR043',N'Tăng huyết áp';
+EXEC insertContradiction '00521','DR005',N'Tiêu chảy';
+EXEC insertContradiction '00830','DR009',N'Sốc phản vệ';
+EXEC insertContradiction '00362','DR254',N'Sốc phản vệ';
+EXEC insertContradiction '00890','DR157',N'Phát ban';
+EXEC insertContradiction '00481','DR157',N'Buồn nôn';
+EXEC insertContradiction '00586','DR075',N'Phát ban';
+EXEC insertContradiction '00126','DR087',N'Sốc phản vệ';
+EXEC insertContradiction '00735','DR103',N'Sốc phản vệ';
+EXEC insertContradiction '00509','DR087',N'Suy gan';
+EXEC insertContradiction '00419','DR196',N'Buồn nôn';
+EXEC insertContradiction '00748','DR162',N'Phát ban';
+EXEC insertContradiction '00190','DR049',N'Hạ huyết áp';
+EXEC insertContradiction '00630','DR170',N'Buồn nôn';
+EXEC insertContradiction '00580','DR179',N'Hạ huyết áp';
+EXEC insertContradiction '00699','DR240',N'Hạ huyết áp';
+EXEC insertContradiction '00233','DR253',N'Tăng huyết áp';
+EXEC insertContradiction '00073','DR213',N'Khó thở';
+EXEC insertContradiction '00007','DR201',N'Hạ huyết áp';
+EXEC insertContradiction '00659','DR128',N'Suy thận';
+EXEC insertContradiction '00603','DR262',N'Buồn nôn';
+EXEC insertContradiction '00831','DR123',N'Hạ huyết áp';
+EXEC insertContradiction '00826','DR069',N'Buồn nôn';
+EXEC insertContradiction '00524','DR103',N'Suy gan';
+EXEC insertContradiction '00099','DR082',N'Buồn nôn';
+EXEC insertContradiction '00872','DR045',N'Khó thở';
+EXEC insertContradiction '00700','DR147',N'Suy gan';
+EXEC insertContradiction '00330','DR299',N'Ho';
+EXEC insertContradiction '00190','DR007',N'Ho';
+EXEC insertContradiction '00346','DR077',N'Hạ huyết áp';
+EXEC insertContradiction '00953','DR036',N'Sốc phản vệ';
+EXEC insertContradiction '00077','DR242',N'Phát ban';
+EXEC insertContradiction '00220','DR287',N'Khó thở';
+EXEC insertContradiction '00055','DR059',N'Phát ban';
+EXEC insertContradiction '00162','DR093',N'Khó thở';
+EXEC insertContradiction '00502','DR199',N'Suy gan';
+EXEC insertContradiction '00449','DR287',N'Ho';
+EXEC insertContradiction '00192','DR271',N'Khó thở';
+EXEC insertContradiction '00489','DR157',N'Tiêu chảy';
+EXEC insertContradiction '00358','DR080',N'Tiêu chảy';
+EXEC insertContradiction '00267','DR263',N'Buồn nôn';
+EXEC insertContradiction '00685','DR175',N'Tiêu chảy';
+EXEC insertContradiction '00072','DR110',N'Tiêu chảy';
+EXEC insertContradiction '00675','DR221',N'Suy gan';
+EXEC insertContradiction '00298','DR286',N'Suy thận';
+EXEC insertContradiction '00269','DR149',N'Suy gan';
+EXEC insertContradiction '00323','DR194',N'Khó thở';
+EXEC insertContradiction '00726','DR152',N'Suy gan';
+EXEC insertContradiction '00365','DR016',N'Phát ban';
+EXEC insertContradiction '00980','DR080',N'Sốc phản vệ';
+EXEC insertContradiction '00225','DR177',N'Khó thở';
+EXEC insertContradiction '00704','DR029',N'Khó thở';
+EXEC insertContradiction '00378','DR166',N'Khó thở';
+EXEC insertContradiction '00781','DR083',N'Ho';
+EXEC insertContradiction '00164','DR263',N'Suy gan';
+EXEC insertContradiction '00272','DR292',N'Buồn nôn';
+EXEC insertContradiction '00091','DR127',N'Ho';
+EXEC insertContradiction '00139','DR027',N'Suy thận';
+EXEC insertContradiction '00893','DR151',N'Tăng huyết áp';
+EXEC insertContradiction '00274','DR236',N'Khó thở';
+EXEC insertContradiction '00256','DR237',N'Hạ huyết áp';
+EXEC insertContradiction '00667','DR055',N'Phát ban';
+EXEC insertContradiction '00842','DR087',N'Sốc phản vệ';
+EXEC insertContradiction '00815','DR246',N'Suy thận';
+EXEC insertContradiction '00428','DR077',N'Sốc phản vệ';
+EXEC insertContradiction '00257','DR300',N'Ho';
+EXEC insertContradiction '00492','DR057',N'Suy thận';
+EXEC insertContradiction '00295','DR246',N'Buồn nôn';
+EXEC insertContradiction '00797','DR181',N'Sốc phản vệ';
+EXEC insertContradiction '00943','DR122',N'Khó thở';
+EXEC insertContradiction '00252','DR096',N'Hạ huyết áp';
+EXEC insertContradiction '00402','DR060',N'Khó thở';
+EXEC insertContradiction '00526','DR254',N'Ho';
+EXEC insertContradiction '00996','DR115',N'Suy gan';
+EXEC insertContradiction '00138','DR208',N'Sốc phản vệ';
+EXEC insertContradiction '00926','DR081',N'Khó thở';
+EXEC insertContradiction '00383','DR081',N'Suy gan';
+EXEC insertContradiction '00613','DR127',N'Suy thận';
+EXEC insertContradiction '00816','DR178',N'Khó thở';
+EXEC insertContradiction '00498','DR144',N'Buồn nôn';
+EXEC insertContradiction '00205','DR177',N'Phát ban';
+EXEC insertContradiction '00952','DR152',N'Suy thận';
+EXEC insertContradiction '00356','DR267',N'Khó thở';
+EXEC insertContradiction '00670','DR086',N'Tăng huyết áp';
+EXEC insertContradiction '00201','DR240',N'Sốc phản vệ';
+EXEC insertContradiction '00285','DR017',N'Tăng huyết áp';
+EXEC insertContradiction '00512','DR136',N'Tiêu chảy';
+EXEC insertContradiction '00931','DR241',N'Suy gan';
+EXEC insertContradiction '00223','DR114',N'Hạ huyết áp';
+EXEC insertContradiction '00753','DR062',N'Phát ban';
+EXEC insertContradiction '01000','DR071',N'Phát ban';
+EXEC insertContradiction '00451','DR025',N'Suy gan';
+EXEC insertContradiction '00453','DR017',N'Tiêu chảy';
+EXEC insertContradiction '00091','DR061',N'Ho';
+EXEC insertContradiction '00681','DR206',N'Suy thận';
+EXEC insertContradiction '00361','DR168',N'Suy thận';
+EXEC insertContradiction '00123','DR177',N'Suy thận';
+EXEC insertContradiction '00386','DR039',N'Ho';
+EXEC insertContradiction '00979','DR028',N'Tăng huyết áp';
+EXEC insertContradiction '00359','DR273',N'Suy gan';
+EXEC insertContradiction '00577','DR230',N'Sốc phản vệ';
+EXEC insertContradiction '00404','DR154',N'Tăng huyết áp';
+EXEC insertContradiction '00481','DR287',N'Khó thở';
+EXEC insertContradiction '00724','DR098',N'Phát ban';
+EXEC insertContradiction '00403','DR089',N'Ho';
+EXEC insertContradiction '00991','DR090',N'Tiêu chảy';
+EXEC insertContradiction '00447','DR094',N'Ho';
+EXEC insertContradiction '00473','DR168',N'Buồn nôn';
+EXEC insertContradiction '00607','DR235',N'Hạ huyết áp';
+EXEC insertContradiction '00674','DR228',N'Suy thận';
+EXEC insertContradiction '00273','DR209',N'Ho';
+EXEC insertContradiction '00373','DR142',N'Sốc phản vệ';
+EXEC insertContradiction '00633','DR171',N'Tăng huyết áp';
+EXEC insertContradiction '00991','DR129',N'Ho';
+EXEC insertContradiction '00049','DR120',N'Hạ huyết áp';
+EXEC insertContradiction '00577','DR134',N'Hạ huyết áp';
+EXEC insertContradiction '00146','DR068',N'Sốc phản vệ';
+EXEC insertContradiction '00903','DR171',N'Khó thở';
+EXEC insertContradiction '00368','DR279',N'Tăng huyết áp';
+EXEC insertContradiction '00416','DR076',N'Khó thở';
+EXEC insertContradiction '00475','DR186',N'Sốc phản vệ';
+EXEC insertContradiction '00076','DR080',N'Phát ban';
+EXEC insertContradiction '00714','DR091',N'Tiêu chảy';
+EXEC insertContradiction '00538','DR256',N'Tăng huyết áp';
+EXEC insertContradiction '00219','DR249',N'Buồn nôn';
+EXEC insertContradiction '00571','DR089',N'Suy thận';
+EXEC insertContradiction '00110','DR242',N'Hạ huyết áp';
+EXEC insertContradiction '00436','DR121',N'Hạ huyết áp';
+EXEC insertContradiction '00708','DR288',N'Ho';
+EXEC insertContradiction '00261','DR159',N'Khó thở';
+EXEC insertContradiction '00413','DR247',N'Buồn nôn';
+EXEC insertContradiction '00551','DR188',N'Suy gan';
+EXEC insertContradiction '00543','DR190',N'Phát ban';
+EXEC insertContradiction '00625','DR234',N'Khó thở';
+EXEC insertContradiction '00304','DR259',N'Hạ huyết áp';
+EXEC insertContradiction '00672','DR090',N'Phát ban';
+EXEC insertContradiction '00640','DR265',N'Phát ban';
+EXEC insertContradiction '00975','DR234',N'Buồn nôn';
+EXEC insertContradiction '00227','DR051',N'Tiêu chảy';
+EXEC insertContradiction '00440','DR229',N'Suy gan';
+EXEC insertContradiction '00021','DR226',N'Tăng huyết áp';
+EXEC insertContradiction '00325','DR242',N'Suy gan';
+EXEC insertContradiction '00025','DR242',N'Phát ban';
+EXEC insertContradiction '00237','DR266',N'Sốc phản vệ';
+EXEC insertContradiction '00156','DR051',N'Buồn nôn';
+EXEC insertContradiction '00864','DR249',N'Suy thận';
+EXEC insertContradiction '00316','DR114',N'Sốc phản vệ';
+EXEC insertContradiction '00633','DR059',N'Ho';
+EXEC insertContradiction '00203','DR157',N'Sốc phản vệ';
+EXEC insertContradiction '00247','DR190',N'Hạ huyết áp';
+EXEC insertContradiction '00560','DR235',N'Buồn nôn';
+EXEC insertContradiction '00846','DR144',N'Sốc phản vệ';
+EXEC insertContradiction '00397','DR075',N'Buồn nôn';
+EXEC insertContradiction '00845','DR185',N'Buồn nôn';
+EXEC insertContradiction '00779','DR205',N'Suy thận';
+EXEC insertContradiction '00658','DR097',N'Sốc phản vệ';
+EXEC insertContradiction '00359','DR285',N'Suy thận';
+EXEC insertContradiction '00514','DR098',N'Hạ huyết áp';
+EXEC insertContradiction '00372','DR201',N'Khó thở';
+EXEC insertContradiction '00983','DR286',N'Phát ban';
+EXEC insertContradiction '00384','DR086',N'Ho';
+EXEC insertContradiction '00578','DR053',N'Suy thận';
+EXEC insertContradiction '00358','DR244',N'Suy gan';
+EXEC insertContradiction '00967','DR207',N'Sốc phản vệ';
+EXEC insertContradiction '00132','DR152',N'Hạ huyết áp';
+EXEC insertContradiction '00929','DR125',N'Tăng huyết áp';
+EXEC insertContradiction '00321','DR037',N'Hạ huyết áp';
+EXEC insertContradiction '00917','DR084',N'Khó thở';
+EXEC insertContradiction '00080','DR225',N'Ho';
+EXEC insertContradiction '00873','DR248',N'Phát ban';
+EXEC insertContradiction '00482','DR124',N'Suy thận';
+EXEC insertContradiction '00343','DR129',N'Ho';
+EXEC insertContradiction '00671','DR069',N'Khó thở';
+EXEC insertContradiction '00075','DR117',N'Ho';
+EXEC insertContradiction '00799','DR200',N'Tăng huyết áp';
+EXEC insertContradiction '00609','DR201',N'Hạ huyết áp';
+EXEC insertContradiction '00503','DR085',N'Tiêu chảy';
+EXEC insertContradiction '00825','DR162',N'Tăng huyết áp';
+EXEC insertContradiction '00551','DR093',N'Suy gan';
+EXEC insertContradiction '00316','DR123',N'Tăng huyết áp';
+EXEC insertContradiction '00842','DR252',N'Buồn nôn';
+EXEC insertContradiction '00354','DR076',N'Buồn nôn';
+EXEC insertContradiction '00302','DR178',N'Hạ huyết áp';
+EXEC insertContradiction '00723','DR274',N'Hạ huyết áp';
+EXEC insertContradiction '00527','DR205',N'Khó thở';
+EXEC insertContradiction '00285','DR038',N'Buồn nôn';
+EXEC insertContradiction '00694','DR068',N'Phát ban';
+EXEC insertContradiction '00624','DR262',N'Ho';
+EXEC insertContradiction '00465','DR124',N'Hạ huyết áp';
+EXEC insertContradiction '00822','DR181',N'Phát ban';
+EXEC insertContradiction '00001','DR032',N'Tiêu chảy';
+EXEC insertContradiction '00797','DR060',N'Suy thận';
+EXEC insertContradiction '00107','DR204',N'Sốc phản vệ';
+EXEC insertContradiction '00096','DR092',N'Phát ban';
+EXEC insertContradiction '00324','DR261',N'Buồn nôn';
+EXEC insertContradiction '00161','DR218',N'Tăng huyết áp';
+EXEC insertContradiction '00947','DR245',N'Ho';
+EXEC insertContradiction '00313','DR094',N'Suy thận';
+EXEC insertContradiction '00998','DR146',N'Tăng huyết áp';
+EXEC insertContradiction '00147','DR071',N'Khó thở';
+EXEC insertContradiction '00636','DR231',N'Khó thở';
+EXEC insertContradiction '00984','DR077',N'Ho';
+EXEC insertContradiction '00997','DR121',N'Buồn nôn';
+EXEC insertContradiction '00516','DR229',N'Tiêu chảy';
+EXEC insertContradiction '00191','DR201',N'Suy gan';
+EXEC insertContradiction '00077','DR208',N'Hạ huyết áp';
+EXEC insertContradiction '00115','DR075',N'Ho';
+EXEC insertContradiction '00681','DR170',N'Hạ huyết áp';
+EXEC insertContradiction '00616','DR195',N'Tiêu chảy';
+EXEC insertContradiction '00549','DR289',N'Phát ban';
+EXEC insertContradiction '00712','DR263',N'Suy thận';
+EXEC insertContradiction '00233','DR269',N'Ho';
+EXEC insertContradiction '00276','DR003',N'Suy thận';
+EXEC insertContradiction '00830','DR139',N'Buồn nôn';
+EXEC insertContradiction '00541','DR282',N'Tăng huyết áp';
+EXEC insertContradiction '00539','DR069',N'Ho';
+EXEC insertContradiction '00638','DR181',N'Hạ huyết áp';
+EXEC insertContradiction '00036','DR221',N'Buồn nôn';
+EXEC insertContradiction '00086','DR128',N'Khó thở';
+EXEC insertContradiction '00384','DR293',N'Suy thận';
+EXEC insertContradiction '00826','DR278',N'Tiêu chảy';
+EXEC insertContradiction '00377','DR267',N'Ho';
+EXEC insertContradiction '00304','DR281',N'Ho';
+EXEC insertContradiction '00154','DR255',N'Tăng huyết áp';
+EXEC insertContradiction '00227','DR134',N'Ho';
+EXEC insertContradiction '00767','DR238',N'Sốc phản vệ';
+EXEC insertContradiction '00360','DR037',N'Suy thận';
+EXEC insertContradiction '00951','DR287',N'Suy gan';
+EXEC insertContradiction '00725','DR064',N'Tăng huyết áp';
+EXEC insertContradiction '00023','DR240',N'Suy gan';
+EXEC insertContradiction '00021','DR065',N'Suy gan';
+EXEC insertContradiction '00889','DR235',N'Sốc phản vệ';
+EXEC insertContradiction '00351','DR121',N'Buồn nôn';
+EXEC insertContradiction '00123','DR003',N'Sốc phản vệ';
+EXEC insertContradiction '00625','DR128',N'Ho';
+EXEC insertContradiction '00069','DR027',N'Sốc phản vệ';
+EXEC insertContradiction '00272','DR180',N'Hạ huyết áp';
+EXEC insertContradiction '00107','DR021',N'Tăng huyết áp';
+EXEC insertContradiction '00353','DR108',N'Sốc phản vệ';
+EXEC insertContradiction '00807','DR101',N'Tiêu chảy';
+EXEC insertContradiction '00465','DR236',N'Phát ban';
+EXEC insertContradiction '00256','DR064',N'Buồn nôn';
+EXEC insertContradiction '00813','DR009',N'Tiêu chảy';
+EXEC insertContradiction '00760','DR239',N'Phát ban';
+EXEC insertContradiction '00671','DR286',N'Hạ huyết áp';
+EXEC insertContradiction '00731','DR118',N'Phát ban';
+EXEC insertContradiction '00718','DR238',N'Sốc phản vệ';
+EXEC insertContradiction '00529','DR057',N'Tăng huyết áp';
+EXEC insertContradiction '00508','DR044',N'Sốc phản vệ';
+EXEC insertContradiction '00160','DR230',N'Buồn nôn';
+EXEC insertContradiction '00116','DR279',N'Suy thận';
+EXEC insertContradiction '00803','DR031',N'Suy gan';
+EXEC insertContradiction '00281','DR139',N'Khó thở';
+EXEC insertContradiction '00971','DR273',N'Sốc phản vệ';
+EXEC insertContradiction '00393','DR265',N'Sốc phản vệ';
+EXEC insertContradiction '00912','DR103',N'Hạ huyết áp';
+EXEC insertContradiction '00122','DR295',N'Tăng huyết áp';
+EXEC insertContradiction '00361','DR054',N'Phát ban';
+EXEC insertContradiction '00239','DR020',N'Sốc phản vệ';
+EXEC insertContradiction '00002','DR043',N'Phát ban';
+EXEC insertContradiction '00985','DR266',N'Ho';
+EXEC insertContradiction '00452','DR043',N'Khó thở';
+EXEC insertContradiction '00270','DR053',N'Suy gan';
+EXEC insertContradiction '00150','DR119',N'Buồn nôn';
+EXEC insertContradiction '00199','DR190',N'Suy gan';
+EXEC insertContradiction '00909','DR294',N'Hạ huyết áp';
+EXEC insertContradiction '00494','DR262',N'Suy gan';
+EXEC insertContradiction '00437','DR117',N'Ho';
+EXEC insertContradiction '00375','DR083',N'Suy gan';
+EXEC insertContradiction '00716','DR057',N'Phát ban';
+EXEC insertContradiction '00238','DR014',N'Ho';
+EXEC insertContradiction '00200','DR236',N'Suy thận';
+EXEC insertContradiction '00725','DR016',N'Suy gan';
+EXEC insertContradiction '00355','DR028',N'Sốc phản vệ';
+EXEC insertContradiction '00607','DR062',N'Phát ban';
+EXEC insertContradiction '00190','DR014',N'Hạ huyết áp';
+EXEC insertContradiction '00088','DR065',N'Phát ban';
+EXEC insertContradiction '00150','DR171',N'Buồn nôn';
+EXEC insertContradiction '00214','DR234',N'Buồn nôn';
+EXEC insertContradiction '00198','DR138',N'Buồn nôn';
+EXEC insertContradiction '00312','DR022',N'Phát ban';
+EXEC insertContradiction '00659','DR264',N'Suy gan';
+EXEC insertContradiction '00070','DR141',N'Ho';
+EXEC insertContradiction '00308','DR121',N'Hạ huyết áp';
+EXEC insertContradiction '00140','DR144',N'Tiêu chảy';
+EXEC insertContradiction '00561','DR158',N'Suy thận';
+EXEC insertContradiction '00398','DR085',N'Buồn nôn';
+EXEC insertContradiction '00232','DR060',N'Ho';
+EXEC insertContradiction '00099','DR059',N'Ho';
+EXEC insertContradiction '00342','DR208',N'Ho';
+EXEC insertContradiction '00222','DR182',N'Phát ban';
+EXEC insertContradiction '00438','DR039',N'Ho';
+EXEC insertContradiction '00548','DR163',N'Khó thở';
+EXEC insertContradiction '00470','DR187',N'Hạ huyết áp';
+EXEC insertContradiction '00308','DR097',N'Buồn nôn';
+EXEC insertContradiction '00625','DR205',N'Ho';
+EXEC insertContradiction '00581','DR254',N'Hạ huyết áp';
+EXEC insertContradiction '00269','DR161',N'Suy thận';
+EXEC insertContradiction '00189','DR019',N'Buồn nôn';
+EXEC insertContradiction '00062','DR005',N'Phát ban';
+EXEC insertContradiction '00260','DR223',N'Khó thở';
+EXEC insertContradiction '00775','DR149',N'Tiêu chảy';
+EXEC insertContradiction '00726','DR193',N'Sốc phản vệ';
+EXEC insertContradiction '00607','DR294',N'Tiêu chảy';
+EXEC insertContradiction '00637','DR218',N'Phát ban';
+EXEC insertContradiction '00473','DR159',N'Buồn nôn';
+EXEC insertContradiction '00195','DR075',N'Khó thở';
+EXEC insertContradiction '00524','DR047',N'Ho';
+EXEC insertContradiction '00957','DR296',N'Tăng huyết áp';
+EXEC insertContradiction '00296','DR012',N'Suy thận';
+EXEC insertContradiction '00505','DR210',N'Phát ban';
+EXEC insertContradiction '00004','DR209',N'Hạ huyết áp';
+EXEC insertContradiction '00780','DR158',N'Phát ban';
+EXEC insertContradiction '00572','DR253',N'Suy gan';
+EXEC insertContradiction '00459','DR118',N'Sốc phản vệ';
+EXEC insertContradiction '00916','DR152',N'Khó thở';
+EXEC insertContradiction '00186','DR084',N'Suy thận';
+EXEC insertContradiction '00012','DR272',N'Suy thận';
+EXEC insertContradiction '00903','DR080',N'Tiêu chảy';
+
+
+EXEC insertDrugAllergy '00397','DR233',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00932','DR024',N'Suy thận';
+EXEC insertDrugAllergy '00663','DR066',N'Khó thở';
+EXEC insertDrugAllergy '00163','DR300',N'Buồn nôn';
+EXEC insertDrugAllergy '00622','DR197',N'Suy gan';
+EXEC insertDrugAllergy '00184','DR097',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00681','DR294',N'Suy gan';
+EXEC insertDrugAllergy '00082','DR022',N'Ho';
+EXEC insertDrugAllergy '00604','DR134',N'Khó thở';
+EXEC insertDrugAllergy '00199','DR208',N'Suy thận';
+EXEC insertDrugAllergy '01000','DR086',N'Suy thận';
+EXEC insertDrugAllergy '00987','DR043',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00916','DR137',N'Tiêu chảy';
+EXEC insertDrugAllergy '00215','DR170',N'Suy gan';
+EXEC insertDrugAllergy '00733','DR268',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00751','DR019',N'Ho';
+EXEC insertDrugAllergy '00569','DR215',N'Buồn nôn';
+EXEC insertDrugAllergy '00659','DR047',N'Ho';
+EXEC insertDrugAllergy '00183','DR201',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00345','DR123',N'Suy thận';
+EXEC insertDrugAllergy '00158','DR050',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00677','DR024',N'Tiêu chảy';
+EXEC insertDrugAllergy '00087','DR171',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00394','DR035',N'Tiêu chảy';
+EXEC insertDrugAllergy '00335','DR188',N'Suy gan';
+EXEC insertDrugAllergy '00364','DR184',N'Ho';
+EXEC insertDrugAllergy '00982','DR105',N'Khó thở';
+EXEC insertDrugAllergy '00403','DR048',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00099','DR049',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00205','DR201',N'Suy gan';
+EXEC insertDrugAllergy '00480','DR097',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00720','DR284',N'Khó thở';
+EXEC insertDrugAllergy '00494','DR260',N'Khó thở';
+EXEC insertDrugAllergy '00928','DR107',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00113','DR147',N'Khó thở';
+EXEC insertDrugAllergy '00204','DR193',N'Khó thở';
+EXEC insertDrugAllergy '00095','DR131',N'Ho';
+EXEC insertDrugAllergy '00172','DR073',N'Khó thở';
+EXEC insertDrugAllergy '00085','DR136',N'Suy thận';
+EXEC insertDrugAllergy '00627','DR243',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00561','DR027',N'Ho';
+EXEC insertDrugAllergy '00753','DR190',N'Buồn nôn';
+EXEC insertDrugAllergy '00756','DR197',N'Khó thở';
+EXEC insertDrugAllergy '00883','DR212',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00045','DR167',N'Phát ban';
+EXEC insertDrugAllergy '00740','DR119',N'Suy thận';
+EXEC insertDrugAllergy '00194','DR232',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00253','DR075',N'Suy gan';
+EXEC insertDrugAllergy '00219','DR116',N'Phát ban';
+EXEC insertDrugAllergy '00145','DR054',N'Suy gan';
+EXEC insertDrugAllergy '00767','DR011',N'Suy thận';
+EXEC insertDrugAllergy '00977','DR196',N'Khó thở';
+EXEC insertDrugAllergy '00117','DR184',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00374','DR168',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00680','DR189',N'Suy thận';
+EXEC insertDrugAllergy '00107','DR230',N'Phát ban';
+EXEC insertDrugAllergy '00247','DR006',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00123','DR107',N'Buồn nôn';
+EXEC insertDrugAllergy '00313','DR071',N'Tiêu chảy';
+EXEC insertDrugAllergy '00487','DR218',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00251','DR159',N'Suy thận';
+EXEC insertDrugAllergy '00478','DR012',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00210','DR129',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00245','DR067',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00135','DR061',N'Suy thận';
+EXEC insertDrugAllergy '00874','DR206',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00130','DR032',N'Suy gan';
+EXEC insertDrugAllergy '00475','DR156',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00725','DR277',N'Khó thở';
+EXEC insertDrugAllergy '00057','DR008',N'Khó thở';
+EXEC insertDrugAllergy '00202','DR245',N'Phát ban';
+EXEC insertDrugAllergy '00483','DR294',N'Khó thở';
+EXEC insertDrugAllergy '00737','DR069',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00348','DR176',N'Buồn nôn';
+EXEC insertDrugAllergy '00870','DR059',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00905','DR005',N'Tiêu chảy';
+EXEC insertDrugAllergy '00570','DR032',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00298','DR176',N'Phát ban';
+EXEC insertDrugAllergy '00369','DR071',N'Ho';
+EXEC insertDrugAllergy '00171','DR213',N'Suy gan';
+EXEC insertDrugAllergy '00940','DR282',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00891','DR069',N'Buồn nôn';
+EXEC insertDrugAllergy '00306','DR015',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00806','DR212',N'Suy gan';
+EXEC insertDrugAllergy '00689','DR086',N'Khó thở';
+EXEC insertDrugAllergy '00367','DR041',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00039','DR050',N'Phát ban';
+EXEC insertDrugAllergy '00472','DR097',N'Suy thận';
+EXEC insertDrugAllergy '00509','DR269',N'Phát ban';
+EXEC insertDrugAllergy '00234','DR202',N'Ho';
+EXEC insertDrugAllergy '00491','DR130',N'Ho';
+EXEC insertDrugAllergy '00070','DR103',N'Phát ban';
+EXEC insertDrugAllergy '00119','DR037',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00814','DR041',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00202','DR209',N'Ho';
+EXEC insertDrugAllergy '00178','DR289',N'Ho';
+EXEC insertDrugAllergy '00099','DR152',N'Tiêu chảy';
+EXEC insertDrugAllergy '00155','DR083',N'Suy gan';
+EXEC insertDrugAllergy '00299','DR285',N'Khó thở';
+EXEC insertDrugAllergy '00880','DR037',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00898','DR180',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00819','DR178',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00367','DR170',N'Buồn nôn';
+EXEC insertDrugAllergy '00467','DR098',N'Tiêu chảy';
+EXEC insertDrugAllergy '00272','DR234',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00476','DR298',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00435','DR267',N'Phát ban';
+EXEC insertDrugAllergy '00113','DR009',N'Tiêu chảy';
+EXEC insertDrugAllergy '00713','DR298',N'Khó thở';
+EXEC insertDrugAllergy '00220','DR061',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00532','DR070',N'Tiêu chảy';
+EXEC insertDrugAllergy '00785','DR150',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00303','DR217',N'Buồn nôn';
+EXEC insertDrugAllergy '00902','DR198',N'Suy gan';
+EXEC insertDrugAllergy '00229','DR114',N'Suy gan';
+EXEC insertDrugAllergy '00742','DR214',N'Khó thở';
+EXEC insertDrugAllergy '00767','DR095',N'Khó thở';
+EXEC insertDrugAllergy '00881','DR068',N'Suy thận';
+EXEC insertDrugAllergy '00101','DR084',N'Tiêu chảy';
+EXEC insertDrugAllergy '00197','DR168',N'Tiêu chảy';
+EXEC insertDrugAllergy '00553','DR032',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00725','DR270',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00279','DR072',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00951','DR088',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00310','DR190',N'Phát ban';
+EXEC insertDrugAllergy '00661','DR272',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00994','DR116',N'Buồn nôn';
+EXEC insertDrugAllergy '00221','DR097',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00044','DR076',N'Buồn nôn';
+EXEC insertDrugAllergy '00575','DR046',N'Khó thở';
+EXEC insertDrugAllergy '00878','DR217',N'Suy gan';
+EXEC insertDrugAllergy '00504','DR018',N'Suy gan';
+EXEC insertDrugAllergy '00338','DR112',N'Suy thận';
+EXEC insertDrugAllergy '00118','DR237',N'Tiêu chảy';
+EXEC insertDrugAllergy '00507','DR258',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00268','DR085',N'Khó thở';
+EXEC insertDrugAllergy '00251','DR202',N'Phát ban';
+EXEC insertDrugAllergy '00023','DR219',N'Khó thở';
+EXEC insertDrugAllergy '00120','DR226',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00840','DR221',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00515','DR233',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00813','DR013',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00085','DR221',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00952','DR130',N'Phát ban';
+EXEC insertDrugAllergy '00319','DR072',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00040','DR183',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00908','DR262',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00004','DR298',N'Phát ban';
+EXEC insertDrugAllergy '00881','DR200',N'Phát ban';
+EXEC insertDrugAllergy '00538','DR022',N'Tiêu chảy';
+EXEC insertDrugAllergy '00635','DR201',N'Khó thở';
+EXEC insertDrugAllergy '00413','DR102',N'Tiêu chảy';
+EXEC insertDrugAllergy '00705','DR122',N'Buồn nôn';
+EXEC insertDrugAllergy '00906','DR125',N'Ho';
+EXEC insertDrugAllergy '00437','DR289',N'Suy thận';
+EXEC insertDrugAllergy '00541','DR203',N'Suy thận';
+EXEC insertDrugAllergy '00513','DR261',N'Suy gan';
+EXEC insertDrugAllergy '00865','DR076',N'Ho';
+EXEC insertDrugAllergy '00833','DR288',N'Khó thở';
+EXEC insertDrugAllergy '00939','DR148',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00288','DR127',N'Buồn nôn';
+EXEC insertDrugAllergy '00471','DR035',N'Suy thận';
+EXEC insertDrugAllergy '00937','DR296',N'Tiêu chảy';
+EXEC insertDrugAllergy '00152','DR149',N'Ho';
+EXEC insertDrugAllergy '00792','DR062',N'Suy gan';
+EXEC insertDrugAllergy '00921','DR031',N'Ho';
+EXEC insertDrugAllergy '00436','DR285',N'Suy thận';
+EXEC insertDrugAllergy '00714','DR251',N'Buồn nôn';
+EXEC insertDrugAllergy '00459','DR187',N'Khó thở';
+EXEC insertDrugAllergy '00512','DR034',N'Suy thận';
+EXEC insertDrugAllergy '00240','DR118',N'Khó thở';
+EXEC insertDrugAllergy '00864','DR298',N'Phát ban';
+EXEC insertDrugAllergy '00353','DR264',N'Buồn nôn';
+EXEC insertDrugAllergy '00458','DR201',N'Phát ban';
+EXEC insertDrugAllergy '00444','DR047',N'Phát ban';
+EXEC insertDrugAllergy '00272','DR074',N'Ho';
+EXEC insertDrugAllergy '00576','DR040',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00363','DR043',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00968','DR137',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00866','DR190',N'Suy gan';
+EXEC insertDrugAllergy '00063','DR230',N'Tiêu chảy';
+EXEC insertDrugAllergy '00209','DR198',N'Suy thận';
+EXEC insertDrugAllergy '00485','DR293',N'Phát ban';
+EXEC insertDrugAllergy '00758','DR135',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00141','DR161',N'Phát ban';
+EXEC insertDrugAllergy '00462','DR186',N'Phát ban';
+EXEC insertDrugAllergy '00764','DR226',N'Khó thở';
+EXEC insertDrugAllergy '00886','DR193',N'Khó thở';
+EXEC insertDrugAllergy '00126','DR195',N'Khó thở';
+EXEC insertDrugAllergy '00427','DR159',N'Khó thở';
+EXEC insertDrugAllergy '00031','DR053',N'Suy gan';
+EXEC insertDrugAllergy '00101','DR083',N'Phát ban';
+EXEC insertDrugAllergy '00140','DR215',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00701','DR066',N'Tiêu chảy';
+EXEC insertDrugAllergy '00614','DR061',N'Suy gan';
+EXEC insertDrugAllergy '00742','DR094',N'Khó thở';
+EXEC insertDrugAllergy '00828','DR059',N'Buồn nôn';
+EXEC insertDrugAllergy '00676','DR116',N'Khó thở';
+EXEC insertDrugAllergy '00491','DR272',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00182','DR187',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00907','DR048',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00216','DR136',N'Ho';
+EXEC insertDrugAllergy '00826','DR275',N'Ho';
+EXEC insertDrugAllergy '00885','DR179',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00903','DR103',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00635','DR270',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00845','DR223',N'Phát ban';
+EXEC insertDrugAllergy '00352','DR187',N'Suy thận';
+EXEC insertDrugAllergy '00792','DR175',N'Ho';
+EXEC insertDrugAllergy '00117','DR247',N'Suy thận';
+EXEC insertDrugAllergy '00378','DR003',N'Khó thở';
+EXEC insertDrugAllergy '00810','DR130',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00198','DR147',N'Ho';
+EXEC insertDrugAllergy '00613','DR262',N'Tiêu chảy';
+EXEC insertDrugAllergy '00972','DR214',N'Tiêu chảy';
+EXEC insertDrugAllergy '00657','DR300',N'Phát ban';
+EXEC insertDrugAllergy '00707','DR294',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00402','DR239',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00841','DR072',N'Tiêu chảy';
+EXEC insertDrugAllergy '00218','DR150',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00005','DR206',N'Tiêu chảy';
+EXEC insertDrugAllergy '00080','DR099',N'Khó thở';
+EXEC insertDrugAllergy '00097','DR085',N'Ho';
+EXEC insertDrugAllergy '00390','DR289',N'Ho';
+EXEC insertDrugAllergy '00391','DR207',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00521','DR023',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00763','DR074',N'Suy thận';
+EXEC insertDrugAllergy '00484','DR008',N'Phát ban';
+EXEC insertDrugAllergy '00213','DR194',N'Suy thận';
+EXEC insertDrugAllergy '00613','DR048',N'Buồn nôn';
+EXEC insertDrugAllergy '00041','DR165',N'Ho';
+EXEC insertDrugAllergy '00928','DR036',N'Phát ban';
+EXEC insertDrugAllergy '00895','DR094',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00892','DR156',N'Phát ban';
+EXEC insertDrugAllergy '00465','DR175',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00292','DR185',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00140','DR166',N'Khó thở';
+EXEC insertDrugAllergy '00112','DR241',N'Tiêu chảy';
+EXEC insertDrugAllergy '00401','DR191',N'Tiêu chảy';
+EXEC insertDrugAllergy '00936','DR267',N'Phát ban';
+EXEC insertDrugAllergy '00801','DR232',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00581','DR298',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00496','DR213',N'Phát ban';
+EXEC insertDrugAllergy '00587','DR005',N'Phát ban';
+EXEC insertDrugAllergy '00714','DR044',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00690','DR211',N'Khó thở';
+EXEC insertDrugAllergy '00768','DR247',N'Ho';
+EXEC insertDrugAllergy '00116','DR104',N'Suy gan';
+EXEC insertDrugAllergy '00829','DR085',N'Buồn nôn';
+EXEC insertDrugAllergy '00402','DR225',N'Tiêu chảy';
+EXEC insertDrugAllergy '00776','DR124',N'Suy gan';
+EXEC insertDrugAllergy '00605','DR043',N'Suy thận';
+EXEC insertDrugAllergy '00642','DR235',N'Ho';
+EXEC insertDrugAllergy '00411','DR039',N'Ho';
+EXEC insertDrugAllergy '00590','DR230',N'Ho';
+EXEC insertDrugAllergy '00153','DR169',N'Tiêu chảy';
+EXEC insertDrugAllergy '00116','DR057',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00436','DR101',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00033','DR274',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00492','DR138',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00104','DR270',N'Buồn nôn';
+EXEC insertDrugAllergy '00094','DR003',N'Suy thận';
+EXEC insertDrugAllergy '00988','DR240',N'Phát ban';
+EXEC insertDrugAllergy '00531','DR152',N'Suy gan';
+EXEC insertDrugAllergy '00682','DR169',N'Suy thận';
+EXEC insertDrugAllergy '00981','DR167',N'Ho';
+EXEC insertDrugAllergy '00292','DR027',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00280','DR246',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00696','DR294',N'Suy thận';
+EXEC insertDrugAllergy '00471','DR072',N'Khó thở';
+EXEC insertDrugAllergy '00950','DR090',N'Suy gan';
+EXEC insertDrugAllergy '00463','DR072',N'Khó thở';
+EXEC insertDrugAllergy '00813','DR253',N'Suy gan';
+EXEC insertDrugAllergy '00318','DR051',N'Khó thở';
+EXEC insertDrugAllergy '00629','DR055',N'Phát ban';
+EXEC insertDrugAllergy '00974','DR042',N'Buồn nôn';
+EXEC insertDrugAllergy '00655','DR016',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00023','DR160',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00505','DR078',N'Khó thở';
+EXEC insertDrugAllergy '00109','DR018',N'Khó thở';
+EXEC insertDrugAllergy '00377','DR025',N'Buồn nôn';
+EXEC insertDrugAllergy '00671','DR121',N'Tiêu chảy';
+EXEC insertDrugAllergy '00965','DR292',N'Phát ban';
+EXEC insertDrugAllergy '00992','DR012',N'Suy gan';
+EXEC insertDrugAllergy '00529','DR210',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00487','DR036',N'Tiêu chảy';
+EXEC insertDrugAllergy '00066','DR008',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00219','DR099',N'Ho';
+EXEC insertDrugAllergy '00977','DR067',N'Ho';
+EXEC insertDrugAllergy '00931','DR195',N'Buồn nôn';
+EXEC insertDrugAllergy '00666','DR095',N'Phát ban';
+EXEC insertDrugAllergy '00206','DR034',N'Tiêu chảy';
+EXEC insertDrugAllergy '00882','DR176',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00362','DR264',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00946','DR276',N'Tiêu chảy';
+EXEC insertDrugAllergy '00892','DR114',N'Tiêu chảy';
+EXEC insertDrugAllergy '00957','DR047',N'Khó thở';
+EXEC insertDrugAllergy '00810','DR268',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00317','DR024',N'Ho';
+EXEC insertDrugAllergy '00653','DR001',N'Khó thở';
+EXEC insertDrugAllergy '00591','DR224',N'Suy gan';
+EXEC insertDrugAllergy '00444','DR225',N'Ho';
+EXEC insertDrugAllergy '00063','DR047',N'Phát ban';
+EXEC insertDrugAllergy '00307','DR133',N'Tiêu chảy';
+EXEC insertDrugAllergy '00862','DR273',N'Khó thở';
+EXEC insertDrugAllergy '00195','DR104',N'Suy gan';
+EXEC insertDrugAllergy '00994','DR083',N'Tiêu chảy';
+EXEC insertDrugAllergy '00487','DR098',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00952','DR061',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00340','DR054',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00894','DR157',N'Suy gan';
+EXEC insertDrugAllergy '00530','DR237',N'Suy gan';
+EXEC insertDrugAllergy '00580','DR017',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00218','DR177',N'Suy gan';
+EXEC insertDrugAllergy '00432','DR252',N'Suy thận';
+EXEC insertDrugAllergy '00808','DR292',N'Suy thận';
+EXEC insertDrugAllergy '00766','DR280',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00171','DR219',N'Ho';
+EXEC insertDrugAllergy '00495','DR043',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00138','DR254',N'Ho';
+EXEC insertDrugAllergy '00824','DR144',N'Tiêu chảy';
+EXEC insertDrugAllergy '00420','DR162',N'Phát ban';
+EXEC insertDrugAllergy '00090','DR234',N'Ho';
+EXEC insertDrugAllergy '00434','DR008',N'Suy thận';
+EXEC insertDrugAllergy '00471','DR041',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00708','DR100',N'Suy thận';
+EXEC insertDrugAllergy '00647','DR162',N'Suy thận';
+EXEC insertDrugAllergy '00488','DR300',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00300','DR299',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00435','DR020',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00117','DR121',N'Suy thận';
+EXEC insertDrugAllergy '00577','DR172',N'Tiêu chảy';
+EXEC insertDrugAllergy '00465','DR018',N'Ho';
+EXEC insertDrugAllergy '00348','DR247',N'Suy thận';
+EXEC insertDrugAllergy '00615','DR252',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00412','DR130',N'Suy thận';
+EXEC insertDrugAllergy '00302','DR039',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00019','DR290',N'Tiêu chảy';
+EXEC insertDrugAllergy '00914','DR025',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00412','DR270',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00616','DR077',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00583','DR224',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00398','DR280',N'Khó thở';
+EXEC insertDrugAllergy '00853','DR122',N'Khó thở';
+EXEC insertDrugAllergy '00330','DR240',N'Phát ban';
+EXEC insertDrugAllergy '00402','DR128',N'Phát ban';
+EXEC insertDrugAllergy '00406','DR168',N'Suy gan';
+EXEC insertDrugAllergy '00633','DR107',N'Suy thận';
+EXEC insertDrugAllergy '00657','DR295',N'Khó thở';
+EXEC insertDrugAllergy '00740','DR110',N'Suy gan';
+EXEC insertDrugAllergy '00503','DR174',N'Suy thận';
+EXEC insertDrugAllergy '00783','DR204',N'Buồn nôn';
+EXEC insertDrugAllergy '00086','DR241',N'Suy gan';
+EXEC insertDrugAllergy '00203','DR125',N'Suy thận';
+EXEC insertDrugAllergy '00526','DR104',N'Suy gan';
+EXEC insertDrugAllergy '00574','DR132',N'Khó thở';
+EXEC insertDrugAllergy '00350','DR014',N'Suy thận';
+EXEC insertDrugAllergy '00262','DR220',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00117','DR046',N'Phát ban';
+EXEC insertDrugAllergy '00818','DR225',N'Suy thận';
+EXEC insertDrugAllergy '00599','DR123',N'Phát ban';
+EXEC insertDrugAllergy '00772','DR077',N'Suy gan';
+EXEC insertDrugAllergy '00372','DR043',N'Khó thở';
+EXEC insertDrugAllergy '00639','DR029',N'Suy thận';
+EXEC insertDrugAllergy '00567','DR133',N'Suy thận';
+EXEC insertDrugAllergy '00803','DR091',N'Suy gan';
+EXEC insertDrugAllergy '00200','DR004',N'Khó thở';
+EXEC insertDrugAllergy '00168','DR202',N'Tiêu chảy';
+EXEC insertDrugAllergy '00604','DR251',N'Ho';
+EXEC insertDrugAllergy '00387','DR167',N'Khó thở';
+EXEC insertDrugAllergy '00164','DR268',N'Khó thở';
+EXEC insertDrugAllergy '00707','DR162',N'Buồn nôn';
+EXEC insertDrugAllergy '00737','DR078',N'Ho';
+EXEC insertDrugAllergy '00878','DR048',N'Phát ban';
+EXEC insertDrugAllergy '00067','DR052',N'Khó thở';
+EXEC insertDrugAllergy '00017','DR148',N'Khó thở';
+EXEC insertDrugAllergy '00503','DR001',N'Buồn nôn';
+EXEC insertDrugAllergy '00626','DR270',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00369','DR220',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00638','DR042',N'Phát ban';
+EXEC insertDrugAllergy '00750','DR059',N'Tiêu chảy';
+EXEC insertDrugAllergy '00429','DR151',N'Ho';
+EXEC insertDrugAllergy '00302','DR002',N'Buồn nôn';
+EXEC insertDrugAllergy '00751','DR198',N'Ho';
+EXEC insertDrugAllergy '00725','DR156',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00238','DR160',N'Suy thận';
+EXEC insertDrugAllergy '00593','DR262',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00049','DR179',N'Phát ban';
+EXEC insertDrugAllergy '00782','DR139',N'Buồn nôn';
+EXEC insertDrugAllergy '00472','DR039',N'Tiêu chảy';
+EXEC insertDrugAllergy '00582','DR081',N'Tiêu chảy';
+EXEC insertDrugAllergy '00661','DR012',N'Phát ban';
+EXEC insertDrugAllergy '00304','DR236',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00768','DR003',N'Ho';
+EXEC insertDrugAllergy '00455','DR008',N'Suy thận';
+EXEC insertDrugAllergy '00432','DR127',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00245','DR180',N'Ho';
+EXEC insertDrugAllergy '00411','DR165',N'Buồn nôn';
+EXEC insertDrugAllergy '00158','DR249',N'Buồn nôn';
+EXEC insertDrugAllergy '00274','DR283',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00276','DR051',N'Tiêu chảy';
+EXEC insertDrugAllergy '00181','DR113',N'Suy thận';
+EXEC insertDrugAllergy '00789','DR205',N'Tiêu chảy';
+EXEC insertDrugAllergy '00171','DR050',N'Tiêu chảy';
+EXEC insertDrugAllergy '00031','DR221',N'Tiêu chảy';
+EXEC insertDrugAllergy '00098','DR268',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00767','DR119',N'Khó thở';
+EXEC insertDrugAllergy '00614','DR021',N'Phát ban';
+EXEC insertDrugAllergy '00289','DR075',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00107','DR174',N'Tiêu chảy';
+EXEC insertDrugAllergy '00538','DR010',N'Phát ban';
+EXEC insertDrugAllergy '00187','DR234',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00227','DR287',N'Khó thở';
+EXEC insertDrugAllergy '00040','DR239',N'Phát ban';
+EXEC insertDrugAllergy '00085','DR082',N'Phát ban';
+EXEC insertDrugAllergy '00561','DR010',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00078','DR271',N'Suy gan';
+EXEC insertDrugAllergy '00645','DR008',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00844','DR075',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00169','DR263',N'Khó thở';
+EXEC insertDrugAllergy '00351','DR015',N'Buồn nôn';
+EXEC insertDrugAllergy '00976','DR242',N'Khó thở';
+EXEC insertDrugAllergy '00564','DR065',N'Suy gan';
+EXEC insertDrugAllergy '00665','DR105',N'Buồn nôn';
+EXEC insertDrugAllergy '00150','DR053',N'Phát ban';
+EXEC insertDrugAllergy '00200','DR113',N'Ho';
+EXEC insertDrugAllergy '00810','DR020',N'Tiêu chảy';
+EXEC insertDrugAllergy '00946','DR076',N'Suy gan';
+EXEC insertDrugAllergy '00356','DR045',N'Buồn nôn';
+EXEC insertDrugAllergy '00228','DR216',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00097','DR292',N'Tiêu chảy';
+EXEC insertDrugAllergy '00455','DR296',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00539','DR238',N'Phát ban';
+EXEC insertDrugAllergy '00967','DR061',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00331','DR136',N'Ho';
+EXEC insertDrugAllergy '00035','DR083',N'Phát ban';
+EXEC insertDrugAllergy '00498','DR037',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00024','DR033',N'Suy thận';
+EXEC insertDrugAllergy '00546','DR072',N'Tiêu chảy';
+EXEC insertDrugAllergy '00864','DR160',N'Suy gan';
+EXEC insertDrugAllergy '00408','DR026',N'Buồn nôn';
+EXEC insertDrugAllergy '00053','DR204',N'Suy gan';
+EXEC insertDrugAllergy '00792','DR192',N'Tiêu chảy';
+EXEC insertDrugAllergy '00525','DR149',N'Phát ban';
+EXEC insertDrugAllergy '00045','DR205',N'Buồn nôn';
+EXEC insertDrugAllergy '00592','DR043',N'Ho';
+EXEC insertDrugAllergy '00510','DR247',N'Tiêu chảy';
+EXEC insertDrugAllergy '00321','DR066',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00433','DR052',N'Ho';
+EXEC insertDrugAllergy '00780','DR247',N'Suy thận';
+EXEC insertDrugAllergy '00171','DR032',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00138','DR294',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00641','DR294',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00582','DR217',N'Suy gan';
+EXEC insertDrugAllergy '00345','DR273',N'Suy gan';
+EXEC insertDrugAllergy '00331','DR281',N'Khó thở';
+EXEC insertDrugAllergy '00118','DR092',N'Suy thận';
+EXEC insertDrugAllergy '00411','DR175',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00791','DR032',N'Buồn nôn';
+EXEC insertDrugAllergy '00957','DR072',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00995','DR210',N'Khó thở';
+EXEC insertDrugAllergy '00671','DR209',N'Ho';
+EXEC insertDrugAllergy '00216','DR235',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00152','DR027',N'Tiêu chảy';
+EXEC insertDrugAllergy '00693','DR271',N'Ho';
+EXEC insertDrugAllergy '00139','DR087',N'Ho';
+EXEC insertDrugAllergy '00819','DR191',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00427','DR238',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00143','DR137',N'Suy thận';
+EXEC insertDrugAllergy '00290','DR083',N'Phát ban';
+EXEC insertDrugAllergy '00547','DR195',N'Phát ban';
+EXEC insertDrugAllergy '00636','DR063',N'Buồn nôn';
+EXEC insertDrugAllergy '00598','DR186',N'Khó thở';
+EXEC insertDrugAllergy '00386','DR168',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00998','DR260',N'Suy thận';
+EXEC insertDrugAllergy '00302','DR198',N'Khó thở';
+EXEC insertDrugAllergy '00926','DR151',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00373','DR042',N'Tiêu chảy';
+EXEC insertDrugAllergy '00393','DR192',N'Ho';
+EXEC insertDrugAllergy '00283','DR300',N'Tiêu chảy';
+EXEC insertDrugAllergy '00432','DR202',N'Suy gan';
+EXEC insertDrugAllergy '00417','DR129',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00037','DR291',N'Ho';
+EXEC insertDrugAllergy '00101','DR058',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00727','DR295',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00016','DR044',N'Tiêu chảy';
+EXEC insertDrugAllergy '00853','DR028',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00288','DR255',N'Tiêu chảy';
+EXEC insertDrugAllergy '00550','DR143',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00334','DR071',N'Khó thở';
+EXEC insertDrugAllergy '00422','DR155',N'Phát ban';
+EXEC insertDrugAllergy '00754','DR087',N'Ho';
+EXEC insertDrugAllergy '00753','DR282',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00993','DR060',N'Tiêu chảy';
+EXEC insertDrugAllergy '00144','DR221',N'Ho';
+EXEC insertDrugAllergy '00110','DR191',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00251','DR031',N'Buồn nôn';
+EXEC insertDrugAllergy '00050','DR066',N'Phát ban';
+EXEC insertDrugAllergy '00688','DR151',N'Khó thở';
+EXEC insertDrugAllergy '00094','DR242',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00481','DR055',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00448','DR286',N'Ho';
+EXEC insertDrugAllergy '00789','DR186',N'Suy gan';
+EXEC insertDrugAllergy '00693','DR253',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00774','DR267',N'Tiêu chảy';
+EXEC insertDrugAllergy '00354','DR115',N'Ho';
+EXEC insertDrugAllergy '00370','DR245',N'Phát ban';
+EXEC insertDrugAllergy '00198','DR040',N'Suy thận';
+EXEC insertDrugAllergy '00218','DR264',N'Ho';
+EXEC insertDrugAllergy '00035','DR161',N'Khó thở';
+EXEC insertDrugAllergy '00484','DR002',N'Khó thở';
+EXEC insertDrugAllergy '00971','DR275',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00897','DR202',N'Phát ban';
+EXEC insertDrugAllergy '00908','DR211',N'Suy thận';
+EXEC insertDrugAllergy '00531','DR034',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00697','DR061',N'Phát ban';
+EXEC insertDrugAllergy '00952','DR088',N'Suy thận';
+EXEC insertDrugAllergy '00720','DR203',N'Ho';
+EXEC insertDrugAllergy '00929','DR187',N'Tiêu chảy';
+EXEC insertDrugAllergy '00950','DR080',N'Suy thận';
+EXEC insertDrugAllergy '00793','DR251',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00946','DR055',N'Suy gan';
+EXEC insertDrugAllergy '00887','DR135',N'Khó thở';
+EXEC insertDrugAllergy '00475','DR230',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00302','DR092',N'Suy gan';
+EXEC insertDrugAllergy '00567','DR205',N'Khó thở';
+EXEC insertDrugAllergy '00782','DR132',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00369','DR028',N'Ho';
+EXEC insertDrugAllergy '00333','DR022',N'Buồn nôn';
+EXEC insertDrugAllergy '00085','DR296',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00743','DR216',N'Suy gan';
+EXEC insertDrugAllergy '00003','DR160',N'Suy gan';
+EXEC insertDrugAllergy '00046','DR171',N'Buồn nôn';
+EXEC insertDrugAllergy '00769','DR174',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00710','DR170',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00775','DR105',N'Khó thở';
+EXEC insertDrugAllergy '00754','DR095',N'Suy thận';
+EXEC insertDrugAllergy '00745','DR214',N'Khó thở';
+EXEC insertDrugAllergy '00369','DR093',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00054','DR159',N'Buồn nôn';
+EXEC insertDrugAllergy '00087','DR178',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00421','DR196',N'Khó thở';
+EXEC insertDrugAllergy '00551','DR166',N'Suy gan';
+EXEC insertDrugAllergy '00298','DR001',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00184','DR280',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00399','DR270',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00439','DR090',N'Khó thở';
+EXEC insertDrugAllergy '00685','DR207',N'Khó thở';
+EXEC insertDrugAllergy '00397','DR168',N'Tiêu chảy';
+EXEC insertDrugAllergy '00381','DR029',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00886','DR058',N'Tiêu chảy';
+EXEC insertDrugAllergy '00961','DR018',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00911','DR102',N'Ho';
+EXEC insertDrugAllergy '00792','DR021',N'Phát ban';
+EXEC insertDrugAllergy '00608','DR225',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00636','DR039',N'Ho';
+EXEC insertDrugAllergy '00678','DR134',N'Suy thận';
+EXEC insertDrugAllergy '00781','DR187',N'Phát ban';
+EXEC insertDrugAllergy '00894','DR186',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00766','DR294',N'Phát ban';
+EXEC insertDrugAllergy '00671','DR117',N'Buồn nôn';
+EXEC insertDrugAllergy '00390','DR067',N'Phát ban';
+EXEC insertDrugAllergy '00209','DR281',N'Suy thận';
+EXEC insertDrugAllergy '00678','DR266',N'Suy thận';
+EXEC insertDrugAllergy '00380','DR023',N'Suy gan';
+EXEC insertDrugAllergy '00524','DR168',N'Suy thận';
+EXEC insertDrugAllergy '00932','DR084',N'Buồn nôn';
+EXEC insertDrugAllergy '00858','DR127',N'Suy thận';
+EXEC insertDrugAllergy '00108','DR016',N'Khó thở';
+EXEC insertDrugAllergy '00717','DR129',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00343','DR202',N'Suy gan';
+EXEC insertDrugAllergy '00208','DR099',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00687','DR036',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00518','DR006',N'Buồn nôn';
+EXEC insertDrugAllergy '00048','DR164',N'Buồn nôn';
+EXEC insertDrugAllergy '00677','DR225',N'Buồn nôn';
+EXEC insertDrugAllergy '00211','DR163',N'Suy thận';
+EXEC insertDrugAllergy '00854','DR111',N'Buồn nôn';
+EXEC insertDrugAllergy '00456','DR113',N'Suy gan';
+EXEC insertDrugAllergy '00409','DR292',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00725','DR116',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00644','DR169',N'Suy thận';
+EXEC insertDrugAllergy '00133','DR037',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00862','DR278',N'Phát ban';
+EXEC insertDrugAllergy '00949','DR296',N'Ho';
+EXEC insertDrugAllergy '00775','DR047',N'Ho';
+EXEC insertDrugAllergy '00379','DR078',N'Suy gan';
+EXEC insertDrugAllergy '00698','DR093',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00715','DR141',N'Suy gan';
+EXEC insertDrugAllergy '00453','DR265',N'Ho';
+EXEC insertDrugAllergy '00010','DR241',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00895','DR205',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00565','DR095',N'Khó thở';
+EXEC insertDrugAllergy '00945','DR072',N'Suy gan';
+EXEC insertDrugAllergy '00749','DR008',N'Suy gan';
+EXEC insertDrugAllergy '00426','DR249',N'Ho';
+EXEC insertDrugAllergy '00899','DR139',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00181','DR062',N'Ho';
+EXEC insertDrugAllergy '00709','DR269',N'Buồn nôn';
+EXEC insertDrugAllergy '00543','DR093',N'Suy thận';
+EXEC insertDrugAllergy '00016','DR119',N'Phát ban';
+EXEC insertDrugAllergy '00146','DR210',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00983','DR208',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00511','DR144',N'Suy thận';
+EXEC insertDrugAllergy '00300','DR086',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00977','DR112',N'Buồn nôn';
+EXEC insertDrugAllergy '00430','DR278',N'Suy thận';
+EXEC insertDrugAllergy '00796','DR127',N'Suy thận';
+EXEC insertDrugAllergy '00173','DR194',N'Tiêu chảy';
+EXEC insertDrugAllergy '00565','DR229',N'Phát ban';
+EXEC insertDrugAllergy '00039','DR243',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00048','DR052',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00444','DR087',N'Suy thận';
+EXEC insertDrugAllergy '00802','DR226',N'Phát ban';
+EXEC insertDrugAllergy '00379','DR200',N'Tiêu chảy';
+EXEC insertDrugAllergy '00268','DR173',N'Tiêu chảy';
+EXEC insertDrugAllergy '00386','DR161',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00021','DR111',N'Suy gan';
+EXEC insertDrugAllergy '00440','DR141',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00653','DR026',N'Suy gan';
+EXEC insertDrugAllergy '00258','DR206',N'Khó thở';
+EXEC insertDrugAllergy '00971','DR037',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00189','DR211',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00331','DR253',N'Suy gan';
+EXEC insertDrugAllergy '00460','DR022',N'Phát ban';
+EXEC insertDrugAllergy '00965','DR236',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00013','DR284',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00193','DR048',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00699','DR280',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00091','DR144',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00302','DR045',N'Buồn nôn';
+EXEC insertDrugAllergy '00107','DR128',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00618','DR067',N'Phát ban';
+EXEC insertDrugAllergy '00463','DR270',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00739','DR265',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00500','DR077',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00607','DR163',N'Tiêu chảy';
+EXEC insertDrugAllergy '00698','DR192',N'Ho';
+EXEC insertDrugAllergy '00647','DR284',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00524','DR162',N'Khó thở';
+EXEC insertDrugAllergy '00288','DR214',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00509','DR197',N'Phát ban';
+EXEC insertDrugAllergy '00403','DR183',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00280','DR290',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00437','DR136',N'Suy gan';
+EXEC insertDrugAllergy '00445','DR266',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00174','DR094',N'Suy gan';
+EXEC insertDrugAllergy '00715','DR018',N'Suy thận';
+EXEC insertDrugAllergy '00142','DR022',N'Phát ban';
+EXEC insertDrugAllergy '00843','DR239',N'Ho';
+EXEC insertDrugAllergy '00778','DR088',N'Phát ban';
+EXEC insertDrugAllergy '00315','DR275',N'Tiêu chảy';
+EXEC insertDrugAllergy '00739','DR271',N'Tiêu chảy';
+EXEC insertDrugAllergy '00307','DR154',N'Phát ban';
+EXEC insertDrugAllergy '00018','DR220',N'Ho';
+EXEC insertDrugAllergy '00757','DR234',N'Suy thận';
+EXEC insertDrugAllergy '00387','DR052',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00526','DR135',N'Suy thận';
+EXEC insertDrugAllergy '00036','DR135',N'Buồn nôn';
+EXEC insertDrugAllergy '00259','DR046',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00983','DR282',N'Buồn nôn';
+EXEC insertDrugAllergy '00312','DR136',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00354','DR188',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00530','DR249',N'Ho';
+EXEC insertDrugAllergy '00993','DR231',N'Ho';
+EXEC insertDrugAllergy '00866','DR111',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00412','DR279',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00177','DR165',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00990','DR012',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00294','DR123',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00225','DR149',N'Khó thở';
+EXEC insertDrugAllergy '00315','DR296',N'Tiêu chảy';
+EXEC insertDrugAllergy '00064','DR186',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00042','DR230',N'Phát ban';
+EXEC insertDrugAllergy '00163','DR012',N'Tiêu chảy';
+EXEC insertDrugAllergy '00734','DR183',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00233','DR168',N'Tiêu chảy';
+EXEC insertDrugAllergy '00816','DR281',N'Ho';
+EXEC insertDrugAllergy '00984','DR064',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00649','DR101',N'Suy thận';
+EXEC insertDrugAllergy '00161','DR260',N'Buồn nôn';
+EXEC insertDrugAllergy '00335','DR261',N'Khó thở';
+EXEC insertDrugAllergy '00698','DR092',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00332','DR014',N'Khó thở';
+EXEC insertDrugAllergy '00966','DR044',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00994','DR175',N'Ho';
+EXEC insertDrugAllergy '00055','DR058',N'Suy thận';
+EXEC insertDrugAllergy '00297','DR272',N'Khó thở';
+EXEC insertDrugAllergy '00990','DR257',N'Phát ban';
+EXEC insertDrugAllergy '00341','DR286',N'Buồn nôn';
+EXEC insertDrugAllergy '00766','DR299',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00538','DR106',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00721','DR057',N'Ho';
+EXEC insertDrugAllergy '00571','DR106',N'Khó thở';
+EXEC insertDrugAllergy '00663','DR144',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00314','DR264',N'Suy thận';
+EXEC insertDrugAllergy '00083','DR243',N'Phát ban';
+EXEC insertDrugAllergy '00332','DR234',N'Buồn nôn';
+EXEC insertDrugAllergy '00448','DR233',N'Ho';
+EXEC insertDrugAllergy '00497','DR005',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00694','DR246',N'Ho';
+EXEC insertDrugAllergy '00359','DR290',N'Suy thận';
+EXEC insertDrugAllergy '00670','DR093',N'Ho';
+EXEC insertDrugAllergy '00739','DR031',N'Buồn nôn';
+EXEC insertDrugAllergy '00280','DR115',N'Khó thở';
+EXEC insertDrugAllergy '00214','DR070',N'Suy gan';
+EXEC insertDrugAllergy '00130','DR174',N'Ho';
+EXEC insertDrugAllergy '00976','DR020',N'Buồn nôn';
+EXEC insertDrugAllergy '00846','DR167',N'Buồn nôn';
+EXEC insertDrugAllergy '00284','DR151',N'Suy thận';
+EXEC insertDrugAllergy '00457','DR119',N'Tiêu chảy';
+EXEC insertDrugAllergy '00919','DR057',N'Buồn nôn';
+EXEC insertDrugAllergy '00254','DR194',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00848','DR149',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00906','DR260',N'Buồn nôn';
+EXEC insertDrugAllergy '00928','DR017',N'Ho';
+EXEC insertDrugAllergy '00367','DR176',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00299','DR282',N'Buồn nôn';
+EXEC insertDrugAllergy '00641','DR175',N'Tiêu chảy';
+EXEC insertDrugAllergy '00199','DR057',N'Ho';
+EXEC insertDrugAllergy '00765','DR026',N'Suy thận';
+EXEC insertDrugAllergy '00030','DR004',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00835','DR119',N'Suy thận';
+EXEC insertDrugAllergy '00994','DR213',N'Tiêu chảy';
+EXEC insertDrugAllergy '00083','DR072',N'Suy gan';
+EXEC insertDrugAllergy '00318','DR117',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00176','DR043',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00978','DR183',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00359','DR021',N'Khó thở';
+EXEC insertDrugAllergy '00171','DR168',N'Khó thở';
+EXEC insertDrugAllergy '00884','DR225',N'Tiêu chảy';
+EXEC insertDrugAllergy '00743','DR145',N'Suy gan';
+EXEC insertDrugAllergy '00802','DR069',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00772','DR094',N'Ho';
+EXEC insertDrugAllergy '00673','DR083',N'Buồn nôn';
+EXEC insertDrugAllergy '00513','DR077',N'Buồn nôn';
+EXEC insertDrugAllergy '00068','DR185',N'Ho';
+EXEC insertDrugAllergy '00930','DR043',N'Tiêu chảy';
+EXEC insertDrugAllergy '00166','DR057',N'Phát ban';
+EXEC insertDrugAllergy '00144','DR125',N'Buồn nôn';
+EXEC insertDrugAllergy '00701','DR027',N'Ho';
+EXEC insertDrugAllergy '00090','DR165',N'Buồn nôn';
+EXEC insertDrugAllergy '00556','DR252',N'Ho';
+EXEC insertDrugAllergy '00976','DR147',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00548','DR030',N'Ho';
+EXEC insertDrugAllergy '00538','DR250',N'Ho';
+EXEC insertDrugAllergy '00935','DR166',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00282','DR156',N'Phát ban';
+EXEC insertDrugAllergy '00483','DR158',N'Suy gan';
+EXEC insertDrugAllergy '00270','DR289',N'Khó thở';
+EXEC insertDrugAllergy '00302','DR027',N'Buồn nôn';
+EXEC insertDrugAllergy '00536','DR244',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00680','DR085',N'Tiêu chảy';
+EXEC insertDrugAllergy '00308','DR138',N'Suy gan';
+EXEC insertDrugAllergy '00108','DR112',N'Buồn nôn';
+EXEC insertDrugAllergy '00183','DR158',N'Khó thở';
+EXEC insertDrugAllergy '00799','DR124',N'Khó thở';
+EXEC insertDrugAllergy '00384','DR037',N'Buồn nôn';
+EXEC insertDrugAllergy '00486','DR005',N'Phát ban';
+EXEC insertDrugAllergy '00450','DR283',N'Khó thở';
+EXEC insertDrugAllergy '00002','DR182',N'Suy thận';
+EXEC insertDrugAllergy '00851','DR030',N'Khó thở';
+EXEC insertDrugAllergy '00714','DR146',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00190','DR037',N'Tiêu chảy';
+EXEC insertDrugAllergy '00128','DR041',N'Suy gan';
+EXEC insertDrugAllergy '00994','DR087',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00553','DR178',N'Phát ban';
+EXEC insertDrugAllergy '00369','DR233',N'Suy thận';
+EXEC insertDrugAllergy '00600','DR120',N'Phát ban';
+EXEC insertDrugAllergy '00578','DR031',N'Khó thở';
+EXEC insertDrugAllergy '00983','DR056',N'Buồn nôn';
+EXEC insertDrugAllergy '00054','DR095',N'Suy gan';
+EXEC insertDrugAllergy '00875','DR155',N'Suy thận';
+EXEC insertDrugAllergy '00290','DR170',N'Ho';
+EXEC insertDrugAllergy '00115','DR004',N'Suy gan';
+EXEC insertDrugAllergy '00436','DR136',N'Ho';
+EXEC insertDrugAllergy '00415','DR277',N'Suy thận';
+EXEC insertDrugAllergy '00391','DR300',N'Tiêu chảy';
+EXEC insertDrugAllergy '00117','DR272',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00692','DR059',N'Ho';
+EXEC insertDrugAllergy '00136','DR261',N'Buồn nôn';
+EXEC insertDrugAllergy '00186','DR010',N'Suy gan';
+EXEC insertDrugAllergy '00836','DR161',N'Khó thở';
+EXEC insertDrugAllergy '00059','DR127',N'Tiêu chảy';
+EXEC insertDrugAllergy '00356','DR273',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00006','DR233',N'Phát ban';
+EXEC insertDrugAllergy '00123','DR008',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00680','DR038',N'Phát ban';
+EXEC insertDrugAllergy '00398','DR241',N'Suy thận';
+EXEC insertDrugAllergy '00444','DR128',N'Buồn nôn';
+EXEC insertDrugAllergy '00341','DR083',N'Ho';
+EXEC insertDrugAllergy '00611','DR188',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00993','DR244',N'Suy gan';
+EXEC insertDrugAllergy '00007','DR176',N'Suy gan';
+EXEC insertDrugAllergy '00358','DR177',N'Khó thở';
+EXEC insertDrugAllergy '00940','DR186',N'Buồn nôn';
+EXEC insertDrugAllergy '00712','DR114',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00927','DR120',N'Khó thở';
+EXEC insertDrugAllergy '00340','DR021',N'Suy thận';
+EXEC insertDrugAllergy '00495','DR259',N'Tiêu chảy';
+EXEC insertDrugAllergy '00786','DR140',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00108','DR019',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00195','DR240',N'Khó thở';
+EXEC insertDrugAllergy '00711','DR205',N'Phát ban';
+EXEC insertDrugAllergy '00664','DR228',N'Tiêu chảy';
+EXEC insertDrugAllergy '00647','DR090',N'Suy thận';
+EXEC insertDrugAllergy '00887','DR084',N'Ho';
+EXEC insertDrugAllergy '00025','DR175',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00952','DR144',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00634','DR248',N'Khó thở';
+EXEC insertDrugAllergy '00285','DR154',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00285','DR140',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00226','DR099',N'Suy gan';
+EXEC insertDrugAllergy '00333','DR177',N'Khó thở';
+EXEC insertDrugAllergy '00765','DR255',N'Buồn nôn';
+EXEC insertDrugAllergy '00560','DR059',N'Tiêu chảy';
+EXEC insertDrugAllergy '00495','DR200',N'Ho';
+EXEC insertDrugAllergy '00286','DR099',N'Buồn nôn';
+EXEC insertDrugAllergy '00718','DR236',N'Khó thở';
+EXEC insertDrugAllergy '00415','DR293',N'Suy gan';
+EXEC insertDrugAllergy '00945','DR206',N'Suy gan';
+EXEC insertDrugAllergy '00189','DR176',N'Buồn nôn';
+EXEC insertDrugAllergy '00043','DR052',N'Phát ban';
+EXEC insertDrugAllergy '00704','DR222',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00455','DR015',N'Phát ban';
+EXEC insertDrugAllergy '00642','DR259',N'Phát ban';
+EXEC insertDrugAllergy '00536','DR003',N'Suy thận';
+EXEC insertDrugAllergy '00721','DR036',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00484','DR153',N'Khó thở';
+EXEC insertDrugAllergy '00502','DR071',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00456','DR297',N'Phát ban';
+EXEC insertDrugAllergy '00766','DR134',N'Tiêu chảy';
+EXEC insertDrugAllergy '00960','DR203',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00008','DR092',N'Suy thận';
+EXEC insertDrugAllergy '00549','DR097',N'Suy gan';
+EXEC insertDrugAllergy '00974','DR049',N'Phát ban';
+EXEC insertDrugAllergy '00204','DR061',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00924','DR214',N'Tiêu chảy';
+EXEC insertDrugAllergy '00530','DR247',N'Suy gan';
+EXEC insertDrugAllergy '00494','DR256',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00135','DR231',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00570','DR197',N'Suy thận';
+EXEC insertDrugAllergy '00015','DR274',N'Suy gan';
+EXEC insertDrugAllergy '00837','DR139',N'Suy thận';
+EXEC insertDrugAllergy '00824','DR165',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00180','DR168',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00223','DR289',N'Buồn nôn';
+EXEC insertDrugAllergy '00045','DR050',N'Tiêu chảy';
+EXEC insertDrugAllergy '00493','DR281',N'Ho';
+EXEC insertDrugAllergy '00720','DR243',N'Suy thận';
+EXEC insertDrugAllergy '00418','DR042',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00434','DR067',N'Buồn nôn';
+EXEC insertDrugAllergy '00875','DR086',N'Suy gan';
+EXEC insertDrugAllergy '00885','DR289',N'Tiêu chảy';
+EXEC insertDrugAllergy '00483','DR078',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00347','DR044',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00937','DR188',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00416','DR233',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00793','DR185',N'Ho';
+EXEC insertDrugAllergy '00069','DR193',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00261','DR011',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00173','DR196',N'Suy thận';
+EXEC insertDrugAllergy '00935','DR204',N'Khó thở';
+EXEC insertDrugAllergy '00352','DR007',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00322','DR246',N'Buồn nôn';
+EXEC insertDrugAllergy '00388','DR048',N'Phát ban';
+EXEC insertDrugAllergy '00838','DR292',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00156','DR032',N'Ho';
+EXEC insertDrugAllergy '00471','DR109',N'Ho';
+EXEC insertDrugAllergy '00049','DR098',N'Tiêu chảy';
+EXEC insertDrugAllergy '00194','DR239',N'Tiêu chảy';
+EXEC insertDrugAllergy '00203','DR078',N'Khó thở';
+EXEC insertDrugAllergy '00223','DR230',N'Ho';
+EXEC insertDrugAllergy '00046','DR212',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00385','DR294',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00018','DR199',N'Tiêu chảy';
+EXEC insertDrugAllergy '00053','DR172',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00274','DR134',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00991','DR006',N'Phát ban';
+EXEC insertDrugAllergy '00547','DR233',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00162','DR033',N'Buồn nôn';
+EXEC insertDrugAllergy '00162','DR014',N'Buồn nôn';
+EXEC insertDrugAllergy '00299','DR295',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00518','DR092',N'Suy gan';
+EXEC insertDrugAllergy '00015','DR202',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00371','DR224',N'Tiêu chảy';
+EXEC insertDrugAllergy '00352','DR204',N'Khó thở';
+EXEC insertDrugAllergy '00657','DR163',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00028','DR070',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00857','DR166',N'Tiêu chảy';
+EXEC insertDrugAllergy '00659','DR104',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00861','DR130',N'Buồn nôn';
+EXEC insertDrugAllergy '00258','DR252',N'Tiêu chảy';
+EXEC insertDrugAllergy '00540','DR247',N'Suy gan';
+EXEC insertDrugAllergy '00192','DR179',N'Khó thở';
+EXEC insertDrugAllergy '00751','DR011',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00659','DR251',N'Khó thở';
+EXEC insertDrugAllergy '00244','DR082',N'Tiêu chảy';
+EXEC insertDrugAllergy '00433','DR061',N'Tiêu chảy';
+EXEC insertDrugAllergy '00914','DR158',N'Ho';
+EXEC insertDrugAllergy '00838','DR265',N'Buồn nôn';
+EXEC insertDrugAllergy '00067','DR117',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00722','DR082',N'Suy gan';
+EXEC insertDrugAllergy '00580','DR267',N'Buồn nôn';
+EXEC insertDrugAllergy '00206','DR128',N'Suy gan';
+EXEC insertDrugAllergy '00140','DR114',N'Suy gan';
+EXEC insertDrugAllergy '00061','DR207',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00175','DR115',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00505','DR027',N'Khó thở';
+EXEC insertDrugAllergy '00963','DR279',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00917','DR221',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00816','DR117',N'Tiêu chảy';
+EXEC insertDrugAllergy '00896','DR278',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00361','DR225',N'Suy gan';
+EXEC insertDrugAllergy '00463','DR275',N'Tiêu chảy';
+EXEC insertDrugAllergy '00919','DR119',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00798','DR220',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00010','DR222',N'Buồn nôn';
+EXEC insertDrugAllergy '00626','DR258',N'Tiêu chảy';
+EXEC insertDrugAllergy '00846','DR279',N'Suy gan';
+EXEC insertDrugAllergy '00010','DR202',N'Ho';
+EXEC insertDrugAllergy '00266','DR214',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00712','DR094',N'Tiêu chảy';
+EXEC insertDrugAllergy '00523','DR139',N'Suy thận';
+EXEC insertDrugAllergy '00185','DR070',N'Buồn nôn';
+EXEC insertDrugAllergy '00054','DR058',N'Suy gan';
+EXEC insertDrugAllergy '00299','DR278',N'Phát ban';
+EXEC insertDrugAllergy '00058','DR255',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00259','DR055',N'Suy thận';
+EXEC insertDrugAllergy '00273','DR115',N'Suy thận';
+EXEC insertDrugAllergy '00845','DR218',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00770','DR105',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00369','DR290',N'Khó thở';
+EXEC insertDrugAllergy '00850','DR133',N'Tiêu chảy';
+EXEC insertDrugAllergy '00443','DR246',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00573','DR214',N'Tiêu chảy';
+EXEC insertDrugAllergy '00782','DR298',N'Ho';
+EXEC insertDrugAllergy '00478','DR260',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00112','DR109',N'Ho';
+EXEC insertDrugAllergy '00121','DR299',N'Phát ban';
+EXEC insertDrugAllergy '00575','DR023',N'Suy gan';
+EXEC insertDrugAllergy '00094','DR164',N'Suy gan';
+EXEC insertDrugAllergy '00452','DR234',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00939','DR021',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00630','DR263',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00287','DR077',N'Phát ban';
+EXEC insertDrugAllergy '00500','DR060',N'Khó thở';
+EXEC insertDrugAllergy '00398','DR025',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00047','DR224',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00145','DR299',N'Suy gan';
+EXEC insertDrugAllergy '00564','DR272',N'Buồn nôn';
+EXEC insertDrugAllergy '00355','DR263',N'Ho';
+EXEC insertDrugAllergy '00402','DR202',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00543','DR188',N'Suy gan';
+EXEC insertDrugAllergy '00258','DR143',N'Buồn nôn';
+EXEC insertDrugAllergy '00448','DR013',N'Ho';
+EXEC insertDrugAllergy '00404','DR090',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00846','DR073',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00828','DR111',N'Ho';
+EXEC insertDrugAllergy '00306','DR082',N'Suy gan';
+EXEC insertDrugAllergy '00595','DR300',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00942','DR237',N'Suy gan';
+EXEC insertDrugAllergy '00298','DR242',N'Tiêu chảy';
+EXEC insertDrugAllergy '00882','DR132',N'Ho';
+EXEC insertDrugAllergy '00183','DR219',N'Khó thở';
+EXEC insertDrugAllergy '00001','DR262',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00852','DR229',N'Phát ban';
+EXEC insertDrugAllergy '00245','DR190',N'Tiêu chảy';
+EXEC insertDrugAllergy '00123','DR295',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00862','DR156',N'Suy thận';
+EXEC insertDrugAllergy '00627','DR251',N'Suy thận';
+EXEC insertDrugAllergy '00348','DR263',N'Ho';
+EXEC insertDrugAllergy '00214','DR052',N'Suy thận';
+EXEC insertDrugAllergy '00873','DR095',N'Tiêu chảy';
+EXEC insertDrugAllergy '00620','DR041',N'Ho';
+EXEC insertDrugAllergy '00176','DR072',N'Ho';
+EXEC insertDrugAllergy '00392','DR028',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00980','DR020',N'Ho';
+EXEC insertDrugAllergy '00990','DR132',N'Khó thở';
+EXEC insertDrugAllergy '00121','DR283',N'Buồn nôn';
+EXEC insertDrugAllergy '00759','DR277',N'Tiêu chảy';
+EXEC insertDrugAllergy '00978','DR185',N'Phát ban';
+EXEC insertDrugAllergy '00001','DR224',N'Buồn nôn';
+EXEC insertDrugAllergy '00729','DR262',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00091','DR269',N'Sốc phản vệ';
+EXEC insertDrugAllergy '00641','DR264',N'Suy gan';
+EXEC insertDrugAllergy '00510','DR176',N'Suy gan';
+EXEC insertDrugAllergy '00412','DR187',N'Buồn nôn';
+EXEC insertDrugAllergy '00778','DR100',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00788','DR297',N'Buồn nôn';
+EXEC insertDrugAllergy '00889','DR057',N'Tiêu chảy';
+EXEC insertDrugAllergy '00724','DR142',N'Suy thận';
+EXEC insertDrugAllergy '00977','DR012',N'Khó thở';
+EXEC insertDrugAllergy '00329','DR265',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00887','DR070',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00300','DR252',N'Tăng huyết áp';
+EXEC insertDrugAllergy '00150','DR266',N'Hạ huyết áp';
+EXEC insertDrugAllergy '00556','DR129',N'Phát ban';
+EXEC insertDrugAllergy '00815','DR145',N'Suy gan';
+EXEC insertDrugAllergy '00684','DR091',N'Tiêu chảy';
+
+
+INSERT INTO ToothSurface
+VALUES ('L',N'Mặt trong',N'Bề mặt răng hướng vào trong'),
+       ('F',N'Mặt ngoài',N'Bề mặt răng hướng ra ngoài môi'),
+       ('D',N'Mặt xa',N'Mặt cạnh răng nằm về phía xa'),
+       ('M',N'Mặt gần',N'Mặt cạnh răng nằm về phía gần'),
+       ('T',N'Mặt đỉnh',N'Diện nhai đối với răng hàm'),
+       ('R',N'Mặt chân răng',N'Phần chân tiếp xúc với nướu');
+
+INSERT INTO ToothPosition
+VALUES ('01',N'Răng cửa',N'Răng cửa trên'),
+('02',N'Răng cửa',N'Răng cửa trên'),
+('03',N'Răng cửa',N'Răng cửa trên'),
+('04',N'Răng cửa',N'Răng cửa trên'),
+('05',N'Răng cửa',N'Răng cửa dưới'),
+('06',N'Răng cửa',N'Răng cửa dưới'),
+('07',N'Răng cửa',N'Răng cửa dưới'),
+('08',N'Răng cửa',N'Răng cửa dưới'),
+('09',N'Răng nanh',N'Răng nanh trên'),
+('10',N'Răng nanh',N'Răng nanh trên'),
+('11',N'Răng nanh',N'Răng nanh dưới'),
+('12',N'Răng nanh',N'Răng nanh dưới'),
+('13',N'Răng hàm nhỏ',N'Răng hàm nhỏ trên'),
+('14',N'Răng hàm nhỏ',N'Răng hàm nhỏ trên'),
+('15',N'Răng hàm nhỏ',N'Răng hàm nhỏ trên'),
+('16',N'Răng hàm nhỏ',N'Răng hàm nhỏ trên'),
+('17',N'Răng hàm nhỏ',N'Răng hàm nhỏ dưới'),
+('18',N'Răng hàm nhỏ',N'Răng hàm nhỏ dưới'),
+('19',N'Răng hàm nhỏ',N'Răng hàm nhỏ dưới'),
+('20',N'Răng hàm nhỏ',N'Răng hàm nhỏ dưới'),
+('21',N'Răng hàm lớn',N'Răng hàm lớn trên'),
+('22',N'Răng hàm lớn',N'Răng hàm lớn trên'),
+('23',N'Răng hàm lớn',N'Răng hàm lớn trên'),
+('24',N'Răng hàm lớn',N'Răng hàm lớn trên'),
+('25',N'Răng hàm lớn',N'Răng hàm lớn dưới'),
+('26',N'Răng hàm lớn',N'Răng hàm lớn dưới'),
+('27',N'Răng hàm lớn',N'Răng hàm lớn dưới'),
+('28',N'Răng hàm lớn',N'Răng hàm lớn dưới'),
+('29',N'Răng khôn',N'Răng khôn trên'),
+('30',N'Răng khôn',N'Răng khôn trên'),
+('31',N'Răng khôn',N'Răng khôn dưới'),
+('32',N'Răng khôn',N'Răng khôn dưới');
+
+INSERT INTO Treatment
+VALUES ('01',N'Khám răng','Join why charge left.',1712546.49),
+('02',N'Lấy cao răng','Over sea whose note wide.',20534275.4),
+('03',N'Đánh bóng răng','Big our discussion partner.',7534722.86),
+('04',N'Trám răng','Air from sea family visit.',10872816.37),
+('05',N'Chữa tủy','Part record amount follow.',39224369.5),
+('06',N'Trị viêm lợi','Hold price energy past.',49225344.13),
+('07',N'Trị hôi miệng','Tree article son ago human.',18580752.49),
+('08',N'Bọc răng sứ','Card that pull avoid.',4876059.55),
+('09',N'Trồng răng','All watch agent enjoy.',42148677.9),
+('10',N'Hàn răng','Company quality Mr challenge.',14593781.52),
+('11',N'Đính lên răng','Light someone analysis owner.',30470028.59),
+('12',N'Bọc thẩm mỹ','Democrat teach probably.',45321546.81),
+('13',N'Bọc kim loại','Top respond base respond like.',23879852.91),
+('14',N'Bọc toàn sứ','Play lot five you necessary.',27057688.84),
+('15',N'Bọc răng Veneer','Guess instead imagine country.',40776986.1),
+('16',N'Niềng răng','Cold relate road let key.',42103418.94),
+('17',N'Cắt lợi','His line sound institution.',43004667.13),
+('18',N'Nhổ răng','Fine for pass majority.',33867808.45),
+('19',N'Tẩy trắng răng','Pull pretty up always.',6385880.55),
+('20',N'Trị răng hô','Like establish area.',33791984.11),
+('21',N'Trị răng ố vàng','People society structure.',9740731.18);
+
+
+INSERT INTO TreatmentTooth
+VALUES ('01','01',26508162.53),
+('01','02',32635337.13),
+('01','03',47048230.0),
+('01','04',23362721.52),
+('01','05',29704861.1),
+('01','06',42826295.3),
+('01','07',49929231.2),
+('01','08',38042426.5),
+('01','09',17560364.16),
+('01','10',10761302.13),
+('01','11',34350687.13),
+('01','12',37519721.32),
+('01','13',30532209.86),
+('01','14',22149716.62),
+('01','15',24605530.99),
+('01','16',40896196.87),
+('01','17',4046070.38),
+('01','18',31128641.59),
+('01','19',44629203.54),
+('01','20',4333907.73),
+('01','21',48909934.29),
+('02','01',27020281.76),
+('02','02',39767980.12),
+('02','03',44209303.54),
+('02','04',39137499.17),
+('02','05',23329928.26),
+('02','06',40503108.93),
+('02','07',9333384.84),
+('02','08',39207039.62),
+('02','09',27497292.83),
+('02','10',46814229.9),
+('02','11',22496183.5),
+('02','12',47464362.82),
+('02','13',44366093.26),
+('02','14',33311172.18),
+('02','15',12840940.92),
+('02','16',24452276.35),
+('02','17',22859782.9),
+('02','18',2542249.99),
+('02','19',49118928.87),
+('02','20',21235396.55),
+('02','21',805688.61),
+('03','01',12062785.16),
+('03','02',29844125.67),
+('03','03',36706280.13),
+('03','04',28871275.42),
+('03','05',42284794.2),
+('03','06',5676897.7),
+('03','07',21355133.46),
+('03','08',46778286.8),
+('03','09',11770163.9),
+('03','10',22385813.63),
+('03','11',24445242.28),
+('03','12',27805277.71),
+('03','13',3931943.7),
+('03','14',10737025.3),
+('03','15',24521460.44),
+('03','16',12933955.92),
+('03','17',24790865.96),
+('03','18',33020222.4),
+('03','19',49906594.95),
+('03','20',47081888.14),
+('03','21',32043535.51),
+('04','01',29682614.71),
+('04','02',44171406.53),
+('04','03',16767263.23),
+('04','04',36498293.65),
+('04','05',32927709.15),
+('04','06',13676298.61),
+('04','07',4521137.29),
+('04','08',31223005.92),
+('04','09',6032244.61),
+('04','10',33782342.44),
+('04','11',8163193.59),
+('04','12',46399344.89),
+('04','13',47711194.73),
+('04','14',2443588.53),
+('04','15',2267130.98),
+('04','16',38270018.58),
+('04','17',1585474.73),
+('04','18',40292556.81),
+('04','19',29016298.47),
+('04','20',1766081.7),
+('04','21',12325307.44),
+('05','01',25137065.5),
+('05','02',19186946.65),
+('05','03',45106989.6),
+('05','04',45573384.57),
+('05','05',32934447.66),
+('05','06',35026329.48),
+('05','07',977699.1),
+('05','08',13863208.58),
+('05','09',30089560.84),
+('05','10',35449857.48),
+('05','11',31577879.34),
+('05','12',25528955.19),
+('05','13',37132045.25),
+('05','14',40925474.58),
+('05','15',34693934.3),
+('05','16',46793444.88),
+('05','17',30006978.18),
+('05','18',37581645.58),
+('05','19',7673999.54),
+('05','20',8117373.41),
+('05','21',29277615.88),
+('06','01',43442631.24),
+('06','02',19760939.16),
+('06','03',47811661.13),
+('06','04',18187374.33),
+('06','05',47323355.67),
+('06','06',28101615.4),
+('06','07',8897166.47),
+('06','08',32002397.76),
+('06','09',22423729.47),
+('06','10',43089225.3),
+('06','11',6214894.62),
+('06','12',28765768.47),
+('06','13',26778235.74),
+('06','14',37617903.69),
+('06','15',37655938.24),
+('06','16',30870223.2),
+('06','17',13639323.83),
+('06','18',18701042.88),
+('06','19',12096941.7),
+('06','20',3505474.72),
+('06','21',17889311.91),
+('07','01',42006445.22),
+('07','02',38274777.88),
+('07','03',15122638.67),
+('07','04',37608641.66),
+('07','05',9032978.3),
+('07','06',31307885.94),
+('07','07',22037961.6),
+('07','08',7769344.28),
+('07','09',30951292.26),
+('07','10',25439873.97),
+('07','11',30602082.25),
+('07','12',16226536.46),
+('07','13',46861584.73),
+('07','14',11602466.93),
+('07','15',14964215.17),
+('07','16',16415671.63),
+('07','17',40924503.2),
+('07','18',27365005.63),
+('07','19',1895921.21),
+('07','20',15494901.32),
+('07','21',6890149.15),
+('08','01',13595386.88),
+('08','02',34898922.88),
+('08','03',40312836.37),
+('08','04',42170778.2),
+('08','05',33752903.44),
+('08','06',24984949.28),
+('08','07',48504943.67),
+('08','08',41991751.72),
+('08','09',33591790.83),
+('08','10',4501402.55),
+('08','11',36947738.4),
+('08','12',4545989.64),
+('08','13',34508973.86),
+('08','14',4690710.9),
+('08','15',13255091.22),
+('08','16',12203122.52),
+('08','17',46055284.76),
+('08','18',19102098.97),
+('08','19',21537733.67),
+('08','20',14967754.4),
+('08','21',43876452.36),
+('09','01',39130193.23),
+('09','02',13446794.57),
+('09','03',12633038.76),
+('09','04',18017044.34),
+('09','05',14316871.19),
+('09','06',17834149.58),
+('09','07',38657859.49),
+('09','08',35507414.68),
+('09','09',16410346.5),
+('09','10',28171499.61),
+('09','11',37385339.77),
+('09','12',46989827.92),
+('09','13',44258865.24),
+('09','14',17726517.57),
+('09','15',44792803.4),
+('09','16',44000848.42),
+('09','17',19430722.7),
+('09','18',48192856.61),
+('09','19',23146734.52),
+('09','20',20997179.32),
+('09','21',4499076.66),
+('10','01',48803849.0),
+('10','02',16880030.57),
+('10','03',3415963.88),
+('10','04',23275254.38),
+('10','05',12438837.66),
+('10','06',39589373.82),
+('10','07',31722462.39),
+('10','08',32110436.1),
+('10','09',37119467.5),
+('10','10',11518205.28),
+('10','11',2395763.27),
+('10','12',23762479.23),
+('10','13',49712497.13),
+('10','14',33321107.52),
+('10','15',20694823.54),
+('10','16',30527045.6),
+('10','17',38249473.3),
+('10','18',34484995.6),
+('10','19',15958897.51),
+('10','20',39437271.14),
+('10','21',20225544.43),
+('11','01',10677447.95),
+('11','02',19489312.1),
+('11','03',30836692.8),
+('11','04',47414540.85),
+('11','05',13056365.89),
+('11','06',15681611.46),
+('11','07',27790774.64),
+('11','08',8724351.0),
+('11','09',32612875.65),
+('11','10',40352390.36),
+('11','11',25858224.97),
+('11','12',15208428.59),
+('11','13',37787114.89),
+('11','14',21193762.27),
+('11','15',13739643.5),
+('11','16',863042.3),
+('11','17',44706247.52),
+('11','18',31268835.98),
+('11','19',21987110.58),
+('11','20',752065.16),
+('11','21',10321748.54),
+('12','01',30278124.63),
+('12','02',27385875.76),
+('12','03',485347.83),
+('12','04',47516157.54),
+('12','05',10467547.1),
+('12','06',31646035.43),
+('12','07',41797514.64),
+('12','08',37659521.91),
+('12','09',4677006.97),
+('12','10',22137253.55),
+('12','11',40109419.35),
+('12','12',8756077.6),
+('12','13',44372052.25),
+('12','14',45388111.42),
+('12','15',41790328.67),
+('12','16',3953411.87),
+('12','17',21415151.17),
+('12','18',10981357.19),
+('12','19',22379576.36),
+('12','20',19718661.32),
+('12','21',6888660.47),
+('13','01',13033508.31),
+('13','02',33790300.71),
+('13','03',18490825.29),
+('13','04',12673399.7),
+('13','05',17639034.34),
+('13','06',45257360.58),
+('13','07',37124863.3),
+('13','08',31052542.84),
+('13','09',44079920.64),
+('13','10',24868216.71),
+('13','11',22835472.58),
+('13','12',33878994.19),
+('13','13',3629242.54),
+('13','14',11398231.95),
+('13','15',17578727.4),
+('13','16',18139553.15),
+('13','17',5263252.3),
+('13','18',26717775.59),
+('13','19',36639559.62),
+('13','20',49166008.22),
+('13','21',20211895.91),
+('14','01',2137758.5),
+('14','02',26606964.4),
+('14','03',12072764.9),
+('14','04',26468153.8),
+('14','05',27447008.65),
+('14','06',28512244.24),
+('14','07',43807985.66),
+('14','08',47686030.36),
+('14','09',29976204.44),
+('14','10',1043489.33),
+('14','11',29834193.21),
+('14','12',41921371.77),
+('14','13',14392824.29),
+('14','14',13527641.7),
+('14','15',7045476.89),
+('14','16',23432976.77),
+('14','17',24915387.93),
+('14','18',22916049.74),
+('14','19',45978913.7),
+('14','20',38775122.65),
+('14','21',35480092.78),
+('15','01',22829362.72),
+('15','02',10720005.3),
+('15','03',43354100.52),
+('15','04',35522947.7),
+('15','05',40522955.61),
+('15','06',16481765.11),
+('15','07',1622739.19),
+('15','08',8252946.37),
+('15','09',27100566.35),
+('15','10',47290008.6),
+('15','11',669295.18),
+('15','12',15295825.44),
+('15','13',44311458.22),
+('15','14',38519813.7),
+('15','15',25085759.37),
+('15','16',17695893.57),
+('15','17',21828895.85),
+('15','18',49429488.97),
+('15','19',32386371.96),
+('15','20',18660618.24),
+('15','21',3200267.27),
+('16','01',25181138.86),
+('16','02',32412544.77),
+('16','03',48923654.1),
+('16','04',24301291.72),
+('16','05',33861223.21),
+('16','06',47721906.66),
+('16','07',28473585.58),
+('16','08',35598200.59),
+('16','09',8103040.51),
+('16','10',9939362.84),
+('16','11',49434475.25),
+('16','12',12804282.5),
+('16','13',1820150.58),
+('16','14',23364306.99),
+('16','15',17158941.37),
+('16','16',5760989.46),
+('16','17',31146955.15),
+('16','18',22458735.22),
+('16','19',45167505.33),
+('16','20',13683249.51),
+('16','21',49736901.1),
+('17','01',30322374.48),
+('17','02',17073371.5),
+('17','03',7488993.26),
+('17','04',1356826.17),
+('17','05',24662987.42),
+('17','06',657615.32),
+('17','07',1716809.78),
+('17','08',18322851.86),
+('17','09',27021797.31),
+('17','10',23181570.18),
+('17','11',4175579.9),
+('17','12',27912514.6),
+('17','13',32225958.28),
+('17','14',44043887.59),
+('17','15',42353758.7),
+('17','16',20021172.73),
+('17','17',10440261.74),
+('17','18',24817694.84),
+('17','19',41599044.76),
+('17','20',27645592.99),
+('17','21',49609580.42),
+('18','01',284003.74),
+('18','02',15726890.43),
+('18','03',38710005.42),
+('18','04',5384686.68),
+('18','05',23609812.88),
+('18','06',15941578.93),
+('18','07',13899347.6),
+('18','08',24047406.4),
+('18','09',40707215.13),
+('18','10',42364765.4),
+('18','11',33800254.31),
+('18','12',16127423.3),
+('18','13',9004886.65),
+('18','14',18775582.26),
+('18','15',27835129.24),
+('18','16',16454127.81),
+('18','17',33914999.44),
+('18','18',29057008.24),
+('18','19',40639895.66),
+('18','20',36417806.68),
+('18','21',49237381.73),
+('19','01',4019094.84),
+('19','02',7003074.26),
+('19','03',28779120.25),
+('19','04',7839224.78),
+('19','05',20479096.6),
+('19','06',951797.8),
+('19','07',43249692.43),
+('19','08',7589608.85),
+('19','09',33491271.44),
+('19','10',38290289.62),
+('19','11',24979493.48),
+('19','12',39955956.32),
+('19','13',26548543.9),
+('19','14',14738743.17),
+('19','15',8723364.49),
+('19','16',39751013.87),
+('19','17',47324567.3),
+('19','18',7097953.84),
+('19','19',5806603.71),
+('19','20',26824705.59),
+('19','21',38406555.84),
+('20','01',1290323.33),
+('20','02',22910576.44),
+('20','03',27765500.43),
+('20','04',47085142.48),
+('20','05',10482235.49),
+('20','06',916737.27),
+('20','07',32422428.63),
+('20','08',28486293.74),
+('20','09',1779438.5),
+('20','10',31714019.33),
+('20','11',27798982.41),
+('20','12',25346049.63),
+('20','13',35748521.8),
+('20','14',950428.94),
+('20','15',4436087.3),
+('20','16',31539313.81),
+('20','17',24045692.66),
+('20','18',44548126.54),
+('20','19',23139302.35),
+('20','20',27769338.65),
+('20','21',10567877.17),
+('21','01',16414963.26),
+('21','02',13784227.51),
+('21','03',37687660.43),
+('21','04',6134081.83),
+('21','05',19437695.12),
+('21','06',12152922.3),
+('21','07',36066146.47),
+('21','08',25287681.4),
+('21','09',35050264.3),
+('21','10',32607106.67),
+('21','11',15725381.84),
+('21','12',8796369.4),
+('21','13',38932348.91),
+('21','14',24898030.97),
+('21','15',36341873.59),
+('21','16',46046849.98),
+('21','17',2109702.62),
+('21','18',7626968.31),
+('21','19',9053946.48),
+('21','20',5099029.3),
+('21','21',18861905.73),
+('22','01',46898834.67),
+('22','02',32697086.27),
+('22','03',4583676.26),
+('22','04',36888168.59),
+('22','05',13412529.21),
+('22','06',16442453.78),
+('22','07',32444128.62),
+('22','08',7642138.39),
+('22','09',6504274.2),
+('22','10',4785457.73),
+('22','11',25298250.0),
+('22','12',35663074.88),
+('22','13',20397097.31),
+('22','14',47834727.98),
+('22','15',25246661.3),
+('22','16',13722200.79),
+('22','17',21423943.42),
+('22','18',28495054.6),
+('22','19',27627049.11),
+('22','20',9726926.7),
+('22','21',34195608.33),
+('23','01',41570157.12),
+('23','02',38396938.15),
+('23','03',32458268.2),
+('23','04',46572034.14),
+('23','05',11518456.62),
+('23','06',4730957.1),
+('23','07',32391129.49),
+('23','08',45677644.38),
+('23','09',9115304.77),
+('23','10',34045455.47),
+('23','11',17950607.58),
+('23','12',32835904.55),
+('23','13',41570881.71),
+('23','14',4692928.28),
+('23','15',49155154.95),
+('23','16',2359017.23),
+('23','17',31329979.47),
+('23','18',13690358.14),
+('23','19',42209872.29),
+('23','20',14411108.24),
+('23','21',25764136.8),
+('24','01',11663204.92),
+('24','02',29118707.67),
+('24','03',45944748.75),
+('24','04',6193844.58),
+('24','05',35215615.66),
+('24','06',34308556.22),
+('24','07',45767940.92),
+('24','08',14103982.2),
+('24','09',7858887.61),
+('24','10',41362180.31),
+('24','11',4452536.5),
+('24','12',31299948.88),
+('24','13',38561141.8),
+('24','14',17453689.93),
+('24','15',9186158.6),
+('24','16',25249253.12),
+('24','17',25044421.87),
+('24','18',33799995.1),
+('24','19',33189474.2),
+('24','20',45160648.53),
+('24','21',11227639.74),
+('25','01',40056445.79),
+('25','02',47527396.83),
+('25','03',25584993.55),
+('25','04',48959461.21),
+('25','05',2618876.97),
+('25','06',35889649.7),
+('25','07',28766984.42),
+('25','08',41846919.54),
+('25','09',29044122.67),
+('25','10',49716175.83),
+('25','11',12391667.98),
+('25','12',41546383.43),
+('25','13',34306986.87),
+('25','14',7858478.15),
+('25','15',4618887.79),
+('25','16',9002790.87),
+('25','17',34973811.82),
+('25','18',23053386.96),
+('25','19',43789557.24),
+('25','20',31635444.13),
+('25','21',13326145.89),
+('26','01',21944494.0),
+('26','02',33538274.39),
+('26','03',41963232.1),
+('26','04',29283378.32),
+('26','05',25878202.2),
+('26','06',30422463.98),
+('26','07',26031512.65),
+('26','08',11111175.5),
+('26','09',36927683.85),
+('26','10',49827865.46),
+('26','11',27494375.16),
+('26','12',28029832.91),
+('26','13',23683140.3),
+('26','14',19192025.48),
+('26','15',25404259.32),
+('26','16',25027651.3),
+('26','17',22677901.16),
+('26','18',35755820.63),
+('26','19',32975067.87),
+('26','20',29294139.27),
+('26','21',44820618.1),
+('27','01',1605616.61),
+('27','02',39148978.23),
+('27','03',22689984.29),
+('27','04',21983632.51),
+('27','05',10718522.51),
+('27','06',3647492.16),
+('27','07',31410030.52),
+('27','08',17005434.34),
+('27','09',19394118.71),
+('27','10',18943273.23),
+('27','11',44357268.84),
+('27','12',14829112.62),
+('27','13',19167932.45),
+('27','14',36002228.91),
+('27','15',46887289.48),
+('27','16',38700803.12),
+('27','17',47802373.7),
+('27','18',28795383.91),
+('27','19',13046398.39),
+('27','20',21121404.14),
+('27','21',8807067.63),
+('28','01',27489510.65),
+('28','02',17751640.33),
+('28','03',8250703.8),
+('28','04',5734752.35),
+('28','05',17534100.59),
+('28','06',6140532.6),
+('28','07',47654832.8),
+('28','08',29768487.97),
+('28','09',29270983.12),
+('28','10',26488552.43),
+('28','11',22711132.47),
+('28','12',24414989.46),
+('28','13',13637006.29),
+('28','14',22774926.6),
+('28','15',38986635.76),
+('28','16',3499683.45),
+('28','17',48926357.19),
+('28','18',24732771.12),
+('28','19',30390228.2),
+('28','20',35824079.11),
+('28','21',35114139.11),
+('29','01',48055157.8),
+('29','02',23849441.8),
+('29','03',17524010.62),
+('29','04',26607919.59),
+('29','05',18561583.14),
+('29','06',34279150.2),
+('29','07',2369919.9),
+('29','08',16267971.17),
+('29','09',20114370.83),
+('29','10',33579035.43),
+('29','11',31162725.84),
+('29','12',24074993.56),
+('29','13',43770235.43),
+('29','14',46711656.3),
+('29','15',21026525.25),
+('29','16',4264577.4),
+('29','17',19024047.0),
+('29','18',45838362.91),
+('29','19',30160723.98),
+('29','20',31775681.3),
+('29','21',30131718.62),
+('30','01',19920804.81),
+('30','02',41970695.2),
+('30','03',2314641.42),
+('30','04',29006889.91),
+('30','05',45894002.39),
+('30','06',30494838.65),
+('30','07',28632358.85),
+('30','08',40839983.17),
+('30','09',5450402.34),
+('30','10',45714989.64),
+('30','11',26913345.89),
+('30','12',45726654.68),
+('30','13',22992364.92),
+('30','14',33413356.41),
+('30','15',18709078.75),
+('30','16',49188264.2),
+('30','17',32669119.68),
+('30','18',2585607.35),
+('30','19',15050262.75),
+('30','20',9577001.6),
+('30','21',31463555.43),
+('31','01',37160246.55),
+('31','02',32838273.57),
+('31','03',22121520.96),
+('31','04',35906048.22),
+('31','05',21790177.6),
+('31','06',24839885.28),
+('31','07',23704750.61),
+('31','08',13470491.98),
+('31','09',925814.75),
+('31','10',23415126.2),
+('31','11',35278066.13),
+('31','12',3900346.5),
+('31','13',13729972.75),
+('31','14',10199592.1),
+('31','15',49812704.71),
+('31','16',24901435.36),
+('31','17',11292722.11),
+('31','18',7828053.84),
+('31','19',16215586.55),
+('31','20',26722318.63),
+('31','21',5570093.25),
+('32','01',14424645.2),
+('32','02',27304771.16),
+('32','03',41496957.88),
+('32','04',9760281.57),
+('32','05',46667288.55),
+('32','06',24164296.56),
+('32','07',29042548.69),
+('32','08',14647700.33),
+('32','09',5575970.54),
+('32','10',46302666.58),
+('32','11',28873103.8),
+('32','12',25072718.78),
+('32','13',12008467.33),
+('32','14',33356294.2),
+('32','15',25303716.54),
+('32','16',49325457.84),
+('32','17',22733349.37),
+('32','18',18577703.6),
+('32','19',34693140.48),
+('32','20',40255384.52),
+('32','21',4603423.66);
 

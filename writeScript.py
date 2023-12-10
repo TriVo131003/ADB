@@ -44,10 +44,13 @@ cursor.close()
 conn.close()
 
 temp = ''
-dick = {'343': 546, '43545': 4345, '566': 67657}
+dick = {'343': [1,2,3,4,5], '43545': [34,5,4], '566': [34,34,3]}
 for cnt, i in enumerate(dick.keys()):
     temp += f"('{i}')"
     temp += ',\n' if cnt != len(dick.keys()) - 1 else ';\n'
 print(temp)
 
-print(list(dick.keys()))
+for i in dick.values():
+    if 34 in i: 
+        print('its here')
+        break

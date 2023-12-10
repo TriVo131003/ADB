@@ -6,6 +6,8 @@ from datetime import datetime, timedelta
 
 fake = Faker()
 
+#-------------config stuff below----------------------
+
 branch_size = 5
 Branch_list = []
 
@@ -29,8 +31,10 @@ patient_list = {}
 
 DefaultDentist = {}
 
-room_size = random.randint(10, 50)
+room_size = 50 # random.randint(10, 50)
 room_list = []
+
+branch_room = {}
 
 Drug_size = 300
 Drug_list = []
@@ -38,6 +42,55 @@ takenDrugName = ()
 File = open("drugName.txt", "r")
 drug_names = [line.rstrip('\n') for line in File]
 random.shuffle(drug_names)
+
+contradiction_size = 1000
+contradiction_list = {}
+allergic_size = 1000
+allergic_list = {}
+
+
+toothPosList = []
+for i in range(1,33): toothPosList.append(f"{i:02}") 
+treatment_list = []
+
+
+
+#--------------------config stuff above------------------------
+
+
+def gen_indication() -> str: # havent used this
+    stuff = ["N'Uống 2 lần 1 ngày'",
+             "N'Uống 1 lần 5 viên'",
+             "N'Uống 2 lần buổi trưa'",
+             "N'Uống 3 lần vào buổi tối'"
+             ]
+    return random.choice(stuff)
+
+def gen_symptoms() -> str:
+    stuff = ["N'Sốc phản vệ'",
+             "N'Buồn nôn'",
+             "N'Hạ huyết áp'",
+             "N'Tăng huyết áp'",
+             "N'Khó thở'",
+             "N'Suy gan'",
+             "N'Suy thận'",
+             "N'Phát ban'",
+             "N'Tiêu chảy'",
+             "N'Ho'"
+             ]
+    return random.choice(stuff)
+
+def gen_sickness() -> str:
+    stuff = ["N'Viêm lợi'",
+             "N'Loét miệng'",
+             "N'Sâu răng'",
+             "N'Hôi miệng'",
+             "N'Viêm nha chu'",
+             "N'Răng lệch'",
+             "N'Mất răng'",
+             "N'Chảy máu chân răng'"
+             ]
+    return random.choice(stuff)
 
 def gen_price(min, max) -> str:
     res = fake.pyfloat(min_value=min, max_value=max, right_digits=2)
