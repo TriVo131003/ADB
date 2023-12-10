@@ -98,6 +98,21 @@ CREATE TABLE Room
 	PRIMARY KEY(room_id)
 )
 
+create table Branch_Room
+(
+	branch_id char(2),
+	room_id char(2),
+
+	constraint PK_Branch_Room
+	primary key (branch_id, room_id),
+
+	constraint FK_Branch_Room
+	foreign key (branch_id) references Branch,
+
+	constraint FK_Room_Branch
+	foreign key (room_id) references Room
+)
+
 --table PATIENT
 CREATE TABLE Patient
 (
