@@ -41,6 +41,14 @@ CREATE TABLE Employee
 	PRIMARY KEY (employee_id)
 )
 
+----table ADMIN
+--CREATE TABLE [Admin]
+--(
+--	admin_id char(3)
+--	CONSTRAINT PK_Admin
+--	PRIMARY KEY(admin_id)
+--)
+
 ALTER TABLE Employee
 ADD CONSTRAINT EmployeeType CHECK (employee_type IN ('DE', 'NU', 'AD', 'ST'));
 

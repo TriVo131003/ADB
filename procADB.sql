@@ -218,8 +218,9 @@ BEGIN
 END
 
 go
+
 CREATE or alter PROCEDURE insertAccount
-	@username varchar(10),
+	@username varchar(20),
 	@password char(64)
 AS
 BEGIN

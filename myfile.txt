@@ -1,0 +1,4 @@
+This is written with a context manager
+fuck me
+SELECT SIUUUUUU
+SHOW SIUUUUU
