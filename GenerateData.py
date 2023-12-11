@@ -138,7 +138,7 @@ temp = ''
 for i in range(1, patient_size + 1):
     pa_id = f"{i:05}"
     pa_phone = gen_phone()
-    temp1 = f"EXEC insertPatient '{gen_name(30)}','{gen_date(6, 65)}','{gen_address(40)}','{pa_phone}',{gen_gender()},'{gen_email(20)}';\n"
+    temp1 = f"EXEC insertPatient '{gen_name(30)}','{gen_birthday(6, 65)}','{gen_address(40)}','{pa_phone}',{gen_gender()},'{gen_email(20)}';\n"
     patient_list[pa_id] = pa_phone
     temp += temp1
     cursor.execute(temp1) # INSERT THE DATA
@@ -231,13 +231,13 @@ for i in range(1, Drug_size + 1):
     drug_id = f"DR{i:03}"
     Drug_list.append(drug_id)
     stock_quantity = random.randint(1, 10000)
-    temp1 = f"EXEC insertDrug '{gen_drugname(30)}',{gen_indication()},'{gen_date(0, 2)}',{gen_price(10.0, 100000.0)},'{stock_quantity}';\n"
+    temp1 = f"EXEC insertDrug '{gen_drugname(30)}',{gen_indication()},'{fake.future_date(365)}',{gen_price(10.0, 100000.0)},'{stock_quantity}';\n"
     temp += temp1
     try:
         cursor.execute(temp1) # INSERT THE DATA
     except:
         print(temp1)
-        print("Bug insertDrug")
+        print("Skip insertDrug")
 
 final_command = command.format(temp)
 File.write(final_command) # GENERATE DATA SCRIPT
@@ -263,7 +263,7 @@ for i in range(1, contradiction_size + 1):
         cursor.execute(temp1) # INSERT THE DATA
     except:
         print(temp1)
-        print("Bug contradiction")
+        print("Skip contradiction")
 
 final_command = command.format(temp)
 File.write(final_command) # GENERATE DATA SCRIPT
@@ -289,7 +289,7 @@ for i in range(1, allergic_size + 1):
         cursor.execute(temp1) # INSERT THE DATA
     except:
         print(temp1)
-        print("Bug Allergy")
+        print("Skip Allergy")
 
 final_command = command.format(temp)
 File.write(final_command) # GENERATE DATA SCRIPT
@@ -384,12 +384,131 @@ final_command = command.format(temp)
 cursor.execute(final_command) # INSERT THE DATA
 File.write(final_command) # GENERATE DATA SCRIPT
 
-#---------------------TO BE CONTINURE--------------------------------
+#---------------------Appointment-------------------------------- # fix the goddam PROC
+command = '''
+{0}
+'''
+temp = ''
+for i in range(1, appointment_size + 1):
+    appoint_id = f"{i:05}"
+    appointment_list.append(appoint_id)
+    room = random.choice(room_list)
+    isNew = random.choice([0,1])
+    patient = random.choice(list(patient_list.keys()))
+    dentist = random.choice(list(EmployeeDict["DE"][2].keys()))
+    nurse = random.choice(list(EmployeeDict["NU"][2].keys()))
+    temp1 = f"EXEC InsertAppointment '{fake.past_datetime('-5d')}','{fake.future_date(7)}','{gen_time(8,21)}','{room}',{isNew},'{patient}','{dentist}','{nurse}';\n"
+    temp += temp1
+    cursor.execute(temp1) # INSERT THE DATA
 
+final_command = command.format(temp)
+File.write(final_command) # GENERATE DATA SCRIPT
 
+#---------------------Payment Method-----------------------------
+command = '''
+INSERT INTO PaymentMethod (payment_method_id,payment_method_title)
+VALUES {0}
+'''
+temp = ''
+methods = ["N'Ngân hàng'","N'Tiền mặt'","N'Momo'","N'Zalopay'",
+           "N'VNPay'","N'ViettelPay'"]
+cnt = 0
+for i in methods:
+    cnt += 1
+    method_id = f"{cnt:05}"
+    method_list.append(method_id)
+    temp += f"('{method_id}',{i})"
+    temp += ",\n" if cnt != len(methods) else ";\n"
 
+final_command = command.format(temp)
+cursor.execute(final_command) # INSERT THE DATA
+File.write(final_command) # GENERATE DATA SCRIPT
 
+#--------------------TreatmentPlan---------------------------
+command = '''
+{0}
+'''
+temp = ''
+for i in range(1, treatmentPlanSize + 1):
+    plan_id = f"{i:05}"
+    treatmentPlanList.append(plan_id)
+    treatment = random.choice(treatment_list)
+    patient = random.choice(list(patient_list.keys()))
+    dentist = random.choice(list(EmployeeDict["DE"][2].keys()))
+    nurse = random.choice(list(EmployeeDict["NU"][2].keys()))
+    temp1 = f"EXEC InsertTreatmentPlan '{fake.future_datetime('+7d')}','{gen_sentence(30)}','{gen_sentence(50)}','{treatment}','{patient}','{dentist}','{nurse}';\n"
+    temp += temp1
+    cursor.execute(temp1) # INSERT THE DATA
 
+final_command = command.format(temp)
+File.write(final_command) # GENERATE DATA SCRIPT
+
+#---------------------TreatmentSession-----------------------------
+temp = ''
+for i in range(1, treatmentSessionSize + 1):
+    plan = random.choice(treatmentPlanList)
+    id = f"{i:05}"
+    temp1 = f"INSERT INTO TreatmentSession VALUES ('{id}','{fake.future_datetime('+7d')}','{gen_sentence(50)}','{plan}');\n"
+    temp += temp1
+    cursor.execute(temp1) # INSERT THE DATA
+
+final_command = temp
+File.write(final_command) # GENERATE DATA SCRIPT
+
+#--------------------Prescription----------------------------------Some wont be added due to insufficient stock quantity
+command = '''
+{0}
+'''
+temp = ''
+for i in range(1, PrescriptionSize + 1):
+    plan = random.choice(treatmentPlanList)
+    drug = random.choice(Drug_list)
+    temp1 = f"EXEC AddPrescription '{plan}','{drug}',{random.randint(1, 10)};\n"
+    temp += temp1
+    try:
+        cursor.execute(temp1) # INSERT THE DATA
+    except:
+        continue
+
+final_command = command.format(temp)
+File.write(final_command) # GENERATE DATA SCRIPT
+
+#------------------ToothSelection------------------------------------Some wont be inserted well due to price
+command = '''
+{0}
+'''
+temp = ''
+for i in range(1, ToothSelectionSize + 1):
+    plan = random.choice(treatmentPlanList)
+    pos = random.choice(toothPosList)
+    surface = random.choice(['L','F','D','M','T','R'])
+    temp1 = f"EXEC insertToothSelection '{plan}','{pos}',{surface};\n"
+    temp += temp1
+    try:
+        cursor.execute(temp1) # INSERT THE DATA
+    except:
+        continue
+
+final_command = command.format(temp)
+File.write(final_command) # GENERATE DATA SCRIPT
+
+#----------------------PaymentRecord--------------------------------------------
+command = '''
+{0}
+'''
+temp = ''
+for i in range(1, PaymentRecordSize + 1):
+    plan = random.choice(treatmentPlanList)
+    method = random.choice(method_list)
+    temp1 = f"EXEC InsertPaymentRecord '{fake.future_datetime('+7d')}',{gen_price(50000.0,100000000.0)},'{gen_sentence(15)}','{method}','{plan}';\n"
+    temp += temp1
+    try:
+        cursor.execute(temp1) # INSERT THE DATA
+    except:
+        continue
+
+final_command = command.format(temp)
+File.write(final_command) # GENERATE DATA SCRIPT
 
 
 print("Successfully generated Data and DataGenerator.sql")

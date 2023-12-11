@@ -23,7 +23,7 @@ def show_result(results):
     for i in results:
         print(i,end=' | ')
 
-cursor.execute(f"select count(*) from Drug")
+cursor.execute(f"select count(*) from PaymentRecord")
 results = cursor.fetchall()
 print(results[0])
 

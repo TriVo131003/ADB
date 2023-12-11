@@ -1555,10 +1555,9 @@ BEGIN
 END;
 
 go
+
 CREATE or alter PROCEDURE InsertPaymentMethod
-(
     @payment_method_title nvarchar(15)
-)
 AS
 BEGIN
     -- Check if payment method ID already exists
@@ -1585,3 +1584,4 @@ BEGIN
         @payment_method_title
     );
 END;
+go

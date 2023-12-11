@@ -53,7 +53,21 @@ toothPosList = []
 for i in range(1,33): toothPosList.append(f"{i:02}") 
 treatment_list = []
 
+appointment_size = 10000
+appointment_list = []
 
+method_list = []
+
+treatmentPlanSize = 9000
+treatmentPlanList = []
+treatmentSessionSize = 20000
+treatmentSessionList = []
+
+PrescriptionSize = 20000
+
+ToothSelectionSize = 1600
+
+PaymentRecordSize = 20000
 
 #--------------------config stuff above------------------------
 
@@ -151,11 +165,12 @@ def gen_phone() -> str:
 def gen_gender() -> str:
     return "N'Nam'" if random.randint(0,1) == 0 else "N'Nữ'"
 
-def gen_date(min, max) -> str:
-    res = ''
-    while (res == '' or datetime.now().year - res.year < min or datetime.now().year - res.year > max):
-        res = fake.date_of_birth()
-    return str(res)
+def gen_birthday(min_age, max_age) -> str:
+    res = fake.date_of_birth(None,min_age, max_age)
+    return res
+
+def gen_date(min, max):
+    return fake.date()
 
 def gen_nationalID() -> str:
     return '0' + ''.join(random.choices(string.digits, k=11))
@@ -172,12 +187,17 @@ def gen_datetime(min, max) -> str:
         res = fake.date_time()
     return str(res)
 
+def gen_time(min, max) -> str:
+    res = ''
+    while (res == '' or int(res[0:2]) < min or int(res[0:2]) > max):
+        res = fake.time()
+    return res
 
 
 
 
 # for _ in range(100):
-#     print(gen_datetime(6, 10))
+#     print(fake.future_datetime())
 
 
 # -------------------------------------------------
@@ -187,3 +207,4 @@ def gen_datetime(min, max) -> str:
 # random_element = random.choice(my_list)
 
 # print(f"Random element: {random_element}")
+# print(fake.time())
