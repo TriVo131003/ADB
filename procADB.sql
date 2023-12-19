@@ -56,6 +56,7 @@ BEGIN
 
 END;
 GO
+--1
 
 CREATE or alter PROCEDURE insertDrugAllergy
 	@patient_id CHAR(5),
@@ -74,11 +75,17 @@ BEGIN
         RAISERROR(N'Thuốc không tồn tại', 16, 1);
         RETURN;
     END
+	if exists(Select 1 from DrugAllergy where patient_id= @patient_id and @drug_id = drug_id)
+	begin
+		RAISERROR(N'Thuốc dị ứng của bệnh nhân đã tồn tại', 16, 1);
+        RETURN;
+	end
 
     INSERT INTO DrugAllergy (patient_id, drug_id, drugallergy_description)
     VALUES (@patient_id, @drug_id, @drug_allergy_description);
 END
 GO
+--2
 
 CREATE or alter PROCEDURE insertContradiction
 	@patient_id CHAR(5),
@@ -97,11 +104,18 @@ BEGIN
         RAISERROR(N'Thuốc không tồn tại', 16, 1);
         RETURN;
     END
+	if exists (select 1 from Contradication where @drug_id = drug_id and @patient_id = patient_id)
+	BEGIN
+        RAISERROR(N'Thuốc chống chỉ định cho bệnh nhân đã tồn tại', 16, 1);
+        RETURN;
+    END
 
     INSERT INTO Contradication (patient_id, drug_id, contradication_description)
     VALUES (@patient_id, @drug_id, @description);
 END
 GO
+--3
+
 CREATE or alter PROCEDURE updateContradiction
 	@patient_id CHAR(5),
 	@drug_id CHAR(5),
@@ -130,8 +144,8 @@ BEGIN
 	set contradication_description = @description
 	where patient_id = @patient_id and drug_id = @drug_id
 END
-
 GO
+--4
 
 CREATE or alter PROCEDURE updateDrugAllergy
 	@patient_id CHAR(5),
@@ -153,7 +167,7 @@ BEGIN
 
 	IF NOT EXISTS (SELECT * FROM DrugAllergy WHERE drug_id = @drug_id and patient_id = @patient_id)
     BEGIN
-        RAISERROR(N'Bệnh nhân không thuốc dị ứng', 16, 1);
+        RAISERROR(N'Bệnh nhân không có thuốc dị ứng', 16, 1);
         RETURN;
     END
 
@@ -161,8 +175,9 @@ BEGIN
 	set drugallergy_description = @description
 	where patient_id = @patient_id and drug_id = @drug_id
 END
-
 GO
+--5
+
 CREATE or alter PROCEDURE deleteContradiction
 	@patient_id CHAR(5),
 	@drug_id CHAR(5)
@@ -188,8 +203,9 @@ BEGIN
     DELETE FROM Contradication
     WHERE patient_id = @patient_id AND drug_id = @drug_id;
 END
-
 GO
+--6
+
 CREATE or alter PROCEDURE deleteDrugAllergy
 	@patient_id CHAR(5),
 	@drug_id CHAR(5)
@@ -216,8 +232,8 @@ BEGIN
     DELETE FROM DrugAllergy
     WHERE patient_id = @patient_id AND drug_id = @drug_id;
 END
-
 go
+--7
 
 CREATE or alter PROCEDURE insertAccount
 	@username varchar(20),
@@ -231,7 +247,7 @@ BEGIN
 		RETURN
     END
 	DECLARE @new_account_id char(5);
-	IF NOT EXISTS (SELECT * FROM Account)
+	IF NOT EXISTS (SELECT 1 FROM Account)
     BEGIN
         SET @new_account_id = '00001';
     END
@@ -251,6 +267,7 @@ BEGIN
 	(@new_account_id, @username, @password, 1);
 END;
 go
+--8
 
 CREATE or alter PROCEDURE updateAccount
 	@userName varchar(20),
@@ -268,8 +285,9 @@ BEGIN
 	account_status = @accountStatus
 	WHERE username = @userName;
 END;
-
 go
+--9
+
 CREATE or alter PROCEDURE InsertAppointment
 (
     @request_time datetime,
@@ -298,7 +316,7 @@ BEGIN
 	END
 
 	-- kiểm tra ngày và giờ đó bác sĩ có rảnh không
-
+	--thíu
 	DECLARE @new_appointment_id char(5);
 
 	IF NOT EXISTS (SELECT * FROM Appointment)
@@ -342,8 +360,8 @@ BEGIN
         @nurse_id
     );
 END;
-
 go
+
 CREATE or alter PROCEDURE UpdateAppointment
 (
     @appointment_id char(5),
@@ -375,6 +393,8 @@ BEGIN
 	END 
 
 	-- hàm kiểm tra nha sĩ có rảnh vào thời gian đó không
+	-- thíu
+
     -- Update appointment data
     UPDATE Appointment
     SET
@@ -388,8 +408,8 @@ BEGIN
         nurse_id = @nurse_id
     WHERE appointment_id = @appointment_id;
 END;
-
 go
+
 CREATE or alter PROCEDURE updateGeneralHealth
 (
     @patientPhone char(10),
@@ -403,20 +423,6 @@ BEGIN
 		raiserror(N'Bệnh nhân không tồn tại', 16, 1)
 		return;
 	end
-	
-
-    ---- Check if patient ID exists
-    --DECLARE @existing_patient_id char(5);
-
-    --SELECT @existing_patient_id = patient_id
-    --FROM Patient
-    --WHERE patient_id = @patient_id;
-
-    --IF @existing_patient_id IS NULL
-    --BEGIN
-    --    RAISERROR('Bệnh nhân không tồn tại', 16, 1)
-    --    RETURN;
-    --END
 
     -- Update general health data
 	declare @patientID char(5)
@@ -434,8 +440,9 @@ BEGIN
         health_description = @health_description
     WHERE patient_id = @patientID AND note_date = @note_date;
 END;
-
 GO
+--10
+
 CREATE or alter PROCEDURE insertGeneralHealth
 (
     @patientPhone char(10),
@@ -450,18 +457,6 @@ BEGIN
 		raiserror(N'Bệnh nhân chưa tồn tại', 16, 1)
 		return;
 	end
-    -- Check if patient ID exists
-    --DECLARE @existing_patient_id char(5);
-
-    --SELECT @existing_patient_id = patient_id
-    --FROM Patient
-    --WHERE patient_id = @patient_id;
-
-    --IF @existing_patient_id IS NULL
-    --BEGIN
-    --    RAISERROR('Bệnh nhân không tồn tại', 16, 1)
-    --    RETURN;
-    --END
 
 	declare @patientID char(5)
 	select @patientID = patient_id from Patient where patient_phone = @patientPhone
@@ -487,8 +482,10 @@ BEGIN
         @health_description
     );
 END;
-
 go
+--11
+
+-- kiểm tra lại
 CREATE or alter PROCEDURE updateTreatmentPlan
 (
     @treatment_plan_id char(5),
@@ -550,8 +547,6 @@ BEGIN
         nurse_id = @nurse_id
     WHERE treatment_plan_id = @treatment_plan_id;
 END;
-
-
 go
 
 CREATE or alter PROCEDURE insertTreatmentPlan
@@ -624,8 +619,8 @@ BEGIN
         @nurse_id
     );
 END;
-
 go
+
 CREATE or alter PROCEDURE insertDrug
 (
 	@drugName nvarchar(30),
@@ -665,8 +660,9 @@ BEGIN
 	@drugStockQuantity
 	);
 END;
-
 go
+--12
+
 CREATE or alter PROCEDURE updateDrug
 (
 	@drugID char(5),
@@ -695,8 +691,9 @@ BEGIN
 	drug_quantity = @drugStockQuantity
 	WHERE drug_id = @drugID;
 END;
-
 go
+--13
+
 CREATE or alter PROCEDURE deleteDrug
 (
 	@drugID char(5)
@@ -714,8 +711,9 @@ BEGIN
 	DELETE FROM Drug
 	WHERE drug_id = @drugID;
 END;
-
 go
+--14
+
 CREATE or alter PROCEDURE InsertEmployee
 (
 	@employee_name nvarchar(30),
@@ -816,6 +814,7 @@ BEGIN
     );
 END;
 go
+--15
 
 CREATE or alter PROCEDURE InsertNewDentist
 (
@@ -914,6 +913,7 @@ BEGIN
     );
 END;
 go
+--16
 
 CREATE or alter PROCEDURE InsertNewNurse
 (
@@ -1012,6 +1012,7 @@ BEGIN
     );
 END;
 go
+--17
 
 CREATE or alter PROCEDURE UpdateEmployee
 (
@@ -1064,6 +1065,7 @@ BEGIN
     WHERE employee_id = @employee_id;
 END;
 go
+--18
 
 CREATE or alter PROCEDURE UpdateEmployeeType
 (
@@ -1156,7 +1158,7 @@ BEGIN
 	end
 END;
 go
-
+--19
 
 CREATE or alter PROCEDURE insertPersonalAppointment
 	@personalAppointmentStartTime time,
@@ -1195,8 +1197,9 @@ BEGIN
 	@personalAppointmentDate,
 	@dentistID);
 END;
-
 go
+--20
+
 CREATE or alter PROCEDURE deletePersonalAppointment
 	@personalAppointmentID char(5)
 AS
@@ -1206,12 +1209,14 @@ BEGIN
 		raiserror('Lịch khám của bác sĩ chưa được tạo', 16, 1)
 		return
 	end
+	
+	-- kiểm tra xem bác sĩ có lịch làm việc vào giờ đó không
 
 	DELETE FROM personalAppointment
 	WHERE personal_appointment_id = @personalAppointmentID;
 END;
-
 go
+
 CREATE or alter PROCEDURE updatePersonalAppointment
 	@personalAppointmentID char(5),
 	@personalAppointmentStartTime time,
@@ -1225,6 +1230,8 @@ BEGIN
 		raiserror('Lịch khám của bác sĩ chưa được tạo', 16, 1)
 		return
 	end
+
+	-- kiểm tra xem bác sĩ có lịch làm việc vào giờ đó không
 
 	UPDATE personalAppointment
 	SET personal_appointment_start_time = @personalAppointmentStartTime,
@@ -1285,8 +1292,8 @@ BEGIN
         @patient_email
     );
 END;
-
 go
+--21
 
 CREATE or alter PROCEDURE updatePatient
 (
@@ -1331,8 +1338,9 @@ BEGIN
         patient_email = @patient_email
     WHERE patient_id = @patient_id;
 END;
-
 go
+--22
+
 CREATE or alter PROCEDURE insertTreatmentSession
 (
     @treatment_session_created_date datetime,
@@ -1375,8 +1383,9 @@ BEGIN
         @treatment_plan_id
     );
 END;
-
 GO
+--23
+
 CREATE or alter PROCEDURE insertToothSelection
 (
     @treatment_plan_id char(5),
@@ -1429,8 +1438,9 @@ BEGIN
         @treatment_tooth_price
     );
 END;
-
 go
+--24
+
 CREATE or alter PROCEDURE updateToothSelection
 (
     @treatment_plan_id char(5),
@@ -1462,6 +1472,8 @@ BEGIN
 		rollback
 		return
 	end
+
+	-- hình như thiếu ToothSelection chưa kiểm tra khi update
 
 	DECLARE @treatment_id char(2)
 	set @treatment_id = (select treatment_id from TreatmentPlan where treatment_plan_id = @treatment_plan_id)
@@ -1524,7 +1536,6 @@ BEGIN
 		SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(@new_payment_record_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
-
 	DECLARE @total_cost float
 	DECLARE @drug_cost float
 	DECLARE @treatment_cost float
@@ -1553,8 +1564,8 @@ BEGIN
         @treatment_plan_id
     );
 END;
-
 go
+--25
 
 CREATE or alter PROCEDURE InsertPaymentMethod
     @payment_method_title nvarchar(15)
@@ -1585,3 +1596,4 @@ BEGIN
     );
 END;
 go
+--26
