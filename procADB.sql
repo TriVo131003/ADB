@@ -545,8 +545,16 @@ BEGIN
         patient_id = @patient_id,
         dentist_id = @dentist_id,
         nurse_id = @nurse_id
-    WHERE treatment_plan_id = @treatment_plan_id;
+   WHERE treatment_plan_id = @treatment_plan_id;
+   UPDATE ToothSelection
+	SET treatment_tooth_price = tt.tooth_price	
+	FROM ToothSelection ts JOIN TreatmentTooth tt
+	ON ts.tooth_position_id = tt.tooth_position_id
+	WHERE ts.treatment_plan_id = @treatment_plan_id and tt.treatment_id = @treatment_id
 END;
+
+exec updateTreatmentPlan '00007', "2023/12/10 10:10:00", 'wear about and beat', 'sth', N'Kế hoạch', '01' , '00376', '159', '067'
+
 go
 
 CREATE or alter PROCEDURE insertTreatmentPlan
@@ -612,7 +620,7 @@ BEGIN
         @treatment_plan_created_date,
         @treatment_plan_note,
         @treatment_plan_description,
-        N'Kế hoạch',
+        'dieu tri',
         @treatment_id,
         @patient_id,
         @dentist_id,
@@ -1466,19 +1474,17 @@ BEGIN
 	end
 
     -- Check if tooth surface code exists
-	if not exists (select 1 from ToothSurface where tooth_surface_code = tooth_surface_code)
+	if not exists (select 1 from ToothSurface where @tooth_surface_code = tooth_surface_code)
 	begin
 		raiserror(N'Vị trí răng không tồn tại', 16, 1)
 		rollback
 		return
 	end
-
 	-- hình như thiếu ToothSelection chưa kiểm tra khi update
-
 	DECLARE @treatment_id char(2)
 	set @treatment_id = (select treatment_id from TreatmentPlan where treatment_plan_id = @treatment_plan_id)
 	DECLARE @treatment_tooth_price float
-	set @treatment_tooth_price = (select tooth_price from TreatmentTooth where @treatment_id = treatment_id)
+	set @treatment_tooth_price = (select tooth_price from TreatmentTooth where @treatment_id = treatment_id and tooth_position_id = @tooth_position_id)
     -- Update data in ToothSelection table
     UPDATE ToothSelection
     SET
@@ -1488,6 +1494,9 @@ BEGIN
     WHERE
         treatment_plan_id = @treatment_plan_id
 END;
+
+exec updateToothSelection '00007','01','R'
+
 go
 
 CREATE or alter PROCEDURE InsertPaymentRecord
