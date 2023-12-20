@@ -17,7 +17,7 @@ BEGIN
     WHERE a.username = @username AND a.password = @password
         AND a.account_status = 1
 END
---Câu truy vấn tìm cuộc hẹn của Customer
+--Câu truy vấn tìm cuộc hẹn của bệnh nhân
 go
 CREATE OR ALTER PROCEDURE FindCustomerAppointments
 (
@@ -57,6 +57,7 @@ as
 		Order by dentist_id, appointment_date DESC, app.appointment_time DESC
 	end
 go
+
 --Câu truy vấn xem chi tiết nha sĩ
 CREATE OR ALTER PROCEDURE GetDentistDetails
 (
@@ -68,8 +69,9 @@ BEGIN
   FROM Dentist D JOIN Employee E ON D.dentist_id = E.employee_id
   WHERE D.dentist_id = @dentistID;
 END
---Câu truy vấn xem danh sách nhân viên
 go
+
+--Câu truy vấn xem danh sách nhân viên
 CREATE OR ALTER PROCEDURE GetEmployeeListByBranch
 (
   @branchID char(2)
@@ -200,5 +202,60 @@ as
 begin
 	select drug_id, drug_name, drug_quantity, drug_price, expiration_date, indication
 	from Drug
+end
+go
+
+-- Câu truy vấn xem danh sách bệnh nhân
+CREATE OR ALTER PROC GetPatient
+as
+begin
+	Select *
+	from Patient
+end
+go
+
+-- Câu truy vấn xem bác sĩ mặc định của bệnh nhân
+CREATE OR ALTER Proc GetDefaultDentist @patient_id char(5)
+as
+begin
+	select pa.patient_name, de.employee_name as DentistName
+	from Patient pa join DefaultDentist def on def.patient_id = pa.patient_id join Employee de on de.employee_id = def.dentist_id
+	where pa.patient_id = @patient_id
+end
+go
+
+-- Câu truy vấn xem vị trí bề mặt răng
+CREATE OR ALTER Proc GetToothSurface
+as
+begin
+	select *
+	from ToothSurface
+end
+go
+
+-- Câu truy vấn xem điều trị của răng
+CREATE OR ALTER Proc GetToothSurface
+as
+begin
+	select pos.tooth_position_type, pos.tooth_position_description, treat.treatment_title, treat.treatment_description, treat.treatment_cost
+	from TreatmentTooth tooth join ToothPosition pos on pos.tooth_position_id = tooth.tooth_position_id join Treatment treat on treat.treatment_id = tooth.treatment_id
+end
+go
+
+-- Câu truy vấn xem vị trí răng
+CREATE OR ALTER Proc GetToothSurface
+as
+begin
+	select *
+	from ToothPosition
+end
+go
+
+-- Câu truy vấn xem các điều trị
+CREATE OR ALTER Proc GetTreatment
+as
+begin
+	select *
+	from Treatment
 end
 go
