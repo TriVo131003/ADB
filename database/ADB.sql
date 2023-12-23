@@ -28,11 +28,11 @@ CREATE TABLE Employee
 (
 	employee_id char(3),
 	employee_name nvarchar(30) NOT NULL,
-	employee_gender nvarchar(3) NOT NULL,
-	employee_birthday date NOT NULL,
+	employee_gender nvarchar(3),
+	employee_birthday date,
 	employee_address nvarchar(30),
 	employee_national_id char(12) NOT NULL UNIQUE,
-	employee_phone char(10) NOT NULL,
+	employee_phone char(10),
 	employee_type char(2) NOT NULL,
 	branch_id char(2),
 	account_id char(5)
@@ -43,6 +43,8 @@ CREATE TABLE Employee
 
 ALTER TABLE Employee
 ADD CONSTRAINT EmployeeType CHECK (employee_type IN ('DE', 'NU', 'AD', 'ST'));
+ALTER TABLE Employee
+ADD CONSTRAINT EmployeeGender CHECK (employee_gender IN ('Nam', N'Nữ'));
 
 --table DENTIST
 CREATE TABLE Dentist
@@ -79,8 +81,8 @@ CREATE TABLE PersonalAppointment
 (
 	personal_appointment_id char(5),
 	personal_appointment_date date NOT NULL,
-	personal_appointment_start_time time,
-	personal_appointment_end_time time,
+	personal_appointment_start_time time NOT NULL,
+	personal_appointment_end_time time NOT NULL,
 	room_id char(2) NOT NULL,
 	dentist_id char(3) NOT NULL
 
@@ -127,6 +129,9 @@ CREATE TABLE Patient
 	CONSTRAINT PK_Patient
 	PRIMARY KEY(patient_id)
 )
+
+ALTER TABLE Patient
+ADD CONSTRAINT PatientGender CHECK (patient_gender IN ('Nam', N'Nữ'));
 
 --table GeneralHealth
 CREATE TABLE GeneralHealth
@@ -220,7 +225,7 @@ CREATE TABLE ToothSelection
 	treatment_plan_id char(5),
 	tooth_position_id char(2),
 	tooth_surface_code char(1),
-	treatment_tooth_price float
+	treatment_tooth_price float NOT NULL
 
 	CONSTRAINT PK_ToothSelection
 	PRIMARY KEY(treatment_plan_id, tooth_position_id, tooth_surface_code)
@@ -230,7 +235,7 @@ CREATE TABLE TreatmentTooth
 (
 	tooth_position_id char(2),
 	treatment_id char(2),
-	tooth_price float
+	tooth_price float NOT NULL
 
 	CONSTRAINT PK_TreatmentTooth
 	PRIMARY KEY(tooth_position_id, treatment_id)
@@ -240,7 +245,7 @@ CREATE TABLE ToothSurface
 (
 	tooth_surface_code char(1),
 	tooth_surface_title nvarchar(15),
-	tooth_surface_description nvarchar(30),
+	tooth_surface_description nvarchar(30) NOT NULL
 
 
 	CONSTRAINT PK_Toothsurface
@@ -271,9 +276,9 @@ CREATE TABLE Treatment
 CREATE TABLE PaymentRecord
 (
 	payment_id char(5),
-	paid_time datetime  NOT NULL,
-	paid_money float  NOT NULL,
-	total_cost float,
+	paid_time datetime NOT NULL,
+	paid_money float NOT NULL,
+	total_cost float NOT NULL,
 	payment_note nvarchar(15),
 	payment_method_id char(5) NOT NULL,
 	treatment_plan_id char(5) NOT NULL
@@ -298,7 +303,7 @@ CREATE TABLE Prescription
 	drug_id char(5),
 	treatment_plan_id char(5),
 	drug_quantity int NOT NULL Check (drug_quantity>=1),
-	drug_cost float
+	drug_cost float  NOT NULL
 
 	CONSTRAINT PK_Prescription
 	PRIMARY KEY(treatment_plan_id, drug_id)
@@ -309,10 +314,10 @@ CREATE TABLE Drug
 (
 	drug_id char(5),
 	drug_name nvarchar(30) NOT NULL,
-	indication nvarchar(50) NOT NULL,
+	indication nvarchar(50),
 	expiration_date date NOT NULL,
 	drug_price float NOT NULL,
-	drug_quantity int
+	drug_quantity int  NOT NULL
 
 	CONSTRAINT PK_Drug
 	PRIMARY KEY (drug_id)
