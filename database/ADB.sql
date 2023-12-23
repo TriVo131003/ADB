@@ -218,9 +218,9 @@ CREATE TABLE TreatmentSession
 CREATE TABLE ToothSelection
 (
 	treatment_plan_id char(5),
-	tooth_position_id char(2),
-	tooth_surface_code char(1),
-	treatment_tooth_price float
+	tooth_position_id char(2) NOT NULL,
+	tooth_surface_code char(1) NOT NULL,
+	treatment_tooth_price float NOT NULL
 
 	CONSTRAINT PK_ToothSelection
 	PRIMARY KEY(treatment_plan_id, tooth_position_id, tooth_surface_code)
@@ -262,7 +262,7 @@ CREATE TABLE Treatment
 	treatment_id char(2),
 	treatment_title nvarchar(15) NOT NULL UNIQUE,
 	treatment_description nvarchar(30),
-	treatment_cost float  NOT NULL
+	treatment_cost float NOT NULL
 
 	CONSTRAINT PK_Treatment
 	PRIMARY KEY(treatment_id)
