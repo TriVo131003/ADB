@@ -1558,7 +1558,7 @@ BEGIN
 	END
 	ELSE
 	BEGIN
-		SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(@new_payment_record_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(payment_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
 	DECLARE @total_cost float
