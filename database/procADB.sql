@@ -303,16 +303,22 @@ AS
 BEGIN
     -- Check if appointment ID already exists
     IF NOT EXISTS (SELECT * FROM Patient WHERE patient_id = @patient_id)
+	begin
 		RAISERROR('Bệnh nhân không tồn tại', 16, 1)
 		RETURN
+	end
 	IF NOT EXISTS (SELECT * FROM Dentist WHERE dentist_id = @dentist_id)
+	begin
 		RAISERROR('Nha sĩ không tồn tại', 16, 1)
 		RETURN
+	end
 	IF @nurse_id is not null
 	BEGIN
 		IF NOT EXISTS (SELECT * FROM Nurse WHERE @nurse_id = nurse_id)
-		RAISERROR('Trợ khám không tồn tại', 16, 1)
-		RETURN
+		begin
+			RAISERROR('Trợ khám không tồn tại', 16, 1)
+			RETURN
+		end
 	END
 
 	-- kiểm tra ngày và giờ đó bác sĩ có rảnh không
@@ -377,19 +383,27 @@ CREATE or alter PROCEDURE UpdateAppointment
 AS
 BEGIN
 	IF NOT EXISTS (SELECT * FROM Appointment WHERE appointment_id = @appointment_id)
+	begin
 		RAISERROR('Cuộc hẹn không tồn tại', 16, 1)
 		RETURN
+	end
 	IF NOT EXISTS (SELECT * FROM Patient WHERE patient_id = @patient_id)
+	begin
 		RAISERROR('Bệnh nhân không tồn tại', 16, 1)
 		RETURN
+	end
 	IF NOT EXISTS (SELECT * FROM Dentist WHERE dentist_id = @dentist_id)
+	begin
 		RAISERROR('Nha sĩ không tồn tại', 16, 1)
 		RETURN
+	end
 	IF @nurse_id is not null
 	BEGIN
 		IF NOT EXISTS (SELECT * FROM Nurse WHERE @nurse_id = nurse_id)
-		RAISERROR('Trợ khám không tồn tại', 16, 1)
-		RETURN
+		begin
+			RAISERROR('Trợ khám không tồn tại', 16, 1)
+			RETURN
+		end
 	END 
 
 	-- hàm kiểm tra nha sĩ có rảnh vào thời gian đó không
@@ -620,7 +634,7 @@ BEGIN
         @treatment_plan_created_date,
         @treatment_plan_note,
         @treatment_plan_description,
-        'dieu tri',
+        N'Kế hoạch',
         @treatment_id,
         @patient_id,
         @dentist_id,
@@ -987,8 +1001,6 @@ BEGIN
     BEGIN
 		SET @new_employee_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(employee_id) from Employee), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
-
-
     -- Insert data into Employee table
 
 
