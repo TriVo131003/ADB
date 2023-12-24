@@ -2,6 +2,11 @@ from flask import Flask, render_template, redirect, request
 from database import *
 app = Flask(__name__)
 
+@app.route('/', methods = ['POST','GET'])
+def homepage():
+    print('get started')
+    return render_template('homepage.html')
+
 @app.route('/login', methods = ['POST','GET'])
 def login():
     print('get started')
