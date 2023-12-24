@@ -40,7 +40,7 @@ BEGIN
   end
 
 	DECLARE @drug_cost Float
-	select @drug_cost = @drug_quantity * (select drug_price from Drug)
+	set @drug_cost = @drug_quantity * (select drug_price from Drug)
   -- Insert prescription and quantity
   INSERT INTO Prescription (treatment_plan_id, drug_id, drug_quantity, drug_cost)
   VALUES (
@@ -1441,7 +1441,7 @@ BEGIN
 	DECLARE @treatment_id char(2)
 	set @treatment_id = (select treatment_id from TreatmentPlan where treatment_plan_id = @treatment_plan_id)
 	DECLARE @treatment_tooth_price float
-	set @treatment_tooth_price = (select tooth_price from TreatmentTooth where @treatment_id = treatment_id)
+	set @treatment_tooth_price = (select tooth_price from TreatmentTooth where @treatment_id = treatment_id and @tooth_position_id = tooth_position_id)
     -- Insert data into ToothSelection table
     INSERT INTO ToothSelection
     (
@@ -1554,13 +1554,13 @@ BEGIN
 	END
 	ELSE
 	BEGIN
-		SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(@new_payment_record_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(payment_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
 	DECLARE @total_cost float
 	DECLARE @drug_cost float
 	DECLARE @treatment_cost float
-	SET @treatment_cost = (select treatment_tooth_price from ToothSelection where treatment_plan_id = @treatment_plan_id)
+	SET @treatment_cost = (select sum(treatment_tooth_price) from ToothSelection where treatment_plan_id = @treatment_plan_id)
 	SET @drug_cost = (SELECT SUM(drug_cost) FROM Prescription where treatment_plan_id = @treatment_plan_id)
 	SET @total_cost = @treatment_cost +  @drug_cost
     -- Insert data into PaymentRecord table
