@@ -376,6 +376,7 @@ ADD
 	CONSTRAINT FK_Dentist_employee
 	FOREIGN KEY (dentist_id)
 	REFERENCES Employee(employee_id)
+
 ALTER TABLE Nurse
 ADD
 	CONSTRAINT FK_Nurse_employee
