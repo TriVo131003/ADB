@@ -23,7 +23,7 @@ CREATE TABLE Account
 	PRIMARY KEY (accountID)
 )
 
---table ACCOUNT
+--table Employee
 CREATE TABLE Employee
 (
 	employee_id char(3),
@@ -155,7 +155,7 @@ CREATE TABLE Appointment
 	appointment_state bit NOT NULL,
 	numerical_order char(3) NOT NULL,
 	room_id char(2) NOT NULL,
-	is_new_patient bit,
+	is_new_patient bit NOT NULL,
 	patient_id char(5) NOT NULL,
 	dentist_id char(3) NOT NULL,
 	nurse_id char(3)
@@ -182,8 +182,8 @@ CREATE TABLE Reexamination
 	re_examination_date date,
 	re_examination_note nvarchar(30),
 	re_examination_status bit,
-	appointment_id char(5),
-	treatment_plan_id char(5)
+	appointment_id char(5) NOT NULL,
+	treatment_plan_id char(5) NOT NULL
 
 	CONSTRAINT PK_Reexamination
 	PRIMARY KEY(re_examination_id)
@@ -244,9 +244,8 @@ CREATE TABLE TreatmentTooth
 CREATE TABLE ToothSurface
 (
 	tooth_surface_code char(1),
-	tooth_surface_title nvarchar(15),
-	tooth_surface_description nvarchar(30) NOT NULL
-
+	tooth_surface_title nvarchar(15) NOT NULL,
+	tooth_surface_description nvarchar(30)
 
 	CONSTRAINT PK_Toothsurface
 	PRIMARY KEY(tooth_surface_code)
