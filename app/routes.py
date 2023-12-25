@@ -34,7 +34,7 @@ def PatientIn4Test():
     if employeeInfo == None:
         return redirect('/login')
     print(employeeInfo.employee_name)
-    return render_template('patientinfo.html',employee = employeeInfo)
+    return render_template('employeein4.html',employee = employeeInfo)
 
 @app.route('/login', methods = ['POST','GET'])
 def login():
@@ -82,7 +82,10 @@ def signup():
 
 @app.route('/patientinfo', methods = ['POST','GET'])
 def patientinfo():
-    return render_template('patientinfo.html')
+    cursor.execute('SELECT * FROM Patient')
+    patients = cursor.fetchall()
+
+    return render_template('patientinfo.html', patients=patients)
 
 @app.route('/addpatient', methods = ['POST','GET'])
 def addpatient():
@@ -114,7 +117,10 @@ def invoice():
 
 @app.route('/drug', methods = ['POST','GET'])
 def drug():
-    return render_template('drug.html')
+    cursor.execute('SELECT * FROM Drug')
+    drugs = cursor.fetchall()
+
+    return render_template('drug.html', drugs=drugs)
 
 @app.route('/adddrug', methods = ['POST','GET'])
 def adddrug():
