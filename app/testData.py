@@ -1,7 +1,7 @@
 import random
 import string
 import pyodbc
-from app.fakeLib import *
+from fakeLib import *
 # hosting a database locally, got connection timeout sometimes when u use Ethernet instead of Wifi, turn of Ethernet, 
 # try Wifi and plug again
 

@@ -32,15 +32,15 @@ BEGIN
   -- số lượng thuốc đủ hay không
   -- sau khi kê thì cập nhật lại số lượng thuốc trong kho
 
-  if(@drug_quantity > (select drug_quantity from Drug where drug_id = @drug_id))
-  begin
-	raiserror(N'Số lượng thuốc không đủ cấp', 16, 1)
-	rollback
-	return
-  end
+ -- if(@drug_quantity > (select drug_quantity from Drug where drug_id = @drug_id))
+ -- begin
+	--raiserror(N'Số lượng thuốc không đủ cấp', 16, 1)
+	--rollback
+	--return
+ -- end
 
 	DECLARE @drug_cost Float
-	set @drug_cost = @drug_quantity * (select drug_price from Drug)
+	select @drug_cost = @drug_quantity * (select drug_price from Drug where @drug_id = drug_id)
   -- Insert prescription and quantity
   INSERT INTO Prescription (treatment_plan_id, drug_id, drug_quantity, drug_cost)
   VALUES (
@@ -55,9 +55,13 @@ BEGIN
   where drug_id = @drug_id
 
 END;
+
 GO
+
+-- exec AddPrescription '00001','DR011',10
 --1
 
+go
 CREATE or alter PROCEDURE insertDrugAllergy
 	@patient_id CHAR(5),
 	@drug_id CHAR(5),
@@ -1605,9 +1609,26 @@ BEGIN
         @treatment_plan_id
     );
 END;
-go
---25
 
+EXEC InsertPaymentRecord
+    @paid_time = '2023-12-24 16:44:00',
+    @paid_money = 1000000,
+    @payment_note = 'Thanh toán lần 1',
+    @payment_method_id = '00006',
+    @treatment_plan_id = '00007';
+go
+
+--DECLARE @total_cost float
+--DECLARE @drug_cost float
+--DECLARE @treatment_cost float
+--SET @treatment_cost = (select sum(treatment_tooth_price) from ToothSelection where treatment_plan_id = '00007')
+--select @treatment_cost
+--SET @drug_cost = (SELECT SUM(drug_cost) FROM Prescription where treatment_plan_id = '00007')
+--select @drug_cost
+--SET @total_cost = @treatment_cost +  @drug_cost
+--select @total_cost
+----25
+--go
 CREATE or alter PROCEDURE InsertPaymentMethod
     @payment_method_title nvarchar(15)
 AS

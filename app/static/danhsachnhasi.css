@@ -1,0 +1,750 @@
+.xem-danh-sch-nha-s {
+    background-color: #edf5ee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .xem-danh-sch-nha-s .div {
+    background-color: #edf5ee;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .xem-danh-sch-nha-s .overlap {
+    position: absolute;
+    width: 1464px;
+    height: 244px;
+    top: -4px;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-group {
+    position: absolute;
+    width: 1464px;
+    height: 244px;
+    top: 0;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-2 {
+    position: absolute;
+    width: 1464px;
+    height: 190px;
+    top: 0;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .group {
+    position: absolute;
+    width: 1464px;
+    height: 146px;
+    top: 0;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-3 {
+    position: absolute;
+    width: 1440px;
+    height: 44px;
+    top: 0;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .line {
+    width: 1439px;
+    top: 40px;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .xem-danh-sch-nha-s .rectangle {
+    position: absolute;
+    width: 1439px;
+    height: 41px;
+    top: 0;
+    left: 0;
+    background-color: #5f9075;
+  }
+  
+  .xem-danh-sch-nha-s .img {
+    width: 1436px;
+    top: 40px;
+    left: 4px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .xem-danh-sch-nha-s .clinic {
+    position: absolute;
+    width: 39px;
+    height: 36px;
+    top: 4px;
+    left: 86px;
+    object-fit: cover;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper {
+    position: absolute;
+    width: 155px;
+    top: 4px;
+    left: 1269px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-4 {
+    position: absolute;
+    width: 1470px;
+    height: 87px;
+    top: 59px;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-group-wrapper {
+    position: absolute;
+    width: 299px;
+    height: 54px;
+    top: 0;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-group-2 {
+    position: relative;
+    width: 295px;
+    height: 54px;
+    background-color: #ffffff;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-2 {
+    position: absolute;
+    width: 75px;
+    top: 12px;
+    left: 113px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .xem-danh-sch-nha-s .p {
+    position: absolute;
+    width: 218px;
+    top: 32px;
+    left: 68px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .xem-danh-sch-nha-s .clinic-2 {
+    position: absolute;
+    width: 41px;
+    height: 40px;
+    top: 8px;
+    left: 13px;
+    object-fit: cover;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-5 {
+    position: absolute;
+    width: 1466px;
+    height: 79px;
+    top: 8px;
+    left: 4px;
+  }
+  
+  .xem-danh-sch-nha-s .line-2 {
+    width: 1436px;
+    top: 63px;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .xem-danh-sch-nha-s .group-2 {
+    position: absolute;
+    width: 701px;
+    height: 79px;
+    top: 0;
+    left: 765px;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-3 {
+    width: 191px;
+    top: 1px;
+    font-size: 32px;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-6 {
+    position: absolute;
+    width: 491px;
+    height: 79px;
+    top: 0;
+    left: 202px;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-4 {
+    position: absolute;
+    width: 227px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-5 {
+    position: absolute;
+    width: 180px;
+    top: 1px;
+    left: 196px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-6 {
+    position: absolute;
+    width: 160px;
+    top: 1px;
+    left: 331px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-7 {
+    position: absolute;
+    width: 507px;
+    top: 145px;
+    left: 453px;
+    font-family: "Lalezar-Regular", Helvetica;
+    font-weight: 400;
+    color: #144e24;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-wrapper {
+    position: absolute;
+    width: 345px;
+    height: 70px;
+    top: 174px;
+    left: 1039px;
+  }
+  
+  .xem-danh-sch-nha-s .div-wrapper {
+    position: relative;
+    width: 343px;
+    height: 70px;
+    background-color: #5f9076;
+    border-radius: 80px;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-8 {
+    position: absolute;
+    top: 13px;
+    left: 69px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .xem-danh-sch-nha-s .line-3 {
+    width: 283px;
+    top: 240px;
+    left: 565px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .xem-danh-sch-nha-s .group-3 {
+    position: absolute;
+    width: 1219px;
+    height: 32px;
+    top: 889px;
+    left: 125px;
+  }
+  
+  .xem-danh-sch-nha-s .arrow-right {
+    left: 0;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    object-fit: cover;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-7 {
+    position: absolute;
+    width: 175px;
+    height: 32px;
+    top: 0;
+    left: 1040px;
+  }
+  
+  .xem-danh-sch-nha-s .arrow-right-2 {
+    left: 111px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    object-fit: cover;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-9 {
+    width: 175px;
+    top: 5px;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-10 {
+    position: absolute;
+    width: 175px;
+    top: 5px;
+    left: 42px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-11 {
+    position: absolute;
+    width: 54px;
+    top: 287px;
+    left: 55px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .xem-danh-sch-nha-s .group-wrapper {
+    position: absolute;
+    width: 131px;
+    height: 67px;
+    top: 418px;
+    left: 26px;
+  }
+  
+  .xem-danh-sch-nha-s .rectangle-wrapper {
+    height: 67px;
+  }
+  
+  .xem-danh-sch-nha-s .rectangle-2 {
+    position: relative;
+    width: 133px;
+    height: 69px;
+    top: -1px;
+    left: -1px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .xem-danh-sch-nha-s .group-4 {
+    position: absolute;
+    width: 131px;
+    height: 67px;
+    top: 504px;
+    left: 26px;
+  }
+  
+  .xem-danh-sch-nha-s .group-5 {
+    position: absolute;
+    width: 131px;
+    height: 67px;
+    top: 332px;
+    left: 26px;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-12 {
+    position: absolute;
+    width: 242px;
+    top: 287px;
+    left: 255px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .xem-danh-sch-nha-s .group-6 {
+    position: absolute;
+    width: 335px;
+    height: 67px;
+    top: 418px;
+    left: 215px;
+  }
+  
+  .xem-danh-sch-nha-s .rectangle-3 {
+    width: 337px;
+    position: relative;
+    height: 69px;
+    top: -1px;
+    left: -1px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .xem-danh-sch-nha-s .group-7 {
+    position: absolute;
+    width: 335px;
+    height: 67px;
+    top: 504px;
+    left: 215px;
+  }
+  
+  .xem-danh-sch-nha-s .group-8 {
+    position: absolute;
+    width: 334px;
+    height: 67px;
+    top: 332px;
+    left: 216px;
+  }
+  
+  .xem-danh-sch-nha-s .rectangle-4 {
+    width: 336px;
+    position: relative;
+    height: 69px;
+    top: -1px;
+    left: -1px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-13 {
+    position: absolute;
+    width: 242px;
+    top: 282px;
+    left: 601px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .xem-danh-sch-nha-s .group-9 {
+    position: absolute;
+    width: 388px;
+    height: 67px;
+    top: 332px;
+    left: 583px;
+  }
+  
+  .xem-danh-sch-nha-s .rectangle-5 {
+    width: 390px;
+    position: relative;
+    height: 69px;
+    top: -1px;
+    left: -1px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .xem-danh-sch-nha-s .group-10 {
+    position: absolute;
+    width: 388px;
+    height: 67px;
+    top: 504px;
+    left: 583px;
+  }
+  
+  .xem-danh-sch-nha-s .group-11 {
+    position: absolute;
+    width: 131px;
+    height: 67px;
+    top: 685px;
+    left: 26px;
+  }
+  
+  .xem-danh-sch-nha-s .group-12 {
+    position: absolute;
+    width: 324px;
+    height: 67px;
+    top: 688px;
+    left: 226px;
+  }
+  
+  .xem-danh-sch-nha-s .rectangle-6 {
+    width: 326px;
+    position: relative;
+    height: 69px;
+    top: -1px;
+    left: -1px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .xem-danh-sch-nha-s .group-13 {
+    position: absolute;
+    width: 388px;
+    height: 67px;
+    top: 685px;
+    left: 583px;
+  }
+  
+  .xem-danh-sch-nha-s .group-14 {
+    position: absolute;
+    width: 131px;
+    height: 67px;
+    top: 599px;
+    left: 26px;
+  }
+  
+  .xem-danh-sch-nha-s .group-15 {
+    position: absolute;
+    width: 324px;
+    height: 67px;
+    top: 594px;
+    left: 226px;
+  }
+  
+  .xem-danh-sch-nha-s .group-16 {
+    position: absolute;
+    width: 388px;
+    height: 67px;
+    top: 590px;
+    left: 583px;
+  }
+  
+  .xem-danh-sch-nha-s .group-17 {
+    position: absolute;
+    width: 388px;
+    height: 67px;
+    top: 418px;
+    left: 583px;
+  }
+  
+  .xem-danh-sch-nha-s .group-18 {
+    position: absolute;
+    width: 192px;
+    height: 63px;
+    top: 331px;
+    left: 1192px;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-8 {
+    position: relative;
+    width: 190px;
+    height: 63px;
+    background-color: #d8eae2;
+    border-radius: 50px;
+  }
+  
+  .xem-danh-sch-nha-s .text-wrapper-14 {
+    position: absolute;
+    top: 15px;
+    left: 39px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .xem-danh-sch-nha-s .group-19 {
+    position: absolute;
+    width: 192px;
+    height: 63px;
+    top: 331px;
+    left: 987px;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-group-3 {
+    position: relative;
+    width: 190px;
+    height: 63px;
+    background-color: #869a8fba;
+    border-radius: 50px;
+  }
+  
+  .xem-danh-sch-nha-s .group-20 {
+    position: absolute;
+    width: 192px;
+    height: 419px;
+    top: 418px;
+    left: 987px;
+  }
+  
+  .xem-danh-sch-nha-s .overlap-9 {
+    position: absolute;
+    width: 190px;
+    height: 63px;
+    top: 0;
+    left: 0;
+    background-color: #869a8fba;
+    border-radius: 50px;
+  }
+  
+  .xem-danh-sch-nha-s .group-21 {
+    height: 333px;
+    top: 86px;
+    position: absolute;
+    width: 192px;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .group-22 {
+    height: 247px;
+    top: 86px;
+    position: absolute;
+    width: 192px;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .group-23 {
+    height: 152px;
+    top: 95px;
+    position: absolute;
+    width: 192px;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .group-24 {
+    height: 63px;
+    top: 89px;
+    position: absolute;
+    width: 192px;
+    left: 0;
+  }
+  
+  .xem-danh-sch-nha-s .group-25 {
+    position: absolute;
+    width: 192px;
+    height: 63px;
+    top: 687px;
+    left: 1192px;
+  }
+  
+  .xem-danh-sch-nha-s .group-26 {
+    position: absolute;
+    width: 131px;
+    height: 67px;
+    top: 774px;
+    left: 26px;
+  }
+  
+  .xem-danh-sch-nha-s .group-27 {
+    position: absolute;
+    width: 324px;
+    height: 67px;
+    top: 777px;
+    left: 226px;
+  }
+  
+  .xem-danh-sch-nha-s .group-28 {
+    position: absolute;
+    width: 388px;
+    height: 67px;
+    top: 774px;
+    left: 583px;
+  }
+  
+  .xem-danh-sch-nha-s .group-29 {
+    position: absolute;
+    width: 192px;
+    height: 63px;
+    top: 778px;
+    left: 1192px;
+  }
+  
+  .xem-danh-sch-nha-s .group-30 {
+    position: absolute;
+    width: 192px;
+    height: 63px;
+    top: 594px;
+    left: 1192px;
+  }
+  
+  .xem-danh-sch-nha-s .group-31 {
+    position: absolute;
+    width: 192px;
+    height: 63px;
+    top: 508px;
+    left: 1192px;
+  }
+  
+  .xem-danh-sch-nha-s .group-32 {
+    position: absolute;
+    width: 192px;
+    height: 63px;
+    top: 422px;
+    left: 1192px;
+  }
+  

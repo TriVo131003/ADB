@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../static/login.css">
   </head>
   <body>
+    <p> {{error}} </p>
     <div class="ng-nhp-ti-khon-nhn">
       <div class="div">
         <div class="overlap">
@@ -21,20 +22,30 @@
               <img class="clinic" src="../static/img/logo.png" />
             </div>
           </div>
-          <div class="div-wrapper"><div class="text-wrapper-2">Nhập tên đăng nhập</div></div>
-          <div class="text-wrapper-3">Tên đăng nhập</div>
+          <!-- <div class="div-wrapper">
+            <div class="text-wrapper-2">Nhập tên đăng nhập</div>
+          </div> -->
+          <!-- <div class="text-wrapper-3">Tên đăng nhập</div>
           <div class="overlap-3">
             <div class="text-wrapper-4">Nhập mật khẩu</div>
             <img class="hide" src="../static/img/hide 2.png" />
-          </div>
-          <div class="text-wrapper-5">Mật khẩu</div>
-          <div class="text-wrapper-6">Quên mật khẩu</div>
+          </div> -->
+          <!-- <div class="text-wrapper-5">Mật khẩu</div> -->
+          <form method="POST" action="{{ url_for('login') }}">
+            <label class="text-wrapper-3" for="username">Tên đăng nhập</label>
+            <input class="div-wrapper" type="text" name="username" required>
+            <br>
+            <label class="text-wrapper-5"  for="password">Mật khẩu</label>
+            <input class="overlap-3" type="password" name="password" required>
+            <br>
+            <div class="overlap-wrapper">
+              <!-- <div class="overlap-4"><input class="text-wrapper-8" type="submit" value="Signup"></input></div> -->
+              <div><input class="overlap-4" type="submit" value="Login"></input></div>
+            </div>
+          </form>
           <p class="b-n-ch-a-l-th-nh-vi">
             <span class="span">Bạn chưa là thành viên?</span> <span class="text-wrapper-7"> Hãy đăng ký ngay</span>
           </p>
-          <div class="overlap-wrapper">
-            <div class="overlap-4"><div class="text-wrapper-8">Đăng nhập</div></div>
-          </div>
           <div class="text-wrapper-9">Đăng nhập</div>
         </div>
         <div class="overlap-5">
