@@ -114,7 +114,9 @@ def invoice():
 
 @app.route('/drug', methods = ['POST','GET'])
 def drug():
-    return render_template('drug.html')
+    cursor.execute("select * from Drug")
+    drugs = cursor.fetchall()
+    return render_template('drug.html',drugs = drugs)
 
 @app.route('/adddrug', methods = ['POST','GET'])
 def adddrug():
@@ -122,11 +124,12 @@ def adddrug():
 
 @app.route('/updatedrug', methods = ['POST','GET'])
 def updatedrug():
+    drug_id = request.args.get('get_drug_id')
+    print("Updating on this ",drug_id)
     return render_template('updatedrug.html')
 
-
 @app.route('/appointment', methods = ['POST','GET'])
-def updatedrug():
+def appointment():
     return render_template('appointment.html')
 
 # @app.route('/appointmentinfo', methods = ['POST','GET'])
