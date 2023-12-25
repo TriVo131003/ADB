@@ -1560,8 +1560,28 @@ BEGIN
 	DECLARE @total_cost float
 	DECLARE @drug_cost float
 	DECLARE @treatment_cost float
-	SET @treatment_cost = (select sum(treatment_tooth_price) from ToothSelection where treatment_plan_id = @treatment_plan_id)
-	SET @drug_cost = (SELECT SUM(drug_cost) FROM Prescription where treatment_plan_id = @treatment_plan_id)
+	--SET @treatment_cost = (select sum(treatment_tooth_price) from ToothSelection where treatment_plan_id = @treatment_plan_id)
+	--SET @drug_cost = (SELECT SUM(drug_cost) FROM Prescription where treatment_plan_id = @treatment_plan_id)
+
+	IF NOT EXISTS (SELECT 1 FROM ToothSelection where treatment_plan_id = @treatment_plan_id)
+	BEGIN
+		SET @treatment_cost = 0
+	END
+	ELSE
+	BEGIN
+		SET @treatment_cost = (select SUM(treatment_tooth_price) from ToothSelection where treatment_plan_id = @treatment_plan_id)
+	END
+
+	IF NOT EXISTS (SELECT 1 FROM Prescription where treatment_plan_id = @treatment_plan_id)
+	BEGIN
+		SET @drug_cost = 0
+	END
+	ELSE
+	BEGIN
+		-- SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(payment_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SET @drug_cost = (SELECT SUM(drug_cost) FROM Prescription where treatment_plan_id = @treatment_plan_id)
+	END
+
 	SET @total_cost = @treatment_cost +  @drug_cost
     -- Insert data into PaymentRecord table
     INSERT INTO PaymentRecord

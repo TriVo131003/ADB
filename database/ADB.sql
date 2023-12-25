@@ -280,7 +280,7 @@ CREATE TABLE PaymentRecord
 	total_cost float NOT NULL,
 	payment_note nvarchar(15),
 	payment_method_id char(5) NOT NULL,
-	treatment_plan_id char(5) NOT NULL
+	treatment_plan_id char(5) NOT NULL UNIQUE,
 
 	CONSTRAINT PK_PaymentRecord
 	PRIMARY KEY(payment_id)
