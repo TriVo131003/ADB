@@ -58,7 +58,7 @@ END;
 
 GO
 
-exec AddPrescription '00001','DR011',10
+-- exec AddPrescription '00001','DR011',10
 --1
 
 go
@@ -1604,17 +1604,18 @@ EXEC InsertPaymentRecord
     @payment_method_id = '00006',
     @treatment_plan_id = '00007';
 go
-DECLARE @total_cost float
-DECLARE @drug_cost float
-DECLARE @treatment_cost float
-SET @treatment_cost = (select sum(treatment_tooth_price) from ToothSelection where treatment_plan_id = '00007')
-select @treatment_cost
-SET @drug_cost = (SELECT SUM(drug_cost) FROM Prescription where treatment_plan_id = '00007')
-select @drug_cost
-SET @total_cost = @treatment_cost +  @drug_cost
-select @total_cost
---25
-go
+
+--DECLARE @total_cost float
+--DECLARE @drug_cost float
+--DECLARE @treatment_cost float
+--SET @treatment_cost = (select sum(treatment_tooth_price) from ToothSelection where treatment_plan_id = '00007')
+--select @treatment_cost
+--SET @drug_cost = (SELECT SUM(drug_cost) FROM Prescription where treatment_plan_id = '00007')
+--select @drug_cost
+--SET @total_cost = @treatment_cost +  @drug_cost
+--select @total_cost
+----25
+--go
 CREATE or alter PROCEDURE InsertPaymentMethod
     @payment_method_title nvarchar(15)
 AS

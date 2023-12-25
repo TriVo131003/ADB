@@ -1,5 +1,5 @@
 from flask import Flask, render_template, redirect, request, session
-from database import conn
+from database import *
 app = Flask(__name__)
 
 
@@ -13,20 +13,19 @@ def login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        print('start')
+        # print('start')
+        # print(username,password)
         try:
-            # Create a connection and a cursor
-            # connection = create_connection()
-            cursor = conn.cursor()
-
+            password = hashPass(password)
             # Check if the username and password are correct
-            cursor.execute('SELECT * FROM Account WHERE username = ? AND password = ?', (username, password))
+            cursor.execute('SELECT * FROM Account WHERE username = ?', (username))
             user = cursor.fetchone()
-            print(user)
-            if user:
-                session['username'] = username
+            # print(user.password)
+            # print(password)
+            if user.password == password:
+                # session['username'] = username
                 print('success')
-                return redirect('/homepage')
+                return redirect('/')
             else:
                 print('fail')
                 return render_template('login.html', error='Invalid username or password. Please try again.')
@@ -34,8 +33,6 @@ def login():
         except Exception as e:
             return render_template('login.html', error=f'Error: {str(e)}')
 
-        finally:
-            cursor.close()
     return render_template('login.html')
 
 @app.route('/signup', methods = ['POST','GET'])

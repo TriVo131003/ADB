@@ -1,12 +1,16 @@
 from faker import Faker
-from app.fakeLib import *
+from fakeLib import *
 import pyodbc
 # hosting a database locally, got connection timeout sometimes when u use Ethernet instead of Wifi, turn of Ethernet, 
 # try Wifi and plug again
 
+key = open("ServernameHere.txt",'r')
+contents = key.read()
+print(contents)
+
 # đổi tên Server để chạy được trên máy của mn nha
 conn = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
-                      'Server=LAPTOP-M6P9CQG2\SQLEXPRESS;'
+                      f'Server={contents};'
                       'Database=QLPHONGKHAM;'
                       'Trusted_Connection=yes;', autocommit=True) # autocommit for fast transaction
 
