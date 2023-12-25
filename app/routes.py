@@ -124,14 +124,11 @@ def adddrug():
 def updatedrug():
     return render_template('updatedrug.html')
 
-<<<<<<< Updated upstream
-=======
 
 @app.route('/appointment', methods = ['POST','GET'])
 def updatedrug():
     return render_template('appointment.html')
 
->>>>>>> Stashed changes
 # @app.route('/appointmentinfo', methods = ['POST','GET'])
 # def appointmentinfo():
 #     return render_template('thongtincuochen.html')
