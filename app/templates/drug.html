@@ -100,8 +100,12 @@
                             <td>{{ drug.expiration_date }}</td>
                             <td>{{ drug.drug_price }}</td>
                             <td>{{ drug.drug_quantity }}</td>
+
+                            <!-- this is art -->
                             <td><div class="div-33">
-                              <a href="/updatedrug" style="text-decoration: none; color: inherit;">Cập nhật</a></div></td>
+                              <a href="/updatedrug?get_drug_id={{ drug.drug_id }}" style="text-decoration: none; color: inherit;">Cập nhật</a>
+                            </div></td>
+
                             <td><div class="div-34">Xóa</div></td>
                         </tr>
                     {% endfor %}

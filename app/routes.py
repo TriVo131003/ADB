@@ -128,7 +128,13 @@ def adddrug():
 
 @app.route('/updatedrug', methods = ['POST','GET'])
 def updatedrug():
+    drug_id = request.args.get('get_drug_id')
+    print("Updating on this ",drug_id)
     return render_template('updatedrug.html')
+
+@app.route('/appointment', methods = ['POST','GET'])
+def appointment():
+    return render_template('appointment.html')
 
 # @app.route('/appointmentinfo', methods = ['POST','GET'])
 # def appointmentinfo():
