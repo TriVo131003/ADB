@@ -111,7 +111,10 @@ def treatmentplan():
 
 @app.route('/treatmentplanlist', methods = ['POST','GET'])
 def treatmentplanlist():
-    return render_template('treatmentplanlist.html')
+    patient_id = request.args.get('get_patient_id')
+    cursor.execute('SELECT * FROM TreatmentPlan where patient_id = ?', patient_id)
+    treatmentplanlist = cursor.fetchall()
+    return render_template('treatmentplanlist.html', treatmentplanlist = treatmentplanlist)
 
 @app.route('/allergycontracdication', methods = ['POST','GET'])
 def allergycontracdication():
@@ -124,7 +127,38 @@ def allergycontracdication():
 
 @app.route('/invoice', methods = ['POST','GET'])
 def invoice():
-    return render_template('invoice.html')
+    patient_id = request.args.get('get_patient_id')
+    cursor.execute('''
+        SELECT *
+        FROM TreatmentPlan
+        JOIN PaymentRecord ON TreatmentPlan.treatment_plan_id = PaymentRecord.treatment_plan_id
+        WHERE TreatmentPlan.patient_id = ?
+    ''', patient_id)
+    invoices = cursor.fetchall()
+    return render_template('invoice.html', invoices=invoices)
+
+@app.route('/invoicedetail', methods = ['POST','GET'])
+def invoicedetail():
+    payment_id = request.args.get('get_payment_id')
+    cursor.execute('''SELECT *
+        FROM PaymentRecord
+        JOIN TreatmentPlan ON TreatmentPlan.treatment_plan_id = PaymentRecord.treatment_plan_id
+        JOIN Patient ON Patient.patient_id = TreatmentPlan.patient_id
+        JOIN PaymentMethod ON PaymentMethod.payment_method_id = PaymentRecord.payment_method_id
+        JOIN Treatment ON Treatment.treatment_id = TreatmentPlan.treatment_id
+        WHERE PaymentRecord.payment_id = ?
+    ''', payment_id)
+    payinfo = cursor.fetchone()
+    cursor.execute('''SELECT *
+        FROM PaymentRecord
+        JOIN TreatmentPlan ON TreatmentPlan.treatment_plan_id = PaymentRecord.treatment_plan_id
+        JOIN ToothSelection ON ToothSelection.treatment_plan_id = TreatmentPlan.treatment_plan_id
+        JOIN ToothSurface ON ToothSurface.tooth_surface_code = ToothSelection.tooth_surface_code
+        JOIN ToothPosition ON ToothPosition.tooth_position_id = ToothSelection.tooth_position_id
+        WHERE PaymentRecord.payment_id = ?
+    ''', payment_id)
+    treatment = cursor.fetchall()
+    return render_template('invoicedetail.html', payinfo=payinfo, treatment=treatment)
 
 @app.route('/drug', methods = ['POST','GET'])
 def drug():

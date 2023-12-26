@@ -1,3 +1,36 @@
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+  }
+
+  h1 {
+      color: #333;
+  }
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+  }
+
+  th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+  }
+
+  th {
+      background-color: #5f9076;
+      color: white;
+  }
+
+  tr:hover {
+      background-color: #f5f5f5;
+  }
+</style>
 <div class="div">
     <div class="div-2">
       <div class="div-3">
@@ -37,46 +70,39 @@
     </div>
     <div class="div-12"></div>
     <div class="div-13">Danh sách kế hoạch điều trị</div>
-    <div class="div-14"></div>
+    <div class="div-14"></div>            
+    <div class="div-29">
+      <a href="/addtreatmentplan" style="text-decoration: none; color: inherit;">Thêm kế hoạch điều trị</a>
+    </div>
     <div class="div-15">
-      <div class="div-16">
         <div class="column">
           <div class="div-17">
             <div class="div-18">
-              <div class="column-2">
-                <div class="div-19">
-                  <div class="div-20">Tên</div>
-                  <div class="div-21"></div>
-                </div>
-              </div>
-              <div class="column-3">
-                <div class="div-22">
-                  <div class="div-23">Địa chỉ</div>
-                  <div class="div-24"></div>
-                </div>
-              </div>
-              <div class="column-4">
-                <div class="div-25">
-                  <div class="div-26">Điện thoại</div>
-                  <div class="div-27"></div>
-                </div>
-              </div>
+              <table>
+                <thead>
+                    <tr>
+                        <th>Thời gian tạo</th>
+                        <th>Chú thích</th>
+                        <th>Mô tả</th>
+                        <th>Trạng thái</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for treatmentplan in treatmentplanlist %}
+                        <tr>
+                            <td>{{ treatmentplan.treatment_plan_created_date}}</td>
+                            <td>{{ treatmentplan.treatment_plan_note}}</td>
+                            <td>{{ treatmentplan.treatment_plan_description}}</td>
+                            <td>{{ treatmentplan.treatment_plan_status}}</td>
+                            <td><div class="div-33">
+                              <a href="/treatmentplan" style="text-decoration: none; color: inherit;">Cập nhật</a>
+                            </div></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+              </table>
             </div>
-          </div>
-        </div>
-        <div class="column-5">
-          <div class="div-28">
-            <div class="div-29">
-              <a href="/addpatient" style="text-decoration: none; color: inherit;">Thêm bệnh nhân</a></div>
-            <div class="div-30">Giới tính</div>
-            <div class="div-31">
-              <div class="div-32"></div>
-              <div class="div-33">
-                <a href="/updatepatient" style="text-decoration: none; color: inherit;">Cập nhật</a></div>
-              <div class="div-34">
-                <a href="/patientrecord" style="text-decoration: none; color: inherit;">Chi tiết</a></div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -315,7 +341,7 @@
       display: flex;
       flex-direction: column;
       line-height: normal;
-      width: 61%;
+      width: 100%;
       margin-left: 0px;
     }
     @media (max-width: 991px) {
@@ -481,13 +507,16 @@
     }
     .div-29 {
       color: #fff;
-      text-align: center;
+      text-align: right;
       border-radius: 100px;
       background-color: #5f9076;
       margin-right: 17px;
-      justify-content: center;
+      justify-content: right;
       padding: 20px 30px 20px 36px;
       font: 400 24px Inter, sans-serif;
+      position: absolute;  /* Add this line */
+      right: 50px;
+      top: 250px;
     }
     @media (max-width: 991px) {
       .div-29 {
@@ -509,7 +538,7 @@
     .div-31 {
       align-self: stretch;
       display: flex;
-      margin-top: 19px;
+      margin-top: 78px;
       justify-content: space-between;
       gap: 14px;
     }
