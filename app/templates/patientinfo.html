@@ -103,9 +103,9 @@
                             <td>{{ patient.patient_gender}}</td>
                             <td>{{ patient.patient_email}}</td>
                             <td><div class="div-33">
-                              <a href="/updatepatient" style="text-decoration: none; color: inherit;">Cập nhật</a></div></td>
+                              <a href="/updatepatient?get_patient_id={{ patient.patient_id }}" style="text-decoration: none; color: inherit;">Cập nhật</a></div></td>
                             <td><div class="div-34">
-                              <a href="/patientrecord" style="text-decoration: none; color: inherit;">Chi tiết</a></div></td>
+                              <a href="/patientrecord?get_patient_id={{ patient.patient_id }}" style="text-decoration: none; color: inherit;">Chi tiết</a></div></td>
                         </tr>
                     {% endfor %}
                 </tbody>

@@ -10,6 +10,7 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
+current_patient = ''
 # userList = []
 @app.route('/', methods = ['POST','GET'])
 def homepage():
@@ -93,11 +94,16 @@ def addpatient():
 
 @app.route('/updatepatient', methods = ['POST','GET'])
 def updatepatient():
+    patient_id = request.args.get('get_patient_id')
+    print("Cập nhật",patient_id)
     return render_template('updatepatient.html')
 
 @app.route('/patientrecord', methods = ['POST','GET'])
 def patientrecord():
-    return render_template('patientrecord.html')
+    patient_id = request.args.get('get_patient_id')
+    cursor.execute('SELECT * FROM Patient where patient_id = ?', patient_id)
+    patient = cursor.fetchone()
+    return render_template('patientrecord.html', patient = patient)
 
 @app.route('/treatmentplan', methods = ['POST','GET'])
 def treatmentplan():
@@ -109,7 +115,12 @@ def treatmentplanlist():
 
 @app.route('/allergycontracdication', methods = ['POST','GET'])
 def allergycontracdication():
-    return render_template('allergycontracdication.html')
+    patient_id = request.args.get('get_patient_id')
+    cursor.execute('SELECT * FROM DrugAllergy where patient_id = ?', patient_id)
+    allergy = cursor.fetchall()
+    cursor.execute('SELECT * FROM Contradication where patient_id = ?', patient_id)
+    contradication = cursor.fetchall()
+    return render_template('allergycontracdication.html', allergy=allergy, contradication=contradication)
 
 @app.route('/invoice', methods = ['POST','GET'])
 def invoice():
@@ -129,7 +140,7 @@ def adddrug():
 @app.route('/updatedrug', methods = ['POST','GET'])
 def updatedrug():
     drug_id = request.args.get('get_drug_id')
-    print("Updating on this ",drug_id)
+    print("Updating on this",drug_id)
     return render_template('updatedrug.html')
 
 @app.route('/appointment', methods = ['POST','GET'])
