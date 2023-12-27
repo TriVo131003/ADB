@@ -692,7 +692,6 @@ go
 CREATE or alter PROCEDURE updateDrug
 (
 	@drugID char(5),
-	@unit varchar(5),
 	@drugName nvarchar(30),
 	@indication nvarchar(50),
 	@expirationDate date,
@@ -1610,13 +1609,7 @@ BEGIN
     );
 END;
 
-EXEC InsertPaymentRecord
-    @paid_time = '2023-12-24 16:44:00',
-    @paid_money = 1000000,
-    @payment_note = 'Thanh toán lần 1',
-    @payment_method_id = '00006',
-    @treatment_plan_id = '00007';
-go
+
 
 --DECLARE @total_cost float
 --DECLARE @drug_cost float
@@ -1628,7 +1621,7 @@ go
 --SET @total_cost = @treatment_cost +  @drug_cost
 --select @total_cost
 ----25
---go
+go
 CREATE or alter PROCEDURE InsertPaymentMethod
     @payment_method_title nvarchar(15)
 AS

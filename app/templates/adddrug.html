@@ -38,55 +38,86 @@
     <div class="div-12"></div>
     <div class="div-13">Thêm thuốc</div>
     <div class="div-14"></div>
-    <div class="div-15">
-      <div class="div-16">
-        <div class="column">
-          <div class="div-17">
-            <div class="div-18">Tên thuốc</div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/0e895016eca20b4a875f56c49c2d7c5b45c6797823d5c65e9bb6091baa619356?apiKey=5583bfae7ff849328dfc5a56adfa42d8&"
-              class="img-5"
-            />
-            <div class="div-19">Đơn vị tính</div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5f3377b139f631b0d16a58e1c1de9a30a6eac06676c304ec8e1d269cf88f13a5?apiKey=5583bfae7ff849328dfc5a56adfa42d8&"
-              class="img-6"
-            />
-            <div class="div-20">Chỉ định</div>
-          </div>
-        </div>
-        <div class="column-2">
-          <div class="div-21">
-            <div class="div-22">Tồn kho</div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/03fff17994a32d1a4c6619aeac8f68fde45820d5fe6d623af20318e7450b89b2?apiKey=5583bfae7ff849328dfc5a56adfa42d8&"
-              class="img-7"
-            />
-            <div class="div-23">Ngày hết hạn</div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/415e1dff8cb788dbd5ecf7ec17b9d9f3edc9b33c7b3063a1c508566b779c1724?apiKey=5583bfae7ff849328dfc5a56adfa42d8&"
-              class="img-8"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="div-24"></div>
-    <div class="div-25">
-      <div class="div-26">Quay lại</div>
-      <div class="div-27">Xác nhận</div>
+    <div class="overlap">
+    <form action="/adddrug" method="post">
+        <label for="medicineName">Tên thuốc:</label>
+        <input type="text" id="medicineName" name="medicineName" required>
+
+        <label for="stock">Tồn kho:</label>
+        <input type="number" id="stock" name="stock" required>
+
+        <label for="price">Giá thuốc:</label>
+        <input type="float" id="price" name="price" required>
+
+        <label for="expiryDate">Ngày hết hạn:</label>
+        <input type="date" id="expiryDate" name="expiryDate" required>
+
+        <label for="contraindications">Chống chỉ định:</label>
+        <textarea id="contraindications" name="contraindications" rows="4"></textarea>
+        
+        <input class="div-27" type="submit" value="Submit">
+    </form>
     </div>
   </div>
   <style>
+    body {
+        border-top: 2px solid #4caf50; /* Add this line for the top border */
+        margin: 0;
+        padding: 0;
+    }
+    .overlap {
+    width: 603px;
+    height: 680px;
+    top: 350px;
+    background-color: #ffffff;
+    border-radius: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    }
+    /* Rest of your existing styles for form, label, input, etc. */
+    form {
+        position: relative;
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #5f9076;
+        color: white;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #669b7f;
+    }
+
+/* Add additional styles as needed */
+
     .div {
       background-color: #edf5ee;
       display: flex;
       padding-bottom: 50px;
       flex-direction: column;
+      height: 100%;
     }
     .div-2 {
       background-color: #5f9076;
@@ -261,13 +292,14 @@
       }
     }
     .div-14 {
-      background-color: #000;
-      align-self: center;
-      margin-top: 30px;
-      width: 283px;
-      max-width: 100%;
-      height: 1px;
+    background-color: #000;
+    align-self: center;
+    margin-top: 30px;
+    width: 283px;
+    max-width: 100%;
+    height: 1px;
     }
+
     .div-15 {
       align-self: center;
       margin-top: 52px;

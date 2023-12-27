@@ -16,9 +16,9 @@ current_patient = ''
 def homepage():
     # print('get started')
     # return render_template('homepage.html')
-    if not session.get("user_id"):
-        # if not there in the session then redirect to the login page
-        return redirect("/login")
+    # if not session.get("user_id"):
+    #     # if not there in the session then redirect to the login page
+    #     return redirect("/login")
     return render_template('homepage.html')
 
 @app.route("/logout")
@@ -162,19 +162,35 @@ def invoicedetail():
 
 @app.route('/drug', methods = ['POST','GET'])
 def drug():
+    drug_id = request.args.get('get_drug_id')
+    
+    if(drug_id != None):
+        cursor.execute(f"EXEC deleteDrug ?", drug_id)
     cursor.execute('SELECT * FROM Drug')
     drugs = cursor.fetchall()
-
     return render_template('drug.html', drugs=drugs)
 
 @app.route('/adddrug', methods = ['POST','GET'])
 def adddrug():
+    if request.method == 'POST':
+        medicine_name = request.form.get('medicineName')
+        stock = request.form.get('stock')
+        price = request.form.get('price')
+        expiry_date = request.form.get('expiryDate')
+        contraindications = request.form.get('contraindications')
+        cursor.execute(f"EXEC insertDrug ?, ?, ?, ?, ?", medicine_name, contraindications, expiry_date, price, stock)
     return render_template('adddrug.html')
 
 @app.route('/updatedrug', methods = ['POST','GET'])
 def updatedrug():
     drug_id = request.args.get('get_drug_id')
-    print("Updating on this",drug_id)
+    if request.method == 'POST':
+        medicine_name = request.form.get('medicineName')
+        stock = request.form.get('stock')
+        price = request.form.get('price')
+        expiry_date = request.form.get('expiryDate')
+        contraindications = request.form.get('contraindications')
+        cursor.execute(f"EXEC updateDrug ?, ?, ?, ?, ?, ?",drug_id, medicine_name, contraindications, expiry_date, price, stock)
     return render_template('updatedrug.html')
 
 @app.route('/appointment', methods = ['POST','GET'])
