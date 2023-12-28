@@ -430,23 +430,19 @@ go
 
 CREATE or alter PROCEDURE updateGeneralHealth
 (
-    @patientPhone char(10),
+    @patient_id char(5),
 	@note_date datetime,
     @health_description nvarchar(30)
 )
 AS
 BEGIN
-	if not exists(select 1 from Patient where @patientPhone = patient_phone)
+	if not exists(select 1 from Patient where @patient_id = patient_id)
 	begin
 		raiserror(N'Bệnh nhân không tồn tại', 16, 1)
 		return;
 	end
 
-    -- Update general health data
-	declare @patientID char(5)
-	select @patientID = patient_id from Patient where patient_phone = @patientPhone
-
-	if not exists (select 1 from GeneralHealth where note_date = @note_date and @patientID = patient_id)
+	if not exists (select 1 from GeneralHealth where note_date = @note_date and @patient_id = patient_id)
 	begin
 		raiserror(N'Tổng quan sức khỏe của bệnh nhân chưa được tạo', 16, 1)
 		rollback
@@ -456,7 +452,7 @@ BEGIN
     UPDATE GeneralHealth
     SET
         health_description = @health_description
-    WHERE patient_id = @patientID AND note_date = @note_date;
+    WHERE patient_id = @patient_id AND note_date = @note_date;
 END;
 GO
 --10

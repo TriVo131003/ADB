@@ -121,16 +121,49 @@ def updatepatient():
                         patient_phone, patient_gender, patient_email))
     return render_template('updatepatient.html')
 
+@app.route('/updategeneralhealth', methods = ['POST','GET'])
+def updateGeneralHealth():
+    patient_id = request.args.get('get_patient_id')
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        note_date = request.form['note_date']
+        health_description = request.form['health_description']
+
+        # Thực thi stored procedure
+        cursor.execute("EXEC updateGeneralHealth ?, ?, ?", 
+                       (patient_id, note_date, health_description))
+    return render_template('updategeneralhealth.html')
+
 @app.route('/patientrecord', methods = ['POST','GET'])
 def patientrecord():
     patient_id = request.args.get('get_patient_id')
     cursor.execute('SELECT * FROM Patient where patient_id = ?', patient_id)
     patient = cursor.fetchone()
-    return render_template('patientrecord.html', patient = patient)
+    cursor.execute('SELECT * FROM generalhealth where patient_id = ?', patient_id)
+    generalhealth = cursor.fetchone()
+    cursor.execute('''SELECT SUM(paid_money)
+    FROM PaymentRecord
+    JOIN TreatmentPlan ON PaymentRecord.treatment_plan_id = TreatmentPlan.treatment_plan_id
+    WHERE patient_id = ?''', patient_id)
+    paid_money = cursor.fetchone()
+    cursor.execute('''SELECT SUM(total_cost)
+    FROM PaymentRecord
+    JOIN TreatmentPlan ON PaymentRecord.treatment_plan_id = TreatmentPlan.treatment_plan_id
+    WHERE patient_id = ?''', patient_id)
+    total_cost = cursor.fetchone()
+    
+    return render_template('patientrecord.html', patient = patient, generalhealth = generalhealth, total_cost= total_cost[0], paid_money = paid_money[0])
 
-@app.route('/treatmentplan', methods = ['POST','GET'])
-def treatmentplan():
-    return render_template('treatmentplan.html')
+@app.route('/treatmentplandetail', methods = ['POST','GET'])
+def treatmentplandetail():
+    treatment_plan_id = request.args.get('get_treatment_plan_id')
+    cursor.execute('SELECT * FROM TreatmentPlan join Treatment on TreatmentPlan.treatment_id = Treatment.treatment_id where TreatmentPlan.treatment_plan_id = ?', treatment_plan_id)
+    treatment = cursor.fetchone()
+    cursor.execute('SELECT * FROM TreatmentPlan join TreatmentSession on TreatmentSession.treatment_plan_id = TreatmentPlan.treatment_plan_id  where TreatmentPlan.treatment_plan_id = ?', treatment_plan_id)
+    treatmentsession = cursor.fetchall()
+    cursor.execute('SELECT * from ToothSelection JOIN ToothSurface ON ToothSurface.tooth_surface_code = ToothSelection.tooth_surface_code JOIN ToothPosition ON ToothPosition.tooth_position_id = ToothSelection.tooth_position_id where treatment_plan_id = ?', treatment_plan_id)
+    listtreatmenttooth = cursor.fetchall()
+    return render_template('treatmentplandetail.html', treatment = treatment, treatmentsession = treatmentsession, listtreatmenttooth= listtreatmenttooth)
 
 @app.route('/treatmentplanlist', methods = ['POST','GET'])
 def treatmentplanlist():
@@ -289,6 +322,38 @@ def updatedrug():
         contraindications = request.form.get('contraindications')
         cursor.execute(f"EXEC updateDrug ?, ?, ?, ?, ?, ?",drug_id, medicine_name, contraindications, expiry_date, price, stock)
     return render_template('updatedrug.html')
+
+@app.route('/prescription', methods = ['POST','GET'])
+def prescription():
+    treatment_plan_id = request.args.get('get_treatment_plan_id')
+    cursor.execute('SELECT * FROM Prescription where treatment_plan_id =?', treatment_plan_id)
+    prescription = cursor.fetchall()
+    return render_template('prescription.html', prescription=prescription)
+
+@app.route('/addprescription', methods = ['POST','GET'])
+def addprescription():
+    treatment_plan_id = request.args.get('get_treatment_plan_id')
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        drug_id = request.form['drug_id']
+        drug_quantity = request.form['drug_quantity']
+
+        # Thực thi stored procedure
+        cursor.execute("EXEC AddPrescription ?, ?, ?", 
+                       (treatment_plan_id, drug_id, drug_quantity))
+    return render_template('addprescription.html')
+
+@app.route('/updateprescription', methods = ['POST','GET'])
+def updateprescription():
+    drug_id = request.args.get('get_drug_id')
+    if request.method == 'POST':
+        medicine_name = request.form.get('medicineName')
+        stock = request.form.get('stock')
+        price = request.form.get('price')
+        expiry_date = request.form.get('expiryDate')
+        contraindications = request.form.get('contraindications')
+        cursor.execute(f"EXEC updateDrug ?, ?, ?, ?, ?, ?",drug_id, medicine_name, contraindications, expiry_date, price, stock)
+    return render_template('updateprescription.html')
 
 @app.route('/appointment', methods = ['POST','GET'])
 def appointment():
