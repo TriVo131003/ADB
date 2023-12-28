@@ -32,12 +32,12 @@ BEGIN
   -- số lượng thuốc đủ hay không
   -- sau khi kê thì cập nhật lại số lượng thuốc trong kho
 
- -- if(@drug_quantity > (select drug_quantity from Drug where drug_id = @drug_id))
- -- begin
-	--raiserror(N'Số lượng thuốc không đủ cấp', 16, 1)
-	--rollback
-	--return
- -- end
+  if(@drug_quantity > (select drug_quantity from Drug where drug_id = @drug_id))
+  begin
+	raiserror(N'Số lượng thuốc không đủ cấp', 16, 1)
+	rollback
+	return
+  end
 
 	DECLARE @drug_cost Float
 	select @drug_cost = @drug_quantity * (select drug_price from Drug where @drug_id = drug_id)

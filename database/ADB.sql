@@ -11,6 +11,8 @@ GO
 USE QLPHONGKHAM
 GO
 
+--drop table Branch_Room
+
 --table ACCOUNT
 CREATE TABLE Account
 (
@@ -95,24 +97,14 @@ CREATE TABLE Room
 (
 	room_id char(2),
 	room_name nvarchar(20) NOT NULL,
+	branch char(2) NOT NULL,
 
 	CONSTRAINT PK_Room
-	PRIMARY KEY(room_id)
-)
-
-create table Branch_Room
-(
-	branch_id char(2),
-	room_id char(2),
-
-	constraint PK_Branch_Room
-	primary key (branch_id, room_id),
-
-	constraint FK_Branch_Room
-	foreign key (branch_id) references Branch,
-
-	constraint FK_Room_Branch
-	foreign key (room_id) references Room
+	PRIMARY KEY(room_id),
+	
+	constraint FK_branch_room
+	foreign key (branch)
+	references Branch(branch_id)
 )
 
 --table PATIENT

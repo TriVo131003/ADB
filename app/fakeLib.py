@@ -31,7 +31,7 @@ patient_list = {}
 
 DefaultDentist = {}
 
-room_size = 50 # random.randint(10, 50)
+room_size = 100 # random.randint(10, 50)
 room_list = []
 
 branch_room = {}
@@ -108,7 +108,10 @@ def gen_sickness() -> str:
 
 def gen_price(min, max) -> str:
     res = fake.pyfloat(min_value=min, max_value=max, right_digits=2)
-    return res
+    num_str = str(int(res))
+    num_digits = len(num_str)
+    round_digits = num_digits - 3 if num_digits - 3 >= 0 else num_digits - 2 if num_digits - 2 >= 0 else num_digits - 1
+    return round(res, -round_digits)
 
 def gen_drugname(max_length: int) -> str:
     res = ''
