@@ -195,7 +195,37 @@ def updatedrug():
 
 @app.route('/appointment', methods = ['POST','GET'])
 def appointment():
-    return render_template('appointment.html')
+    date = request.form.get('date')
+    time = request.form.get('time')
+    cursor.execute('''SELECT * FROM Appointment Join Employee on dentist_id = employee_id''')
+    appointments = cursor.fetchall()
+    return render_template('appointment.html', appointments = appointments)
+
+
+@app.route('/selectAppointment', methods = (['POST', 'GET']))
+def selectAppointment():
+    # if request.method == 'POST':
+    #     date = request.form.get('date')
+    #     time = request.form.get('time')
+    #     cursor.execute('''SELECT *
+    #     FROM Appointment
+    #     WHERE appointment_date = ? and appointment_time = ?
+    #     ''', date, time)
+    return render_template('selectAppointment.html')
+
+
+# @app.route('/appointment', methods = (['POST', 'GET']))
+# def appointment():
+#     if request.method == 'POST':
+#         date = request.form.get('date')
+#         time = request.form.get('time')
+#         cursor.execute('''SELECT *
+#         FROM Appointment Join Employee on dentist_id = employee_id
+#         WHERE appointment_date = ? and appointment_time = ?
+#         ''', date, time)
+#         appointments = cursor.fetchall()
+#     return render_template('createAppointment.html', appointments = appointments) 
+
 
 # @app.route('/appointmentinfo', methods = ['POST','GET'])
 # def appointmentinfo():
