@@ -90,12 +90,35 @@ def patientinfo():
 
 @app.route('/addpatient', methods = ['POST','GET'])
 def addpatient():
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        patient_name = request.form['patient_name']
+        patient_birthday = request.form['patient_birthday']
+        patient_address = request.form['patient_address']
+        patient_phone = request.form['patient_phone']
+        patient_gender = request.form['patient_gender']
+        patient_email = request.form['patient_email']
+
+        cursor.execute("EXEC insertPatient ?, ?, ?, ?, ?, ?", 
+                       (patient_name, patient_birthday, patient_address, 
+                        patient_phone, patient_gender, patient_email))
     return render_template('addpatient.html')
 
 @app.route('/updatepatient', methods = ['POST','GET'])
 def updatepatient():
     patient_id = request.args.get('get_patient_id')
-    print("Cập nhật",patient_id)
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        patient_name = request.form['patient_name']
+        patient_birthday = request.form['patient_birthday']
+        patient_address = request.form['patient_address']
+        patient_phone = request.form['patient_phone']
+        patient_gender = request.form['patient_gender']
+        patient_email = request.form['patient_email']
+
+        cursor.execute("EXEC updatePatient ?, ?, ?, ?, ?, ?, ?", 
+                       (patient_id, patient_name, patient_birthday, patient_address, 
+                        patient_phone, patient_gender, patient_email))
     return render_template('updatepatient.html')
 
 @app.route('/patientrecord', methods = ['POST','GET'])
@@ -119,11 +142,69 @@ def treatmentplanlist():
 @app.route('/allergycontracdication', methods = ['POST','GET'])
 def allergycontracdication():
     patient_id = request.args.get('get_patient_id')
+    drug_id = request.args.get('get_drug_id')
+    if drug_id != None:
+        cursor.execute(f"Delete * from Contradication where patient_id = ? and drug_id = ?", patient_id, drug_id)
     cursor.execute('SELECT * FROM DrugAllergy where patient_id = ?', patient_id)
     allergy = cursor.fetchall()
     cursor.execute('SELECT * FROM Contradication where patient_id = ?', patient_id)
     contradication = cursor.fetchall()
-    return render_template('allergycontracdication.html', allergy=allergy, contradication=contradication)
+    return render_template('allergycontracdication.html', allergy=allergy, contradication=contradication, patient_id=patient_id)
+
+@app.route('/adddrugallergy', methods = ['POST','GET'])
+def adddrugallergy():
+    patient_id = request.args.get('get_patient_id')
+    drug_id = request.args.get('get_drug_id')
+    if drug_id != None:
+        cursor.execute(f"Delete * from drugallergy where patient_id = ? and drug_id = ?", patient_id, drug_id)
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        drug_id = request.form['drug_id']
+        drug_allergy_description = request.form['drug_allergy_description']
+
+        # Thực thi stored procedure
+        cursor.execute("EXEC insertDrugAllergy ?, ?, ?", 
+                       (patient_id, drug_id, drug_allergy_description))
+    return render_template('adddrugallergy.html')
+
+@app.route('/addcontradication', methods = ['POST','GET'])
+def addcontradication():
+    patient_id = request.args.get('get_patient_id')
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        drug_id = request.form['drug_id']
+        drug_allergy_description = request.form['drug_allergy_description']
+
+        # Thực thi stored procedure
+        cursor.execute("EXEC insertContradiction ?, ?, ?", 
+                       (patient_id, drug_id, drug_allergy_description))
+    return render_template('addcontradication.html')
+
+@app.route('/updatedrugallergy', methods = ['POST','GET'])
+def updatedrugallergy():
+    patient_id = request.args.get('get_patient_id')
+    drug_id = request.args.get('get_drug_id')
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        drug_allergy_description = request.form['drug_allergy_description']
+
+        # Thực thi stored procedure
+        cursor.execute("EXEC insertDrugAllergy ?, ?, ?", 
+                       (patient_id, drug_id, drug_allergy_description))
+    return render_template('updatedrugallergy.html')
+
+@app.route('/updatecontradication', methods = ['POST','GET'])
+def updatecontradication():
+    patient_id = request.args.get('get_patient_id')
+    drug_id = request.args.get('get_drug_id')
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        drug_allergy_description = request.form['drug_allergy_description']
+
+        # Thực thi stored procedure
+        cursor.execute("EXEC insertContradiction ?, ?, ?", 
+                       (patient_id, drug_id, drug_allergy_description))
+    return render_template('updatecontradication.html')
 
 @app.route('/invoice', methods = ['POST','GET'])
 def invoice():
@@ -159,6 +240,22 @@ def invoicedetail():
     ''', payment_id)
     treatment = cursor.fetchall()
     return render_template('invoicedetail.html', payinfo=payinfo, treatment=treatment)
+
+@app.route('/addinvoice', methods = ['POST','GET'])
+def addinvoice():
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        paid_time = request.form['paid_time']
+        paid_money = request.form['paid_money']
+        payment_note = request.form['payment_note']
+        payment_method_id = request.form['payment_method_id']
+        treatment_plan_id = request.form['treatment_plan_id']
+
+        # Thực thi stored procedure
+        cursor.execute("EXEC InsertPaymentRecord ?, ?, ?, ?, ?", 
+                       (paid_time, paid_money, payment_note, 
+                        payment_method_id, treatment_plan_id))
+    return render_template('addinvoice.html')
 
 @app.route('/drug', methods = ['POST','GET'])
 def drug():
