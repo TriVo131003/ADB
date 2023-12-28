@@ -6,7 +6,7 @@
           srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/3983804d4320a4899f27c9cb9ea7f10e482d528ce2df747ccd8fa5286e213f26?apiKey=5583bfae7ff849328dfc5a56adfa42d8&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3983804d4320a4899f27c9cb9ea7f10e482d528ce2df747ccd8fa5286e213f26?apiKey=5583bfae7ff849328dfc5a56adfa42d8&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3983804d4320a4899f27c9cb9ea7f10e482d528ce2df747ccd8fa5286e213f26?apiKey=5583bfae7ff849328dfc5a56adfa42d8&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3983804d4320a4899f27c9cb9ea7f10e482d528ce2df747ccd8fa5286e213f26?apiKey=5583bfae7ff849328dfc5a56adfa42d8&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3983804d4320a4899f27c9cb9ea7f10e482d528ce2df747ccd8fa5286e213f26?apiKey=5583bfae7ff849328dfc5a56adfa42d8&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3983804d4320a4899f27c9cb9ea7f10e482d528ce2df747ccd8fa5286e213f26?apiKey=5583bfae7ff849328dfc5a56adfa42d8&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3983804d4320a4899f27c9cb9ea7f10e482d528ce2df747ccd8fa5286e213f26?apiKey=5583bfae7ff849328dfc5a56adfa42d8&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3983804d4320a4899f27c9cb9ea7f10e482d528ce2df747ccd8fa5286e213f26?apiKey=5583bfae7ff849328dfc5a56adfa42d8&"
           class="img"
         />
-        <div class="div-4">Đăng xuất</div>
+        <div class="div-4"><a href="/login" style="text-decoration: none; color: inherit;">Đăng xuất</a></div>
       </div>
       <div class="div-5">
         <img
@@ -40,7 +40,7 @@
       <div class="div-13">
         <a href="/invoice?get_patient_id={{ patient.patient_id }}" style="text-decoration: none; color: inherit;" >Hóa đơn</a></div>
       <div class="div-14">
-        <a href="/homepage" style="text-decoration: none; color: inherit;" >Trang chủ</a></div>
+        <a href="/" style="text-decoration: none; color: inherit;" >Trang chủ</a></div>
     </div>
     <div class="div-15"></div>
     <div class="div-16">Thông tin hồ sơ bệnh nhân</div>
@@ -126,9 +126,32 @@
         </div>
       </div>
     </div> -->
-    <div class="div-41">Quay lại</div>
+    <!-- <div class="div-41">Quay lại</div> -->
+    <div class="previous-page-button">
+      <a href="#" onclick="history.go(-1)">Back</a>
+    </div>
   </div>
   <style>
+        .previous-page-button {
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+    padding: 15px 20px; /* Adjust padding to increase the button size */
+    font-size: 50px;   /* Adjust font size to increase the button size */
+}
+
+    .previous-page-button a {
+        display: inline-block;
+        padding: 10px;
+        background-color: #5e9477;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .previous-page-button a:hover {
+        background-color: #669b7f;
+}
     .div {
       background-color: #edf5ee;
       display: flex;
@@ -307,6 +330,7 @@
       color: #000;
       margin: auto 0;
       font: 400 32px Inter, sans-serif;
+      margin-right: 100px;
     }
     .div-15 {
       background-color: #000;
