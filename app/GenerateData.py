@@ -34,6 +34,7 @@ cursor.execute(command)
 
 # Generate Data Script
 File = open("../database/DataGenerator.sql",'w',encoding='utf-8')
+File.write(command)
 fake = Faker()
 
 #---------------Branch------------------------------
@@ -183,44 +184,22 @@ File.write(final_command) # GENERATE DATA SCRIPT
 
 #---------------------Room----------------------------
 command = '''
-INSERT INTO Room (room_id, room_name)
+INSERT INTO Room (room_id, room_name, branch)
 VALUES {0}
 '''
 temp = ''
-for i in range(1, room_size + 1):
-    room_id = f"{i:02}"
-    room_list.append(room_id)
-    temp += f"('{room_id}',{gen_roomName()})"
-    temp += ",\n" if i != room_size else ";\n"
-
-final_command = command.format(temp)
-cursor.execute(final_command) # INSERT THE DATA
-File.write(final_command) # GENERATE DATA SCRIPT
-
-#----------------Branch_Room------------------------
-command = '''
-INSERT INTO Branch_Room (branch_id,room_id)
-VALUES {0}
-'''
-temp = ''
+branch_room = {}
 for i in Branch_list:
     branch_room[i] = []
-    
-def total_list_size(dictionary: {}) -> int:
-    return sum(len(value) for value in dictionary.values())
-
-while total_list_size(branch_room) < room_size:
+for i in range(1, room_size):
     branch_id = random.choice(Branch_list)
-    room_id = random.choice(room_list)
-    good_pair = True
-    for roomList in branch_room.values():
-        if room_id in roomList:
-            good_pair = False
-            break
-    if good_pair == False: continue
+    while len(branch_room[branch_id]) >= 50:
+        branch_id = random.choice(Branch_list)
+    room_id = f"{i:02}"
     branch_room[branch_id].append(room_id)
-    temp += f"('{branch_id}','{room_id}')"
-    temp += ",\n" if total_list_size(branch_room) < room_size else ";\n"
+    room_list.append(room_id)
+    temp += f"('{room_id}',{gen_roomName()},'{branch_id}')"
+    temp += ",\n" if i != room_size - 1 else ";\n"
 
 final_command = command.format(temp)
 cursor.execute(final_command) # INSERT THE DATA
