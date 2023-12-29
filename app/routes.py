@@ -16,18 +16,21 @@ current_patient = ''
 # userList = []
 @app.route('/', methods = ['POST','GET'])
 def homepage():
+    isLogOut = True
     # print('get started')
     # return render_template('homepage.html')
     if not session.get("user"):
         # if not there in the session then redirect to the login page
+        isLogOut = True
         return redirect("/login")
-    return render_template('homepage.html')
+    else:
+        isLogOut = False
+        return render_template('homepage.html', isLogOut=isLogOut, account=session["user"])
 
 @app.route("/logout")
 def logout():
-    session['user_id'] = None # reset session
+    session['user'] = None # reset session
     return redirect("/")
-
 
 
 @app.route('/employeeIn4', methods = ['POST','GET'])
@@ -56,11 +59,10 @@ def login():
                 error = 'Invalid username or password. Please try again.'
             elif user.password == password:
                 session["user"] = user
-                print('success')
-                return redirect('/employeeIn4')
+                return redirect('/')
             else:
                 error = 'Invalid username or password. Please try again.'
-                print('fail')
+                return render_template('login.html', error=error)
         except Exception as e:
             error = f'Error: {str(e)}'
     return render_template('login.html', error=error)
@@ -77,7 +79,7 @@ def signup():
             return render_template('signup.html', error='Password does not match')
 
         cursor.execute('INSERT INTO users (username, password) VALUES (%s, %s)', (username, password))
-        return redirect('/employeeIn4')
+        return redirect('/login')
     else:
         return render_template('signup.html', error = error)
 
