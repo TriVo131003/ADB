@@ -32,58 +32,84 @@
           <div class="div-9">Nha khoa</div>
           <div class="div-10">Cái răng cái tóc là gốc con người</div>
         </div>
+        
       </div>
-      <div class="div-11">Kế hoạch điều trị</div>
-      <div class="div-12">Dị ứng, chống chỉ định</div>
-      <div class="div-13">Hóa đơn</div>
-      <div class="div-14">Trang chủ</div>
+        <div class="div-14">
+        <a href="/" style="text-decoration: none; color: inherit;" >Trang chủ</a></div>
     </div>
     <div class="div-15"></div>
-    <div class="div-16">Kế hoạch điều trị</div>
+    <div class="div-16">Chi tiết kế hoạch điều trị</div>
     <div class="div-17"></div>
     <div class="div-18">
+        <div class="div-29-1">
+            <a href="/prescription?get_treatment_plan_id={{treatment.treatment_plan_id }}" style="text-decoration: none; color: inherit;" >Đơn thuốc</a>
+          </div>
       <div class="div-19">
         <div class="column">
           <div class="div-20">
             <div class="div-21">
-              <span style="font-weight: 900">Họ tên:</span>
+              <span style="font-weight: 900">Mã điều trị: {{treatment.treatment_id}}</span>
             </div>
-            <div class="div-22">
-              <span style="font-weight: 900">Số điện thoại:</span>
-            </div>
-            <div class="div-23">
-              <span style="font-weight: 900">Người khám:</span>
-            </div>
-          </div>
-        </div>
-        <div class="column-2">
-          <div class="div-24">
-            <div class="div-25">
-              <span style="font-weight: 900">Ngày Sinh:</span>
-            </div>
-            <div class="div-26">
-              <span style="font-weight: 900">Địa chỉ:</span>
-            </div>
-            <div class="div-27">
-              <span style="font-weight: 900">Ngày khám:</span>
-            </div>
-          </div>
-        </div>
-        <div class="column-3">
-          <div class="div-28">
-            <div class="div-29">
-              Email:
-              <span style="font-weight: 400">abc@gmail.com</span>
-            </div>
-            <div class="div-30">
-              Giới tính:
-              <span style="font-weight: 400">nam</span>
-            </div>
+            <div class="div-21">
+                <span style="font-weight: 900">Ghi chú: {{treatment.treatment_description}}</span>
+              </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="div-31">
+    <div class="div-15-1">
+        <div class="column-10">
+          <div class="div-17-1">
+            <div class="div-18-1">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ngày điều trị</th>
+                            <th>Bác sĩ thực hiện</th>
+                            <th>Trợ khám</th>
+                            <th>Ghi chú</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for j in treatmentsession %}
+                            <tr>
+                                <td>{{j.treatment_session_created_date}}</td>
+                                <td>{{j.dentist_id}}</td>
+                                <td>{{j.nurse_id}}</td>
+                                <td>{{j.treatment_session_description}}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="div-15-1">
+        <div class="column-10">
+          <div class="div-17-1">
+            <div class="div-18-1">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Răng điều trị</th>
+                            <th>Bề mặt răng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for i in listtreatmenttooth %}
+                            <tr>
+                                <td>{{i.tooth_position_type}}</td>
+                                <td>{{i.tooth_surface_title}}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="div-31">
       <div class="div-32">
         <div class="column-4">
           <div class="div-33"><p>Sức khỏe</p></div>
@@ -105,8 +131,7 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="div-41">Quay lại</div>
+    </div> -->
   </div>
   <style>
     .div {
@@ -114,6 +139,26 @@
       display: flex;
       padding-bottom: 31px;
       flex-direction: column;
+      height: 100%;
+    }
+    .div-29-1 {
+      color: #fff;
+      text-align: right;
+      border-radius: 100px;
+      background-color: #5f9076;
+      margin-right: 17px;
+      justify-content: right;
+      padding: 20px 30px 20px 36px;
+      font: 400 24px Inter, sans-serif;
+      position: absolute;  /* Add this line */
+      right: 30px;
+      top: 200px;
+    }
+    @media (max-width: 991px) {
+      .div-29-1 {
+        margin-right: 10px;
+        padding: 0 20px;
+      }
     }
     .div-2 {
       background-color: #5f9076;
@@ -287,6 +332,7 @@
       color: #000;
       margin: auto 0;
       font: 400 32px Inter, sans-serif;
+      margin-right: 100px;
     }
     .div-15 {
       background-color: #000;
@@ -328,11 +374,23 @@
       width: 100%;
       max-width: 1238px;
       padding: 0 20px;
+      height: auto;
     }
     @media (max-width: 991px) {
       .div-18 {
         max-width: 100%;
         margin-top: 40px;
+      }
+    }
+    .div-18-1 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-18-1 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
       }
     }
     .div-19 {
@@ -350,7 +408,7 @@
       display: flex;
       flex-direction: column;
       line-height: normal;
-      width: 37%;
+      width: 100%;
       margin-left: 0px;
     }
     @media (max-width: 991px) {
@@ -657,5 +715,69 @@
         padding: 0 20px;
       }
     }
+    .div-15-1 {
+      align-self: stretch;
+      margin: 7px 20px 0;
+    }
+    @media (max-width: 991px) {
+      .div-15-1 {
+        max-width: 100%;
+        margin-right: 100px;
+      }
+    }
+    .column-10 {
+      display: absolute;
+      flex-direction: column;
+      line-height: normal;
+      width: 100%;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    @media (max-width: 991px) {
+      .column-10 {
+        width: 100%;
+      }
+    }
+    .div-17-1 {
+      margin-top: 0px;
+      flex-grow: 1;
+    }
+    @media (max-width: 991px) {
+      .div-17-1 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .div-18-1 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-18-1 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+    }
+
+    th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+
+    th {
+    background-color: #f2f2f2;
+    }
+
+    tr:hover {
+    background-color: #f5f5f5;
+    }
+
   </style>
   

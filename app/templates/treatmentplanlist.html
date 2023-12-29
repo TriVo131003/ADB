@@ -86,6 +86,7 @@
                         <th>Mô tả</th>
                         <th>Trạng thái</th>
                         <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -96,7 +97,10 @@
                             <td>{{ treatmentplan.treatment_plan_description}}</td>
                             <td>{{ treatmentplan.treatment_plan_status}}</td>
                             <td><div class="div-33">
-                              <a href="/treatmentplan" style="text-decoration: none; color: inherit;">Cập nhật</a>
+                              <a href="/updatetreatmentplan?get_treatment_plan_id={{ treatmentplan.treatment_plan_id }}" style="text-decoration: none; color: inherit;">Cập nhật</a>
+                            </div></td>
+                            <td><div class="div-33">
+                              <a href="/treatmentplandetail?get_treatment_plan_id={{ treatmentplan.treatment_plan_id }}" style="text-decoration: none; color: inherit;">Chi tiết</a>
                             </div></td>
                         </tr>
                     {% endfor %}

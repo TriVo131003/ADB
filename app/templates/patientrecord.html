@@ -46,6 +46,9 @@
     <div class="div-16">Thông tin hồ sơ bệnh nhân</div>
     <div class="div-17"></div>
     <div class="div-18">
+      <div class="div-29-1">
+        <a href="/updategeneralhealth?get_patient_id={{ patient.patient_id }}" style="text-decoration: none; color: inherit;">Cập nhập tổng quan sức khỏe</a>
+      </div>
       <div class="div-19">
         <div class="column">
           <div class="div-20">
@@ -89,17 +92,21 @@
       <div>
         <div class="div-29">
           Tổng tiền:
-          <span style="font-weight: 400">{{patient.patient_email}}</span>
+          <span style="font-weight: 400">{{total_cost}}</span>
         </div>
         <br>
         <div class="div-29">
           Đã thanh toán:
-          <span style="font-weight: 400">{{patient.patient_email}}</span>
+          <span style="font-weight: 400">{{paid_money}}</span>
         </div>
         <br>
         <div class="div-29">
           Tổng quan sức khỏe:
-          <span style="font-weight: 400">{{patient.patient_email}}</span>
+          <span style="font-weight: 400">{{generalhealth.health_description}}</span>
+        </div>
+        <div class="div-29">
+          Ngày ghi chú:
+          <span style="font-weight: 400">{{generalhealth.note_date}}</span>
         </div>
       </div>
     </div>
@@ -135,7 +142,7 @@
         .previous-page-button {
     position: fixed;
     bottom: 100px;
-    left: 100px;
+    left: 80px;
     padding: 15px 20px; /* Adjust padding to increase the button size */
     font-size: 50px;   /* Adjust font size to increase the button size */
 }
@@ -149,6 +156,25 @@
         border-radius: 5px;
     }
 
+    .div-29-1 {
+      color: #fff;
+      text-align: right;
+      border-radius: 100px;
+      background-color: #5f9076;
+      margin-right: 17px;
+      justify-content: right;
+      padding: 20px 30px 20px 36px;
+      font: 400 24px Inter, sans-serif;
+      position: absolute;  /* Add this line */
+      right: 30px;
+      top: 200px;
+    }
+    @media (max-width: 991px) {
+      .div-29-1 {
+        margin-right: 10px;
+        padding: 0 20px;
+      }
+    }
     .previous-page-button a:hover {
         background-color: #669b7f;
 }
@@ -157,6 +183,7 @@
       display: flex;
       padding-bottom: 31px;
       flex-direction: column;
+      height: 100%;
     }
     .div-2 {
       background-color: #5f9076;
