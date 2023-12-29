@@ -27,7 +27,11 @@
             class="trangch-clinic11"
           />
           <img src="/line51056-209j.svg" alt="Line51056" class="trangch-line5" />
-          <span class="trangch-text04"><span>Đăng xuất</span></span>
+          {% if isLogOut %}
+            <span class="trangch-text04"><span><a href="/login" class="text-wrapper-7"> Đăng nhập </a></span>
+          {% else %}
+            <span class="trangch-text04"><span><a href="/logout" class="text-wrapper-7"> Đăng xuất</a></span>
+          {% endif %}
         </div>
         <div class="trangch-group170">
           <span class="trangch-text06"><span>
