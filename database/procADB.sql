@@ -258,7 +258,7 @@ BEGIN
     ELSE
 
     BEGIN
-		SELECT @new_account_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(accountID) from Account), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_account_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(accountID) from Account), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
 	INSERT INTO Account (
@@ -335,7 +335,7 @@ BEGIN
     END
     ELSE
     BEGIN
-		SELECT @new_appointment_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(appointment_id) from Appointment), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_appointment_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(appointment_id) from Appointment), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
     -- Insert new appointment data
@@ -583,8 +583,7 @@ CREATE or alter PROCEDURE insertTreatmentPlan
 )
 AS
 BEGIN
-
-    IF NOT EXISTS (SELECT 1 FROM Patient WHERE patient_id = @patient_id)
+    IF NOT EXISTS (SELECT * FROM Patient WHERE patient_id = @patient_id)
     BEGIN
         RAISERROR('Bệnh nhân không tồn tại', 16, 1)
         RETURN;
@@ -612,7 +611,7 @@ BEGIN
     END
     ELSE
     BEGIN
-		SELECT @new_treatmentplan_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(treatment_plan_id) from TreatmentPlan), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_treatmentplan_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(treatment_plan_id) from TreatmentPlan), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
     -- Thêm dữ liệu
@@ -756,7 +755,7 @@ BEGIN
     END
     ELSE
     BEGIN
-		SET @new_employee_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(employee_id) from Employee), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SET @new_employee_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(employee_id) from Employee), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
     -- Check if branch ID exists
     DECLARE @existing_branch_id char(2);
@@ -899,7 +898,7 @@ BEGIN
     END
     ELSE
     BEGIN
-		SET @new_employee_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(employee_id) from Employee), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SET @new_employee_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(employee_id) from Employee), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
 
@@ -998,7 +997,7 @@ BEGIN
     END
     ELSE
     BEGIN
-		SET @new_employee_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(employee_id) from Employee), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SET @new_employee_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(employee_id) from Employee), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
     -- Insert data into Employee table
 
@@ -1200,7 +1199,7 @@ BEGIN
 	END
 	ELSE
 	BEGIN
-		SELECT @new_personal_appointment_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(personal_appointment_id) from personalAppointment), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_personal_appointment_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(personal_appointment_id) from personalAppointment), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 	
 	INSERT INTO personalAppointment(
@@ -1287,7 +1286,7 @@ BEGIN
 	END
 	ELSE
 	BEGIN
-		SELECT @new_patient_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(patient_id) from Patient), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_patient_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(patient_id) from Patient), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
     -- Insert data into Patient table
     INSERT INTO Patient
@@ -1379,11 +1378,11 @@ BEGIN
 	DECLARE @new_treatment_session_id char(5); 
 	IF NOT EXISTS (SELECT * FROM TreatmentSession)
 	BEGIN
-		SET @new_treatment_session_id = '00001'
+		SET @new_treatment_session_id = '00005'
 	END
 	ELSE
 	BEGIN
-		SELECT @new_treatment_session_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(treatment_session_id) from TreatmentSession), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_treatment_session_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(treatment_session_id) from TreatmentSession), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
     -- Insert data into TreatmentSession table
@@ -1403,8 +1402,10 @@ BEGIN
     );
 END;
 GO
---23
 
+EXEC insertTreatmentSession '2023-12-31 22:54:46','On attention soon direction threat inside.','00292'
+--23
+go
 CREATE or alter PROCEDURE insertToothSelection
 (
     @treatment_plan_id char(5),
@@ -1553,7 +1554,7 @@ BEGIN
 	END
 	ELSE
 	BEGIN
-		SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(payment_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(payment_id) from PaymentRecord), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
 	DECLARE @total_cost float
@@ -1577,7 +1578,7 @@ BEGIN
 	END
 	ELSE
 	BEGIN
-		-- SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(payment_id) from PaymentRecord), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		-- SELECT @new_payment_record_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(payment_id) from PaymentRecord), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 		SET @drug_cost = (SELECT SUM(drug_cost) FROM Prescription where treatment_plan_id = @treatment_plan_id)
 	END
 
@@ -1630,7 +1631,7 @@ BEGIN
 	END
 	ELSE
 	BEGIN
-		SELECT @new_payment_method_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(@new_payment_method_id) from PaymentMethod), 2, 4) AS INT) + 1 AS VARCHAR(5)), 5)
+		SELECT @new_payment_method_id = RIGHT('00000' + CAST(CAST(SUBSTRING((SELECT MAX(@new_payment_method_id) from PaymentMethod), 1, 5) AS INT) + 1 AS VARCHAR(5)), 5)
 	END
 
 
