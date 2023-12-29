@@ -226,6 +226,22 @@ def addpatient():
                         patient_phone, patient_gender, patient_email))
     return render_template('addpatient.html')
 
+@app.route('/adddentist', methods = ['POST','GET'])
+def adddentist():
+    if request.method == 'POST':
+        # Lấy thông tin từ form
+        dentist_name = request.form['dentist_name']
+        dentist_birthday = request.form['dentist_birthday']
+        dentist_address = request.form['dentist_address']
+        dentist_phone = request.form['dentist_phone']
+        dentist_gender = request.form['dentist_gender']
+        dentist_email = request.form['dentist_email']
+
+        # cursor.execute("EXEC insertdentist ?, ?, ?, ?, ?, ?", 
+        #                (dentist_name, dentist_birthday, dentist_address, 
+        #                 dentist_phone, dentist_gender, dentist_email))
+    return render_template('addDentist.html')
+
 @app.route('/updatepatient', methods = ['POST','GET'])
 def updatepatient():
     patient_id = request.args.get('get_patient_id')
