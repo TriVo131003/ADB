@@ -583,8 +583,7 @@ CREATE or alter PROCEDURE insertTreatmentPlan
 )
 AS
 BEGIN
-
-    IF NOT EXISTS (SELECT 1 FROM Patient WHERE patient_id = @patient_id)
+    IF NOT EXISTS (SELECT * FROM Patient WHERE patient_id = @patient_id)
     BEGIN
         RAISERROR('Bệnh nhân không tồn tại', 16, 1)
         RETURN;

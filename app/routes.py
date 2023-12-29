@@ -2,6 +2,8 @@ from flask import Flask, render_template, redirect, request, session
 from flask_session import Session
 from database import *
 import secrets
+import re
+from datetime import datetime
 
 app = Flask(__name__)
 app.secret_key = secrets.token_urlsafe(32)
@@ -170,7 +172,56 @@ def treatmentplanlist():
     patient_id = request.args.get('get_patient_id')
     cursor.execute('SELECT * FROM TreatmentPlan where patient_id = ?', patient_id)
     treatmentplanlist = cursor.fetchall()
-    return render_template('treatmentplanlist.html', treatmentplanlist = treatmentplanlist)
+    print(patient_id)
+    return render_template('treatmentplanlist.html', treatmentplanlist = treatmentplanlist, patient_id=patient_id)
+
+@app.route('/addtreatmentplan', methods = ['POST','GET'])
+def addtreatmentplan():
+    patient_id = request.args.get('get_patient_id')
+    print(patient_id)
+    if request.method == 'POST':
+        # Lấy giá trị từ form
+        session_date = request.form['sessionDate']
+        dentist_id = request.form['dentistId']
+        nurse_id = request.form.get('nurseId', None)  # Lấy nurse_id nếu có, nếu không thì mặc định là None
+        selected_treatment = request.form['selectedTreatment']
+        selected_surfaces = request.form.getlist('selectedSurfaces')
+
+        # Xử lý các giá trị nhận được, ví dụ: in ra console
+        print(f"Selected Surfaces: {selected_surfaces}")
+        result = []
+        for surface in selected_surfaces:
+            match = re.match(r'(\d+)_([A-Za-z]+)', surface)
+            if match:
+                groups = match.groups()
+                result.append({'number': groups[0], 'letter': groups[1]})
+
+        cursor.execute("EXEC insertTreatmentPlan ?, ?, ?, ?, ?, ?, ?", 
+                datetime.now(), None, None, 
+                selected_treatment, patient_id, dentist_id, nurse_id)
+
+        # Lấy treatment_plan_id từ stored procedure insertTreatmentPlan
+        cursor.execute("SELECT SCOPE_IDENTITY() AS treatment_plan_id")
+        treatment_plan_id = cursor.fetchone().treatment_plan_id
+
+        # Thực thi stored procedure insertTreatmentSession
+        cursor.execute("EXEC insertTreatmentSession ?, ?, ?", 
+                    session_date, None, treatment_plan_id)
+
+        # Thực thi stored procedure insertToothSelection cho mỗi tooth được chọn
+        for tooth_data in result:
+            tooth_position_id = tooth_data['number']
+            surface_code = tooth_data['letter']
+            cursor.execute("EXEC insertToothSelection ?, ?, ?", 
+                        treatment_plan_id, tooth_position_id, surface_code)
+        
+    cursor.execute('SELECT * FROM Treatment')
+    treatment = cursor.fetchall()
+    cursor.execute('SELECT * FROM ToothPosition')
+    teeth = cursor.fetchall()
+    cursor.execute('SELECT * FROM ToothSurface')
+    surfaces = cursor.fetchall()
+    return render_template('addtreatmentplan.html', treatment=treatment, teeth=teeth, surfaces=surfaces)
 
 @app.route('/allergycontracdication', methods = ['POST','GET'])
 def allergycontracdication():
