@@ -184,7 +184,7 @@ File.write(final_command) # GENERATE DATA SCRIPT
 
 #---------------------Room----------------------------
 command = '''
-INSERT INTO Room (room_id, room_name, branch)
+INSERT INTO Room (room_id, room_name, branch_id)
 VALUES {0}
 '''
 temp = ''
