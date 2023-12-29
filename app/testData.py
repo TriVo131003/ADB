@@ -21,11 +21,15 @@ def show_result(results):
     columns = [column[0] for column in cursor.description]
     print(columns)
     for i in results:
-        print(i,end=' | ')
+        for j in i:
+            print(j,end=' | ')
+        print()
 
-cursor.execute(f"select count(*) from PaymentRecord")
-results = cursor.fetchall()
+cursor.execute(f"select count(*) from Appointment")
+results = cursor.fetchone()
 print(results[0])
+# show_result(results)
+# print(results)
 
 # print(len(results))
 # for i in results:
