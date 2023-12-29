@@ -18,9 +18,9 @@ current_patient = ''
 def homepage():
     # print('get started')
     # return render_template('homepage.html')
-    # if not session.get("user_id"):
-    #     # if not there in the session then redirect to the login page
-    #     return redirect("/login")
+    if not session.get("user"):
+        # if not there in the session then redirect to the login page
+        return redirect("/login")
     return render_template('homepage.html')
 
 @app.route("/logout")
@@ -33,7 +33,7 @@ def logout():
 @app.route('/employeeIn4', methods = ['POST','GET'])
 def PatientIn4Test():
     print('get info')
-    empID = session["user_id"]
+    empID = session["user"].accountID
     cursor.execute('SELECT * from Employee where account_id = ?', (empID))
     employeeInfo = cursor.fetchone()
     if employeeInfo == None:
@@ -43,47 +43,43 @@ def PatientIn4Test():
 
 @app.route('/login', methods = ['POST','GET'])
 def login():
+    error = ""
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        # print('start')
-        # print(username,password)
         try:
             password = hashPass(password)
             # Check if the username and password are correct
             cursor.execute('SELECT * FROM Account WHERE username = ?', username)
             user = cursor.fetchone()
-            # print(user.password)
-            # print(password)
-            if user.password == password:
-                session["user_id"] = user.accountID
-                # userList.append(user.username)
-                # print(userList)
+            if user == None:
+                error = 'Invalid username or password. Please try again.'
+            elif user.password == password:
+                session["user"] = user
                 print('success')
                 return redirect('/employeeIn4')
             else:
+                error = 'Invalid username or password. Please try again.'
                 print('fail')
-                return render_template('login.html', error='Invalid username or password. Please try again.')
-
         except Exception as e:
-            return render_template('login.html', error=f'Error: {str(e)}')
-
-    return render_template('login.html')
+            error = f'Error: {str(e)}'
+    return render_template('login.html', error=error)
 
 @app.route('/signup', methods = ['POST','GET'])
 def signup():
-    # if request.method == 'POST':
-    #     username = request.form['username']
-    #     password = request.form['password']
+    error = ""
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        confirm_password = request.form['confirm_password']
+        
+        if password != confirm_password:
+            return render_template('signup.html', error='Password does not match')
 
-    #     cursor = mysql.connection.cursor()
-    #     cursor.execute('INSERT INTO users (username, password) VALUES (%s, %s)', (username, password))
-    #     mysql.connection.commit()
-    #     cursor.close()
-
-    #     return redirect(url_for('login'))
-
-    return render_template('signup.html')
+        cursor.execute('INSERT INTO users (username, password) VALUES (%s, %s)', (username, password))
+        return redirect('/employeeIn4')
+    else:
+        return render_template('signup.html', error = error)
 
 @app.route('/dentistlist', methods = ['POST','GET'])
 def dentistlist():

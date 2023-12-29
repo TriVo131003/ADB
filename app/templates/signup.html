@@ -77,24 +77,69 @@
   <link rel="stylesheet" href="../static/signup.css">
 </head>
 <body>
-<div class="to-ti-khon-HMF">
+  <form method="POST" action="/signup">
+    <div class="to-ti-khon-HMF">
+      <div class="auto-group-aquh-1o3">
+        <div class="auto-group-dprf-XWV">Đăng ký</div>
+        <div class="auto-group-8rrd-C6q">Nhập số điện thoại</div>
+        <input class="s-in-thoi-Ph7" type="text" name="phone" placeholder="Số điện thoại">
+        <div class="auto-group-3xlm-gRK">
+          <input class="nhp-mt-khu-N3F" type="password" name="password" placeholder="Nhập mật khẩu">
+          <img class="hide-2-HAD" src="../static/img/hide 2.png"/>
+        </div>
+        <p class="mt-khu-Azh">Mật khẩu</p>
+        <div class="auto-group-ggbw-4KP">
+          <input class="nhp-mt-khu-9bj" type="password" name="confirm_password" placeholder="Nhập mật khẩu">
+          <img class="hide-1-sGq" src="../static/img/hide 2.png"/>
+        </div>
+        <p class="xc-nhn-mt-khu-neh">Xác nhận mật khẩu</p>
+        <div class="auto-group-ed9f-tSq">
+          <div class="group-6-cNq">
+            <img class="clinic-2-6oo" src="../static/img/logo.png"/>
+            <div class="auto-group-zjch-dHw">
+              <p class="nha-khoa-Aof">Nha khoa </p>
+              <p class="ci-rng-ci-tc-l-gc-con-ngi-5Qq">Cái răng cái tóc là gốc con người</p>
+            </div>
+          </div>
+          <p class="ng-k-ti-khon-xzR">Đăng ký tài khoản</p>
+        </div>
+        <p class="c-ti-khon-ng-nhp-FyX">
+          <span class="span"> Đã có tài khoản? </span>
+          <a href="/login" class="text-wrapper-7"> Đăng nhập</a>
+        </p>
+      </div>
+    </form>
+    <!-- <form method="POST" action="/signup">
+      <label class="text-wrapper-3" for="username">Tên đăng nhập</label>
+      <input class="div-wrapper" type="text" name="username" required>
+      <br>
+      <label class="text-wrapper-5"  for="password">Mật khẩu</label>
+      <input class="overlap-3" type="password" name="password" required>
+      <br>
+      <div class="overlap-wrapper">
+        <h5> {{error}} </h5>
+        <div><input class="overlap-4" type="submit" value="Login"></div>
+      </div>
+    </form> -->
+
+<!-- <div class="to-ti-khon-HMF">
   <div class="auto-group-aquh-1o3">
     <div class="auto-group-dprf-XWV">Đăng ký</div>
     <div class="auto-group-8rrd-C6q">Nhập số điện thoại</div>
     <p class="s-in-thoi-Ph7">Số điện thoại</p>
     <div class="auto-group-3xlm-gRK">
       <p class="nhp-mt-khu-N3F">Nhập mật khẩu</p>
-      <img class="hide-2-HAD" src="./assets/hide-2-pYM.png"/>
+      <img class="hide-2-HAD" src="../static/img/hide 2.png"/>
     </div>
     <p class="mt-khu-Azh">Mật khẩu</p>
     <div class="auto-group-ggbw-4KP">
       <p class="nhp-mt-khu-9bj">Nhập mật khẩu</p>
-      <img class="hide-1-sGq" src="./assets/hide-1.png"/>
+      <img class="hide-1-sGq" src="../static/img/hide 2.png"/>
     </div>
     <p class="xc-nhn-mt-khu-neh">Xác nhận mật khẩu</p>
     <div class="auto-group-ed9f-tSq">
       <div class="group-6-cNq">
-        <img class="clinic-2-6oo" src="./assets/clinic-2-W1j.png"/>
+        <img class="clinic-2-6oo" src="../static/img/logo.png"/>
         <div class="auto-group-zjch-dHw">
           <p class="nha-khoa-Aof">Nha khoa </p>
           <p class="ci-rng-ci-tc-l-gc-con-ngi-5Qq">Cái răng cái tóc là gốc con người</p>
@@ -103,15 +148,15 @@
       <p class="ng-k-ti-khon-xzR">Đăng ký tài khoản</p>
     </div>
     <p class="c-ti-khon-ng-nhp-FyX">
-      <span class="c-ti-khon-ng-nhp-FyX-sub-0">Đã có tài khoản? </span>
-      <span class="c-ti-khon-ng-nhp-FyX-sub-1">Đăng nhập</span>
+      <span class="span"> Đã có tài khoản? </span>
+      <a href="/login" class="text-wrapper-7"> Đăng nhập</a>
     </p>
-  </div>
-  <img class="line-1-8vq" src="./assets/line-1-Whb.png"/>
+  </div> -->
+  <img class="line-1-8vq" src="../static/img/line-1-Whb.png"/>
   <div class="auto-group-vtvq-SAq">
-    <img class="arrow-right-1-iu3" src="./assets/arrow-right-1.png"/>
+    <img class="arrow-right-1-iu3" src="./static/img/arrow-right 2.png"/>
     <div class="auto-group-zyxh-bxq">
-      <img class="clinic-1-1-6Po" src="./assets/clinic-1-1-e2y.png"/>
+      <img class="clinic-1-1-6Po" src="./static/img/clinic-1-1.png"/>
       <p class="ng-k-ti-khon-Q9b">Đăng ký tài khoản</p>
     </div>
   </div>
