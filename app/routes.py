@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, request, session
+from flask import Flask, render_template, redirect, request, session, jsonify
 from flask_session import Session
 from database import *
 import secrets
@@ -27,6 +27,8 @@ def homepage():
 def logout():
     session['user_id'] = None # reset session
     return redirect("/")
+
+
 
 @app.route('/employeeIn4', methods = ['POST','GET'])
 def PatientIn4Test():
@@ -83,12 +85,92 @@ def signup():
 
     return render_template('signup.html')
 
+@app.route('/dentistlist', methods = ['POST','GET'])
+def dentistlist():
+    cursor.execute('SELECT * FROM Employee WHERE employee_type = ?', ('DE',))
+    dentists = cursor.fetchall()
+
+    return render_template('dentistlist.html', dentists=dentists)
+
+@app.route('/stafflist', methods = ['POST','GET'])
+def stafflist():
+    cursor.execute('SELECT * FROM Employee WHERE employee_type = ?', ('ST',))
+    staffs = cursor.fetchall()
+
+    return render_template('stafflist.html', staffs=staffs)
+
 @app.route('/patientinfo', methods = ['POST','GET'])
 def patientinfo():
     cursor.execute('SELECT * FROM Patient')
     patients = cursor.fetchall()
 
     return render_template('patientinfo.html', patients=patients)
+
+@app.route('/sessionreport', methods = ['POST','GET'])
+def index():
+    if request.method == 'POST':
+        selected_date = request.form['selectedDate']
+        print(selected_date)
+        # Assuming you have a function to query treatment sessions for the selected date
+        treatment_sessions = get_treatment_sessions(selected_date)
+
+        return jsonify({'treatmentSessions': treatment_sessions})
+    return render_template('sessionreport.html')
+def get_treatment_sessions(selected_date):
+    # Perform a SQL query to get treatment sessions for the selected date
+    # Adapt this query based on your database schema and requirements
+    cursor.execute('SELECT treatment_session_id,treatment_session_created_date,treatment_session_description, t.treatment_plan_id, dentist_id FROM TreatmentSession s join TreatmentPlan t on s.treatment_plan_id = t.treatment_plan_id WHERE CAST(treatment_session_created_date AS DATE) = ? order by dentist_id', selected_date)
+    treatment_sessions = cursor.fetchall()
+
+    # Convert the result to a list of dictionaries for JSON serialization
+    treatment_sessions_list = []
+    for session in treatment_sessions:
+        session_dict = {
+            'treatment_session_id': session.treatment_session_id,
+            'treatment_session_created_date': session.treatment_session_created_date,
+            'treatment_session_description': session.treatment_session_description,
+            'treatment_plan_id': session.treatment_plan_id,
+            'dentist_id': session.dentist_id
+        }
+        treatment_sessions_list.append(session_dict)
+
+    return treatment_sessions_list
+
+@app.route('/appointmentreport', methods = ['POST','GET'])
+def index1():
+    if request.method == 'POST':
+        startDate = request.form['startDate']
+        endDate = request.form['endDate']
+        # Assuming you have a function to query treatment sessions for the selected date
+        treatment_sessions = get_treatment_sessions_1(startDate,endDate)
+
+        return jsonify({'treatmentSessions': treatment_sessions})
+    return render_template('appointmentreport.html')
+def get_treatment_sessions_1(start_date, end_date):
+    # Perform a SQL query to get treatment sessions for the selected date
+    # Adapt this query based on your database schema and requirements
+    cursor.execute('''
+    SELECT treatment_session_id, treatment_session_created_date, treatment_session_description, t.treatment_plan_id, dentist_id
+    FROM TreatmentSession s
+    JOIN TreatmentPlan t ON s.treatment_plan_id = t.treatment_plan_id
+    WHERE CAST(treatment_session_created_date AS DATE) BETWEEN ? AND ?
+    ORDER BY dentist_id
+    ''', (start_date, end_date))
+    treatment_sessions = cursor.fetchall()
+
+    # Convert the result to a list of dictionaries for JSON serialization
+    treatment_sessions_list = []
+    for session in treatment_sessions:
+        session_dict = {
+            'treatment_session_id': session.treatment_session_id,
+            'treatment_session_created_date': session.treatment_session_created_date,
+            'treatment_session_description': session.treatment_session_description,
+            'treatment_plan_id': session.treatment_plan_id,
+            'dentist_id': session.dentist_id
+        }
+        treatment_sessions_list.append(session_dict)
+
+    return treatment_sessions_list
 
 @app.route('/addpatient', methods = ['POST','GET'])
 def addpatient():
