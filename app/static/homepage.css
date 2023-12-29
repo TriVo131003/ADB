@@ -3,11 +3,12 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    height: 200%;
     background-color: rgba(237, 245, 238, 1);
   }
   .trangch-trangch {
-    width: 1440px;
-    height: 1024px;
+    width: 80%;
+    height: auto;
     position: relative;
     background-color: rgba(237, 245, 238, 1);
   }
@@ -289,6 +290,17 @@
   }
   .trangch-group175 {
     top: 690px;
+    left: 1044px;
+    width: 309px;
+    height: 127px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .trangch-group176 {
+    top: 1000px;
     left: 1044px;
     width: 309px;
     height: 127px;
