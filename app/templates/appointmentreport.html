@@ -69,7 +69,7 @@
         <div class="div-11">Trang chủ</div>
       </div>
       <div class="div-12"></div>
-      <div class="div-13">Danh sách điều trị</div>
+      <div class="div-13">Danh sách cuộc hẹn</div>
       <div class="div-14"></div>            
       <div class="div-29">
         <form id="dateForm">
@@ -86,49 +86,52 @@
           <div class="column">
             <div class="div-17">
               <div class="div-18">
-                <div id="treatmentSessionsList"></div>
+                <div id="appointmentsList"></div>
 
-    <script>
-        function getTreatmentSessions() {
-            var startDate = document.getElementById('startDate').value;
-            var endDate = document.getElementById('endDate').value;
-
-            fetch('/appointmentreport', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded',
-                },
-                body: 'startDate=' + startDate + '&endDate=' + endDate,
-            })
-            .then(response => response.json())
-            .then(data => {
-                displayTreatmentSessions(data.treatmentSessions);
-            })
-            .catch(error => console.error('Error:', error));
-        }
-
-        function displayTreatmentSessions(treatmentSessions) {
-            var treatmentSessionsList = document.getElementById('treatmentSessionsList');
-            // treatmentSessionsList.innerHTML = '<h2>Treatment Sessions</h2>';
-            
-            if (treatmentSessions.length === 0) {
-                treatmentSessionsList.innerHTML += '<p>No treatment sessions found for the selected date.</p>';
-            } else {
-                var table = '<table border="1"><tr><th>ID</th><th>Created Date</th><th>Description</th><th>Plan ID</th><th>Dentist</th></tr>';
-                for (var i = 0; i < treatmentSessions.length; i++) {
-                    table += '<tr>';
-                    table += '<td>' + treatmentSessions[i].treatment_session_id + '</td>';
-                    table += '<td>' + treatmentSessions[i].treatment_session_created_date + '</td>';
-                    table += '<td>' + treatmentSessions[i].treatment_session_description + '</td>';
-                    table += '<td>' + treatmentSessions[i].treatment_plan_id + '</td>';
-                    table += '<td>' + treatmentSessions[i].dentist_id + '</td>';
-                    table += '</tr>';
-                }
-                table += '</table>';
-                treatmentSessionsList.innerHTML += table;
-            }
-        }
-    </script>
+                <script>
+                    function getTreatmentSessions() {
+                        var startDate = document.getElementById('startDate').value;
+                        var endDate = document.getElementById('endDate').value;
+                
+                        fetch('/appointmentreport', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                            },
+                            body: 'startDate=' + startDate + '&endDate=' + endDate,
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            displayAppointments(data.appointments);
+                        })
+                        .catch(error => console.error('Error:', error));
+                    }
+                
+                    function displayAppointments(appointments) {
+                        var appointmentsList = document.getElementById('appointmentsList');
+                        
+                        if (appointments.length === 0) {
+                            appointmentsList.innerHTML += '<p>No appointments found for the selected date range.</p>';
+                        } else {
+                            var table = '<table border="1"><tr><th>ID</th><th>Date</th><th>Time</th><th>State</th><th>Numerical Order</th><th>Room ID</th><th>Patient ID</th><th>Dentist ID</th><th>Nurse ID</th></tr>';
+                            for (var i = 0; i < appointments.length; i++) {
+                                table += '<tr>';
+                                table += '<td>' + appointments[i].appointment_id + '</td>';
+                                table += '<td>' + appointments[i].appointment_date + '</td>';
+                                table += '<td>' + appointments[i].appointment_time + '</td>';
+                                table += '<td>' + appointments[i].appointment_state + '</td>';
+                                table += '<td>' + appointments[i].numerical_order + '</td>';
+                                table += '<td>' + appointments[i].room_id + '</td>';
+                                table += '<td>' + appointments[i].patient_id + '</td>';
+                                table += '<td>' + appointments[i].dentist_id + '</td>';
+                                table += '<td>' + appointments[i].nurse_id + '</td>';
+                                table += '</tr>';
+                            }
+                            table += '</table>';
+                            appointmentsList.innerHTML += table;
+                        }
+                    }
+                </script>
               </div>
           </div>
         </div>
