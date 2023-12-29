@@ -109,9 +109,25 @@
   }
   .trangch-text04 {
     top: 3.8675537109375px;
-    left: 1269.1329345703125px;
+    left: 300.1329345703125px;
     color: rgba(255, 255, 255, 1);
     width: 155px;
+    height: auto;
+    position: absolute;
+    font-size: 28px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .trangch-text05 {
+    top: 3.8675537109375px;
+    left: 800.1329345703125px;
+    color: rgba(255, 255, 255, 1);
+    width: 243px;
     height: auto;
     position: absolute;
     font-size: 28px;

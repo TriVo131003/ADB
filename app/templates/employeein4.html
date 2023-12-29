@@ -7,8 +7,8 @@
         class="img"
       />
       <div class="div-4">
-        <div class="div-5">Trang chủ</div>
-        <div class="div-6">Đăng xuất</div>
+        <div class="div-5"><a href="/" class="text-wrapper-7"> Trang chủ </a></div>
+        <div class="div-6"><a href="/logout" class="text-wrapper-7"> Đăng xuất </a></div>
       </div>
     </div>
     <div class="div-7">
@@ -36,25 +36,29 @@
         <div class="div-12">Cái răng cái tóc là gốc con người</div>
       </div>
     </div>
-    <div class="div-13">
-      <div class="div-14">Kế hoạch điều trị</div>
-      <div class="div-15">Dị ứng</div>
-      <div class="div-16">Chống chỉ định</div>
-      <div class="div-17">Hóa đơn</div>
-    </div>
   </div>
   <div class="div-18"></div>
   <div class="div-19">
-    <div class="div-20">Thông tin người dùng</div>
-    <div class="div-21"></div>
+    <div class="div-20">Thông tin của bạn</div>
     <div class="div-22">Họ tên: {{ employee.employee_name }}</div>
     <div class="div-23">Số điện thoại: {{ employee.employee_phone }}</div>
     <div class="div-24">Giới tính: {{ employee.employee_gender }}</div>
     <div class="div-25">Ngày Sinh: {{ employee.employee_birthday }} </div>
     <div class="div-26">Địa chỉ: {{ employee.employee_address }}</div>
     <div class="div-27">Căn cước công dân: {{ employee.employee_national_id }}</div>
+    {% if employee.employee_type == 'DE' %}
+      <div class="div-31">Nghề nghiệp: Nha sĩ</div>
+    {% endif %}
+    {% if employee.employee_type == 'ST' %}
+      <div class="div-31">Nghề nghiệp: Nhân viên</div>
+    {% endif %}
+    {% if employee.employee_type == 'NU' %}
+      <div class="div-31">Nghề nghiệp: Y tá</div>
+    {% endif %}
+    {% if employee.employee_type == 'AD' %}
+      <div class="div-31">Nghề nghiệp: Quản trị viên</div>
+    {% endif %}
     <div class="div-28">
-      <div class="div-29"><a href="/" class="text-wrapper-7"> Quay lại trang chủ </a></div>
       <div class="div-30">Cập nhật</div>
     </div>
   </div>
@@ -380,6 +384,18 @@
   }
   @media (max-width: 991px) {
     .div-27 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-31 {
+    color: #000;
+    align-self: stretch;
+    margin-top: 57px;
+    font: 400 25px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-31 {
       max-width: 100%;
       margin-top: 40px;
     }
