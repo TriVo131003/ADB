@@ -41,7 +41,7 @@
     <div class="div-13">Thêm kế hoạch điều trị</div>
     <div class="div-14"></div>
     <div class="overlap">
-    <form style="border-radius: 20px;min-width: 500px;" action="/addtreatmentplan" method="post">
+    <form style="border-radius: 20px;min-width: 500px;" action="/addtreatmentplan?get_patient_id={{patient_id }}" method="post">
         <label class="text-wrapper" for="sessionDate">Treatment Session Date:</label>
         <input class="div-wrapper" type="datetime-local" id="sessionDate" name="sessionDate" required>
 

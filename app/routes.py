@@ -172,8 +172,8 @@ def treatmentplanlist():
     patient_id = request.args.get('get_patient_id')
     cursor.execute('SELECT * FROM TreatmentPlan where patient_id = ?', patient_id)
     treatmentplanlist = cursor.fetchall()
-    print(patient_id)
-    return render_template('treatmentplanlist.html', treatmentplanlist = treatmentplanlist, patient_id=patient_id)
+    print(treatmentplanlist[0].patient_id)
+    return render_template('treatmentplanlist.html', treatmentplanlist = treatmentplanlist)
 
 @app.route('/addtreatmentplan', methods = ['POST','GET'])
 def addtreatmentplan():
@@ -182,6 +182,10 @@ def addtreatmentplan():
     if request.method == 'POST':
         # Lấy giá trị từ form
         session_date = request.form['sessionDate']
+        session_datetime = datetime.strptime(session_date, '%Y-%m-%dT%H:%M')
+        session_datetime = session_datetime.replace(second=0)  # Set seconds to 0
+        formatted_date = session_datetime.strftime('%Y-%m-%dT%H:%M:%S')
+
         dentist_id = request.form['dentistId']
         nurse_id = request.form.get('nurseId', None)  # Lấy nurse_id nếu có, nếu không thì mặc định là None
         selected_treatment = request.form['selectedTreatment']
@@ -196,24 +200,26 @@ def addtreatmentplan():
                 groups = match.groups()
                 result.append({'number': groups[0], 'letter': groups[1]})
 
+        time = datetime.now()
         cursor.execute("EXEC insertTreatmentPlan ?, ?, ?, ?, ?, ?, ?", 
-                datetime.now(), None, None, 
+                time, None, None, 
                 selected_treatment, patient_id, dentist_id, nurse_id)
-
+        conn.commit()
         # Lấy treatment_plan_id từ stored procedure insertTreatmentPlan
-        cursor.execute("SELECT SCOPE_IDENTITY() AS treatment_plan_id")
-        treatment_plan_id = cursor.fetchone().treatment_plan_id
+        # cursor.execute("SELECT * from treatmentplan where treatment_plan_created_date = ?",time)
+        cursor.execute("SELECT TOP 1 * FROM TreatmentPlan ORDER BY treatment_plan_id DESC;")
+        treatment_plan_id = cursor.fetchone()
 
         # Thực thi stored procedure insertTreatmentSession
         cursor.execute("EXEC insertTreatmentSession ?, ?, ?", 
-                    session_date, None, treatment_plan_id)
+                    formatted_date, None, treatment_plan_id.treatment_plan_id)
 
         # Thực thi stored procedure insertToothSelection cho mỗi tooth được chọn
         for tooth_data in result:
             tooth_position_id = tooth_data['number']
             surface_code = tooth_data['letter']
             cursor.execute("EXEC insertToothSelection ?, ?, ?", 
-                        treatment_plan_id, tooth_position_id, surface_code)
+                        treatment_plan_id.treatment_plan_id, tooth_position_id, surface_code)
         
     cursor.execute('SELECT * FROM Treatment')
     treatment = cursor.fetchall()
@@ -221,7 +227,7 @@ def addtreatmentplan():
     teeth = cursor.fetchall()
     cursor.execute('SELECT * FROM ToothSurface')
     surfaces = cursor.fetchall()
-    return render_template('addtreatmentplan.html', treatment=treatment, teeth=teeth, surfaces=surfaces)
+    return render_template('addtreatmentplan.html', treatment=treatment, teeth=teeth, surfaces=surfaces, patient_id=patient_id)
 
 @app.route('/allergycontracdication', methods = ['POST','GET'])
 def allergycontracdication():
