@@ -553,6 +553,13 @@ def selectAppointment():
     return render_template('selectAppointment.html')
 
 
+@app.route('/personalappointment', methods = (['POST', 'GET']))
+def personalappointment():
+    employee_id = request.args.get('get_employee_id')
+    cursor.execute('SELECT * FROM personalappointment where dentist_id = ?', employee_id)
+    personalappointments = cursor.fetchall()
+    return render_template('personalappointment.html', personalappointments= personalappointments)
+
 # @app.route('/appointment', methods = (['POST', 'GET']))
 # def appointment():
 #     if request.method == 'POST':
