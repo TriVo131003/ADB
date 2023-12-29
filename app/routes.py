@@ -1,7 +1,9 @@
-from flask import Flask, render_template, redirect, request, session
+from flask import Flask, render_template, redirect, request, session, jsonify
 from flask_session import Session
 from database import *
 import secrets
+import re
+from datetime import datetime
 
 app = Flask(__name__)
 app.secret_key = secrets.token_urlsafe(32)
@@ -16,9 +18,9 @@ current_patient = ''
 def homepage():
     # print('get started')
     # return render_template('homepage.html')
-    # if not session.get("user_id"):
-    #     # if not there in the session then redirect to the login page
-    #     return redirect("/login")
+    if not session.get("user"):
+        # if not there in the session then redirect to the login page
+        return redirect("/login")
     return render_template('homepage.html')
 
 @app.route("/logout")
@@ -26,10 +28,12 @@ def logout():
     session['user_id'] = None # reset session
     return redirect("/")
 
+
+
 @app.route('/employeeIn4', methods = ['POST','GET'])
 def PatientIn4Test():
     print('get info')
-    empID = session["user_id"]
+    empID = session["user"].accountID
     cursor.execute('SELECT * from Employee where account_id = ?', (empID))
     employeeInfo = cursor.fetchone()
     if employeeInfo == None:
@@ -39,47 +43,57 @@ def PatientIn4Test():
 
 @app.route('/login', methods = ['POST','GET'])
 def login():
+    error = ""
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        # print('start')
-        # print(username,password)
         try:
             password = hashPass(password)
             # Check if the username and password are correct
             cursor.execute('SELECT * FROM Account WHERE username = ?', username)
             user = cursor.fetchone()
-            # print(user.password)
-            # print(password)
-            if user.password == password:
-                session["user_id"] = user.accountID
-                # userList.append(user.username)
-                # print(userList)
+            if user == None:
+                error = 'Invalid username or password. Please try again.'
+            elif user.password == password:
+                session["user"] = user
                 print('success')
                 return redirect('/employeeIn4')
             else:
+                error = 'Invalid username or password. Please try again.'
                 print('fail')
-                return render_template('login.html', error='Invalid username or password. Please try again.')
-
         except Exception as e:
-            return render_template('login.html', error=f'Error: {str(e)}')
-
-    return render_template('login.html')
+            error = f'Error: {str(e)}'
+    return render_template('login.html', error=error)
 
 @app.route('/signup', methods = ['POST','GET'])
 def signup():
-    # if request.method == 'POST':
-    #     username = request.form['username']
-    #     password = request.form['password']
+    error = ""
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        confirm_password = request.form['confirm_password']
+        
+        if password != confirm_password:
+            return render_template('signup.html', error='Password does not match')
 
-    #     cursor = mysql.connection.cursor()
-    #     cursor.execute('INSERT INTO users (username, password) VALUES (%s, %s)', (username, password))
-    #     mysql.connection.commit()
-    #     cursor.close()
+        cursor.execute('INSERT INTO users (username, password) VALUES (%s, %s)', (username, password))
+        return redirect('/employeeIn4')
+    else:
+        return render_template('signup.html', error = error)
 
-    #     return redirect(url_for('login'))
+@app.route('/dentistlist', methods = ['POST','GET'])
+def dentistlist():
+    cursor.execute('SELECT * FROM Employee WHERE employee_type = ?', ('DE',))
+    dentists = cursor.fetchall()
 
-    return render_template('signup.html')
+    return render_template('dentistlist.html', dentists=dentists)
+
+@app.route('/stafflist', methods = ['POST','GET'])
+def stafflist():
+    cursor.execute('SELECT * FROM Employee WHERE employee_type = ?', ('ST',))
+    staffs = cursor.fetchall()
+
+    return render_template('stafflist.html', staffs=staffs)
 
 @app.route('/patientinfo', methods = ['POST','GET'])
 def patientinfo():
@@ -87,6 +101,72 @@ def patientinfo():
     patients = cursor.fetchall()
 
     return render_template('patientinfo.html', patients=patients)
+
+@app.route('/sessionreport', methods = ['POST','GET'])
+def index():
+    if request.method == 'POST':
+        selected_date = request.form['selectedDate']
+        print(selected_date)
+        # Assuming you have a function to query treatment sessions for the selected date
+        treatment_sessions = get_treatment_sessions(selected_date)
+
+        return jsonify({'treatmentSessions': treatment_sessions})
+    return render_template('sessionreport.html')
+def get_treatment_sessions(selected_date):
+    # Perform a SQL query to get treatment sessions for the selected date
+    # Adapt this query based on your database schema and requirements
+    cursor.execute('SELECT treatment_session_id,treatment_session_created_date,treatment_session_description, t.treatment_plan_id, dentist_id FROM TreatmentSession s join TreatmentPlan t on s.treatment_plan_id = t.treatment_plan_id WHERE CAST(treatment_session_created_date AS DATE) = ? order by dentist_id', selected_date)
+    treatment_sessions = cursor.fetchall()
+
+    # Convert the result to a list of dictionaries for JSON serialization
+    treatment_sessions_list = []
+    for session in treatment_sessions:
+        session_dict = {
+            'treatment_session_id': session.treatment_session_id,
+            'treatment_session_created_date': session.treatment_session_created_date,
+            'treatment_session_description': session.treatment_session_description,
+            'treatment_plan_id': session.treatment_plan_id,
+            'dentist_id': session.dentist_id
+        }
+        treatment_sessions_list.append(session_dict)
+
+    return treatment_sessions_list
+
+@app.route('/appointmentreport', methods = ['POST','GET'])
+def index1():
+    if request.method == 'POST':
+        startDate = request.form['startDate']
+        endDate = request.form['endDate']
+        # Assuming you have a function to query treatment sessions for the selected date
+        treatment_sessions = get_treatment_sessions_1(startDate,endDate)
+
+        return jsonify({'treatmentSessions': treatment_sessions})
+    return render_template('appointmentreport.html')
+def get_treatment_sessions_1(start_date, end_date):
+    # Perform a SQL query to get treatment sessions for the selected date
+    # Adapt this query based on your database schema and requirements
+    cursor.execute('''
+    SELECT treatment_session_id, treatment_session_created_date, treatment_session_description, t.treatment_plan_id, dentist_id
+    FROM TreatmentSession s
+    JOIN TreatmentPlan t ON s.treatment_plan_id = t.treatment_plan_id
+    WHERE CAST(treatment_session_created_date AS DATE) BETWEEN ? AND ?
+    ORDER BY dentist_id
+    ''', (start_date, end_date))
+    treatment_sessions = cursor.fetchall()
+
+    # Convert the result to a list of dictionaries for JSON serialization
+    treatment_sessions_list = []
+    for session in treatment_sessions:
+        session_dict = {
+            'treatment_session_id': session.treatment_session_id,
+            'treatment_session_created_date': session.treatment_session_created_date,
+            'treatment_session_description': session.treatment_session_description,
+            'treatment_plan_id': session.treatment_plan_id,
+            'dentist_id': session.dentist_id
+        }
+        treatment_sessions_list.append(session_dict)
+
+    return treatment_sessions_list
 
 @app.route('/addpatient', methods = ['POST','GET'])
 def addpatient():
@@ -170,7 +250,62 @@ def treatmentplanlist():
     patient_id = request.args.get('get_patient_id')
     cursor.execute('SELECT * FROM TreatmentPlan where patient_id = ?', patient_id)
     treatmentplanlist = cursor.fetchall()
+    print(treatmentplanlist[0].patient_id)
     return render_template('treatmentplanlist.html', treatmentplanlist = treatmentplanlist)
+
+@app.route('/addtreatmentplan', methods = ['POST','GET'])
+def addtreatmentplan():
+    patient_id = request.args.get('get_patient_id')
+    print(patient_id)
+    if request.method == 'POST':
+        # Lấy giá trị từ form
+        session_date = request.form['sessionDate']
+        session_datetime = datetime.strptime(session_date, '%Y-%m-%dT%H:%M')
+        session_datetime = session_datetime.replace(second=0)  # Set seconds to 0
+        formatted_date = session_datetime.strftime('%Y-%m-%dT%H:%M:%S')
+
+        dentist_id = request.form['dentistId']
+        nurse_id = request.form.get('nurseId', None)  # Lấy nurse_id nếu có, nếu không thì mặc định là None
+        selected_treatment = request.form['selectedTreatment']
+        selected_surfaces = request.form.getlist('selectedSurfaces')
+
+        # Xử lý các giá trị nhận được, ví dụ: in ra console
+        print(f"Selected Surfaces: {selected_surfaces}")
+        result = []
+        for surface in selected_surfaces:
+            match = re.match(r'(\d+)_([A-Za-z]+)', surface)
+            if match:
+                groups = match.groups()
+                result.append({'number': groups[0], 'letter': groups[1]})
+
+        time = datetime.now()
+        cursor.execute("EXEC insertTreatmentPlan ?, ?, ?, ?, ?, ?, ?", 
+                time, None, None, 
+                selected_treatment, patient_id, dentist_id, nurse_id)
+        conn.commit()
+        # Lấy treatment_plan_id từ stored procedure insertTreatmentPlan
+        # cursor.execute("SELECT * from treatmentplan where treatment_plan_created_date = ?",time)
+        cursor.execute("SELECT TOP 1 * FROM TreatmentPlan ORDER BY treatment_plan_id DESC;")
+        treatment_plan_id = cursor.fetchone()
+
+        # Thực thi stored procedure insertTreatmentSession
+        cursor.execute("EXEC insertTreatmentSession ?, ?, ?", 
+                    formatted_date, None, treatment_plan_id.treatment_plan_id)
+
+        # Thực thi stored procedure insertToothSelection cho mỗi tooth được chọn
+        for tooth_data in result:
+            tooth_position_id = tooth_data['number']
+            surface_code = tooth_data['letter']
+            cursor.execute("EXEC insertToothSelection ?, ?, ?", 
+                        treatment_plan_id.treatment_plan_id, tooth_position_id, surface_code)
+        
+    cursor.execute('SELECT * FROM Treatment')
+    treatment = cursor.fetchall()
+    cursor.execute('SELECT * FROM ToothPosition')
+    teeth = cursor.fetchall()
+    cursor.execute('SELECT * FROM ToothSurface')
+    surfaces = cursor.fetchall()
+    return render_template('addtreatmentplan.html', treatment=treatment, teeth=teeth, surfaces=surfaces, patient_id=patient_id)
 
 @app.route('/allergycontracdication', methods = ['POST','GET'])
 def allergycontracdication():
